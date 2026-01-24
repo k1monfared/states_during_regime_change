@@ -1,0 +1,320 @@
+# Country metadata for regime change analysis
+# Each entry defines: display name, region, category, regime change years, time range, notes
+
+# Middle East & North Africa
+iraq:
+  display_name: "Iraq"
+  region: mena
+  category: violent_unstable
+  regime_change_years: [2003]
+  time_range: [1988, 2025]
+  notes: "US invasion; multiple subsequent crises"
+
+libya:
+  display_name: "Libya"
+  region: mena
+  category: violent_unstable
+  regime_change_years: [2011]
+  time_range: [1996, 2025]
+  notes: "NATO intervention; split into rival governments 2014-2020"
+
+egypt:
+  display_name: "Egypt"
+  region: mena
+  category: peaceful_then_backsliding
+  regime_change_years: [2011, 2013]
+  time_range: [1996, 2025]
+  notes: "2011 Mubarak ousted; 2013 Sisi coup"
+
+syria:
+  display_name: "Syria"
+  region: mena
+  category: violent_unstable
+  regime_change_years: [2024]
+  time_range: [2009, 2025]
+  notes: "2011 uprising, civil war, 2024 Assad fall"
+
+yemen:
+  display_name: "Yemen"
+  region: mena
+  category: violent_unstable
+  regime_change_years: [2011, 2015]
+  time_range: [1996, 2025]
+  notes: "2011 Saleh ousted; 2014 Houthi takeover; 2015 Saudi intervention"
+
+tunisia:
+  display_name: "Tunisia"
+  region: mena
+  category: peaceful_then_backsliding
+  regime_change_years: [2011]
+  time_range: [1996, 2025]
+  notes: "Arab Spring; democratic transition; 2021 Saied power grab"
+
+afghanistan:
+  display_name: "Afghanistan"
+  region: mena
+  category: violent_unstable
+  regime_change_years: [2001, 2021]
+  time_range: [1996, 2025]
+  notes: "2001 US invasion/Taliban ousted; 2021 Taliban return"
+
+algeria:
+  display_name: "Algeria"
+  region: mena
+  category: managed_partial
+  regime_change_years: [2019]
+  time_range: [2004, 2025]
+  notes: "2019 Hirak protests; Bouteflika ousted; military-managed transition"
+
+# Africa - Violent/Unstable Transitions
+drc:
+  display_name: "DRC / Congo"
+  region: africa_violent
+  category: violent_unstable
+  regime_change_years: [1997]
+  time_range: [1990, 2025]
+  notes: "1997 Mobutu overthrown; Second Congo War; ongoing eastern conflict"
+
+sierra_leone:
+  display_name: "Sierra Leone"
+  region: africa_violent
+  category: violent_then_recovery
+  regime_change_years: [2002]
+  time_range: [1990, 2025]
+  notes: "1991-2002 civil war; post-war recovery; 2007 peaceful transfer"
+
+liberia:
+  display_name: "Liberia"
+  region: africa_violent
+  category: violent_then_recovery
+  regime_change_years: [2003]
+  time_range: [1990, 2025]
+  notes: "1989-2003 civil wars; Taylor exiled; Sirleaf elected 2005"
+
+cote_divoire:
+  display_name: "Côte d'Ivoire"
+  region: africa_violent
+  category: violent_then_stabilization
+  regime_change_years: [2011]
+  time_range: [1996, 2025]
+  notes: "2010 disputed election; 2011 Gbagbo removed; Ouattara takes power"
+
+car:
+  display_name: "Central African Republic"
+  region: africa_violent
+  category: violent_unstable
+  regime_change_years: [2013]
+  time_range: [2000, 2025]
+  notes: "2013 Séléka rebels overthrow Bozizé; ongoing instability; Wagner presence"
+
+mali:
+  display_name: "Mali"
+  region: africa_violent
+  category: violent_recurring
+  regime_change_years: [2012, 2020, 2021]
+  time_range: [2000, 2025]
+  notes: "2012 Tuareg rebellion + coup; 2020/2021 coups; junta rule; Wagner presence"
+
+sudan:
+  display_name: "Sudan"
+  region: africa_violent
+  category: violent_unstable
+  regime_change_years: [2019, 2023]
+  time_range: [2004, 2025]
+  notes: "2019 revolution; 2021 military coup; 2023 RSF vs SAF civil war"
+
+burkina_faso:
+  display_name: "Burkina Faso"
+  region: africa_violent
+  category: peaceful_then_violent
+  regime_change_years: [2014, 2022]
+  time_range: [2000, 2025]
+  notes: "2014 popular uprising; 2022 two military coups; jihadi insurgency"
+
+ethiopia:
+  display_name: "Ethiopia"
+  region: africa_violent
+  category: peaceful_then_violent
+  regime_change_years: [2018]
+  time_range: [2005, 2025]
+  notes: "2018 Abiy Ahmed takes power; 2020-2022 Tigray War"
+
+south_sudan:
+  display_name: "South Sudan"
+  region: africa_violent
+  category: violent_unstable
+  regime_change_years: [2011]
+  time_range: [2005, 2025]
+  notes: "2011 independence; 2013 civil war; 2018 peace agreement; ongoing fragility"
+
+# Africa - Peaceful Transitions
+south_africa:
+  display_name: "South Africa"
+  region: africa_peaceful
+  category: peaceful_successful
+  regime_change_years: [1994]
+  time_range: [1990, 2025]
+  notes: "1994 first democratic elections; ANC rule; gradual institutional decay"
+
+ghana:
+  display_name: "Ghana"
+  region: africa_peaceful
+  category: peaceful_successful
+  regime_change_years: [2000]
+  time_range: [1990, 2025]
+  notes: "First peaceful transfer of power"
+
+senegal:
+  display_name: "Senegal"
+  region: africa_peaceful
+  category: peaceful_successful
+  regime_change_years: [2000]
+  time_range: [1990, 2025]
+  notes: "2000 first transfer since independence; ongoing democratic tradition"
+
+kenya:
+  display_name: "Kenya"
+  region: africa_peaceful
+  category: mostly_peaceful
+  regime_change_years: [2002]
+  time_range: [1995, 2025]
+  notes: "2002 KANU loses; 2007-2008 post-election violence; subsequent peaceful transfers"
+
+gambia:
+  display_name: "The Gambia"
+  region: africa_peaceful
+  category: peaceful_external_pressure
+  regime_change_years: [2017]
+  time_range: [2005, 2025]
+  notes: "Jammeh's 22-year rule ends; ECOWAS intervention forces Jammeh out"
+
+malawi:
+  display_name: "Malawi"
+  region: africa_peaceful
+  category: peaceful_institutional
+  regime_change_years: [2020]
+  time_range: [2005, 2025]
+  notes: "2019 disputed election; 2020 court-ordered rerun; opposition wins"
+
+# Former Soviet / Eastern Europe
+serbia:
+  display_name: "Serbia"
+  region: eastern_europe
+  category: peaceful_then_backsliding
+  regime_change_years: [2000]
+  time_range: [1995, 2025]
+  notes: "2000 Bulldozer Revolution; EU accession process; Vučić era backsliding"
+
+georgia:
+  display_name: "Georgia"
+  region: eastern_europe
+  category: peaceful_then_backsliding
+  regime_change_years: [2003]
+  time_range: [1995, 2025]
+  notes: "2003 Rose Revolution; 2008 Russia war; recent authoritarian turn"
+
+kyrgyzstan:
+  display_name: "Kyrgyzstan"
+  region: eastern_europe
+  category: recurring_revolutions
+  regime_change_years: [2005, 2010]
+  time_range: [1995, 2025]
+  notes: "2005 Tulip Revolution; 2010 revolution; 2020 third upheaval"
+
+ukraine:
+  display_name: "Ukraine"
+  region: eastern_europe
+  category: peaceful_then_external_aggression
+  regime_change_years: [2014]
+  time_range: [2000, 2025]
+  notes: "2014 Euromaidan; Crimea annexation; 2022 full Russian invasion"
+
+armenia:
+  display_name: "Armenia"
+  region: eastern_europe
+  category: peaceful_then_external_defeat
+  regime_change_years: [2018]
+  time_range: [2005, 2025]
+  notes: "2018 Velvet Revolution; 2020 Nagorno-Karabakh war loss"
+
+croatia:
+  display_name: "Croatia"
+  region: eastern_europe
+  category: peaceful_successful
+  regime_change_years: [2000]
+  time_range: [1995, 2025]
+  notes: "2000 democratic transition; EU accession 2013"
+
+slovakia:
+  display_name: "Slovakia"
+  region: eastern_europe
+  category: peaceful_successful
+  regime_change_years: [1998]
+  time_range: [1993, 2025]
+  notes: "1998 democratic coalition wins; EU accession 2004"
+
+# Asia
+indonesia:
+  display_name: "Indonesia"
+  region: asia
+  category: peaceful_successful
+  regime_change_years: [1998]
+  time_range: [1990, 2025]
+  notes: "1998 Suharto falls; reformasi; democratic consolidation"
+
+nepal:
+  display_name: "Nepal"
+  region: asia
+  category: violent_then_peaceful
+  regime_change_years: [2006, 2008]
+  time_range: [1996, 2025]
+  notes: "1996-2006 Maoist insurgency; 2006 People's Movement; 2008 monarchy abolished"
+
+myanmar:
+  display_name: "Myanmar"
+  region: asia
+  category: violent_regression
+  regime_change_years: [2021]
+  time_range: [2005, 2025]
+  notes: "2021 military coup reversing democratic transition; ongoing civil war"
+
+east_timor:
+  display_name: "East Timor / Timor-Leste"
+  region: asia
+  category: new_state_stabilized
+  regime_change_years: [1999, 2002]
+  time_range: [1999, 2025]
+  notes: "1999 independence referendum; 2002 full independence; 2006 crisis; stabilization"
+
+malaysia:
+  display_name: "Malaysia"
+  region: asia
+  category: peaceful_electoral
+  regime_change_years: [2018]
+  time_range: [2005, 2025]
+  notes: "2018 first opposition victory since 1957; 2020 Sheraton Move coalition collapse"
+
+# Latin America
+venezuela:
+  display_name: "Venezuela"
+  region: latin_america
+  category: electoral_then_authoritarian
+  regime_change_years: [1999]
+  time_range: [1995, 2025]
+  notes: "1998 Chávez elected; Bolivarian revolution; economic collapse; mass emigration"
+
+peru:
+  display_name: "Peru"
+  region: latin_america
+  category: peaceful_persistent_instability
+  regime_change_years: [2000]
+  time_range: [1995, 2025]
+  notes: "2000 Fujimori flees; democratic restoration; chronic political instability"
+
+mexico:
+  display_name: "Mexico"
+  region: latin_america
+  category: peaceful_successful
+  regime_change_years: [2000]
+  time_range: [1995, 2025]
+  notes: "2000 PRI loses after 71 years; democratic alternation; drug war post-2006"
