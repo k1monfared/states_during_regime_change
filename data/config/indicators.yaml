@@ -1,0 +1,307 @@
+# Indicator definitions for all 20 sub-indicators across 4 dimensions
+# Each indicator defines: description, unit, valid_features (controlled vocabulary), primary_sources
+
+political:
+  territorial_control:
+    description: "Percentage of country under effective central government control"
+    unit: percent_territory_controlled
+    valid_features:
+      - full_control_no_challenges
+      - minor_insurgencies_lt_10pct
+      - significant_areas_outside_10_30pct
+      - large_portions_contested_30_50pct
+      - majority_outside_control
+      - failed_state_no_authority
+      - foreign_occupation
+      - multiple_competing_authorities
+    primary_sources:
+      - "ICG reports"
+      - "News analysis"
+      - "Academic literature"
+
+  political_violence:
+    description: "Level of conflict-related deaths, terrorism, state repression"
+    unit: conflict_deaths_per_year
+    valid_features:
+      - minimal_lt_100
+      - low_100_500
+      - moderate_500_2000
+      - high_2000_10000
+      - severe_10000_50000
+      - catastrophic_gt_50000
+    primary_sources:
+      - "UCDP/PRIO Armed Conflict Dataset"
+      - "ACLED"
+      - "Uppsala Conflict Data Program"
+
+  institutional_functioning:
+    description: "Do state institutions (courts, legislature, bureaucracy, elections) operate?"
+    unit: qualitative_scale
+    valid_features:
+      - fully_functional_democratic
+      - functional_but_flawed
+      - partially_functional
+      - severely_degraded
+      - collapsed_or_nominal
+      - no_functioning_institutions
+    primary_sources:
+      - "V-Dem indices"
+      - "Freedom House"
+      - "Qualitative assessment"
+
+  civil_liberties:
+    description: "Freedom of expression, assembly, religion, movement"
+    unit: freedom_house_inverted
+    quantitative_transform: "(8 - value) / 7 * 100"
+    valid_features:
+      - full_freedoms
+      - mostly_free_minor_restrictions
+      - partially_free
+      - significant_restrictions
+      - severe_restrictions
+      - no_civil_liberties
+    primary_sources:
+      - "Freedom House Civil Liberties score"
+
+  elite_cohesion:
+    description: "Is the ruling coalition stable or fragmenting? Risk of coups?"
+    unit: qualitative_scale
+    valid_features:
+      - stable_unified_governance
+      - minor_tensions_functional
+      - significant_competition_managed
+      - open_factional_conflict
+      - active_power_struggles
+      - complete_fragmentation
+    primary_sources:
+      - "Qualitative assessment"
+      - "ICG reports"
+      - "News analysis"
+
+economic:
+  gdp_per_capita:
+    description: "Living standards relative to baseline (indexed to peak)"
+    unit: usd_current_or_constant
+    quantitative_transform: "(value / peak_value) * 100"
+    valid_features:
+      - above_peak
+      - near_peak_90_100pct
+      - moderate_decline_70_90pct
+      - significant_decline_50_70pct
+      - severe_decline_30_50pct
+      - collapse_below_30pct
+    primary_sources:
+      - "World Bank"
+      - "IMF"
+
+  inflation:
+    description: "Price stability (annual consumer price inflation rate)"
+    unit: percent_annual
+    valid_features:
+      - low_lt_3pct
+      - moderate_3_10pct
+      - elevated_10_25pct
+      - high_25_50pct
+      - very_high_50_100pct
+      - hyperinflation_gt_100pct
+    primary_sources:
+      - "World Bank"
+      - "IMF"
+      - "Central bank data"
+
+  unemployment:
+    description: "Labor market health (official unemployment rate)"
+    unit: percent_labor_force
+    valid_features:
+      - low_lt_5pct
+      - moderate_5_10pct
+      - elevated_10_15pct
+      - high_15_25pct
+      - very_high_25_40pct
+      - crisis_gt_40pct
+    primary_sources:
+      - "World Bank"
+      - "ILO"
+
+  trade_openness:
+    description: "Economic integration with world ((Exports + Imports) / GDP)"
+    unit: percent_gdp
+    valid_features:
+      - highly_open_gt_100pct
+      - open_70_100pct
+      - moderate_40_70pct
+      - restricted_20_40pct
+      - closed_lt_20pct
+      - autarky_or_blockade
+    primary_sources:
+      - "World Bank"
+
+  fiscal_health:
+    description: "Government debt sustainability, budget balance"
+    unit: debt_percent_gdp
+    valid_features:
+      - surplus_low_debt_lt_30pct
+      - small_deficit_manageable_30_60pct
+      - moderate_deficit_elevated_60_90pct
+      - large_deficit_high_90_120pct
+      - unsustainable_debt_crisis
+      - fiscal_collapse
+    primary_sources:
+      - "IMF"
+      - "World Bank"
+      - "Ministry of Finance reports"
+
+international:
+  sanctions:
+    description: "Degree of international economic restrictions"
+    unit: qualitative_scale
+    valid_features:
+      - no_sanctions
+      - targeted_individuals_only
+      - sectoral_sanctions
+      - broad_economic_humanitarian_exceptions
+      - comprehensive_sanctions
+      - total_isolation
+    primary_sources:
+      - "US Treasury OFAC"
+      - "EU sanctions lists"
+      - "UN Security Council resolutions"
+
+  diplomatic_integration:
+    description: "Recognition, embassy presence, membership in international bodies"
+    unit: qualitative_scale
+    valid_features:
+      - full_relations_active_international
+      - normal_minor_disputes
+      - partial_isolation_some_closures
+      - significant_isolation
+      - pariah_status
+      - no_international_recognition
+    primary_sources:
+      - "News analysis"
+      - "Foreign ministry announcements"
+
+  foreign_military:
+    description: "External military involvement (sovereignty indicator)"
+    unit: qualitative_scale
+    valid_features:
+      - no_foreign_presence_full_sovereignty
+      - limited_invited_advisors
+      - significant_invited_forces
+      - contested_mixed_presence
+      - occupied_major_uninvited
+      - active_foreign_combat_operations
+    primary_sources:
+      - "News analysis"
+      - "IISS Military Balance"
+
+  fdi:
+    description: "Foreign Direct Investment inflows as indicator of international business confidence"
+    unit: percent_gdp
+    valid_features:
+      - high_gt_5pct_gdp
+      - moderate_2_5pct_gdp
+      - low_1_2pct_gdp
+      - very_low_05_1pct_gdp
+      - minimal_lt_05pct_gdp
+      - negative_net_outflows
+    primary_sources:
+      - "UNCTAD"
+      - "World Bank"
+
+  refugee_flows:
+    description: "Population displacement as indicator of crisis severity"
+    unit: percent_population_per_year
+    valid_features:
+      - net_returns_minimal_displacement
+      - stable_minimal_new
+      - moderate_outflows_lt_1pct
+      - significant_outflows_1_3pct
+      - mass_displacement_3_10pct
+      - catastrophic_gt_10pct
+    primary_sources:
+      - "UNHCR"
+
+transparency:
+  budget_transparency:
+    description: "Can citizens see how public money is raised and spent?"
+    unit: open_budget_index_0_100
+    valid_features:
+      - extensive_gt_80
+      - substantial_60_80
+      - limited_40_60
+      - minimal_20_40
+      - scant_lt_20
+      - no_information
+    primary_sources:
+      - "Open Budget Index (International Budget Partnership)"
+
+  press_freedom:
+    description: "Can journalists investigate government and publish findings?"
+    unit: rsf_inverted_0_100
+    quantitative_transform: "100 - value"
+    valid_features:
+      - free_environment
+      - satisfactory
+      - problematic
+      - difficult
+      - very_serious
+      - no_press_freedom
+    primary_sources:
+      - "Reporters Without Borders Press Freedom Index"
+      - "Freedom House (historical)"
+
+  statistical_transparency:
+    description: "Does the government produce credible, timely socioeconomic data?"
+    unit: wb_statistical_capacity_0_100
+    valid_features:
+      - excellent_gt_80
+      - good_60_80
+      - moderate_40_60
+      - poor_20_40
+      - very_poor_lt_20
+      - no_statistical_system
+    primary_sources:
+      - "World Bank Statistical Capacity Indicator"
+
+  legal_transparency:
+    description: "Are laws, regulations, and court decisions accessible and predictable?"
+    unit: wjp_open_govt_0_100
+    quantitative_transform: "value * 100"
+    valid_features:
+      - laws_published_searchable_foi
+      - most_accessible_some_gaps
+      - partial_significant_gaps
+      - difficult_arbitrary_enforcement
+      - minimal_rule_by_decree
+      - no_accessible_framework
+    primary_sources:
+      - "World Justice Project Rule of Law Index"
+      - "World Bank Doing Business (historical)"
+
+  extractive_transparency:
+    description: "For oil/gas states, are revenues from natural resources disclosed?"
+    unit: eiti_compliance_scale
+    valid_features:
+      - eiti_compliant_satisfactory
+      - eiti_compliant_meaningful
+      - eiti_compliant_corrective_actions
+      - eiti_candidate_or_suspended
+      - no_membership_minimal_disclosure
+      - no_disclosure_opaque
+    not_applicable_countries:
+      - tunisia
+      - egypt
+      - senegal
+      - ghana
+      - kenya
+      - malawi
+      - croatia
+      - slovakia
+      - nepal
+      - east_timor
+      - mexico
+      - peru
+      - armenia
+    primary_sources:
+      - "EITI"

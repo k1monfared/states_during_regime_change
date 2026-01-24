@@ -1,0 +1,754 @@
+# Scoring rubrics: maps raw data (quantitative thresholds + qualitative features) to 0-100 scores
+# For each indicator: quantitative_scoring, qualitative_scoring, combination_rule
+
+political:
+  territorial_control:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      thresholds:
+        - score_range: [90, 100]
+          condition: ">= 95"
+        - score_range: [70, 89]
+          condition: ">= 90"
+        - score_range: [50, 69]
+          condition: ">= 70"
+        - score_range: [30, 49]
+          condition: ">= 50"
+        - score_range: [10, 29]
+          condition: ">= 20"
+        - score_range: [0, 9]
+          condition: "< 20"
+    qualitative_scoring:
+      features:
+        full_control_no_challenges:
+          score_range: [90, 100]
+          default_score: 95
+        minor_insurgencies_lt_10pct:
+          score_range: [70, 89]
+          default_score: 80
+        significant_areas_outside_10_30pct:
+          score_range: [50, 69]
+          default_score: 60
+        large_portions_contested_30_50pct:
+          score_range: [30, 49]
+          default_score: 40
+        majority_outside_control:
+          score_range: [10, 29]
+          default_score: 20
+        failed_state_no_authority:
+          score_range: [0, 9]
+          default_score: 5
+        foreign_occupation:
+          modifier: -10
+        multiple_competing_authorities:
+          modifier: -15
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  political_violence:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      thresholds:
+        - score_range: [90, 100]
+          condition: "< 100"
+        - score_range: [70, 89]
+          condition: "< 500"
+        - score_range: [50, 69]
+          condition: "< 2000"
+        - score_range: [30, 49]
+          condition: "< 10000"
+        - score_range: [10, 29]
+          condition: "< 50000"
+        - score_range: [0, 9]
+          condition: ">= 50000"
+    qualitative_scoring:
+      features:
+        minimal_lt_100:
+          score_range: [90, 100]
+          default_score: 95
+        low_100_500:
+          score_range: [70, 89]
+          default_score: 80
+        moderate_500_2000:
+          score_range: [50, 69]
+          default_score: 60
+        high_2000_10000:
+          score_range: [30, 49]
+          default_score: 40
+        severe_10000_50000:
+          score_range: [10, 29]
+          default_score: 20
+        catastrophic_gt_50000:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  institutional_functioning:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # V-Dem liberal democracy index (0-1, multiply by 100)
+      thresholds:
+        - score_range: [90, 100]
+          condition: ">= 80"
+        - score_range: [70, 89]
+          condition: ">= 60"
+        - score_range: [50, 69]
+          condition: ">= 40"
+        - score_range: [30, 49]
+          condition: ">= 20"
+        - score_range: [10, 29]
+          condition: ">= 5"
+        - score_range: [0, 9]
+          condition: "< 5"
+    qualitative_scoring:
+      features:
+        fully_functional_democratic:
+          score_range: [90, 100]
+          default_score: 95
+        functional_but_flawed:
+          score_range: [70, 89]
+          default_score: 80
+        partially_functional:
+          score_range: [50, 69]
+          default_score: 55
+        severely_degraded:
+          score_range: [30, 49]
+          default_score: 40
+        collapsed_or_nominal:
+          score_range: [10, 29]
+          default_score: 20
+        no_functioning_institutions:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  civil_liberties:
+    quantitative_scoring:
+      type: threshold
+      input_transform: "freedom_house_invert"
+      # Freedom House CL score 1-7 inverted: (8 - score) / 7 * 100
+      thresholds:
+        - score_range: [90, 100]
+          condition: ">= 85"
+        - score_range: [70, 89]
+          condition: ">= 70"
+        - score_range: [50, 69]
+          condition: ">= 50"
+        - score_range: [30, 49]
+          condition: ">= 30"
+        - score_range: [10, 29]
+          condition: ">= 15"
+        - score_range: [0, 9]
+          condition: "< 15"
+    qualitative_scoring:
+      features:
+        full_freedoms:
+          score_range: [90, 100]
+          default_score: 95
+        mostly_free_minor_restrictions:
+          score_range: [70, 89]
+          default_score: 80
+        partially_free:
+          score_range: [50, 69]
+          default_score: 57
+        significant_restrictions:
+          score_range: [30, 49]
+          default_score: 43
+        severe_restrictions:
+          score_range: [10, 29]
+          default_score: 20
+        no_civil_liberties:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  elite_cohesion:
+    quantitative_scoring:
+      type: none
+      # No standard quantitative measure; purely qualitative
+    qualitative_scoring:
+      features:
+        stable_unified_governance:
+          score_range: [90, 100]
+          default_score: 95
+        minor_tensions_functional:
+          score_range: [70, 89]
+          default_score: 80
+        significant_competition_managed:
+          score_range: [50, 69]
+          default_score: 60
+        open_factional_conflict:
+          score_range: [30, 49]
+          default_score: 40
+        active_power_struggles:
+          score_range: [10, 29]
+          default_score: 20
+        complete_fragmentation:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: qualitative_only
+
+economic:
+  gdp_per_capita:
+    quantitative_scoring:
+      type: threshold
+      input_transform: "percent_of_peak"
+      # Score = (current / peak in series) * 100
+      thresholds:
+        - score_range: [90, 100]
+          condition: ">= 95"
+        - score_range: [70, 89]
+          condition: ">= 80"
+        - score_range: [50, 69]
+          condition: ">= 60"
+        - score_range: [30, 49]
+          condition: ">= 40"
+        - score_range: [10, 29]
+          condition: ">= 20"
+        - score_range: [0, 9]
+          condition: "< 20"
+    qualitative_scoring:
+      features:
+        above_peak:
+          score_range: [90, 100]
+          default_score: 95
+        near_peak_90_100pct:
+          score_range: [70, 89]
+          default_score: 85
+        moderate_decline_70_90pct:
+          score_range: [50, 69]
+          default_score: 65
+        significant_decline_50_70pct:
+          score_range: [30, 49]
+          default_score: 45
+        severe_decline_30_50pct:
+          score_range: [10, 29]
+          default_score: 25
+        collapse_below_30pct:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  inflation:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # Lower inflation = higher score (inverse relationship)
+      thresholds:
+        - score_range: [90, 100]
+          condition: "< 3"
+        - score_range: [70, 89]
+          condition: "< 10"
+        - score_range: [50, 69]
+          condition: "< 25"
+        - score_range: [30, 49]
+          condition: "< 50"
+        - score_range: [10, 29]
+          condition: "< 100"
+        - score_range: [0, 9]
+          condition: ">= 100"
+    qualitative_scoring:
+      features:
+        low_lt_3pct:
+          score_range: [90, 100]
+          default_score: 95
+        moderate_3_10pct:
+          score_range: [70, 89]
+          default_score: 80
+        elevated_10_25pct:
+          score_range: [50, 69]
+          default_score: 60
+        high_25_50pct:
+          score_range: [30, 49]
+          default_score: 40
+        very_high_50_100pct:
+          score_range: [10, 29]
+          default_score: 20
+        hyperinflation_gt_100pct:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  unemployment:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # Lower unemployment = higher score
+      thresholds:
+        - score_range: [90, 100]
+          condition: "< 5"
+        - score_range: [70, 89]
+          condition: "< 10"
+        - score_range: [50, 69]
+          condition: "< 15"
+        - score_range: [30, 49]
+          condition: "< 25"
+        - score_range: [10, 29]
+          condition: "< 40"
+        - score_range: [0, 9]
+          condition: ">= 40"
+    qualitative_scoring:
+      features:
+        low_lt_5pct:
+          score_range: [90, 100]
+          default_score: 95
+        moderate_5_10pct:
+          score_range: [70, 89]
+          default_score: 80
+        elevated_10_15pct:
+          score_range: [50, 69]
+          default_score: 60
+        high_15_25pct:
+          score_range: [30, 49]
+          default_score: 40
+        very_high_25_40pct:
+          score_range: [10, 29]
+          default_score: 20
+        crisis_gt_40pct:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  trade_openness:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # (Exports + Imports) / GDP as percentage
+      thresholds:
+        - score_range: [90, 100]
+          condition: ">= 100"
+        - score_range: [70, 89]
+          condition: ">= 70"
+        - score_range: [50, 69]
+          condition: ">= 40"
+        - score_range: [30, 49]
+          condition: ">= 20"
+        - score_range: [10, 29]
+          condition: ">= 10"
+        - score_range: [0, 9]
+          condition: "< 10"
+    qualitative_scoring:
+      features:
+        highly_open_gt_100pct:
+          score_range: [90, 100]
+          default_score: 95
+        open_70_100pct:
+          score_range: [70, 89]
+          default_score: 80
+        moderate_40_70pct:
+          score_range: [50, 69]
+          default_score: 60
+        restricted_20_40pct:
+          score_range: [30, 49]
+          default_score: 40
+        closed_lt_20pct:
+          score_range: [10, 29]
+          default_score: 20
+        autarky_or_blockade:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  fiscal_health:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # Debt-to-GDP ratio — lower is better
+      thresholds:
+        - score_range: [90, 100]
+          condition: "< 30"
+        - score_range: [70, 89]
+          condition: "< 60"
+        - score_range: [50, 69]
+          condition: "< 90"
+        - score_range: [30, 49]
+          condition: "< 120"
+        - score_range: [10, 29]
+          condition: "< 200"
+        - score_range: [0, 9]
+          condition: ">= 200"
+    qualitative_scoring:
+      features:
+        surplus_low_debt_lt_30pct:
+          score_range: [90, 100]
+          default_score: 95
+        small_deficit_manageable_30_60pct:
+          score_range: [70, 89]
+          default_score: 80
+        moderate_deficit_elevated_60_90pct:
+          score_range: [50, 69]
+          default_score: 60
+        large_deficit_high_90_120pct:
+          score_range: [30, 49]
+          default_score: 40
+        unsustainable_debt_crisis:
+          score_range: [10, 29]
+          default_score: 20
+        fiscal_collapse:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+international:
+  sanctions:
+    quantitative_scoring:
+      type: none
+    qualitative_scoring:
+      features:
+        no_sanctions:
+          score_range: [90, 100]
+          default_score: 95
+        targeted_individuals_only:
+          score_range: [70, 89]
+          default_score: 80
+        sectoral_sanctions:
+          score_range: [50, 69]
+          default_score: 60
+        broad_economic_humanitarian_exceptions:
+          score_range: [30, 49]
+          default_score: 40
+        comprehensive_sanctions:
+          score_range: [10, 29]
+          default_score: 20
+        total_isolation:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: qualitative_only
+
+  diplomatic_integration:
+    quantitative_scoring:
+      type: none
+    qualitative_scoring:
+      features:
+        full_relations_active_international:
+          score_range: [90, 100]
+          default_score: 95
+        normal_minor_disputes:
+          score_range: [70, 89]
+          default_score: 80
+        partial_isolation_some_closures:
+          score_range: [50, 69]
+          default_score: 60
+        significant_isolation:
+          score_range: [30, 49]
+          default_score: 40
+        pariah_status:
+          score_range: [10, 29]
+          default_score: 20
+        no_international_recognition:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: qualitative_only
+
+  foreign_military:
+    quantitative_scoring:
+      type: none
+    qualitative_scoring:
+      features:
+        no_foreign_presence_full_sovereignty:
+          score_range: [90, 100]
+          default_score: 95
+        limited_invited_advisors:
+          score_range: [70, 89]
+          default_score: 80
+        significant_invited_forces:
+          score_range: [50, 69]
+          default_score: 60
+        contested_mixed_presence:
+          score_range: [30, 49]
+          default_score: 40
+        occupied_major_uninvited:
+          score_range: [10, 29]
+          default_score: 20
+        active_foreign_combat_operations:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: qualitative_only
+
+  fdi:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # FDI as % of GDP
+      thresholds:
+        - score_range: [90, 100]
+          condition: ">= 5"
+        - score_range: [70, 89]
+          condition: ">= 2"
+        - score_range: [50, 69]
+          condition: ">= 1"
+        - score_range: [30, 49]
+          condition: ">= 0.5"
+        - score_range: [10, 29]
+          condition: ">= 0"
+        - score_range: [0, 9]
+          condition: "< 0"
+    qualitative_scoring:
+      features:
+        high_gt_5pct_gdp:
+          score_range: [90, 100]
+          default_score: 95
+        moderate_2_5pct_gdp:
+          score_range: [70, 89]
+          default_score: 80
+        low_1_2pct_gdp:
+          score_range: [50, 69]
+          default_score: 60
+        very_low_05_1pct_gdp:
+          score_range: [30, 49]
+          default_score: 40
+        minimal_lt_05pct_gdp:
+          score_range: [10, 29]
+          default_score: 20
+        negative_net_outflows:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  refugee_flows:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # Displacement as % of population per year — lower is better
+      thresholds:
+        - score_range: [90, 100]
+          condition: "<= 0"
+        - score_range: [70, 89]
+          condition: "< 0.1"
+        - score_range: [50, 69]
+          condition: "< 1"
+        - score_range: [30, 49]
+          condition: "< 3"
+        - score_range: [10, 29]
+          condition: "< 10"
+        - score_range: [0, 9]
+          condition: ">= 10"
+    qualitative_scoring:
+      features:
+        net_returns_minimal_displacement:
+          score_range: [90, 100]
+          default_score: 95
+        stable_minimal_new:
+          score_range: [70, 89]
+          default_score: 80
+        moderate_outflows_lt_1pct:
+          score_range: [50, 69]
+          default_score: 60
+        significant_outflows_1_3pct:
+          score_range: [30, 49]
+          default_score: 40
+        mass_displacement_3_10pct:
+          score_range: [10, 29]
+          default_score: 20
+        catastrophic_gt_10pct:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+transparency:
+  budget_transparency:
+    quantitative_scoring:
+      type: direct
+      # Open Budget Index already 0-100, use directly
+      input_transform: null
+      thresholds:
+        - score_range: [80, 100]
+          condition: ">= 80"
+        - score_range: [60, 79]
+          condition: ">= 60"
+        - score_range: [40, 59]
+          condition: ">= 40"
+        - score_range: [20, 39]
+          condition: ">= 20"
+        - score_range: [1, 19]
+          condition: ">= 1"
+        - score_range: [0, 0]
+          condition: "< 1"
+    qualitative_scoring:
+      features:
+        extensive_gt_80:
+          score_range: [80, 100]
+          default_score: 85
+        substantial_60_80:
+          score_range: [60, 79]
+          default_score: 70
+        limited_40_60:
+          score_range: [40, 59]
+          default_score: 50
+        minimal_20_40:
+          score_range: [20, 39]
+          default_score: 30
+        scant_lt_20:
+          score_range: [1, 19]
+          default_score: 10
+        no_information:
+          score_range: [0, 0]
+          default_score: 0
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  press_freedom:
+    quantitative_scoring:
+      type: threshold
+      input_transform: "rsf_invert"
+      # RSF score inverted: 100 - RSF_Score
+      thresholds:
+        - score_range: [85, 100]
+          condition: ">= 85"
+        - score_range: [70, 84]
+          condition: ">= 70"
+        - score_range: [55, 69]
+          condition: ">= 55"
+        - score_range: [40, 54]
+          condition: ">= 40"
+        - score_range: [15, 39]
+          condition: ">= 15"
+        - score_range: [0, 14]
+          condition: "< 15"
+    qualitative_scoring:
+      features:
+        free_environment:
+          score_range: [85, 100]
+          default_score: 90
+        satisfactory:
+          score_range: [70, 84]
+          default_score: 75
+        problematic:
+          score_range: [55, 69]
+          default_score: 60
+        difficult:
+          score_range: [40, 54]
+          default_score: 45
+        very_serious:
+          score_range: [15, 39]
+          default_score: 25
+        no_press_freedom:
+          score_range: [0, 14]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  statistical_transparency:
+    quantitative_scoring:
+      type: direct
+      # World Bank SCI already 0-100
+      input_transform: null
+      thresholds:
+        - score_range: [80, 100]
+          condition: ">= 80"
+        - score_range: [60, 79]
+          condition: ">= 60"
+        - score_range: [40, 59]
+          condition: ">= 40"
+        - score_range: [20, 39]
+          condition: ">= 20"
+        - score_range: [1, 19]
+          condition: ">= 1"
+        - score_range: [0, 0]
+          condition: "< 1"
+    qualitative_scoring:
+      features:
+        excellent_gt_80:
+          score_range: [80, 100]
+          default_score: 85
+        good_60_80:
+          score_range: [60, 79]
+          default_score: 70
+        moderate_40_60:
+          score_range: [40, 59]
+          default_score: 50
+        poor_20_40:
+          score_range: [20, 39]
+          default_score: 30
+        very_poor_lt_20:
+          score_range: [1, 19]
+          default_score: 10
+        no_statistical_system:
+          score_range: [0, 0]
+          default_score: 0
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  legal_transparency:
+    quantitative_scoring:
+      type: threshold
+      input_transform: "wjp_multiply_100"
+      # WJP 0-1 scale multiplied by 100
+      thresholds:
+        - score_range: [90, 100]
+          condition: ">= 80"
+        - score_range: [70, 89]
+          condition: ">= 60"
+        - score_range: [50, 69]
+          condition: ">= 40"
+        - score_range: [30, 49]
+          condition: ">= 25"
+        - score_range: [10, 29]
+          condition: ">= 10"
+        - score_range: [0, 9]
+          condition: "< 10"
+    qualitative_scoring:
+      features:
+        laws_published_searchable_foi:
+          score_range: [90, 100]
+          default_score: 95
+        most_accessible_some_gaps:
+          score_range: [70, 89]
+          default_score: 80
+        partial_significant_gaps:
+          score_range: [50, 69]
+          default_score: 60
+        difficult_arbitrary_enforcement:
+          score_range: [30, 49]
+          default_score: 40
+        minimal_rule_by_decree:
+          score_range: [10, 29]
+          default_score: 20
+        no_accessible_framework:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  extractive_transparency:
+    quantitative_scoring:
+      type: none
+    qualitative_scoring:
+      features:
+        eiti_compliant_satisfactory:
+          score_range: [90, 100]
+          default_score: 95
+        eiti_compliant_meaningful:
+          score_range: [70, 89]
+          default_score: 80
+        eiti_compliant_corrective_actions:
+          score_range: [50, 69]
+          default_score: 60
+        eiti_candidate_or_suspended:
+          score_range: [30, 49]
+          default_score: 40
+        no_membership_minimal_disclosure:
+          score_range: [10, 29]
+          default_score: 20
+        no_disclosure_opaque:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: qualitative_only

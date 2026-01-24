@@ -1,0 +1,102 @@
+# Aggregation configuration: how sub-indicator scores combine into dimension and composite scores
+# All weights start at 1.0 (equal weight). Adjust as needed.
+
+# Dimension-level aggregation (sub-indicators -> dimension score)
+dimensions:
+  political:
+    sub_indicators:
+      - territorial_control
+      - political_violence
+      - institutional_functioning
+      - civil_liberties
+      - elite_cohesion
+    function: weighted_average    # weighted_average | geometric_mean | minimum | harmonic_mean
+    weights:
+      territorial_control: 1.0
+      political_violence: 1.0
+      institutional_functioning: 1.0
+      civil_liberties: 1.0
+      elite_cohesion: 1.0
+    missing_data_handling: skip_and_renormalize
+    # Options:
+    #   skip_and_renormalize  - average only available indicators, adjust weights
+    #   use_zero              - treat missing as 0
+    #   use_floor             - treat missing as specified floor value
+    #   use_value: 5          - treat missing as this specific value
+    #   exclude_year          - don't produce a score for this country-year
+
+  economic:
+    sub_indicators:
+      - gdp_per_capita
+      - inflation
+      - unemployment
+      - trade_openness
+      - fiscal_health
+    function: weighted_average
+    weights:
+      gdp_per_capita: 1.0
+      inflation: 1.0
+      unemployment: 1.0
+      trade_openness: 1.0
+      fiscal_health: 1.0
+    missing_data_handling: skip_and_renormalize
+
+  international:
+    sub_indicators:
+      - sanctions
+      - diplomatic_integration
+      - foreign_military
+      - fdi
+      - refugee_flows
+    function: weighted_average
+    weights:
+      sanctions: 1.0
+      diplomatic_integration: 1.0
+      foreign_military: 1.0
+      fdi: 1.0
+      refugee_flows: 1.0
+    missing_data_handling: skip_and_renormalize
+
+  transparency:
+    sub_indicators:
+      - budget_transparency
+      - press_freedom
+      - statistical_transparency
+      - legal_transparency
+      - extractive_transparency
+    function: weighted_average
+    weights:
+      budget_transparency: 1.0
+      press_freedom: 1.0
+      statistical_transparency: 1.0
+      legal_transparency: 1.0
+      extractive_transparency: 1.0
+    missing_data_handling: skip_and_renormalize
+    not_applicable_indicators:
+      # Some countries don't have extractive industries
+      extractive_transparency:
+        countries:
+          - tunisia
+          - egypt
+          - senegal
+          - ghana
+          - kenya
+          - malawi
+          - croatia
+          - slovakia
+          - nepal
+          - east_timor
+          - mexico
+          - peru
+          - armenia
+        handling: exclude  # exclude from average for these countries
+
+# Composite score (dimensions -> single number)
+composite:
+  function: weighted_average
+  weights:
+    political: 1.0
+    economic: 1.0
+    international: 1.0
+    transparency: 1.0
+  missing_data_handling: skip_and_renormalize
