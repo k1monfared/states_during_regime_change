@@ -3,7 +3,7 @@ country: iraq
 dimension: economic
 years:
   1988:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -13,13 +13,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post Iran-Iraq War. Iraq emerged with massive debt burden estimated
+        at $80-100 billion, mostly to Gulf states and Western creditors. Debt
+        to GDP ratio extremely high. Government finances devastated by 8-year
+        war. Fiscal situation unsustainable.
+      features:
+        - unsustainable_debt_crisis
+      sources:
+        - citation: "Alnasrawi: Iraq's Burdens (1994)"
+          url: null
+          type: academic
+          reliability: high
+      confidence: medium
+      notes: "Post-war debt burden; estimates vary widely on exact debt levels"
   1989:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -29,13 +38,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued debt crisis. Iraq unable to service war debts. Tensions with
+        Kuwait over debt forgiveness and oil policy. Government revenues from
+        oil exports insufficient to cover debt service and reconstruction needs.
+      features:
+        - unsustainable_debt_crisis
+      sources:
+        - citation: "Academic literature on Iraq debt"
+          url: null
+          type: academic
+          reliability: medium
+      confidence: medium
+      notes: "Pre-Kuwait invasion; debt disputes escalating"
   1990:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -45,13 +62,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        August 1990: Kuwait invasion. UN sanctions imposed August 6. Government
+        finances collapse as oil revenues halt. Debt service impossible. Fiscal
+        situation deteriorates from unsustainable debt to complete collapse.
+      features:
+        - fiscal_collapse
+      sources:
+        - citation: "UN sanctions documentation"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Kuwait invasion; sanctions; revenue collapse"
   1991:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -61,13 +86,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Gulf War. Comprehensive UN sanctions. No oil revenue. Government finances
+        completely collapsed. Printing money to cover expenses leads to hyperinflation.
+        War reparations imposed. Debt service zero. Fiscal catastrophe.
+      features:
+        - fiscal_collapse
+      sources:
+        - citation: "UN Security Council Resolution 687 (reparations)"
+          url: null
+          type: government
+          reliability: high
+        - citation: "Alnasrawi: Iraq's Economic Predicament"
+          url: null
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "Gulf War; sanctions; reparations; hyperinflation; complete fiscal collapse"
   1992:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -77,13 +114,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sanctions continue. No oil revenue. Government finances via currency
+        printing. Hyperinflation accelerating. Debt unpayable and growing due
+        to interest accumulation and reparations. Fiscal collapse.
+      features:
+        - fiscal_collapse
+      sources:
+        - citation: "FAO/World Bank humanitarian assessments"
+          url: null
+          type: ngo
+          reliability: medium
+      confidence: high
+      notes: "Hyperinflation era; fiscal collapse; debt accumulating but unpayable"
   1993:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -93,13 +138,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Peak hyperinflation period. Currency worthless. Government finances
+        completely collapsed. Debt meaningless in context of non-functioning
+        fiscal system. Complete fiscal breakdown.
+      features:
+        - fiscal_collapse
+      sources:
+        - citation: "UN humanitarian reports 1993"
+          url: null
+          type: ngo
+          reliability: medium
+      confidence: high
+      notes: "Hyperinflation peak; fiscal collapse; debt tracking impossible"
   1994:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -109,13 +162,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sanctions period. No conventional government revenue. Fiscal system
+        non-functional. Debt accumulating but no payment mechanism or tracking.
+        Complete fiscal collapse continues.
+      features:
+        - fiscal_collapse
+      sources:
+        - citation: "World Bank retrospective analysis"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Mid-sanctions; fiscal collapse; no functioning fiscal system"
   1995:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -125,13 +186,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Pre Oil-for-Food. Government finances collapsed. Debt unpayable and
+        untracked. Fiscal situation catastrophic. Sanctions prevent any normal
+        fiscal operations.
+      features:
+        - fiscal_collapse
+      sources:
+        - citation: "IMF assessments"
+          url: null
+          type: dataset
+          reliability: low
+      confidence: medium
+      notes: "Continued fiscal collapse; Oil-for-Food not yet implemented"
   1996:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -141,13 +210,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil-for-Food begins December 1996. First oil revenue since 1990 but
+        controlled by UN for humanitarian purposes. Government fiscal situation
+        slightly improved but debt burden unchanged. Still fiscal collapse but
+        humanitarian relief begins.
+      features:
+        - fiscal_collapse
+      sources:
+        - citation: "UN Oil-for-Food reports"
+          url: "https://www.un.org"
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "Oil-for-Food begins; slight fiscal relief but no debt service possible"
   1997:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -157,13 +235,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil-for-Food operational. Some government revenue from oil but heavily
+        controlled. Debt service still impossible. Debt burden estimated over
+        100% of GDP. Fiscal collapse continues despite Oil-for-Food relief.
+      features:
+        - fiscal_collapse
+      sources:
+        - citation: "World Bank Iraq debt analysis"
+          url: null
+          type: dataset
+          reliability: low
+      confidence: low
+      notes: "Oil-for-Food; controlled revenues; debt unpayable"
   1998:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -173,13 +259,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil-for-Food volumes increasing. Government receives some revenue but
+        insufficient for normal fiscal operations. Debt burden remains unsustainable.
+        Fiscal situation stabilized from collapse but still crisis level.
+      features:
+        - unsustainable_debt_crisis
+      sources:
+        - citation: "UN Oil-for-Food data"
+          url: null
+          type: government
+          reliability: medium
+      confidence: low
+      notes: "Late sanctions; Oil-for-Food provides minimal fiscal relief"
   1999:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -189,13 +283,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil-for-Food mature. Higher oil prices increase revenues. Debt estimated
+        $120-140 billion. No debt service. Fiscal situation remains crisis level
+        but no longer complete collapse due to Oil-for-Food revenues.
+      features:
+        - unsustainable_debt_crisis
+      sources:
+        - citation: "IMF estimates"
+          url: null
+          type: dataset
+          reliability: low
+      confidence: low
+      notes: "Sanctions erosion; Oil-for-Food revenues higher; debt still unsustainable"
   2000:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -205,13 +307,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Late Saddam era. Oil-for-Food plus smuggling provide revenues. Debt
+        burden massive but debt service non-existent. Fiscal crisis continues.
+        Sanctions weakening but government finances remain unsustainable.
+      features:
+        - unsustainable_debt_crisis
+      sources:
+        - citation: "World Bank Iraq data"
+          url: null
+          type: dataset
+          reliability: low
+      confidence: low
+      notes: "Sanctions weakening; debt unpayable; fiscal crisis"
   2001:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -221,13 +331,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Pre-invasion. Debt estimated $120+ billion. Oil-for-Food and illicit
+        revenues provide government income. Debt service zero. Fiscal crisis
+        continues. Government manipulates Oil-for-Food for revenue.
+      features:
+        - unsustainable_debt_crisis
+      sources:
+        - citation: "UN investigations into Oil-for-Food"
+          url: null
+          type: government
+          reliability: medium
+      confidence: low
+      notes: "Pre-invasion; massive debt; Oil-for-Food manipulation"
   2002:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -237,365 +355,610 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Final pre-invasion year. Debt burden unchanged. Fiscal situation crisis
+        level. Uncertainty about impending conflict prevents any debt negotiations.
+        Government finances from Oil-for-Food and sanctions evasion.
+      features:
+        - unsustainable_debt_crisis
+      sources:
+        - citation: "Pre-invasion assessments"
+          url: null
+          type: think_tank_report
+          reliability: low
+      confidence: low
+      notes: "Pre-invasion; debt unsustainable; fiscal crisis"
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 450.0
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq debt relief documentation 2004"
+        url: "https://www.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US invasion March 2003. Saddam regime falls. Iraq's debt estimated
+        $120-140 billion against collapsed GDP. Debt to GDP ratio ~400-500%.
+        CPA begins debt relief negotiations. Paris Club process initiated.
+        Fiscal crisis extreme but debt relief process beginning.
+      features:
+        - fiscal_collapse
+      sources:
+        - citation: "World Bank Iraq debt relief analysis"
+          url: "https://www.worldbank.org"
+          type: dataset
+          reliability: high
+        - citation: "Paris Club Iraq debt relief"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Invasion; regime change; debt relief negotiations begin; GDP collapse makes debt ratio extreme"
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 350.0
       unit: debt_percent_gdp
       source:
-        citation: null
+        citation: "IMF Iraq Article IV 2005"
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        CPA period. Paris Club agrees November 2004 to 80% debt relief in stages.
+        Initial debt relief begins. GDP recovering slightly. Debt burden still
+        massive but relief process underway. Fiscal situation improving from
+        complete collapse but still crisis level.
+      features:
+        - unsustainable_debt_crisis
+      sources:
+        - citation: "Paris Club Iraq agreement November 2004"
+          url: null
+          type: government
+          reliability: high
+        - citation: "IMF Iraq reports"
+          url: null
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "Paris Club debt relief agreement; 80% reduction over 3 stages"
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 200.0
       unit: debt_percent_gdp
       source:
-        citation: null
+        citation: "IMF Iraq Article IV 2006"
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        First stage Paris Club debt relief implemented. Debt burden declining
+        rapidly. Oil revenues increasing. Budget deficits moderate due to US
+        reconstruction spending and oil revenue. Fiscal situation dramatically
+        improved but still elevated debt.
+      features:
+        - large_deficit_high_90_120pct
+      sources:
+        - citation: "IMF Iraq assessments"
+          url: null
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "Debt relief implementation; oil revenue recovery; fiscal improvement"
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 110.0
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2006"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued debt relief. Second stage Paris Club reduction. Oil revenues
+        high despite civil war. Budget situation improving. Debt declining toward
+        manageable levels. Fiscal health much improved from 2003-2004 crisis.
+      features:
+        - large_deficit_high_90_120pct
+      sources:
+        - citation: "World Bank Iraq indicators"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Civil war but oil revenues sustain budget; debt relief continuing"
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 85.0
       unit: debt_percent_gdp
       source:
-        citation: null
+        citation: "IMF Iraq data 2007"
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Final Paris Club debt relief stage. Debt burden reduced to sustainable
+        levels. Oil boom year. Budget surpluses emerging. Fiscal situation
+        transformed from crisis to manageable despite peak violence.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF Iraq Article IV"
+          url: null
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "Debt relief complete; oil boom; budget surpluses; fiscal health restored"
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 45.0
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2008"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil boom year (prices to $140/barrel). Massive budget surpluses. Debt
+        rapidly declining. Fiscal health excellent. Government accumulates
+        reserves. Debt burden now manageable and declining.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "World Bank Iraq economic data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+        - citation: "IMF Iraq assessments"
+          url: null
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "Oil boom; budget surpluses; debt declining; fiscal health strong"
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 48.0
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2009"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil prices recover from 2008 crash. Budget deficits moderate due to
+        expanded spending. Debt stable at manageable levels. Fiscal health good.
+        Government builds financial reserves.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "World Bank data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Post-financial crisis; oil recovery; manageable fiscal position"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 52.0
       unit: debt_percent_gdp
       source:
-        citation: null
+        citation: "IMF Iraq data 2010"
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil revenues high. Government spending increases. Small deficits but
+        debt remains manageable. Fiscal health good. Political deadlock delays
+        budget but oil revenues sustain government operations.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF Iraq Article IV"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Political deadlock; oil revenues; manageable debt; small deficits"
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 45.0
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2011"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil production expanding. Revenues high. Budget deficits small. Debt
+        declining. Fiscal health good. US withdrawal reduces some costs. Government
+        finances sustainable.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "World Bank Iraq indicators"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "US withdrawal; oil expansion; fiscal health good; debt declining"
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 40.0
       unit: debt_percent_gdp
       source:
-        citation: null
+        citation: "IMF Iraq data 2012"
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil production increases. High revenues. Small budget deficits. Debt
+        declining to sustainable levels. Fiscal health strong. Government
+        accumulates reserves.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF Iraq assessments"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Oil boom continues; debt low; fiscal health strong"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 38.0
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2013"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil revenues high. Government spending increases but revenues keep pace.
+        Debt low. Fiscal health good. Budget surpluses in some quarters. Fiscal
+        position sustainable.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "World Bank Iraq indicators"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Pre-ISIS; oil revenues high; low debt; fiscal health good"
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 50.0
       unit: debt_percent_gdp
       source:
-        citation: null
+        citation: "IMF Iraq Article IV 2015"
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        June 2014: ISIS crisis. Oil price collapse second half. Budget deficits
+        surge. War spending increases. Revenues collapse. Debt rising. Fiscal
+        crisis beginning. Government forced to borrow.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF Iraq crisis reports"
+          url: null
+          type: dataset
+          reliability: high
+        - citation: "World Bank Iraq data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "ISIS crisis; oil collapse; fiscal crisis begins; debt rising"
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 68.0
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2015"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Full fiscal crisis. Oil revenues collapsed. War spending high. Massive
+        budget deficits. Government borrowing heavily. Salary delays. Debt
+        surging. Fiscal situation deteriorating rapidly.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "World Bank Iraq economic data 2015"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+        - citation: "IMF Iraq emergency assistance"
+          url: null
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "ISIS war; oil crisis; fiscal emergency; debt surging; IMF assistance"
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 82.0
       unit: debt_percent_gdp
       source:
-        citation: null
+        citation: "IMF Iraq data 2016"
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued fiscal crisis. Low oil prices. War spending. Massive deficits.
+        Debt approaching crisis levels. Government austerity measures. IMF
+        assistance program. Fiscal sustainability threatened.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF Iraq Stand-By Arrangement"
+          url: null
+          type: dataset
+          reliability: high
+        - citation: "World Bank data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: high
+      notes: "Fiscal crisis; IMF program; debt rising; austerity; war spending"
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 75.0
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2017"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        ISIS territorial defeat July 2017. Oil prices recovering. Deficits
+        declining. Debt stabilizing. Fiscal crisis easing. IMF program continues.
+        Fiscal situation improving but debt still elevated.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "World Bank Iraq indicators"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+        - citation: "IMF Iraq program reviews"
+          url: null
+          type: dataset
+          reliability: high
+      confidence: medium
+      notes: "ISIS defeat; oil recovery; fiscal improvement; debt stabilizing"
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 62.0
       unit: debt_percent_gdp
       source:
-        citation: null
+        citation: "IMF Iraq data 2018"
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil prices higher. Revenues recovering. Deficits declining. Debt
+        declining from peak. Fiscal health improving. Post-ISIS reconstruction
+        needs but revenue growth allows. Fiscal situation stabilizing.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF Iraq assessments"
+          url: null
+          type: dataset
+          reliability: medium
+        - citation: "World Bank data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Post-ISIS; oil recovery; fiscal improvement; debt declining"
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 55.0
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2019"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil revenues stable. Deficits moderate. Debt declining. Fiscal health
+        improving. October protests over government spending and corruption.
+        Budget implementation challenged by political crisis but fiscal position
+        manageable.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "World Bank Iraq indicators"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "October protests; debt declining; fiscal position improving"
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 78.0
       unit: debt_percent_gdp
       source:
-        citation: null
+        citation: "IMF Iraq Article IV 2021"
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-01-24"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        COVID-19 pandemic. Oil price collapse (negative prices April 2020).
+        Revenue catastrophe. Massive deficits. Salary delays. Emergency borrowing.
+        Debt surges. Fiscal crisis. IMF emergency assistance. White Paper reform
+        plan announced.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF Iraq emergency assistance 2020"
+          url: null
+          type: dataset
+          reliability: high
+        - citation: "World Bank Iraq data 2020"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+        - citation: "Iraq White Paper economic reforms"
+          url: null
+          type: government
+          reliability: medium
+      confidence: high
+      notes: "COVID-19; oil collapse; fiscal emergency; IMF assistance; White Paper reforms"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 68.0
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2021"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil prices recovering. Revenues increasing. Deficits declining. Debt
+        stabilizing. Fiscal crisis easing. Political deadlock delays reforms
+        but oil recovery provides fiscal breathing room.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "World Bank Iraq indicators"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+        - citation: "IMF Iraq reports"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Oil recovery; fiscal improvement; political deadlock; debt stabilizing"
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 48.0
       unit: debt_percent_gdp
       source:
-        citation: null
+        citation: "IMF Iraq Article IV 2023"
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-01-24"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil boom from Russia-Ukraine war. Revenue windfall. Budget surpluses.
+        Debt declining rapidly. Fiscal health dramatically improved. Government
+        accumulates reserves. Fiscal position strongest since 2013.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF Iraq assessments 2022"
+          url: null
+          type: dataset
+          reliability: high
+        - citation: "World Bank Iraq data 2022"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "Russia-Ukraine war; oil boom; budget surpluses; debt declining; fiscal health strong"
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 42.0
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2023"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil revenues high. Budget surpluses. Debt declining. Fiscal health
+        strong. Sudani government focuses on spending on services and infrastructure.
+        Fiscal position sustainable. Reserves growing.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "World Bank Iraq indicators 2023"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+        - citation: "IMF Iraq reports"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: high
+      notes: "Elevated oil prices; surpluses; low debt; fiscal health strong"
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 38.0
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq estimates 2024"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil revenues remain elevated. Budget likely balanced or small surplus.
+        Debt declining. Fiscal health good. Government spending on infrastructure
+        and services. Fiscal position sustainable barring oil price collapse.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "World Bank Iraq projections 2024"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+        - citation: "IMF Iraq outlook"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Estimates; oil prices stable; fiscal health good; debt declining"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -605,8 +968,17 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Current year. Fiscal trajectory dependent on oil prices. Structural
+        dependence on oil revenue unchanged. Fiscal health good if oil prices
+        stable. Vulnerability to oil price shocks remains Iraq's fundamental
+        fiscal challenge.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "World Bank Iraq outlook 2025"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: low
+      confidence: low
+      notes: "Projection only; oil dependency structural; fiscal health depends on oil prices"

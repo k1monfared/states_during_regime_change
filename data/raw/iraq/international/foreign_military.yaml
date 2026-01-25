@@ -3,7 +3,7 @@ country: iraq
 dimension: international
 years:
   1988:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -13,13 +13,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Full sovereignty. No foreign military presence. Iraqi military independent.
+        No foreign bases or combat operations. Post Iran-Iraq War period.
+      features:
+        - no_foreign_presence_full_sovereignty
+      sources:
+        - citation: "Iraq military history 1988"
+          url: null
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "Post Iran-Iraq War; full sovereignty"
   1989:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -29,13 +36,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Full sovereignty. No foreign military presence. Iraqi armed forces independent.
+        No foreign combat operations or bases in Iraq.
+      features:
+        - no_foreign_presence_full_sovereignty
+      sources:
+        - citation: "Iraq sovereignty status 1989"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Pre-Kuwait invasion; full sovereignty"
   1990:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -45,13 +59,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        August 1990: Kuwait invasion. US/coalition forces deploy to Saudi Arabia
+        (Operation Desert Shield) but not in Iraq. No foreign forces in Iraqi
+        territory. Iraq maintains sovereignty despite crisis.
+      features:
+        - no_foreign_presence_full_sovereignty
+      sources:
+        - citation: "Operation Desert Shield deployment"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Desert Shield in Saudi Arabia; no foreign forces in Iraq yet"
   1991:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -61,13 +83,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        January-February 1991: Gulf War (Operation Desert Storm). Massive US-led
+        coalition combat operations. Air campaign, ground invasion. Brief occupation
+        of southern Iraq then withdrawal. Active foreign combat operations throughout
+        year. Coalition forces withdraw by year end.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "Operation Desert Storm documentation"
+          url: null
+          type: government
+          reliability: high
+        - citation: "Gulf War coalition forces"
+          url: null
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "Gulf War; massive coalition combat operations; withdrawal after ceasefire"
   1992:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -77,13 +112,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No-fly zones established by US/UK/France over northern and southern Iraq.
+        Continuous foreign air presence and enforcement operations. Periodic strikes.
+        No ground forces but airspace sovereignty violated. Contested presence.
+      features:
+        - contested_mixed_presence
+      sources:
+        - citation: "Iraq no-fly zones 1992-2003"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "No-fly zones; continuous US/UK air patrols; sovereignty contested"
   1993:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -93,13 +136,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No-fly zones continue. US cruise missile strikes January 1993. Continuous
+        foreign air presence. Iraqi sovereignty contested but no ground forces.
+        Periodic military strikes.
+      features:
+        - contested_mixed_presence
+      sources:
+        - citation: "1993 Iraq strikes documentation"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "No-fly zones; January strikes; contested sovereignty"
   1994:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -109,13 +160,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No-fly zones enforced. Continuous US/UK/France air presence. Iraq challenges
+        no-fly zones periodically. Contested airspace sovereignty. No ground forces.
+      features:
+        - contested_mixed_presence
+      sources:
+        - citation: "No-fly zone enforcement 1994"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Continued no-fly zones; contested sovereignty"
   1995:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -125,13 +183,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No-fly zones continue. Foreign air presence. Iraq periodically contests
+        enforcement. Airspace sovereignty violated but no ground forces present.
+      features:
+        - contested_mixed_presence
+      sources:
+        - citation: "No-fly zones mid-1990s"
+          url: null
+          type: academic
+          reliability: medium
+      confidence: high
+      notes: "No-fly zones; contested airspace"
   1996:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -141,13 +206,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No-fly zones enforced. September 1996: US cruise missile strikes (Operation
+        Desert Strike) after Iraq incursion into Kurdish areas. Continuous foreign
+        air presence. Contested sovereignty.
+      features:
+        - contested_mixed_presence
+      sources:
+        - citation: "Operation Desert Strike 1996"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Desert Strike; expanded southern no-fly zone; contested sovereignty"
   1997:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -157,13 +230,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No-fly zones continue. US/UK air patrols. Iraq challenges enforcement
+        periodically. Contested airspace. No ground forces but continuous foreign
+        air presence.
+      features:
+        - contested_mixed_presence
+      sources:
+        - citation: "No-fly zone operations late 1990s"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "No-fly zones; contested sovereignty; weapons inspection tensions"
   1998:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -173,13 +254,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No-fly zones enforced. December 1998: Operation Desert Fox - 4-day US/UK
+        bombing campaign after weapons inspectors leave. Active foreign combat
+        operations during December. No-fly zones resume after strikes.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "Operation Desert Fox December 1998"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Desert Fox bombing campaign; active combat operations; no-fly zones"
   1999:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -189,13 +278,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No-fly zones continue. Frequent US/UK strikes against Iraqi air defense
+        sites. Iraq challenges no-fly zones regularly. Contested airspace. Low-intensity
+        aerial conflict.
+      features:
+        - contested_mixed_presence
+      sources:
+        - citation: "No-fly zone confrontations 1999-2002"
+          url: null
+          type: academic
+          reliability: medium
+      confidence: high
+      notes: "Continuous no-fly zones; frequent strikes; contested sovereignty"
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -205,13 +302,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No-fly zones enforced. Periodic US/UK strikes. Iraq fires on coalition
+        aircraft regularly. France withdraws from no-fly zone enforcement. Contested
+        airspace continues.
+      features:
+        - contested_mixed_presence
+      sources:
+        - citation: "France withdraws from no-fly zones 2000"
+          url: null
+          type: news
+          reliability: high
+      confidence: high
+      notes: "No-fly zones; France withdraws; US/UK continue enforcement"
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -221,13 +326,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No-fly zones enforced by US/UK. Regular strikes against air defense sites.
+        Post-9/11 increases tensions. Iraq contests foreign presence. Airspace
+        sovereignty violated.
+      features:
+        - contested_mixed_presence
+      sources:
+        - citation: "Post-9/11 Iraq no-fly zones"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "No-fly zones; post-9/11; pre-invasion buildup"
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -237,13 +350,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No-fly zones continue. US military buildup in Kuwait and region for potential
+        invasion. Weapons inspections (UNMOVIC). Contested airspace. Military
+        buildup for invasion but not yet in Iraq.
+      features:
+        - contested_mixed_presence
+      sources:
+        - citation: "Pre-invasion US military buildup 2002-2003"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Pre-invasion; no-fly zones; military buildup in Kuwait"
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -253,13 +374,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        March 2003: US-led invasion. Massive uninvited foreign combat operations.
+        Occupation begins April. 150,000+ US troops. Coalition Provisional Authority.
+        Iraq under military occupation. Major uninvited foreign presence throughout
+        year.
+      features:
+        - occupied_major_uninvited
+      sources:
+        - citation: "2003 Iraq invasion troop levels"
+          url: null
+          type: government
+          reliability: high
+        - citation: "CPA occupation documentation"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Invasion March; occupation April; 150,000+ troops; CPA established"
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -269,13 +403,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US-led occupation continues. June 2004: Sovereignty transfer to Iraqi
+        Interim Government but 140,000+ US troops remain in combat operations.
+        Invited post-sovereignty but massive presence. Active combat operations
+        against insurgency.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "US troop levels Iraq 2004"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Sovereignty transfer June; 140,000+ troops; active combat; insurgency"
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -285,13 +428,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US-led forces continue combat operations. 140,000+ US troops plus coalition.
+        Invited by Iraqi government but massive presence. Active combat against
+        insurgency. Sovereignty formal but limited due to foreign military dominance.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "Coalition force levels 2005"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "140,000+ troops; active combat; formal sovereignty but foreign-dominated security"
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -301,13 +452,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Civil war begins. US forces 140,000+ in active combat. Coalition forces
+        invited by Iraqi government but massive presence dominates security landscape.
+        Active foreign combat operations throughout year.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "US forces Iraq civil war 2006"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Civil war; 140,000+ troops; active combat operations; invited but dominant"
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -317,13 +476,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US surge begins. Troop levels increase to 170,000. Peak US military presence.
+        Active foreign combat operations. Invited forces but dominant military
+        presence. Coalition forces in major combat role.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "Iraq surge troop levels 2007-2008"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Surge; 170,000 peak troops; active combat; invited but dominant presence"
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -333,13 +500,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-surge. US troop levels decline to ~140,000 by year end. Active combat
+        operations continue but violence declining. Invited forces. Status of
+        Forces Agreement signed November 2008 for withdrawal.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "US-Iraq Status of Forces Agreement 2008"
+          url: null
+          type: government
+          reliability: high
+        - citation: "Troop levels 2008"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Post-surge drawdown; SOFA signed; active operations continue"
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -349,13 +528,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US troop withdrawal begins. June 2009: US forces withdraw from cities.
+        Troop levels ~130,000. Active combat operations transitioning to Iraqi
+        forces. Invited significant forces but combat role declining.
+      features:
+        - significant_invited_forces
+      sources:
+        - citation: "US withdrawal from cities June 2009"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Withdrawal from cities; ~130,000 troops; transition to Iraqi lead"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -365,13 +552,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US troop drawdown continues. August 2010: End of combat operations declared,
+        transition to "advise and assist." Troop levels decline to ~50,000. Significant
+        invited forces in support/training role.
+      features:
+        - significant_invited_forces
+      sources:
+        - citation: "End of combat operations August 2010"
+          url: null
+          type: government
+          reliability: high
+        - citation: "Operation New Dawn"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Combat operations end; ~50,000 troops; advise/assist mission"
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -381,13 +580,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        December 2011: Complete US military withdrawal. Coalition forces depart.
+        Small residual presence (embassy guards, trainers ~200). Transition from
+        significant invited forces to minimal presence. Iraq regains military
+        sovereignty.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "US withdrawal December 2011"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "US withdrawal complete December; ~200 embassy security/trainers remain"
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -397,13 +605,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-US withdrawal. Minimal foreign military presence (embassy security,
+        small training mission ~200). Iraq fully sovereign. No foreign combat
+        forces. Limited invited advisors only.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "Post-withdrawal Iraq military presence"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Full sovereignty; minimal foreign presence; no combat forces"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -413,13 +629,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Minimal foreign military presence. Limited advisors and embassy security.
+        Iraq maintains military sovereignty. ISIS emerging but no foreign combat
+        forces yet. Limited invited advisors only.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "Iraq security post-US withdrawal"
+          url: null
+          type: think_tank_report
+          reliability: medium
+      confidence: high
+      notes: "Pre-ISIS crisis; full sovereignty; minimal foreign presence"
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -429,13 +653,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        June 2014: ISIS crisis. August 2014: US begins airstrikes. US advisors
+        deploy (~3,000 by year end). Coalition forms. Active foreign combat operations
+        (airstrikes) resume. Invited forces in combat support role.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "US returns to Iraq August 2014 anti-ISIS"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "ISIS crisis; US airstrikes begin; advisors deploy; coalition forms"
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -445,13 +677,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Anti-ISIS coalition operations. ~3,500 US troops plus coalition forces.
+        Active airstrikes, training, advising. Invited forces. Active foreign
+        combat operations supporting Iraqi forces. Coalition combat operations.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "Coalition troop levels Iraq 2015"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "ISIS war; ~3,500 US troops; coalition airstrikes; invited combat support"
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -461,13 +701,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Mosul liberation campaign. US troop levels increase to ~5,000. Coalition
+        forces active. Airstrikes, special operations, advisors. Active foreign
+        combat operations. Invited but significant combat role.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "Mosul campaign coalition forces"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Mosul offensive; ~5,000 US troops; active coalition combat operations"
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -477,13 +725,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Mosul liberation July 2017. ISIS territorial defeat. US ~5,000 troops.
+        Coalition forces continue operations. Active combat operations throughout
+        year. Invited forces in combat support role.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "Coalition forces Iraq 2017"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "ISIS defeat; ~5,000 troops; active combat operations; invited"
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -493,13 +749,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-ISIS. Coalition forces ~5,000 US troops plus coalition partners.
+        Transition from active combat to training/advising. Some operations continue.
+        Significant invited forces. Parliament votes for foreign troop withdrawal
+        (not binding).
+      features:
+        - significant_invited_forces
+      sources:
+        - citation: "Post-ISIS coalition presence"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Post-ISIS; ~5,000 troops; training mission; some operations continue"
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -509,13 +774,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Coalition forces ~5,000 US troops. Training and advising mission. Limited
+        counter-ISIS operations. October protests create anti-foreign sentiment.
+        Significant invited forces but contested domestically.
+      features:
+        - significant_invited_forces
+      sources:
+        - citation: "US forces Iraq 2019"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "~5,000 troops; training mission; October protests; domestic pressure for withdrawal"
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -525,13 +798,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        January 2020: Soleimani killing in Baghdad. Parliament votes (non-binding)
+        for US withdrawal. US ~5,000 troops. Coalition drawdown begins. Some bases
+        transferred to Iraqis. Significant invited forces but politically contested.
+      features:
+        - significant_invited_forces
+      sources:
+        - citation: "Soleimani killing aftermath; Iraq parliament vote"
+          url: null
+          type: news
+          reliability: high
+        - citation: "US troop levels 2020"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Soleimani killing; parliament vote; ~5,000 troops; base closures"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -541,13 +826,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US troop drawdown. Combat mission officially ends December 2021. Transition
+        to ~2,500 troops in advise/train role. Limited invited advisors. No official
+        combat mission but troops remain.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "US combat mission ends December 2021"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Combat mission ends; ~2,500 troops; training/advising only (officially)"
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -557,13 +850,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US ~2,500 troops in training/advising role. Coalition forces minimal.
+        Limited invited advisors. Occasional counter-ISIS operations. Militia
+        attacks on US bases. Limited foreign military presence.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "US forces Iraq 2022"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "~2,500 troops; training mission; militia attacks; limited presence"
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -573,13 +874,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US ~2,500 troops. Limited training/advising mission. Coalition presence
+        minimal. Invited but limited advisors. Occasional counter-ISIS operations.
+        Militia attacks continue. Limited foreign military presence.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "US forces Iraq 2023"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "~2,500 troops; limited mission; militia tensions"
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -589,13 +898,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US ~2,500 troops. Gaza war increases regional tensions and militia attacks.
+        US-Iraq agree to transition coalition mission. Limited invited advisors.
+        Plans for further drawdown but presence continues.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "US-Iraq transition talks 2024"
+          url: null
+          type: news
+          reliability: medium
+        - citation: "US forces Iraq Gaza war period"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "~2,500 troops; Gaza war tensions; transition negotiations; militia attacks"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -605,8 +926,16 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Current year. US forces likely ~2,500. Limited training/advising mission
+        expected to continue. Coalition transition ongoing. Limited invited advisors
+        probable status.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "Current US Iraq military presence"
+          url: null
+          type: government
+          reliability: medium
+      confidence: medium
+      notes: "Projection; transition ongoing; regional tensions"

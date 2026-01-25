@@ -3,7 +3,7 @@ country: iraq
 dimension: international
 years:
   1988:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -13,13 +13,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post Iran-Iraq War. No comprehensive international sanctions. Iraq maintained
+        normal trade relations with most countries. Some US restrictions on dual-use
+        technology but no broad sanctions regime.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "US State Department Iraq history"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Pre-Kuwait invasion period; normal international relations"
   1989:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -29,13 +37,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No major sanctions. Iraq trading normally with international community.
+        Some US export controls on sensitive technology but no economic sanctions.
+        Pre-Kuwait invasion period.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "UN Security Council records"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Final year before Kuwait crisis"
   1990:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -45,13 +61,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        August 2, 1990: Iraq invades Kuwait. August 6: UN Security Council
+        Resolution 661 imposes comprehensive economic sanctions - total trade
+        embargo, asset freeze, oil export ban. Transition from no sanctions to
+        total isolation within days.
+      features:
+        - comprehensive_sanctions
+      sources:
+        - citation: "UN Security Council Resolution 661 (1990)"
+          url: "https://www.un.org/securitycouncil"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Sanctions imposed August 6, 1990; most comprehensive sanctions regime in UN history"
   1991:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -61,13 +86,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Full comprehensive UN sanctions. Resolution 687 (April 1991) maintains
+        sanctions pending weapons inspections and reparations. Complete trade
+        embargo except minimal humanitarian exceptions. Asset freeze. Oil exports
+        banned. Total economic isolation.
+      features:
+        - comprehensive_sanctions
+      sources:
+        - citation: "UN Security Council Resolution 687 (1991)"
+          url: "https://www.un.org/securitycouncil"
+          type: government
+          reliability: high
+        - citation: "Iraq Sanctions Committee reports"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Gulf War; comprehensive sanctions continue; Resolution 687 ceasefire terms"
   1992:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -77,13 +115,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Comprehensive UN sanctions in full effect. No legal oil exports. Trade
+        prohibited except minimal humanitarian goods. UN Sanctions Committee
+        oversees strict enforcement. No sanctions relief. Complete economic embargo.
+      features:
+        - comprehensive_sanctions
+      sources:
+        - citation: "UN Iraq Sanctions Committee annual reports"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Peak sanctions enforcement; humanitarian crisis developing"
   1993:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -93,13 +139,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Comprehensive sanctions continue. Resolution 986 (April 1995) authorizing
+        Oil-for-Food not yet passed. Total embargo maintained. Humanitarian
+        exception minimal. Complete economic isolation continues.
+      features:
+        - comprehensive_sanctions
+      sources:
+        - citation: "UN Sanctions Committee reports 1993"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Mid-sanctions period; no relief mechanism yet"
   1994:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -109,13 +163,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Comprehensive sanctions. UN debates humanitarian impact. Iraq refuses
+        initial Oil-for-Food proposals. Sanctions remain comprehensive with minimal
+        humanitarian exceptions. Complete trade embargo continues.
+      features:
+        - comprehensive_sanctions
+      sources:
+        - citation: "UN Security Council debates 1994"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Sanctions regime under increasing criticism for humanitarian impact"
   1995:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -125,13 +187,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        April 1995: Resolution 986 passed establishing Oil-for-Food program but
+        Iraq rejects terms. Comprehensive sanctions continue. No oil exports. Total
+        embargo maintained. Smuggling increases but sanctions formally comprehensive.
+      features:
+        - comprehensive_sanctions
+      sources:
+        - citation: "UN Security Council Resolution 986 (1995)"
+          url: "https://www.un.org/securitycouncil"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Oil-for-Food authorized but not implemented; Iraq rejects terms"
   1996:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -141,13 +211,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        May 1996: Iraq accepts Oil-for-Food. December 1996: First oil exports under
+        program. Sanctions formally comprehensive but Oil-for-Food creates humanitarian
+        exception. Still broad economic sanctions with strictly controlled trade.
+      features:
+        - broad_economic_humanitarian_exceptions
+      sources:
+        - citation: "UN Oil-for-Food program documentation"
+          url: "https://www.un.org/Depts/oip"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Oil-for-Food begins December 1996; transition from comprehensive to broad with exceptions"
   1997:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -157,13 +235,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil-for-Food operational. Broad economic sanctions with humanitarian
+        exceptions. Oil exports allowed only through UN program. All trade controlled
+        by UN Sanctions Committee. Comprehensive sanctions with significant humanitarian
+        carve-out.
+      features:
+        - broad_economic_humanitarian_exceptions
+      sources:
+        - citation: "UN Oil-for-Food reports 1997"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Oil-for-Food program expanding; sanctions comprehensive but with humanitarian exception"
   1998:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -173,13 +260,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Broad sanctions with Oil-for-Food exceptions. December 1998: Operation
+        Desert Fox (US/UK bombing) after UNSCOM weapons inspectors leave. Sanctions
+        maintained but enforcement eroding. Smuggling increases. Formally comprehensive
+        but weakening.
+      features:
+        - broad_economic_humanitarian_exceptions
+      sources:
+        - citation: "UN Iraq reports 1998"
+          url: null
+          type: government
+          reliability: high
+        - citation: "Operation Desert Fox documentation"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Sanctions erosion beginning; Desert Fox strikes; inspectors out"
   1999:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -189,13 +289,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Broad sanctions with humanitarian exceptions. Oil-for-Food ceiling removed.
+        Sanctions enforcement weakening as countries open illegal trade. Russia,
+        France, China opposing sanctions continuation. Still formally comprehensive
+        but eroding.
+      features:
+        - broad_economic_humanitarian_exceptions
+      sources:
+        - citation: "UN Oil-for-Food expansion 1999"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Sanctions weakening; Oil-for-Food ceiling removed; P5 divisions"
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -205,13 +314,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Broad sanctions with large humanitarian exceptions. Sanctions regime
+        significantly eroded. Many countries open direct trade despite UN prohibition.
+        Iraqi government manipulates Oil-for-Food. Still formally comprehensive
+        but enforcement weak.
+      features:
+        - broad_economic_humanitarian_exceptions
+      sources:
+        - citation: "UN sanctions erosion reports"
+          url: null
+          type: government
+          reliability: medium
+        - citation: "News analysis of sanctions circumvention"
+          url: null
+          type: news
+          reliability: medium
+      confidence: medium
+      notes: "Late Saddam era; sanctions significantly eroded but formally in place"
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -221,13 +343,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Broad sanctions with humanitarian exceptions. May 2001: US proposes "smart
+        sanctions" focusing on military items. Sanctions weakening but still formally
+        in place. Oil-for-Food continues with increasing corruption.
+      features:
+        - broad_economic_humanitarian_exceptions
+      sources:
+        - citation: "US 'smart sanctions' proposal 2001"
+          url: null
+          type: government
+          reliability: high
+        - citation: "UN Oil-for-Food reports"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Pre-9/11 and pre-invasion; smart sanctions proposed but not implemented"
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -237,13 +371,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Broad sanctions with humanitarian exceptions. November 2002: Resolution
+        1441 on weapons inspections. Sanctions maintained as pressure for disarmament.
+        Oil-for-Food continues. Pre-invasion uncertainty about sanctions future.
+      features:
+        - broad_economic_humanitarian_exceptions
+      sources:
+        - citation: "UN Security Council Resolution 1441 (2002)"
+          url: "https://www.un.org/securitycouncil"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Pre-invasion; Resolution 1441; sanctions as coercive tool"
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -253,13 +395,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        March 2003: US invasion. May 22, 2003: UN Resolution 1483 lifts sanctions
+        imposed in 1990. Oil-for-Food program ends November. Transition from sanctions
+        to post-war reconstruction. Comprehensive sanctions lifted.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "UN Security Council Resolution 1483 (2003)"
+          url: "https://www.un.org/securitycouncil"
+          type: government
+          reliability: high
+        - citation: "Oil-for-Food termination documentation"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Invasion March; sanctions lifted May 22; Oil-for-Food ends November"
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -269,13 +423,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No UN sanctions. CPA occupation continues. Iraq under US-led coalition
+        control. No international economic sanctions. Full access to international
+        trade and finance restored.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "UN Iraq reports 2004"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "CPA period; no sanctions; full international economic access"
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -285,13 +447,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No sanctions. Iraqi transitional government. Full participation in international
+        economy. No economic restrictions. Iraq rejoins international financial
+        institutions. Normal trade relations.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "IMF Iraq Article IV 2006"
+          url: null
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "Post-CPA; sovereign government; no sanctions"
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -301,13 +471,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No sanctions. Civil war but no international sanctions. Iraq maintains
+        normal international trade relations. Full access to global financial
+        system despite internal conflict.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "World Bank Iraq reports"
+          url: null
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "Civil war but no international sanctions"
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -317,13 +495,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No sanctions. Peak violence year but no international economic restrictions.
+        Iraq participates fully in international economy. Normal trade and financial
+        relations maintained.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "UN Iraq reports 2007"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Surge year; violence peak; no sanctions"
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -333,13 +519,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No sanctions. Iraq full member of international community. Normal trade
+        relations. No economic restrictions. Post-surge stabilization. International
+        economic integration complete.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "IMF Iraq Article IV 2008"
+          url: null
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "Post-surge; no sanctions; normal international relations"
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -349,13 +543,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No sanctions. Iraq fully integrated into international economy. Normal
+        trade and financial relations. No restrictions. Member of international
+        institutions.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "World Bank Iraq reports"
+          url: null
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "Continued normal international economic status"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -365,13 +567,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No sanctions. Political deadlock domestically but no international restrictions.
+        Iraq maintains normal international trade and financial relations. Full
+        global economic integration.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "UN Iraq reports 2010"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Political deadlock but no international sanctions"
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -381,13 +591,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No sanctions. US withdrawal December 2011. Iraq sovereign and no international
+        sanctions. Normal trade relations. Full participation in international
+        economy. No restrictions.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "IMF Iraq reports 2011"
+          url: null
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "US withdrawal; full sovereignty; no sanctions"
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -397,13 +615,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No sanctions. Iraq fully integrated internationally. Normal trade and
+        financial relations. No restrictions. Member of international economic
+        institutions. Some individual terror designations but no country-level sanctions.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "World Bank Iraq data"
+          url: null
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "No sanctions; normal international status"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -413,13 +639,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No country-level sanctions. ISIS emerging but no international sanctions
+        against Iraq. Normal trade relations maintained. Full international economic
+        access. Some terrorist designations of individuals.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "UN Iraq reports 2013"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Pre-ISIS crisis; no sanctions"
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -429,13 +663,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No sanctions against Iraq. ISIS crisis June 2014 but international community
+        supports Iraqi government. UN sanctions against ISIS individuals/entities
+        not Iraq. Iraq maintains normal international trade relations despite crisis.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "UN sanctions on ISIS not Iraq"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "ISIS crisis but no sanctions on Iraq; international support for government"
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -445,13 +687,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No sanctions. Anti-ISIS war. International support for Iraq. UN/US sanctions
+        target ISIS not Iraqi government. Iraq maintains normal trade relations
+        with international community. No restrictions.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "UN Security Council ISIS sanctions"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "ISIS war; international coalition supports Iraq; no sanctions on Iraq"
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -461,13 +711,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No sanctions. Mosul liberation campaign. International coalition supports
+        Iraqi government. No economic restrictions. Normal trade and financial
+        relations maintained. Sanctions target ISIS not Iraq.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "Coalition anti-ISIS support documentation"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Mosul offensive; coalition support; no sanctions on Iraq"
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -477,13 +735,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No sanctions. ISIS territorial defeat July 2017. Iraq maintains normal
+        international relations. No economic restrictions. Full participation in
+        international trade and finance. International support continues.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "UN Iraq reports 2017"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "ISIS defeat; reconstruction beginning; no sanctions"
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -493,13 +759,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No sanctions. Post-ISIS recovery. Iraq maintains normal international
+        economic relations. No restrictions. Full access to trade and finance.
+        Some US tensions over Iran ties but no sanctions.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "IMF Iraq reports 2018"
+          url: null
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "Post-ISIS; US-Iran tensions but no Iraq sanctions"
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -509,13 +783,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No country-level sanctions. October 2019 protests. Iraq maintains normal
+        international relations. US pressure over Iran ties but no broad sanctions.
+        Individual sanctions on some Iraqi officials for protest violence.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "US Treasury OFAC Iraq designations 2019"
+          url: "https://home.treasury.gov/policy-issues/financial-sanctions"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "October protests; some individual sanctions but no country-level sanctions"
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -525,13 +807,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Targeted individual sanctions only. COVID-19 pandemic. US sanctions some
+        Iraqi officials and militia leaders over Iran ties and protest violence.
+        No broad economic sanctions. Normal trade relations maintained. Individual
+        designations not country-level.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "US Treasury Iraq sanctions designations"
+          url: "https://home.treasury.gov/policy-issues/financial-sanctions"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "COVID-19; individual sanctions on officials/militias; no broad sanctions"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -541,13 +832,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Targeted individual sanctions. US maintains individual designations on
+        militia leaders and some officials. No country-level sanctions. Iraq normal
+        international trade status. Individual sanctions for terrorism, corruption,
+        human rights.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "US OFAC Iraq sanctions list"
+          url: "https://home.treasury.gov/policy-issues/financial-sanctions"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Individual sanctions only; no broad economic restrictions"
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -557,13 +857,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Targeted individual sanctions. US/EU maintain individual designations on
+        officials, militia leaders for corruption, terrorism, human rights. No
+        country-level economic sanctions. Iraq maintains normal international trade
+        relations.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "US Treasury Iraq sanctions 2022"
+          url: "https://home.treasury.gov/policy-issues/financial-sanctions"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Individual sanctions for corruption/terrorism; no broad sanctions"
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -573,13 +882,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Targeted individual sanctions. US/EU sanction individuals for corruption,
+        militia activities, human rights violations. No country-level sanctions.
+        Iraq fully integrated in international economy. Normal trade and financial
+        relations.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "US OFAC sanctions list 2023"
+          url: "https://home.treasury.gov/policy-issues/financial-sanctions"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Individual sanctions only; Sudani government; no broad restrictions"
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -589,13 +907,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Targeted individual sanctions. US maintains designations on militia leaders,
+        corrupt officials. Gaza/Israel conflict creates regional tensions but no
+        new Iraq sanctions. Normal international trade status maintained.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "US Treasury sanctions list 2024"
+          url: "https://home.treasury.gov/policy-issues/financial-sanctions"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Regional tensions; individual sanctions only; no country-level restrictions"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -605,8 +931,16 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Current year. Likely continuation of targeted individual sanctions on
+        militia leaders and corrupt officials. No indication of country-level
+        sanctions. Iraq maintains normal international economic status.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "Current US sanctions policy toward Iraq"
+          url: null
+          type: government
+          reliability: medium
+      confidence: medium
+      notes: "Projection based on current policy; subject to change"

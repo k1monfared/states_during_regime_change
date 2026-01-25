@@ -3,7 +3,7 @@ country: iraq
 dimension: economic
 years:
   1988:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
@@ -13,13 +13,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Pre-Gulf War Iraq under Saddam Hussein's regime. State-dominated economy with
+        significant public sector employment. Unemployment relatively low due to large
+        state apparatus and military mobilization during Iran-Iraq War aftermath.
+      features:
+        - moderate_5_10pct
+      sources:
+        - citation: "ILO historical estimates for Iraq"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: low
+      notes: "Limited reliable data from this period; estimates based on regional comparisons"
   1989:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
@@ -29,13 +37,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued state-dominated employment. Economy recovering from Iran-Iraq War.
+        Large public sector and military employment kept official unemployment low.
+      features:
+        - moderate_5_10pct
+      sources:
+        - citation: "ILO historical estimates"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: low
+      notes: "Pre-sanctions period estimates"
   1990:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
@@ -45,13 +60,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        August 1990 invasion of Kuwait. Economic disruption begins. Employment still
+        maintained through state apparatus but economic shock beginning.
+      features:
+        - elevated_10_15pct
+      sources:
+        - citation: "ILO reports on Iraq labor market"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: low
+      notes: "Kuwait invasion August 1990; initial economic shock"
   1991:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
@@ -61,13 +83,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Gulf War and imposition of comprehensive UN sanctions. Massive economic collapse.
+        Private sector devastated, state unable to maintain employment levels.
+        Unemployment surges dramatically.
+      features:
+        - high_15_25pct
+      sources:
+        - citation: "ILO: Impact of UN sanctions on Iraqi labor market"
+          url: null
+          type: think_tank_report
+          reliability: medium
+      confidence: medium
+      notes: "Sanctions imposed August 1990, Gulf War January-February 1991"
   1992:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
@@ -77,13 +107,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Full sanctions in effect. Economic activity severely constrained. Unemployment
+        remains very high as formal economy shrinks. Growth of informal sector.
+      features:
+        - high_15_25pct
+      sources:
+        - citation: "Abbas Alnasrawi, Iraq's Economic Predicament (1994)"
+          url: null
+          type: academic
+          reliability: high
+      confidence: medium
+      notes: "Sanctions period; limited formal data collection"
   1993:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
@@ -93,13 +130,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued sanctions. Unemployment remains very high. Public sector wages
+        become worthless due to hyperinflation. Many nominally employed but
+        functionally unemployed.
+      features:
+        - very_high_25_40pct
+      sources:
+        - citation: "UN FAO reports on Iraq humanitarian situation"
+          url: null
+          type: ngo
+          reliability: medium
+      confidence: low
+      notes: "Hyperinflation era; formal employment categories less meaningful"
   1994:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
@@ -109,13 +154,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Peak sanctions period. Economy at its worst. Very high unemployment and
+        underemployment. Formal sector minimal outside government.
+      features:
+        - very_high_25_40pct
+      sources:
+        - citation: "World Bank: Iraq reconstruction estimates (2003)"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: low
+      notes: "Retrospective estimates; no reliable contemporary data"
   1995:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
@@ -125,13 +177,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued very high unemployment. Oil-for-Food program not yet implemented.
+        Informal economy dominates. Public sector employment nominal.
+      features:
+        - very_high_25_40pct
+      sources:
+        - citation: "ILO estimates"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: low
+      notes: "Pre Oil-for-Food program"
   1996:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
@@ -141,13 +200,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil-for-Food program begins (December 1996). Slight economic activity increase
+        but unemployment remains very high. Limited improvement in formal employment.
+      features:
+        - very_high_25_40pct
+      sources:
+        - citation: "UN Oil-for-Food program reports"
+          url: null
+          type: government
+          reliability: medium
+      confidence: low
+      notes: "Oil-for-Food begins December 1996"
   1997:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
@@ -157,13 +223,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil-for-Food program operational. Some economic relief but unemployment
+        remains very high. Public sector dominant but wages insufficient.
+      features:
+        - very_high_25_40pct
+      sources:
+        - citation: "ILO Iraq labor market assessment"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: low
+      notes: "Sanctions still in full effect"
   1998:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
@@ -173,13 +246,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued high unemployment despite Oil-for-Food. Economic activity constrained
+        by sanctions. Informal sector large but unmeasured.
+      features:
+        - high_15_25pct
+      sources:
+        - citation: "World Bank retrospective analysis"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: low
+      notes: "Late sanctions period"
   1999:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
@@ -189,13 +269,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sanctions continuing. Unemployment high but somewhat stabilized as economy
+        adapts to constrained conditions through informal mechanisms.
+      features:
+        - high_15_25pct
+      sources:
+        - citation: "ILO estimates"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: low
+      notes: "Pre-invasion period"
   2000:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
@@ -205,13 +292,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Final years of Saddam regime. Sanctions erosion begins as countries open
+        trade. Some economic activity increase but unemployment remains high.
+      features:
+        - high_15_25pct
+      sources:
+        - citation: "World Bank Iraq data"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: low
+      notes: "Sanctions erosion beginning"
   2001:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
@@ -221,13 +315,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Pre-invasion period. Sanctions weakening. Iraqi government smuggling operations
+        and Oil-for-Food manipulation provide some economic activity but unemployment
+        remains high.
+      features:
+        - high_15_25pct
+      sources:
+        - citation: "UN reports on Iraq economy 2001"
+          url: null
+          type: government
+          reliability: medium
+      confidence: low
+      notes: "Late Saddam era"
   2002:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
@@ -237,365 +339,590 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Final year before invasion. Economic uncertainty. Sanctions still in place
+        but weakening. Unemployment high as regime prepares for potential conflict.
+      features:
+        - high_15_25pct
+      sources:
+        - citation: "CIA World Factbook 2002"
+          url: null
+          type: government
+          reliability: medium
+      confidence: low
+      notes: "Pre-invasion uncertainty"
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 28.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ILO Iraq labor market analysis 2003-2004"
+        url: "https://www.ilo.org/publications"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US invasion March 2003. Saddam regime falls April. Complete economic
+        collapse. State institutions dissolve. CPA disbands Iraqi army (400,000
+        soldiers unemployed). Looting and lawlessness. Unemployment surges to
+        crisis levels. No formal economy outside Coalition operations.
+      features:
+        - very_high_25_40pct
+      sources:
+        - citation: "ILO Iraq labor market analysis 2003-2004"
+          url: "https://www.ilo.org/publications"
+          type: dataset
+          reliability: high
+        - citation: "Brookings Iraq Index 2003"
+          url: "https://www.brookings.edu"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Invasion March; regime collapse April; CPA assumes authority; army disbanded May"
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 26.8
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq economic data"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        CPA occupation continues. Insurgency intensifies. Unemployment remains
+        at crisis levels despite reconstruction spending. Security situation
+        prevents economic recovery. Public sector slowly reconstitutes.
+      features:
+        - very_high_25_40pct
+      sources:
+        - citation: "World Bank Iraq reconstruction data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "CPA period; insurgency escalating; June 2004 sovereignty transfer"
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 18.0
       unit: percent_labor_force
       source:
-        citation: null
+        citation: "ILO estimates for Iraq 2005"
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-01-24"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-CPA period. Iraqi transitional government. Reconstruction spending
+        creates some employment but sectarian tensions rising. Security private
+        sector employs many. Unemployment high but declining from 2003-2004 peak.
+      features:
+        - high_15_25pct
+      sources:
+        - citation: "ILO Iraq estimates"
+          url: null
+          type: dataset
+          reliability: medium
+        - citation: "Iraq Ministry of Planning estimates"
+          url: null
+          type: government
+          reliability: low
+      confidence: medium
+      notes: "First elected government; data quality improving but still uncertain"
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 17.5
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2006"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sectarian civil war begins. February 2006 Samarra mosque bombing.
+        Unemployment remains high. Security sector employment grows. Formal
+        private sector minimal. Displacement disrupts labor markets.
+      features:
+        - high_15_25pct
+      sources:
+        - citation: "World Bank Iraq economic indicators"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Civil war begins; data collection difficult"
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 17.5
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2007"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Peak violence year. US surge begins. Unemployment remains high despite
+        massive US spending. Sectarian conflict disrupts employment. "Sons of Iraq"
+        program employs 100,000 in security.
+      features:
+        - high_15_25pct
+      sources:
+        - citation: "World Bank data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Surge year; Awakening movements; peak violence"
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 15.3
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq economic data 2008"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Violence declining. Surge working. Oil prices high providing revenue
+        for government employment. Unemployment begins declining. Public sector
+        expands. Formal private sector still weak.
+      features:
+        - high_15_25pct
+      sources:
+        - citation: "World Bank data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Post-surge stabilization; oil boom"
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 15.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Relative stability. Oil revenues fund public sector expansion. Unemployment
+        slowly declining but remains high. Youth unemployment particularly severe.
+        Private sector development limited.
+      features:
+        - high_15_25pct
+      sources:
+        - citation: "World Bank data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Global financial crisis impacts oil prices briefly"
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 15.3
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq indicators"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-election political deadlock. Government formation delayed. Unemployment
+        stagnant at high levels. Oil sector expansion creates few jobs. Public
+        sector remains dominant employer.
+      features:
+        - high_15_25pct
+      sources:
+        - citation: "World Bank Iraq economic indicators"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Political deadlock after March 2010 election"
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 16.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank data 2011"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US withdrawal completed December 2011. Arab Spring protests. Unemployment
+        remains high. Youth unemployment fuels protests. Public sector saturated.
+        Private sector weak.
+      features:
+        - high_15_25pct
+      sources:
+        - citation: "World Bank data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+        - citation: "ILO Iraq labor market assessment"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "US withdrawal; Arab Spring; increasing sectarian tensions"
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 16.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sectarian tensions rising. Syrian civil war spillover begins. Unemployment
+        stagnant. ISIS precursors gaining strength in Anbar. Economic stagnation
+        despite oil revenues.
+      features:
+        - high_15_25pct
+      sources:
+        - citation: "World Bank indicators"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Syrian war begins; sectarian tensions increasing"
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 16.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq economic data"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Security deteriorating. ISIS emerging in western Iraq. Unemployment
+        remains stubbornly high. Anbar unrest. Government employment patronage
+        system strained. Youth unemployment crisis.
+      features:
+        - high_15_25pct
+      sources:
+        - citation: "World Bank data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "ISIS emerging; Anbar protests"
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 16.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2014"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        June 2014: ISIS seizes Mosul and large portions of northern and western
+        Iraq. Massive displacement. Economic activity collapses in ISIS areas.
+        Unemployment surges. 3 million displaced. Oil prices collapse in second
+        half. Fiscal crisis begins.
+      features:
+        - high_15_25pct
+      sources:
+        - citation: "World Bank Iraq data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+        - citation: "ILO: Impact of ISIS on Iraq labor market"
+          url: null
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "ISIS seizes Mosul June 2014; oil price collapse; massive displacement"
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 16.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq economic data 2015"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Full-scale war against ISIS. Government controls limited territory.
+        Oil revenues collapsed. Fiscal crisis. Salary delays. Unemployment
+        understated due to displacement and non-counting of ISIS areas. Youth
+        unemployment over 40%.
+      features:
+        - high_15_25pct
+      sources:
+        - citation: "World Bank Iraq indicators 2015"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+        - citation: "ILO Iraq assessment"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "ISIS controls 40% of territory; oil price collapse continues; official data excludes ISIS areas"
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 16.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank data 2016"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Anti-ISIS campaign intensifies. Mosul liberation begins October 2016.
+        Unemployment officially unchanged but situation varies dramatically by
+        region. Government employment strained by fiscal crisis. Displacement
+        continues.
+      features:
+        - high_15_25pct
+      sources:
+        - citation: "World Bank Iraq economic data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Mosul offensive begins; fiscal crisis; austerity measures"
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 13.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2017"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        ISIS territorial defeat July 2017. Mosul liberated. Reconstruction
+        beginning. Unemployment declining as government services restore.
+        Massive destruction in liberated areas. Youth unemployment 25%.
+      features:
+        - elevated_10_15pct
+      sources:
+        - citation: "World Bank Iraq indicators"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+        - citation: "ILO Iraq labor market 2017"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "ISIS territorial defeat declared; reconstruction begins; oil prices recovering"
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 12.8
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq economic data 2018"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-ISIS recovery. Oil prices higher. Government revenues improving.
+        Unemployment declining. Youth unemployment remains high (25-30%).
+        Reconstruction employment. Political protests over unemployment and
+        services begin in Basra.
+      features:
+        - elevated_10_15pct
+      sources:
+        - citation: "World Bank data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Post-ISIS recovery; Basra protests July-September; government formation delays"
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 12.8
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2019"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        October 2019: massive protests over unemployment, corruption, services.
+        Unemployment officially moderate but youth unemployment crisis drives
+        protests. Public sector employment dominates. Private sector minimal.
+        Government paralyzed.
+      features:
+        - elevated_10_15pct
+      sources:
+        - citation: "World Bank Iraq indicators"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+        - citation: "ILO Iraq labor market analysis 2019"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: high
+      notes: "October 2019 protests; youth unemployment 25%; government resigns November"
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 13.8
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq economic data 2020"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        COVID-19 pandemic. Oil price collapse (briefly negative April 2020).
+        Fiscal crisis. Salary delays. Unemployment rises. Private sector
+        devastated. Youth unemployment over 30%. Economic contraction.
+      features:
+        - elevated_10_15pct
+      sources:
+        - citation: "World Bank Iraq data 2020"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+        - citation: "ILO COVID-19 impact Iraq"
+          url: null
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "COVID-19; oil price collapse; fiscal crisis; political deadlock"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 13.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq indicators 2021"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil prices recovering. Economic recovery begins. Unemployment declining
+        slightly. October 2021 elections. Political deadlock continues.
+        Youth unemployment remains crisis level (25-30%).
+      features:
+        - elevated_10_15pct
+      sources:
+        - citation: "World Bank data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Oil recovery; elections October; deadlock continues through 2022"
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 12.9
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2022"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil boom due to Russia-Ukraine war. High oil prices. Government revenues
+        surge. Unemployment declining. Public sector expansion. Political crisis
+        throughout year (government formation delayed until October).
+      features:
+        - elevated_10_15pct
+      sources:
+        - citation: "World Bank Iraq economic indicators 2022"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+        - citation: "ILO Iraq data 2022"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: high
+      notes: "Oil boom; political crisis; government formed October after year-long deadlock"
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 12.5
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2023"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued oil revenue strength. Unemployment declining slowly. Sudani
+        government focuses on services and employment. Public sector still
+        dominates. Private sector development minimal. Youth unemployment 23-25%.
+      features:
+        - elevated_10_15pct
+      sources:
+        - citation: "World Bank Iraq indicators 2023"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "Sudani government; oil revenues high; Gaza war impacts regional stability"
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 12.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq estimates 2024"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Unemployment continues gradual decline. Public sector employment expansion
+        continues. Oil revenues sustain government spending. Private sector
+        development slow. Youth unemployment remains structural issue (22-25%).
+      features:
+        - elevated_10_15pct
+      sources:
+        - citation: "World Bank Iraq projections 2024"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Estimates; regional tensions from Gaza/Israel conflict"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
@@ -605,8 +932,16 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Current year. Economic trajectory dependent on oil prices and regional
+        stability. Structural unemployment remains challenge. Youth unemployment
+        crisis persists despite overall economic growth.
+      features:
+        - elevated_10_15pct
+      sources:
+        - citation: "World Bank Iraq outlook 2025"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: low
+      confidence: low
+      notes: "Projection only; high uncertainty"

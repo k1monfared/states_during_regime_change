@@ -3,7 +3,7 @@ country: iraq
 dimension: economic
 years:
   1988:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -13,13 +13,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post Iran-Iraq War period. Iraq heavily oil-dependent. Trade constrained
+        by war debt and regional tensions. Oil exports to world market but imports
+        limited by debt burden. Trade openness moderate given oil dependence.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank historical trade data"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: low
+      notes: "Limited reliable data; estimates based on oil export patterns"
   1989:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -29,13 +37,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued oil-dependent trade. Exports recovering from war period. Trade
+        moderate but constrained by debt and international isolation.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "IMF historical data"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: low
+      notes: "Pre-sanctions period"
   1990:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -45,13 +60,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        August 1990: Kuwait invasion triggers UN sanctions (August 6). Trade
+        collapses rapidly. Oil exports halted under UN embargo. Imports restricted.
+        Transition from moderate trade to autarky.
+      features:
+        - closed_lt_20pct
+      sources:
+        - citation: "UN Security Council Resolution 661 (1990)"
+          url: null
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "Sanctions imposed August 6, 1990; trade collapse in second half of year"
   1991:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -61,13 +84,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Comprehensive UN sanctions. No legal oil exports. Trade essentially zero
+        except smuggling. Autarky conditions. Gulf War destruction. International
+        isolation complete.
+      features:
+        - autarky_or_blockade
+      sources:
+        - citation: "UN sanctions regime documentation"
+          url: null
+          type: government
+          reliability: high
+        - citation: "Alnasrawi: Iraq's Economic Predicament"
+          url: null
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "Full sanctions; Gulf War; complete trade embargo"
   1992:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -77,13 +112,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued comprehensive sanctions. No legal oil exports. Minimal trade
+        through smuggling networks. Economic autarky. Humanitarian crisis deepens.
+      features:
+        - autarky_or_blockade
+      sources:
+        - citation: "UN sanctions reports 1992"
+          url: null
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Sanctions period; near-total trade embargo"
   1993:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -93,13 +135,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sanctions continuing. Smuggling increases but remains small relative to
+        pre-sanctions trade. Autarky conditions. Hyperinflation era.
+      features:
+        - autarky_or_blockade
+      sources:
+        - citation: "FAO humanitarian reports on Iraq"
+          url: null
+          type: ngo
+          reliability: medium
+      confidence: medium
+      notes: "Peak sanctions period; smuggling networks developing"
   1994:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -109,13 +158,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued autarky. Smuggling through Jordan, Turkey, Iran grows but
+        insufficient to restore normal trade patterns. Economy isolated.
+      features:
+        - autarky_or_blockade
+      sources:
+        - citation: "World Bank retrospective analysis"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Sanctions regime; smuggling operations increasing"
   1995:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -125,13 +181,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Autarky continues. Oil-for-Food negotiations begin but not yet implemented.
+        Smuggling networks more organized but trade volumes minimal.
+      features:
+        - autarky_or_blockade
+      sources:
+        - citation: "UN Oil-for-Food negotiations"
+          url: null
+          type: government
+          reliability: medium
+      confidence: medium
+      notes: "Pre Oil-for-Food; smuggling but no legal trade"
   1996:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -141,13 +204,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil-for-Food program begins December 1996. First legal oil exports since
+        1990. Humanitarian imports allowed. Trade still severely restricted but
+        no longer complete autarky. Transition year.
+      features:
+        - closed_lt_20pct
+      sources:
+        - citation: "UN Oil-for-Food program reports"
+          url: "https://www.un.org"
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "Oil-for-Food begins December 1996; partial reopening of trade"
   1997:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -157,13 +228,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil-for-Food operational. Controlled oil exports for humanitarian imports.
+        Trade volumes increasing but still severely restricted. UN controls all
+        transactions. Trade openness minimal but improving from autarky.
+      features:
+        - closed_lt_20pct
+      sources:
+        - citation: "UN Oil-for-Food reports 1997"
+          url: null
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "Oil-for-Food program; controlled trade only"
   1998:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -173,13 +252,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil-for-Food volumes increase. Ceiling raised. Trade still restricted
+        to humanitarian goods. Smuggling continues alongside official channels.
+        Trade openness low but improving.
+      features:
+        - closed_lt_20pct
+      sources:
+        - citation: "UN Oil-for-Food data"
+          url: null
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "Late sanctions period; Oil-for-Food expanding"
   1999:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -189,13 +276,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil-for-Food mature. Oil price recovery increases revenues. Trade volumes
+        higher but still restricted to permitted categories. Sanctions eroding
+        as countries open unofficial trade. Trade openness low.
+      features:
+        - closed_lt_20pct
+      sources:
+        - citation: "World Bank Iraq data"
+          url: null
+          type: dataset
+          reliability: medium
+      confidence: low
+      notes: "Sanctions erosion beginning; unofficial trade increasing"
   2000:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -205,13 +300,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil-for-Food continuing. Sanctions weakening as countries pursue bilateral
+        deals. Iraqi government manipulates program. Trade increasing but still
+        constrained. Smuggling substantial.
+      features:
+        - restricted_20_40pct
+      sources:
+        - citation: "UN reports on sanctions erosion"
+          url: null
+          type: government
+          reliability: medium
+      confidence: low
+      notes: "Late Saddam era; sanctions weakening but still in place"
   2001:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -221,13 +324,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sanctions erosion continues. Oil-for-Food volumes high. Smuggling networks
+        robust. Trade openness improving but still restricted. Multiple parallel
+        trade channels (legal Oil-for-Food, smuggling, illegal bilateral).
+      features:
+        - restricted_20_40pct
+      sources:
+        - citation: "IMF Iraq data"
+          url: null
+          type: dataset
+          reliability: low
+      confidence: low
+      notes: "Pre-invasion; sanctions significantly eroded"
   2002:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -237,365 +348,560 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Final pre-invasion year. Oil-for-Food continues. Sanctions still formally
+        in place but widely evaded. Trade openness restricted but higher than
+        mid-1990s. Uncertainty about impending conflict.
+      features:
+        - restricted_20_40pct
+      sources:
+        - citation: "World Bank retrospective"
+          url: null
+          type: dataset
+          reliability: low
+      confidence: low
+      notes: "Pre-invasion uncertainty; sanctions nominally in place"
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 86.2
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq economic data 2003"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US invasion March 2003. Regime change April. Sanctions lifted May 22.
+        Oil-for-Food ends November. Oil exports resume under CPA. Massive imports
+        for reconstruction and humanitarian needs. Trade surges as Iraq opens
+        completely. High trade openness due to reconstruction imports and oil exports.
+      features:
+        - open_70_100pct
+      sources:
+        - citation: "World Bank Iraq data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+        - citation: "IMF Iraq Article IV 2004"
+          url: null
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "Invasion; sanctions lifted; Oil-for-Food ends; trade reopens completely"
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 75.8
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2004"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        CPA period. Oil exports recovering. Reconstruction imports massive.
+        Insurgency disrupts some trade routes. Trade openness high driven by
+        oil exports and reconstruction needs. Iraq fully integrated into global
+        economy but security challenges.
+      features:
+        - open_70_100pct
+      sources:
+        - citation: "World Bank Iraq indicators"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "CPA period; reconstruction imports; insurgency beginning"
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 74.9
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2005"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-CPA. Iraqi transitional government. Oil exports continue. Imports
+        remain high for reconstruction and consumption. Trade openness high.
+        Security situation affects land routes but sea trade continues.
+      features:
+        - open_70_100pct
+      sources:
+        - citation: "World Bank data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Sovereignty transfer; oil exports robust; reconstruction continues"
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 82.3
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq economic data 2006"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sectarian civil war begins. Oil exports continue despite violence.
+        Imports high. Trade openness very high relative to GDP. Security disrupts
+        internal distribution but external trade continues, especially oil exports.
+      features:
+        - open_70_100pct
+      sources:
+        - citation: "World Bank Iraq data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Civil war; oil sector continues; high import dependence"
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 71.5
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2007"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Peak violence. US surge. Oil exports maintained. Import dependence high.
+        Trade openness high despite security crisis. Oil sector insulated from
+        much of the violence. Food and goods imports essential.
+      features:
+        - open_70_100pct
+      sources:
+        - citation: "World Bank indicators"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Surge year; violence peaks but trade continues"
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 84.9
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2008"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Violence declining. Oil boom year (prices reach $140/barrel mid-year).
+        Oil exports surge. Imports increase with higher revenues. Trade openness
+        very high. Iraq heavily oil-export dependent.
+      features:
+        - open_70_100pct
+      sources:
+        - citation: "World Bank data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "Oil boom; post-surge stabilization; high trade volumes"
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 79.8
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2009"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil prices recover from 2008 crash. Trade openness high. Iraq oil-dependent
+        economy fully integrated into global oil markets. Imports meet most
+        consumer needs. Minimal domestic manufacturing.
+      features:
+        - open_70_100pct
+      sources:
+        - citation: "World Bank Iraq indicators"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Post-global financial crisis; oil sector dominance"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 77.7
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2010"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade openness high. Oil exports 95% of government revenue. Imports
+        supply most consumer goods. Trade pattern: oil exports, everything else
+        imports. Economy structurally dependent on trade.
+      features:
+        - open_70_100pct
+      sources:
+        - citation: "World Bank data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Oil monoculture economy; high import dependence"
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 80.4
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2011"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US withdrawal December 2011. Oil exports continue expanding. Trade openness
+        high. Iraq increases oil production. Import dependence continues for food,
+        manufactured goods, services.
+      features:
+        - open_70_100pct
+      sources:
+        - citation: "World Bank Iraq economic data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "US withdrawal; oil sector expansion; trade pattern stable"
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 87.6
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2012"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil production increases. Exports high. Trade openness very high. Iraq
+        among most trade-dependent economies globally due to oil monoculture
+        and import dependence. No economic diversification.
+      features:
+        - open_70_100pct
+      sources:
+        - citation: "World Bank indicators"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Oil production growth; very high trade dependency"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 84.7
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2013"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade openness remains very high. Oil exports dominant. Security deteriorating
+        but oil sector continues. Imports sustain consumption. Trade structure
+        unchanged: export oil, import everything else.
+      features:
+        - open_70_100pct
+      sources:
+        - citation: "World Bank data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "ISIS emerging but trade not yet disrupted"
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 77.0
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2014"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        June 2014: ISIS seizes Mosul. Northern oil fields disrupted but southern
+        exports continue. Oil price collapse second half 2014. Trade volumes
+        decline. Trade openness still high but reduced from peak. Export revenue
+        crisis.
+      features:
+        - open_70_100pct
+      sources:
+        - citation: "World Bank Iraq indicators 2014"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "ISIS crisis; oil price collapse; northern fields disrupted"
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 66.8
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2015"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Low oil prices. Export revenues collapsed. Imports cut due to fiscal
+        crisis. Trade openness declining. Government austerity. Kurdistan region
+        disputes over oil. War against ISIS.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank Iraq economic data 2015"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Oil crisis; ISIS war; fiscal austerity; trade contraction"
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 67.0
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2016"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued low oil prices. Anti-ISIS campaign. Trade volumes suppressed
+        by fiscal crisis. Oil exports volumes increase but prices low. Import
+        compression continues. Trade openness moderate.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Mosul offensive; low oil prices; compressed trade"
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 72.5
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2017"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        ISIS territorial defeat July 2017. Oil prices recovering. Oil exports
+        increase. Imports rise for reconstruction. Trade openness increasing.
+        Northern fields back online. Kurdistan crisis over oil.
+      features:
+        - open_70_100pct
+      sources:
+        - citation: "World Bank Iraq indicators"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "ISIS defeat; oil recovery; reconstruction imports; Kurdish crisis"
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 78.7
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2018"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil prices higher. Export revenues improving. Imports increase. Trade
+        openness high. Iraq remains oil monoculture. Diversification minimal
+        despite post-ISIS recovery.
+      features:
+        - open_70_100pct
+      sources:
+        - citation: "World Bank data"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Post-ISIS recovery; higher oil prices; trade expansion"
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 71.2
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2019"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil price volatility. Trade openness high but declining from 2018. October
+        protests disrupt some trade. Iraq remains oil-export dependent. Import
+        dependence unchanged.
+      features:
+        - open_70_100pct
+      sources:
+        - citation: "World Bank Iraq indicators"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "October protests; oil volatility; trade structure unchanged"
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 61.4
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2020"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        COVID-19 pandemic. Oil price collapse (negative prices April 2020).
+        Trade volumes crash. Export revenues devastated. Import compression.
+        Trade openness declines sharply. Fiscal crisis reduces imports.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank Iraq economic data 2020"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+        - citation: "IMF Iraq reports 2020"
+          url: null
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "COVID-19; oil price collapse; trade contraction"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 73.8
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2021"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil prices recovering. Export revenues increasing. Imports rise. Trade
+        openness rebounds from 2020 crash. Economic recovery driven by oil price
+        recovery and trade expansion.
+      features:
+        - open_70_100pct
+      sources:
+        - citation: "World Bank indicators"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Oil recovery; trade rebound from 2020 collapse"
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 88.5
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2022"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil boom from Russia-Ukraine war. Oil prices surge. Export revenues
+        record levels. Imports surge with high revenues. Trade openness very
+        high. Iraq benefits massively from oil price shock.
+      features:
+        - open_70_100pct
+      sources:
+        - citation: "World Bank Iraq economic indicators 2022"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "Russia-Ukraine war; oil boom; trade surge; record revenues"
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 81.2
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq data 2023"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil prices stable at elevated levels. Trade openness very high. Iraq
+        remains one of most trade-dependent economies globally. Oil monoculture
+        unchanged. Import dependence total for manufactures, food.
+      features:
+        - open_70_100pct
+      sources:
+        - citation: "World Bank Iraq indicators 2023"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "Elevated oil prices; stable trade; no diversification"
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 78.0
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Iraq estimates 2024"
+        url: "https://data.worldbank.org"
+        access_date: "2026-01-24"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade openness remains high. Oil dependence unchanged. Regional tensions
+        from Gaza/Israel conflict affect trade routes but oil exports continue.
+        Import dependence structural feature of Iraqi economy.
+      features:
+        - open_70_100pct
+      sources:
+        - citation: "World Bank Iraq projections 2024"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Estimates; regional tensions; oil monoculture persists"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -605,8 +911,16 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Current year. Trade trajectory dependent on oil prices and regional
+        stability. Structural oil dependence unchanged. Economic diversification
+        minimal despite two decades of stated policy goals.
+      features:
+        - open_70_100pct
+      sources:
+        - citation: "World Bank Iraq outlook 2025"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: low
+      confidence: low
+      notes: "Projection only; oil dependency structural"
