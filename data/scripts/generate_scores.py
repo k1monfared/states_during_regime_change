@@ -25,9 +25,31 @@ import math
 import os
 import re
 import sys
+from datetime import datetime
 from pathlib import Path
 
 import yaml
+
+# Configuration
+YEARS_BEFORE_REGIME_CHANGE = 15
+CURRENT_YEAR = datetime.now().year
+
+
+def get_time_range(country_config):
+    """Calculate time range for a country.
+
+    If time_range is specified in config, use it.
+    Otherwise, calculate as: (earliest_regime_change - 15, current_year)
+    """
+    if "time_range" in country_config:
+        return country_config["time_range"]
+
+    regime_years = country_config.get("regime_change_years", [])
+    if not regime_years:
+        return [2000, CURRENT_YEAR]
+
+    start_year = min(regime_years) - YEARS_BEFORE_REGIME_CHANGE
+    return [start_year, CURRENT_YEAR]
 
 
 def get_project_root():
@@ -328,7 +350,7 @@ def process_country(country_id, country_config, configs, raw_dir, verbose=False)
     aggregation = configs["aggregation"]
     records = []
 
-    start_year, end_year = country_config["time_range"]
+    start_year, end_year = get_time_range(country_config)
 
     for year in range(start_year, end_year + 1):
         dimension_scores = {}

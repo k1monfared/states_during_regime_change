@@ -129,11 +129,12 @@ Edit the YAML files directly. Only modify the year entries you're filling in. Us
      region: region_name
      category: category_name
      regime_change_years: [2020]
-     time_range: [2010, 2025]
      notes: "Context about the transition"
    ```
+   Note: `time_range` is **optional** — it's auto-calculated as `(earliest_regime_change - 15, current_year)`. Only specify if you need to override.
+
 2. Run scaffold: `python3 data/scripts/scaffold.py --country new_country`
-3. Collect data: `/collect-data new_country 2010-2025`
+3. Collect data: `/collect-data new_country`
 
 ## Changing Scoring Behavior
 
@@ -160,7 +161,51 @@ After changes, regenerate: `python3 data/scripts/generate_scores.py`
 
 **Latin America**: Venezuela, Peru, Mexico
 
+## Plotting Data
+
+### Using Claude Code
+
+```
+/plot-data iraq                              # single country, all dimensions
+/plot-data mena overlay                      # MENA region overlaid
+/plot-data africa_peaceful aligned           # aligned to regime change year
+```
+
+### Direct Script Usage
+
+```bash
+# Single country with all 4 dimensions
+python3 data/scripts/plot_data.py --countries iraq --show-dimensions --output plots/iraq.png
+
+# Multiple countries overlaid
+python3 data/scripts/plot_data.py --countries iraq,libya,tunisia --overlay
+
+# Region comparison aligned to regime change
+python3 data/scripts/plot_data.py --region africa_peaceful --overlay --align-regime-change
+
+# Specific indicator comparison
+python3 data/scripts/plot_data.py --countries iraq,syria --dimension political --indicator territorial_control --overlay
+
+# Heatmap view
+python3 data/scripts/plot_data.py --region mena --plot-type heatmap --output plots/mena_heatmap.png
+
+# List available regions/categories
+python3 data/scripts/plot_data.py --list-regions
+python3 data/scripts/plot_data.py --list-categories
+```
+
+### Plot Types
+
+| Type | Use case |
+|------|----------|
+| Line (separate) | Compare trajectories across countries (default) |
+| Line (overlay) | Direct comparison on same axes |
+| Line (aligned) | Compare recovery/decline patterns relative to regime change |
+| Heatmap | Overview of many countries × many years |
+
 ## Dependencies
 
 - Python 3.6+
 - PyYAML (`pip install pyyaml`)
+- matplotlib (`pip install matplotlib`) — for plotting
+- numpy (`pip install numpy`) — for heatmaps

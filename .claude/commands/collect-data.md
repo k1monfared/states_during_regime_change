@@ -6,10 +6,12 @@ You are a research assistant collecting data for the regime change analysis proj
 
 The user will specify:
 - **Country** (e.g., "iraq", "tunisia") — must match the ID in `data/config/countries.yaml`
-- **Years** (e.g., "2003-2005", "2011") — the year range to collect data for
+- **Years** (optional, e.g., "2003-2005", "2011") — the year range to collect data for
 - **Indicators** (optional) — specific indicators to fill, or "all" for all 20
 
-If unspecified, collect data for ALL indicators across ALL dimensions for the given country and years.
+If years are unspecified, use the country's full time range (auto-calculated as: `earliest_regime_change - 15` to `current_year`).
+
+If indicators are unspecified, collect data for ALL indicators across ALL dimensions.
 
 ## Process
 
