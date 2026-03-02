@@ -108,6 +108,24 @@ function _renderOverlay(el, seriesList, appState) {
       line: { color, dash, width: 1.8 },
       hovertemplate: buildHoverTemplate(s.countryLabel, s.metricLabel, appState.xMode),
     });
+
+    // In absolute mode, mark regime change years with a triangle on the curve
+    if (appState.xMode === "absolute") {
+      const rcSet = new Set(s.regimeChangeXs);
+      const rcPoints = s.points.filter((p) => rcSet.has(p.x));
+      if (rcPoints.length > 0) {
+        traces.push({
+          x: rcPoints.map((p) => p.x),
+          y: rcPoints.map((p) => p.y),
+          type: "scatter",
+          mode: "markers",
+          name,
+          showlegend: false,
+          marker: { color, symbol: "triangle-up", size: 10, line: { color: "#fff", width: 1 } },
+          hovertemplate: buildHoverTemplate(s.countryLabel, s.metricLabel + " (regime change)", appState.xMode),
+        });
+      }
+    }
   }
 
   // Regime change vertical lines (overlay: one annotation set)
