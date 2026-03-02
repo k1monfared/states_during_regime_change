@@ -1,5 +1,7 @@
 # Regime Change Trajectory Analysis
 
+**Live**: https://k1monfared.github.io/states_during_regime_change/
+
 **Status**: 🟡 MVP | **Mode**: 🤖 Claude Code | **Updated**: 2026-01-24
 
 A data framework for measuring and comparing post-regime-change trajectories across 39 countries. Tracks four dimensions (political, economic, international, transparency) over time using a combination of quantitative data and qualitative expert assessments.
