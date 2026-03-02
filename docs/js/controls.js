@@ -115,11 +115,12 @@ function _renderCountryList(s) {
       const currentPivot = s.pivots[id] ?? rcYears[0] ?? Math.round((minYear + maxYear) / 2);
 
       pivotRow.innerHTML = `
-        <label>
-          pivot:
-          <input type="range" min="${minYear}" max="${maxYear}" value="${currentPivot}" data-country="${id}" class="pivot-slider">
-          <span class="country-pivot-year">${currentPivot}</span>
-        </label>
+        <span class="sub-row-label">pivot:</span>
+        <div class="pivot-stepper">
+          <button class="pivot-step" data-country="${id}" data-delta="-1">‹</button>
+          <input type="number" class="pivot-year-input" value="${currentPivot}" min="${minYear}" max="${maxYear}" data-country="${id}">
+          <button class="pivot-step" data-country="${id}" data-delta="1">›</button>
+        </div>
       `;
 
       ul.appendChild(pivotRow);
@@ -133,19 +134,27 @@ function _renderCountryList(s) {
     });
   });
 
-  // Pivot slider handlers
-  ul.querySelectorAll(".pivot-slider").forEach((slider) => {
-    const countryId = slider.dataset.country;
-    const label = slider.parentElement.querySelector(".country-pivot-year");
-    let raf = null;
-    slider.addEventListener("input", () => {
-      const year = parseInt(slider.value, 10);
-      if (label) label.textContent = year;
-      if (raf) cancelAnimationFrame(raf);
-      raf = requestAnimationFrame(() => {
-        state.setPivot(countryId, year);
-        raf = null;
-      });
+  // Pivot stepper handlers
+  ul.querySelectorAll(".pivot-year-input").forEach((input) => {
+    const countryId = input.dataset.country;
+    input.addEventListener("change", () => {
+      const min = parseInt(input.min, 10);
+      const max = parseInt(input.max, 10);
+      const year = Math.max(min, Math.min(max, parseInt(input.value, 10) || min));
+      input.value = year;
+      state.setPivot(countryId, year);
+    });
+  });
+
+  ul.querySelectorAll(".pivot-step").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const input = btn.closest(".pivot-stepper").querySelector(".pivot-year-input");
+      const min = parseInt(input.min, 10);
+      const max = parseInt(input.max, 10);
+      const delta = parseInt(btn.dataset.delta, 10);
+      const year = Math.max(min, Math.min(max, parseInt(input.value, 10) + delta));
+      input.value = year;
+      state.setPivot(btn.dataset.country, year);
     });
   });
 

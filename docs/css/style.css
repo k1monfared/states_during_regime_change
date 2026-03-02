@@ -241,19 +241,39 @@ body {
 
 .country-pivot-row.visible { display: flex; }
 
-.country-pivot-row label {
-  font-size: 10px;
-  color: var(--text-muted);
+.pivot-stepper {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 3px;
 }
 
-.country-pivot-row input[type=range] {
-  flex: 1;
-  accent-color: var(--accent);
-  height: 3px;
+.pivot-step {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  padding: 1px 6px;
+  color: var(--text-muted);
 }
+.pivot-step:hover { border-color: var(--accent); color: var(--accent); }
+
+.pivot-year-input {
+  width: 48px;
+  text-align: center;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 11px;
+  font-family: var(--font);
+  padding: 2px 4px;
+  color: var(--text);
+  background: var(--bg);
+  -moz-appearance: textfield;
+}
+.pivot-year-input::-webkit-inner-spin-button,
+.pivot-year-input::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+.pivot-year-input:focus { outline: none; border-color: var(--accent); }
 
 .country-pivot-year {
   font-variant-numeric: tabular-nums;
