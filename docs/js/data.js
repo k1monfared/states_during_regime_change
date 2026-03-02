@@ -106,6 +106,54 @@ function computeCustomScore(yearData, weights) {
   return sum / totalWeight;
 }
 
+
+// ── Formula evaluation ────────────────────────────────────────────────────────
+
+function _buildVarMap(yearData) {
+  const vars = {};
+  if (!yearData) return vars;
+  vars.composite = yearData._composite != null ? yearData._composite : NaN;
+  for (const [dim, dimData] of Object.entries(yearData)) {
+    if (dim.startsWith("_") || typeof dimData !== "object" || dimData === null) continue;
+    vars[dim] = dimData._score != null ? dimData._score : NaN;
+    for (const [ind, val] of Object.entries(dimData)) {
+      if (ind === "_score") continue;
+      vars[ind] = val != null ? val : NaN;
+    }
+  }
+  return vars;
+}
+
+export function evaluateFormulaScore(yearData, formula) {
+  const vars = _buildVarMap(yearData);
+  const names = Object.keys(vars);
+  const values = names.map((k) => vars[k]);
+  try {
+    let code = formula
+      .replace(/\bmath\.(\w+)/g, "Math.$1")
+      .replace(/\bTrue\b/g, "true")
+      .replace(/\bFalse\b/g, "false")
+      .replace(/\bNone\b/g, "null");
+
+    const lines = code.split("\n").map((l) => l.replace(/#.*$/, ""));
+
+    if (!lines.some((l) => /^\s*return\s/.test(l))) {
+      const lastIdx = [...lines.keys()].reverse().find((i) => lines[i].trim());
+      if (lastIdx !== undefined) lines[lastIdx] = "return (" + lines[lastIdx].trim() + ")";
+    }
+
+    const fn = new Function(...names, '"use strict";\n' + lines.join("\n"));
+    const result = fn(...values);
+    if (typeof result === "number" && isFinite(result)) {
+      return Math.max(0, Math.min(100, result));
+    }
+    return null;
+  } catch {
+    return null;
+  }
+}
+
+
 /**
  * getSeries(countryId, metricId, state, allData)
  * Returns [{x, y, label, year}] — x may be calendar year or relative offset
@@ -142,7 +190,11 @@ export function getSeries(countryId, metricId, appState, allData) {
 
     let score;
     if (customDef) {
-      score = computeCustomScore(yearData, customDef.weights);
+      if (customDef.formula) {
+        score = evaluateFormulaScore(yearData, customDef.formula);
+      } else {
+        score = computeCustomScore(yearData, customDef.weights ?? {});
+      }
     } else {
       score = getScoreForMetric(yearData, metricId, appState.custom);
     }

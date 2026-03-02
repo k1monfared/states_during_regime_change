@@ -86,11 +86,53 @@
     <button id="btn-close-panel">×</button>
   </div>
   <div id="custom-panel-body">
-    <input type="text" id="custom-name" placeholder="Metric name (e.g. Stability)">
-    <div id="custom-formula-preview">(select indicators)</div>
-    <div id="custom-indicator-rows"></div>
-    <button id="btn-save-custom">Save metric</button>
-    <div id="custom-saved-list"></div>
+
+    <div class="custom-section">
+      <div class="custom-field-row">
+        <label class="custom-field-label">Name</label>
+        <input type="text" id="custom-name" placeholder="e.g. State Recovery" autocomplete="off">
+      </div>
+      <div class="custom-field-row">
+        <label class="custom-field-label">Slug <span class="custom-field-hint">(used as variable name)</span></label>
+        <input type="text" id="custom-slug" placeholder="state_recovery" spellcheck="false" autocomplete="off">
+      </div>
+      <div class="custom-field-row">
+        <label class="custom-field-label">
+          Formula
+          <span class="custom-field-hint">Python · numeric ops · <code>return</code> required for multi-line</span>
+        </label>
+        <textarea id="custom-formula" rows="10" spellcheck="false" placeholder="# Single expression (return added automatically):
+0.4 * political + 0.6 * economic
+
+# Multi-line — end with return:
+gov = (territorial_control + institutional_functioning) / 2
+econ = (gdp_per_capita + trade_openness) / 2
+return 0.5 * gov + 0.5 * econ"></textarea>
+      </div>
+      <div id="custom-formula-error" class="custom-error"></div>
+      <details id="custom-vars-details">
+        <summary class="custom-vars-summary">Available variables ▸</summary>
+        <div id="custom-vars-list"></div>
+      </details>
+      <div class="custom-btn-row">
+        <button id="btn-save-custom">Save to session</button>
+        <button id="btn-library-custom">+ Add to library</button>
+      </div>
+    </div>
+
+    <div class="custom-section">
+      <div class="custom-section-title">Session metrics</div>
+      <div id="custom-saved-list"><p class="custom-empty-msg">None yet.</p></div>
+    </div>
+
+    <div class="custom-section">
+      <div class="custom-section-title">
+        Library
+        <span class="custom-field-hint">saved in browser (localStorage)</span>
+      </div>
+      <div id="custom-library-list"><p class="custom-empty-msg">No saved metrics.</p></div>
+    </div>
+
   </div>
 </div>
 
