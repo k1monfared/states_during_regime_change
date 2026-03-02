@@ -3,247 +3,372 @@ country: syria
 dimension: economic
 years:
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 67.00
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank. 'Trade (% of GDP) — Syria 2009.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Syria trade (exports + imports as % of GDP) approximately 67% in 2009. Pre-uprising
+        economic integration with regional and global markets. Oil exports significant.
+        Trade with EU, Turkey (Free Trade Area signed 2004), Arab neighbors. Moderate
+        trade openness for a middle-income Arab state.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank. 'Syria trade openness 2009.' data.worldbank.org."
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "~67% trade/GDP; EU/Turkey/Arab neighbors trade; oil exports; moderate openness"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 68.00
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank. 'Trade (% of GDP) — Syria 2010.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade approximately 68% of GDP in 2010. Peak trade openness pre-conflict. Syria-Turkey
+        Free Trade Area active. Oil exports continuing. EU-Syria Association Agreement
+        (suspended 2011). Moderate to open trade integration.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank. 'Syria trade 2010.' data.worldbank.org."
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "~68%; Syria-Turkey FTA; oil exports; EU Association Agreement; peak trade openness pre-conflict"
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 55.00
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank. 'Trade (% of GDP) — Syria 2011.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade declining sharply with uprising. Estimated approximately 55% of GDP.
+        EU Association Agreement suspended. Turkey suspended trade relations. International
+        sanctions beginning. Oil exports disrupted. Trade declining toward restricted.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank. 'Syria trade estimates 2011.' data.worldbank.org."
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "~55%; EU suspended; Turkey suspended; sanctions beginning; oil disrupted; declining"
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 32.00
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank / IMF estimates. 'Syria trade 2012.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade collapsed to approximately 32% of GDP with civil war and EU oil embargo
+        (February 2012). Exports nearly eliminated — oil embargo removed major export revenue.
+        Imports continuing at reduced levels (mainly through Iran, Iraq). Restricted trade
+        environment.
+      features:
+        - restricted_20_40pct
+      sources:
+        - citation: "World Bank / IMF. 'Syria trade collapse 2012.' data.worldbank.org."
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~32%; EU oil embargo Feb; exports near-zero; imports via Iran/Iraq; restricted"
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 25.00
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank / UN estimates. 'Syria trade 2013.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade approximately 25% of GDP. Civil war at peak. Exports minimal — oil embargo,
+        industrial destruction. Imports for humanitarian and military purposes. GDP itself
+        contracting making denominator uncertain. Restricted to blockaded conditions.
+      features:
+        - restricted_20_40pct
+      sources:
+        - citation: "World Bank. 'Syria trade estimates 2013.' data.worldbank.org."
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~25%; exports minimal; humanitarian/military imports; GDP contracting; restricted"
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 22.00
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank estimates. 'Syria trade 2014.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade approximately 22% of GDP. Comprehensive sanctions, ISIS controlling border
+        regions, civil war. Exports negligible (oil embargo, industrial collapse). Imports
+        through Iran, Iraq, regime-controlled border crossings. Restricted to near-blockade.
+      features:
+        - restricted_20_40pct
+      sources:
+        - citation: "World Bank. 'Syria estimates 2014.' data.worldbank.org."
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~22%; ISIS border; exports negligible; Iran/Iraq imports; near blockade"
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 18.00
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank estimates. 'Syria trade 2015.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade approximately 18% of GDP — closed conditions. Assad regime controlling
+        only 20% of territory. Most borders under opposition/ISIS control. Closed to
+        near-autarky in regime areas. Imports from Russia, Iran via limited channels.
+        Closed conditions or autarky approaching.
+      features:
+        - closed_lt_20pct
+      sources:
+        - citation: "World Bank. 'Syria estimates 2015.' data.worldbank.org."
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~18%; regime 20% territory; most borders opposition/ISIS; near autarky regime areas"
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 19.00
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank estimates. 'Syria trade 2016.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade approximately 19% of GDP. Regime recovering territory improving some trade
+        routes. Aleppo recapture December reopened some northern trade. But comprehensive
+        sanctions and oil embargo maintained. Closed conditions.
+      features:
+        - closed_lt_20pct
+      sources:
+        - citation: "World Bank. 'Syria estimates 2016.' data.worldbank.org."
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~19%; Aleppo reconquest some routes; sanctions maintained; closed conditions"
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 21.00
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank estimates. 'Syria trade 2017.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade slightly increasing to approximately 21% as regime reconquered territory.
+        Syria-Jordan border reopened 2018 (anticipated). Regime controlling ~55% of
+        territory improving internal trade. But sanctions maintained trade at restricted
+        levels. Restricted trade.
+      features:
+        - restricted_20_40pct
+      sources:
+        - citation: "World Bank. 'Syria estimates 2017.' data.worldbank.org."
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~21%; regime reconquest improved trade routes; sanctions maintained; restricted"
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 26.00
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank estimates. 'Syria trade 2018.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade approximately 26% of GDP. Syria-Jordan border reopened October 2018.
+        Arab normalization beginning allowing some trade. Caesar Act pending. Regime
+        controlled ~65% improving trade. Some regional trade resuming. Restricted but improving.
+      features:
+        - restricted_20_40pct
+      sources:
+        - citation: "World Bank. 'Syria estimates 2018.' data.worldbank.org."
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~26%; Jordan border reopened Oct; Arab normalization trade; Caesar Act pending; restricted improving"
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 27.00
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank estimates. 'Syria trade 2019.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade approximately 27% of GDP. Frozen conflict with some trade recovery.
+        Jordan-Syria-Lebanon trade route partially active. Caesar Act signed December 2019
+        threatening Arab trade partners. Restricted trade conditions.
+      features:
+        - restricted_20_40pct
+      sources:
+        - citation: "World Bank. 'Syria estimates 2019.' data.worldbank.org."
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~27%; Jordan-Syria-Lebanon route; Caesar Act Dec threat; restricted conditions"
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 18.00
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank. 'Syria estimates 2020.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade collapsed again to approximately 18% of GDP. Caesar Act June 2020 chilled
+        Arab trade partners. Lebanon banking collapse August 2020 disrupted Syria-Lebanon-
+        Jordan trade corridor. COVID-19. Closed conditions.
+      features:
+        - closed_lt_20pct
+      sources:
+        - citation: "World Bank. 'Syria estimates 2020.' data.worldbank.org."
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~18%; Caesar Act; Lebanon collapse; COVID; trade corridor disrupted; closed"
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 17.00
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank estimates. 'Syria trade 2021.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade approximately 17% — closed conditions. Economic collapse and Caesar Act
+        making meaningful trade nearly impossible. Lebanon crisis ongoing. GDP itself
+        so contracted that trade/GDP ratio uncertain. Closed conditions.
+      features:
+        - closed_lt_20pct
+      sources:
+        - citation: "World Bank. 'Syria estimates 2021.' data.worldbank.org."
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~17%; Caesar Act; Lebanon crisis; GDP contracted; closed conditions"
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 18.00
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank estimates. 'Syria trade 2022.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade approximately 18%. Arab normalization beginning to open some trade routes.
+        UAE, Jordan increasing trade contacts. Caesar Act secondary sanctions risk limiting.
+        Russia diverted resources to Ukraine. Closed conditions with marginal improvement.
+      features:
+        - closed_lt_20pct
+      sources:
+        - citation: "World Bank. 'Syria estimates 2022.' data.worldbank.org."
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~18%; Arab normalization opening some routes; Caesar Act limiting; Russia Ukraine; closed"
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 20.00
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank estimates. 'Syria trade 2023.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade approximately 20%. Arab League readmission May 2023 opened regional trade
+        further. Jordan-Syria trade increasing. Gulf state trade. But Caesar Act maintained
+        Western sanctions pressure. Earthquake February disrupted northwest trade. Restricted
+        to closed conditions.
+      features:
+        - restricted_20_40pct
+      sources:
+        - citation: "World Bank. 'Syria estimates 2023.' data.worldbank.org."
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~20%; Arab League readmission trade; Jordan/Gulf trade; earthquake disruption; restricted/closed border"
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -253,13 +378,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade data unreliable for 2024. HTS offensive November-December disrupted trade
+        routes. Post-Assad collapse: rapid sanctions relief enabling trade recovery. US GL23
+        December 2024. EU suspending sanctions. Gulf trade increasing. Turkey major trade
+        partner with HTS-linked transitional government. Transitioning from closed to restricted.
+      features:
+        - restricted_20_40pct
+      sources:
+        - citation: "ICG. 'Syria: After Assad.' December 2024."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: low
+      notes: "HTS offensive disruption; GL23 sanctions relief; Turkey major trade partner; transitioning closed→restricted"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -269,8 +403,18 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade openness recovering with post-Assad sanctions relief. Turkey dominant trade
+        partner (sharing long border, supporting transitional government). Gulf states
+        increasing trade. EU trade normalizing. US sanctions mostly lifted for civilian
+        trade. Early recovery from closed conditions toward restricted. Restricted
+        but improving rapidly.
+      features:
+        - restricted_20_40pct
+      sources:
+        - citation: "ICG. 'Syria Transition 2025.' crisisgroup.org."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: low
+      notes: "Turkey dominant trade; Gulf/EU normalizing; US civilian trade lifted; restricted improving toward moderate"

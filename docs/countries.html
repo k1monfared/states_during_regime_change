@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Countries — States During Regime Change</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header id="header">
+    <h1>States During Regime Change</h1>
+    <nav>
+      <a href="index.html">Dashboard</a>
+      <a href="countries.html" class="active">Countries</a>
+      <a href="methodology.html">Methodology</a>
+    </nav>
+    <div id="header-spacer"></div>
+    <a href="index.html" style="font-size:12px;color:var(--text-muted);text-decoration:none">← Dashboard</a>
+  </header>
+
+  <div class="page-layout">
+
+    <!-- Country navigation sidebar -->
+    <nav class="countries-sidebar">
+      <div class="country-nav-search">
+        <input type="text" id="country-nav-search" placeholder="Search countries…" autocomplete="off">
+      </div>
+      <div id="country-nav"></div>
+    </nav>
+
+    <!-- Country detail panel -->
+    <main class="countries-main" id="country-main">
+      <div class="loading">Loading…</div>
+    </main>
+
+  </div>
+
+<script type="module">
+  import { init } from "./js/countries.js";
+  init().catch(console.error);
+</script>
+</body>
+</html>

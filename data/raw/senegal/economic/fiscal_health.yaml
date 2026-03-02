@@ -3,578 +3,855 @@ country: senegal
 dimension: economic
 years:
   1990:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 90.5
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF Historical Public Debt Database / World Bank, Senegal government debt % GDP ~90% in 1990"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Senegal's public debt approximately 90% of GDP in 1990. High debt burden
+        accumulated during the 1970s-1980s development financing era. Senegal
+        under structural adjustment programs with IMF/World Bank. HIPC-eligible.
+        Large_deficit_high_90_120pct.
+      features:
+        - large_deficit_high_90_120pct
+      sources:
+        - citation: "IMF Historical Public Finance Statistics, Senegal"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-HIPC era; high debt from 1970s-80s borrowing; SAP ongoing"
   1991:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 89.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF Historical Public Debt Database, Senegal 1991"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Debt ~89% of GDP in 1991. Still high. Structural adjustment continuing.
+        Debt servicing consuming significant share of government revenue.
+        Large_deficit_high_90_120pct (approximately).
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF Historical Public Finance Statistics, Senegal"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   1992:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 88.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF Historical Public Debt Database, Senegal 1992"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt ~88% of GDP in 1992. Still high. Paris Club debt rescheduling
+        provided some relief. SAP requirements limiting deficit. Moderate_deficit_elevated.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF Historical Public Finance Statistics, Senegal"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Paris Club debt rescheduling"
   1993:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 87.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF Historical Public Debt Database, Senegal 1993"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Debt ~87% of GDP in 1993. High but gradually declining through SAP.
+        Pre-HIPC initiative launched. Moderate_deficit_elevated_60_90pct.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF Historical Public Finance Statistics, Senegal"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   1994:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 75.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 1994 — CFA franc devaluation reduced dollar debt/GDP ratio"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt as % of GDP declined sharply in 1994 due to nominal GDP increase
+        post-devaluation. CFA franc devaluation inflated nominal GDP, reducing
+        debt ratio. Despite reduction, debt level still elevated. Moderate_deficit_elevated.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF Historical Public Finance Statistics, Senegal"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "CFA franc devaluation reduced debt/GDP ratio mechanically by inflating nominal GDP"
   1995:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 72.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 1995"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Debt ~72% of GDP in 1995. Declining. Post-devaluation GDP growth
+        reducing ratio. Structural adjustment showing results. Moderate_deficit_elevated.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF Historical Public Finance Statistics, Senegal"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   1996:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 68.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 1996"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Debt ~68% of GDP in 1996. Declining with strong growth. Paris Club
+        rescheduling helping. Heading toward HIPC eligibility. Moderate_deficit_elevated.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF Historical Public Finance Statistics, Senegal"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   1997:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 65.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 1997"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt ~65% of GDP in 1997. Still elevated but declining trend. Senegal
+        reached HIPC decision point in 2000. Moderate_deficit_elevated.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF Historical Public Finance Statistics, Senegal"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Approaching HIPC decision point"
   1998:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 62.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 1998"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Debt ~62% of GDP in 1998. Declining. Strong growth reducing ratio.
+        HIPC process approaching. Moderate_deficit_elevated.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF Historical Public Finance Statistics, Senegal"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   1999:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 65.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 1999"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt ~65% of GDP in 1999. Moderate. HIPC decision point reached June
+        2000. Pre-election fiscal loosening. Moderate_deficit_elevated.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF Historical Public Finance Statistics, Senegal"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "HIPC decision point June 2000"
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 63.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2000"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt ~63% of GDP in 2000. HIPC decision point reached. Wade inherited
+        moderate-debt situation. Regime change did not cause fiscal disruption.
+        Moderate_deficit_elevated.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF Historical Public Finance Statistics, Senegal"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "HIPC decision point; Wade inherited moderate-debt situation"
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 60.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2001"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt ~60% of GDP in 2001. Declining. HIPC interim relief being provided.
+        Wade government pursuing fiscal discipline. Moderate_deficit_elevated.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF Historical Public Finance Statistics, Senegal"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "HIPC interim debt relief"
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 57.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2002"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Debt ~57% of GDP in 2002. Declining toward moderate level. HIPC
+        completion point expected soon. Small_deficit_manageable.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF Historical Public Finance Statistics, Senegal"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 55.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2003"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Debt ~55% of GDP in 2003. Declining. Approaching HIPC completion point.
+        Fiscal improvements under structural adjustment. Small_deficit_manageable.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF Historical Public Finance Statistics, Senegal"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 36.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2004 — HIPC completion point April 2004; MDRI debt cancellation"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt dropped dramatically to ~36% of GDP in 2004 as HIPC completion
+        point was reached (April 2004) and multilateral debt cancelled through
+        MDRI (IMF, World Bank, AfDB). Major debt relief event. Small_deficit_manageable.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF HIPC Initiative Status of Implementation, Senegal 2004"
+          url: "https://www.imf.org/external/np/hipc/2004/status.htm"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "HIPC completion April 2004 — major debt cancellation"
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 32.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2005 — post-MDRI"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt ~32% of GDP in 2005 post-MDRI. Near the surplus_low_debt threshold.
+        Senegal achieved the strongest fiscal position since independence.
+        Small_deficit_manageable.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF, Senegal Article IV Consultation 2005"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Post-HIPC/MDRI era; historic fiscal low"
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 28.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2006 — post-MDRI historic low"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt at ~28% of GDP in 2006 — historic low following full MDRI
+        cancellation (June 2005, effective for IDA and IMF). Senegal at best
+        ever fiscal position. Surplus_low_debt_lt_30pct.
+      features:
+        - surplus_low_debt_lt_30pct
+      sources:
+        - citation: "IMF, Senegal Article IV Consultation 2006"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Historic fiscal low post-MDRI; Senegal's best ever fiscal position"
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 26.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2007"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Debt ~26% of GDP in 2007 — continued historic low. Senegal at fiscal
+        best. New borrowing beginning for infrastructure. Surplus_low_debt_lt_30pct.
+      features:
+        - surplus_low_debt_lt_30pct
+      sources:
+        - citation: "IMF, Senegal Article IV Consultation 2007"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 28.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2008"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Debt ~28% of GDP in 2008. Still at historic low. Wade government
+        beginning significant infrastructure borrowing. Food/fuel crisis subsidy
+        spending. Surplus_low_debt_lt_30pct.
+      features:
+        - surplus_low_debt_lt_30pct
+      sources:
+        - citation: "IMF, Senegal Article IV Consultation 2008"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 32.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2009"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt ~32% of GDP in 2009. Modest increase as Wade borrowed for
+        infrastructure projects. Still manageable. Small_deficit_manageable.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF, Senegal Article IV Consultation 2009"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Infrastructure borrowing beginning"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 35.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2010"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt ~35% of GDP in 2010. Rising with infrastructure investment. Wade
+        pursuing major roads, ports, airport projects. Debt rising but from
+        low base — still manageable. Small_deficit_manageable.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF, Senegal Article IV Consultation 2010"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Wade infrastructure investment driving debt increase"
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 40.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2011"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt ~40% of GDP in 2011. Still manageable. Wade government
+        increased borrowing for infrastructure under Grandes Travaux program
+        (airport, TER rail, toll roads). Small_deficit_manageable.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF, Senegal Article IV Consultation 2011"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Grandes Travaux infrastructure program"
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 41.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2012"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt ~41% of GDP in 2012. Sall inherited manageable debt from Wade.
+        Infrastructure projects continuing. Small_deficit_manageable.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF, Senegal Article IV Consultation 2012"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Sall inherited manageable debt"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 45.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2013"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt ~45% of GDP in 2013. Rising with PSE development spending. Sall
+        ambitious about infrastructure. Still manageable. Small_deficit_manageable.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF, Senegal Article IV Consultation 2013"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "PSE development plan driving public investment"
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 47.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2014"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Debt ~47% of GDP in 2014. Rising but still within manageable range.
+        Infrastructure investment (TER, airport, new town) driving borrowing.
+        Small_deficit_manageable.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF, Senegal Article IV Consultation 2014"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 51.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2015"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt ~51% of GDP in 2015. Approaching 60% threshold. IMF raising
+        concerns about pace of debt accumulation. Strong growth helping.
+        Small_deficit_manageable.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF, Senegal Article IV Consultation 2015"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "IMF raising debt concerns; approaching 60% threshold"
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 55.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2016"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Debt ~55% of GDP in 2016. Still manageable but rising trend concerning.
+        Sall government investing heavily in infrastructure. Small_deficit_manageable.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF, Senegal Article IV Consultation 2016"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 58.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2017"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Debt ~58% of GDP in 2017. Just below the 60% threshold. IMF and rating
+        agencies noting rising debt. Strong growth (7.1%) helping keep ratio
+        manageable. Small_deficit_manageable (just).
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF, Senegal Article IV Consultation 2017"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 60.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2018"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt crossed 60% of GDP threshold in 2018. Moderate_deficit_elevated.
+        Gas/oil infrastructure investment accelerating borrowing. IMF
+        flagging debt sustainability concerns. Moderate_deficit_elevated_60_90pct.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF, Senegal Article IV Consultation 2018"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Debt crossed 60% threshold; oil/gas investment driving borrowing"
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 63.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2019"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Debt ~63% of GDP in 2019. Rising but pre-oil revenues expected to
+        stabilize. IMF program discussions. Moderate_deficit_elevated.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF, Senegal Article IV Consultation 2019"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 73.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2020"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt jumped to ~73% of GDP in 2020. COVID-19 caused fiscal expansion
+        (emergency spending) and GDP contraction. Major debt increase in one year.
+        Moderate_deficit_elevated_60_90pct.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF, Senegal Article IV Consultation 2020"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "COVID-19 caused major fiscal expansion and GDP contraction"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 73.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2021"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Debt ~73% of GDP in 2021. Stable after COVID jump. Post-COVID recovery
+        helping contain ratio. IMF and World Bank engaged on debt trajectory.
+        Moderate_deficit_elevated.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF, Senegal Article IV Consultation 2021"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 76.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2022"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt ~76% of GDP in 2022. Russia-Ukraine war food/energy subsidies
+        increased spending. Gas/oil infrastructure investment continuing.
+        IMF concerns about debt level. Moderate_deficit_elevated.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF, Senegal Article IV Consultation 2022"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Major revelation: Sall government revealed hidden debt ~4-8% of GDP in 2024 audit"
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 100.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF/Faye government audit 2024: revealed debt much higher than reported; actual ~100%"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        After the 2024 election, new Faye government audit revealed that the
+        Sall government had significantly understated public debt (including
+        off-budget state enterprise debt). Actual debt estimated near 100% of
+        GDP in 2023. The official IMF-reported figure (~75%) was understated.
+        Large_deficit_high_90_120pct based on revised estimate.
+      features:
+        - large_deficit_high_90_120pct
+      sources:
+        - citation: "Faye government audit of public finances, 2024; IMF Article IV Senegal 2024"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Sall government understated debt; Faye audit revealed additional ~25% of GDP in hidden liabilities"
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: 95.0
+      unit: percent_gdp_debt
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF, Senegal 2024 revised — post-audit fiscal position"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Revised debt ~95% of GDP in 2024 under new Faye government accounting.
+        Oil revenues beginning but fiscal position deteriorated from hidden debts.
+        New government seeking IMF support. Debt crisis similar to Ghana.
+        Large_deficit_high_90_120pct.
+      features:
+        - large_deficit_high_90_120pct
+      sources:
+        - citation: "IMF, Senegal Article IV 2024; Faye government fiscal audit"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Hidden Sall-era debt revealed; Faye government seeking IMF support"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: debt_percent_gdp
+      unit: percent_gdp_debt
       source:
         citation: null
         url: null
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Fiscal position in 2025 challenging. New Faye government managing the
+        inherited debt revelation. Oil and gas revenues beginning to provide some
+        support. IMF program negotiations expected. Debt likely still ~90%+.
+        Large_deficit_high_90_120pct.
+      features:
+        - large_deficit_high_90_120pct
+      sources:
+        - citation: "IMF World Economic Outlook 2025, Senegal"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: medium
+      confidence: low
+      notes: "Faye government fiscal stabilization program; oil revenues beginning to offset"

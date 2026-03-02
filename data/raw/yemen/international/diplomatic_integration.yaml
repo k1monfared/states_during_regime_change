@@ -3,7 +3,7 @@ country: yemen
 dimension: international
 years:
   1996:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -13,13 +13,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Full international recognition. UN member, Arab League member, OIC member.
+        Relations normalized with Saudi Arabia after 1994 civil war and 1995
+        border agreement. Active diplomatic relations with major powers.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "UN member state records"
+          type: government
+          reliability: high
+      confidence: high
       notes: null
+
   1997:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -29,13 +37,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Full diplomatic integration. Active embassies in/from major states.
+        Parliamentary elections internationally observed. Normal relations.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "UN member state records"
+          type: government
+          reliability: high
+      confidence: high
       notes: null
+
   1998:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -45,13 +60,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Full diplomatic integration. Some Western concerns about terrorism
+        not yet affecting diplomatic standing. Normal relations.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "UN member state records"
+          type: government
+          reliability: high
+      confidence: high
       notes: null
+
   1999:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -61,13 +83,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Full diplomatic integration. Saleh's Yemen actively engaged
+        with international community. Normal diplomatic relations.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "UN member state records"
+          type: government
+          reliability: high
+      confidence: high
       notes: null
+
   2000:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -77,13 +106,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Full diplomatic integration. USS Cole bombing causes some concern but
+        Saleh cooperating with US. Saudi-Yemen border agreement 2000 improves
+        regional relations. Normal diplomatic standing.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "News analysis"
+          type: news
+          reliability: medium
+      confidence: high
+      notes: "Saudi-Yemen border agreement 2000; USS Cole concern"
+
   2001:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -93,13 +130,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Full diplomatic integration. Post-9/11 Yemen positions itself as
+        counterterrorism partner. US-Yemen security cooperation elevated.
+        Normal diplomatic relations. Active engagement.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "US Department of State"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Counterterrorism partnership post-9/11"
+
   2002:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -109,13 +154,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Full diplomatic integration. First US drone strike in Yemen causes some
+        friction but relationship maintained. Yemen counterterrorism partner.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "US Department of State"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "First US drone strike; some friction but relations maintained"
+
   2003:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -125,13 +177,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Full diplomatic integration. Yemen opposes Iraq war but maintains
+        normal relations with US/West. Active UN participation. Normal relations.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "UN records"
+          type: government
+          reliability: high
+      confidence: high
       notes: null
+
   2004:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -141,13 +200,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Normal diplomatic relations. First Houthi war internal. Counterterrorism
+        cooperation with US. GCC relations important. Active international engagement.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "US Department of State"
+          type: government
+          reliability: high
+      confidence: high
       notes: null
+
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -157,13 +223,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Normal diplomatic relations maintained despite multiple internal conflicts.
+        Yemen-Saudi relations strained somewhat by Houthi issue. US counterterrorism
+        partnership active.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "ICG Yemen reports"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
       notes: null
+
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -173,13 +247,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Full diplomatic integration. Competitive elections internationally
+        observed and praised. Yemen active in international forums. Good diplomatic
+        standing despite governance challenges.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "US Department of State"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Competitive elections praised; good standing"
+
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -189,13 +271,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Normal diplomatic relations. Some concerns from GCC about instability.
+        Counterterrorism partnership maintained. Partial concerns growing.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "ICG Yemen reports"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
       notes: null
+
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -205,13 +294,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Normal diplomatic relations. US Embassy bombing causes friction.
+        Counterterrorism partnership stressed but maintained. Some Western
+        embassies increase security. Normal with minor concerns.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "US Department of State"
+          type: government
+          reliability: high
+      confidence: medium
       notes: null
+
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -221,13 +318,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Diplomatic relations maintained but AQAP prominence raises serious
+        concerns internationally. US increasing pressure on Yemen. Saudi Arabia
+        intervening in north. Partial isolation concerns growing.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "ICG Yemen reports"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "AQAP prominence; Western embassies reducing staff"
+
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -237,13 +342,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Some Western embassies closed temporarily after AQAP bomb plot targeting
+        aircraft (October 2010). Most embassies operational. Normal with some
+        temporary closures from security concerns.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "US Department of State"
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "Some embassy closures after AQAP cargo bomb plot"
+
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -253,13 +366,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Arab Spring period. Multiple embassies close temporarily for security.
+        International community supporting GCC transition process. Political
+        isolation concerns but Yemen state still recognized. Partial isolation.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "US Department of State"
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "Arab Spring; embassy security closures; GCC deal internationally supported"
+
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -269,13 +390,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Transitional government internationally recognized and supported.
+        GCC and Western governments active in supporting transition. Full
+        diplomatic support for transition process. Active international engagement.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "Friends of Yemen; UN records"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Transitional government widely recognized and supported"
+
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -285,13 +414,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Full diplomatic integration. National Dialogue Conference internationally
+        supported. 'Friends of Yemen' group active. Some embassies reducing
+        staff due to security but diplomatic relations normal.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "Friends of Yemen; UN"
+          type: government
+          reliability: high
+      confidence: high
       notes: null
+
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -301,13 +438,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Houthis seize Sanaa. Embassies concerned but operating. Hadi government
+        still internationally recognized. International community calling for
+        political solution. Partial closures beginning.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "US Department of State"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Houthis seize Sanaa; embassies concerned"
+
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -317,13 +462,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Most embassies in Sanaa close February-March 2015. Hadi government
+        recognized internationally from Riyadh. Saudi-led coalition operation
+        internationally legitimized (Hadi request). Significant isolation of
+        country but government recognized in exile.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "US Department of State; UN"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Embassies in Sanaa close; Hadi government in exile but recognized"
+
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -333,13 +487,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Hadi government recognized by international community from Riyadh/Aden.
+        No embassies in Sanaa. International community engaged in peace process.
+        Yemen isolated from normal diplomatic functioning. Significant isolation
+        of the country while government recognized in exile.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "UN Special Envoy for Yemen"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "No embassies in Sanaa; Hadi government in Riyadh"
+
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -349,13 +512,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Continued significant isolation. No foreign embassies in Sanaa.
+        Hadi government recognized from Riyadh. Peace talks stalled.
+        Houthis internationally isolated. Significant isolation of country.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "UN Special Envoy for Yemen"
+          type: government
+          reliability: high
+      confidence: high
       notes: null
+
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -365,13 +536,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Significant isolation continues. Stockholm Agreement brings UN
+        engagement. Hadi government recognized internationally. No normal
+        embassy function in Sanaa. Yemen highly isolated.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "UN Special Envoy for Yemen"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "Stockholm Agreement; some UN engagement"
+
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -381,13 +560,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Significant isolation. STC seizes Aden complicating recognized government.
+        No foreign embassies operational in Yemen. Diplomatic engagement through
+        Riyadh. Yemen highly isolated from normal international relations.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "UN Special Envoy for Yemen"
+          type: government
+          reliability: high
+      confidence: high
       notes: null
+
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -397,13 +584,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Continued significant isolation. Pandemic reduces diplomatic activity.
+        Yemen government operates from Riyadh/Aden. No normal diplomatic
+        environment. Significant isolation.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "UN Special Envoy for Yemen"
+          type: government
+          reliability: high
+      confidence: high
       notes: null
+
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -413,13 +608,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Significant isolation. Biden administration removes Houthi FTO designation
+        to facilitate humanitarian access. No improvement in diplomatic access.
+        Yemen highly isolated from normal international relations.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "US State Department"
+          type: government
+          reliability: high
+      confidence: high
       notes: null
+
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -429,13 +632,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        UN truce creates diplomatic space. PLC formed with broader international
+        recognition. Saudi-Houthi negotiations through Omani mediation. Some
+        improvement from 2015-2021 isolation but still significantly isolated.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "UN Special Envoy for Yemen"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "UN truce; PLC recognized; some diplomatic improvement"
+
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -445,13 +656,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Saudi-Iran rapprochement (March 2023) brings hope for Yemen peace.
+        Saudi-Houthi direct talks. China-brokered Saudi-Iran deal changes
+        regional dynamics. Some diplomatic opening but country still significantly
+        isolated from normal international relations.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "ICG Yemen reports"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "Saudi-Iran deal; Saudi-Houthi talks; diplomatic improvement"
+
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -461,13 +681,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Houthi Red Sea attacks re-internationalizes Yemen crisis negatively.
+        US/UK airstrikes on Houthis. Diplomatic hopes from 2023 setback.
+        Some coalition countries reviewing Yemen engagement. Significant isolation
+        continuing with new international conflict dimension.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "ICG Yemen reports"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "Red Sea attacks; US/UK strikes; diplomatic setback"
+
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -477,8 +706,15 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued significant isolation. US/UK strikes ongoing. Houthis re-designated
+        FTO. No normal diplomatic functioning. Yemen highly isolated with multiple
+        external military actors involved.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "ICG Yemen reports"
+          type: think_tank_report
+          reliability: high
+      confidence: low
+      notes: "Ongoing; projected"

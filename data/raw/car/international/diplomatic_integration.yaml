@@ -1,9 +1,16 @@
 indicator: diplomatic_integration
 country: car
 dimension: international
+notes: >
+  CAR is a recognized UN/AU member throughout. Diplomatic isolation brief after
+  coups (2003, 2013) then restored. Wagner/Africa Corps association damaged
+  Western relations from 2018 onward but did not cause formal isolation.
+  France's Opération Sangaris (2013-2016) and MINUSCA (2014-present) reflect
+  ongoing international engagement. Russia relationship shifted from partner to
+  concern for Western countries. AU PSC has frequently discussed CAR.
 years:
   2000:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -13,13 +20,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Patassé government recognized internationally. AU/UN member. Embassies in Bangui from major powers (France, US). International engagement normal. Normal minor disputes.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "UN General Assembly: CAR member state"
+          url: "https://www.un.org"
+          type: un_report
+          reliability: high
+      confidence: medium
+      notes: "Patassé recognized; AU/UN member; embassies present; normal minor disputes"
+
   2001:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -29,13 +43,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Coup attempt raised international concern but did not affect formal relations. AU engaged. International community supported dialogue. Normal minor disputes.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "UN Security Council: CAR 2001"
+          url: "https://www.un.org/securitycouncil"
+          type: un_report
+          reliability: high
+      confidence: medium
+      notes: "Coup attempt; AU engaged; formal relations maintained; normal"
+
   2002:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -45,13 +66,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bozizé insurgency from Chad. International community concerned. Patassé government recognized. Normal diplomatic relations but instability raising concerns. Normal minor disputes.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "UN Security Council: CAR 2002"
+          url: "https://www.un.org/securitycouncil"
+          type: un_report
+          reliability: high
+      confidence: medium
+      notes: "Bozizé insurgency; Patassé recognized; normal formal relations; normal"
+
   2003:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -61,13 +89,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bozizé coup March 2003. AU suspended CAR from activities temporarily. Western governments suspended aid briefly. France continued engagement (had forces in Bangui). Brief partial isolation then rapid restoration. Partial isolation.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "African Union: CAR suspension 2003"
+          url: "https://au.int"
+          type: multilateral_report
+          reliability: high
+      confidence: medium
+      notes: "Coup; AU suspended; Western aid suspended; France engaged; partial isolation"
+
   2004:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -77,13 +112,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        AU suspension lifted. Transitional process beginning. International community re-engaging. Diplomatic normalization. Normal minor disputes.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "African Union: CAR restoration 2004"
+          url: "https://au.int"
+          type: multilateral_report
+          reliability: medium
+      confidence: medium
+      notes: "AU suspension lifted; transitional process; re-engaging; normal"
+
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -93,13 +135,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bozizé elected — full international legitimacy restored. IMF program commenced. France maintained forces. Normal full international relations.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "IMF: CAR 2005 — Bozizé legitimacy"
+          url: "https://www.imf.org/en/Publications/CR"
+          type: multilateral_report
+          reliability: high
+      confidence: medium
+      notes: "Bozizé elected; full legitimacy; IMF program; France forces; full relations"
+
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -109,13 +158,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        France Opération Boali supporting Bozizé government against UFDR. International community engaged. ECCAS MICOPAX. Full relations active.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "France: Opération Boali 2006"
+          url: "https://www.defense.gouv.fr"
+          type: government_report
+          reliability: high
+      confidence: medium
+      notes: "French Boali; MICOPAX; ECCAS engaged; full relations"
+
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -125,13 +181,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Birao peace deal. International community supporting peace process. MICOPAX. Full relations active.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "ECCAS: MICOPAX CAR 2007"
+          url: "https://eccas.int"
+          type: multilateral_report
+          reliability: medium
+      confidence: medium
+      notes: "Birao deal; peace process; MICOPAX; full relations"
+
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -141,13 +204,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Libreville peace process. International mediation. Full engagement. Full relations active.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "Libreville Process: CAR 2008"
+          url: "https://au.int"
+          type: multilateral_report
+          reliability: medium
+      confidence: medium
+      notes: "Libreville process; international mediation; full engagement; full relations"
+
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -157,13 +227,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        HIPC completion — IMF/World Bank full engagement. International community supporting Bozizé. Full relations.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "IMF/World Bank: HIPC completion 2009"
+          url: "https://www.imf.org/en/Publications/CR"
+          type: multilateral_report
+          reliability: high
+      confidence: medium
+      notes: "HIPC completion; IMF/WB full; international support; full relations"
+
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -173,13 +250,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Normal international relations. Full diplomatic integration. Full relations.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "UN General Assembly: CAR 2010"
+          url: "https://www.un.org"
+          type: un_report
+          reliability: high
+      confidence: medium
+      notes: "Normal relations; full integration; full relations"
+
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -189,13 +273,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bozizé re-elected (disputed but accepted internationally). Full relations. MICOPAX continuing.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "AU: CAR elections 2011"
+          url: "https://au.int"
+          type: multilateral_report
+          reliability: medium
+      confidence: medium
+      notes: "Bozizé re-elected; internationally accepted; MICOPAX; full relations"
+
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -205,13 +296,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Séléka forming — international community alarmed. Diplomatic activity increasing. Bozizé government seeking support. Normal minor disputes — formal relations normal but crisis looming.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "AU: CAR Séléka crisis 2012"
+          url: "https://au.int"
+          type: multilateral_report
+          reliability: high
+      confidence: medium
+      notes: "Séléka forming; international alarm; Bozizé seeking support; normal but crisis looming"
+
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -221,13 +319,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Séléka coup March 2013. AU suspended CAR from activities. Western donors suspended aid. ECOWAS condemned. But Djotodia installed — some international engagement for humanitarian purposes. Significant isolation — Séléka government internationally isolated, but transition to Samba-Panza in January 2014 began restoration.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "African Union: CAR suspension March 2013"
+          url: "https://au.int"
+          type: multilateral_report
+          reliability: high
+        - citation: "UNSC 2127: CAR sanctions December 2013"
+          url: "https://www.un.org/securitycouncil/sanctions/2127"
+          type: un_report
+          reliability: high
+      confidence: high
+      notes: "Coup; AU suspended; donors suspended; international isolation; significant"
+
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -237,13 +346,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Samba-Panza transitional (January 2014). AU restored engagement. France Opération Sangaris December 2013. MISCA (AU) deployed. MINUSCA (UN) September 2014. International community extensively re-engaged. Partial isolation giving way to full international humanitarian engagement.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "MINUSCA: UN mandate September 2014"
+          url: "https://minusca.unmissions.org"
+          type: un_report
+          reliability: high
+        - citation: "France Opération Sangaris 2013-2016"
+          url: "https://www.defense.gouv.fr"
+          type: government_report
+          reliability: high
+      confidence: high
+      notes: "Samba-Panza; AU restored; Sangaris; MISCA; MINUSCA; partial isolation giving way"
+
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -253,13 +373,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bangui Forum July 2015. International community fully engaged in peace process. MINUSCA. EUFOR RCA 2014-2015. Full international engagement for transitional process. Normal minor disputes.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "MINUSCA: CAR 2015"
+          url: "https://minusca.unmissions.org"
+          type: un_report
+          reliability: high
+      confidence: medium
+      notes: "Bangui Forum; MINUSCA; EUFOR; full international engagement; normal"
+
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -269,13 +396,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Touadéra elected — full legitimacy. France ended Opération Sangaris October 2016. MINUSCA continuing. Full international relations.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "France: Sangaris ended October 2016"
+          url: "https://www.defense.gouv.fr"
+          type: government_report
+          reliability: high
+        - citation: "MINUSCA: CAR 2016"
+          url: "https://minusca.unmissions.org"
+          type: un_report
+          reliability: high
+      confidence: high
+      notes: "Touadéra elected; Sangaris ended; MINUSCA; full relations"
+
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -285,13 +423,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Full international relations. MINUSCA. Rome peace talks (Sant'Egidio mediation). Violence ongoing but international engagement maintained. Full relations active.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "MINUSCA: CAR 2017"
+          url: "https://minusca.unmissions.org"
+          type: un_report
+          reliability: high
+      confidence: medium
+      notes: "MINUSCA; Rome talks; Sant'Egidio; violence ongoing; full relations"
+
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -301,13 +446,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Wagner Group entering — Western concerns about Russian military presence. Khartoum process (Sudan/Russia mediation). MINUSCA continuing. Western relations strained by Wagner but formal diplomatic relations maintained. Normal minor disputes — with growing Wagner-related tensions.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "UN Panel of Experts: CAR Wagner 2018"
+          url: "https://www.un.org/securitycouncil/sanctions/2127/panel-experts"
+          type: un_report
+          reliability: high
+      confidence: medium
+      notes: "Wagner entering; Western concerns; Khartoum; MINUSCA; normal but Wagner tensions"
+
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -317,13 +469,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        APRC agreement — international community broadly supported. MINUSCA. Wagner deepening — Western criticism increasing. Normal minor disputes with growing Russia/West tension over CAR.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "MINUSCA: CAR 2019"
+          url: "https://minusca.unmissions.org"
+          type: un_report
+          reliability: high
+      confidence: medium
+      notes: "APRC; MINUSCA; Wagner deepening; Western criticism; normal minor disputes"
+
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -333,13 +492,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        CPC offensive. MINUSCA. Russia/Wagner openly conducting combat operations. Some Western governments reduced engagement with Touadéra government over Wagner. Partial isolation from Western donors. Partial isolation.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "UN Panel of Experts: CAR 2020"
+          url: "https://www.un.org/securitycouncil/sanctions/2127/panel-experts"
+          type: un_report
+          reliability: high
+      confidence: medium
+      notes: "CPC offensive; Wagner combat operations; Western reduced engagement; partial isolation"
+
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -349,13 +515,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Wagner defeated CPC. Touadéra re-elected. Western governments (US, EU, France) increasingly critical of Wagner and CAR government association. UN human rights reports on Wagner atrocities. Partial isolation from West, deep engagement with Russia.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "UN Human Rights: CAR Wagner atrocities 2021"
+          url: "https://www.ohchr.org/en/countries/central-african-republic"
+          type: un_report
+          reliability: high
+      confidence: high
+      notes: "Wagner defeated CPC; Western criticism; UN human rights reports; partial isolation from West"
+
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -365,13 +538,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Russia-Ukraine war: CAR sided with Russia in UN votes. France expelled from CAR. EU/US critical of constitutional referendum extending term limits. Western diplomatic missions reduced. Partial isolation from Western bloc.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "France: expulsion from CAR 2022"
+          url: "https://www.france24.com"
+          type: media
+          reliability: high
+        - citation: "UN: CAR Russia-Ukraine vote"
+          url: "https://www.un.org"
+          type: un_report
+          reliability: high
+      confidence: high
+      notes: "France expelled; Russia-Ukraine CAR vote; EU/US critical; Western missions reduced; partial isolation"
+
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -381,13 +565,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Wagner → Africa Corps June 2023. Constitutional referendum extended term limits — international criticism. Western isolation deepening. Russia/China maintaining full relations. MINUSCA mandate under pressure from CAR government. Partial isolation from West.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "ICG: CAR 2023 — Africa Corps, Western relations"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: high
+      confidence: medium
+      notes: "Africa Corps; constitutional referendum; Western isolation; Russia/China; partial isolation from West"
+
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -397,13 +588,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Africa Corps entrenched. Western relations strained. MINUSCA reduced in scope. Russia/China partnership strong. Elections approaching. Partial isolation from Western bloc.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "ICG: CAR 2024"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: medium
+      confidence: medium
+      notes: "Africa Corps; Western strained; MINUSCA reduced; Russia/China strong; partial isolation"
+
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -413,8 +611,14 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        March 2025: Africa Corps. Western relations strained. Elections approaching. Russia/China partnership. Partial isolation from Western bloc continuing.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "ICG: CAR 2025"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: low
+      confidence: low
+      notes: "Africa Corps; Western strained; elections; partial isolation"

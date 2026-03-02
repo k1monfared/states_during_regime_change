@@ -1,356 +1,587 @@
 indicator: unemployment
 country: sudan
 dimension: economic
+unit: percent_labor_force
 years:
   2004:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 17.9
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Official unemployment rates for Sudan are ILO modeled estimates
+        with significant uncertainty given conflict and data limitations. Actual unemployment
+        and underemployment in conflict-affected areas (Darfur) were much higher than
+        the national figure. The formal labor market was concentrated in Khartoum.
+
+        '
+      features:
+      - high_15_25pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: ILO modeled estimate; Darfur conflict areas not captured; actual underemployment
+        much higher
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 17.5
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment slightly reduced with oil-driven economic growth.
+        CPA created some new employment opportunities. Darfur conflict continued to
+        displace workers in western Sudan. Khartoum economy expanding with oil revenues.
+
+        '
+      features:
+      - high_15_25pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: ILO modeled estimate; Darfur displacement adds to effective unemployment;
+        CPA created some jobs
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 17.1
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment modestly declining with oil-driven growth. However,
+        labor force data quality is poor for conflict-affected areas. Youth unemployment
+        in Khartoum was particularly high. The informal sector absorbed much of the
+        labor force.
+
+        '
+      features:
+      - high_15_25pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: ILO modeled estimate; high youth unemployment; informal sector large;
+        data quality poor
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 16.7
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Oil boom period creating some employment in construction and services
+        in Khartoum. Displacement from Darfur swelling informal sector in major cities.
+        Official unemployment declining slowly.
+
+        '
+      features:
+      - high_15_25pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Oil boom creating Khartoum employment; Darfur displaced persons adding
+        to informal sector
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 16.3
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Oil sector employment and construction in Khartoum supported modest
+        unemployment reduction. Conflict areas remained economically inactive. Global
+        financial crisis had limited immediate impact on Sudan''s oil-dependent economy.
+
+        '
+      features:
+      - high_15_25pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Oil employment maintained; global crisis limited impact due to oil export
+        dependence
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 16.3
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment stable at high levels. Oil price drop reduced fiscal
+        revenues but employment effects lagged. ICC warrant and NGO expulsion reduced
+        humanitarian sector employment in Darfur. Underlying labor market conditions
+        remained difficult.
+
+        '
+      features:
+      - high_15_25pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: NGO expulsion reduced humanitarian sector employment in Darfur; oil employment
+        stable
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 16.3
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment remained persistently high. Election year with government
+        patronage spending creating some temporary employment. Pre-referendum tensions
+        created uncertainty for private sector investment and employment.
+
+        '
+      features:
+      - high_15_25pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Persistent high unemployment; election patronage spending; pre-referendum
+        uncertainty
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 18.7
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment rose as South Sudan''s independence and the resulting
+        oil revenue shock began to affect the broader economy. Civil servants and
+        public sector workers in Sudan-proper faced uncertain fiscal conditions. Private
+        sector contracted with uncertainty. Displacement from South Kordofan and Blue
+        Nile conflicts added to labor force pressures.
+
+        '
+      features:
+      - high_15_25pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Oil revenue loss shock; new conflicts in South Kordofan and Blue Nile;
+        public sector uncertainty
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 19.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment rose further as fiscal crisis deepened. Government
+        retrenchment and reduced public spending affected employment. Hyperinflation
+        reduced real wages for those employed. Private sector investment collapse.
+        Youth unemployment particularly acute.
+
+        '
+      features:
+      - high_15_25pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Fiscal crisis-driven unemployment; hyperinflation eroding real wages;
+        youth unemployment acute
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 19.5
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'High unemployment continued. September 2013 protests were partly
+        driven by unemployment and economic hardship among urban youth. Fuel subsidy
+        removal further increased cost of living. ILO modeled estimates likely understate
+        true unemployment due to large informal and subsistence sectors.
+
+        '
+      features:
+      - high_15_25pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: September 2013 protests partly unemployment-driven; fuel subsidy removal
+        increased costs
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 19.6
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment continued at high levels. Private sector investment
+        constrained by sanctions, inflation, and political instability. Gold mining
+        provided some employment but was concentrated in specific areas. Urban youth
+        unemployment remained very high.
+
+        '
+      features:
+      - high_15_25pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: High unemployment; sanctions constrain private sector; gold mining provides
+        some employment
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 19.6
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment stagnated at near 20%. Oil price collapse reduced
+        remaining oil revenues further. Government unable to stimulate employment
+        through spending. Youth cohort expanding. Informal sector absorbing many who
+        could not find formal employment.
+
+        '
+      features:
+      - high_15_25pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Oil price collapse 2015; informal sector absorbing displaced workers;
+        youth cohort growing
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 19.6
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment stagnated near 20%. Forex scarcity limited private
+        sector activity. Continued sanctions prevented FDI-driven job creation. The
+        structural unemployment remained unaddressed by government policy.
+
+        '
+      features:
+      - high_15_25pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Forex scarcity; sanctions; structural unemployment unaddressed
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 19.6
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment persistently high. US partial sanctions lift in October
+        2017 had limited immediate impact on employment. Economy remained sanctions-constrained
+        for international business. Inflation eroded real wages for employed workers.
+
+        '
+      features:
+      - high_15_25pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: US sanctions partial lift; limited employment impact; inflation eroding
+        real wages
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 19.6
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment officially near 20% but effective unemployment/underemployment
+        much higher. Economic crisis and hyperinflation in 2018 severely reduced real
+        incomes even for those formally employed. December 2018 protests reflected
+        both unemployment and cost-of-living crisis.
+
+        '
+      features:
+      - high_15_25pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Official 20% likely understates effective unemployment; hyperinflation
+        eroding real wages; December 2018 protests
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 22.1
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment rose with political crisis. Transition period disrupted
+        economic activity. Businesses closed in protest-affected areas. Transition
+        government inherited severe unemployment problem. IMF engagement offered some
+        hope for structural reform.
+
+        '
+      features:
+      - very_high_25_40pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Political crisis increased unemployment; transition disrupted business;
+        IMF engagement beginning
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 26.9
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment rose sharply in 2020. COVID-19 caused economic contraction.
+        Exchange rate unification disrupted many businesses unable to adapt. Hyperinflation
+        reduced real purchasing power drastically. IMF reform program created some
+        fiscal adjustment but at cost of employment in public sector.
+
+        '
+      features:
+      - very_high_25_40pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: COVID-19; exchange rate reform disrupted businesses; hyperinflation reduced
+        real purchasing power
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 30.9
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment reached very high levels in 2021. Military coup destroyed
+        IMF program and international financing. Economy contracted. Extreme inflation
+        reduced real wages. Inter-communal violence in Darfur also disrupted local
+        economies. The coup''s impact on investment and formal employment was severe.
+
+        '
+      features:
+      - very_high_25_40pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS, Sudan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Military coup October 2021; IMF program suspended; extreme inflation;
+        coup worsened investment climate
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: World Bank WDI — data may not be available for 2022
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment remained very high in 2022. No IMF program; economic
+        stagnation. Pre-war economy was functioning but under severe stress with high
+        inflation and limited investment. ILO modeled estimates likely 30%+ based
+        on trends, but official data may not be available for this year.
+
+        '
+      features:
+      - very_high_25_40pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS trends, Sudan
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Pre-war year; high unemployment expected based on trends; specific figure
+        may not be published
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 25.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: ILO/World Bank estimate, Sudan unemployment 2023
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment in Sudan estimated at 25.0% in 2023 due to civil war.
+        Mass displacement from Khartoum and other urban areas destroyed employment.
+        Industrial and commercial sector destruction. Agricultural production disrupted
+        in Gezira and other areas.
+      features:
+      - very_high_25_40pct
+      sources:
+      - citation: ILO/World Bank Sudan 2023 estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: low
+      confidence: low
+      notes: Civil war unemployment crisis; ~25.0% estimated; displacement destroying
+        jobs; Khartoum industrial collapse
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 35.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: ILO/World Bank estimate, Sudan unemployment 2024
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment in Sudan estimated at 35.0% in 2024 due to civil war.
+        Mass displacement from Khartoum and other urban areas destroyed employment.
+        Industrial and commercial sector destruction. Agricultural production disrupted
+        in Gezira and other areas.
+      features:
+      - very_high_25_40pct
+      sources:
+      - citation: ILO/World Bank Sudan 2024 estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: low
+      confidence: low
+      notes: Civil war unemployment crisis; ~35.0% estimated; displacement destroying
+        jobs; Khartoum industrial collapse
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 40.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: ILO/World Bank estimate, Sudan unemployment 2025
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment in Sudan estimated at 40.0% in 2025 due to civil war.
+        Mass displacement from Khartoum and other urban areas destroyed employment.
+        Industrial and commercial sector destruction. Agricultural production disrupted
+        in Gezira and other areas.
+      features:
+      - crisis_gt_40pct
+      sources:
+      - citation: ILO/World Bank Sudan 2025 estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+        type: official_statistics
+        reliability: low
+      confidence: low
+      notes: Civil war unemployment crisis; ~40.0% estimated; displacement destroying
+        jobs; Khartoum industrial collapse

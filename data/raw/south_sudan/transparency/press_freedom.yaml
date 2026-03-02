@@ -1,340 +1,504 @@
 indicator: press_freedom
 country: south_sudan
 dimension: transparency
+notes: >
+  South Sudan press freedom was briefly optimistic at independence 2011 but
+  quickly deteriorated. RSF World Press Freedom Index: South Sudan ranked
+  among world's worst — typically 130-180/180 range. Quantitative RSF
+  0-100 scores not available separately from ranks; qualitative used.
+  Civil war 2013+ made South Sudan one of world's most dangerous for journalists.
 years:
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: Southern Sudan pre-independence — no separate ranking"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GOSS pre-independence. Southern Sudan was part of Sudan which consistently ranked in bottom 10% for press freedom. SPLM controlled information. Journalists faced harassment. Very serious situation.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF: Sudan 2005 — southern Sudan included"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: medium
+      confidence: low
+      notes: "Part of Sudan; SPLM information control; journalist harassment; very serious"
+
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: Southern Sudan 2006"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GOSS controlled information tightly. Some independent radio and print media in Juba but facing intimidation. Very serious.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF/CPJ: Southern Sudan 2006"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: medium
+      confidence: low
+      notes: "GOSS information control; independent media under intimidation; very serious"
+
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: Southern Sudan 2007"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Some independent media growing in Juba. GOSS attempted some media liberalization for international image. Still severe restrictions — journalists covering sensitive topics harassed. Very serious.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF: Southern Sudan 2007"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: medium
+      confidence: low
+      notes: "Some independent media Juba; GOSS partial liberalization; sensitive topics censored; very serious"
+
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: Southern Sudan 2008"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Media environment slightly improving pre-referendum. Some independent newspapers, radio. But SPLA-linked intimidation ongoing. Self-censorship high. Very serious.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF/CPJ: Southern Sudan 2008"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: medium
+      confidence: low
+      notes: "Some independent outlets; SPLA intimidation; self-censorship; very serious"
+
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: Southern Sudan 2009"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Pre-referendum period. International attention brought slightly improved environment. Journalists covering CPA-related issues had more space. Very serious but marginally better.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF: Southern Sudan 2009"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: medium
+      confidence: low
+      notes: "Pre-referendum; international attention; marginal improvement; very serious"
+
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: Southern Sudan 2010"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Elections monitored internationally — some media space for election reporting. GOSS showed some tolerance under international attention. Still severe restrictions on critical coverage. Very serious.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF: Southern Sudan 2010 — elections"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: medium
+      confidence: low
+      notes: "International election monitoring; some tolerance shown; still severe on critical; very serious"
+
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: South Sudan ranked 111/179 in 2011 World Press Freedom Index"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Independence brought initial press freedom optimism. RSF ranked South Sudan 111/179 — middle of global rankings, meaning press conditions were difficult but not among worst. New media outlets launched. Some independent reporting allowed. Difficult environment.
+      features:
+        - difficult
+      sources:
+        - citation: "RSF: South Sudan 2011 — 111/179 World Press Freedom Index"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Independence; RSF 111/179; new media outlets; initial optimism; difficult"
+
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: South Sudan 2012 — 124/179 World Press Freedom Index"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Deteriorating from independence optimism. Oil shutdown tensions led to journalist arrests. SPLA interfered with coverage. RSF 124/179. Very serious situation.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF: South Sudan 2012 — 124/179"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Oil dispute; journalist arrests; SPLA interference; RSF 124/179; very serious"
+
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: South Sudan 2013 — ~124/179; civil war December"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Pre-civil war declining press freedom. December 2013 civil war — journalists expelled immediately. Media outlets closed. SPLA targeted journalists. Press freedom collapsed. No press freedom by year end.
+      features:
+        - no_press_freedom
+      sources:
+        - citation: "RSF/CPJ: South Sudan 2013 — civil war December"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Civil war Dec; journalists expelled; outlets closed; press freedom collapsed; no press freedom"
+
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: South Sudan 2014 — ~119/180 World Press Freedom Index"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Civil war. CPJ documented multiple journalists killed and imprisoned. Government propaganda only. Journalists face death threats. No press freedom in practice.
+      features:
+        - no_press_freedom
+      sources:
+        - citation: "CPJ: South Sudan journalists killed/imprisoned 2014"
+          url: "https://cpj.org"
+          type: ngo_report
+          reliability: high
+        - citation: "RSF: South Sudan 2014 — ~119/180"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Civil war; CPJ journalists killed; death threats; government propaganda only; no press freedom"
+
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: South Sudan 2015 — 140/180 World Press Freedom Index"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Civil war continuing. RSF 140/180. Journalists imprisoned, killed, expelled. Newspapers and radio stations closed by military. CPJ named South Sudan one of world's most dangerous. No press freedom.
+      features:
+        - no_press_freedom
+      sources:
+        - citation: "RSF: South Sudan 2015 — 140/180"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: high
+        - citation: "CPJ: South Sudan 2015 — most dangerous"
+          url: "https://cpj.org"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "RSF 140/180; CPJ most dangerous; journalists killed/imprisoned; outlets closed; no press freedom"
+
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: South Sudan 2016 — ~140/180 World Press Freedom Index"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        ARCSS collapse July 2016. SPLA attacked journalists at Terrain Hotel. International journalists fled. Foreign journalists banned. RSF ~140/180. No press freedom.
+      features:
+        - no_press_freedom
+      sources:
+        - citation: "RSF: South Sudan 2016 — ~140/180"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: high
+        - citation: "CPJ: South Sudan 2016 — Terrain Hotel attack"
+          url: "https://cpj.org"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "ARCSS collapse; Terrain Hotel attack; foreign journalists banned; RSF ~140; no press freedom"
+
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: South Sudan 2017 — 143/180 World Press Freedom Index"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Famine. RSF 143/180. Journalists killed documenting famine. NSS arrested journalists. Self-censorship total. Radio stations closed. No press freedom.
+      features:
+        - no_press_freedom
+      sources:
+        - citation: "RSF: South Sudan 2017 — 143/180"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Famine; RSF 143/180; NSS arrests; radio stations closed; no press freedom"
+
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: South Sudan 2018 — 149/180 World Press Freedom Index"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        R-ARCSS September 2018 — marginal improvement in second half. RSF 149/180. Still near bottom. NSS continuing arrests. Self-censorship extreme. Very serious.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF: South Sudan 2018 — 149/180"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "R-ARCSS marginal improvement H2; RSF 149/180; NSS arrests; self-censorship; very serious"
+
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: South Sudan 2019 — 139/180 World Press Freedom Index"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Some improvement post-R-ARCSS. Some media outlets reopened. RSF 139/180. Still very serious restrictions, journalist imprisonment continues.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF: South Sudan 2019 — 139/180"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "R-ARCSS; some outlets reopened; RSF 139/180; very serious"
+
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: South Sudan 2020 — 139/180 World Press Freedom Index"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RTGoNU formed. COVID restrictions added layer of censorship. RSF 139/180. Very serious.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF: South Sudan 2020 — 139/180"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "RTGoNU; COVID added censorship; RSF 139/180; very serious"
+
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: South Sudan 2021 — 145/180 World Press Freedom Index"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Slight worsening. NSS continuing journalist arrests. Elections postponed. RSF 145/180. Very serious.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF: South Sudan 2021 — 145/180"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "NSS journalist arrests; elections postponed; RSF 145/180; very serious"
+
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: South Sudan 2022 — 137/180 World Press Freedom Index"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Marginal improvement. High oil revenues slightly eased economic pressure on media. RSF 137/180. Still very serious.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF: South Sudan 2022 — 137/180"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Marginal improvement; high oil; RSF 137/180; very serious"
+
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: South Sudan 2023 — ~137/180 World Press Freedom Index"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sudan war added complications. Journalists covering Sudanese refugee crisis harassed. RSF ~137/180. Very serious.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF: South Sudan 2023 — ~137/180"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: high
+      confidence: medium
+      notes: "Sudan war; journalists covering refugees harassed; RSF ~137/180; very serious"
+
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: South Sudan 2024 — ~140/180 World Press Freedom Index"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Machar detained — journalists covering political situation face extreme danger. Sudan war continuing. RSF ~140/180. Very serious to no press freedom on political issues.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF: South Sudan 2024"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Machar detained; political journalism dangerous; Sudan war; RSF ~140/180; very serious"
+
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "RSF: South Sudan March 2025"
+        url: "https://rsf.org/en/south-sudan"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        March 2025: Political instability, Machar detained. Journalism remains extremely dangerous. Very serious.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF: South Sudan 2025"
+          url: "https://rsf.org/en/south-sudan"
+          type: ngo_report
+          reliability: medium
+      confidence: low
+      notes: "Political instability; Machar detained; journalism dangerous; very serious"

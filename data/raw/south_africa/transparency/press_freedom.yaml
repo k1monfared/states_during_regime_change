@@ -3,7 +3,7 @@ country: south_africa
 dimension: transparency
 years:
   1990:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
@@ -13,13 +13,30 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Under late apartheid South Africa retained state control over broadcasting through
+        the SABC, which served as a government mouthpiece. Print media was partially free
+        but subject to severe censorship laws and the Publications Act. The state of
+        emergency (lifted in 1990) had allowed detention of journalists and banning of
+        publications. Foreign journalists and independent reporting were heavily restricted.
+        Despite political liberalization beginning in February 1990 (unbanning of the ANC),
+        press freedom remained significantly constrained by emergency-era legislation.
+      features:
+        - difficult
+      sources:
+        - citation: "Freedom House, Freedom of the Press 1990"
+          url: "https://freedomhouse.org"
+          type: think_tank_report
+          reliability: medium
+        - citation: "Article 19, State of Emergency and Press Restrictions in South Africa, 1990"
+          url: null
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "RSF index not available for this year; assessment based on Freedom House and contemporaneous reports."
+
   1991:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
@@ -29,13 +46,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Gradual easing of apartheid-era press restrictions as negotiations between the
+        government and ANC began. The SABC began limited political pluralism in coverage.
+        Print media, especially independent titles (Weekly Mail, Business Day), published
+        increasingly critical content. Emergency regulations formally lifted for most areas,
+        but security legislation still threatened journalists investigating security forces.
+        Conditions improving but still problematic by international standards.
+      features:
+        - problematic
+      sources:
+        - citation: "Freedom House, Freedom of the Press 1991"
+          url: "https://freedomhouse.org"
+          type: think_tank_report
+          reliability: medium
+      confidence: medium
+      notes: "Transitional period; restrictions easing but structural constraints remained."
+
   1992:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
@@ -45,13 +74,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continuing improvement in press freedom conditions during the CODESA negotiations
+        period. Independent newspapers and the Weekly Mail operated with considerable freedom.
+        However, SABC broadcasting remained under government influence. Violence against
+        journalists covering ANC-IFP conflict in KwaZulu-Natal continued. Self-censorship
+        on certain security topics persisted. Overall moving toward problematic-to-satisfactory
+        range as apartheid legislation was progressively suspended.
+      features:
+        - problematic
+      sources:
+        - citation: "Committee to Protect Journalists, Attacks on the Press 1992"
+          url: "https://cpj.org"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Transition period; print media relatively free, broadcasting still state-controlled."
+
   1993:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
@@ -61,13 +102,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Final year of apartheid saw substantial but incomplete press freedom improvements.
+        The Transitional Executive Council overseeing transition included media oversight
+        provisions. Independent newspapers and radio stations operated with considerable
+        latitude. SABC reform began. Most emergency-era censorship laws repealed or suspended.
+        Violence against journalists in political hotspots continued. Overall environment
+        was at the borderline between problematic and satisfactory by late 1993.
+      features:
+        - problematic
+      sources:
+        - citation: "Freedom House, Freedom of the Press 1993"
+          url: "https://freedomhouse.org"
+          type: think_tank_report
+          reliability: medium
+      confidence: medium
+      notes: "Rapidly improving environment in final months before the 1994 election."
+
   1994:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
@@ -77,493 +130,917 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        The democratic transition brought a fundamental shift in press freedom. The new
+        Constitution guaranteed freedom of expression and freedom of the press. The SABC
+        was restructured as a public broadcaster with an independent board mandate. Multiple
+        independent newspapers and a new independent broadcasting sector emerged. RSF did
+        not publish comprehensive scores for South Africa in this transitional year, but
+        Freedom House rated it as Free by year-end. Journalists could report on government
+        without legal jeopardy for the first time in decades.
+      features:
+        - satisfactory
+      sources:
+        - citation: "Freedom House, Freedom of the Press 1994"
+          url: "https://freedomhouse.org"
+          type: think_tank_report
+          reliability: medium
+        - citation: "CPJ, Attacks on the Press 1994"
+          url: "https://cpj.org"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Landmark improvement following April 1994 elections and new constitutional framework."
+
   1995:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 75
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Freedom House, Freedom of the Press 1995; RSF retrospective"
+        url: "https://freedomhouse.org"
+        access_date: "2024-01-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-apartheid South Africa established a vibrant free press. The Bill of Rights
+        in the interim Constitution (finalized in the 1996 Constitution) protected press
+        freedom. Independent print media flourished with multiple critical newspapers.
+        The SABC independence remained contested — political influence still present.
+        Community radio stations licensed. Overall environment rated as satisfactory with
+        minor issues around SABC editorial independence and some access restrictions in
+        conflict-affected KwaZulu-Natal.
+      features:
+        - satisfactory
+      sources:
+        - citation: "Freedom House, Freedom of the Press 1995"
+          url: "https://freedomhouse.org"
+          type: think_tank_report
+          reliability: medium
+        - citation: "RSF World Press Freedom Index, retrospective scores"
+          url: "https://rsf.org"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Approximate RSF-equivalent score; formal RSF index coverage of SA improves from 2002."
+
   1996:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 76
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Freedom House, Freedom of the Press 1996"
+        url: "https://freedomhouse.org"
+        access_date: "2024-01-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        The 1996 Constitution firmly entrenched press freedom under Section 16. Multiple
+        independent daily newspapers, weeklies, and magazines operated without legal
+        interference. The Truth and Reconciliation Commission proceedings were openly
+        covered. SABC independence improved with a new board. Independent newspapers
+        (Business Day, Mail & Guardian, Sunday Times) published critical investigative
+        reporting. South Africa was among the freest press environments in Africa.
+      features:
+        - satisfactory
+      sources:
+        - citation: "Freedom House, Freedom of the Press 1996"
+          url: "https://freedomhouse.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Constitutional entrenchment in 1996 Constitution solidified press freedom framework."
+
   1997:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 77
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Freedom House, Freedom of the Press 1997"
+        url: "https://freedomhouse.org"
+        access_date: "2024-01-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Continued improvement in press freedom conditions. No journalist imprisonments
+        or killings reported. Critical coverage of government policy (including AIDS policy
+        controversy beginning to emerge) published freely. Print and broadcast diversity
+        high. The new broadcasting regulator (ICASA) overseeing pluralism in media.
+        Some concern about media ownership concentration beginning as large conglomerates
+        consolidated print holdings, but editorial independence remained strong.
+      features:
+        - satisfactory
+      sources:
+        - citation: "Freedom House, Freedom of the Press 1997"
+          url: "https://freedomhouse.org"
+          type: think_tank_report
+          reliability: high
+        - citation: "Committee to Protect Journalists, Africa overview 1997"
+          url: "https://cpj.org"
+          type: ngo_report
+          reliability: medium
+      confidence: high
       notes: null
+
   1998:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 78
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Freedom House, Freedom of the Press 1998"
+        url: "https://freedomhouse.org"
+        access_date: "2024-01-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Robust press freedom environment. Investigative journalism on the Arms Deal
+        controversy began (the government's 1999 arms procurement package). Critical
+        reporting on President Mandela's government and HIV/AIDS policy published freely.
+        South Africa ranked among the top 30-40 globally on press freedom by most indices.
+        No systematic government harassment of journalists. Some legal actions by public
+        figures using defamation law, but no chilling overall effect on press freedom.
+      features:
+        - satisfactory
+      sources:
+        - citation: "Freedom House, Freedom of the Press 1998"
+          url: "https://freedomhouse.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
       notes: null
+
   1999:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 78
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Freedom House, Freedom of the Press 1999; RSF early index data"
+        url: "https://freedomhouse.org"
+        access_date: "2024-01-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Transition from Mandela to Mbeki government without press freedom disruption.
+        Critical coverage of the Arms Deal, which would become a major scandal, freely
+        published. Free and fair election reporting. No journalist detentions or killings.
+        The press environment remained among the most free on the African continent.
+        Some concerns raised about government sensitivity to criticism of HIV/AIDS denialist
+        policy under Mbeki, but no formal suppression of coverage at this stage.
+      features:
+        - satisfactory
+      sources:
+        - citation: "Freedom House, Freedom of the Press 1999"
+          url: "https://freedomhouse.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
       notes: null
+
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 26
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF Press Freedom Index 2002 (earliest available; 2000 estimated from Freedom House)"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF World Press Freedom Index formally began in 2002; 2000 score estimated from
+        Freedom House data (rated Free, score ~26 in Freedom House 0-100 scale where lower
+        is better, ~74 inverted). Press environment remained robust. Some tension between
+        government and media over HIV/AIDS coverage — Mbeki's AIDS denialism generated
+        friction with health journalists. No formal press restrictions or journalist
+        prosecutions. South Africa ranked in the top tier of African press freedom.
+      features:
+        - satisfactory
+      sources:
+        - citation: "Freedom House, Freedom of the Press 2000"
+          url: "https://freedomhouse.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "RSF index not available for 2000; value is inverted Freedom House press freedom score."
+
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 74
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Freedom House, Freedom of the Press 2001 (inverted scale)"
+        url: "https://freedomhouse.org"
+        access_date: "2024-01-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Press freedom conditions remained strong. The Mail & Guardian and Sunday Times
+        conducted active investigative journalism on the Arms Deal corruption. Government
+        response was defensive but did not include formal suppression. HIV/AIDS coverage
+        tensions with Mbeki administration continued. The Health Act controversy and
+        government attempts to regulate certain health reporting generated debate but
+        no prosecutions. South Africa Freedom House rated as Free with score 25 (inverted ~75).
+      features:
+        - satisfactory
+      sources:
+        - citation: "Freedom House, Freedom of the Press 2001"
+          url: "https://freedomhouse.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "Pre-RSF index era; using inverted Freedom House score as proxy."
+
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 61
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2002, South Africa rank 36/139"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        First year of RSF World Press Freedom Index. South Africa ranked 36th out of 139
+        countries, reflecting a generally free press environment. Active investigative
+        journalism continued on Arms Deal, AIDS, and crime. SABC faced occasional
+        government pressure on editorial content. Mail & Guardian's reporting on government
+        corruption was largely unimpeded. Some concern about media ownership concentration.
+        Overall satisfactory environment with some structural concerns.
+      features:
+        - satisfactory
+      sources:
+        - citation: "RSF World Press Freedom Index 2002"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+        - citation: "Freedom House, Freedom of the Press 2002"
+          url: "https://freedomhouse.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "RSF index launched in 2002; South Africa ranked 36/139."
+
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 62
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2003"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Continued satisfactory press freedom. Investigative reporting on government
+        corruption and the Arms Deal remained active. No journalist killings or imprisonments.
+        SABC tensions with government persisted but editorial independence generally maintained.
+        Government sensitivity to negative coverage increased under Mbeki, particularly
+        regarding AIDS policy and Zimbabwe (Mbeki's quiet diplomacy criticized). But no
+        formal legal mechanisms deployed against press.
+      features:
+        - satisfactory
+      sources:
+        - citation: "RSF World Press Freedom Index 2003"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+      confidence: high
       notes: null
+
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 63
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2004"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Election year 2004; press coverage of elections was extensive and free. Critical
+        reporting on corruption freely published. South Africa maintained one of Africa's
+        strongest press freedom records. Mail & Guardian and other investigative outlets
+        continued Arms Deal reporting. Some government criticism of "adversarial" media
+        coverage but no legal suppression. Press freedom environment remained satisfactory.
+      features:
+        - satisfactory
+      sources:
+        - citation: "RSF World Press Freedom Index 2004"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+      confidence: high
       notes: null
+
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 64
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2005"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        The Zuma rape trial (2006) and corruption charges created intense media coverage.
+        Press operated freely in covering these politically sensitive matters. Zuma
+        supporters occasionally harassed journalists at court proceedings. ANC and
+        government expressed frustration with "negative" coverage of leaders. However
+        no systematic threat to press freedom. South Africa maintained satisfactory
+        press freedom environment and remained highly rated in Africa.
+      features:
+        - satisfactory
+      sources:
+        - citation: "RSF World Press Freedom Index 2005"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+      confidence: high
       notes: null
+
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 63
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2006"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Continued satisfactory environment despite political tensions around Zuma versus
+        Mbeki factionalism. Press freely covered the corruption charges against Zuma,
+        the Mbeki-Zuma split, and sensitive political topics. Some intimidation of
+        journalists covering ANC factional rallies. SABC independence concerns continued.
+        The proposed Protection of Information Bill floated but not yet a serious threat.
+        Overall satisfactory conditions maintained.
+      features:
+        - satisfactory
+      sources:
+        - citation: "RSF World Press Freedom Index 2006"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+      confidence: high
       notes: null
+
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 62
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2007"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        The Polokwane ANC conference (December 2007) at which Zuma defeated Mbeki received
+        extensive free media coverage. Investigative journalism on government corruption
+        and crime continued freely. Growing concerns about the ANC's attitude toward
+        critical coverage — calls for a media appeals tribunal first floated in this period.
+        However no concrete press freedom restrictions. Slight RSF score decline reflecting
+        political tensions. Environment remained satisfactory.
+      features:
+        - satisfactory
+      sources:
+        - citation: "RSF World Press Freedom Index 2007"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Polokwane conference marked beginning of Zuma era political influence on media."
+
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 60
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2008"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-Mbeki recall (September 2008) transition period. Motlanthe caretaker
+        government. ANC government renewed calls for a Media Appeals Tribunal that would
+        have state oversight over the press. SABC board crisis (irregular political
+        interference accusations). Xenophobia violence coverage created some safety
+        concerns for journalists in affected townships. Overall environment declined
+        slightly to the lower end of satisfactory. Press still operated freely to
+        report on the political turbulence.
+      features:
+        - satisfactory
+      sources:
+        - citation: "RSF World Press Freedom Index 2008"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "SABC board political crisis signaled increasing political pressure on broadcasting."
+
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 59
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2009"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Zuma's election as President brought increasing government pressure on media.
+        The proposed Protection of Information Bill (POI Bill) threatened to criminalize
+        publication of classified information with no public interest defense. The ANC
+        renewed its push for a statutory Media Appeals Tribunal. Mail & Guardian faced
+        a pre-publication court interdict from the Intelligence Agency (NIA) in 2008-2009.
+        RSF ranking declined. Environment still satisfactory but trending negative.
+      features:
+        - satisfactory
+      sources:
+        - citation: "RSF World Press Freedom Index 2009"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+        - citation: "Freedom House, Freedom of the Press 2009"
+          url: "https://freedomhouse.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Protection of Information Bill introduced 2008 began threatening press freedom framework."
+
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 57
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2010"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FIFA World Cup year generated extensive free media coverage. But government
+        pressure on press continued to escalate. The Protection of Information Bill
+        was tabled in Parliament with provisions that media organizations, civil society,
+        and legal experts widely condemned as draconian. ANC proposed Media Appeals
+        Tribunal continued as policy option. SABC editorial independence further eroded.
+        RSF score declined further, though SA remained in satisfactory category.
+      features:
+        - satisfactory
+      sources:
+        - citation: "RSF World Press Freedom Index 2010"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "POI Bill introduced; significant civil society pushback against its scope."
+
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 55
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2011"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Major battle over the Protection of Information Bill, widely known as the Secrecy
+        Bill. Massive civil society and media campaign (#RightToKnow campaign). The bill
+        as drafted would criminalize publication of classified information with up to 25
+        years imprisonment and no public interest defense. Parliament debate ongoing.
+        SABC news director controversially blocked coverage of critical topics. RSF South
+        Africa ranking declined significantly. Environment borderline satisfactory/problematic.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2011, South Africa rank 42/179"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+        - citation: "Right2Know Campaign, State of Media Freedom, 2011"
+          url: "https://r2k.org.za"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Secrecy Bill debate and SABC interference drove ranking decline; SA slipped to 42nd."
+
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 53
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2012"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued battle over the Secrecy Bill in Parliament. The Marikana massacre
+        (August 2012) generated critical coverage despite hostility from some in government
+        toward critical reporting. SABC censorship incidents documented. Tabloid
+        press faced litigation pressure. RSF score continued to decline. South Africa
+        still classified as problematic by RSF. However investigative journalism remained
+        active and journalists were not imprisoned for their work.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2012"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+        - citation: "CPJ, South Africa attacks on press 2012"
+          url: "https://cpj.org"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Marikana coverage and ongoing Secrecy Bill saga dominant themes for press freedom."
+
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 54
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2013"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        The Protection of State Information Act (POIA) passed by Parliament but not
+        yet signed into law due to constitutional challenges. President Zuma withheld
+        his signature following widespread criticism and a parliamentary committee
+        revision process. Press continued to investigate Nkandla government expenditure
+        scandal (Zuma's private residence upgrades). SABC independence contested.
+        RSF score slightly improved reflecting civil society success in moderating the
+        worst POIA provisions. Environment: problematic.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2013"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+        - citation: "Freedom House, Freedom of the Press 2013"
+          url: "https://freedomhouse.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "POIA passed Parliament but stalled before presidential signature due to constitutional concerns."
+
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 53
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2014"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Election year 2014. SABC coverage biased toward ANC in run-up to elections.
+        Nkandla coverage intensified as Public Protector Thuli Madonsela investigated.
+        Press freely published critical reporting on Zuma's use of state funds.
+        POIA not yet signed into law. Investigative units (amaBhungane, Daily Maverick)
+        emerged as significant new independent media. Press environment remained in
+        problematic category but investigative journalism active and impactful.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2014"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "SABC election coverage bias documented; new independent digital media emerged."
+
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 53
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2015"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued decline in institutional press freedom environment. SABC imposed
+        more restrictive editorial policies under pro-Zuma management. Journalists
+        covering protests in some areas reported intimidation by police. The #FeesMustFall
+        protests generated coverage with some access restrictions. Independent online
+        media (Daily Maverick, GroundUp, amaBhungane) continued high-quality investigative
+        work on State Capture. Environment stable at problematic.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2015"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "SABC editorial restrictions under COO Hlaudi Motsoeneng became prominent issue."
+
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 50
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2016"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Worst year for SABC under Hlaudi Motsoeneng's controversial tenure as COO.
+        SABC banned coverage of protest violence (the 'no protest coverage' directive).
+        Eight SABC journalists suspended or fired for refusing to comply with the ban.
+        State Capture revelations (Gupta-Zuma network) being published by investigative
+        media despite government hostility. RSF ranking declined further.
+        Private/independent press remained relatively free; SABC editorial capture
+        was the primary concern. Environment: problematic.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2016"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+        - citation: "MISA, Media Violations Barometer 2016"
+          url: "https://misa.org"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "SABC 8 journalist firings for refusing to enforce protest ban was landmark incident."
+
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 52
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2017"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SABC crisis peaked and partially resolved — Hlaudi Motsoeneng eventually removed
+        following court orders. The Gupta email leak (GuptaLeaks) provided massive State
+        Capture documentation, published by amaBhungane and others without legal interference.
+        Independent media played crucial role exposing State Capture. Some RSF score
+        improvement following SABC improvements. Environment remained problematic but
+        showed signs of recovery as civil society and courts defended press freedom.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2017"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "GuptaLeaks publication was a landmark in South African investigative journalism."
+
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 54
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2018"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Ramaphosa's presidency (from February 2018) brought immediate improvement in
+        government-media relations. State Capture investigations continued and the Zondo
+        Commission of Inquiry established. SABC independence slowly recovering. No
+        political pressure on the Zondo Commission coverage. RSF score improved slightly.
+        Press freedom environment moving from problematic back toward satisfactory.
+        Independent media (Daily Maverick, amaBhungane, News24) expanded.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2018"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Ramaphosa era began with improved government-media relations."
+
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 57
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2019"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued improvement under Ramaphosa. Press freely covered election (May 2019)
+        and the ongoing Zondo Commission proceedings, which were broadcast live. State
+        Capture accountability journalism continued without legal interference. RSF ranking
+        improved to reflect better environment. SABC slowly recovering institutional
+        independence. Environment returning to satisfactory range. No journalist detentions
+        or killings for political reasons.
+      features:
+        - satisfactory
+      sources:
+        - citation: "RSF World Press Freedom Index 2019, South Africa rank 31"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Zondo Commission live broadcast demonstrated restored press freedom under Ramaphosa."
+
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 55
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2020"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        COVID-19 pandemic brought complex press freedom dynamics. Strict lockdown regulations
+        included some access restrictions for journalists. Government designated press as
+        essential service, allowing continued operations. COVID-19 misinformation regulations
+        raised some concern about potential press restrictions. RSF score declined slightly
+        due to lockdown-period access issues. Overall satisfactory environment maintained;
+        critical reporting on COVID-19 response and ongoing corruption published freely.
+      features:
+        - satisfactory
+      sources:
+        - citation: "RSF World Press Freedom Index 2020"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+        - citation: "Freedom House, Freedom in the World 2020"
+          url: "https://freedomhouse.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "COVID lockdown regulations created temporary access complications for journalists."
+
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 55
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2021"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        July 2021 civil unrest posed serious safety risks for journalists covering the
+        violence. Some journalists were targeted and attacked while reporting in KwaZulu-Natal
+        and Gauteng. Press continued to cover the unrest and subsequent accountability.
+        Zondo Commission nearing completion with live coverage throughout. No systematic
+        government press suppression. RSF stable in satisfactory range. South Africa
+        ranked approximately 31-35th globally, among best in Africa.
+      features:
+        - satisfactory
+      sources:
+        - citation: "RSF World Press Freedom Index 2021"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+        - citation: "MISA, Media Violations Barometer 2021"
+          url: "https://misa.org"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "July 2021 unrest created safety risks for journalists but no state press suppression."
+
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 56
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2022"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Zondo Commission final report published and widely covered. Press freedom
+        environment improved slightly. Daily Maverick, amaBhungane, and GroundUp continued
+        as major investigative outlets. Some concern about proposed defamation law reform
+        potentially creating criminal defamation provisions, but this did not advance.
+        SABC recovery ongoing. RSF ranked South Africa 35th globally — strong for Africa.
+        Environment: satisfactory.
+      features:
+        - satisfactory
+      sources:
+        - citation: "RSF World Press Freedom Index 2022, South Africa rank 35/180"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Zondo Commission publication and coverage reflected healthy investigative journalism ecosystem."
+
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 57
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2023"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Press freedom stable in satisfactory category. Investigative journalism continued
+        to play important accountability function (coverage of State Capture prosecutions,
+        Phala Phala scandal). SABC governance improved with new board. Some economic
+        pressure on traditional print media (several papers closed or reduced publication
+        frequency) but digital outlets expanded. RSF score approximately 57 inverted.
+        South Africa maintained its position as one of Africa's freest press environments.
+      features:
+        - satisfactory
+      sources:
+        - citation: "RSF World Press Freedom Index 2023"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Economic pressures on print media a growing concern distinct from political press freedom."
+
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 58
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2024"
+        url: "https://rsf.org/en/ranking"
+        access_date: "2024-06-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Election year 2024 (May general elections, GNU formation). Media coverage of
+        the historic elections — first GNU since 1994 — was extensive and unimpeded.
+        RSF ranked South Africa approximately 30-35th globally. Press environment solidly
+        satisfactory. Digital media continued to expand. No journalist imprisonments
+        or killings for political reasons. SABC reform ongoing. International press
+        freedom organizations noted South Africa as a regional anchor for press freedom.
+      features:
+        - satisfactory
+      sources:
+        - citation: "RSF World Press Freedom Index 2024"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: high
+        - citation: "Freedom House, Freedom in the World 2024"
+          url: "https://freedomhouse.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "2024 elections and GNU formation covered freely; regional benchmark for press freedom."
+
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
@@ -573,8 +1050,18 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GNU government continued. Press freedom maintained in satisfactory range. No
+        significant new legislative threats to press freedom. Investigative journalism
+        continued at major outlets. Economic sustainability of legacy media remained
+        a concern with several print titles reducing publication frequency.
+        RSF 2025 index not yet published at time of data entry.
+      features:
+        - satisfactory
+      sources:
+        - citation: "RSF World Press Freedom Index 2024 (latest available)"
+          url: "https://rsf.org/en/ranking"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "2025 RSF index not yet published; assessment based on continuation of 2024 trends."

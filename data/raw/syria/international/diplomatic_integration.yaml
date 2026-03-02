@@ -3,7 +3,7 @@ country: syria
 dimension: international
 years:
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -13,13 +13,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Syria a recognized UN member state with full diplomatic relations across Arab world,
+        Europe, and most of international community. Member of Arab League, UN bodies. Relations
+        with US strained (no ambassador since 2005) but diplomatic ties maintained. Some tension
+        over Lebanon interference and support for Hezbollah. Full international recognition
+        with some disputes. Normal minus active disputes.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "US State Department. 'Syria: Background Note.' 2009."
+          url: "https://www.state.gov"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "Full UN member; Arab League member; US no ambassador since 2005; normal relations with disputes"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -29,13 +39,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Syria with improving diplomatic status. US restored full ambassador to Damascus 2010.
+        Turkey-Syria relations strong (visa-free). Turkey-Syrian-Lebanese meetings. French
+        President Sarkozy visited. Syria emerging from partial isolation. Full relations
+        active internationally with minor disputes (Golan, Lebanon).
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "ICG. 'Syria's Phase of Radicalisation.' 2012. (Background context.)"
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "US ambassador returned 2010; Turkey strong relations; Sarkozy visited; improving diplomatic integration"
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -45,13 +64,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Uprising crackdown triggered rapid diplomatic isolation. Arab League suspended Syria
+        November 2011. US/EU recalled ambassadors. Turkey suspended relations. Arab League
+        sent monitors (December) but Syria failed to comply. UN Human Rights Council condemned.
+        Russia and China blocked UNSC sanctions resolutions. Significant isolation by year end.
+        Major deterioration from near-full integration.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "Arab League. 'Syria suspension — November 2011.' 2011."
+          url: null
+          type: official_document
+          reliability: high
+        - citation: "UN Human Rights Council. 'Syria Resolution.' 2011."
+          url: "https://www.un.org"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "Arab League suspension Nov 2011; US/EU recalled ambassadors; Turkey suspended; UNSC blocked by Russia/China"
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -61,13 +94,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Deepening international isolation. Many Western states expelled Syrian ambassadors.
+        Syria expelled from Arab League. SNC (Syrian National Council) recognized by some
+        states as legitimate representative. UN General Assembly resolution condemning Assad
+        passed with large majority. Russia/China continued blocking UNSC action. Syria
+        pariah status in Western/Arab world. Pariah status internationally.
+      features:
+        - pariah_status
+      sources:
+        - citation: "UN General Assembly Resolution 66/253. 'Syria situation.' February 2012."
+          url: "https://www.un.org"
+          type: official_document
+          reliability: high
+        - citation: "Arab League. 'Syria suspended from Arab League.' 2012."
+          url: null
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "Arab League expelled; Western states expelled ambassadors; UNGA condemning; pariah status except Russia/China"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -77,13 +124,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued pariah status. National Coalition for Syrian Revolutionary Forces recognized
+        by 130+ states as legitimate representative. Assad government retained UN seat (Russia
+        blocking). Chemical weapons use (Ghouta August) further isolated Syria. UN-brokered
+        Syria-2 peace process. Pariah status in West/Arab world; maintained relations with
+        Russia, Iran, China only.
+      features:
+        - pariah_status
+      sources:
+        - citation: "UN. 'Syria chemical weapons use.' September 2013."
+          url: "https://www.un.org"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "National Coalition 130+ recognition; Ghouta further isolated; Russia/Iran/China only; pariah"
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -93,13 +150,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Assad government retained UN seat with Russian support. No Western state maintained
+        normal diplomatic relations with Assad. US-led anti-ISIS coalition cooperating
+        indirectly with Assad (common enemy ISIS) but not diplomatically. Geneva II peace
+        talks failed. Syria isolated from Western/Arab world. Maintained Russia, Iran, Iraq
+        support. Pariah status.
+      features:
+        - pariah_status
+      sources:
+        - citation: "UN OHCHR. 'Syria COI.' 2014."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Assad retained UN seat; Geneva II failed; US-led coalition no diplomatic engagement; pariah"
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -109,13 +176,28 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Russia's military intervention September 2015 provided Assad diplomatic cover.
+        Vienna Process began October 2015 — first multilateral engagement including Iran
+        and Russia alongside Western states. UN Security Council Resolution 2254 (December
+        2015) on political transition endorsed. Assad still pariah in West but international
+        engagement increasing. Partial re-engagement through peace process but still
+        significant isolation.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "UNSC Resolution 2254 (2015). 'Syria political transition.' December 2015."
+          url: "https://www.un.org"
+          type: official_document
+          reliability: high
+        - citation: "Vienna Process. 'International Syria Support Group.' 2015."
+          url: null
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Russia intervention diplomatic cover; Vienna Process; UNSC 2254; still significant isolation"
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -125,13 +207,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued significant isolation. Astana Process (Russia, Turkey, Iran) began for
+        Syria negotiations — bypassing West. Aleppo siege further isolated Assad in Western
+        view. UN Special Envoy Staffan de Mistura continuing Geneva process. No normalization
+        of Western/Arab relations with Assad. Significant isolation continued.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "UN. 'Staffan de Mistura Geneva process.' 2016."
+          url: "https://www.un.org"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "Astana process bypassing West; Aleppo siege; Geneva process continuing; significant isolation"
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -141,13 +232,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Significant isolation continued. Astana Process trilateral (Russia, Turkey, Iran)
+        dominant. Western states maintained non-engagement with Assad. Some Arab states
+        privately discussing normalization. Assad regime retaking territory generated
+        international criticism. No Western diplomatic normalization. Significant isolation.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "ICG. 'Astana Process and Syria.' 2017."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Astana trilateral; Western non-engagement; private Arab normalization discussions; significant isolation"
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -157,13 +257,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued significant isolation. Ghouta chemical attack April 2018 led to US/UK/France
+        strikes. No diplomatic normalization with West. UAE began discussing Syria normalization.
+        Bahrain reopened embassy to Syria 2018. Jordan, Egypt signaling normalization. Assad
+        had military upper hand. Partial Arab normalization beginning but significant
+        isolation from West maintained.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "Reuters. 'UAE Syria normalization signals.' 2018."
+          url: null
+          type: news_analysis
+          reliability: high
+      confidence: high
+      notes: "Ghouta strikes; UAE normalization beginning; Bahrain embassy reopened; significant isolation from West"
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -173,13 +283,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Significant isolation from Western states continued. Arab world progressively
+        normalizing. UAE, Bahrain fully normalized. Jordan, Egypt strengthening ties.
+        Constitutional Committee formation under UN auspices October 2019. Turkey
+        Operation Peace Spring affected Astana dynamics. West maintained non-engagement.
+        Partial isolation — Arab world normalizing, West isolated.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "UN. 'Constitutional Committee for Syria.' October 2019."
+          url: "https://www.un.org"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "Constitutional Committee Oct; UAE/Bahrain normalized; Jordan/Egypt normalizing; West still isolated"
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -189,13 +309,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Significant isolation from West with expanding Arab normalization. Caesar Act
+        July 2020 complicated Arab normalization. Some Arab states proceeding despite
+        Caesar Act secondary sanctions risk. Assad sham election preparation. West
+        maintained non-engagement. UN peace process stalled. Significant isolation
+        from West/major powers.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "ICG. 'Syria After 2020.' crisisgroup.org."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Caesar Act complicating Arab normalization; West non-engagement; UN process stalled; significant isolation"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -205,13 +335,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued significant isolation from Western powers. Assad sham re-election May 2021
+        condemned by West. Arab normalization accelerating — Saudi Arabia private meetings.
+        US, EU, UK continued non-engagement with Assad government. Jordan formally normalized
+        October 2021. West maintained pariah status while Arab world progressively normalizing.
+        Partial isolation from West; improving Arab relations.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "HRW. 'Syria sham election May 2021.' hrw.org."
+          url: "https://www.hrw.org"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Assad sham election condemned; Jordan normalized Oct 2021; Arab normalization; West pariah stance"
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -221,13 +361,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Arab normalization accelerating significantly. Saudi-Syria diplomatic contacts.
+        Algeria AU summit invited Assad. Egypt meetings. West maintained non-engagement and
+        sanctions. US declined to endorse normalization. EU maintained sanctions. Syria
+        isolated from Western/international community but Arab normalization advancing.
+        Partial isolation — significant from West, reducing in Arab world.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "ICG. 'Taking Stock of the Syria Conflict after Eleven Years.' 2022."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Arab normalization accelerating; Saudi contacts; AU summit invited; West maintained isolation"
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -237,13 +387,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Major diplomatic rehabilitation in Arab world. Arab League readmitted Syria May 2023.
+        Saudi Arabia, Egypt, Jordan, UAE all restored full diplomatic relations. Assad
+        attended Arab League summit in Jeddah. However, Western states (US, EU, UK) continued
+        non-recognition and maintained sanctions. UN peace process not advancing. Partial
+        isolation — full Arab normalization but Western isolation maintained.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "Arab League. 'Syria readmission.' May 2023."
+          url: null
+          type: official_document
+          reliability: high
+        - citation: "Reuters. 'Assad attends Arab League summit.' May 2023."
+          url: null
+          type: news_analysis
+          reliability: high
+      confidence: high
+      notes: "Arab League readmission May 2023; Saudi/Egypt/Jordan/UAE relations; West still isolated"
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -253,13 +417,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Pre-December 2024: Partial isolation from West with Arab normalization. Post-December 8
+        Assad collapse: rapid international engagement with new transitional authority. US,
+        UK, France, Germany sent diplomats to Damascus. Turkey (major HTS backer) had
+        direct relations. Arab states immediately engaged new government. UN engaged
+        transitional authority. Rapid shift from pariah to significant international engagement.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "ICG. 'Syria: After Assad.' December 2024."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "Pre-Dec: Arab normal/West isolated; Post-Dec 8: US/EU/Turkey direct engagement with HTS transitional"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -269,8 +443,19 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-Assad transitional government pursuing broad international engagement. US lifted
+        some sanctions and engaged diplomatically. EU engaged. Arab states all maintained
+        relations. Turkey primary external patron. HTS (al-Jolani/al-Sharaa) not yet fully
+        legitimized due to terrorist designation. Syria seeking UN full membership restoration,
+        IMF engagement, and reconstruction assistance. Partial isolation due to HTS
+        designation but improving integration.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "ICG. 'Syria Transition 2025.' crisisgroup.org."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: low
+      notes: "Transitional government US/EU engaged; HTS designation complicating; Turkey patron; reconstruction seeking"

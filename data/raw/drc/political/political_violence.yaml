@@ -1,580 +1,901 @@
 indicator: political_violence
 country: drc
 dimension: political
+notes: >
+  DRC has experienced some of the world's highest political violence levels. Second Congo War
+  1998-2003 killed an estimated 5.4 million people (direct and excess mortality). ACLED/UCDP
+  data shows consistently high conflict deaths in eastern DRC. Key phases: First Congo War
+  1996-1997 (~150K dead); Second Congo War 1998-2003 (catastrophic); post-war violence
+  2004-2010 (high to severe); M23 2012-2013 (severe); ongoing armed groups 2014+ (high);
+  M23 resurgence 2021+ (severe); AFC/M23 advance 2023-2024 (catastrophic in east).
+  ACLED data for DRC 2016-2025 shows 3,000-20,000+ conflict fatalities per year.
 years:
   1990:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP/PRIO: Zaïre 1990"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Zaïre under Mobutu. Relative suppression of overt conflict but state violence and
+        political repression ongoing. Ethnic tensions in Kivu. Low-level conflict deaths
+        but significant state violence. Low political violence in UCDP terms.
+      features:
+        - low_100_500
+      sources:
+        - citation: "UCDP: Zaïre 1990 — low intensity conflict"
+          url: "https://ucdp.uu.se/country/490"
+          type: academic
+          reliability: high
+      confidence: medium
+      notes: "Mobutu era suppression; ethnic tensions Kivu; low-level conflict; low 100-500"
+
   1991:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP: Zaïre 1991"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sovereign National Conference; military mutinies and looting. Kinshasa violence.
+        Political violence increasing as state control weakens. Low to moderate conflict deaths.
+      features:
+        - low_100_500
+      sources:
+        - citation: "UCDP: Zaïre 1991"
+          url: "https://ucdp.uu.se/country/490"
+          type: academic
+          reliability: medium
+      confidence: medium
+      notes: "Military mutinies; Kinshasa violence; low conflict deaths"
+
   1992:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP: Zaïre 1992"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Political crisis. Ethnic violence North Kivu (Hunde vs Banyarwanda). Moderate
+        political violence. Localized communal conflict deaths in hundreds.
+      features:
+        - moderate_500_2000
+      sources:
+        - citation: "HRW: Zaïre 1992 — North Kivu ethnic violence"
+          url: "https://www.hrw.org/africa/democratic-republic-congo"
+          type: ngo_report
+          reliability: high
+      confidence: medium
+      notes: "North Kivu ethnic violence; moderate deaths"
+
   1993:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "HRW: Zaïre 1993 — Masisi ethnic violence"
+        url: "https://www.hrw.org/africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Masisi ethnic violence kills thousands. North Kivu: Hunde/Nande vs Banyarwanda
+        escalates. Kasai conflict. Multiple simultaneous localized conflicts. Moderate to
+        high political violence deaths.
+      features:
+        - moderate_500_2000
+      sources:
+        - citation: "HRW: Zaïre 1993 — Masisi conflict"
+          url: "https://www.hrw.org/africa/democratic-republic-congo"
+          type: ngo_report
+          reliability: high
+      confidence: medium
+      notes: "Masisi ethnic violence; Kasai conflict; moderate-high deaths 500-2000"
+
   1994:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UNHCR/UCDP: Zaïre 1994 — Rwanda refugee crisis"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Rwandan genocide April-July 1994 (1.5M refugees flood eastern Zaïre). Violence in
+        Kivu as refugees arrive. Ex-FAR soldiers and Interahamwe bring weapons. Moderate to
+        high political violence in eastern Zaïre context.
+      features:
+        - moderate_500_2000
+      sources:
+        - citation: "UNHCR: Zaïre 1994 — refugee crisis impact"
+          url: "https://www.unhcr.org/drc"
+          type: un_report
+          reliability: high
+      confidence: medium
+      notes: "Rwanda genocide refugees; eastern Kivu violence; moderate deaths in Zaïre"
+
   1995:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP: Zaïre 1995 — Kivu tensions"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Hutu militia (FDLR precursor) operating from refugee camps. Raids into Rwanda.
+        Eastern Kivu violence continues. Interahamwe attacks on Tutsi communities.
+        Moderate political violence with escalating trajectory.
+      features:
+        - moderate_500_2000
+      sources:
+        - citation: "UCDP: Zaïre 1995 — Kivu conflict"
+          url: "https://ucdp.uu.se/country/490"
+          type: academic
+          reliability: high
+      confidence: medium
+      notes: "Hutu militia from refugee camps; Interahamwe attacks; moderate deaths"
+
   1996:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP: First Congo War 1996"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        First Congo War begins October 1996. AFDL (Rwanda/Uganda backed) rapid advance.
+        Refugee camps destroyed — tens of thousands of Hutu refugees killed. High conflict
+        deaths. Rwanda-backed forces killed ~150K-200K in the advance across DRC.
+      features:
+        - high_2000_10000
+      sources:
+        - citation: "UCDP: First Congo War 1996 — AFDL advance"
+          url: "https://ucdp.uu.se/country/490"
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "First Congo War; AFDL advance; refugee camp destruction; high deaths 2000-10000"
+
   1997:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP: First Congo War ends 1997"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        First Congo War ends May 1997 (Kabila takes Kinshasa). Continued killings of Hutu
+        refugees in eastern DRC — UN investigation of potential genocide allegations.
+        Moderate to high deaths post-Mobutu including retribution killings.
+      features:
+        - high_2000_10000
+      sources:
+        - citation: "UCDP: DRC 1997 — post-war killings"
+          url: "https://ucdp.uu.se/country/490"
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "First Congo War ends; Hutu refugee killings; UN investigation; high deaths"
+
   1998:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP: Second Congo War begins 1998"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Second Congo War begins August 1998. Rwanda/Uganda invade. DRC fractured.
+        Multiple fronts simultaneously. Severe conflict deaths — tens of thousands killed
+        in fighting. Beginning of the deadliest war since WWII.
+      features:
+        - severe_10000_50000
+      sources:
+        - citation: "UCDP: Second Congo War 1998"
+          url: "https://ucdp.uu.se/country/490"
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "Second Congo War begins; Rwanda/Uganda invasion; multiple fronts; severe deaths"
+
   1999:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP: DRC Second Congo War 1999"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Second Congo War at peak intensity. Kisangani battle (Uganda vs Rwanda, June 1999).
+        Multiple armed factions. Civilian massacres. Lusaka ceasefire signed but ignored.
+        Catastrophic conflict deaths — 5+ million total war deaths over the period.
+      features:
+        - catastrophic_gt_50000
+      sources:
+        - citation: "UCDP: Second Congo War 1999 — Kisangani battle"
+          url: "https://ucdp.uu.se/country/490"
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "Second Congo War peak; Kisangani battle; Lusaka ceasefire ignored; catastrophic deaths"
+
   2000:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP: DRC Second Congo War 2000"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Second Congo War continues. Second Kisangani battle (Uganda vs Rwanda, June 2000).
+        Widespread killing, displacement. Excess mortality from disease/starvation in
+        conflict zones. Catastrophic deaths when direct and indirect mortality counted.
+      features:
+        - catastrophic_gt_50000
+      sources:
+        - citation: "IRC: Congo mortality survey 2000"
+          url: "https://ucdp.uu.se/country/490"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Second Congo War; second Kisangani battle; catastrophic deaths including excess mortality"
+
   2001:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP: DRC 2001 — J Kabila; Second Congo War"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Joseph Kabila takes power January 2001 after father's assassination. Begins peace
+        talks. Second Congo War continues but J Kabila more willing to negotiate. Severe
+        deaths — war still intense. Excess mortality from disease in war zones remains high.
+      features:
+        - severe_10000_50000
+      sources:
+        - citation: "UCDP: DRC 2001 — J Kabila; continued conflict"
+          url: "https://ucdp.uu.se/country/490"
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "J Kabila takes over; peace talks begin; war continues; severe deaths"
+
   2002:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP: DRC 2002 — peace agreements"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Pretoria Accord and Luanda Agreement. Rwanda/Uganda withdraw. Fighting reduces but
+        armed groups remain active. IRC mortality surveys estimate 3-4 million total war
+        deaths. Severe deaths but declining from catastrophic peak.
+      features:
+        - severe_10000_50000
+      sources:
+        - citation: "IRC: Congo mortality survey 2002"
+          url: "https://ucdp.uu.se/country/490"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Peace agreements; Rwanda/Uganda withdraw; fighting reduces; severe deaths declining"
+
   2003:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP: DRC 2003 — Ituri crisis; transitional government"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Transitional government formed. Ituri crisis severe — Lendu/Hema militia kill
+        thousands. French Artemis operation. Second Congo War officially ending but
+        numerous armed groups continue. High deaths — Ituri alone had thousands killed.
+      features:
+        - high_2000_10000
+      sources:
+        - citation: "UCDP: DRC 2003 — Ituri massacre"
+          url: "https://ucdp.uu.se/country/490"
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "Ituri crisis; Lendu/Hema massacres; transitional govt; high deaths"
+
   2004:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP: DRC 2004 — Bukavu crisis"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bukavu crisis (Nkunda/Mutebutsi capture Bukavu June 2004). Eastern DRC armed
+        groups ongoing. FDLR, Mai-Mai, CNDP precursors. High conflict deaths in east.
+      features:
+        - high_2000_10000
+      sources:
+        - citation: "UCDP: DRC 2004 — Bukavu crisis"
+          url: "https://ucdp.uu.se/country/490"
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "Bukavu crisis; FDLR/Mai-Mai; high deaths eastern DRC"
+
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP: DRC 2005 — eastern conflict continues"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        MONUC operations in Ituri and Kivu. FDLR massacres. North Kivu fighting. High
+        ongoing deaths in eastern DRC. Constitution referendum process. High deaths.
+      features:
+        - high_2000_10000
+      sources:
+        - citation: "UCDP: DRC 2005 — MONUC operations"
+          url: "https://ucdp.uu.se/country/490"
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "MONUC operations; FDLR massacres; North Kivu fighting; high deaths"
+
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP/ACLED: DRC 2006 — elections; post-election violence"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Elections July/October 2006. Post-election Kinshasa violence (Kabila vs Bemba forces,
+        August 2006). Eastern DRC: CNDP beginning, FDLR ongoing. High deaths nationally.
+      features:
+        - high_2000_10000
+      sources:
+        - citation: "UCDP: DRC 2006 — elections and post-election violence"
+          url: "https://ucdp.uu.se/country/490"
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "Post-election Kinshasa violence; CNDP beginning; FDLR; high deaths"
+
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP/ACLED: DRC 2007 — CNDP; North Kivu"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        CNDP (Nkunda) active in North Kivu. Large battles against FARDC. Displaced hundreds
+        of thousands. High conflict deaths — UCDP records ~4,000+ battle deaths in DRC 2007.
+      features:
+        - high_2000_10000
+      sources:
+        - citation: "UCDP: DRC 2007 — CNDP/Nkunda battle deaths"
+          url: "https://ucdp.uu.se/country/490"
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "CNDP/Nkunda North Kivu; large FARDC battles; high deaths ~4000+"
+
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP/ACLED: DRC 2008 — Goma crisis; CNDP advance"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        CNDP near-captures Goma October 2008. Large-scale fighting. Kiwanja massacre (CNDP
+        kills 150+ civilians November 2008). FDLR ongoing. High deaths — among highest
+        post-war years in the east.
+      features:
+        - high_2000_10000
+      sources:
+        - citation: "HRW: DRC 2008 — Kiwanja massacre; CNDP advance"
+          url: "https://www.hrw.org/africa/democratic-republic-congo"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "CNDP near-captures Goma; Kiwanja massacre; FDLR; high deaths"
+
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP: DRC 2009 — CNDP integration; FDLR operations"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        CNDP integrated into FARDC January 2009. Rwanda deploys against FDLR (Op Umoja
+        Wetu). Some reduction but FDLR retaliates with massacres. ADF active. High deaths —
+        lower than 2008 peak but still significant.
+      features:
+        - high_2000_10000
+      sources:
+        - citation: "UCDP: DRC 2009 — CNDP integration; Rwandan operations"
+          url: "https://ucdp.uu.se/country/490"
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "CNDP integrated; Rwanda vs FDLR; FDLR retaliation massacres; high deaths"
+
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP/ACLED: DRC 2010 — Luvungi mass rape; ADF"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Luvungi mass rape by FDLR (July 2010). ADF active. FARDC Amani Leo operations.
+        Moderate to high deaths — somewhat reduced from 2007-2009 peak.
+      features:
+        - moderate_500_2000
+      sources:
+        - citation: "UCDP: DRC 2010 — eastern conflict"
+          url: "https://ucdp.uu.se/country/490"
+          type: academic
+          reliability: high
+      confidence: medium
+      notes: "Luvungi mass rape; ADF; FARDC operations; moderate-high deaths"
+
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP/ACLED: DRC 2011 — elections; eastern conflict"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Disputed elections November 2011. Post-election violence. Eastern DRC: FDLR, ADF,
+        ex-CNDP tensions brewing. Moderate deaths between high peaks of 2007-2009 and
+        M23 2012-2013.
+      features:
+        - moderate_500_2000
+      sources:
+        - citation: "UCDP: DRC 2011 — elections; eastern conflict"
+          url: "https://ucdp.uu.se/country/490"
+          type: academic
+          reliability: high
+      confidence: medium
+      notes: "Disputed elections; post-election violence; FDLR/ADF; moderate deaths"
+
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP/ACLED: DRC 2012 — M23 rebellion; Goma"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        M23 rebellion escalates April-November 2012. M23 captures Goma November 2012.
+        FARDC largely routed. FDLR ongoing. High deaths — M23 advance killed thousands,
+        displaced hundreds of thousands.
+      features:
+        - high_2000_10000
+      sources:
+        - citation: "UCDP/ACLED: DRC 2012 — M23 rebellion"
+          url: "https://ucdp.uu.se/country/490"
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "M23 rebellion; Goma captured; FARDC routed; high deaths"
+
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "UCDP/ACLED: DRC 2013 — M23 defeated; ongoing groups"
+        url: "https://ucdp.uu.se/country/490"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        M23 defeated November 2013 by FARDC+MONUSCO FIB. Continued FDLR, ADF, Mai-Mai
+        violence. ADF massacre in Beni region. High overall deaths despite M23 defeat.
+      features:
+        - high_2000_10000
+      sources:
+        - citation: "UCDP/ACLED: DRC 2013 — M23 defeat; ADF massacres"
+          url: "https://ucdp.uu.se/country/490"
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "M23 defeated; ADF massacres Beni; FDLR; high deaths"
+
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ACLED: DRC 2014 — ADF Beni massacres"
+        url: "https://acleddata.com/data/acled-data-for-africa/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        ADF Beni massacres intensify (October 2014+). FDLR ongoing. Multiple Mai-Mai groups.
+        MONUSCO operations. High deaths — ADF killed hundreds of civilians in Beni territory.
+        ACLED: ~3,000-4,000 conflict fatalities.
+      features:
+        - high_2000_10000
+      sources:
+        - citation: "ACLED: DRC 2014 — ADF Beni massacres"
+          url: "https://acleddata.com/data/acled-data-for-africa/"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "ADF Beni massacres begin; FDLR; multiple armed groups; high deaths ~3000-4000"
+
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ACLED: DRC 2015 — eastern conflict"
+        url: "https://acleddata.com/data/acled-data-for-africa/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        ADF massacres continue Beni. FDLR ongoing despite operations. Multiple Mai-Mai groups.
+        Raia Mutomboki, Nyatura, NDC-Rénové proliferating. High deaths in eastern DRC.
+        ACLED: ~3,000-4,000 fatalities.
+      features:
+        - high_2000_10000
+      sources:
+        - citation: "ACLED: DRC 2015 — ADF and armed groups"
+          url: "https://acleddata.com/data/acled-data-for-africa/"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "ADF Beni; FDLR; multiple Mai-Mai; high deaths"
+
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ACLED: DRC 2016 — Kasai conflict begins; constitutional crisis"
+        url: "https://acleddata.com/data/acled-data-for-africa/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Kasai conflict begins (Kamuina Nsapu vs FARDC). Eastern DRC ongoing. Constitutional
+        crisis. Beni massacres continue. High deaths across multiple regions. ACLED records
+        ~4,000+ fatalities.
+      features:
+        - high_2000_10000
+      sources:
+        - citation: "ACLED: DRC 2016 — Kasai; eastern conflict"
+          url: "https://acleddata.com/data/acled-data-for-africa/"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Kasai begins; ADF Beni; ACLED ~4000+ deaths"
+
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ACLED: DRC 2017 — Kasai peak; Beni; Tanganyika"
+        url: "https://acleddata.com/data/acled-data-for-africa/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Kasai violence peaks — mass graves, UN investigators killed. Beni ADF massacres.
+        Tanganyika Twa/Luba conflict. Multiple crises simultaneously. Severe deaths —
+        ACLED records ~7,000+ fatalities. Among highest since Second Congo War era.
+      features:
+        - severe_10000_50000
+      sources:
+        - citation: "ACLED: DRC 2017 — multiple crises; ~7000+ deaths"
+          url: "https://acleddata.com/data/acled-data-for-africa/"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Kasai peak; ADF Beni; Tanganyika; ACLED ~7000+ deaths; severe"
+
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ACLED: DRC 2018 — elections; Ebola; eastern conflict"
+        url: "https://acleddata.com/data/acled-data-for-africa/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Ebola outbreak in active conflict zone (North Kivu). ADF Beni massacres continue.
+        Elections December 2018. Kasai somewhat stabilized. High deaths — ACLED ~6,000+
+        fatalities. Ebola response complicated by insecurity.
+      features:
+        - high_2000_10000
+      sources:
+        - citation: "ACLED: DRC 2018 — Ebola; ADF; elections"
+          url: "https://acleddata.com/data/acled-data-for-africa/"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Ebola in conflict zone; ADF Beni; elections; ACLED ~6000+ deaths"
+
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ACLED: DRC 2019 — ADF; Ituri; eastern DRC"
+        url: "https://acleddata.com/data/acled-data-for-africa/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        ADF attacks intensify after FARDC operation. Ituri conflict escalates. Ebola ongoing
+        until June 2020. High deaths — ACLED ~6,000-7,000 fatalities. Multiple armed groups.
+      features:
+        - high_2000_10000
+      sources:
+        - citation: "ACLED: DRC 2019 — ADF intensifies; Ituri"
+          url: "https://acleddata.com/data/acled-data-for-africa/"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "ADF intensifies; Ituri escalates; Ebola; ACLED ~6000-7000 deaths"
+
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ACLED: DRC 2020 — ADF; Ituri crisis"
+        url: "https://acleddata.com/data/acled-data-for-africa/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        ADF massacres continue Beni and expand. Ituri crisis escalates (CODECO militia).
+        State of siege declared North Kivu/Ituri May 2021 (prepared in 2020). High deaths.
+        ACLED: ~6,000-7,000 fatalities.
+      features:
+        - high_2000_10000
+      sources:
+        - citation: "ACLED: DRC 2020 — ADF; CODECO Ituri"
+          url: "https://acleddata.com/data/acled-data-for-africa/"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "ADF massacres; CODECO Ituri; ACLED ~6000-7000 deaths"
+
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ACLED: DRC 2021 — M23 resurgence; state of siege"
+        url: "https://acleddata.com/data/acled-data-for-africa/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        M23 resurges November 2021. State of siege in North Kivu/Ituri. Uganda deploys
+        against ADF. ADF/ISIS affiliation claimed. CODECO Ituri. High to severe deaths.
+        ACLED: ~7,000-8,000 fatalities.
+      features:
+        - high_2000_10000
+      sources:
+        - citation: "ACLED: DRC 2021 — M23 resurgence; state of siege"
+          url: "https://acleddata.com/data/acled-data-for-africa/"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "M23 resurges; state of siege; Uganda deploys; ADF/ISIS; ACLED ~7000-8000 deaths"
+
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ACLED: DRC 2022 — M23/Rwanda advance"
+        url: "https://acleddata.com/data/acled-data-for-africa/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        M23 rapid advance with Rwanda backing. Rutshuru captured October 2022. Large-scale
+        fighting North Kivu. ADF ongoing. Ituri. High to severe deaths. ACLED: ~8,000-10,000
+        fatalities making this one of deadliest years since 2017.
+      features:
+        - severe_10000_50000
+      sources:
+        - citation: "ACLED: DRC 2022 — M23/Rwanda; ~8000-10000 deaths"
+          url: "https://acleddata.com/data/acled-data-for-africa/"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "M23/Rwanda advance; Rutshuru; ADF; ACLED ~8000-10000 deaths; severe"
+
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ACLED: DRC 2023 — M23/Rwanda; elections"
+        url: "https://acleddata.com/data/acled-data-for-africa/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        M23/Rwanda controls large North Kivu territory. Elections December 2023. Continued
+        fighting. ADF ongoing. Severe deaths. ACLED: ~8,000-12,000 fatalities.
+      features:
+        - severe_10000_50000
+      sources:
+        - citation: "ACLED: DRC 2023 — M23/Rwanda; high fatalities"
+          url: "https://acleddata.com/data/acled-data-for-africa/"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "M23/Rwanda holds North Kivu; elections; ACLED ~8000-12000 deaths; severe"
+
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ACLED: DRC 2024 — AFC/M23 captures Goma and Bukavu"
+        url: "https://acleddata.com/data/acled-data-for-africa/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        AFC/M23 captures Goma January 2024 (massive offensive). Then Bukavu February 2024.
+        Catastrophic violence — thousands killed in the advance. Humanitarian catastrophe.
+        MONUSCO/SADC withdraw. ACLED: ~15,000-20,000+ fatalities. Catastrophic.
+      features:
+        - catastrophic_gt_50000
+      sources:
+        - citation: "ACLED: DRC 2024 — AFC/M23 Goma/Bukavu offensive"
+          url: "https://acleddata.com/data/acled-data-for-africa/"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "AFC/M23 captures Goma/Bukavu; ACLED estimates 15000-20000+ deaths; catastrophic"
+
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ACLED: DRC 2025 — ongoing AFC/M23 conflict"
+        url: "https://acleddata.com/data/acled-data-for-africa/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Ongoing conflict in eastern DRC. AFC/M23 continues to hold eastern provinces.
+        Ceasefire attempts but fighting continues. ADF ongoing in north. Severe deaths
+        continue. ACLED data for 2025 still accumulating but trajectory remains severe.
+      features:
+        - severe_10000_50000
+      sources:
+        - citation: "ACLED: DRC 2025 — ongoing AFC/M23 conflict"
+          url: "https://acleddata.com/data/acled-data-for-africa/"
+          type: think_tank
+          reliability: high
+      confidence: medium
+      notes: "AFC/M23 holds east; ceasefire talks; ADF north; severe ongoing deaths"

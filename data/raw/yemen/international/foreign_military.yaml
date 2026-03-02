@@ -3,7 +3,7 @@ country: yemen
 dimension: international
 years:
   1996:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -13,13 +13,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No significant foreign military presence. Yemen sovereign state with
+        Saleh controlling unified military. No foreign bases or troops.
+        Full sovereignty.
+      features:
+        - no_foreign_presence_full_sovereignty
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: high
       notes: null
+
   1997:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -29,13 +37,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No foreign military presence. Full sovereignty. Military entirely
+        under Yemeni state control.
+      features:
+        - no_foreign_presence_full_sovereignty
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: high
       notes: null
+
   1998:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -45,13 +60,19 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No foreign military presence. Full sovereignty maintained.
+      features:
+        - no_foreign_presence_full_sovereignty
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: high
       notes: null
+
   1999:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -61,13 +82,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No foreign military presence. Saleh's unified Yemen fully sovereign.
+        US military cooperation discussed but no presence.
+      features:
+        - no_foreign_presence_full_sovereignty
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: high
       notes: null
+
   2000:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -77,13 +105,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        USS Cole bombing leads to US naval and FBI presence for investigation.
+        Small US advisory/training presence. Yemen-US counterterrorism cooperation
+        beginning. Limited invited advisors.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: medium
+      notes: "USS Cole investigation; US advisory presence"
+
   2001:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -93,13 +129,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US counterterrorism advisors in Yemen post-9/11. Limited US military
+        training presence. Yemen invited cooperation. Limited invited advisors.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: medium
+      notes: "US counterterrorism advisors"
+
   2002:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -109,13 +152,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US CIA drone operations in Yemen (first strike November 2002). US
+        Special Forces advisors training Yemen military. Limited but significant
+        US presence invited by Saleh government. Limited invited advisors.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: medium
+      notes: "First US drone strike; CIA/Special Forces presence"
+
   2003:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -125,13 +176,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        US counterterrorism advisors and drone operations continuing. Limited
+        invited foreign military presence. Sovereignty maintained with invited
+        assistance.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: medium
       notes: null
+
   2004:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -141,13 +200,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        US counterterrorism advisors. First Houthi war with no foreign involvement.
+        Yemen government managing war without foreign military assistance.
+        Limited US advisory presence.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: medium
       notes: null
+
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -157,13 +224,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Limited US counterterrorism presence. Multiple Houthi wars managed
+        by Yemen military alone. Drone operations occasional. Limited invited
+        advisors.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: medium
       notes: null
+
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -173,13 +248,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        US counterterrorism advisory presence. Drone operations ongoing.
+        Yemen managing Houthi wars and AQAP independently. Limited invited
+        advisors.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: medium
       notes: null
+
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -189,13 +272,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        US counterterrorism presence. Drone strikes on AQAP. Yemen managing
+        fourth Houthi war without foreign help. Limited invited advisors.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: medium
       notes: null
+
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -205,13 +295,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        US counterterrorism advisors. Drone operations increasing. Fifth Houthi
+        war managed domestically. US strike kills AQAP members. Limited invited
+        advisors.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: medium
       notes: null
+
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -221,13 +319,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Saudi Arabia launches Operation Scorched Earth against Houthis in north
+        Yemen (crossing border). Significant Saudi military operation on Yemen
+        territory at government invitation. Saudi ground and air operations
+        in Saada. Significant invited forces.
+      features:
+        - significant_invited_forces
+      sources:
+        - citation: "ICG Yemen reports; IISS"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Saudi military intervention in north Yemen; sixth Houthi war"
+
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -237,13 +344,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Saudi ceasefire with Houthis but Saudi border area remains militarized.
+        US drone operations increasing in scope and frequency. Limited-to-significant
+        invited foreign forces.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: medium
+      notes: "Saudi operations reduced after ceasefire; US drones continue"
+
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -253,13 +368,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US drone operations intensifying against AQAP. Saleh injured in coup
+        attempt; treated in Saudi Arabia. GCC diplomatic intervention managing
+        transition. Limited US military and GCC diplomatic presence.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: medium
+      notes: "Intensive US drone strikes on AQAP; GCC diplomatic role"
+
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -269,13 +392,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        US drone operations frequent against AQAP. US Special Forces advisors
+        training Yemeni troops. GCC supporting transition. Limited invited foreign
+        military forces.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: medium
       notes: null
+
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -285,13 +416,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        US drone operations continuing against AQAP. US Special Forces advisors
+        present. Limited invited foreign military presence.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: medium
       notes: null
+
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -301,13 +439,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US drone operations ongoing. US evacuates Special Forces advisors as
+        Houthis advance September 2014. Houthi seize Sanaa. Military situation
+        deteriorating. Limited invited forces then evacuated.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "US Department of Defense"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "US advisors evacuated as Houthis seize Sanaa"
+
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -317,13 +463,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Saudi-led coalition begins Operation Decisive Storm (March 26, 2015).
+        Coalition includes Saudi Arabia, UAE, Egypt, Jordan, Sudan, Bahrain,
+        Kuwait, Morocco, Senegal. Air, naval, and ground operations at scale.
+        Iran supporting Houthis. Massive foreign military presence.
+        Active foreign combat operations.
+      features:
+        - active_foreign_combat_operations
+        - significant_invited_forces
+      sources:
+        - citation: "IISS Military Balance; news analysis"
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "Saudi coalition intervention March 26 2015; active_foreign_combat_operations"
+
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -333,13 +490,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Saudi-led coalition active combat operations continuing. Coalition air
+        strikes daily. UAE ground forces operating. Sudanese ground troops in
+        Yemen. Iranian advisors supporting Houthis. Active foreign combat operations.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "IISS Military Balance; ICG Yemen"
+          type: academic
+          reliability: high
+      confidence: high
       notes: null
+
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -349,13 +514,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Coalition air operations continuing. UAE ground forces operating in south
+        (building STC). Iranian missile and drone support to Houthis (used against
+        Saudi Arabia). US limited operations against AQAP resuming.
+        Active foreign combat operations.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "UAE ground; Iran missile support; multiple foreign military actors"
+
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -365,13 +539,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Coalition battle for Hodeidah (June-December 2018). Intense air operations.
+        UAE ground forces in south. Saudi ground forces at northern border.
+        Stockholm Agreement December 2018. Active foreign combat operations.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "Hodeidah battle; Stockholm Agreement"
+
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -381,13 +563,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Coalition operations continuing but reduced post-Stockholm. UAE draws down
+        ground forces. Saudi air operations continuing. Iranian support to Houthis
+        with drones/missiles used against Saudi Aramco. Contested mixed presence.
+      features:
+        - contested_mixed_presence
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "UAE drawdown; Saudi continues; Iranian support visible"
+
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -397,13 +587,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Saudi air operations continuing. UAE reduced presence. Iranian support
+        to Houthis ongoing. Multiple foreign military actors. Contested mixed
+        presence with significant invited forces from Saudi-side.
+      features:
+        - significant_invited_forces
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: medium
       notes: null
+
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -413,13 +611,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Saudi air operations continuing intensively (Marib area). Houthi attacks
+        on Saudi territory. Iranian drone/missile support to Houthis. UAE building
+        STC forces. US SOCOM operations against AQAP. Multiple foreign militaries.
+        Significant invited forces and active combat operations.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "Marib offensive; Saudi intensive air ops"
+
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -429,13 +636,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        UN truce April-October 2022 reduces Saudi coalition operations. Saudi
+        air strikes stop during truce. Iranian support to Houthis continues.
+        UAE-backed STC forces. Post-truce operations reduced. Significant invited
+        forces but reduced active combat operations.
+      features:
+        - significant_invited_forces
+      sources:
+        - citation: "IISS Military Balance; ICG Yemen"
+          type: academic
+          reliability: high
+      confidence: high
+      notes: "UN truce reduces coalition operations; Iranian support continues"
+
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -445,13 +661,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Saudi air operations minimal (ceasefire). Saudi-Houthi direct negotiations.
+        Iranian support to Houthis including maritime capability. UAE-backed STC.
+        Significantly reduced but still significant foreign military presence.
+      features:
+        - significant_invited_forces
+      sources:
+        - citation: "IISS Military Balance"
+          type: academic
+          reliability: high
+      confidence: medium
+      notes: "Saudi-Houthi ceasefire; Saudi operations minimal"
+
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -461,13 +685,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US/UK begin strikes on Yemen (Operation Prosperity Guardian/Poseidon Archer)
+        from January 2024 responding to Houthi Red Sea attacks. Saudi coalition
+        reduced but continuing. Iranian military support to Houthis with maritime
+        capability. Multiple uninvited and invited foreign military actors.
+        Active foreign combat operations.
+      features:
+        - active_foreign_combat_operations
+        - contested_mixed_presence
+      sources:
+        - citation: "US Department of Defense; IISS"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "US/UK strikes from Jan 2024; Houthi Red Sea attacks; new dimension"
+
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -477,8 +712,15 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US/UK operations continuing. Houthi Red Sea attacks continuing.
+        Multiple foreign militaries active. Active foreign combat operations
+        with multiple uninvited actors. Contested mixed presence.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "US Department of Defense"
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "US/UK operations; ongoing"

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>States During Regime Change — Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+
+  <!-- Header -->
+  <header id="header">
+    <h1>States During Regime Change</h1>
+    <nav>
+      <a href="index.html" class="active">Dashboard</a>
+      <a href="countries.html">Countries</a>
+      <a href="methodology.html">Methodology</a>
+    </nav>
+    <div id="header-spacer"></div>
+    <button id="btn-share">Share ↗</button>
+  </header>
+
+  <div id="main">
+
+    <!-- Sidebar -->
+    <aside id="sidebar">
+
+      <!-- Countries section -->
+      <div class="sidebar-section">
+        <div class="sidebar-section-title sidebar-toggle">Countries <span class="section-chevron">▾</span></div>
+        <div class="sidebar-section-body">
+          <input type="text" id="country-search" placeholder="Search..." autocomplete="off">
+          <ul id="country-list"></ul>
+          <div class="group-buttons" id="group-buttons"></div>
+        </div>
+      </div>
+
+      <!-- Metrics section -->
+      <div class="sidebar-section">
+        <div class="sidebar-section-title sidebar-toggle">Metrics <span class="section-chevron">▾</span></div>
+        <div class="sidebar-section-body">
+          <ul id="metric-list"></ul>
+          <button id="btn-custom-metric">+ Custom metric ⊕</button>
+        </div>
+      </div>
+
+    </aside>
+
+    <!-- Chart area -->
+    <div id="chart-area">
+
+      <!-- Toolbar -->
+      <div id="chart-toolbar">
+        <span class="toolbar-label">Display:</span>
+        <div class="radio-group">
+          <label><input type="radio" name="chart-mode" value="overlay"><span>Overlay</span></label>
+          <label><input type="radio" name="chart-mode" value="stacked"><span>Stacked</span></label>
+        </div>
+
+        <span style="margin-left:12px" class="toolbar-label">X-axis:</span>
+        <div class="radio-group">
+          <label><input type="radio" name="x-mode" value="absolute"><span>Absolute</span></label>
+          <label><input type="radio" name="x-mode" value="aligned"><span>Aligned</span></label>
+          <label><input type="radio" name="x-mode" value="pivot"><span>Pivot</span></label>
+        </div>
+
+        <div class="toolbar-spacer"></div>
+      </div>
+
+      <!-- Chart container -->
+      <div id="chart-container">
+        <div id="chart"></div>
+        <div id="chart-empty">Select countries and metrics to begin</div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<!-- Custom metric panel (floating, not modal) -->
+<div id="custom-metric-panel">
+  <div id="custom-panel-header">
+    <h3>Custom Metric Builder</h3>
+    <button id="btn-close-panel">×</button>
+  </div>
+  <div id="custom-panel-body">
+    <input type="text" id="custom-name" placeholder="Metric name (e.g. Stability)">
+    <div id="custom-formula-preview">(select indicators)</div>
+    <div id="custom-indicator-rows"></div>
+    <button id="btn-save-custom">Save metric</button>
+    <div id="custom-saved-list"></div>
+  </div>
+</div>
+
+<!-- CDN scripts -->
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/Sortable.min.js"></script>
+
+<script type="module">
+  import { state } from "./js/state.js";
+  import { loadAll, getAllCountrySeries } from "./js/data.js";
+  import { render, setCountriesMeta } from "./js/chart.js";
+  import { init as initControls } from "./js/controls.js";
+
+  async function main() {
+    // Init state from URL hash
+    state.init();
+
+    // Load data
+    let allData;
+    try {
+      allData = await loadAll();
+    } catch (err) {
+      document.getElementById("chart-empty").textContent =
+        `Failed to load data: ${err.message}`;
+      return;
+    }
+
+    // Pass countries metadata to chart module for display names
+    setCountriesMeta(allData.countries);
+
+    // Init controls (renders sidebar)
+    initControls(allData);
+
+    // Subscribe to state changes → re-render chart
+    state.subscribe((s) => {
+      const seriesList = getAllCountrySeries(s, allData);
+      render(seriesList, s);
+    });
+
+    // Initial chart render
+    const s = state.get();
+    const seriesList = getAllCountrySeries(s, allData);
+    render(seriesList, s);
+  }
+
+  main().catch(console.error);
+</script>
+</body>
+</html>

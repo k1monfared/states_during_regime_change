@@ -1,356 +1,493 @@
 indicator: refugee_flows
 country: sudan
 dimension: international
+unit: percent_population_per_year
 years:
   2004:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Refugee Data Finder, Sudan, 2004"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        The Darfur crisis drove massive displacement in 2004. Over 1 million people displaced within Sudan (IDPs) from Darfur; hundreds of thousands fled to Chad. Sudan was simultaneously a major refugee-producing country (Darfur) and a refugee-hosting country (receiving from Ethiopia, Eritrea, South Sudan). Mass displacement year.
+      features:
+        - mass_displacement_3_10pct
+      sources:
+        - citation: "UNHCR Global Trends 2004, Sudan country data"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+        - citation: "IDMC, Sudan IDP data, 2004"
+          url: "https://www.internal-displacement.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "1M+ Darfur IDPs; mass Chad refugee flight; Darfur crisis at peak displacement; Sudan also hosting refugees"
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Refugee Data Finder, Sudan, 2005"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Displacement continued at high levels from Darfur. CPA signature improved south-north displacement somewhat as SPLM-controlled areas stabilized. Total IDP population in Sudan approximately 5.3 million in 2005. New displacement from ongoing Darfur fighting continued to add to the IDP caseload.
+      features:
+        - mass_displacement_3_10pct
+      sources:
+        - citation: "UNHCR Global Trends 2005, Sudan; Internal Displacement Monitoring Centre"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "CPA reduced south-north displacement; Darfur displacement continued adding; total IDPs ~5.3M"
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Refugee Data Finder, Sudan, 2006"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        High displacement from Darfur continued. DPA failure in May 2006 prevented refugee return. Chad-Sudan border region saw cross-border displacement. IDP numbers in Sudan remained among the world's highest at approximately 5-6 million.
+      features:
+        - mass_displacement_3_10pct
+      sources:
+        - citation: "UNHCR Global Trends 2006, Sudan"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "DPA failure prevented return; Sudan IDP numbers among world's highest; Chad border displacement"
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Refugee Data Finder, Sudan, 2007"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Mass displacement continued. UNAMID authorized but slow to deploy. New displacement events in Darfur added to already large IDP caseload. Some Sudanese refugees from conflict areas in Chad. Total displacement remained at extreme levels.
+      features:
+        - mass_displacement_3_10pct
+      sources:
+        - citation: "UNHCR Global Trends 2007, Sudan"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "UNAMID authorized; displacement unabated; Chad-Sudan cross-border; IDP caseload extreme"
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Refugee Data Finder, Sudan, 2008"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Displacement continued at high but somewhat reduced levels from 2004 peak. UNAMID deployment provided some protection but could not halt all displacement. ICC indictment and related violence in Darfur caused additional displacement episodes. IDP stock remained very high.
+      features:
+        - mass_displacement_3_10pct
+      sources:
+        - citation: "UNHCR Global Trends 2008, Sudan"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "Below 2004 peak but still mass displacement; UNAMID limited protection; IDP stock very high"
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Refugee Data Finder, Sudan, 2009"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Displacement slightly reduced but still significant. NGO expulsion in April 2009 removed humanitarian organizations providing protection, likely increasing displacement vulnerability. ICC warrant year. IDP stock remained approximately 4.9 million Sudanese.
+      features:
+        - significant_outflows_1_3pct
+      sources:
+        - citation: "UNHCR Global Trends 2009, Sudan"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "NGO expulsion April 2009 removed protection; IDP stock ~4.9M; some reduction from peak"
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Refugee Data Finder, Sudan, 2010"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        New displacement reduced somewhat as Darfur conflict intensity moderated. Pre-referendum tensions and some return movements occurring. IDP stock remained very high. Sudan also hosting 350,000+ refugees from other countries (Ethiopia, Eritrea, Central African Republic).
+      features:
+        - significant_outflows_1_3pct
+      sources:
+        - citation: "UNHCR Global Trends 2010, Sudan"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "Some moderation in new displacement; IDP stock still high; Sudan hosting 350K+ refugees from other countries"
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Refugee Data Finder, Sudan, 2011"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        South Sudan independence July 2011 triggered significant population movement — Sudanese with South Sudanese origins returned south; South Sudanese in north moved south. New conflicts in South Kordofan (June) and Blue Nile (September) added new IDP flows. Displacement remained at mass scale.
+      features:
+        - mass_displacement_3_10pct
+      sources:
+        - citation: "UNHCR Global Trends 2011, Sudan"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "South Sudan independence triggered population movement; new conflicts added IDPs; complex displacement picture"
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Refugee Data Finder, Sudan, 2012"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        New displacement from South Kordofan and Blue Nile conflicts. Sudan-South Sudan border fighting caused additional flows. Darfur displacement continued. Sudan had one of the largest IDP populations globally. Flight to Ethiopia and Chad continued.
+      features:
+        - mass_displacement_3_10pct
+      sources:
+        - citation: "UNHCR Global Trends 2012, Sudan"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "South Kordofan and Blue Nile new displacement; Sudan-South Sudan border; one of world's largest IDP populations"
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Refugee Data Finder, Sudan, 2013"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Displacement continued from multiple conflict theaters. September 2013 protests in Khartoum did not directly cause displacement but the economic crisis was pushing migrants abroad. IDP population remained approximately 2.5-3 million internally displaced from various conflicts.
+      features:
+        - significant_outflows_1_3pct
+      sources:
+        - citation: "UNHCR Global Trends 2013, Sudan"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "Multiple conflict theatres; economic migration increasing; IDP stock ~2.5-3M"
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Refugee Data Finder, Sudan, 2014"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        South Sudan civil war (erupted December 2013) sent 300,000+ South Sudanese refugees into Sudan, adding to Sudan's refugee hosting burden. Sudan's own conflicts continued generating displacement. Sudan became simultaneously a major origin and destination country for displacement.
+      features:
+        - significant_outflows_1_3pct
+      sources:
+        - citation: "UNHCR Global Trends 2014, Sudan"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "South Sudan civil war sent 300K+ South Sudanese into Sudan; Sudan both origin and host"
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Refugee Data Finder, Sudan, 2015"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Displacement continued from Sudanese conflicts. Economic migration from Sudan to Libya (often en route to Europe) increased significantly as economic crisis deepened. Sudan's own conflicts generating displacement while also hosting refugees. Overall displacement significant.
+      features:
+        - significant_outflows_1_3pct
+      sources:
+        - citation: "UNHCR Global Trends 2015, Sudan"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "Economic migration to Libya/Europe increasing; Sudan hosting 1M+ refugees; own conflicts displacing"
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Refugee Data Finder, Sudan, 2016"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sudan hosted approximately 900,000 registered refugees from South Sudan, Eritrea, Ethiopia, Central African Republic, and other countries. Sudanese displacement from ongoing conflicts continued. Net displacement situation complex with Sudan as both origin and major host.
+      features:
+        - moderate_outflows_lt_1pct
+      sources:
+        - citation: "UNHCR Global Trends 2016, Sudan"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "Sudan hosting ~900K refugees; own displacement ongoing; complex origin-host country dynamics"
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Refugee Data Finder, Sudan, 2017"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sudan's displacement picture: approximately 1.8 million IDPs from Darfur and other conflicts; Sudan hosting approximately 1 million refugees. Displacement from violence in Jebel Marra (Darfur) added new flows. US partial sanctions lift had no impact on displacement.
+      features:
+        - moderate_outflows_lt_1pct
+      sources:
+        - citation: "UNHCR Global Trends 2017, Sudan"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "1.8M IDPs; Sudan hosting 1M refugees; Jebel Marra new displacement; net new outflows moderate"
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Refugee Data Finder, Sudan, 2018"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sudan had approximately 2 million IDPs and was hosting approximately 1.1 million refugees. New displacement from Darfur inter-communal violence continued. Economic crisis driving labor migration. December 2018 protests did not immediately cause displacement but economic conditions pushing people to move.
+      features:
+        - moderate_outflows_lt_1pct
+      sources:
+        - citation: "UNHCR Global Trends 2018, Sudan"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "2M IDPs; hosting 1.1M refugees; inter-communal Darfur violence; economic migration increasing"
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Refugee Data Finder, Sudan, 2019"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Transition year with some IDP return movements as political situation improved. Total IDP population gradually reducing in some areas. Sudan hosting approximately 1.1 million refugees. The transition created cautious hope for some displaced Sudanese to eventually return home.
+      features:
+        - moderate_outflows_lt_1pct
+      sources:
+        - citation: "UNHCR Global Trends 2019, Sudan"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "Transition year; some IDP return hope; hosting 1.1M refugees; gradual improvement"
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Refugee Data Finder, Sudan, 2020"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Flooding in 2020 caused significant additional displacement. Transitional government maintained refugee-hosting. JPA (October 2020) aimed to enable IDP return in Darfur. COVID-19 disrupted humanitarian operations. Sudan had approximately 1.5 million IDPs and hosted 1+ million refugees.
+      features:
+        - moderate_outflows_lt_1pct
+      sources:
+        - citation: "UNHCR Global Trends 2020, Sudan"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "2020 flooding additional displacement; JPA for Darfur return; COVID disrupted operations; 1.5M IDPs"
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Refugee Data Finder, Sudan, 2021"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        El Geneina (West Darfur) ethnic violence (January 2021) caused mass displacement and refugee flows to Chad. Military coup October 2021 disrupted humanitarian programs. Sudan had approximately 1.8 million IDPs. New displacement from Darfur inter-communal violence significant.
+      features:
+        - significant_outflows_1_3pct
+      sources:
+        - citation: "UNHCR Global Trends 2021, Sudan; IDMC Sudan IDP data 2021"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "El Geneina January 2021 mass displacement; coup disrupted humanitarian; 1.8M IDPs"
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Refugee Data Finder, Sudan, 2022"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        El Geneina ethnic violence continued generating new displacement in 2022. Sudan had approximately 1.9 million IDPs and was hosting over 1.1 million refugees. Anti-coup protest crackdown caused some urban displacement in Khartoum. Pre-war conditions with significant but not catastrophic displacement.
+      features:
+        - significant_outflows_1_3pct
+      sources:
+        - citation: "UNHCR Global Trends 2022, Sudan"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "El Geneina 2022 displacement; 1.9M IDPs; 1.1M refugees hosted; pre-war year"
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Refugee Data Finder, Sudan, 2023"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Catastrophic displacement from April 2023 war. By December 2023, Sudan had over 6 million newly displaced people including 1.5 million cross-border refugees (to Chad, Egypt, CAR, Ethiopia, South Sudan) and 4.5+ million newly displaced internally. Sudan became the world's largest displacement crisis by mid-2024.
+      features:
+        - catastrophic_gt_10pct
+      sources:
+        - citation: "UNHCR Sudan Emergency, 2023; UN OCHA Sudan Crisis Reports, December 2023"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "6M+ newly displaced from April 2023 war; 1.5M cross-border refugees; world's largest displacement crisis"
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Sudan Emergency, 2024"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Displacement continued to grow in 2024. Total displaced Sudanese exceeded 11 million by late 2024 — the largest displacement crisis globally. Over 2 million cross-border refugees and 9+ million IDPs. Famine conditions in Darfur and North Sudan added to displacement pressures.
+      features:
+        - catastrophic_gt_10pct
+      sources:
+        - citation: "UNHCR Sudan Emergency Updates, 2024"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "11M+ total displaced; world's largest displacement crisis; 2M+ cross-border refugees; famine adding to displacement"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Sudan Emergency, 2025 (partial year)"
+        url: "https://data.unhcr.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Displacement continued at catastrophic scale into 2025. War ongoing, famine spreading. Total displaced Sudanese remained well above 10 million with continued new displacement as fighting continued in Khartoum and Darfur areas.
+      features:
+        - catastrophic_gt_10pct
+      sources:
+        - citation: "UNHCR Sudan Emergency, early 2025"
+          url: "https://data.unhcr.org"
+          type: international_organization
+          reliability: medium
+      confidence: medium
+      notes: "War ongoing; catastrophic displacement scale maintained; famine compounding crisis"

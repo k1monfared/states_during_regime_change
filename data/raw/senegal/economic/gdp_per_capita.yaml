@@ -3,578 +3,870 @@ country: senegal
 dimension: economic
 years:
   1990:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 36.4
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank, GDP per capita (current US$), Senegal. Peak 2023 ~$1,651"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Senegal GDP per capita in 1990 approximately $601 (current USD), representing
+        36.4% of the series peak (~$1,651 in 2023). Senegal experienced the lingering
+        effects of the 1980s structural adjustment programs. Growth modest but
+        positive, recovering from the difficult early 1980s.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Series peak ~$1,651 in 2023; 1990 value ~$601 USD"
   1991:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 35.1
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 1991 ~$580"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        GDP per capita declined slightly to ~$580 in 1991 as Senegal faced
+        economic headwinds. Structural adjustment policies continued. Agricultural
+        sector weak. GDP per capita 35.1% of peak.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: medium
       notes: null
   1992:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 34.5
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 1992 ~$570"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP per capita ~$570 in 1992. Senegal's economy continued to face
+        structural adjustment pressures. The CFA franc was still overvalued
+        before the 1994 devaluation, reducing export competitiveness.
+        34.5% of peak.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: medium
+      notes: "Pre-CFA franc devaluation; overvalued currency"
   1993:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 34.2
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 1993 ~$565"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        GDP per capita ~$565 in 1993. Economy stagnant. Diouf's government under
+        pressure from IMF for structural reforms. Fishing and phosphate main
+        export earners. Tourism developing.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: medium
       notes: null
   1994:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 25.0
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 1994 ~$413 (post-devaluation nominal drop)"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        The January 1994 CFA franc devaluation (50% against French franc) caused
+        a sharp nominal USD drop in GDP per capita to ~$413. In real terms Senegal
+        improved competitiveness but dollar-denominated GDP fell sharply.
+        25% of series peak. Post-devaluation inflation spiked to 32%.
+      features:
+        - collapse_below_30pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "CFA franc devaluation 50% January 1994 caused nominal USD GDP drop"
   1995:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 27.9
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 1995 ~$461"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP per capita recovering to ~$461 in 1995 post-devaluation. Real
+        economic growth picking up as export competitiveness improved following
+        devaluation. 27.9% of peak. Growth accelerating under post-devaluation
+        adjustment.
+      features:
+        - collapse_below_30pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Post-devaluation recovery; growth accelerating"
   1996:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 31.5
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 1996 ~$520"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        GDP per capita recovering to ~$520 in 1996. Senegal experiencing
+        post-devaluation economic recovery. Growth rates around 5% real GDP.
+        31.5% of peak. Structural adjustment bearing fruit.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   1997:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 32.7
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 1997 ~$540"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        GDP per capita ~$540 in 1997. Steady recovery continuing. Senegal among
+        the better-performing ECOWAS economies post-devaluation. Tourism and
+        fishing exports growing. 32.7% of peak.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   1998:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 33.6
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 1998 ~$555"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        GDP per capita ~$555 in 1998. Economy growing steadily. Senegal
+        approaching HIPC initiative eligibility. Services sector growing.
+        33.6% of peak.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   1999:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 32.1
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 1999 ~$530"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        GDP per capita ~$530 in 1999. Slight nominal decline due to USD strength.
+        Real growth continued. Pre-election year. Senegal qualifying for HIPC
+        debt relief initiative. 32.1% of peak.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 29.4
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2000 ~$485"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP per capita ~$485 in the 2000 regime change year. Nominal dollar value
+        low due to USD strength. Real growth around 3% in 2000. Senegal's economy
+        smaller in USD terms than in 1993 but growing in real terms. Wade
+        inherited HIPC-eligible economy. 29.4% of peak.
+      features:
+        - collapse_below_30pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Regime change year; USD denominated value low due to strong dollar"
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 29.9
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2001 ~$494"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        GDP per capita ~$494 in 2001. Wade pursuing economic reforms.
+        Structural adjustment and HIPC process continuing. Real growth around
+        4-5%. 29.9% of peak.
+      features:
+        - collapse_below_30pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 32.7
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2002 ~$540"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP per capita rising to ~$540 in 2002 as dollar weakened and economy
+        grew. CFA franc (pegged to euro) gaining against USD as euro strengthened.
+        Real growth positive. 32.7% of peak.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Euro/CFA appreciation against USD boosting dollar GDP"
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 40.5
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2003 ~$668"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP per capita rising sharply to ~$668 in 2003. Euro (and CFA) appreciated
+        significantly against USD. Real growth strong ~6%. HIPC completion point
+        reached 2004. 40.5% of peak.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Euro appreciation boosting dollar GDP; HIPC completion 2004"
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 49.1
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2004 ~$811"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP per capita ~$811 in 2004. Strong real growth (~5.8%) and continued
+        euro/CFA appreciation. HIPC completion point achieved — debt relief
+        unlocking resources. 49.1% of peak. Economy moving toward 50% of peak.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "HIPC completion 2004; strong growth"
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 52.0
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2005 ~$859"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP per capita ~$859 in 2005. Senegal crossing the 50% of peak threshold.
+        Good real growth rates (~5%). MDRI debt cancellation improving fiscal
+        space. 52.0% of peak.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "MDRI debt cancellation improved fiscal space"
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 55.5
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2006 ~$916"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        GDP per capita ~$916 in 2006. Growth continuing (~2.3% real). Approaching
+        $1,000 mark. Senegal's economy diversifying with tourism, services, and
+        remittances growing. 55.5% of peak.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 60.5
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2007 ~$999"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        GDP per capita ~$999 in 2007, approaching $1,000. Euro appreciation
+        continuing to boost dollar GDP. Real growth around 5%. 60.5% of peak.
+        Senegal approaching middle-income territory.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 63.6
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2008 ~$1,050"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP per capita ~$1,050 in 2008. Global financial crisis had limited
+        direct impact on Senegal. Food and fuel price spike hit consumers hard.
+        Real growth slowed to ~3.7%. 63.6% of peak.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Global financial crisis; food/fuel price spike"
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 60.4
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2009 ~$997"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP per capita ~$997 in 2009. Global crisis impact: remittances declined,
+        tourism fell. Real growth slow ~2.2%. Dollar GDP slightly lower. 60.4% of peak.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Global crisis impact; remittances and tourism declined"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 64.4
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2010 ~$1,063"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        GDP per capita ~$1,063 in 2010. Recovery from global crisis. Real growth
+        ~4.3%. Remittances recovering. Tourism growing. Senegal maintaining
+        steady growth trend. 64.4% of peak.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 66.2
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2011 ~$1,093"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        GDP per capita ~$1,093 in 2011. Steady growth continuing (~2.8% real).
+        Political tensions (Wade succession crisis) not derailing economy. 66.2% of peak.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 63.2
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2012 ~$1,044"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP per capita ~$1,044 in 2012. Euro weakened against USD, reducing
+        dollar GDP. Real growth moderate ~4.3%. Political transition to Sall
+        smooth — no economic disruption from regime change. 63.2% of peak.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Peaceful transfer; no economic disruption"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 61.8
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2013 ~$1,021"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP per capita ~$1,021 in 2013. Growth recovering under Sall (~3.5% real).
+        Sall launched Plan Senegal Emergent (PSE) development strategy in 2013-14.
+        61.8% of peak.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Plan Senegal Emergent development strategy"
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 62.3
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2014 ~$1,030"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        GDP per capita ~$1,030 in 2014. Sall's PSE development plan beginning
+        to show results. Real growth ~4.3%. Infrastructure investment accelerating.
+        62.3% of peak.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 57.6
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2015 ~$951"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP per capita ~$951 in 2015. Dollar GDP declined as euro/CFA weakened.
+        But real growth strong ~6.4%. Senegal became one of Africa's fastest
+        growing economies from 2015. 57.6% of peak.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Strong real growth ~6.4% from 2015; PSE bearing fruit"
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 57.6
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2016 ~$951"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        GDP per capita ~$951 in 2016. Dollar GDP stable as euro stable. Real
+        growth ~6.1%. Construction, ICT, agriculture all growing. Senegal's
+        growth among sub-Saharan Africa's best. 57.6% of peak.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 62.1
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2017 ~$1,026"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP per capita ~$1,026 in 2017. Euro appreciation boosting dollar GDP.
+        Real growth ~7.1%. Senegal exceeding PSE targets. Gas and oil offshore
+        development accelerating (GTA field). 62.1% of peak.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Strong real growth 7.1%; gas/oil development accelerating"
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 62.7
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2018 ~$1,035"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        GDP per capita ~$1,035 in 2018. Real growth ~6.2%. Pre-oil economy
+        growing well. Infrastructure (toll roads, airports, port expansion) investments
+        paying off. 62.7% of peak.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 67.5
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2019 ~$1,115"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        GDP per capita ~$1,115 in 2019. Best pre-oil year. Real growth ~4.7%.
+        Economy performing well across sectors. 67.5% of peak. Senegal on
+        trajectory to cross $1,000 per capita threshold definitively.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 63.1
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2020 ~$1,042"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP per capita ~$1,042 in 2020. COVID-19 caused real GDP growth to
+        slow sharply (~1.3%). Tourism collapsed. Remittances resilient. Government
+        fiscal response limited. 63.1% of peak. GDP per capita declined slightly.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "COVID-19 slowed growth sharply"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 70.1
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2021 ~$1,158"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        GDP per capita ~$1,158 in 2021. Post-COVID recovery strong (~6.1% real).
+        Pre-oil boom. Infrastructure and services driving growth. 70.1% of peak.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 75.7
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2022 ~$1,249"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        GDP per capita ~$1,249 in 2022. Growth ~4.1% real. Russia-Ukraine war
+        raised energy and food prices but Senegal not severely impacted. Gas
+        development (GTA offshore) approaching production. 75.7% of peak.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 100.0
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, GDP per capita, Senegal 2023 ~$1,651 (series peak)"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP per capita ~$1,651 in 2023 — series peak. First oil production
+        from Sangomar oilfield (June 2024 announced but ramp-up in 2023 accounting).
+        Real growth ~8.3%. Senegal's economic transformation accelerating.
+        100% of peak.
+      features:
+        - near_peak_90_100pct
+      sources:
+        - citation: "World Bank WDI, GDP per capita current USD, Senegal 2023"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Series peak year 2023; first oil/gas production era beginning"
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 98.0
+      unit: percent_of_series_peak
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank/IMF estimate, Senegal 2024 GDP per capita ~$1,618"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SN"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP per capita ~$1,618 in 2024. Sangomar oilfield producing (first oil
+        June 2024). GTA gas field production starting. Real growth ~7.1%.
+        Political transition (Faye won March 2024) smooth. 98% of peak.
+      features:
+        - near_peak_90_100pct
+      sources:
+        - citation: "IMF World Economic Outlook, Senegal 2024"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: high
+      confidence: medium
+      notes: "Sangomar oilfield first production June 2024"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: usd_current_or_constant
+      unit: percent_of_series_peak
       source:
         citation: null
         url: null
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP per capita growing in 2025 as oil and gas production ramps up.
+        IMF projected real growth ~7-8% for 2025. Senegal becoming an oil
+        and gas producer with significant revenue implications. Political
+        stability maintained under new Faye government.
+      features:
+        - near_peak_90_100pct
+      sources:
+        - citation: "IMF World Economic Outlook, Senegal 2025 projections"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "2025 estimate; oil/gas ramp-up expected to boost GDP significantly"

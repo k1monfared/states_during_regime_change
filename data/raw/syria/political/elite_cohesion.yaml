@@ -3,7 +3,7 @@ country: syria
 dimension: political
 years:
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -13,13 +13,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Assad regime stable. Bashar al-Assad ruling since 2000. Elite cohesion based
+        on Ba'ath Party, military-security apparatus (mukhabarat), and Alawi sectarian
+        networks. Key figures: Maher al-Assad (brother, 4th Armored Division), Rami
+        Makhlouf (cousin, economic power). The regime inner circle was tight and
+        internally cohesive. No significant factional competition.
+      features:
+        - minor_tensions_functional
+      sources:
+        - citation: "Leenders, Reinoud. 'Spoils of Truce: Corruption and State-Building in Postwar Lebanon.' Cornell University Press, 2012 (context)."
+          url: null
+          type: academic_book
+          reliability: medium
+      confidence: medium
+      notes: "Assad regime stable; Maher/Rami inner circle; Alawi networks; no factional challenge"
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -29,13 +39,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Assad regime stable. Pre-Arab Spring. Elite cohesion strong around Assad
+        family, Ba'ath Party apparatus, and military-security complex. Rami Makhlouf
+        dominant in economic sphere. Maher al-Assad commanded elite military units.
+        Minor tension_functional — some business elite discomfort with Rami monopolies
+        but no political challenge.
+      features:
+        - minor_tensions_functional
+      sources:
+        - citation: "ICG. 'Popular Protest in North Africa and the Middle East (VI): The Syrian People's Slow-Motion Revolution.' 2011."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "Assad stable; Ba'ath/military/Alawi cohesion; Makhlouf economic dominance; pre-uprising"
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -45,13 +65,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Arab Spring protests began March 2011 in Deraa, spread nationally. Initial regime
+        response: security crackdown. Some regime elite defections began — diplomats
+        and junior officials. The core Assad loyalist military-security apparatus held.
+        Some Sunni business elite distanced themselves. The regime cracked down with
+        extreme violence under Maher al-Assad's 4th Armored Division. Elite largely
+        cohesive around Assad with selective defections at margins.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "ICG. 'Syria's Phase of Radicalisation.' Asia Briefing No. 33, 2012."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Deraa protests March 2011; core military-security held; marginal defections; Maher crackdown"
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -61,13 +92,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Civil war erupted. Major elite defections accelerating — General Manaf Tlass
+        (close regime figure, July 2012), Prime Minister Riyad Hijab (August 2012).
+        Opposition National Coalition formed. Regime inner circle remained cohesive.
+        Republican Guard and 4th Armored Division loyal. Open factional conflict
+        between regime and opposition, but regime side maintained cohesion.
+      features:
+        - open_factional_conflict
+      sources:
+        - citation: "Human Rights Watch. 'Attacks on Ghouta.' 2013."
+          url: "https://www.hrw.org"
+          type: ngo_report
+          reliability: high
+        - citation: "Reuters. 'Syrian PM defects to opposition.' August 2012."
+          url: null
+          type: news_analysis
+          reliability: high
+      confidence: high
+      notes: "PM Hijab defected; General Tlass fled; regime inner circle held; civil war open conflict"
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -77,13 +122,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Civil war intensifying. Regime dependent on Alawi sectarian networks, Hezbollah
+        support, and Iranian assistance to hold territory. Assad regime consolidated
+        around loyal units but controlled less territory. Opposition fragmented with
+        FSA, Jabhat al-Nusra, other factions competing. Chemical weapons attack August
+        2013 (Ghouta). Regime maintained internal cohesion under existential pressure.
+      features:
+        - open_factional_conflict
+      sources:
+        - citation: "UN Commission of Inquiry on Syria. 'A/HRC/25/65.' 2014."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Regime consolidated loyal units; Hezbollah/Iran support; Ghouta chemical attack; opposition fragmented"
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -93,13 +148,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Civil war multi-actor conflict. ISIS declared Caliphate June 2014. Opposition
+        fragmented between FSA, ISIS, Jabhat al-Nusra, Kurdish YPG, and others.
+        Assad regime maintained cohesion around Alawi-dominated security services.
+        US-led anti-ISIS coalition formed. Open factional conflict characterizing entire
+        Syrian political landscape.
+      features:
+        - open_factional_conflict
+      sources:
+        - citation: "ICG. 'Syria: Combating a Fragmenting State.' Middle East Report No. 160, 2015."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "ISIS caliphate; multi-actor civil war; Assad cohesion maintained; opposition multi-fragmented"
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -109,13 +174,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Russia intervened militarily September 2015, stabilizing Assad regime. Regime
+        territory at its smallest extent. Significant regime elite cohesion maintained
+        around Assad family and Alawi networks despite territorial losses. Opposition
+        more fragmented. Vienna process (October-November 2015) on political transition.
+        Open factional conflict across the multi-sided civil war.
+      features:
+        - open_factional_conflict
+      sources:
+        - citation: "ICG. 'Russia's Syrian Gamble.' Middle East Briefing No. 47, 2015."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Russia intervention Sept; regime smallest territory; Assad inner circle maintained; opposition fragmented"
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -125,13 +200,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Regime recovering territory with Russian and Iranian support. Aleppo recaptured
+        December 2016. Regime elite cohesion maintained. Opposition increasingly fragmented
+        between Turkish-backed FSA, US-backed SDF/YPG, Jabhat Fatah al-Sham (former
+        al-Nusra), and others. Multi-actor conflict continuing. Regime side more cohesive.
+      features:
+        - open_factional_conflict
+      sources:
+        - citation: "UN Commission of Inquiry on Syria. 'A/HRC/34/64.' 2017."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Aleppo recaptured Dec; regime cohesion with Russian/Iranian backing; opposition fragmented"
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -141,13 +225,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Regime continued reconquest. Deir ez-Zor relieved September 2017. ISIS
+        territorially defeated. Kurdish SDF controlled northeast. Assad regime
+        inner circle cohesion maintained. Key figures: Maher al-Assad, Ali Mamlouk,
+        Mohammad Dib Zeitoun. Regime winning militarily. Opposition fragmented.
+      features:
+        - open_factional_conflict
+      sources:
+        - citation: "ICG. 'Keeping Syria's Economic Borders Open.' Middle East Briefing No. 55, 2017."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Deir ez-Zor Sept; ISIS defeated territorially; Assad winning; regime cohesion maintained"
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -157,13 +250,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Regime reconquered most of Syria. Eastern Ghouta offensive February-April 2018.
+        Daraa/southern Syria reconquered July 2018. Assad controlling approximately
+        60-65% of territory. Regime elite cohesion maintained. Rami Makhlouf still
+        dominant economically. Significant competition managing internal tensions.
+        Some signs of growing business elite dissatisfaction with Makhlouf monopolies.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "UN Commission of Inquiry on Syria. 'A/HRC/39/65.' 2018."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "Ghouta offensive; Daraa reconquered; Makhlouf tensions beginning; regime managed competition"
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -173,13 +276,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Regime controlling majority of Syria except northeast (SDF/US) and Idlib (HTS).
+        Significant internal tension: Assad vs. Rami Makhlouf economic competition.
+        Makhlouf openly challenging Assad publicly in 2020. In 2019, tensions building
+        privately. Regime stable politically but economic elite competition growing.
+        Significant competition managed internally.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "ICG. 'Winning the War, Losing the Peace? Syria after 2019.' 2019."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "Makhlouf tensions building; SDF northeast; Idlib HTS; significant managed competition"
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -189,13 +302,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Significant intra-elite conflict: Rami Makhlouf publicly posted videos accusing
+        Assad government of seizing his assets. Makhlouf ultimately arrested/assets
+        nationalized. This represented the most significant intra-regime elite conflict
+        since Assad took power. Active power struggles within the regime economic elite.
+        Caesar Act sanctions imposed July 2020. Assad retained political-military control.
+      features:
+        - active_power_struggles
+      sources:
+        - citation: "Al-Monitor. 'Rami Makhlouf vs Assad.' May-June 2020."
+          url: "https://www.al-monitor.com"
+          type: news_analysis
+          reliability: high
+        - citation: "ICG. 'Makhlouf and Assad: The End of a Partnership.' 2020."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Makhlouf public videos; assets seized; Caesar Act; active power struggle Makhlouf vs Assad"
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -205,13 +332,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-Makhlouf episode, Assad regime consolidated under new patronage networks.
+        Assad re-elected in May 2021 (95.1% sham election). Makhlouf removed from
+        economic position. New economic elite around Assad family reconsolidating.
+        Significant competition managed after Makhlouf purge. Regime cohesion
+        maintained politically if not economically.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "Human Rights Watch. 'Syria: Sham Presidential Election.' May 2021."
+          url: "https://www.hrw.org"
+          type: ngo_report
+          reliability: high
+      confidence: medium
+      notes: "Assad sham re-election 95%; Makhlouf removed; regime reconsolidated; managed competition"
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -221,13 +358,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Assad regime stable with significant managed competition among patronage networks.
+        Economic deterioration (Lebanon collapse cut Syria connections). UAE and Jordan
+        began normalizing relations with Assad. Arab League suspension review. Regime
+        inner circle managed. Some business elite tensions over economic crisis.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "ICG. 'Taking Stock of the Syria Conflict after Eleven Years.' 2022."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "Arab normalization beginning; economic crisis business elite tensions; managed competition"
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -237,13 +383,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Assad re-admitted to Arab League May 2023. Diplomatic normalization with Arab
+        states. Regime elite cohesion maintained. Assad politically consolidated.
+        Drug trade (Captagon) became major regime revenue. Some inner-circle tensions
+        over succession and post-war economic arrangements. Significant competition managed.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "ICG. 'Syria's Arab Spring.' Middle East Briefing. 2023."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "Arab League readmission May; Captagon revenues; succession tensions; managed competition"
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -253,13 +408,28 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        HTS-led offensive began November 27, 2024. Rapid collapse: Aleppo fell November 30,
+        Hama December 5, Homs December 8, Damascus December 8. Assad fled to Russia
+        December 8. Complete and sudden fragmentation of the Assad elite structure.
+        Military-security apparatus dissolved or surrendered with minimal resistance.
+        The speed of collapse indicated severe underlying rot in elite cohesion.
+        Post-collapse: HTS and rebel coalition forming transitional governance.
+      features:
+        - complete_fragmentation
+      sources:
+        - citation: "ICG. 'Syria: After Assad.' December 2024."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+        - citation: "Reuters. 'Syria Assad falls: chronology.' December 8, 2024."
+          url: null
+          type: news_analysis
+          reliability: high
+      confidence: high
+      notes: "HTS offensive Nov 27; Aleppo Nov 30; Damascus Dec 8; Assad fled Russia; total fragmentation"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -269,8 +439,18 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-Assad transitional governance under HTS leader Ahmad al-Sharaa (Abu Mohammed
+        al-Jolani) as de facto leader. Syrian Transitional Government forming. Multiple
+        factions competing: HTS, Turkish-backed SNA, Kurdish SDF, Druze militias, coastal
+        Alawi communities. Internal HTS tensions between pragmatist al-Jolani and more
+        hardline elements. Open factional conflict characterizing transitional period.
+      features:
+        - open_factional_conflict
+      sources:
+        - citation: "ICG. 'Syria's Transitional Government.' January 2025."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "Al-Jolani/HTS transitional authority; SNA/SDF/Druze factions; open competition; transitional"

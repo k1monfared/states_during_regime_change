@@ -1,0 +1,602 @@
+{
+  "political/territorial_control": {
+    "label": "Territorial Control",
+    "concept": "The percentage of national territory over which the central government exercises effective control — meaning it can enforce laws, collect taxes, and maintain order without significant armed challenge from rival groups or foreign forces.\n",
+    "primary_source": "Qualitative assessment (ICG, ACLED, academic literature)",
+    "primary_source_url": null,
+    "series_id": null,
+    "numerator": "Territory under central government control",
+    "denominator": "Total national territory",
+    "native_unit": "Estimated percent of territory",
+    "native_scale": "0–100 (percentage; higher = more control)",
+    "project_transform": "Feature vocabulary mapping to score ranges: full_control_no_challenges → 90–100; minor_insurgencies_lt_10pct → 70–89; significant_areas_outside_10_30pct → 50–69; large_portions_contested_30_50pct → 30–49; majority_outside_control → 10–29; failed_state_no_authority → 0–9. Modifiers: foreign_occupation −10, multiple_competing_authorities −15.\n",
+    "coverage_period": "1990–2025 (varies by country start year)",
+    "frequency": "Annual (qualitative assessment)",
+    "geographic_coverage": "All 39 project countries",
+    "methodology_break": null,
+    "caveats": [
+      "No standardized global index exists for territorial control; all values are qualitative estimates from assessors",
+      "Contestation can be continuous (permanent insurgency) or episodic (periodic raids), both affecting scores",
+      "Foreign occupation creates ambiguity — the occupying force may 'control' territory but the recognized state does not",
+      "Urban vs. rural control often diverges sharply; scores reflect the overall balance",
+      "Precision implied by percent scores exceeds actual data quality; treat categories as ranges, not exact values"
+    ],
+    "secondary_sources": [
+      "ACLED georeferenced conflict event data",
+      "UCDP Georeferenced Event Dataset (GED)",
+      "International Crisis Group (ICG) reports",
+      "UN Security Council reports and OCHA situation reports"
+    ],
+    "id": "political/territorial_control",
+    "dimension": "political"
+  },
+  "political/political_violence": {
+    "label": "Political Violence",
+    "concept": "The annual total of conflict-related deaths from state-based armed conflict, non-state armed conflict, and one-sided violence (deliberate attacks on civilians). Higher values indicate more deaths; the score is inverted so that higher project scores represent less violence.\n",
+    "primary_source": "UCDP Georeferenced Event Dataset (GED)",
+    "primary_source_url": "https://ucdp.uu.se/downloads/",
+    "series_id": "UCDP GED — best_fatality_estimate (aggregated per country-year)",
+    "numerator": "Annual battle-related deaths (best estimate)",
+    "denominator": null,
+    "native_unit": "Deaths per year",
+    "native_scale": "Raw death count (higher = more violence)",
+    "project_transform": "Threshold scoring (inverted — lower deaths = higher score): < 100 deaths → 90–100; < 500 → 70–89; < 2,000 → 50–69; < 10,000 → 30–49; < 50,000 → 10–29; ≥ 50,000 → 0–9.\n",
+    "coverage_period": "1989–present (GED); ACLED supplements from 1997 for Africa, 2010s globally",
+    "frequency": "Annual",
+    "geographic_coverage": "Global; UCDP covers all project countries",
+    "methodology_break": null,
+    "caveats": [
+      "UCDP requires a 25-death threshold per conflict-year for inclusion; sub-threshold violence is not counted",
+      "UCDP reports three estimates (best, low, high); best estimate is used but may still undercount due to reporting gaps",
+      "Active conflict zones with restricted media access are systematically undercounted in both UCDP and ACLED",
+      "ACLED (used as supplement) has no minimum threshold and counts non-fatal events; totals from the two sources are not directly comparable",
+      "UCDP covers state-based conflict (vs. government), non-state conflict (between armed groups), and one-sided violence (vs. civilians) as three separate datasets that this project aggregates",
+      "One-sided state violence (extrajudicial killings, disappearances) is tracked separately in UCDP's one-sided violence dataset and may be undercounted due to information suppression"
+    ],
+    "secondary_sources": [
+      "ACLED (Armed Conflict Location and Event Data Project) — acleddata.com",
+      "Uppsala Conflict Data Program ACD (Armed Conflict Dataset)",
+      "UNHCR and OCHA reports for conflict intensity"
+    ],
+    "id": "political/political_violence",
+    "dimension": "political"
+  },
+  "political/institutional_functioning": {
+    "label": "Institutional Functioning",
+    "concept": "Whether key state institutions — courts, legislature, bureaucracy, and electoral bodies — operate with meaningful effect. Assesses whether formal institutions exist, are staffed, and produce outputs that shape political outcomes versus existing only on paper.\n",
+    "primary_source": "V-Dem (Varieties of Democracy) indices",
+    "primary_source_url": "https://www.v-dem.net/data/",
+    "series_id": "V-Dem liberal democracy index (v2x_libdem) as reference; qualitative feature vocabulary used for scoring",
+    "numerator": null,
+    "denominator": null,
+    "native_unit": "V-Dem 0–1 scale (qualitative feature vocabulary for project scoring)",
+    "native_scale": "V-Dem: 0–1 where 1 = full liberal democracy (multiplied by 100 for thresholds)",
+    "project_transform": "Feature vocabulary mapping: fully_functional_democratic → 90–100; functional_but_flawed → 70–89; partially_functional → 50–69; severely_degraded → 30–49; collapsed_or_nominal → 10–29; no_functioning_institutions → 0–9.\n",
+    "coverage_period": "1789–present (V-Dem); qualitative for all 39 countries from their start year",
+    "frequency": "Annual",
+    "geographic_coverage": "V-Dem covers 180+ countries; qualitative assessment fills gaps",
+    "methodology_break": null,
+    "caveats": [
+      "No single V-Dem index maps cleanly to 'institutional functioning' — assessors use multiple indices as cross-checks",
+      "Freedom House 'Political Rights' and governance sub-ratings supplement V-Dem for consistency checks",
+      "Transitional periods often show institutions technically operating while controlled by a single faction — scoring requires distinguishing nominal from substantive functioning",
+      "V-Dem uses 'measurement model' (Bayesian aggregation of expert surveys) that introduces uncertainty estimates; point estimates are used here",
+      "Coup periods and transitional governments create ambiguity about which institution is the 'legitimate' one to assess"
+    ],
+    "secondary_sources": [
+      "Freedom House Freedom in the World — Political Rights subcategories",
+      "Bertelsmann Transformation Index (BTI) for state quality",
+      "Qualitative assessment from ICG, news analysis"
+    ],
+    "id": "political/institutional_functioning",
+    "dimension": "political"
+  },
+  "political/civil_liberties": {
+    "label": "Civil Liberties",
+    "concept": "The degree to which individuals enjoy freedoms of expression, association, religion, and movement, and are protected from arbitrary state action. Measured through Freedom House's annual assessment.\n",
+    "primary_source": "Freedom House — Freedom in the World",
+    "primary_source_url": "https://freedomhouse.org/report/freedom-world",
+    "series_id": "Civil Liberties rating (CL) — downloaded from freedomhouse.org/report/freedom-world/freedom-world-research-methodology",
+    "numerator": null,
+    "denominator": null,
+    "native_unit": "Ordinal rating 1–7 (1 = most free, 7 = least free)",
+    "native_scale": "1–7 rating, derived from 15 questions across four subcategories (D: Expression and Belief; E: Associational Rights; F: Rule of Law; G: Personal Autonomy), each question scored 0–4, summed to 0–60 raw score, then binned to 1–7.\n",
+    "project_transform": "(8 − CL_rating) / 7 × 100 → 0–100 where 100 = most free",
+    "coverage_period": "1973–present (annual)",
+    "frequency": "Annual",
+    "geographic_coverage": "195 countries and territories",
+    "methodology_break": "Methodology revisions occurred in 2003 and again around 2018–2020 (restructuring of questions). Freedom House states scores are not revised retroactively; changes at methodological transition points may reflect instrument changes, not actual conditions.\n",
+    "caveats": [
+      "Scores reflect assessor judgment; Freedom House acknowledges 'an element of subjectivity is unavoidable'",
+      "The 1–7 rating collapses a 0–60 raw score into seven bins; countries near bin boundaries can shift rating with minimal real change",
+      "Systematic annual coverage begins 1973; coverage before that date is not comparable",
+      "1981 is skipped — the survey covering January 1981 to August 1982 is assigned to 1982",
+      "No retroactive corrections — methodology changes affect forward comparability, not historical records"
+    ],
+    "secondary_sources": [
+      "V-Dem civil liberties index (v2x_civlib)",
+      "US State Department Country Reports on Human Rights Practices"
+    ],
+    "id": "political/civil_liberties",
+    "dimension": "political"
+  },
+  "political/elite_cohesion": {
+    "label": "Elite Cohesion",
+    "concept": "Whether the ruling coalition is stable and internally cohesive, or whether it is fragmenting through defections, factional conflict, or coup attempts. Assesses the distribution of power among elites and the risk of leadership instability.\n",
+    "primary_source": "Qualitative assessment (ICG reports, academic literature, news analysis)",
+    "primary_source_url": null,
+    "series_id": null,
+    "numerator": null,
+    "denominator": null,
+    "native_unit": "Qualitative (no standardized international index)",
+    "native_scale": "Feature vocabulary: stable_unified_governance to complete_fragmentation",
+    "project_transform": "Feature vocabulary mapping: stable_unified_governance → 90–100; minor_tensions_functional → 70–89; significant_competition_managed → 50–69; open_factional_conflict → 30–49; active_power_struggles → 10–29; complete_fragmentation → 0–9.\n",
+    "coverage_period": "1990–2025 (varies by country start year)",
+    "frequency": "Annual (qualitative assessment)",
+    "geographic_coverage": "All 39 project countries",
+    "methodology_break": null,
+    "caveats": [
+      "No standardized global index measures elite cohesion directly; all values are qualitative assessor judgments",
+      "V-Dem 'polyarchy' and 'party system institutionalization' indices provide cross-checks but do not directly measure elite cohesion",
+      "Indicator is most consequential for non-democratic regimes where palace politics are opaque",
+      "Sources often only reveal elite fractures after the fact (coups, defections), creating a recency bias in assessments"
+    ],
+    "secondary_sources": [
+      "V-Dem party institutionalization and executive constraints indices",
+      "Archigos leadership dataset (for coup events)",
+      "International Crisis Group reports on elite politics",
+      "Academic literature on selectorate theory and elite bargaining"
+    ],
+    "id": "political/elite_cohesion",
+    "dimension": "political"
+  },
+  "economic/gdp_per_capita": {
+    "label": "GDP per Capita",
+    "concept": "The value of all goods and services produced per person in a country in a given year. Used as a proxy for living standards. The project indexes each country's GDP per capita to its own historical peak, so the score reflects how far the country is from its best observed performance.\n",
+    "primary_source": "World Bank World Development Indicators",
+    "primary_source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD",
+    "series_id": "NY.GDP.PCAP.CD (current USD); NY.GDP.PCAP.PP.KD (PPP, constant 2017 international $) as supplement",
+    "numerator": "GDP (gross domestic product, current USD)",
+    "denominator": "Mid-year population",
+    "native_unit": "Current USD per person",
+    "native_scale": "Raw USD values (no inherent upper bound)",
+    "project_transform": "(value / peak_value_in_series) × 100, where peak_value is the highest observed GDP per capita for that country across the full data period. Resulting score: 0–100 where 100 = peak year, scores > 100 impossible.\n",
+    "coverage_period": "1960–present (most countries); earlier gaps for some",
+    "frequency": "Annual",
+    "geographic_coverage": "189 countries",
+    "methodology_break": null,
+    "caveats": [
+      "Current USD values (NY.GDP.PCAP.CD) are sensitive to exchange rate fluctuations; a devaluation can cause apparent GDP collapse even without real economic decline",
+      "PPP-adjusted values (NY.GDP.PCAP.PP.KD) are more stable but rely on IMF price comparison surveys that are updated irregularly (2005, 2011, 2017 ICP rounds)",
+      "Indexing to country peak means the score is relative to that country's history, not cross-country comparable — a score of 50 means very different absolute income levels in different countries",
+      "Conflict and sanctions can disrupt national accounts compilation; World Bank may use IMF or UN estimates that lag by 1–3 years for affected countries",
+      "Informal economy activity (significant in conflict-affected states) is often underestimated in national accounts"
+    ],
+    "secondary_sources": [
+      "IMF World Economic Outlook database — NGDPDPC (current USD) and PPPPC (PPP)",
+      "UN Statistics Division national accounts data"
+    ],
+    "id": "economic/gdp_per_capita",
+    "dimension": "economic"
+  },
+  "economic/inflation": {
+    "label": "Inflation",
+    "concept": "The annual percentage change in consumer prices. Low, stable inflation indicates a functioning monetary system; high inflation (especially hyperinflation) reflects monetary collapse and erodes real incomes. The score is inverted: lower inflation earns a higher score.\n",
+    "primary_source": "World Bank World Development Indicators",
+    "primary_source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG",
+    "series_id": "FP.CPI.TOTL.ZG (inflation, consumer prices, annual %)",
+    "numerator": "CPI in current year",
+    "denominator": "CPI in previous year",
+    "native_unit": "Percent per year",
+    "native_scale": "Annual % change; can exceed 1,000% or more in hyperinflation",
+    "project_transform": "Inverted threshold scoring (lower inflation = higher score): < 3% → 90–100; < 10% → 70–89; < 25% → 50–69; < 50% → 30–49; < 100% → 10–29; ≥ 100% → 0–9.\n",
+    "coverage_period": "1960–present (most countries)",
+    "frequency": "Annual",
+    "geographic_coverage": "189 countries",
+    "methodology_break": null,
+    "caveats": [
+      "The World Bank series uses each country's own national CPI, which may cover only urban areas (many developing countries use urban CPI as national proxy)",
+      "Hyperinflation (>100%) is poorly differentiated at extremes — 200% and 10,000% both score near 0; for hyperinflation analysis, use IMF or central bank data directly",
+      "Conflict disrupts price data collection; inflation figures for active war years may be estimates with wide uncertainty",
+      "Deflation (negative values) is scored as near-perfect (same bin as 0–3%), which may be inappropriate if caused by demand collapse",
+      "IMF data is used as fallback when World Bank is absent; the two series can diverge for crisis years due to different estimation methods"
+    ],
+    "secondary_sources": [
+      "IMF International Financial Statistics — CPI (IFS line 64..ZF)",
+      "IMF World Economic Outlook — PCPIPCH (inflation, average consumer prices, % change)",
+      "Central bank publications for country-specific series"
+    ],
+    "id": "economic/inflation",
+    "dimension": "economic"
+  },
+  "economic/unemployment": {
+    "label": "Unemployment",
+    "concept": "The percentage of the labor force that is without work, currently available for work, and actively seeking employment. The score is inverted: lower unemployment earns a higher score.\n",
+    "primary_source": "World Bank / ILO modeled estimates",
+    "primary_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
+    "series_id": "SL.UEM.TOTL.ZS (unemployment, total, % of total labor force, ILO modeled estimates)",
+    "numerator": "Persons without employment, available for work, actively seeking work",
+    "denominator": "Total labor force (employed + unemployed; excludes discouraged workers and those outside labor force)",
+    "native_unit": "Percent of labor force",
+    "native_scale": "0–100% (typically 0–50% in practice)",
+    "project_transform": "Inverted threshold scoring (lower unemployment = higher score): < 5% → 90–100; < 10% → 70–89; < 15% → 50–69; < 25% → 30–49; < 40% → 10–29; ≥ 40% → 0–9.\n",
+    "coverage_period": "1991–present (ILO modeled estimates)",
+    "frequency": "Annual",
+    "geographic_coverage": "189 countries (modeled estimates; some gaps for conflict-affected states)",
+    "methodology_break": "ILO revised its modeled estimation methodology in 2017 (ILO Modelled Estimates, ILOSTAT) and again in 2020. Historical series may have been revised; use caution for trends spanning revision points.\n",
+    "caveats": [
+      "The ILO definition requires three simultaneous conditions: not employed, currently available, and actively seeking work — this excludes discouraged workers who have given up searching",
+      "Informal sector workers who have some income-generating activity count as 'employed' even if working one hour per week (ILO threshold)",
+      "National labor force surveys vary in design, frequency, and coverage; World Bank uses ILO modeled estimates to fill gaps, introducing additional uncertainty",
+      "For conflict-affected or fragile states, unemployment data may not exist; ILO modeled estimates carry wider uncertainty bands",
+      "Underemployment (working below capacity or skills) is not captured",
+      "Youth unemployment often runs 2–3× the overall rate; the aggregate figure can mask severe youth labor market stress"
+    ],
+    "secondary_sources": [
+      "ILO ILOSTAT — UR_LFP_SEX_AGE_RT (unemployment rate by sex and age)",
+      "IMF World Economic Outlook — LUR (unemployment rate)"
+    ],
+    "id": "economic/unemployment",
+    "dimension": "economic"
+  },
+  "economic/trade_openness": {
+    "label": "Trade Openness",
+    "concept": "The sum of exports and imports of goods and services as a percentage of GDP. A standard measure of economic integration with the world economy. Higher values indicate more trade relative to the size of the economy.\n",
+    "primary_source": "World Bank World Development Indicators",
+    "primary_source_url": "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS",
+    "series_id": "NE.TRD.GNFS.ZS (trade as % of GDP)",
+    "numerator": "Exports of goods and services + Imports of goods and services (current USD)",
+    "denominator": "GDP (current USD)",
+    "native_unit": "Percent of GDP",
+    "native_scale": "0–300%+ (small open economies can exceed 100%)",
+    "project_transform": "Threshold scoring (higher = more open = higher score): ≥ 100% → 90–100; ≥ 70% → 70–89; ≥ 40% → 50–69; ≥ 20% → 30–49; ≥ 10% → 10–29; < 10% → 0–9.\n",
+    "coverage_period": "1960–present",
+    "frequency": "Annual",
+    "geographic_coverage": "189 countries",
+    "methodology_break": null,
+    "caveats": [
+      "Includes BOTH goods AND services (not just merchandise trade); services can be significant for tourism-dependent economies",
+      "Small transit economies (e.g., Singapore, Timor-Leste) show trade ratios far exceeding 100% due to re-exports; this inflates openness scores without indicating deeper economic integration",
+      "Sanctions-affected countries may have severely suppressed trade not fully captured in official statistics (smuggling and sanctions-busting create shadow trade)",
+      "Conflict disrupts trade data collection; figures for active war years may be rough estimates",
+      "Does not distinguish between voluntary trade policy openness and exogenous trade collapse due to conflict or sanctions"
+    ],
+    "secondary_sources": [
+      "IMF Direction of Trade Statistics (DOTS)",
+      "UNCTAD Trade Statistics"
+    ],
+    "id": "economic/trade_openness",
+    "dimension": "economic"
+  },
+  "economic/fiscal_health": {
+    "label": "Fiscal Health",
+    "concept": "The sustainability of government finances, measured primarily by gross government debt as a percentage of GDP. Lower debt relative to GDP indicates more fiscal space and lower risk of debt distress. The score is inverted: lower debt earns a higher score.\n",
+    "primary_source": "IMF World Economic Outlook",
+    "primary_source_url": "https://imf.org/en/Publications/WEO",
+    "series_id": "GGXWDG_NGDP (general government gross debt as % of GDP)",
+    "numerator": "General government gross debt (outstanding stock)",
+    "denominator": "GDP (nominal)",
+    "native_unit": "Percent of GDP",
+    "native_scale": "0–200%+ (no theoretical upper bound; hyperinflation countries can show extreme values)",
+    "project_transform": "Inverted threshold scoring (lower debt = higher score): < 30% → 90–100; < 60% → 70–89; < 90% → 50–69; < 120% → 30–49; < 200% → 10–29; ≥ 200% → 0–9.\n",
+    "coverage_period": "1980–present (most countries); earlier for some; IMF WEO published twice yearly",
+    "frequency": "Annual (IMF WEO spring and fall editions)",
+    "methodology_break": null,
+    "caveats": [
+      "Scope is 'general government' = central government + state/regional/local governments + social security funds; excludes state-owned enterprises, central bank quasi-fiscal activities",
+      "Gross debt (not net): does not subtract government financial assets (deposits, loans receivable); a country with large assets and large liabilities appears high-debt but may not be",
+      "Central government vs. general government debt can differ by 10–20 pp of GDP depending on structure of sub-national borrowing",
+      "Off-balance-sheet liabilities (PPP guarantees, contingent liabilities, implicit pension obligations) are excluded",
+      "Conflict-affected states often cannot compile debt statistics; IMF may not publish figures, creating gaps in series",
+      "High debt in a country with its own currency and central bank differs fundamentally from high debt in a dollarized economy — the score does not distinguish these"
+    ],
+    "secondary_sources": [
+      "World Bank global debt database",
+      "Ministry of Finance reports for country-specific data"
+    ],
+    "id": "economic/fiscal_health",
+    "dimension": "economic"
+  },
+  "international/sanctions": {
+    "label": "Sanctions",
+    "concept": "The degree to which a country faces international economic restrictions imposed by foreign governments or multilateral bodies. More severe sanctions reduce access to international financial systems, trade, and technology. The score is inverted: fewer/lighter sanctions = higher score.\n",
+    "primary_source": "US Treasury OFAC, EU External Action Service, UN Security Council",
+    "primary_source_url": "https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information",
+    "series_id": "Qualitative assessment of sanction regime type (no single global index)",
+    "numerator": null,
+    "denominator": null,
+    "native_unit": "Qualitative sanction regime type",
+    "native_scale": "Feature vocabulary from no_sanctions to total_isolation",
+    "project_transform": "Inverted feature vocabulary mapping (fewer sanctions = higher score): no_sanctions → 90–100; targeted_individuals_only → 70–89; sectoral_sanctions → 50–69; broad_economic_humanitarian_exceptions → 30–49; comprehensive_sanctions → 10–29; total_isolation → 0–9.\n",
+    "coverage_period": "1990–2025 (varies by country)",
+    "frequency": "Annual",
+    "geographic_coverage": "All 39 project countries",
+    "methodology_break": null,
+    "caveats": [
+      "No single global sanctions database covers all sanctioning entities (US OFAC, EU, UN, UK, Canada, Australia, individual country sanctions)",
+      "Targeted sanctions (on specific individuals or entities) and comprehensive sanctions have fundamentally different economic impacts; this indicator conflates them into a severity scale",
+      "UN Security Council sanctions (Chapter VII) are multilateral and legally binding; US/EU secondary sanctions affect non-sanctioned third parties extraterritorially",
+      "OFAC 50% Rule: any entity 50%+ owned by an SDN-listed party is itself treated as blocked, even if not explicitly named — the effective scope of US sanctions is broader than the named list",
+      "UNSCR 2664 (December 2022) created a standing humanitarian exemption across virtually all UN sanctions regimes, explicitly permitting delivery of humanitarian assistance without constituting a violation",
+      "Sanctions regimes evolve rapidly; the annual snapshot may miss intra-year changes",
+      "Formal sanctions and informal diplomatic/economic pressure (not coded as official sanctions) may have similar effects",
+      "Sanctions evasion via shadow fleets (Russia, Iran), front companies, and third-country procurement networks means actual economic restriction is often lower than the legal framework implies"
+    ],
+    "secondary_sources": [
+      "EU External Action Service — EU Restrictive Measures (sanctions)",
+      "EU Sanctions Map — sanctionsmap.eu",
+      "UN Security Council sanctions committees — undocs.org",
+      "SIPRI Arms Embargo database"
+    ],
+    "id": "international/sanctions",
+    "dimension": "international"
+  },
+  "international/diplomatic_integration": {
+    "label": "Diplomatic Integration",
+    "concept": "The extent to which a country is recognized internationally, maintains active diplomatic relations, and participates in multilateral bodies. Assesses both formal recognition and substantive engagement in the international community.\n",
+    "primary_source": "News analysis, foreign ministry announcements, UN treaty body records",
+    "primary_source_url": null,
+    "series_id": "Qualitative assessment (no standardized index)",
+    "numerator": null,
+    "denominator": null,
+    "native_unit": "Qualitative (no numeric unit)",
+    "native_scale": "Feature vocabulary from full_relations to no_international_recognition",
+    "project_transform": "Feature vocabulary mapping: full_relations_active_international → 90–100; normal_minor_disputes → 70–89; partial_isolation_some_closures → 50–69; significant_isolation → 30–49; pariah_status → 10–29; no_international_recognition → 0–9.\n",
+    "coverage_period": "1990–2025 (varies by country)",
+    "frequency": "Annual",
+    "geographic_coverage": "All 39 project countries",
+    "methodology_break": null,
+    "caveats": [
+      "No standardized global index measures diplomatic integration; all values are qualitative estimates",
+      "Formal diplomatic recognition and substantive engagement often diverge (e.g., a country may maintain embassies while being effectively isolated)",
+      "UN membership and participation in specific treaty bodies provides objective anchors but does not capture the full picture",
+      "Regional blocs (AU, EU, ASEAN) may suspend or readmit members independently of universal recognition"
+    ],
+    "secondary_sources": [
+      "UN General Assembly records (membership and voting)",
+      "State Department diplomatic relations list",
+      "European External Action Service diplomatic database"
+    ],
+    "id": "international/diplomatic_integration",
+    "dimension": "international"
+  },
+  "international/foreign_military": {
+    "label": "Foreign Military",
+    "concept": "The presence and nature of foreign military forces in the country. Used as a sovereignty indicator: no foreign presence signals full sovereignty; large uninvited foreign forces signal occupation or near-total loss of sovereignty. The score is inverted: less foreign military presence = higher score.\n",
+    "primary_source": "IISS Military Balance, news analysis",
+    "primary_source_url": "https://www.iiss.org/publications/the-military-balance/",
+    "series_id": "Qualitative assessment of foreign military presence type",
+    "numerator": null,
+    "denominator": null,
+    "native_unit": "Qualitative (no numeric unit)",
+    "native_scale": "Feature vocabulary from no_foreign_presence to active_foreign_combat_operations",
+    "project_transform": "Inverted feature vocabulary mapping (less foreign presence = higher score): no_foreign_presence_full_sovereignty → 90–100; limited_invited_advisors → 70–89; significant_invited_forces → 50–69; contested_mixed_presence → 30–49; occupied_major_uninvited → 10–29; active_foreign_combat_operations → 0–9.\n",
+    "coverage_period": "1990–2025 (varies by country)",
+    "frequency": "Annual",
+    "geographic_coverage": "All 39 project countries",
+    "methodology_break": null,
+    "caveats": [
+      "Invited forces (with host government consent) and uninvited forces carry very different sovereignty implications but may receive similar scores",
+      "IISS Military Balance covers formal deployments; informal or covert forces are not captured",
+      "Peacekeeping missions (UN, AU, ECOWAS) raise different sovereignty questions than bilateral military deployments",
+      "Air operations and drone strikes may constitute foreign military activity without formal troop presence"
+    ],
+    "secondary_sources": [
+      "Stockholm International Peace Research Institute (SIPRI) Multilateral Peace Operations database",
+      "UN Department of Peace Operations troop contributions data",
+      "News analysis for bilateral deployments not in IISS"
+    ],
+    "id": "international/foreign_military",
+    "dimension": "international"
+  },
+  "international/fdi": {
+    "label": "FDI",
+    "concept": "Net inflows of foreign direct investment as a percentage of GDP. FDI measures the acquisition of a lasting interest (≥10% ownership) by a foreign investor in a domestic enterprise. Used as an indicator of international business confidence in the country.\n",
+    "primary_source": "UNCTAD / World Bank",
+    "primary_source_url": "https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS",
+    "series_id": "BX.KLT.DINV.WD.GD.ZS (foreign direct investment, net inflows, % of GDP)",
+    "numerator": "Net FDI inflows (gross inflows minus disinvestment, current USD)",
+    "denominator": "GDP (current USD)",
+    "native_unit": "Percent of GDP",
+    "native_scale": "Can be negative (net outflows); typically −5% to +20% in practice",
+    "project_transform": "Threshold scoring (higher FDI = higher score): ≥ 5% → 90–100; ≥ 2% → 70–89; ≥ 1% → 50–69; ≥ 0.5% → 30–49; ≥ 0% → 10–29; < 0% (net outflows) → 0–9.\n",
+    "coverage_period": "1970–present (UNCTAD); 1972–present (World Bank WDI)",
+    "frequency": "Annual",
+    "geographic_coverage": "Most countries (gaps for heavily sanctioned or conflict-affected states)",
+    "methodology_break": null,
+    "caveats": [
+      "The 10% ownership threshold distinguishing FDI from portfolio investment is a definitional convention, not an economic reality threshold",
+      "Offshore financial centers (Luxembourg, Netherlands, Ireland) receive massive FDI inflows that are routing and holding structures, not real investment; some project countries may show inflated FDI for similar reasons",
+      "Round-tripping (domestic capital routed through a foreign intermediary and re-invested domestically) inflates FDI figures for some countries",
+      "A single large mining or oil concession can dominate FDI in small economies, making year-to-year figures volatile",
+      "Negative FDI (disinvestment exceeding new investment) appropriately scores near zero as it signals capital flight"
+    ],
+    "secondary_sources": [
+      "UNCTAD World Investment Report — bilateral FDI statistics"
+    ],
+    "id": "international/fdi",
+    "dimension": "international"
+  },
+  "international/refugee_flows": {
+    "label": "Refugee Flows",
+    "concept": "Annual new displacement (refugees leaving the country + new internally displaced persons) as a proxy for crisis severity. Normalized by population. The score is inverted: more displacement = lower score.\n",
+    "primary_source": "UNHCR Refugee Data Finder + IDMC (Internal Displacement Monitoring Centre)",
+    "primary_source_url": "https://data.unhcr.org",
+    "series_id": "UNHCR: new refugee outflows from country of origin (annual new displacement); IDMC: new internal displacements due to conflict. Metric: (new_refugees + new_IDPs) / population × 100.\n",
+    "numerator": "New refugee outflows + new internally displaced persons (annual flow)",
+    "denominator": "Country population (World Bank SP.POP.TOTL)",
+    "native_unit": "Percent of population displaced per year",
+    "native_scale": "0–100%+ (catastrophic crises can exceed 10% of population)",
+    "project_transform": "Inverted threshold scoring (lower displacement = higher score): ≤ 0 (net returns) → 90–100; < 0.1% → 70–89; < 1% → 50–69; < 3% → 30–49; < 10% → 10–29; ≥ 10% → 0–9.\n",
+    "coverage_period": "UNHCR: 1951–present; IDMC: 2003–present for conflict displacement; annual",
+    "frequency": "Annual (UNHCR updates quarterly; annual data used)",
+    "geographic_coverage": "UNHCR: global; IDMC: global from 2003",
+    "methodology_break": "UNHCR revised its methodology for counting refugees (especially Palestinian refugees and IDP counting conventions) at various points. IDMC began comprehensive conflict displacement tracking from 2003.\n",
+    "caveats": [
+      "CRITICAL: UNHCR default view shows refugee STOCK (total registered); this project uses FLOW (new displacement per year) — stock and flow can diverge dramatically",
+      "IDPs are harder to count than international refugees; IDMC figures carry wider uncertainty, especially in active conflict zones",
+      "Registration gaps in conflict zones systematically undercount displacement (e.g., people fleeing to neighboring country without going through a UNHCR registration point)",
+      "Returns of refugees are a positive sign but can temporarily appear as 'negative displacement' in flow statistics",
+      "Displacement from natural disasters (not coded here) is tracked separately by IDMC and excluded from this indicator",
+      "Palestinian refugees are tracked under UNRWA, not UNHCR; covered if relevant countries are in scope"
+    ],
+    "secondary_sources": [
+      "IDMC — Internal Displacement Monitoring Centre: internal-displacement.org",
+      "World Bank SP.POP.TOTL for population denominator",
+      "OCHA Humanitarian Needs Overviews for conflict-affected states"
+    ],
+    "id": "international/refugee_flows",
+    "dimension": "international"
+  },
+  "transparency/budget_transparency": {
+    "label": "Budget Transparency",
+    "concept": "Whether citizens and civil society can access comprehensive, timely government budget information across the full fiscal cycle — from pre-budget proposals through audit reports. Measured by the Open Budget Index.\n",
+    "primary_source": "Open Budget Index (OBI) — International Budget Partnership",
+    "primary_source_url": "https://internationalbudget.org/open-budget-survey/",
+    "series_id": "OBI composite score (0–100)",
+    "numerator": null,
+    "denominator": null,
+    "native_unit": "Score 0–100 (higher = more transparent)",
+    "native_scale": "0–100 composite of 109 questions about public availability of eight budget documents (Pre-Budget Statement, Executive Budget Proposal, Enacted Budget, Citizens Budget, In-Year Reports, Mid-Year Review, Year-End Report, Audit Report), each question scored 0/33/67/100.\n",
+    "project_transform": "Direct mapping (OBI score = project score)",
+    "coverage_period": "2006, 2008, 2010, 2012, 2015, 2017, 2019, 2021, 2023 (biennial; 9 rounds)",
+    "frequency": "Biennial",
+    "geographic_coverage": "125 countries (2023 round)",
+    "methodology_break": "Coverage expanded from 85 countries (2006) to 125 (2023). Some score changes between rounds may reflect changes in researcher interpretation of methodology rather than actual transparency changes.\n",
+    "caveats": [
+      "BIENNIAL FREQUENCY: data only available every two years; non-survey years require interpolation (linear or carry-forward), introducing uncertainty into annual trend lines",
+      "Measures formal availability of documents, not whether citizens can actually find, download, or understand them (bandwidth, language, web availability after survey date)",
+      "Assessment is done by local civil society researchers (not government self-reports), with IBP peer review — more reliable than self-reporting indices",
+      "A score of 61+ is IBP's threshold for 'sufficient' public budget information; below 61 indicates insufficient access",
+      "Not all 39 project countries are in every round; countries added later lack historical baselines"
+    ],
+    "secondary_sources": [
+      "IMF Fiscal Transparency Evaluations",
+      "PEFA (Public Expenditure and Financial Accountability) assessments"
+    ],
+    "id": "transparency/budget_transparency",
+    "dimension": "transparency"
+  },
+  "transparency/press_freedom": {
+    "label": "Press Freedom",
+    "concept": "The degree to which journalists can investigate and report on government and other power without censorship, intimidation, or legal prosecution. Measured by the RSF World Press Freedom Index. The score is constructed so that higher values = better press freedom.\n",
+    "primary_source": "RSF (Reporters Without Borders) World Press Freedom Index",
+    "primary_source_url": "https://rsf.org/en/index",
+    "series_id": "RSF World Press Freedom Index — global score",
+    "numerator": null,
+    "denominator": null,
+    "native_unit": "Score 0–100 (post-2022: 100 = best; pre-2022: 0 = best)",
+    "native_scale": "Post-2022: 0–100 where 100 = best press freedom; based on five equal-weight contextual indicators (political context, legal framework, economic context, sociocultural context, safety). Pre-2022: seven criteria, scale direction inverted (0 = best press freedom). Values in this dataset are normalized to 0 = worst, 100 = best.\n",
+    "project_transform": "Post-2022 RSF: use directly (already 0=worst, 100=best). Pre-2022 RSF: apply 100 − RSF_raw to normalize direction. Both yield project score: 0–100 where 100 = best press freedom.\n",
+    "coverage_period": "2002–present (annual)",
+    "frequency": "Annual (published spring of following year)",
+    "geographic_coverage": "180 countries and territories",
+    "methodology_break": "CRITICAL: 2022 complete methodology redesign. Pre-2022: seven criteria, scale 0–100 (0=best); Post-2022: five indicators, scale 0–100 (100=best), new weighting structure. Scores before and after 2022 are NOT directly comparable. Rankings shifted substantially in 2022 due to measurement instrument change, not actual press freedom change.\n",
+    "caveats": [
+      "METHODOLOGY BREAK IN 2022: pre-2022 and post-2022 scores use fundamentally different instruments and scale directions; trend analysis spanning 2021–2022 requires caution",
+      "Relies on expert network of press freedom specialists; RSF does not publicly disclose the full list of respondents",
+      "The safety indicator includes a quantitative abuses score (murders, detentions) that can cause volatility in small countries where one journalist killing has outsized impact",
+      "Pre-2022 methodology used the final score as the minimum of two sub-scores; this prevented high qualitative scores masking high abuses",
+      "Countries with limited international media coverage may have fewer RSF specialists, increasing per-respondent weight"
+    ],
+    "secondary_sources": [
+      "Freedom House — Freedom of the Press (discontinued 2017 as standalone; now integrated into FIW)",
+      "Committee to Protect Journalists (CPJ) imprisoned and killed journalists database"
+    ],
+    "id": "transparency/press_freedom",
+    "dimension": "transparency"
+  },
+  "transparency/statistical_transparency": {
+    "label": "Statistical Transparency",
+    "concept": "Whether the government produces credible, timely, and accessible socioeconomic statistics. Encompasses the quality of the national statistical system, the methodologies used, and whether data is made publicly available.\n",
+    "primary_source": "World Bank Statistical Capacity Indicator (SCI), 2004–2021",
+    "primary_source_url": "https://datatopics.worldbank.org/statisticalcapacity/",
+    "series_id": "SCI: IQ.SCI.OVRL (overall Statistical Capacity Indicator, 0–100). Post-2021: ODIN (Open Data Inventory) score or World Bank SPI as supplement.\n",
+    "numerator": null,
+    "denominator": null,
+    "native_unit": "Score 0–100 (higher = greater statistical capacity)",
+    "native_scale": "SCI (2004–2021): Three pillars — Methodology (25 criteria), Source Data (periodicity and coverage), Periodicity and Timeliness (publication frequency). Each pillar 0–100; composite = arithmetic mean. ODIN (2015/16–present): 22 categories × coverage + openness dimensions; 0–100 composite.\n",
+    "project_transform": "Direct mapping (SCI or ODIN score = project score)",
+    "coverage_period": "SCI: 2004–2021 (published annually for ~145 developing countries); ODIN: 2015/16–present (biennial)",
+    "frequency": "Annual (SCI); Biennial (ODIN)",
+    "geographic_coverage": "SCI: ~145 developing countries (excludes high-income OECD); ODIN: ~185 countries",
+    "methodology_break": "CRITICAL: World Bank discontinued the SCI in 2021 and replaced it with the Statistical Performance Indicators (SPI). SCI and SPI are NOT backward-compatible (r ≈ 0.77). ODIN (biennial) covers openness and digital availability, not methodology and capacity — a different concept. Series spanning 2021 should be treated as having a structural break.\n",
+    "caveats": [
+      "STRUCTURAL BREAK AT 2021: SCI series ends; no backward-compatible replacement exists for pre-2021 coverage",
+      "SCI was designed for developing countries; high-income OECD countries are absent from the series",
+      "SCI measures statistical methodology, data sources, and publication timeliness — not whether data is accurate or open",
+      "ODIN measures openness and machine-readability of published data — a different concept from SCI's capacity focus",
+      "A country can have strong internal statistical capacity (high SCI) while keeping data behind paywalls (low ODIN)",
+      "For post-2021 years, ODIN biennial data must be interpolated; ODIN survey rounds do not align with OBI rounds"
+    ],
+    "secondary_sources": [
+      "World Bank Statistical Performance Indicators (SPI) — new framework from 2021",
+      "UN Statistics Division country profiles",
+      "PARIS21 (Partnership in Statistics for Development in the 21st Century) assessments"
+    ],
+    "id": "transparency/statistical_transparency",
+    "dimension": "transparency"
+  },
+  "transparency/legal_transparency": {
+    "label": "Legal Transparency",
+    "concept": "Whether laws, regulations, and government data are publicly accessible, and whether citizens have effective mechanisms to access government information. Measured by the World Justice Project's 'Open Government' factor of the Rule of Law Index.\n",
+    "primary_source": "World Justice Project Rule of Law Index",
+    "primary_source_url": "https://worldjusticeproject.org/rule-of-law-index",
+    "series_id": "WJP Rule of Law Index — Factor 3: Open Government",
+    "numerator": null,
+    "denominator": null,
+    "native_unit": "Score 0–1 (1 = highest open government adherence)",
+    "native_scale": "WJP Factor 3 covers four sub-factors: publicized laws and government data, right to information, civic participation, and complaint mechanisms. Each sub-factor is a weighted average of expert and household survey responses in ~120 questions. Composite Factor 3 scored 0–1.\n",
+    "project_transform": "WJP Factor 3 × 100 → project score 0–100",
+    "coverage_period": "2008, 2009, 2010 (first editions); 2013; 2014–present annual (gap years 2011–2012)",
+    "frequency": "Annual (since 2014)",
+    "geographic_coverage": "~140 countries (expanding; not all 39 project countries covered every year)",
+    "methodology_break": null,
+    "caveats": [
+      "WJP does not cover all 39 project countries: Syria, Libya are absent; Burkina Faso, CAR, DRC are intermittently absent; South Sudan has gaps",
+      "Gap years 2011–2012 require interpolation between 2010 and 2013 values; interpolated entries have lower reliability",
+      "First three editions (2008–2010) had limited country coverage and used somewhat different question sets",
+      "Expert surveys are supplemented by household surveys; both are perception-based, capturing what people experience, not objective legal architecture",
+      "Factor 3 (Open Government) is distinct from transparency in practice — a country may have formal right-to-information laws (high Factor 3) while routinely refusing FOI requests",
+      "The General Population Poll (GPP) is administered every few years per country, not annually; year-to-year changes between GPP waves primarily reflect changes in the annual Qualified Respondents Questionnaire (QRQ), not updated household experience data",
+      "Urban bias: the GPP polls only the three largest cities, systematically over-weighting urban populations; for predominantly rural countries this creates an upward bias"
+    ],
+    "secondary_sources": [
+      "V-Dem transparency indices (v2clacjstm, v2lgoppart)",
+      "US State Department Country Reports on Human Rights Practices — access to information section",
+      "Qualitative assessment from constitutional text analysis and freedom of information legislation review"
+    ],
+    "id": "transparency/legal_transparency",
+    "dimension": "transparency"
+  },
+  "transparency/extractive_transparency": {
+    "label": "Extractive Transparency",
+    "concept": "For countries with significant oil, gas, or mining sectors: whether revenues from natural resource extraction are publicly disclosed and independently reconciled. Based on EITI (Extractive Industries Transparency Initiative) membership and validation status. Not applicable for ~13 project countries with no significant extractive sector.\n",
+    "primary_source": "EITI (Extractive Industries Transparency Initiative)",
+    "primary_source_url": "https://eiti.org/countries",
+    "series_id": "EITI country status (Compliant / Candidate / Suspended / Non-member)",
+    "numerator": null,
+    "denominator": null,
+    "native_unit": "EITI status category",
+    "native_scale": "Categorical: Compliant (full validation) → Candidate (implementing, not yet validated) → Suspended (non-compliance) → Non-member / Not applicable (no extractive sector).\n",
+    "project_transform": "Feature vocabulary mapping: eiti_compliant_satisfactory → 90–100; eiti_compliant_meaningful → 70–89; eiti_compliant_corrective_actions → 50–69; eiti_candidate_or_suspended → 30–49; no_membership_minimal_disclosure → 10–29; no_disclosure_opaque → 0–9.\n",
+    "coverage_period": "EITI founded 2003; country memberships vary by join date",
+    "frequency": "Annual (based on EITI status at year-end)",
+    "geographic_coverage": "EITI member/candidate countries only; non-members scored qualitatively",
+    "methodology_break": "EITI revised its Standard in 2016 and 2023, changing what constitutes 'Compliant' status. Validation under different Standards is not directly comparable.\n",
+    "caveats": [
+      "EITI is VOLUNTARY — countries with large extractive sectors and poor disclosure (e.g., Algeria, Libya, Syria) are non-members and scored accordingly",
+      "Afghanistan was delisted from EITI effective June 19, 2024 — Taliban governance prevented the multi-stakeholder group process from functioning; scores for 2024 onward should reflect non-member status",
+      "EITI status verifies that companies and governments DISCLOSED revenues; it does not verify the revenues disclosed are complete or accurate",
+      "EITI reports typically lag 2–3 years; the 2024 EITI report covers 2021–2022 data",
+      "Not applicable for 13 project countries: Tunisia, Egypt, Senegal, Ghana, Kenya, Malawi, Croatia, Slovakia, Nepal, East Timor, Mexico, Peru, Armenia (no significant extractive sector or EITI excluded)",
+      "Compliant status sub-categories (satisfactory, meaningful, corrective actions required) reflect depth of implementation beyond basic compliance"
+    ],
+    "secondary_sources": [
+      "Natural Resource Governance Institute (NRGI) Resource Governance Index",
+      "Publish What You Pay coalition country reports"
+    ],
+    "id": "transparency/extractive_transparency",
+    "dimension": "transparency"
+  }
+}

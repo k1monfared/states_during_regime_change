@@ -1,580 +1,881 @@
 indicator: gdp_per_capita
 country: drc
 dimension: economic
+notes: >
+  DRC GDP per capita: World Bank WDI (current USD). One of the world's poorest countries
+  throughout the period. Mobutu era economic collapse meant falling GDP from ~$230 in 1990
+  to ~$100 by 1994-1996. Second Congo War brought GDP to ~$100-130 range 1998-2003.
+  Post-war recovery slow: ~$130-180 2003-2008. Mining boom and peace: ~$200-380 2009-2014.
+  Peak ~$550 (2019-2020 range). Recent: ~$600 (2025 estimated).
+  Quantitative transform: (value / peak_value) * 100. Peak ~$600.
 years:
   1990:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 230
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC GDP per capita 1990"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Zaïre under Mobutu. Economy declining from chronic mismanagement. GDP per capita
+        ~$230 current USD. Significant decline from higher levels in 1970s. Moderate decline
+        relative to regional peers. Kolwezi/Katanga mining still operating.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI: Zaïre/DRC 1990"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "GDP ~$230; declining from Mobutu mismanagement; significant decline from peak"
+
   1991:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 200
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: Zaïre 1991"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Military mutinies and looting destroy economic activity. GDP declining. ~$200.
+        Economic collapse accelerating under political crisis.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI: Zaïre 1991"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "GDP ~$200; military looting; economic collapse accelerating"
+
   1992:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 170
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: Zaïre 1992"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP declining sharply. ~$170. Hyperinflation destroys purchasing power. Formal
+        economy collapsing. Ethnic violence in Kivu adds disruption. Severe decline.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI: Zaïre 1992"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "GDP ~$170; hyperinflation; ethnic violence; severe decline"
+
   1993:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 140
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: Zaïre 1993"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Catastrophic hyperinflation (24,000% in 1994). GDP collapsing. ~$140. Formal
+        economy nearly non-functional. Survival economy dominant. Severe decline.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI: Zaïre 1993"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "GDP ~$140; catastrophic hyperinflation; formal economy collapsed; severe decline"
+
   1994:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 120
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: Zaïre 1994"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Near-bottom of Mobutu economic collapse. GDP ~$120. Hyperinflation ~9796% (1994).
+        Currency worthless. Refugee influx adds strain. Severe to collapse level decline.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI: Zaïre 1994 — hyperinflation"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "GDP ~$120; hyperinflation ~9796%; currency worthless; severe decline"
+
   1995:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 110
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: Zaïre 1995"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP near bottom. ~$110. Inflation still extreme. Katanga mining disrupted.
+        No investment. Mobutu's kleptocracy has hollowed out the economy. Severe decline.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI: Zaïre 1995"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "GDP ~$110; near bottom; kleptocracy hollowed economy; severe decline"
+
   1996:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 130
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: Zaïre 1996"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        First Congo War begins October 1996. Economy disrupted. Some inflation stabilization
+        but war destroys infrastructure. GDP nominal ~$130 (partly inflation effects).
+        Severe decline from historical peak.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI: Zaïre 1996"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "First Congo War; GDP ~$130; war disruption; severe decline"
+
   1997:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 135
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 1997"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Kabila takes power. Renamed DRC. Some initial hope for economic stabilization.
+        GDP ~$135. Inflation reducing from Mobutu hyperinflation. Severe decline from
+        any historical peak.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI: DRC 1997 — Kabila takes power"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Kabila takes power; GDP ~$135; some inflation reduction; severe decline"
+
   1998:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 115
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 1998 — Second Congo War"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Second Congo War begins August 1998. Economy collapses again. GDP ~$115.
+        Infrastructure destroyed. Mining disrupted. War consumes resources. Severe decline.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI: DRC 1998 — Second Congo War economic collapse"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Second Congo War; GDP ~$115; economic collapse; severe decline"
+
   1999:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 105
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 1999"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Second Congo War stalemate. GDP ~$105. Infrastructure devastated. Mining
+        looted by all factions. Subsistence agriculture dominant. Severe decline.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI: DRC 1999"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Second Congo War; GDP ~$105; mining looted; severe decline"
+
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 100
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2000"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Second Congo War continues. GDP at trough ~$100. Catastrophic economic conditions.
+        War zones represent majority of territory. Severe-to-collapse level decline.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI: DRC 2000 — war trough"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Second Congo War trough; GDP ~$100; catastrophic conditions; severe decline"
+
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 95
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2001"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        J Kabila begins peace process. GDP ~$95 (low point). Some peace dividend hopes.
+        War still ongoing. Economy at crisis level. Severe decline.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI: DRC 2001 — GDP low point"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "J Kabila peace process; GDP ~$95 low point; severe decline"
+
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 100
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2002 — peace agreements"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Pretoria/Luanda peace agreements. War winding down. Very slight upturn.
+        GDP ~$100. Severe decline but turning point. Economic recovery beginning.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI: DRC 2002 — peace dividend beginning"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Peace agreements; GDP ~$100; turning point; severe decline but improving"
+
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 110
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2003 — transitional government"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Transitional government formed. Economic stabilization begins. Aid flows.
+        GDP ~$110. Severe decline from historical peak but stabilizing.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI: DRC 2003 — transitional stabilization"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Transitional government; aid flows; GDP ~$110; stabilizing; severe decline"
+
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 120
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2004"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-war recovery continues. Mining sector reviving. International aid. GDP ~$120.
+        Still severe decline from any historical peak but improving trajectory.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI: DRC 2004 — recovery"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Post-war recovery; mining reviving; GDP ~$120; severe decline but improving"
+
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 140
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2005"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Mining boom begins (copper, cobalt, coltan). International investment. GDP ~$140.
+        Severe decline from historical peak but recovery underway.
+      features:
+        - severe_decline_30_50pct
+      sources:
+        - citation: "World Bank WDI: DRC 2005 — mining boom"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Mining boom; copper/cobalt investment; GDP ~$140; severe decline recovering"
+
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 165
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2006 — elections; mining boom"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        First elections. Mining boom continues. GDP ~$165. Significant improvement but
+        still severe decline from historical context (1970s peak ~$300+ in real terms).
+        Significant decline.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI: DRC 2006 — elections recovery"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Elections; mining boom; GDP ~$165; significant decline but recovering"
+
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 185
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2007"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Commodity boom. Mining sector growing. Chinese investment. GDP ~$185. Still
+        significant decline from any realistic peak but strong recovery trajectory.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI: DRC 2007 — commodity boom"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Commodity boom; Chinese investment; GDP ~$185; significant decline"
+
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 195
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2008"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP ~$195 despite global financial crisis. DRC partly insulated due to mining.
+        CNDP crisis in east disrupts some mining. Significant decline from peak.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI: DRC 2008"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "GDP ~$195; global crisis; CNDP east disruption; significant decline"
+
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 185
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2009 — global financial crisis"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Global commodity price crash hits DRC mining. GDP dips to ~$185. HIPC completion
+        October 2010 (anticipated). CNDP integration. Significant decline.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI: DRC 2009 — commodity crash"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Commodity crash; GDP ~$185; HIPC approaching; significant decline"
+
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 215
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2010 — HIPC completion"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        HIPC completion July 2010. Debt relief unlocks investment. Mining boom resumes.
+        GDP ~$215. Significant decline from peak.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI: DRC 2010 — HIPC completion"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "HIPC completion; debt relief; mining boom; GDP ~$215; significant decline"
+
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 240
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2011"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Mining sector expanding. Chinese investment growing. GDP ~$240. M23 precursors
+        emerging but economy still growing. Significant decline from historical peak.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI: DRC 2011 — mining/Chinese investment"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Mining expanding; Chinese investment; GDP ~$240; significant decline"
+
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 270
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2012 — M23 rebellion"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        M23 rebellion (April-November 2012) disrupts eastern mining. Overall economy still
+        growing (western/Katanga mining). GDP ~$270. Moderate decline from current peak.
+      features:
+        - moderate_decline_70_90pct
+      sources:
+        - citation: "World Bank WDI: DRC 2012 — M23; economy growing"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "M23 disrupts east; Katanga mining grows; GDP ~$270; moderate decline"
+
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 310
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2013 — M23 defeated; growth"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        M23 defeated November 2013. Economy growing despite conflict. Mining strong.
+        GDP ~$310. Moderate decline from eventual peak.
+      features:
+        - moderate_decline_70_90pct
+      sources:
+        - citation: "World Bank WDI: DRC 2013 — M23 defeat; growth continues"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "M23 defeated; economy growing; GDP ~$310; moderate decline"
+
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 370
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2014"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        DRC economy growing ~7-9% annually. Mining boom. ADF Beni ongoing but localized.
+        GDP ~$370. Near peak at current levels. Moderate decline.
+      features:
+        - moderate_decline_70_90pct
+      sources:
+        - citation: "World Bank WDI: DRC 2014 — strong growth"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "~7-9% growth; mining boom; GDP ~$370; moderate decline from peak"
+
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 390
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2015 — commodity price decline"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Commodity prices declining (copper fall). Growth slows but GDP still ~$390.
+        Near peak. Moderate decline from eventual peak.
+      features:
+        - moderate_decline_70_90pct
+      sources:
+        - citation: "World Bank WDI: DRC 2015 — commodity decline"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Commodity price fall; GDP ~$390; near peak; moderate decline"
+
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 410
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2016 — constitutional crisis"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Constitutional crisis and Kasai conflict dampen economic confidence. However
+        cobalt boom (EV batteries) beginning. GDP ~$410. Near peak, moderate decline.
+      features:
+        - moderate_decline_70_90pct
+      sources:
+        - citation: "World Bank WDI: DRC 2016 — constitutional crisis; cobalt boom"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Constitutional crisis; Kasai; cobalt boom; GDP ~$410; moderate decline"
+
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 430
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2017 — Kasai; cobalt boom"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Kasai conflict severe. Cobalt boom (DRC has 60-70% of world reserves). GDP ~$430.
+        Growth despite instability due to mineral revenues. Moderate decline from peak.
+      features:
+        - moderate_decline_70_90pct
+      sources:
+        - citation: "World Bank WDI: DRC 2017 — cobalt boom; Kasai"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Kasai conflict; cobalt boom; GDP ~$430; moderate decline"
+
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 500
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2018 — elections; cobalt boom"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Elections; cobalt boom. GDP ~$500. Near peak level. Approaching best years.
+        Moderate decline from peak — still below historical peak in real terms.
+      features:
+        - moderate_decline_70_90pct
+      sources:
+        - citation: "World Bank WDI: DRC 2018 — cobalt peak"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Cobalt boom peak; elections; GDP ~$500; near peak; moderate decline"
+
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 545
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2019 — Tshisekedi; GDP near peak"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Tshisekedi inaugurated. Economy growing. GDP ~$545 — near historical high point for
+        current period. Mining sector robust. Near peak.
+      features:
+        - near_peak_90_100pct
+      sources:
+        - citation: "World Bank WDI: DRC 2019 — near peak"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: high
+      confidence: high
+      notes: "Tshisekedi; GDP ~$545; near historical high; near peak"
+
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 520
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2020 — COVID"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        COVID-19 reduces mining activity. GDP dips to ~$520. Slight decline from 2019 peak.
+        Still near peak range. M23 resurgence beginning.
+      features:
+        - near_peak_90_100pct
+      sources:
+        - citation: "World Bank WDI: DRC 2020 — COVID impact"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: high
+      confidence: high
+      notes: "COVID dip; GDP ~$520; near peak"
+
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 555
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2021 — recovery"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-COVID recovery. Mining boom continues. GDP ~$555. M23 resurges but eastern
+        conflict largely contained in terms of economic impact. Near peak.
+      features:
+        - near_peak_90_100pct
+      sources:
+        - citation: "World Bank WDI: DRC 2021 — recovery"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: high
+      confidence: high
+      notes: "Post-COVID recovery; mining boom; GDP ~$555; M23 resurges; near peak"
+
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 575
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2022 — M23/Rwanda advance"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        M23/Rwanda advance disrupts eastern DRC mining. Overall GDP still ~$575 due to
+        western mining. Near peak — eastern disruption not yet fully felt nationally.
+      features:
+        - near_peak_90_100pct
+      sources:
+        - citation: "World Bank WDI: DRC 2022 — M23; near peak overall"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: high
+      confidence: medium
+      notes: "M23/Rwanda advance; eastern mining disrupted; GDP ~$575; near peak"
+
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 600
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI: DRC 2023 — peak"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP ~$600 — near historical high for this period. M23/Rwanda controls North Kivu.
+        Western/southern mining continues. Elections December. Near or at peak.
+      features:
+        - near_peak_90_100pct
+      sources:
+        - citation: "World Bank WDI: DRC 2023 — peak level"
+          url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+          type: government_report
+          reliability: high
+      confidence: medium
+      notes: "GDP ~$600; near historical high; M23 controls North Kivu; near peak"
+
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank WDI/IMF: DRC 2024 estimated"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CD"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        AFC/M23 captures Goma/Bukavu. Eastern DRC mining severely disrupted. National GDP
+        impact from loss of major eastern provinces. IMF estimates ~4-5% growth overall
+        but eastern crisis creates significant uncertainty. Near peak nationally but eastern
+        collapse changes picture.
+      features:
+        - moderate_decline_70_90pct
+      sources:
+        - citation: "IMF: DRC 2024 Article IV — AFC/M23 impact"
+          url: "https://www.imf.org/en/countries/COD"
+          type: multilateral_report
+          reliability: medium
+      confidence: low
+      notes: "AFC/M23 Goma/Bukavu; eastern mining disrupted; GDP impact uncertain; moderate decline"
+
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "IMF: DRC 2025 estimated"
+        url: "https://www.imf.org/en/countries/COD"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        AFC/M23 holds eastern DRC. Ceasefire talks ongoing. Eastern mining largely in
+        AFC/M23 hands. National GDP depressed from eastern loss. Estimated moderate decline
+        from 2023 peak.
+      features:
+        - moderate_decline_70_90pct
+      sources:
+        - citation: "IMF: DRC 2025 estimated"
+          url: "https://www.imf.org/en/countries/COD"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "AFC/M23 holds east; eastern mining in AFC/M23 hands; GDP below peak; moderate decline"

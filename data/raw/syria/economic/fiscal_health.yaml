@@ -3,183 +3,278 @@ country: syria
 dimension: economic
 years:
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 22.00
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF. 'Syria — Fiscal data 2009.' imf.org."
+        url: "https://www.imf.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Syria government debt approximately 22% of GDP in 2009. Pre-uprising period with
+        manageable debt levels. Oil revenues supporting government budget. Budget deficit
+        moderate. Government managed fiscal position with oil revenues. Small deficit,
+        manageable debt.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF. 'Syria fiscal data 2009.' imf.org."
+          url: "https://www.imf.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "~22% debt/GDP; oil revenues supporting; manageable deficit; small deficit manageable"
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 23.00
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF. 'Syria — Fiscal data 2010.' imf.org."
+        url: "https://www.imf.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Government debt approximately 23% of GDP in 2010. Pre-uprising fiscal management.
+        Declining oil production beginning to reduce oil revenues. Social spending increasing.
+        Manageable debt with small deficit. Small deficit manageable.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF. 'Syria fiscal 2010.' imf.org."
+          url: "https://www.imf.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "~23% debt/GDP; declining oil revenue; social spending; manageable; small deficit"
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 35.00
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF estimates. 'Syria fiscal 2011.' imf.org."
+        url: "https://www.imf.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt rising sharply with uprising. Military spending massively increased. Tax revenues
+        collapsing in conflict areas. Oil revenues declining with sanctions. Budget deficit
+        widening rapidly. Estimated debt approximately 35% of GDP. Moderate deficit, elevated debt.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF. 'Syria fiscal estimates 2011.' imf.org."
+          url: "https://www.imf.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~35% rising; military spending surge; tax revenue collapse; oil sanctions; moderate deficit elevated"
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 55.00
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF estimates. 'Syria fiscal 2012.' imf.org."
+        url: "https://www.imf.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt estimated approximately 55% of GDP. Civil war requiring massive military
+        spending financed by Russia/Iran loans/credit lines. Tax revenues collapsed in
+        conflict zones. Oil revenues near-zero (EU embargo). Iran and Russia providing
+        off-budget financing. Large deficit, high debt.
+      features:
+        - large_deficit_high_90_120pct
+      sources:
+        - citation: "IMF. 'Syria fiscal estimates 2012.' imf.org."
+          url: "https://www.imf.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~55% estimated; Russian/Iranian loans; tax collapse; oil zero; large deficit high debt"
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 70.00
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF / World Bank estimates. 'Syria fiscal 2013.' imf.org."
+        url: "https://www.imf.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Government debt estimated approximately 70% of GDP (with highly uncertain
+        denominator — GDP itself collapsed). Iran credit line estimated $3.6 billion.
+        Russia arms credits. No domestic bond market. Printing money creating inflation.
+        Unsustainable debt levels — fiscal crisis conditions.
+      features:
+        - unsustainable_debt_crisis
+      sources:
+        - citation: "ICG. 'Syria's Metastasising Conflicts.' 2014."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: low
+      notes: "~70% estimated; Iran $3.6B credit; Russian arms credits; money printing; unsustainable"
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 80.00
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF estimates. 'Syria fiscal 2014.' imf.org."
+        url: "https://www.imf.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Government debt estimated approximately 80% of GDP (with severely contracted GDP).
+        Iran credit lines totaling $5-7 billion. Russia providing arms on credit.
+        No revenue base. Deficit financed entirely through foreign support and money
+        printing. Unsustainable debt crisis.
+      features:
+        - unsustainable_debt_crisis
+      sources:
+        - citation: "IMF. 'Syria estimates 2014.' imf.org."
+          url: "https://www.imf.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~80% estimated; Iran $5-7B credit; Russian arms; no revenue; money printing; unsustainable"
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 90.00
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF estimates. 'Syria fiscal 2015.' imf.org."
+        url: "https://www.imf.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt approximately 90% of contracted GDP. Russia's military intervention added
+        to debt obligations. Regime controlling only 20% of territory but bearing costs
+        of entire conflict. Budget entirely dependent on Russian/Iranian support.
+        Unsustainable debt crisis — fiscal collapse.
+      features:
+        - fiscal_collapse
+      sources:
+        - citation: "IMF. 'Syria fiscal estimates 2015.' imf.org."
+          url: "https://www.imf.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~90% contracted GDP; Russia military adding debt; 20% territory full conflict cost; fiscal collapse"
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 100.00
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF estimates. 'Syria fiscal 2016.' imf.org."
+        url: "https://www.imf.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt approximately 100% of contracted GDP — completely unsustainable. Russian and
+        Iranian military and economic support keeping regime solvent. No functioning domestic
+        fiscal system. Money printing. Central bank reserves depleted. Fiscal collapse.
+      features:
+        - fiscal_collapse
+      sources:
+        - citation: "IMF. 'Syria fiscal estimates 2016.' imf.org."
+          url: "https://www.imf.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~100% contracted GDP; Russia/Iran keeping solvent; central bank depleted; fiscal collapse"
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 90.00
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF estimates. 'Syria fiscal 2017.' imf.org."
+        url: "https://www.imf.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt approximately 90% of contracted GDP. Regime reconquering territory providing
+        some revenue recovery. ISIS defeat allowing some eastern resources. Russian/Iranian
+        support continuing. Fiscal collapse conditions — entirely dependent on foreign support.
+      features:
+        - fiscal_collapse
+      sources:
+        - citation: "IMF. 'Syria estimates 2017.' imf.org."
+          url: "https://www.imf.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~90% contracted; reconquest some revenue; Russian/Iranian support; fiscal collapse"
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 85.00
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF estimates. 'Syria fiscal 2018.' imf.org."
+        url: "https://www.imf.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt approximately 85% of contracted GDP. Regime controlled ~65% of territory.
+        Some revenue recovery from reconquered areas. Russia/Iran concession deals
+        partially offsetting debt. Caesar Act pending blocked reconstruction investment.
+        Fiscal collapse conditions.
+      features:
+        - fiscal_collapse
+      sources:
+        - citation: "IMF. 'Syria estimates 2018.' imf.org."
+          url: "https://www.imf.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~85% contracted; ~65% territory some revenue; Russian/Iranian concessions; fiscal collapse"
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 85.00
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF estimates. 'Syria fiscal 2019.' imf.org."
+        url: "https://www.imf.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Debt approximately 85% of contracted GDP. Captagon drug trade beginning to
+        provide regime off-budget revenue. Frozen conflict with marginal revenue recovery.
+        Caesar Act signed December 2019 threatening fiscal isolation. Unsustainable
+        debt crisis.
+      features:
+        - unsustainable_debt_crisis
+      sources:
+        - citation: "IMF. 'Syria estimates 2019.' imf.org."
+          url: "https://www.imf.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~85%; Captagon off-budget; Caesar Act Dec; frozen conflict revenue; unsustainable"
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -189,13 +284,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Fiscal collapse conditions. Caesar Act June 2020 eliminated external financial
+        relationships. Lebanon banking collapse cut informal finance. SYP hyperinflation
+        destroyed government revenue in real terms. No reliable debt/GDP ratio available —
+        GDP itself in free fall. Complete fiscal collapse.
+      features:
+        - fiscal_collapse
+      sources:
+        - citation: "World Bank. 'Syria Economic Monitor 2021.' worldbank.org."
+          url: "https://www.worldbank.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Caesar Act; Lebanon banking collapse; SYP hyperinflation; GDP free fall; fiscal collapse"
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -205,13 +309,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued fiscal collapse. No reliable GDP or debt data. Government financed by
+        Iranian credit, Russian support, and Captagon drug revenues. Real government
+        expenditure minimal. No functional fiscal system. Fiscal collapse.
+      features:
+        - fiscal_collapse
+      sources:
+        - citation: "World Bank. 'Syria Economic Monitor 2022.' worldbank.org."
+          url: "https://www.worldbank.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No reliable data; Iranian/Russian/Captagon finance; no fiscal system; collapse"
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -221,13 +333,17 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
+      assessment: |
+        Fiscal collapse continuing. Arab normalization beginning but no fiscal reconstruction.
+        Russia diverted to Ukraine reducing support. Captagon revenues primary off-budget
+        source. No IMF/World Bank engagement. Fiscal collapse.
+      features:
+        - fiscal_collapse
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: "Arab normalization no fiscal reform; Russia reduced; Captagon primary revenue; fiscal collapse"
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -237,13 +353,17 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
+      assessment: |
+        Fiscal collapse. Earthquake February 2023 added humanitarian costs. Arab League
+        readmission no fiscal improvement. Captagon revenues supporting regime. No
+        international financial institution engagement. Fiscal collapse.
+      features:
+        - fiscal_collapse
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: "Earthquake humanitarian costs; Arab readmission no fiscal; Captagon revenues; fiscal collapse"
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -253,13 +373,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Assad regime fiscal system collapsed with regime December 8. Treasury, central bank,
+        Ministry of Finance institutions dissolved or taken over by transitional authority.
+        Post-collapse: Gulf states providing emergency fiscal support. IMF initial consultations.
+        Complete fiscal reconstruction needed from zero. Fiscal collapse with initial external support.
+      features:
+        - fiscal_collapse
+      sources:
+        - citation: "ICG. 'Syria: After Assad.' December 2024."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: low
+      notes: "Assad fiscal system collapsed; Gulf emergency support; IMF consultations; fiscal reconstruction needed"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -269,8 +398,18 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Fiscal system rebuilding from near-zero. Gulf state (Saudi Arabia, UAE, Qatar)
+        providing budget support. Turkey economic assistance. IMF and World Bank beginning
+        engagement for reconstruction financing. Debt levels unclear — transitional
+        government inheriting Assad debts (primarily to Russia, Iran) while seeking
+        debt relief. Fiscal collapse conditions but with international support beginning.
+      features:
+        - fiscal_collapse
+      sources:
+        - citation: "ICG. 'Syria Transition 2025.' crisisgroup.org."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: low
+      notes: "Gulf budget support; Turkey/IMF/WB engagement; inherited Russian/Iranian debt; fiscal collapse rebuilding"

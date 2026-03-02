@@ -3,7 +3,7 @@ country: syria
 dimension: international
 years:
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -13,13 +13,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No foreign military forces in Syria. Assad government exercised full sovereignty.
+        Hezbollah maintained presence in Lebanon with Syrian coordination, but no foreign
+        forces on Syrian soil. Russia had naval base agreement at Tartous (small logistics
+        facility). Pre-conflict period. Full sovereignty with minor Russian naval logistics.
+      features:
+        - no_foreign_presence_full_sovereignty
+      sources:
+        - citation: "IISS. 'Military Balance 2009.' London: IISS."
+          url: null
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Full Assad sovereignty; Russian Tartous naval logistics only; Hezbollah in Lebanon not Syria"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -29,13 +38,18 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
+      assessment: |
+        No foreign combat forces in Syria. Full Syrian government sovereignty over territory.
+        Russia maintained Tartous naval facility (small staff). Iran had advisory relationship
+        but no deployed forces. Pre-uprising, no foreign military presence significant enough
+        to affect sovereignty.
+      features:
+        - no_foreign_presence_full_sovereignty
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: "Full sovereignty; Russian Tartous minor; no Iranian forces deployed; pre-uprising"
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -45,13 +59,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Iran began providing advisory support to Assad security forces managing uprising.
+        IRGC Quds Force advisors reportedly in Syria from 2011. Hezbollah fighters beginning
+        to assist Assad forces in border areas. No deployed foreign combat formations. Iran/
+        Hezbollah advisory presence growing but not yet combat operations. Limited invited
+        advisors — beginning of Iranian involvement.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "ICG. 'Syria's Phase of Radicalisation.' 2012."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "Iran IRGC Quds Force advisors beginning; Hezbollah border assistance; limited advisory role"
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -61,13 +85,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Iran IRGC Quds Force advisors operating extensively. Hezbollah fighters deployed in
+        combat roles (Qusayr and other fronts, confirmed 2012-2013). Russian military
+        advisors with Assad regime. Foreign fighters joining opposition (via Turkey, Jordan).
+        Contested mixed presence — regime with Iran/Hezbollah/Russia, opposition with
+        Gulf/Turkish-backed fighters.
+      features:
+        - contested_mixed_presence
+      sources:
+        - citation: "UN Commission of Inquiry on Syria. 2012."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+        - citation: "ICG. 'Syria's Metastasising Conflicts.' 2014."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Iran IRGC advisors; Hezbollah combat deployment; Russian advisors; opposition foreign fighters"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -77,13 +115,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Hezbollah deployed in significant combat formations (Qusayr battle May-June 2013).
+        Iran IRGC Quds Force commanding elements. Russian arms/advisors. ISIS attracting
+        foreign fighters from global jihadist networks. US covertly arming opposition (CIA
+        program). Multiple foreign actors in combat roles. Active foreign combat operations
+        from multiple sides.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "Human Rights Watch. 'Syria: Hezbollah Fighters in Qusayr.' 2013."
+          url: "https://www.hrw.org"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Hezbollah Qusayr battle; IRGC commanding; Russian arms; ISIS foreign fighters; CIA covert arming"
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -93,13 +141,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US-led coalition airstrikes began against ISIS August/September 2014. Iran/Hezbollah
+        significant combat presence supporting Assad. Russian advisors. ISIS international
+        fighters (estimated 20,000+). Turkish support for opposition factions. Multiple
+        uninvited foreign actors conducting combat operations. Active foreign combat operations
+        dominating the conflict.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "US Department of Defense. 'Operation Inherent Resolve begins.' September 2014."
+          url: "https://www.defense.gov"
+          type: official_document
+          reliability: high
+        - citation: "IISS. 'Military Balance 2015.' London: IISS."
+          url: null
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "US coalition airstrikes Sept; Iran/Hezbollah combat; ISIS 20K+ foreign fighters; Turkish support"
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -109,13 +171,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Russia intervened directly September 30, 2015 with air campaign, special forces, and
+        ground advisors. US-led coalition continued operations vs ISIS. Iran IRGC expanded
+        ground presence. Hezbollah major combat force. Turkish-backed opposition fighters.
+        Multiple foreign powers conducting direct combat operations. Densest foreign military
+        involvement. Active foreign combat operations from all sides.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "IISS. 'Russia in Syria: Military Intervention.' Military Balance Blog, 2015."
+          url: null
+          type: think_tank_report
+          reliability: high
+        - citation: "ICG. 'Russia's Syrian Gamble.' 2015."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Russia direct intervention Sept 30; US coalition; IRGC ground; Hezbollah major; Turkish-backed; most complex"
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -125,13 +201,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Russia air campaign dominant in supporting Assad reconquest of Aleppo. US Special
+        Operations Forces with SDF in northeast. Iran IRGC ground forces. Hezbollah in
+        multiple fronts. Turkish military entered Syria directly (Operation Euphrates Shield,
+        August 2016). Active foreign combat operations from multiple uninvited and invited
+        actors. Most complex multi-power foreign military involvement.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "IISS. 'Military Balance 2017.' London: IISS."
+          url: null
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Russia Aleppo; US SOF/SDF northeast; Iran IRGC ground; Hezbollah; Turkey Op Euphrates Shield Aug"
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -141,13 +227,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued active multi-power foreign military operations. Russia major air/ground
+        advisory role. US SOF with SDF in northeast fighting ISIS. Iranian IRGC ground
+        forces. Hezbollah. Turkish forces in northwest and Operation Euphrates Shield area.
+        Israel conducting airstrikes on Iranian/Hezbollah targets (began systematically
+        2017-18). Multiple uninvited foreign powers conducting combat operations.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "UN Commission of Inquiry on Syria. 2017 reports."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Russia major; US SOF/SDF; Iran IRGC; Hezbollah; Turkey northwest; Israeli airstrikes on Iranian positions"
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -157,13 +253,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Multiple foreign combat actors: Russia major air/ground role. US SOF with SDF. Iran
+        IRGC. Hezbollah. Turkey Operation Olive Branch (Afrin, January-March 2018). Turkey
+        Operation Euphrates Shield consolidation. Israel intensified airstrikes on Iranian
+        positions. US/UK/France strikes on chemical weapons facilities April 2018. Active
+        foreign combat operations dominant — highest concentration of foreign militaries.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "IISS. 'Military Balance 2019.' London: IISS."
+          url: null
+          type: think_tank_report
+          reliability: high
+        - citation: "UN Commission of Inquiry on Syria. 'A/HRC/39/65.' 2018."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Russia/US/Iran/Hezbollah/Turkey/Israel all conducting operations; Op Olive Branch; US/UK/Fr April strikes"
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -173,13 +283,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Active foreign combat operations continuing though declining from 2018 intensity.
+        Russia maintaining air operations and bases. US SOF with SDF (northeast withdrawal
+        partial October — Turkey Operation Peace Spring). Iran IRGC present. Hezbollah.
+        Israel airstrikes continued. Turkish Operation Peace Spring October 2019. Multiple
+        foreign militaries with combat roles.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "IISS. 'Military Balance 2020.' London: IISS."
+          url: null
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Russia; US SOF/SDF; Turkey Op Peace Spring Oct; Iran IRGC; Israel airstrikes; active multi-power"
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -189,13 +309,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Multi-power foreign military presence stabilizing in frozen conflict. Russia operating
+        Hmeimim airbase and Tartous naval base (20-year agreement signed 2017). US SOF ~900
+        in northeast with SDF. Iranian forces and Hezbollah in regime areas. Turkish forces
+        in northwest (Idlib observation posts, Operation Peace Spring area). Israeli airstrikes
+        continued. Contested mixed presence in frozen conflict pattern.
+      features:
+        - contested_mixed_presence
+      sources:
+        - citation: "UN OCHA. 'Syria Situation Report.' 2020."
+          url: "https://www.unocha.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Russia Hmeimim/Tartous; US ~900 SOF/SDF; Iran/Hezbollah; Turkey northwest; Israel airstrikes; frozen"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -205,13 +335,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Frozen conflict with multiple foreign military actors. Russia major presence at
+        Hmeimim and Tartous. US ~900 troops with SDF northeast. Iran IRGC and Hezbollah
+        with regime forces. Turkey in northwest with ~10 Idlib observation posts. Israeli
+        airstrikes on Iranian positions continued. Contested mixed presence with multiple
+        actors.
+      features:
+        - contested_mixed_presence
+      sources:
+        - citation: "IISS. 'Military Balance 2022.' London: IISS."
+          url: null
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Russia Hmeimim/Tartous; US ~900; Iran/Hezbollah; Turkey 10 observation posts; Israeli strikes"
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -221,13 +361,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Frozen conflict with multi-actor foreign military presence. Russia pivoted significant
+        assets to Ukraine (February 2022) reducing Syrian deployment somewhat. US ~900 troops
+        northeast. Iran and Hezbollah. Turkey in northwest. Turkish operations against SDF
+        continued sporadically. Israeli airstrikes continued. Contested mixed presence.
+      features:
+        - contested_mixed_presence
+      sources:
+        - citation: "IISS. 'Military Balance 2023.' London: IISS."
+          url: null
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Russia reduced (Ukraine war); US ~900; Iran/Hezbollah; Turkey northwest; Israeli strikes; contested"
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -237,13 +386,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued multi-actor foreign military presence in frozen conflict. Russia maintained
+        Hmeimim/Tartous with reduced capacity due to Ukraine war. US ~900 SOF with SDF. Iran
+        IRGC and proxy forces with regime. Turkey in northwest. Israeli airstrikes continued
+        (Iran/Hezbollah targets). Earthquake February 2023 temporarily changed operational
+        tempo. Contested mixed presence.
+      features:
+        - contested_mixed_presence
+      sources:
+        - citation: "IISS. 'Military Balance 2024.' London: IISS."
+          url: null
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Russia Hmeimim/Tartous reduced; US ~900/SDF; Iran/Hezbollah; Turkey; Israel; contested mixed"
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -253,13 +412,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        HTS-led offensive November-December 2024 changed foreign military picture dramatically.
+        Russia evacuated many assets after Assad collapse; Russia/Iran began withdrawing.
+        US SOF remained with SDF in northeast. Turkey backed HTS/rebel coalition directly
+        (Operation Dawn of Freedom). Israeli forces occupied Golan buffer zone (December 8).
+        Iran/Hezbollah presence collapsed with Assad regime. Active foreign combat operations
+        during offensive; contested mixed post-Assad.
+      features:
+        - active_foreign_combat_operations
+      sources:
+        - citation: "ICG. 'Syria: After Assad.' December 2024."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "HTS offensive; Russia/Iran withdrawing; Turkey backed HTS; Israel occupied Golan buffer; US SOF/SDF"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -269,8 +439,19 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-Assad contested military landscape. Russia evacuated most forces (Tartous/Hmeimim
+        status uncertain). Iran lost Syrian base access. US ~900 SOF remained with SDF northeast.
+        Turkey maintained significant presence in northwest (Operation Peace Spring area,
+        Turkish-backed SNA). Israel continued airstrikes on remaining arms caches and
+        occupied Golan buffer strip. New Syrian transitional government without full sovereign
+        military control. Contested mixed presence in transitional period.
+      features:
+        - contested_mixed_presence
+      sources:
+        - citation: "ICG. 'Syria Transition 2025.' crisisgroup.org."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: low
+      notes: "Russia evacuated mostly; Iran lost access; US SOF/SDF northeast; Turkey SNA northwest; Israel Golan"

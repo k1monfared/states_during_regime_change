@@ -3,7 +3,7 @@ country: myanmar
 dimension: economic
 years:
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -13,13 +13,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Myanmar under military junta had opaque fiscal management. Large fiscal deficits
+        monetized through central bank printing. Public debt data unreliable. Natural gas
+        revenues from Yadana and Yetagun fields accrued to military-controlled entities
+        outside the regular budget. Fiscal system severely dysfunctional.
+      features:
+        - large_deficit_high_90_120pct
+      sources:
+        - citation: "IMF Myanmar Article IV Consultations (historical)"
+          url: "https://www.imf.org/en/countries/MMR"
+          type: international_organization
+          reliability: medium
+      confidence: low
+      notes: "Junta fiscal data unreliable; deficits monetized; off-budget military revenues not captured"
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -29,13 +38,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Fiscal deficits continued under military rule. High inflation partly driven by
+        fiscal monetization. Military spending consumed large share of budget. External
+        debt limited due to sanctions and limited borrowing access.
+      features:
+        - large_deficit_high_90_120pct
+      sources:
+        - citation: "IMF Myanmar country reports"
+          url: "https://www.imf.org/en/countries/MMR"
+          type: international_organization
+          reliability: medium
+      confidence: low
+      notes: "Fiscal data of low reliability; deficits monetized"
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -45,13 +62,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Fiscal pressures drove the subsidy removal that triggered the Saffron Revolution.
+        The junta's budget management remained opaque with off-budget military revenues.
+        Fiscal deficit significant but exact figures unreliable.
+      features:
+        - large_deficit_high_90_120pct
+      sources:
+        - citation: "IMF Myanmar country reports"
+          url: "https://www.imf.org/en/countries/MMR"
+          type: international_organization
+          reliability: medium
+      confidence: low
+      notes: "Subsidy removal triggered Saffron Revolution; fiscal pressure evident"
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -61,13 +86,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Cyclone Nargis added emergency fiscal pressures. The junta's refusal of
+        international aid complicated fiscal recovery. Natural gas revenues provided
+        some cushion. Fiscal management remained opaque and dysfunctional.
+      features:
+        - large_deficit_high_90_120pct
+      sources:
+        - citation: "IMF Myanmar country reports"
+          url: "https://www.imf.org/en/countries/MMR"
+          type: international_organization
+          reliability: medium
+      confidence: low
+      notes: "Cyclone Nargis fiscal impact; data unreliable"
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -77,13 +110,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Fiscal management remained under junta control with opaque budget processes.
+        Natural gas revenues provided government income but not transparently managed.
+        Deficit monetization continued.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF Myanmar country reports"
+          url: "https://www.imf.org/en/countries/MMR"
+          type: international_organization
+          reliability: medium
+      confidence: low
+      notes: "Data unreliable; improving but still dysfunctional"
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -93,13 +134,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Fiscal management beginning to improve as election approached. Budget reform
+        discussions part of managed political transition planning. Natural gas revenues
+        key source of government income.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF Myanmar country reports"
+          url: "https://www.imf.org/en/countries/MMR"
+          type: international_organization
+          reliability: medium
+      confidence: low
+      notes: "Election year; reforms beginning"
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -109,13 +158,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Fiscal reforms began with democratic transition. Budget process becoming more
+        transparent. Multiple exchange rate system began to be unified, improving
+        fiscal accounting. IMF engagement started.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF Myanmar country reports"
+          url: "https://www.imf.org/en/countries/MMR"
+          type: international_organization
+          reliability: medium
+      confidence: medium
+      notes: "Transition year; fiscal reforms beginning"
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -125,13 +182,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Major fiscal reforms in 2012 with exchange rate unification. Budget management
+        improving substantially. External debt relief obtained from Paris Club creditors.
+        Fiscal position improving with growing revenues.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF Myanmar Article IV Consultation 2012"
+          url: "https://www.imf.org/en/countries/MMR"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "Exchange rate unification; Paris Club debt relief"
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -141,13 +206,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Fiscal position continued improving. Deficit manageable relative to GDP growth.
+        Government revenue rising with economic expansion and tax reforms. IMF technical
+        assistance supporting fiscal management improvements.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF Myanmar Article IV Consultation 2013"
+          url: "https://www.imf.org/en/countries/MMR"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "Improving fiscal management"
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -157,13 +230,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Fiscal health improving. Strong GDP growth boosting revenues. Public debt
+        declining as % of GDP. Government implementing tax and budget reforms.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF Myanmar Article IV Consultation 2014"
+          url: "https://www.imf.org/en/countries/MMR"
+          type: international_organization
+          reliability: high
+      confidence: medium
       notes: null
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -173,13 +253,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Fiscal position broadly sound. Deficit manageable. NLD election victory
+        raised expectations for fiscal reform. Revenue improvements continuing
+        despite currency depreciation.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF Myanmar Article IV Consultation 2015"
+          url: "https://www.imf.org/en/countries/MMR"
+          type: international_organization
+          reliability: high
+      confidence: medium
       notes: null
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -189,13 +277,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        NLD government inherited broadly sound fiscal position. Continued reforms.
+        US sanctions removal improved investment climate and revenue potential.
+        Budget deficit manageable.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF Myanmar Article IV Consultation 2016"
+          url: "https://www.imf.org/en/countries/MMR"
+          type: international_organization
+          reliability: high
+      confidence: medium
       notes: null
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -205,13 +301,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Fiscal health broadly stable. Rohingya crisis created some emergency
+        spending pressures in Rakhine but national fiscal position remained
+        manageable. IMF engagement continued.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF Myanmar Article IV Consultation 2017"
+          url: "https://www.imf.org/en/countries/MMR"
+          type: international_organization
+          reliability: high
+      confidence: medium
       notes: null
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -221,13 +325,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Fiscal position broadly manageable. Deficit around 3-4% of GDP. Public
+        debt at moderate levels. Revenue collection improving with economic growth.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF Myanmar Article IV Consultation 2018"
+          url: "https://www.imf.org/en/countries/MMR"
+          type: international_organization
+          reliability: high
+      confidence: medium
       notes: null
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -237,13 +348,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Fiscal position sound pre-coup. Deficit manageable. Myanmar pursuing fiscal
+        reforms with IMF support. Revenue mobilization improving. Public debt moderate.
+      features:
+        - small_deficit_manageable_30_60pct
+      sources:
+        - citation: "IMF Myanmar Article IV Consultation 2019"
+          url: "https://www.imf.org/en/countries/MMR"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "Pre-coup fiscal position was sound"
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -253,13 +371,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        COVID-19 caused fiscal deterioration. Spending increased for health response
+        while revenues fell. Deficit widened but remained manageable with IMF
+        emergency financing assistance.
+      features:
+        - moderate_deficit_elevated_60_90pct
+      sources:
+        - citation: "IMF Myanmar Emergency Financing 2020"
+          url: "https://www.imf.org/en/countries/MMR"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "COVID-19 fiscal impact; IMF emergency financing"
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -269,13 +395,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Coup caused severe fiscal deterioration. Government revenues collapsed as
+        civil disobedience movement paralyzed tax collection and public services.
+        Military spending surged. Junta began monetizing deficits again. IMF suspended
+        engagement. Fiscal situation moved toward unsustainability.
+      features:
+        - unsustainable_debt_crisis
+      sources:
+        - citation: "World Bank Myanmar Economic Monitor, December 2021"
+          url: "https://www.worldbank.org/en/country/myanmar/publication/myanmar-economic-monitor"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "Coup year; fiscal system under severe stress; IMF engagement suspended"
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -285,13 +420,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Fiscal situation unsustainable. Military government monetizing deficits through
+        central bank. Revenue collection collapsed in conflict zones. Western aid withdrawn.
+        Debt service difficulties. Economy in deep recession.
+      features:
+        - unsustainable_debt_crisis
+      sources:
+        - citation: "UN OCHA Myanmar Humanitarian Reports 2022"
+          url: "https://www.unocha.org/myanmar"
+          type: international_organization
+          reliability: medium
+      confidence: low
+      notes: "Civil war; data unreliable"
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -301,13 +444,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Fiscal collapse continued. Junta monetizing deficits, driving inflation.
+        Operation 1027 from October further disrupted territory under junta control,
+        reducing its revenue base. Fiscal data unreliable.
+      features:
+        - unsustainable_debt_crisis
+      sources:
+        - citation: "UN OCHA Myanmar Reports 2023"
+          url: "https://www.unocha.org/myanmar"
+          type: international_organization
+          reliability: medium
+      confidence: low
+      notes: "Civil war; Operation 1027 began Oct 2023"
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: debt_percent_gdp
@@ -317,11 +468,19 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Junta fiscal position deteriorating as it controls less territory. Revenue base
+        shrinking. Military expenditures high. Monetization of deficits continues.
+        Complete fiscal collapse in many regions outside junta control.
+      features:
+        - fiscal_collapse
+      sources:
+        - citation: "UN OCHA Myanmar Reports 2024"
+          url: "https://www.unocha.org/myanmar"
+          type: international_organization
+          reliability: medium
+      confidence: low
+      notes: "Civil war conditions; junta losing territorial control reduces revenue base"
   2025:
     data_status: missing
     quantitative:
@@ -337,4 +496,4 @@ years:
       features: []
       sources: []
       confidence: null
-      notes: null
+      notes: "2025 data not available; civil war conditions"

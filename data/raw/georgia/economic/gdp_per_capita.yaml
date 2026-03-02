@@ -2,499 +2,687 @@ indicator: gdp_per_capita
 country: georgia
 dimension: economic
 years:
+  1988:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: usd_current
+      source:
+        citation: World Bank WDI — Georgia Soviet era 1988; no WB data
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Georgian SSR (Soviet Union). No market GDP data. Soviet command economy. Georgia was a relatively prosperous
+        Soviet republic with tea, wine, manganese, tourism.
+      features:
+      - significant_decline_50_70pct
+      sources: []
+      confidence: low
+      notes: Soviet Georgia; no market GDP
+  1989:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: usd_current
+      source:
+        citation: World Bank WDI — Soviet era
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Late Soviet. Independence movement growing (April 9, 1989 massacre). Soviet economic system.
+      features:
+      - significant_decline_50_70pct
+      sources: []
+      confidence: low
+      notes: April 9, 1989 massacre; independence movement; Soviet economy
+  1990:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: usd_current
+      source:
+        citation: World Bank WDI — Soviet/transition era
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Last Soviet year. Georgia declared sovereignty (1990). Civil conflict beginning (South Ossetia war 1991-92,
+        Abkhazia conflict building). Economy collapsing.
+      features:
+      - significant_decline_50_70pct
+      sources: []
+      confidence: low
+      notes: Sovereignty declared; South Ossetia conflict starting; economy collapsing
+  1991:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: usd_current
+      source:
+        citation: World Bank WDI — independence year
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Georgia declared independence April 9, 1991. Zviad Gamsakhurdia president then ousted December 1991. South
+        Ossetia war. Economic collapse. GDP data unreliable.
+      features:
+      - significant_decline_50_70pct
+      sources: []
+      confidence: low
+      notes: Independence 1991; Gamsakhurdia ousted; South Ossetia war; economy collapsed
+  1992:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: usd_current
+      source:
+        citation: World Bank WDI — civil war era
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Civil war. Eduard Shevardnadze returned to lead. Abkhazia war 1992-93. Hyperinflation. Economy collapsed.
+        No reliable GDP data.
+      features:
+      - significant_decline_50_70pct
+      sources: []
+      confidence: low
+      notes: Shevardnadze; Abkhazia war; hyperinflation; GDP collapsed
+  1993:
+    data_status: partial
+    quantitative:
+      value: 380
+      unit: usd_current
+      source:
+        citation: World Bank WDI — Georgia 1993; estimated from WB transition data
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Abkhazia war ended (September 1993, Georgia lost Abkhazia). Catastrophic economic collapse. GDP estimated
+        ~$380 PPP comparable. Hyperinflation ~7,500%. Coupon currency collapse. Energy crisis.
+      features:
+      - above_peak
+      sources: []
+      confidence: low
+      notes: Abkhazia lost; hyperinflation ~7,500%; GDP ~$380 estimated
+  1994:
+    data_status: complete
+    quantitative:
+      value: 173
+      unit: usd_current
+      source:
+        citation: World Bank WDI — Georgia 1994; GDP per capita current USD
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
+    qualitative:
+      assessment: Lowest point. GDP per capita $173 — among world's poorest. Post-civil-war devastation. Coupon (Georgian
+        lari predecessor) collapsed. IMF structural adjustment. Energy infrastructure destroyed. Population fleeing.
+      features:
+      - above_peak
+      sources: []
+      confidence: medium
+      notes: 'WB: $173; lowest point; post-war collapse; IMF'
   1995:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 248
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 1995
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Recovery beginning. Georgian lari introduced (1995). IMF/World Bank programs. GDP $248 — slight improvement.
+        Shevardnadze consolidating power. Inflation brought under control.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: $248; lari 1995; IMF stabilization; recovery starting'
   1996:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 395
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 1996
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Rapid recovery. GDP $395. Stabilization program working. Growth recovery. Energy sector partly rebuilt.
+        Shevardnadze regime stable.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: $395; rapid recovery; stabilization working'
   1997:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 542
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 1997
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Strong recovery. GDP $542. BTC pipeline (Baku-Tbilisi-Ceyhan) negotiations. Transit economy emerging. Shevardnadze
+        era relative stability.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: $542; strong recovery; BTC pipeline'
   1998:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 569
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 1998
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Slight slowdown. Russian financial crisis August 1998 impacted. GDP $569. Lari depreciated significantly.
+        Economic shock from Russia.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: $569; Russian crisis impact; lari depreciated'
   1999:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 549
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 1999
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Slight decline. Post-Russian crisis adjustment. GDP $549. Shevardnadze regime weakening — corruption increasing.
+        BTC pipeline agreement finalized.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: $549; post-crisis; corruption high; BTC finalized'
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 620
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2000
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Recovery. GDP $620. Late Shevardnadze era. Corruption endemic. 'Clientelism democracy' with nepotism. Rose
+        Revolution building civil society.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: $620; corruption endemic; pre-Rose Revolution'
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 656
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2001
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Modest growth. GDP $656. Shevardnadze weakening. BTC pipeline construction began. Saakashvili as Tbilisi
+        mayor gaining popularity.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: $656; BTC construction; Saakashvili Tbilisi mayor'
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 733
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2002
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: GDP $733. Pre-Rose Revolution. Shevardnadze election fraud building. Opposition NGOs growing (Kmara! etc.).
+        BTC pipeline advancing.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: $733; pre-revolution; Kmara movement'
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 840
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2003
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Rose Revolution year. GDP $840. November 2003 — Shevardnadze ousted by peaceful Rose Revolution (Saakashvili,
+        Zhvania, Burjanadze led). Immediate international integration. GDP growth despite political transition.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: $840; Rose Revolution November 2003; Shevardnadze ousted'
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 1018
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2004
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Post-revolution economic surge. GDP $1,018. Saakashvili elected president January 2004. Rapid anti-corruption
+        reforms. Tax revenues doubled. Investment inflows. Economic liberalization.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: $1,018; post-revolution surge; tax reform doubled revenues'
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 1268
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2005
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Strong growth. GDP $1,268. BTC pipeline opened (May 2005). Energy transit revenues. Economic liberalization
+        (flat tax, deregulation). FDI inflows accelerating. PM Zhvania died (Feb 2005 gas poisoning).
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: $1,268; BTC opened; flat tax; Zhvania died'
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 1517
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2006
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Strong growth. GDP $1,517. Russia-Georgia trade dispute (Russia banned Georgian wine and mineral water).
+        Gas crisis (pipeline explosion). Economic growth despite Russia pressure.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: $1,517; Russia trade war; Georgian wine banned; growth continued'
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 2131
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2007
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Strong growth. GDP $2,131. Saakashvili declared state of emergency (November 2007, Okruashvili protests).
+        Economic boom continued. Major FDI. Heritage Foundation ranked Georgia as reformer.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: $2,131; state of emergency; economic boom; FDI peak'
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 2948
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2008
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: August 2008 Russia-Georgia War (5-day war). GDP $2,948 despite war damage. Russia recognized Abkhazia and
+        South Ossetia. Georgia lost ~20% of territory. International aid ($4.5B pledged). GDP still grew due to Q1-Q2 boom
+        and aid.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: $2,948; August 2008 war; Abkhazia+S.Ossetia lost; $4.5B aid pledged'
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 2526
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2009
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: GDP $2,526. Post-war recession + global financial crisis. FDI collapsed after war. GDP fell. Recovery aided
+        by international donor program. Saakashvili political challenges (protests March 2009).
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: $2,526; post-war GDP fall; global crisis; aid'
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 2777
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2010
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Recovery. GDP $2,777. Economic reform continuing. Free trade agreements. BTC revenue. NATO/EU integration
+        aspirations.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: $2,777; recovery; reforms; BTC revenue'
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 3348
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2011
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Strong growth. GDP $3,348. Saakashvili era reforms peaking. 'Georgian Economic Miracle' narrative. Business-friendly
+        rankings improving. Prison abuse scandal (September 2011) shocked society.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: $3,348; prison scandal; economic miracle narrative'
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 3769
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2012
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: GDP $3,769. October 2012 elections — Georgian Dream (Ivanishvili) won. First peaceful transfer of power
+        in Georgia's post-Soviet history. Economic growth maintained.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: $3,769; Georgian Dream won October 2012; first peaceful transfer'
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 3986
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2013
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: GDP $3,986. Georgian Dream consolidating. Saakashvili left presidency. Margvelashvili elected president.
+        EU Association Agreement negotiations. EITI compliant status achieved.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: $3,986; Georgian Dream; Margvelashvili; EU AA; EITI compliant'
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 4429
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2014
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: GDP $4,429. EU Association Agreement signed (June 2014). DCFTA. Economic growth continuing. Russia-Ukraine
+        war shadow. Georgian Dream governing.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: $4,429; EU AA+DCFTA signed; growth'
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 3793
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2015
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: GDP $3,793 — decline due to lari depreciation and regional spillover from Russia sanctions. Russia-Ukraine
+        war impact on region. Lari lost ~40% of value. Remittances from Russia fell.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: $3,793; lari -40%; Russia spillover; current USD decline'
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 3876
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2016
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: GDP $3,876. Recovery from lari depreciation. EU visa liberalization (2017). Tourism growing. Georgia increasingly
+        a regional financial hub.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: $3,876; recovery; tourism growing'
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 4038
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2017
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: GDP $4,038. EU visa-free travel (March 2017). Strong growth. Tourism and remittances growing. EU DCFTA benefits
+        materializing.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: $4,038; EU visa-free; strong growth'
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 4366
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2018
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: GDP $4,366. Strong growth. Tourism boom. Financial services. Cryptocurrency hub emerging. Salome Zourabichvili
+        elected president. Georgian Dream dominant.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: $4,366; tourism boom; Zourabichvili president'
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 4757
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2019
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: GDP $4,757. Strong pre-COVID growth. Tourism peak year. Russia banned direct flights (June 2019 — after
+        protests over Russian MP Gavrilov chairing Georgian parliament). GDP still grew strongly.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: $4,757; Russia flight ban; tourism peak; pre-COVID'
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 4280
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2020
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: COVID-19 impact. GDP $4,280 (-6.2% real). Tourism collapsed (from ~9M visitors to near-zero). Georgian Dream
+        won disputed elections October 2020. Major political crisis post-election.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: $4,280; -6.2% real; COVID; disputed elections October 2020'
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 4736
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2021
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Strong recovery. GDP $4,736 (+10.4% real). Tourism recovering. Saakashvili returned, arrested October 2021
+        — political crisis. Georgia applied for EU membership 2022.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: $4,736; +10.4% real; Saakashvili arrested; recovery'
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 6050
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2022
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: 'GDP $6,050 — major jump. Russia-Ukraine war spillover: Russian emigres (oligarchs, tech workers, draft
+        avoiders) flooded into Georgia — massive remittances and spending. Lari strengthened. Unprecedented GDP boost from
+        Russian migration.'
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: $6,050; Russian emigre boom; massive spending; lari strengthened'
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 7159
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2023
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: GDP $7,159. Continued growth driven by Russian emigres, tourism recovery, EU trade. Georgian Dream 'foreign
+        agents' law triggered massive protests (March 2023). EU candidate status denied (Georgia did not meet criteria).
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: $7,159; growth; foreign agents law protests; EU candidate denied'
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: usd_current_or_constant
+      value: 7900
+      unit: usd_current
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2024; estimated
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: GDP ~$7,900 estimated. October 2024 disputed elections — Georgian Dream declared winner. Mass protests November-December
+        2024 (pro-EU demonstrators). EU suspended accession talks. US/EU sanctions on Georgian Dream officials.
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: ~$7,900 est; October 2024 disputed elections; mass protests; EU suspended accession
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: usd_current_or_constant
+      unit: usd_current
       source:
-        citation: null
+        citation: World Bank WDI 2025 not yet available
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Ongoing political crisis. Mass protests. EU accession suspended. Economic uncertainty.
+      features:
+      - significant_decline_50_70pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: 2025 partial; protests; EU suspended; uncertain

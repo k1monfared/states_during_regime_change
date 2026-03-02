@@ -2,469 +2,818 @@ indicator: trade_openness
 country: nepal
 dimension: economic
 years:
+  1991:
+    data_status: complete
+    quantitative:
+      value: 34.68
+      unit: percent_gdp
+      source:
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
+    qualitative:
+      assessment: |
+        Nepal trade at 34.68% of GDP in 1991. Heavily dependent on India for
+        imports and exports. Post-democracy transition. Open border with India
+        dominates trade. Carpet and garment exports growing.
+      features:
+        - restricted_20_40pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Post-democracy transition; India trade dominant"
+  1992:
+    data_status: complete
+    quantitative:
+      value: 41.70
+      unit: percent_gdp
+      source:
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
+    qualitative:
+      assessment: |
+        Trade openness at 41.70%. Carpet and garment exports booming.
+        Nepal benefiting from GSP preferences and garment quotas. High
+        trade-to-GDP ratio for landlocked LDC.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Garment/carpet export boom"
+  1993:
+    data_status: complete
+    quantitative:
+      value: 47.19
+      unit: percent_gdp
+      source:
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
+    qualitative:
+      assessment: |
+        High trade openness at 47%. Nepal exporting garments, carpets, and
+        importing consumer goods and fuel. India trade dominant.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: null
+  1994:
+    data_status: complete
+    quantitative:
+      value: 50.43
+      unit: percent_gdp
+      source:
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
+    qualitative:
+      assessment: |
+        Trade at 50% of GDP — high for LDC. Nepal's open border with India
+        and trade liberalization producing high trade-to-GDP ratio. Garments
+        and carpets dominant exports.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: null
+  1995:
+    data_status: complete
+    quantitative:
+      value: 59.49
+      unit: percent_gdp
+      source:
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
+    qualitative:
+      assessment: |
+        High trade openness at 59.49%. Nepal's economy increasingly integrated
+        with Indian and global markets. Garment exports near peak under
+        multi-fiber arrangement. Trade liberalization progressing.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Garment exports near peak; multi-fiber arrangement"
   1996:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 58.46
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        High trade openness continuing at 58%. Maoist insurgency launched but
+        not affecting national trade significantly in first year. Landlocked
+        position with India transit dominance.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Maoist insurgency launched; trade unaffected nationally"
   1997:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 64.04
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade at 64% — highest level in early period. Nepal's garment exports
+        very strong before end of Multi-Fiber Arrangement. India trade dominant
+        with also Tibet/China trade growing.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Peak garment export period"
   1998:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 56.71
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Trade declining from peak. Asian financial crisis reducing regional
+        trade. Garment exports declining. Insurgency expanding in western
+        districts affecting some trade routes.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   1999:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 52.57
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Trade at 52.57%. Garment exports declining from MFA peak. Insurgency
+        intensifying but not yet significantly impacting national trade.
+        India-Nepal trade dominant. Tourism sector contributing.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 55.71
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Trade at 55.71%. Economy maintaining trade openness despite insurgency.
+        Remittances growing as major external income source. India trade dominant.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 55.80
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade at 55.80%. Royal massacre and 9/11 affected tourism. Insurgency
+        intensifying. Trade maintained through India open border despite crisis.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Royal massacre; 9/11 tourism impact; trade maintained"
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 46.23
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Trade declining to 46.23%. Insurgency causing supply chain disruptions.
+        Tourism collapsed. Garment exports declining with MFA phase-out approaching.
+        State of emergency.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 44.25
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Trade at 44.25%. Declining from peak as insurgency and MFA expiry impact
+        exports. Some ceasefire attempts. India trade still dominant. Service
+        exports (tourism, IT) very limited.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 46.15
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Trade at 46.15%. Economy continuing despite insurgency peak. India trade
+        dominant. Imports of fuel, food, manufactured goods continuing through
+        India despite conflict.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 44.06
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade at 44%. Royal coup. Insurgency ongoing. Garment exports collapsed
+        with 2005 MFA expiry. New trade structure emerging with remittances
+        replacing garment export income.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "MFA expiry 2005 ended garment export preferences; royal coup"
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 44.76
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade at 44.76%. Peace agreement year. Post-insurgency trade recovery
+        anticipated. India trade dominant. Service trade (tourism) beginning
+        recovery. Garment exports gone; import-driven trade dominant.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Peace agreement; post-peace trade recovery"
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 44.58
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Trade stable at 44.58%. Post-peace transition. Tourism recovering.
+        Imports growing with improved consumer spending from remittances.
+        India trade dominant. Trade structure now heavily import-dependent.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 46.04
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Trade at 46%. Republic declared. Tourism growing (Everest industry).
+        Oil price spike increasing import costs. India trade dominant. Nepal
+        increasingly import-dependent with remittances financing trade deficit.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 47.08
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Trade at 47%. Political instability with PM changes not affecting trade.
+        India open border and trade agreement dominant. Growing import trade
+        financed by remittances. Nepal trade deficit widening.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 45.98
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Trade at 46%. Remittances over 15% GDP. Import-led trade growth.
+        Nepal's trade structure heavily India-dependent. China trade growing
+        slowly. Multiple PM changes not affecting trade.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 36.30
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade declined to 36.30% — sharp drop due to GDP growth outpacing trade
+        growth (denominator effect with rapid GDP growth in USD from currency).
+        Nepal's economy growing fast. Trade still primarily India-dependent.
+      features:
+        - restricted_20_40pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Sharp drop partly statistical (GDP growth faster than trade growth)"
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 37.92
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Trade recovering at 38%. CA dissolved. Political deadlock. Trade maintained
+        through India open border arrangement. Remittances financing trade deficit.
+      features:
+        - restricted_20_40pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 41.87
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Trade recovering to 41.87%. Second CA elected. Economic growth
+        moderate. Trade structure import-dominated with India supplying
+        80%+ of imports.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 45.98
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Trade growing at 46%. Nepal economy growing. Imports from India
+        and China growing. Remittances at $6 billion+ financing trade deficit.
+        China trade corridor being developed.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 46.67
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade at 46.67%. Earthquake significantly disrupted supply chains
+        in April-May 2015. India blockade from September 2015 caused acute
+        fuel and goods shortage. Annual figure masks severe H2 disruptions.
+        Reconstruction imports boosted trade figures.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Earthquake supply disruptions; India blockade H2 2015; reconstruction imports"
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 42.12
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade at 42.12%. Post-blockade normalization. India blockade ended
+        early 2016. Trade recovering. Reconstruction imports declining as
+        immediate post-earthquake needs met.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Post-India blockade recovery"
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 44.64
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Trade growing at 44.64%. Economic recovery continuing. Federal elections.
+        China trade growing slightly. India dominant. Import-led economy with
+        remittance income financing trade deficit.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 48.45
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Trade at 48.45%. Growing imports of vehicles, electronics. Remittances
+        over $8 billion. Trade deficit widening. Nepal's economy growing but
+        import-dependent structure unchanged. India trade 65%+ of total.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 49.25
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Trade near 50% of GDP. Growing import economy. Nepal preparing for
+        Visit Nepal Year 2020 (tourism). Trade deficit significant.
+        Remittances and tourism key foreign exchange earners. India trade dominant.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 40.92
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade declined to 40.92% with COVID-19 lockdowns. Tourism service
+        exports collapsed. Import reduction from lockdowns. Trade recovery
+        expected with vaccine rollout.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "COVID-19 trade decline; tourism collapse"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 43.05
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Trade recovering at 43%. Post-COVID reopening. Imports recovering.
+        Tourism still limited. Political crisis — parliamentary dissolution and
+        restoration. Economy recovering despite political turbulence.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 48.97
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade recovering to 49%. Post-COVID import surge. Russia-Ukraine war
+        increased fuel import costs. Nepal's trade deficit widening significantly.
+        Foreign exchange reserves under pressure. Elections November 2022.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Post-COVID import surge; FX reserve pressure"
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 41.57
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Trade declining to 41.57%. Import restrictions imposed by Nepal
+        government to protect FX reserves (luxury goods). NRB tightening.
+        Trade deficit narrowing. FX reserves recovering.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Import restrictions for FX reserve protection"
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 40.53
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, NE.TRD.GNFS.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Trade at 40.53%. Import restrictions eased somewhat with FX recovery.
+        Nepal maintaining moderate trade openness. India-Nepal trade treaty
+        dominant framework. Oli returned as PM. Economy stable.
+      features:
+        - moderate_40_70pct
+      sources:
+        - citation: "World Bank WDI"
+          url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=NP"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes: null
   2025:
     data_status: missing
@@ -481,4 +830,4 @@ years:
       features: []
       sources: []
       confidence: null
-      notes: null
+      notes: "2025 data not yet available"

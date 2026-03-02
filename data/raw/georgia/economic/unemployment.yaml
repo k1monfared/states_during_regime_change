@@ -2,499 +2,667 @@ indicator: unemployment
 country: georgia
 dimension: economic
 years:
+  1988:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: percent_labor_force
+      source:
+        citation: World Bank WDI — Soviet era; no market unemployment data
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Soviet economy. Official unemployment zero. Underemployment concealed.
+      features:
+      - elevated_10_15pct
+      sources: []
+      confidence: low
+      notes: Soviet era; no market unemployment
+  1989:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: percent_labor_force
+      source:
+        citation: Not applicable
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Soviet era. Late Soviet. Official unemployment near-zero.
+      features:
+      - elevated_10_15pct
+      sources: []
+      confidence: low
+      notes: Soviet era
+  1990:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: percent_labor_force
+      source:
+        citation: Not applicable
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Soviet collapse. Mass unemployment beginning but unrecorded.
+      features:
+      - elevated_10_15pct
+      sources: []
+      confidence: low
+      notes: Soviet collapse; unrecorded unemployment
+  1991:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: percent_labor_force
+      source:
+        citation: Not applicable
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Independence. Massive hidden unemployment as state enterprises collapsed.
+      features:
+      - elevated_10_15pct
+      sources: []
+      confidence: low
+      notes: Enterprise collapse; mass unemployment unrecorded
+  1992:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: percent_labor_force
+      source:
+        citation: Not applicable
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Civil war. Economy collapsed. Most workers lost formal employment. No data.
+      features:
+      - elevated_10_15pct
+      sources: []
+      confidence: low
+      notes: Civil war; economy collapsed
+  1993:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: percent_labor_force
+      source:
+        citation: Not applicable
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Economy destroyed. Abkhazia lost. Mass unemployment. No formal labor market data.
+      features:
+      - elevated_10_15pct
+      sources: []
+      confidence: low
+      notes: Economy destroyed; no data
+  1994:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: percent_labor_force
+      source:
+        citation: World Bank WDI — Georgian LFS began later
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Transition economy. Formal unemployment statistics not yet reliable. Estimated very high de facto unemployment
+        ~40%+ but no formal LFS.
+      features:
+      - elevated_10_15pct
+      sources: []
+      confidence: low
+      notes: LFS not established; estimated ~40%+
   1995:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 5.9
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 1995; official registered unemployment (very low due to weak LFS)
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official registered unemployment ~5.9% — severely understated. Actual de facto unemployment/underemployment
+        estimated at 30-40%. Many in subsistence agriculture or informal sector. Georgian LFS developing.
+      features:
+      - moderate_5_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Official 5.9% — greatly understated; actual ~30-40% inc. informal/subsistence
   1996:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 8.3
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 1996
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 8.3%. Still understated. Recovery beginning but formal employment slow to recover.
+      features:
+      - moderate_5_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Official 8.3%; understated; actual higher
   1997:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 10.8
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 1997
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 10.8%. Georgian statistical office improving LFS coverage. Still understated but improving methodology.
+        Shevardnadze era employment largely in agriculture/informal.
+      features:
+      - elevated_10_15pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 10.8%; improving LFS; informal still high'
   1998:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 11.4
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 1998
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 11.4%. Russian financial crisis impact. Formal employment declining.
+      features:
+      - elevated_10_15pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 11.4%; Russian crisis impact'
   1999:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 12.6
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 1999
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 12.6%. High official unemployment. Actual informal/subsistence much higher. Late Shevardnadze stagnation.
+      features:
+      - elevated_10_15pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 12.6%; high official; much higher actual'
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 10.3
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2000
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 10.3%. Slight improvement. BTC construction creating some jobs. Corruption endemic — public sector
+        jobs clientelistic.
+      features:
+      - elevated_10_15pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 10.3%; BTC construction jobs'
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 11.1
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2001
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 11.1%. High unemployment. Formal sector weak. Agriculture dominant.
+      features:
+      - elevated_10_15pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 11.1%; formal sector weak'
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 12.6
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2002
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 12.6%. Pre-Rose Revolution. High unemployment contributing to regime change pressure.
+      features:
+      - elevated_10_15pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 12.6%; high unemployment driving protests'
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 11.5
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2003
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 11.5%. Rose Revolution November 2003. Unemployment was key grievance against Shevardnadze.
+      features:
+      - elevated_10_15pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 11.5%; Rose Revolution; unemployment grievance'
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 12.6
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2004
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 12.6%. Post-revolution. Saakashvili reforms created formal sector growth but unemployment statistics
+        slow to improve. Major privatization increased private employment.
+      features:
+      - elevated_10_15pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 12.6%; formal sector growing from low base'
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 13.8
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2005
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 13.8%. Higher measured unemployment — improved LFS methodology capturing more unemployed. BTC opened.
+        Growth not translating to formal employment quickly.
+      features:
+      - elevated_10_15pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 13.8%; improved measurement; BTC opened'
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 13.6
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2006
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 13.6%. Stable. High growth but structural unemployment persistent. Russia trade dispute disrupted
+        some agricultural employment.
+      features:
+      - elevated_10_15pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 13.6%; structural unemployment; Russia dispute'
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 13.3
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2007
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 13.3%. Economic boom creating jobs but formal unemployment persistent. FDI creating service sector
+        employment.
+      features:
+      - elevated_10_15pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 13.3%; FDI creating jobs; structural still high'
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 16.5
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2008
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 16.5%. August 2008 Russia-Georgia War. Post-war FDI collapse. War disruption. IDPs from South Ossetia.
+        Employment sharply worsened.
+      features:
+      - high_15_25pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 16.5%; war; FDI collapse; IDPs'
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 16.9
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2009
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 16.9%. Post-war recession + global crisis. Unemployment peak. International aid helping but formal
+        employment slow.
+      features:
+      - high_15_25pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 16.9%; peak; post-war + global crisis'
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 21.3
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2010
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 21.3%. Major jump — census-based LFS revision. Improved methodology revealing true unemployment.
+        Structural unemployment confirmed very high.
+      features:
+      - high_15_25pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 21.3%; LFS revision (census); structural high; methodology change'
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 21.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2011
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 21.0%. Stable very high structural unemployment. Growth not translating to formal employment. Prison
+        scandal.
+      features:
+      - high_15_25pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 21.0%; structural; growth not translating to formal jobs'
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 15.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2012
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 15.0%. Georgian Dream won elections — partial improvement. LFS methodology adjustment. Growth creating
+        some formal jobs.
+      features:
+      - high_15_25pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 15.0%; Georgian Dream; methodology adjustment'
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 14.6
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2013
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 14.6%. Slight improvement. Georgian Dream consolidating. EU AA approach.
+      features:
+      - elevated_10_15pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 14.6%; slight improvement; EU AA'
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 12.4
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2014
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 12.4%. Improving. EU AA+DCFTA signed. Economic growth. Service sector expanding.
+      features:
+      - elevated_10_15pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 12.4%; improving; EU DCFTA'
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 12.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2015
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 12.0%. Improving. Lari depreciation hurt some importing businesses. Tourism growing.
+      features:
+      - elevated_10_15pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 12.0%; improving; tourism'
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 11.8
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2016
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 11.8%. Steady improvement. Tourism and service sector growing. EU DCFTA benefits.
+      features:
+      - elevated_10_15pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 11.8%; steady improvement'
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 11.6
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2017
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 11.6%. Steady improvement. EU visa-free travel. Tourism boom. Financial services growing.
+      features:
+      - elevated_10_15pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 11.6%; EU visa-free; tourism'
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 12.7
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2018
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 12.7%. Slight rise. LFS methodology change. Tourism and services strong.
+      features:
+      - elevated_10_15pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 12.7%; LFS methodology change; tourism strong'
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 11.6
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2019
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 11.6%. Tourism peak year. Strong service sector. Russia flight ban — some tourism disruption but
+        GDP strong.
+      features:
+      - elevated_10_15pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 11.6%; tourism peak; pre-COVID'
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 18.5
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2020
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: COVID spike. Official 18.5%. Tourism collapsed. Hospitality sector devastated. COVID lockdowns. Disputed
+        elections. Large unemployment surge.
+      features:
+      - high_15_25pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 18.5%; COVID; tourism collapse; disputed elections'
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 20.6
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2021
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 20.6%. High unemployment despite recovery — lag effects. Saakashvili returned and arrested. Structural
+        unemployment high.
+      features:
+      - high_15_25pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 20.6%; high despite recovery; structural'
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 17.3
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2022
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 17.3%. Russian emigre influx created service sector jobs. GDP boom. Unemployment declining from
+        COVID peak.
+      features:
+      - high_15_25pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 17.3%; declining; Russian emigre boom jobs'
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 16.4
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2023
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Official 16.4%. Continued improvement. Russian emigre boom. Tourism recovery. Foreign agents law protests.
+      features:
+      - high_15_25pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 16.4%; improving; protests'
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 15.5
       unit: percent_labor_force
       source:
-        citation: null
+        citation: Estimated — WB 2024 not yet available
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Estimated ~15.5%. Continued improvement trend. Disputed elections October 2024 — political uncertainty.
+        EU suspended accession. Economic uncertainty.
+      features:
+      - high_15_25pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Estimated; disputed elections; EU suspended; uncertainty
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
+        citation: Ongoing
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Protests continuing. Political crisis. Employment outlook uncertain.
+      features:
+      - elevated_10_15pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: 2025 partial; political crisis

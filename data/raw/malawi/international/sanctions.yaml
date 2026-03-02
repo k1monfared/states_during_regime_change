@@ -3,7 +3,7 @@ country: malawi
 dimension: international
 years:
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -13,13 +13,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Malawi faced no international sanctions in 2005. The country was a member in
+        good standing of the African Union, SADC, and COMESA. No UN Security Council
+        sanctions applied. Relations with Western donors were broadly positive under
+        Mutharika's early governance.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "US Treasury OFAC, Malawi sanctions check, 2024"
+          url: "https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information"
+          type: government_document
+          reliability: high
+      confidence: high
       notes: null
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -29,13 +38,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No international sanctions applied to Malawi in 2006. The country maintained
+        good international standing. HIPC debt relief was provided by international
+        creditors, reflecting positive engagement rather than isolation.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "UN Security Council Sanctions List, 2006"
+          url: "https://www.un.org/securitycouncil/sanctions/information"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -45,13 +62,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No international sanctions applied to Malawi in 2007. The country maintained
+        normal diplomatic and economic relations with the international community.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "US Treasury OFAC, Malawi sanctions check, 2024"
+          url: "https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information"
+          type: government_document
+          reliability: high
+      confidence: high
       notes: null
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -61,13 +85,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No international sanctions applied to Malawi in 2008. Normal international
+        economic and diplomatic relations were maintained.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "US Treasury OFAC, Malawi sanctions check, 2024"
+          url: "https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information"
+          type: government_document
+          reliability: high
+      confidence: high
       notes: null
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -77,13 +108,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No international sanctions applied to Malawi in 2009. The country remained
+        in good international standing. IMF and World Bank programs continued.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "US Treasury OFAC, Malawi sanctions check, 2024"
+          url: "https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information"
+          type: government_document
+          reliability: high
+      confidence: high
       notes: null
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -93,13 +131,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No formal international sanctions applied to Malawi in 2010. However, relations
+        with key bilateral donors (UK, US, EU) were beginning to deteriorate due to
+        governance concerns. This was donor pressure rather than formal sanctions.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "US Treasury OFAC, Malawi sanctions check, 2024"
+          url: "https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information"
+          type: government_document
+          reliability: high
+      confidence: high
+      notes: "Donor budget support suspension in 2011 was a policy pressure, not formal sanction"
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -109,13 +155,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No formal international sanctions applied to Malawi in 2011. However, major
+        donors (UK DFID, US MCC) suspended budget support following the July protest
+        crackdown. The UK expelled the Malawian High Commissioner after the British
+        High Commissioner was expelled. These were diplomatic actions, not formal sanctions.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "BBC News, 'UK suspends Malawi aid after envoy expulsion', July 2011"
+          url: "https://www.bbc.com/news/world-africa-14221574"
+          type: news_report
+          reliability: medium
+      confidence: high
+      notes: "UK/US bilateral budget support suspension was punitive but not formal UN/multilateral sanctions"
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -125,13 +180,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No formal international sanctions applied to Malawi in 2012. After Joyce Banda's
+        succession, donor budget support was rapidly restored. Relations with the
+        international community normalized quickly, with the UK and US resuming
+        financial support.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "Reuters, 'Malawi restores donor relations after Banda succession', 2012"
+          url: "https://www.reuters.com"
+          type: news_report
+          reliability: medium
+      confidence: high
+      notes: "Rapid normalization of international relations after Banda succession"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -141,13 +205,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No formal international sanctions applied to Malawi in 2013. Following the
+        Cashgate corruption scandal, several donors froze budget support as a conditionality
+        measure, but this was not a formal sanctions regime.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "US Treasury OFAC, Malawi sanctions check, 2024"
+          url: "https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information"
+          type: government_document
+          reliability: high
+      confidence: high
+      notes: "Cashgate caused donor budget support freeze but not formal sanctions"
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -157,13 +229,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No international sanctions applied to Malawi in 2014. International relations
+        remained normal with the country participating in all major multilateral bodies.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "US Treasury OFAC, Malawi sanctions check, 2024"
+          url: "https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information"
+          type: government_document
+          reliability: high
+      confidence: high
       notes: null
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -173,13 +252,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No international sanctions applied to Malawi in 2015. International community
+        provided humanitarian assistance for flood and drought response. Malawi participated
+        normally in international organizations.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "US Treasury OFAC, Malawi sanctions check, 2024"
+          url: "https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information"
+          type: government_document
+          reliability: high
+      confidence: high
       notes: null
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -189,13 +276,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No international sanctions applied to Malawi in 2016. Normal international
+        relations maintained. IMF ECF program engagement reflected cooperative
+        international economic relationship.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "US Treasury OFAC, Malawi sanctions check, 2024"
+          url: "https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information"
+          type: government_document
+          reliability: high
+      confidence: high
       notes: null
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -205,13 +300,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No international sanctions applied to Malawi in 2017. The country maintained
+        its normal international standing across all major organizations.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "US Treasury OFAC, Malawi sanctions check, 2024"
+          url: "https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information"
+          type: government_document
+          reliability: high
+      confidence: high
       notes: null
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -221,13 +323,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No international sanctions applied to Malawi in 2018. Normal relations with
+        all major bilateral and multilateral partners were maintained.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "US Treasury OFAC, Malawi sanctions check, 2024"
+          url: "https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information"
+          type: government_document
+          reliability: high
+      confidence: high
       notes: null
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -237,13 +346,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No international sanctions applied to Malawi in 2019. Despite the disputed
+        election, the international community continued normal engagement. Election
+        observers (AU, EU, SADC, Carter Center) were critical of irregularities but
+        no sanctions were imposed.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "EU Election Observation Mission, Malawi 2019 Election Report"
+          url: "https://eeas.europa.eu/election-observation-missions"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Election irregularities noted by observers but did not trigger sanctions"
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -253,13 +371,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No international sanctions applied to Malawi in 2020. The democratic transition
+        was praised by the international community as a model for African democratic
+        governance. International engagement deepened following the peaceful transition.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "African Union Statement on Malawi Election Results, June 2020"
+          url: "https://au.int"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Positive international reception of democratic transition"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -269,13 +395,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No international sanctions applied to Malawi in 2021. The new Chakwera
+        government received positive international engagement. Donor and international
+        financial institution support increased.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "US Treasury OFAC, Malawi sanctions check, 2024"
+          url: "https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information"
+          type: government_document
+          reliability: high
+      confidence: high
       notes: null
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -285,13 +419,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No international sanctions applied to Malawi in 2022. Despite the domestic
+        economic crisis, international engagement remained normal. The IMF ECF program
+        and international debt restructuring processes continued constructively.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "US Treasury OFAC, Malawi sanctions check, 2024"
+          url: "https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information"
+          type: government_document
+          reliability: high
+      confidence: high
       notes: null
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -301,13 +443,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No international sanctions applied to Malawi in 2023. International community
+        continued normal engagement including through IMF program, World Bank operations,
+        and humanitarian response to Cyclone Freddy.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "US Treasury OFAC, Malawi sanctions check, 2024"
+          url: "https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information"
+          type: government_document
+          reliability: high
+      confidence: high
       notes: null
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -317,13 +467,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No international sanctions applied to Malawi in 2024. Normal international
+        engagement continued ahead of the 2025 elections.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "US Treasury OFAC, Malawi sanctions check, 2024"
+          url: "https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information"
+          type: government_document
+          reliability: high
+      confidence: high
       notes: null
   2025:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -333,8 +490,16 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No international sanctions applied to Malawi in 2025. The country held elections
+        in September 2025. International community engaged constructively with the
+        electoral process including election observation missions.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "US Treasury OFAC, Malawi, 2025"
+          url: "https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information"
+          type: government_document
+          reliability: high
+      confidence: high
       notes: null

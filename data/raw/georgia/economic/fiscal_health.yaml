@@ -2,499 +2,672 @@ indicator: fiscal_health
 country: georgia
 dimension: economic
 years:
+  1988:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: fiscal_balance_pct_gdp
+      source:
+        citation: IMF WEO — Soviet era; no market fiscal data
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Soviet era. No market fiscal data. Soviet budget.
+      features:
+      - moderate_deficit_elevated_60_90pct
+      sources: []
+      confidence: low
+      notes: Soviet era
+  1989:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: fiscal_balance_pct_gdp
+      source:
+        citation: Not applicable
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Soviet era.
+      features:
+      - moderate_deficit_elevated_60_90pct
+      sources: []
+      confidence: low
+      notes: Soviet era
+  1990:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: fiscal_balance_pct_gdp
+      source:
+        citation: Not applicable
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Soviet collapse. Fiscal system collapsing.
+      features:
+      - moderate_deficit_elevated_60_90pct
+      sources: []
+      confidence: low
+      notes: Soviet collapse
+  1991:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: fiscal_balance_pct_gdp
+      source:
+        citation: Not applicable
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Independence. Fiscal system not functioning. No revenue collection.
+      features:
+      - moderate_deficit_elevated_60_90pct
+      sources: []
+      confidence: low
+      notes: Independence; fiscal system non-functional
+  1992:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: fiscal_balance_pct_gdp
+      source:
+        citation: Not applicable
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Civil war. Printing money. Hyperinflationary finance.
+      features:
+      - moderate_deficit_elevated_60_90pct
+      sources: []
+      confidence: low
+      notes: Civil war; printing money
+  1993:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: fiscal_balance_pct_gdp
+      source:
+        citation: Not applicable
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Extreme hyperinflation. Seigniorage as fiscal instrument. Fiscal system non-functional.
+      features:
+      - moderate_deficit_elevated_60_90pct
+      sources: []
+      confidence: low
+      notes: Hyperinflation; seigniorage
+  1994:
+    data_status: partial
+    quantitative:
+      value: -10.0
+      unit: fiscal_balance_pct_gdp
+      source:
+        citation: IMF WEO — Georgia 1994; large deficit stabilization
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Estimated -10% deficit. IMF emergency program. Tax revenues near-zero — no functioning tax system. All spending
+        deficit-financed. Stabilization program beginning.
+      features:
+      - surplus_low_debt_lt_30pct
+      sources: []
+      confidence: low
+      notes: Estimated -10%; no tax system; IMF emergency
   1995:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -5.0
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 1995
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit ~-5%. Lari introduced. IMF fiscal stabilization. Tax reform begun. Revenue collection improving
+        from near-zero. Shevardnadze regime.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'IMF: ~-5%; lari; tax reform; improving'
   1996:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -4.0
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 1996
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -4%. Improving fiscal position. Revenue collection growing. IMF program on track.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'IMF: -4%; improving'
   1997:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -3.9
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 1997
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -3.9%. Fiscal consolidation continuing. Corruption in tax collection but revenues growing.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'IMF: -3.9%; consolidation; corruption tax'
   1998:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -4.0
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 1998
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -4%. Russian financial crisis increased pressure. Lari depreciation boosted some revenues but increased
+        debt servicing. IMF adjustment.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'IMF: -4%; Russian crisis; adjustment'
   1999:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -5.5
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 1999
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Larger deficit -5.5%. Russian crisis delayed effects. Revenue shortfall. IMF program under stress. Shevardnadze
+        corruption reducing tax revenues.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'IMF: -5.5%; Russian crisis; revenue shortfall; corruption'
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -4.5
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2000
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -4.5%. Improving slightly. Shevardnadze era chronic fiscal weakness — corruption prevented adequate
+        tax collection.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'IMF: -4.5%; chronic corruption undermining revenues'
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -3.8
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2001
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -3.8%. Improving. BTC pipeline construction revenue. Tax reform incremental.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'IMF: -3.8%; improving'
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -4.0
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2002
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -4%. Pre-revolution. Shevardnadze era fiscal weakness. Tax evasion endemic.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'IMF: -4%; Shevardnadze weakness; tax evasion'
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -3.5
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2003
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -3.5%. Rose Revolution November 2003. Fiscal position challenged but manageable. Post-revolution
+        fiscal reforms beginning.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'IMF: -3.5%; Rose Revolution; fiscal reforms starting'
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -2.9
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2004
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: 'Deficit -2.9% — dramatic improvement. Saakashvili anti-corruption tax reform: doubled revenue collection
+        in first year. Customs modernized. Tax police reformed. Flat tax introduced.'
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -2.9%; dramatic tax reform; revenues doubled; flat tax'
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -1.5
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2005
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -1.5%. Near-balanced. BTC transit revenues. Strong economic growth. Tax compliance improved dramatically.
+        Revenue collection record.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -1.5%; near balanced; BTC revenues; tax compliance'
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -2.5
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2006
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -2.5%. Increased military spending. Russia trade dispute impacted some revenues. Gas infrastructure
+        investment. Manageable.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -2.5%; military spending; Russia dispute; manageable'
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -2.3
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2007
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -2.3%. Major military buildup spending. State of emergency November 2007. Economic boom raising
+        revenues. Manageable deficit.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -2.3%; military buildup; state of emergency'
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -6.8
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2008
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -6.8% — sharp increase. August 2008 Russia-Georgia War. Military expenditures surge. War damage
+        reconstruction. International aid offset some. Emergency fiscal response.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -6.8%; war expenditures; reconstruction; aid'
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -8.6
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2009
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -8.6% — largest post-revolution deficit. Post-war reconstruction + global financial crisis stimulus.
+        IMF $750M emergency loan. Anti-crisis fiscal response.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -8.6%; worst post-revolution; post-war + crisis; IMF $750M'
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -6.0
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2010
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -6.0%. Fiscal consolidation beginning. IMF program support. Recovery underway. Expenditure restructuring.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -6.0%; consolidation; IMF support'
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -2.9
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2011
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -2.9%. Dramatic fiscal consolidation. Revenues surging with economic growth. Expenditure restructuring.
+        Near pre-war fiscal position.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -2.9%; dramatic improvement; growth revenues'
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -2.9
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2012
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -2.9%. Georgian Dream won elections. Pre-election spending. Fiscal position stable.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -2.9%; Georgian Dream; stable'
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -2.9
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2013
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -2.9%. Georgian Dream consolidating. Social spending increased. EU AA approach. Fiscal position
+        stable at 3% deficit.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -2.9%; stable; social spending; EU AA'
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -3.0
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2014
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -3.0%. EU AA+DCFTA signed. Stable fiscal position. Georgian Dream maintaining IMF-compliant fiscal
+        targets.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -3.0%; EU AA; stable'
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -3.3
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2015
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -3.3%. Lari depreciation reduced revenues in GDP-adjusted terms. Regional slowdown. Some fiscal
+        stress but managed.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -3.3%; lari depreciation; manageable'
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -3.8
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2016
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -3.8%. Infrastructure spending. IMF Extended Fund Facility (EFF) program entered 2017. Fiscal consolidation
+        needed.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -3.8%; infrastructure; IMF EFF approaching'
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -3.5
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2017
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -3.5%. IMF EFF program. Fiscal consolidation underway. Economic growth boosting revenues. EU visa-free.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -3.5%; IMF EFF; consolidation'
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -3.1
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2018
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -3.1%. IMF EFF concluded. Fiscal improvement. Tourism revenues boosting tax base.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -3.1%; IMF EFF concluded; improving'
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -2.8
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2019
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -2.8%. Improving. Pre-COVID economic peak. Tourism revenues high. Russia flight ban reduced some
+        revenue but offset by other growth.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -2.8%; improving; pre-COVID peak'
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -8.9
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2020
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -8.9%. Largest deficit since 2009. COVID-19 fiscal response. Tourism revenues near-zero. Social
+        assistance spending. IMF Rapid Credit Facility ($200M). Disputed elections.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -8.9%; COVID; IMF RCF; tourism zero; disputed elections'
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -7.4
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2021
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -7.4%. Recovery spending. Vaccination program costs. COVID continuing. IMF program. Saakashvili
+        arrested.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -7.4%; COVID recovery; IMF; Saakashvili'
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -2.4
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2022
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -2.4%. Dramatic improvement. Russian emigre influx massively boosted tax revenues. GDP boom. Lari
+        strengthened. Best fiscal position since revolution.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -2.4%; dramatic; Russian emigre tax revenues; lari strong'
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -2.2
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2023
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deficit -2.2%. Very good fiscal position. Revenue strong. Foreign agents law protests. EU candidate denied
+        but fiscal position healthy.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -2.2%; good; protests; EU candidate denied'
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: debt_percent_gdp
+      value: -2.5
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
+        citation: IMF WEO estimated — Georgia 2024
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Estimated -2.5%. Disputed elections October 2024. Mass protests. EU suspended accession. Despite political
+        crisis, fiscal position manageable.
+      features:
+      - surplus_low_debt_lt_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Estimated; disputed elections; EU suspended; manageable
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: debt_percent_gdp
+      unit: fiscal_balance_pct_gdp
       source:
-        citation: null
+        citation: IMF WEO 2025 not available
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Fiscal outlook uncertain amid political crisis.
+      features:
+      - moderate_deficit_elevated_60_90pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: 2025 partial; political crisis

@@ -3,7 +3,7 @@ country: myanmar
 dimension: international
 years:
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -13,13 +13,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Myanmar maintained ASEAN membership but faced significant Western isolation.
+        US and EU had limited formal relations beyond sanctions monitoring. China,
+        India, and ASEAN partners maintained normal relations. UN had Special Rapporteur
+        on Myanmar. Significant isolation from Western bloc while integrated with
+        Asian neighbors.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "ASEAN Myanmar membership documentation"
+          url: "https://asean.org/"
+          type: international_organization
+          reliability: high
+        - citation: "Freedom House Freedom in the World 2005"
+          url: "https://freedomhouse.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "ASEAN member; Western diplomatic isolation; China/India engagement"
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -29,13 +43,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Significant Western diplomatic isolation continued. Myanmar blocked from ASEAN
+        chairmanship in 2006 due to international pressure. ASEAN partners critical of
+        junta's handling of political situation. China and India maintained strong ties.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "Reuters reports on Myanmar ASEAN chairmanship"
+          url: "https://reuters.com"
+          type: news_report
+          reliability: medium
+      confidence: high
+      notes: "Myanmar surrendered 2006 ASEAN chairmanship under pressure"
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -45,13 +67,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Saffron Revolution crackdown deepened diplomatic isolation from West. US
+        and EU recalled ambassadors for consultations. UN Secretary-General sent
+        envoy. China blocked UN Security Council action. Myanmar approaching pariah
+        status with Western nations.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "UN Security Council discussions on Myanmar 2007"
+          url: "https://www.un.org/en/sc/"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Post-Saffron Revolution; Western ambassadors recalled"
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -61,13 +92,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Significant isolation continued. Cyclone Nargis relief effort created some
+        limited diplomatic engagement as junta was forced to accept some international
+        assistance. Normal ASEAN relations maintained. Western isolation continued.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "ICG Myanmar reports"
+          url: "https://www.crisisgroup.org/asia/south-east-asia/myanmar"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Cyclone Nargis opened limited diplomatic window"
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -77,13 +116,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Obama administration signaled openness to engagement while maintaining sanctions.
+        Some diplomatic dialogue resumed. Significant isolation continued with Western
+        nations but Asian engagement normal.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "US State Department Myanmar relations"
+          url: "https://www.state.gov/countries-areas/burma/"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Obama engagement signals; isolation continuing"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -93,13 +140,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Diplomatic isolation continued with Western nations. ASEAN engagement normal.
+        Elections did not change Western diplomatic stance. ASSK released improved
+        diplomatic climate marginally.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "US State Department Myanmar"
+          url: "https://www.state.gov/countries-areas/burma/"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -109,13 +164,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Major diplomatic opening. Thein Sein's reforms attracted Western diplomatic
+        engagement. Secretary Clinton visited in December 2011. US and EU began easing
+        isolation. Myanmar moved rapidly from significant isolation toward partial integration.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "US Secretary Clinton visit to Myanmar, December 2011"
+          url: "https://www.state.gov/countries-areas/burma/"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Clinton visit; major diplomatic opening; rapid normalization began"
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -125,13 +188,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Rapid diplomatic normalization. US restored full diplomatic relations, nominated
+        ambassador. EU, Australia, Japan all expanded diplomatic engagement. Myanmar
+        integrated into international community rapidly. President Obama visited November 2012.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "US State Department Myanmar relations"
+          url: "https://www.state.gov/countries-areas/burma/"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Obama visit Nov 2012; rapid normalization; full ambassadors restored"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -141,13 +212,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Myanmar broadly diplomatically integrated. Full Western diplomatic relations
+        restored. Myanmar chairmanship of ASEAN (2014). Active participation in
+        international forums. Some residual concerns about Rohingya reducing full
+        integration.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "ASEAN Myanmar chairmanship 2014"
+          url: "https://asean.org/"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Myanmar chaired ASEAN in 2014; full diplomatic integration achieved"
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -157,13 +237,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Myanmar chaired ASEAN. Full diplomatic relations with all major powers.
+        Obama visited again. Active participant in international forums. Rohingya
+        situation causing some friction but not isolation.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "ASEAN Myanmar chairmanship"
+          url: "https://asean.org/"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "ASEAN chair year; peak diplomatic integration"
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -173,13 +261,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Full diplomatic integration. NLD election victory celebrated internationally.
+        Myanmar widely praised for successful democratic transition. Active member of
+        ASEAN, UN, and international forums. Full bilateral relations with all major powers.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "International reaction to Myanmar elections 2015"
+          url: "https://www.reuters.com"
+          type: news_report
+          reliability: medium
+      confidence: high
+      notes: "Peak diplomatic integration; election widely praised"
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -189,13 +285,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Full diplomatic integration continued under NLD. Aung San Suu Kyi as State
+        Counsellor active internationally. ARSA attacks in Rakhine began to erode some
+        diplomatic goodwill but overall integration remained full.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "US State Department Myanmar relations"
+          url: "https://www.state.gov/countries-areas/burma/"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -205,13 +309,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Rohingya crisis caused major diplomatic deterioration. ASSK faced international
+        condemnation but remained in power. US, EU, and international organizations
+        strongly critical. Myanmar partially isolated over Rohingya but maintained ASEAN
+        relations and China support. ICJ proceedings began.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "UN Special Rapporteur on Myanmar 2017"
+          url: "https://www.ohchr.org/en/countries/asiaregion/myanmar"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Rohingya crisis; partial Western isolation; ASEAN/China normal"
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -221,13 +334,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued partial isolation. Myanmar government (including ASSK) condemned by
+        UN Fact-Finding Mission. Some Western ambassadors reduced contact. ASSK's
+        honorary citizenship revoked by several countries. China and ASEAN maintained
+        normal relations.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "UN Fact-Finding Mission on Myanmar 2018"
+          url: "https://www.ohchr.org/en/hr-bodies/hrc/myanmar-ffm/index"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "UN Fact-Finding Mission report; growing isolation over Rohingya"
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -237,13 +359,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Partial diplomatic isolation continuing. ICJ genocide proceedings began
+        (The Gambia v Myanmar). ASSK defended Myanmar at ICJ. Western relationships
+        strained. China and Russia support at UN. ASEAN maintained normal relations.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "ICJ The Gambia v Myanmar proceedings"
+          url: "https://www.icj-cij.org/case/178"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "ICJ genocide proceedings"
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -253,13 +383,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Partial isolation continuing over Rohingya. Western relations strained but not
+        broken. NLD election attracted international attention. Pre-coup diplomatic
+        situation strained but functional.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "US State Department Myanmar relations"
+          url: "https://www.state.gov/countries-areas/burma/"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Pre-coup; strained Western relations but maintained"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -269,13 +407,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Coup triggered massive diplomatic isolation from West. US, UK, EU, Canada
+        condemned coup and refused to recognize SAC junta. Ambassadors withdrawn or
+        reduced to lower level. Western governments suspended assistance. ASEAN
+        imposed its own "Five-Point Consensus" which junta largely ignored. China
+        and Russia blocked UN action. Myanmar approaching pariah status.
+      features:
+        - pariah_status
+      sources:
+        - citation: "UN General Assembly Resolution on Myanmar 2021"
+          url: "https://www.un.org/en/ga/"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Post-coup pariah status with Western world; China/Russia blocking UN action"
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -285,13 +433,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Western diplomatic isolation near-complete for junta. Junta not recognized by
+        US, EU, UK and most Western nations. ASEAN suspended Myanmar from political
+        meetings. NUG recognized by some international actors. China and Russia maintain
+        relations with junta.
+      features:
+        - pariah_status
+      sources:
+        - citation: "ASEAN suspension of Myanmar political participation"
+          url: "https://asean.org/"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Junta not recognized by West; ASEAN suspended political engagement"
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -301,13 +458,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Continuing diplomatic isolation for junta from Western bloc. China maintains
+        relations. ASEAN diplomatic engagement suspended. NUG gaining more recognition
+        from some Western parliaments and cities. Junta's international legitimacy eroding.
+      features:
+        - pariah_status
+      sources:
+        - citation: "ICG Myanmar reports 2023"
+          url: "https://www.crisisgroup.org/asia/south-east-asia/myanmar"
+          type: think_tank_report
+          reliability: high
+      confidence: high
       notes: null
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -317,13 +482,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Junta remains diplomatically isolated from Western world. As resistance forces
+        capture more territory, junta's international standing continues to erode.
+        China still engaging. ASEAN continuing suspension of junta's political participation.
+      features:
+        - pariah_status
+      sources:
+        - citation: "ICG Myanmar reports 2024"
+          url: "https://www.crisisgroup.org/asia/south-east-asia/myanmar"
+          type: think_tank_report
+          reliability: high
+      confidence: high
       notes: null
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -333,8 +506,15 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continuing diplomatic isolation. Junta's pariah status with Western nations
+        maintained. Civil war ongoing. No prospect of diplomatic normalization.
+      features:
+        - pariah_status
+      sources:
+        - citation: "ICG Myanmar ongoing reports"
+          url: "https://www.crisisgroup.org/asia/south-east-asia/myanmar"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "Status as of early 2026"

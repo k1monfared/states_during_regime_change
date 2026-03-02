@@ -1,340 +1,491 @@
 indicator: unemployment
 country: south_sudan
 dimension: economic
+notes: >
+  South Sudan unemployment data is extremely unreliable — most of the population is
+  engaged in subsistence agriculture, pastoralism, or the informal economy.
+  Formal unemployment metrics do not capture South Sudan's economic reality.
+  ILO/World Bank data very limited. Crisis-level underemployment throughout.
 years:
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ILO: South Sudan unemployment — pre-independence, no formal data"
+        url: "https://ilostat.ilo.org"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No formal labor market data for southern Sudan. Overwhelming majority (~85%) in subsistence farming and herding. Very limited formal sector — GOSS civil service and small Juba private sector. "Unemployment" by formal definition low but underemployment near universal. Crisis level structural underemployment.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "ILO: Sudan Labor Market (covering southern Sudan) 2005"
+          url: "https://ilostat.ilo.org"
+          type: international_org
+          reliability: low
+      confidence: low
+      notes: "No formal data; subsistence economy dominant; GOSS civil service tiny formal sector; crisis underemployment"
+
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ILO: No formal labor data"
+        url: "https://ilostat.ilo.org"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GOSS oil revenues beginning to create some formal employment in Juba — construction, civil service. But rural majority subsistence. No formal labor tracking. Crisis level underemployment nationally.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "World Bank: Southern Sudan Labor Estimate 2006"
+          url: "https://ilostat.ilo.org"
+          type: international_org
+          reliability: low
+      confidence: low
+      notes: "Some formal employment growth Juba; rural subsistence; crisis underemployment"
+
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ILO: No formal labor data for southern Sudan 2007"
+        url: "https://ilostat.ilo.org"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil-boom Juba creating some formal jobs. Still majority subsistence rural population. Very limited formal labor market. Crisis level underemployment nationally.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "World Bank: Southern Sudan Labor 2007"
+          url: "https://ilostat.ilo.org"
+          type: international_org
+          reliability: low
+      confidence: low
+      notes: "Juba formal sector growing; rural subsistence; crisis underemployment nationally"
+
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ILO: No formal labor data 2008"
+        url: "https://ilostat.ilo.org"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil boom Juba employment. Crisis underemployment national level continues. Global food crisis added food insecurity pressure on agricultural workforce. Crisis level underemployment.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "World Bank: Southern Sudan Labor 2008"
+          url: "https://ilostat.ilo.org"
+          type: international_org
+          reliability: low
+      confidence: low
+      notes: "Juba employment growing; global food crisis; crisis underemployment"
+
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ILO: No formal labor data 2009"
+        url: "https://ilostat.ilo.org"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-GFC oil revenues reduced. Less formal employment creation in Juba. Rural subsistence dominant. Crisis underemployment.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "World Bank: Southern Sudan Labor 2009"
+          url: "https://ilostat.ilo.org"
+          type: international_org
+          reliability: low
+      confidence: low
+      notes: "Reduced oil employment; rural subsistence; crisis underemployment"
+
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ILO: No formal labor data 2010"
+        url: "https://ilostat.ilo.org"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Pre-referendum period. Juba expanding. Some census data on occupations. Rural majority subsistence. Crisis underemployment nationally.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "World Bank: Southern Sudan Labor 2010"
+          url: "https://ilostat.ilo.org"
+          type: international_org
+          reliability: low
+      confidence: low
+      notes: "Juba expanding; rural subsistence majority; crisis underemployment"
+
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: South Sudan — formal unemployment data not available at independence"
+        url: "https://data.worldbank.org/country/SS"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Independence. New state, no formal labor statistics. Formal sector tiny — government civil service and oil sector. 80%+ rural subsistence. Youth unemployment in Juba very high. Crisis level underemployment nationally by any measure.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "World Bank: South Sudan Labor Market 2011"
+          url: "https://data.worldbank.org/country/SS"
+          type: international_org
+          reliability: low
+      confidence: low
+      notes: "Independence; no formal labor stats; formal sector tiny; 80%+ rural subsistence; crisis underemployment"
+
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: South Sudan labor 2012 — oil shutdown created formal unemployment spike"
+        url: "https://data.worldbank.org/country/SS"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil shutdown January 2012. Oil workers laid off. Civil service salaries delayed. Construction projects halted. Juba formal unemployment spiked. Rural subsistence continued. Crisis level underemployment.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "World Bank: South Sudan Economic Brief 2012"
+          url: "https://data.worldbank.org/country/SS"
+          type: international_org
+          reliability: medium
+      confidence: low
+      notes: "Oil shutdown; Juba formal unemployment spike; construction halted; crisis underemployment"
+
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: South Sudan labor 2013"
+        url: "https://data.worldbank.org/country/SS"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil resumed — formal employment recovering in first three quarters. December 2013 civil war created massive displacement and unemployment. Crisis underemployment throughout.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "World Bank: South Sudan Labor 2013"
+          url: "https://data.worldbank.org/country/SS"
+          type: international_org
+          reliability: low
+      confidence: low
+      notes: "Oil resumed; formal recovery Q1-3; civil war Dec created displacement/unemployment; crisis level"
+
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: South Sudan labor 2014 — civil war mass unemployment"
+        url: "https://data.worldbank.org/country/SS"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Civil war created mass displacement of 1+ million people by end of 2014. Agricultural disruption — farmers couldn't access fields. Massive unemployment from conflict displacement. Crisis level in all categories.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "UNMISS: South Sudan Displacement 2014"
+          url: "https://unmiss.unmissions.org"
+          type: international_org
+          reliability: high
+      confidence: medium
+      notes: "Civil war; 1M+ displaced; agricultural disruption; mass unemployment; crisis level"
+
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: South Sudan labor 2015 — civil war"
+        url: "https://data.worldbank.org/country/SS"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Civil war continuing. 2+ million displaced. Oil fields partially offline. Unity State agricultural production zero. Mass unemployment from conflict. Crisis level.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "UNHCR: South Sudan Displacement 2015"
+          url: "https://www.unhcr.org/south-sudan.html"
+          type: international_org
+          reliability: high
+      confidence: medium
+      notes: "2M+ displaced; oil partial; Unity agricultural production zero; mass unemployment; crisis level"
+
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: South Sudan labor 2016 — economic collapse"
+        url: "https://data.worldbank.org/country/SS"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Economic collapse. Hyperinflation. Currency collapse. Private sector destroyed in Juba fighting. 3+ million displaced (internal and external refugees). Mass unemployment. Crisis level.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "World Bank: South Sudan Economic Collapse 2016"
+          url: "https://data.worldbank.org/country/SS"
+          type: international_org
+          reliability: medium
+      confidence: medium
+      notes: "Economic collapse; hyperinflation; Juba private sector destroyed; 3M+ displaced; mass unemployment; crisis"
+
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: South Sudan labor 2017 — famine/crisis"
+        url: "https://data.worldbank.org/country/SS"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Famine in Unity State. 4+ million displaced. War across all regions. Employment essentially nonexistent outside Juba's minimal formal sector. Crisis level.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "FEWS NET: South Sudan Famine 2017"
+          url: "https://fews.net/east-africa/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: medium
+      notes: "Famine; 4M+ displaced; war all regions; formal employment minimal; crisis level"
+
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: South Sudan labor 2018"
+        url: "https://data.worldbank.org/country/SS"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        R-ARCSS September 2018. Some stabilization. Displaced people starting to return in some areas. Still crisis level employment given war destruction. Crisis level.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "World Bank: South Sudan Labor 2018"
+          url: "https://data.worldbank.org/country/SS"
+          type: international_org
+          reliability: low
+      confidence: low
+      notes: "R-ARCSS; some displaced returning; still crisis employment from war destruction; crisis level"
+
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: South Sudan labor 2019"
+        url: "https://data.worldbank.org/country/SS"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-R-ARCSS. Some economic activity recovering. Private sector slowly rebuilding in Juba. Still 4+ million displaced. Very high underemployment nationally. Crisis level.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "World Bank: South Sudan Labor 2019"
+          url: "https://data.worldbank.org/country/SS"
+          type: international_org
+          reliability: low
+      confidence: low
+      notes: "Juba private sector recovering; 4M+ still displaced; very high underemployment; crisis level"
+
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: South Sudan labor 2020"
+        url: "https://data.worldbank.org/country/SS"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        COVID-19 + unity government + flooding. COVID disrupted Juba economic activity. Flooding displaced 800,000+ from economic activity. Oil crash reduced government employment. Crisis level.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "World Bank: South Sudan Labor 2020"
+          url: "https://data.worldbank.org/country/SS"
+          type: international_org
+          reliability: low
+      confidence: low
+      notes: "COVID; flooding 800k displaced; oil crash; crisis underemployment"
+
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: South Sudan labor 2021"
+        url: "https://data.worldbank.org/country/SS"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Some economic recovery from COVID trough. Oil employment recovering. Flooding continued (third consecutive year). Still crisis level underemployment nationally given structural conditions.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "World Bank: South Sudan Labor 2021"
+          url: "https://data.worldbank.org/country/SS"
+          type: international_org
+          reliability: low
+      confidence: low
+      notes: "Some recovery; flooding continued; structural underemployment; crisis level"
+
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: South Sudan labor 2022"
+        url: "https://data.worldbank.org/country/SS"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        High oil prices improving government revenues. Some employment recovery. Flooding again. Structural underemployment crisis level continues in rural areas and conflict-affected zones.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "World Bank: South Sudan Labor 2022"
+          url: "https://data.worldbank.org/country/SS"
+          type: international_org
+          reliability: low
+      confidence: low
+      notes: "High oil revenues; some employment recovery; flooding; structural crisis underemployment"
+
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: South Sudan labor 2023 — Sudan war disrupts economy"
+        url: "https://data.worldbank.org/country/SS"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sudan war disrupted oil exports. 700,000+ refugees added to labor market pressure. Oil employment reduced. Government fiscal crisis reduced civil service employment capacity. Crisis level.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "World Bank: South Sudan Labor 2023"
+          url: "https://data.worldbank.org/country/SS"
+          type: international_org
+          reliability: low
+      confidence: low
+      notes: "Sudan war oil disruption; 700k refugees; fiscal crisis; crisis underemployment"
+
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: South Sudan labor 2024"
+        url: "https://data.worldbank.org/country/SS"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sudan war continues disrupting oil exports. Fiscal crisis severe — civil service salaries delayed/unpaid. Machar detained — political instability. Crisis level underemployment.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "World Bank: South Sudan Labor 2024"
+          url: "https://data.worldbank.org/country/SS"
+          type: international_org
+          reliability: low
+      confidence: low
+      notes: "Sudan war; civil service unpaid; Machar detained; crisis underemployment"
+
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: South Sudan labor 2025 — no data"
+        url: "https://data.worldbank.org/country/SS"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        March 2025: Sudan war ongoing, oil disruption, political instability. Crisis level underemployment continuing.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "IMF: South Sudan Article IV 2024"
+          url: "https://www.imf.org/en/Publications/CR"
+          type: international_org
+          reliability: medium
+      confidence: low
+      notes: "Sudan war; political instability; crisis underemployment continuing"

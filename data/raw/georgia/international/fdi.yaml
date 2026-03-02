@@ -2,499 +2,663 @@ indicator: fdi
 country: georgia
 dimension: international
 years:
+  1988:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: fdi_pct_gdp
+      source:
+        citation: World Bank WDI — Soviet era; no FDI data
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Soviet era. No foreign direct investment allowed.
+      features:
+      - minimal_lt_05pct_gdp
+      sources: []
+      confidence: low
+      notes: Soviet era; no FDI
+  1989:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: fdi_pct_gdp
+      source:
+        citation: Not applicable
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Soviet era.
+      features:
+      - minimal_lt_05pct_gdp
+      sources: []
+      confidence: low
+      notes: Soviet era
+  1990:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: fdi_pct_gdp
+      source:
+        citation: Not applicable
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Soviet collapse. FDI beginning conceptually but not measurable.
+      features:
+      - minimal_lt_05pct_gdp
+      sources: []
+      confidence: low
+      notes: Soviet collapse
+  1991:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: fdi_pct_gdp
+      source:
+        citation: Not applicable
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Independence. Civil war. No FDI possible.
+      features:
+      - minimal_lt_05pct_gdp
+      sources: []
+      confidence: low
+      notes: Independence; civil war; no FDI
+  1992:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: fdi_pct_gdp
+      source:
+        citation: Not applicable
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Civil war. Abkhazia. No FDI.
+      features:
+      - minimal_lt_05pct_gdp
+      sources: []
+      confidence: low
+      notes: Civil war; no FDI
+  1993:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: fdi_pct_gdp
+      source:
+        citation: Not applicable
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Abkhazia war. Economy destroyed. No FDI.
+      features:
+      - minimal_lt_05pct_gdp
+      sources: []
+      confidence: low
+      notes: Abkhazia war; no FDI
+  1994:
+    data_status: partial
+    quantitative:
+      value: 0.2
+      unit: fdi_pct_gdp
+      source:
+        citation: World Bank WDI — Georgia 1994; very small FDI beginning
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Minimal FDI ~0.2% of tiny GDP. First foreign investors beginning to explore. IMF program creating some investor
+        interest.
+      features:
+      - minimal_lt_05pct_gdp
+      sources: []
+      confidence: low
+      notes: Estimated ~0.2%; minimal; post-war
   1995:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 1.2
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 1995
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 1.2% of GDP. Beginning FDI inflows. Stabilization creating investor interest. Pipeline transit opportunities.
+        Lari introduced.
+      features:
+      - low_1_2pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 1.2%; beginning FDI; pipeline interest'
   1996:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 2.5
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 1996
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 2.5%. Growing. BTC pipeline agreements attracting oil companies. BP/Amoco leading BTC consortium.
+      features:
+      - moderate_2_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 2.5%; BTC/BP interest; growing'
   1997:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 4.6
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 1997
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 4.6%. BTC pipeline construction investments. Energy sector FDI. Hotels and retail beginning.
+      features:
+      - moderate_2_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 4.6%; BTC construction; energy FDI'
   1998:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 5.9
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 1998
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 5.9%. Peak pre-Russian crisis. Pipeline investments. Russian financial crisis dampened some FDI.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 5.9%; peak; Russian crisis dampened'
   1999:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 4.0
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 1999
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 4.0%. Recovery from Russian crisis. BTC pipeline still attracting. Shevardnadze corruption deterring
+        some FDI.
+      features:
+      - moderate_2_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 4.0%; moderate; corruption deterring'
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 3.8
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2000
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 3.8%. Shevardnadze era. Corruption reducing competitiveness. WTO joined. Some energy and telecom FDI.
+      features:
+      - moderate_2_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 3.8%; WTO; Shevardnadze corruption deterring'
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 3.6
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2001
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 3.6%. Modest level. Pre-revolution. Corruption deterring investment.
+      features:
+      - moderate_2_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 3.6%; pre-revolution'
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 3.3
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2002
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 3.3%. Declining slightly. Shevardnadze era stagnation. Governance concerns.
+      features:
+      - moderate_2_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 3.3%; declining; governance'
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 6.4
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2003
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 6.4% — jump. Rose Revolution November 2003 driving investor interest. BTC completing. Pre-revolution
+        investor optimism.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 6.4%; Rose Revolution; BTC completing; surge'
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 9.5
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2004
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 9.5% — major surge. Post-revolution anti-corruption reforms. International investor confidence. Saakashvili
+        government deregulation. Real estate, energy, banking.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 9.5%; major surge; post-revolution; deregulation'
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 11.7
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2005
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 11.7%. BTC pipeline opened — energy sector investment. High international confidence in Georgia's reforms.
+        Banking privatizations.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 11.7%; very high; BTC; banking'
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 15.2
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2006
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 15.2% — peak. Very high international investor interest. Heritage Foundation 'reformer of the year'.
+        Russia trade ban forcing diversification but FDI surging from non-Russian sources.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 15.2%; peak; Heritage Foundation; non-Russian FDI'
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 18.8
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2007
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 18.8% — record high. Economic boom peak. Real estate, banking, telecom, energy. State of emergency did
+        not stop FDI. Largest FDI share in post-Soviet space.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 18.8%; record; economic boom; state of emergency'
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 12.7
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2008
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 12.7%. August 2008 Russia-Georgia War caused FDI collapse in H2. Full-year still OK due to strong H1.
+        War plus global financial crisis dampened outlook.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 12.7%; war H2 collapse; still OK from H1'
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 6.1
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2009
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 6.1% — sharp decline. Post-war risk premium. Global financial crisis. Investors cautious. International
+        aid partially offset.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 6.1%; sharp decline; war risk; global crisis'
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 6.8
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2010
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 6.8%. Modest recovery. Georgia maintained open investment policies. IMF program confidence.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 6.8%; modest recovery'
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 6.5
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2011
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 6.5%. Stable. Economic growth. Prison scandal shocked some investors.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 6.5%; stable; prison scandal'
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 5.1
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2012
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 5.1%. Georgian Dream won elections — political transition uncertainty reduced FDI. First peaceful transfer
+        of power still created uncertainty.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 5.1%; Georgian Dream election uncertainty'
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 6.6
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2013
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 6.6%. Recovery. EU AA approaching. Georgian Dream maintained open investment policies. EITI compliant.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 6.6%; recovery; EU AA; EITI'
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 7.9
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2014
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 7.9%. EU AA+DCFTA signed. Growing investor interest in EU-aligned Georgia. China BRI investments beginning.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 7.9%; EU AA; China BRI; growing'
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 10.6
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2015
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 10.6%. High. DCFTA benefits. Anaklia deep sea port investment beginning. Energy and infrastructure FDI.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 10.6%; DCFTA; Anaklia port; energy'
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 9.2
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2016
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 9.2%. High. EU DCFTA. Tourism and real estate attracting FDI.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 9.2%; high; DCFTA'
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 10.9
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2017
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 10.9%. High. EU visa-free. Tourism boom. IMF EFF. China FTA signed. Strong investment climate.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 10.9%; EU visa-free; China FTA; high'
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 10.2
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2018
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 10.2%. High. Tourism boom. China FTA operational. Strong fundamentals.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 10.2%; China FTA; tourism'
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 7.6
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2019
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 7.6%. Moderate. Russia flight ban. Some investment uncertainty. Anaklia port contract cancelled — negative
+        signal for foreign investors.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 7.6%; Anaklia cancelled negative; Russia ban'
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 4.6
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2020
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 4.6%. COVID collapse. Tourism FDI stopped. Global investment froze. Disputed elections.
+      features:
+      - moderate_2_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 4.6%; COVID; tourism FDI stopped'
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 5.7
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2021
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 5.7%. Recovery. Real estate and tourism recovering. Saakashvili arrested creating political uncertainty.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 5.7%; recovery; political uncertainty'
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 8.3
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2022
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 8.3%. Russian emigre influx brought capital. New businesses established by Russian relocatees. Real
+        estate boom. Strong recovery.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 8.3%; Russian emigre capital; real estate boom'
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 7.5
+      unit: fdi_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2023
+        url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI 7.5%. Good level. Foreign agents law protests creating some investment uncertainty. EU candidate denied.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 7.5%; protests; EU denied'
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 6.0
+      unit: fdi_pct_gdp
       source:
-        citation: null
+        citation: Estimated — WB 2024 not yet available
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Estimated ~6%. Disputed elections October 2024. Mass protests. EU suspended accession. US/EU sanctions on
+        officials. FDI likely declined due to political crisis.
+      features:
+      - high_gt_5pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Estimated; disputed elections; EU suspended; FDI declining
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_gdp
+      unit: fdi_pct_gdp
       source:
-        citation: null
+        citation: Ongoing
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: FDI uncertain amid political crisis and EU suspension.
+      features:
+      - minimal_lt_05pct_gdp
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: 2025 partial; political crisis

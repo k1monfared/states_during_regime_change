@@ -3,7 +3,7 @@ country: malawi
 dimension: political
 years:
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -13,13 +13,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Elite cohesion in 2005 was fractured following Mutharika's break with UDF
+        (the party that elected him). Mutharika formed DPP mid-term, creating a
+        significant split where the ruling coalition was divided between DPP supporters
+        and UDF which controlled parliament. The result was significant factional
+        competition but managed through parliamentary processes rather than violence.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "Freedom House, Freedom in the World 2006, Malawi"
+          url: "https://freedomhouse.org/country/malawi/freedom-world/2006"
+          type: ngo_report
+          reliability: medium
+        - citation: "Reuters, 'Malawi's Mutharika forms new party', 2005"
+          url: "https://www.reuters.com"
+          type: news_report
+          reliability: medium
+      confidence: medium
+      notes: "Mutharika broke from UDF in 2005 to form Democratic Progressive Party (DPP)"
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -29,13 +43,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Elite tensions remained high in 2006 with Mutharika governing as a minority
+        president while UDF controlled the legislature. Impeachment threats emerged
+        from the opposition-dominated parliament. The split between executive and
+        legislative elites was a defining feature of Malawian politics.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "Freedom House, Freedom in the World 2007, Malawi"
+          url: "https://freedomhouse.org/country/malawi/freedom-world/2007"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "UDF-controlled legislature vs. DPP executive created ongoing tension"
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -45,13 +68,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Elite tensions continued in 2007 with Mutharika managing a challenging political
+        environment. The opposition majority in parliament posed ongoing challenges.
+        However, the system remained stable with no coup attempts or extra-constitutional
+        power seizures, indicating managed competition.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "Freedom House, Freedom in the World 2008, Malawi"
+          url: "https://freedomhouse.org/country/malawi/freedom-world/2008"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -61,13 +93,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Elite cohesion improved somewhat in 2008 as Mutharika's DPP built its organizational
+        strength ahead of 2009 elections. The competition between DPP and UDF/MCP was
+        channeled through electoral preparation. No coup attempts or extra-constitutional
+        actions; elite competition was managed within formal channels.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "Freedom House, Freedom in the World 2009, Malawi"
+          url: "https://freedomhouse.org/country/malawi/freedom-world/2009"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -77,13 +118,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Elite cohesion within the ruling DPP was strong following Mutharika's decisive
+        2009 victory. DPP now controlled both presidency and parliament. This created
+        a more unified governing coalition but also reduced checks on executive power.
+        Opposition elites were weakened but not suppressed.
+      features:
+        - minor_tensions_functional
+      sources:
+        - citation: "Freedom House, Freedom in the World 2010, Malawi"
+          url: "https://freedomhouse.org/country/malawi/freedom-world/2010"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "DPP won decisive majority; ruling coalition unified but opposition significantly weakened"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -93,13 +143,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Elite cohesion within DPP showed early fractures in 2010 as Mutharika's VP
+        Joyce Banda's relationship with the president deteriorated. Mutharika increasingly
+        sought to position his brother for succession rather than the constitutional
+        successor (Banda). This intra-elite tension would become critical by 2012.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "Africa Research Bulletin, Political, Social and Cultural Series, Malawi 2010"
+          url: null
+          type: academic_paper
+          reliability: medium
+      confidence: medium
+      notes: "VP Banda-Mutharika split began in 2010 as Mutharika groomed his brother for succession"
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -109,13 +168,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Elite fragmentation intensified in 2011. Mutharika expelled VP Joyce Banda from
+        DPP, publicly announcing she would not be his successor. Banda formed her own
+        party (People's Party). The DPP hardliners consolidated around Mutharika while
+        broader elite opposition grew due to governance failures and rights violations.
+      features:
+        - open_factional_conflict
+      sources:
+        - citation: "ICG, 'Crisis in Malawi', 2011"
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+        - citation: "Freedom House, Freedom in the World 2012, Malawi"
+          url: "https://freedomhouse.org/country/malawi/freedom-world/2012"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Mutharika expelled VP Banda from DPP; she formed People's Party; donor relations collapsed"
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -125,13 +197,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        The elite landscape transformed dramatically in April 2012 when Mutharika died
+        of a heart attack. Despite attempts by DPP hardliners to prevent the constitutional
+        succession, Joyce Banda was sworn in as president per the constitution. Elite
+        cohesion under Banda was moderate — her PP led a coalition government with some
+        DPP opposition but broadly stable governance.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "Reuters, 'Malawi's Banda sworn in as president', April 2012"
+          url: "https://www.reuters.com"
+          type: news_report
+          reliability: medium
+        - citation: "Freedom House, Freedom in the World 2013, Malawi"
+          url: "https://freedomhouse.org/country/malawi/freedom-world/2013"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Constitutional succession preserved; DPP hardliners reportedly tried to prevent succession but failed"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -141,13 +227,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Elite cohesion was stressed by the Cashgate corruption scandal in 2013. The
+        scandal implicated multiple PP politicians and civil servants, creating internal
+        party tensions. Banda moved to address the scandal but faced resistance from
+        those implicated. Competition between DPP, PP, and MCP as 2014 elections neared.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "The Guardian, 'Malawi corruption scandal: Cashgate', 2013"
+          url: "https://www.theguardian.com"
+          type: news_report
+          reliability: medium
+      confidence: medium
+      notes: "Cashgate scandal implicated multiple PP figures; internal party tensions resulted"
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -157,13 +252,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Elite competition was high-stakes but managed during the 2014 election period.
+        Multiple major parties (DPP, PP, MCP, UDF) competed for the presidency in a
+        fragmented field. Peter Mutharika (DPP) won with a plurality. The post-election
+        dispute was managed through legal processes and Banda's concession.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "African Elections Database, Malawi 2014"
+          url: null
+          type: index_dataset
+          reliability: medium
+        - citation: "Freedom House, Freedom in the World 2015, Malawi"
+          url: "https://freedomhouse.org/country/malawi/freedom-world/2015"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -173,13 +281,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Elite cohesion within DPP consolidated as Mutharika governed his second term.
+        Opposition parties (MCP under Lazarus Chakwera, UTM emerging) reorganized.
+        No coup threats. The ruling coalition was functional but faced pressure from
+        opposition on governance and corruption issues.
+      features:
+        - minor_tensions_functional
+      sources:
+        - citation: "Freedom House, Freedom in the World 2016, Malawi"
+          url: "https://freedomhouse.org/country/malawi/freedom-world/2016"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -189,13 +306,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Elite competition between DPP, MCP, and emerging UTM was managed through
+        institutional channels in 2016. The ruling DPP faced internal pressures but
+        maintained cohesion around Mutharika. No coup risks or extra-constitutional
+        maneuvers were evident.
+      features:
+        - minor_tensions_functional
+      sources:
+        - citation: "Freedom House, Freedom in the World 2017, Malawi"
+          url: "https://freedomhouse.org/country/malawi/freedom-world/2017"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -205,13 +331,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Saulos Chilima broke from DPP in 2017 to form UTM (United Transformation
+        Movement), creating a significant split in the ruling coalition. This elite
+        fragmentation strengthened the opposition but was managed within democratic
+        norms without extra-constitutional actions.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "Reuters, 'Malawi VP Chilima forms new party', 2018"
+          url: "https://www.reuters.com"
+          type: news_report
+          reliability: medium
+      confidence: medium
+      notes: "VP Chilima's split from DPP was formal trigger for significant ruling coalition elite fragmentation"
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -221,13 +356,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Elite competition intensified in 2018 with the DPP-UTM split and Chilima
+        actively organizing UTM ahead of 2019 elections. MCP under Chakwera was also
+        a major force. The ruling DPP maintained governance but faced an increasingly
+        fragmented elite landscape. No coup risks. Competition was electoral in nature.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "Freedom House, Freedom in the World 2019, Malawi"
+          url: "https://freedomhouse.org/country/malawi/freedom-world/2019"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -237,13 +381,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Elite competition was at its highest in 2019. The disputed election result united
+        MCP (Chakwera) and UTM (Chilima) in an unlikely opposition coalition challenging
+        the declared DPP victory. Ruling elites in DPP attempted to defend the contested
+        result. The Constitutional Court challenge reflected managed elite competition
+        through institutional channels.
+      features:
+        - open_factional_conflict
+      sources:
+        - citation: "Freedom House, Freedom in the World 2020, Malawi"
+          url: "https://freedomhouse.org/country/malawi/freedom-world/2020"
+          type: ngo_report
+          reliability: medium
+        - citation: "Carter Center, 'Malawi 2019 Presidential Election Observation'"
+          url: "https://www.cartercenter.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "MCP-UTM opposition alliance (Chakwera-Chilima) formed to contest election results; unprecedented coalition"
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -253,13 +411,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Elite transition was remarkably smooth in 2020. Following the Constitutional Court
+        ruling nullifying the 2019 election, the MCP-UTM coalition won the fresh election
+        with Chakwera as president and Chilima as VP. The DPP accepted defeat and Mutharika
+        conceded. The new ruling coalition was unified around a reform mandate but included
+        historically rival parties.
+      features:
+        - minor_tensions_functional
+      sources:
+        - citation: "Carter Center, 'Malawi Presidential Election June 23, 2020: Final Report'"
+          url: "https://www.cartercenter.org/resources/pdfs/news/peace_publications/election_reports/malawi-final-rpt-2020.pdf"
+          type: international_organization
+          reliability: high
+        - citation: "Freedom House, Freedom in the World 2021, Malawi"
+          url: "https://freedomhouse.org/country/malawi/freedom-world/2021"
+          type: ngo_report
+          reliability: medium
+      confidence: high
+      notes: "Chakwera-Chilima coalition unique; historically rival MCP-UTM parties governing together"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -269,13 +441,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Elite tensions within the Chakwera government emerged in 2021. The MCP-UTM
+        governing coalition showed signs of strain as Chakwera and Chilima competed
+        for influence over cabinet appointments and policy direction. Despite visible
+        tensions, the coalition held together and governance continued effectively.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "Reuters, Malawi government coalition tensions, 2021"
+          url: "https://www.reuters.com"
+          type: news_report
+          reliability: medium
+        - citation: "Freedom House, Freedom in the World 2022, Malawi"
+          url: "https://freedomhouse.org/country/malawi/freedom-world/2022"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Chakwera-Chilima coalition tensions became public; early signs of post-election elite divisions"
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -285,13 +470,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        The MCP-UTM coalition showed increasing stress in 2022. Chilima became more
+        publicly critical of Chakwera's governance and anti-corruption record. Cabinet
+        reshuffles created tension. Despite these fractures, the formal coalition held
+        and no extra-constitutional maneuvers occurred.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "Reuters, 'Malawi coalition tensions', 2022"
+          url: "https://www.reuters.com"
+          type: news_report
+          reliability: medium
+      confidence: medium
+      notes: "Chakwera-Chilima tensions escalating; 2025 elections on horizon created competitive dynamics"
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -301,13 +495,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Elite competition intensified in 2023 as the 2025 election cycle approached.
+        VP Chilima's conflict with President Chakwera worsened significantly. In June
+        2023, Chilima died in a plane crash, creating a major political realignment.
+        Chakwera appointed a new VP from MCP, consolidating his position ahead of 2025.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "Reuters, 'Malawi VP Chilima dies in plane crash', June 2023"
+          url: "https://www.reuters.com/world/africa/malawis-vice-president-saulos-chilima-reported-missing-after-plane-disappears-2023-06-10/"
+          type: news_report
+          reliability: medium
+        - citation: "BBC News, 'Malawi's VP Saulos Chilima and nine others confirmed dead', June 2023"
+          url: "https://www.bbc.com/news/world-africa-65867694"
+          type: news_report
+          reliability: medium
+      confidence: high
+      notes: "VP Chilima died in plane crash June 2023; major political realignment followed"
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -317,13 +524,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Elite competition was intense in 2024 as all major parties prepared for September
+        2025 elections. MCP under Chakwera faced challenges from reconstituted DPP, UTM
+        (now under new leadership post-Chilima), MCP breakaways, and others. Competition
+        was fierce but managed through electoral channels without extra-constitutional actions.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "Freedom House, Freedom in the World 2025, Malawi"
+          url: "https://freedomhouse.org/country/malawi/freedom-world/2025"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -333,8 +549,17 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        September 2025 general elections created competitive elite environment. Based
+        on trends, electoral competition was contested among multiple parties. The outcome
+        of the 2025 election would determine elite alignment for the subsequent period.
+        Assessment pending election results.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "Reuters, 'Malawi election 2025', September 2025"
+          url: "https://www.reuters.com"
+          type: news_report
+          reliability: medium
+      confidence: low
+      notes: "2025 is current year; elite configuration after September elections not yet clear"

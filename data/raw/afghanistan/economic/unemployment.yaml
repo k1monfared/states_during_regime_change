@@ -3,103 +3,121 @@ country: afghanistan
 dimension: economic
 years:
   1996:
-    data_status: missing
+    data_status: unavailable
     quantitative:
       value: null
-      unit: percent_labor_force
+      unit: null
       source:
         citation: null
         url: null
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
+      assessment: Unemployment data unavailable for 1996. ILO modeled estimates do not extend to Taliban-era
+        Afghanistan (1996-2001) due to absence of any labor force surveys. Economy was largely conflict-disrupted
+        subsistence agriculture.
+      features:
+      - data_collection_impossible
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: No labor force survey data for Taliban Afghanistan; ILO had no access
   1997:
-    data_status: missing
+    data_status: unavailable
     quantitative:
       value: null
-      unit: percent_labor_force
+      unit: null
       source:
         citation: null
         url: null
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
+      assessment: Unemployment data unavailable for 1997. ILO modeled estimates do not extend to Taliban-era
+        Afghanistan (1996-2001) due to absence of any labor force surveys. Economy was largely conflict-disrupted
+        subsistence agriculture.
+      features:
+      - data_collection_impossible
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: No labor force survey data for Taliban Afghanistan; ILO had no access
   1998:
-    data_status: missing
+    data_status: unavailable
     quantitative:
       value: null
-      unit: percent_labor_force
+      unit: null
       source:
         citation: null
         url: null
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
+      assessment: Unemployment data unavailable for 1998. ILO modeled estimates do not extend to Taliban-era
+        Afghanistan (1996-2001) due to absence of any labor force surveys. Economy was largely conflict-disrupted
+        subsistence agriculture.
+      features:
+      - data_collection_impossible
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: No labor force survey data for Taliban Afghanistan; ILO had no access
   1999:
-    data_status: missing
+    data_status: unavailable
     quantitative:
       value: null
-      unit: percent_labor_force
+      unit: null
       source:
         citation: null
         url: null
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
+      assessment: Unemployment data unavailable for 1999. ILO modeled estimates do not extend to Taliban-era
+        Afghanistan (1996-2001) due to absence of any labor force surveys. Economy was largely conflict-disrupted
+        subsistence agriculture.
+      features:
+      - data_collection_impossible
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: No labor force survey data for Taliban Afghanistan; ILO had no access
   2000:
-    data_status: missing
+    data_status: unavailable
     quantitative:
       value: null
-      unit: percent_labor_force
+      unit: null
       source:
         citation: null
         url: null
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
+      assessment: Unemployment data unavailable for 2000. ILO modeled estimates do not extend to Taliban-era
+        Afghanistan (1996-2001) due to absence of any labor force surveys. Economy was largely conflict-disrupted
+        subsistence agriculture.
+      features:
+      - data_collection_impossible
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: No labor force survey data for Taliban Afghanistan; ILO had no access
   2001:
-    data_status: missing
+    data_status: unavailable
     quantitative:
       value: null
-      unit: percent_labor_force
+      unit: null
       source:
         citation: null
         url: null
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
+      assessment: Unemployment data unavailable for 2001. ILO modeled estimates do not extend to Taliban-era
+        Afghanistan (1996-2001) due to absence of any labor force surveys. Economy was largely conflict-disrupted
+        subsistence agriculture.
+      features:
+      - data_collection_impossible
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: No labor force survey data for Taliban Afghanistan; ILO had no access
   2002:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
@@ -109,376 +127,584 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment in post-Taliban Afghanistan was difficult to measure formally, as most
+
+        economic activity was informal. ILO modeled estimates for Afghanistan show unemployment
+
+        in the low double digits historically, but the immediate post-Taliban period had very
+
+        high underemployment and informal sector dominance. The formal labor market barely existed.
+
+        '
+      features:
+      - high_15_25pct
+      sources:
+      - citation: ILO modeled estimates via World Bank WDI SL.UEM.TOTL.ZS, Afghanistan
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: No specific data for 2002; ILO modeled estimates only available from 2003 onwards with poor
+        early coverage
   2003:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 8.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'The ILO modeled unemployment estimate for Afghanistan is approximately 8% in the early
+
+        post-Taliban reconstruction period. However, this figure is almost certainly a severe
+
+        underestimate of actual joblessness, as the formal labor market was nascent and most
+
+        Afghans worked in subsistence agriculture or informal activities. Underemployment and
+
+        poverty were far more widespread than formal unemployment statistics suggest.
+
+        '
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        type: official_statistics
+        reliability: low
+      confidence: low
+      notes: ILO modeled estimate; actual unemployment/underemployment much higher in reality; informal
+        economy dominates
   2004:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 7.9
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'ILO modeled unemployment estimate of approximately 7.9% in 2004. Presidential elections
+
+        created some formal sector employment. However, the bulk of the population remained in
+
+        subsistence agriculture or informal activity. Drug economy (poppy cultivation) provided
+
+        livelihoods for a significant portion of rural labor.
+
+        '
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        type: official_statistics
+        reliability: low
+      confidence: low
+      notes: ILO modeled estimate; record low of ~7.8 reached around 2009-2010 per ILO
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 7.9
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment remained in the 7-8% range per ILO modeled estimates. Parliamentary elections
+
+        held. Reconstruction created formal sector jobs in urban areas. Rural livelihoods remained
+
+        dominated by agriculture, with growing poppy cultivation providing incomes in insecure areas.
+
+        '
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        type: official_statistics
+        reliability: low
+      confidence: low
+      notes: Approximate based on ILO modeled trend; high underemployment not captured
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 7.9
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment approximately 7.9% per ILO modeled estimates. The insurgency''s intensification
+
+        in the south began displacing agricultural workers and reducing economic activity in
+
+        conflict-affected areas. Aid-sector jobs in Kabul partially offset losses elsewhere.
+
+        '
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        type: official_statistics
+        reliability: low
+      confidence: low
+      notes: Approximate; ILO modeled estimate trend
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 7.9
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment around 7.9% per ILO modeled estimates. The formal unemployment figures
+        mask
+
+        massive underemployment and conflict-driven displacement. NRVA surveys suggest actual
+
+        underemployment was much more widespread. Security deterioration in 2007 reduced
+
+        agricultural and construction employment in conflict zones.
+
+        '
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        type: official_statistics
+        reliability: low
+      confidence: low
+      notes: NRVA 2007/8 survey reported 7.1% unemployment; ILO modeled estimate slightly higher
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 7.9
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment approximately 7.9% per ILO modeled estimates in 2008. The global food
+
+        price crisis raised food insecurity but did not dramatically change formal unemployment.
+
+        The conflict''s intensification continued to affect livelihoods in southern provinces.
+
+        '
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        type: official_statistics
+        reliability: low
+      confidence: low
+      notes: ILO modeled estimate; underemployment very widespread
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 7.8
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment reached a low of approximately 7.8% in 2009 per ILO modeled estimates,
+
+        as the massive US troop surge created construction, logistics, and services employment.
+
+        However, the surge also displaced rural populations, creating a paradox of formal job
+
+        creation alongside increased vulnerability.
+
+        '
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        type: official_statistics
+        reliability: low
+      confidence: low
+      notes: ILO estimates show ~7.75% as the record low around 2009; surge employment effect
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 7.8
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Unemployment at approximately 7.8% in 2010, near the ILO modeled low for Afghanistan.
+
+        US surge at its peak, with maximum foreign employment stimulus. Aid sector and military
+
+        logistics provided significant formal employment in urban areas.
+
+        '
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        type: official_statistics
+        reliability: low
+      confidence: low
       notes: null
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 7.9
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Unemployment approximately 7.9% in 2011 as surge employment began to fade but international
+
+        presence remained at high levels. Transition to Afghan security forces created some new
+
+        formal employment in the security sector.
+
+        '
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        type: official_statistics
+        reliability: low
+      confidence: low
       notes: null
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 7.9
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
       assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        type: official_statistics
+        reliability: low
+      confidence: low
+      notes: Approximate ILO modeled estimate
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 7.9
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
       assessment: null
-      features: []
-      sources: []
-      confidence: null
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        type: official_statistics
+        reliability: low
+      confidence: low
       notes: null
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 7.9
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'ILO modeled unemployment near the dataset low of ~7.9% in 2014 as the security transition
+
+        neared completion. However, formal combat operations ended and military-related employment
+
+        declined sharply. The structural weakness of the Afghan economy became more visible.
+
+        '
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        type: official_statistics
+        reliability: low
+      confidence: low
       notes: null
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 8.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
       assessment: null
-      features: []
-      sources: []
-      confidence: null
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        type: official_statistics
+        reliability: low
+      confidence: low
       notes: null
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 8.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
       assessment: null
-      features: []
-      sources: []
-      confidence: null
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        type: official_statistics
+        reliability: low
+      confidence: low
       notes: null
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 8.5
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
       assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        type: official_statistics
+        reliability: low
+      confidence: low
+      notes: Approximate; ILO modeled estimate rising trend as economy stagnates
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 9.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
       assessment: null
-      features: []
-      sources: []
-      confidence: null
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        type: official_statistics
+        reliability: low
+      confidence: low
       notes: null
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 9.1
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
       assessment: null
-      features: []
-      sources: []
-      confidence: null
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        type: official_statistics
+        reliability: low
+      confidence: low
       notes: null
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 11.2
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment rose sharply to approximately 11% in 2020 as COVID-19 devastated the
+
+        informal economy and reduced international aid-related employment. The economic shock
+
+        of the pandemic hit a population with minimal safety nets particularly hard.
+
+        '
+      features:
+      - elevated_10_15pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        type: official_statistics
+        reliability: low
+      confidence: low
+      notes: COVID-19 impact; approximate ILO estimate
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 14.1
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment spiked dramatically to approximately 14% in 2021 following the Taliban
+
+        takeover. The collapse of the previous government, suspension of aid, banking system
+
+        freeze, and mass exodus of skilled workers and aid workers devastated formal employment.
+
+        Women were largely excluded from the workforce under Taliban decrees.
+
+        '
+      features:
+      - elevated_10_15pct
+      sources:
+      - citation: World Bank WDI, SL.UEM.TOTL.ZS (ILO modeled estimate), Afghanistan, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF
+        type: official_statistics
+        reliability: low
+      confidence: low
+      notes: ILO estimate for 2021; actual effective unemployment much higher with women excluded from
+        workforce
   2022:
-    data_status: missing
+    data_status: unavailable
     quantitative:
       value: null
-      unit: percent_labor_force
+      unit: null
       source:
         citation: null
         url: null
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
+      assessment: Unemployment data unavailable for 2022. After Taliban retook power (Aug 2021), ILO and
+        World Bank suspended regular data collection. Female workforce participation collapsed (~80% reduction).
+        Informal economy dominant. No reliable unemployment statistics.
+      features:
+      - data_collection_impossible
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: ILO/World Bank labor data severely limited post-Taliban return; surveys suspended
   2023:
-    data_status: missing
+    data_status: unavailable
     quantitative:
       value: null
-      unit: percent_labor_force
+      unit: null
       source:
         citation: null
         url: null
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
+      assessment: Unemployment data unavailable for 2023. After Taliban retook power (Aug 2021), ILO and
+        World Bank suspended regular data collection. Female workforce participation collapsed (~80% reduction).
+        Informal economy dominant. No reliable unemployment statistics.
+      features:
+      - data_collection_impossible
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: ILO/World Bank labor data severely limited post-Taliban return; surveys suspended
   2024:
-    data_status: missing
+    data_status: unavailable
     quantitative:
       value: null
-      unit: percent_labor_force
+      unit: null
       source:
         citation: null
         url: null
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
+      assessment: Unemployment data unavailable for 2024. After Taliban retook power (Aug 2021), ILO and
+        World Bank suspended regular data collection. Female workforce participation collapsed (~80% reduction).
+        Informal economy dominant. No reliable unemployment statistics.
+      features:
+      - data_collection_impossible
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: ILO/World Bank labor data severely limited post-Taliban return; surveys suspended
   2025:
-    data_status: missing
+    data_status: unavailable
     quantitative:
       value: null
-      unit: percent_labor_force
+      unit: null
       source:
         citation: null
         url: null
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
+      assessment: Unemployment data unavailable for 2025. After Taliban retook power (Aug 2021), ILO and
+        World Bank suspended regular data collection. Female workforce participation collapsed (~80% reduction).
+        Informal economy dominant. No reliable unemployment statistics.
+      features:
+      - data_collection_impossible
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: ILO/World Bank labor data severely limited post-Taliban return; surveys suspended

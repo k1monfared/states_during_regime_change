@@ -2,339 +2,620 @@ indicator: political_violence
 country: malaysia
 dimension: political
 years:
-  2005:
-    data_status: missing
+  2003:
+    data_status: partial
     quantitative:
-      value: null
+      value: 0
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2003
+        url: https://ucdp.uu.se/downloads
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Malaysia experienced no armed conflict or significant political violence in 2003.
+
+        The country was peaceful under BN rule with normal policing but no war-related
+
+        deaths or major terrorist incidents.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2003
+        url: https://ucdp.uu.se/downloads
+        type: index_dataset
+        reliability: high
+      confidence: high
+      notes: No armed conflict recorded in UCDP for Malaysia 2003
+  2004:
+    data_status: partial
+    quantitative:
+      value: 0
+      unit: conflict_deaths_per_year
+      source:
+        citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2004
+        url: https://ucdp.uu.se/downloads
+        access_date: '2026-03-01'
+      reliability: high
+    qualitative:
+      assessment: 'No political violence or armed conflict in Malaysia in 2004. The landslide BN
+
+        election victory in March 2004 was peaceful. Malaysia remained one of Southeast
+
+        Asia''s most stable states.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2004
+        url: https://ucdp.uu.se/downloads
+        type: index_dataset
+        reliability: high
+      confidence: high
+      notes: null
+  2005:
+    data_status: partial
+    quantitative:
+      value: 0
+      unit: conflict_deaths_per_year
+      source:
+        citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2005
+        url: https://ucdp.uu.se/downloads
+        access_date: '2026-03-01'
+      reliability: high
+    qualitative:
+      assessment: 'Malaysia experienced no armed conflict or significant political violence. Normal
+
+        policing and security operations continued without war-related casualties.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2005
+        url: https://ucdp.uu.se/downloads
+        type: index_dataset
+        reliability: high
+      confidence: high
       notes: null
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2006
+        url: https://ucdp.uu.se/downloads
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'No significant political violence or armed conflict in Malaysia. Peaceful year
+
+        with no conflict-related deaths recorded in international datasets.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2006
+        url: https://ucdp.uu.se/downloads
+        type: index_dataset
+        reliability: high
+      confidence: high
       notes: null
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2007
+        url: https://ucdp.uu.se/downloads
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'No political violence. The BERSIH 1.0 rally in November 2007 involved police use
+
+        of tear gas and water cannons against protesters but resulted in no fatalities.
+
+        This was state repression of protesters rather than armed conflict.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2007
+        url: https://ucdp.uu.se/downloads
+        type: index_dataset
+        reliability: high
+      - citation: 'Human Rights Watch, ''Malaysia: Crackdown on Peaceful Protesters'', November 2007'
+        url: https://www.hrw.org/news/2007/11/10/malaysia-crackdown-peaceful-protesters
+        type: ngo_report
+        reliability: medium
+      confidence: high
+      notes: Police dispersed BERSIH rally with force; no fatalities recorded
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2008
+        url: https://ucdp.uu.se/downloads
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'No armed political violence. The March 2008 elections produced a major political
+
+        upset but were conducted peacefully. No conflict deaths recorded.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2008
+        url: https://ucdp.uu.se/downloads
+        type: index_dataset
+        reliability: high
+      confidence: high
       notes: null
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2009
+        url: https://ucdp.uu.se/downloads
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'No armed conflict or significant political violence. Najib Razak''s accession to
+
+        PM in April 2009 was a smooth intra-party transition without violence.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2009
+        url: https://ucdp.uu.se/downloads
+        type: index_dataset
+        reliability: high
+      confidence: high
       notes: null
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2010
+        url: https://ucdp.uu.se/downloads
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'No armed conflict. Malaysia remained peaceful. Some incidents of police dispersal
+
+        of protests but no fatalities related to political conflict.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2010
+        url: https://ucdp.uu.se/downloads
+        type: index_dataset
+        reliability: high
+      confidence: high
       notes: null
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2011
+        url: https://ucdp.uu.se/downloads
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'No armed conflict deaths. BERSIH 2.0 rally (July 2011) saw police dispersal
+
+        of tens of thousands of protesters with tear gas and chemical-laced water, but
+
+        no fatalities. Political tension elevated but no armed violence.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2011
+        url: https://ucdp.uu.se/downloads
+        type: index_dataset
+        reliability: high
+      - citation: 'Amnesty International, ''Malaysia: Crackdown on BERSIH protesters'', July 2011'
+        url: https://www.amnesty.org
+        type: ngo_report
+        reliability: medium
+      confidence: high
+      notes: State use of force against peaceful protesters noted but no fatalities
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2012
+        url: https://ucdp.uu.se/downloads
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'No armed conflict. BERSIH 3.0 (April 2012) drew over 100,000 protesters;
+
+        police response included some violence but no fatalities. Malaysia remained
+
+        free of organized armed political violence.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2012
+        url: https://ucdp.uu.se/downloads
+        type: index_dataset
+        reliability: high
+      confidence: high
       notes: null
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 10
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2013
+        url: https://ucdp.uu.se/downloads
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'The February-March 2013 Lahad Datu standoff in Sabah involved armed followers of
+
+        the Sulu Sultanate from the Philippines; Malaysian security forces killed approximately
+
+        56 Sulu fighters and 9 Malaysian security personnel. This was an isolated incident
+
+        concentrated in a small area of eastern Sabah; not an ongoing insurgency.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2013
+        url: https://ucdp.uu.se/downloads
+        type: index_dataset
+        reliability: high
+      - citation: Reuters, 'Malaysia sends troops after Philippine gunmen kill policemen in Sabah', March
+          2013
+        url: https://www.reuters.com
+        type: news_report
+        reliability: medium
+      confidence: high
+      notes: Lahad Datu incident; approximately 10 Malaysian security forces killed, ~56 Sulu fighters;
+        isolated incident
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2014
+        url: https://ucdp.uu.se/downloads
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'No significant armed conflict. Post-Lahad Datu security was enhanced in eastern
+
+        Sabah. The disappearance of MH370 (March 2014) and shooting down of MH17 (July 2014)
+
+        were aviation disasters, not political violence within Malaysia.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2014
+        url: https://ucdp.uu.se/downloads
+        type: index_dataset
+        reliability: high
+      confidence: high
       notes: null
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2015
+        url: https://ucdp.uu.se/downloads
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'No armed conflict in Malaysia. Political tensions over 1MDB scandal were managed
+
+        through authoritarian legal measures (detentions under SOSMA, sedition law) rather
+
+        than violence. No conflict deaths recorded.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2015
+        url: https://ucdp.uu.se/downloads
+        type: index_dataset
+        reliability: high
+      confidence: high
       notes: null
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2016
+        url: https://ucdp.uu.se/downloads
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'No armed political violence. The political opposition and civil society continued
+
+        mobilizing against Najib but through legal and electoral channels. No conflict-related
+
+        deaths in Malaysia proper.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2016
+        url: https://ucdp.uu.se/downloads
+        type: index_dataset
+        reliability: high
+      confidence: high
       notes: null
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2017
+        url: https://ucdp.uu.se/downloads
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'No armed conflict. Malaysia prepared for the 2018 elections with intense political
+
+        maneuvering. The assassination of Kim Jong-nam at KLIA in February 2017 was an
+
+        isolated foreign-state act, not domestic political violence.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2017
+        url: https://ucdp.uu.se/downloads
+        type: index_dataset
+        reliability: high
+      confidence: high
+      notes: Kim Jong-nam assassination was a foreign state operation, excluded from domestic political
+        violence count
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2018
+        url: https://ucdp.uu.se/downloads
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'No armed political violence during the historic 2018 election that ousted BN after
+
+        61 years. The transition of power was entirely peaceful; no conflict deaths recorded.
+
+        Malaysia''s regime change was a model of electoral transition.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2018
+        url: https://ucdp.uu.se/downloads
+        type: index_dataset
+        reliability: high
+      confidence: high
+      notes: Peaceful electoral regime change; no violence associated with transition
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2019
+        url: https://ucdp.uu.se/downloads
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'No armed conflict under the Pakatan Harapan government. Political tensions existed
+
+        around implementation of reform agenda and racial/religious politics, but no
+
+        political violence.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2019
+        url: https://ucdp.uu.se/downloads
+        type: index_dataset
+        reliability: high
+      confidence: high
       notes: null
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2020
+        url: https://ucdp.uu.se/downloads
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'No armed political violence despite the February 2020 Sheraton Move political crisis
+
+        that toppled the PH government. Political instability was managed through parliamentary
+
+        maneuvering rather than violence.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2020
+        url: https://ucdp.uu.se/downloads
+        type: index_dataset
+        reliability: high
+      confidence: high
       notes: null
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2021
+        url: https://ucdp.uu.se/downloads
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'No armed conflict. Political instability continued as Muhyiddin''s government
+
+        collapsed in August 2021. All transitions managed through constitutional and
+
+        parliamentary means; no political violence.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2021
+        url: https://ucdp.uu.se/downloads
+        type: index_dataset
+        reliability: high
+      confidence: high
       notes: null
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UCDP Georeferenced Event Dataset (GED), version 23.1, Malaysia, 2022
+        url: https://ucdp.uu.se/downloads
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'No political violence. November 2022 elections and subsequent formation of Anwar
+
+        Ibrahim unity government were conducted without violence. Malaysia continued as a
+
+        stable, violence-free political environment.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: ACLED Data for Malaysia, 2022, accessed 2026-03-01
+        url: https://acleddata.com
+        type: index_dataset
+        reliability: high
+      confidence: high
       notes: null
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: ACLED Data for Malaysia, 2023, accessed 2026-03-01
+        url: https://acleddata.com
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'No political violence in Malaysia. State elections in several states were conducted
+
+        peacefully. Malaysia remained one of Southeast Asia''s most politically stable countries
+
+        in terms of physical security.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: ACLED Data for Malaysia, 2023, accessed 2026-03-01
+        url: https://acleddata.com
+        type: index_dataset
+        reliability: high
+      confidence: high
       notes: null
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: ACLED Data for Malaysia, 2024, accessed 2026-03-01
+        url: https://acleddata.com
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'No armed political violence in Malaysia. The Anwar Ibrahim unity government
+
+        consolidated. No conflict-related deaths reported.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: ACLED Data for Malaysia, 2024, accessed 2026-03-01
+        url: https://acleddata.com
+        type: index_dataset
+        reliability: high
+      confidence: high
       notes: null
   2025:
-    data_status: missing
+    data_status: unavailable
     quantitative:
       value: null
-      unit: conflict_deaths_per_year
+      unit: null
       source:
         citation: null
         url: null
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
+      assessment: 2025 data not yet published for political_violence. Malaysia stable; expected to show
+        continuity with 2024 values when released.
+      features:
+      - data_collection_impossible
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: 2025 data not yet available; year in progress

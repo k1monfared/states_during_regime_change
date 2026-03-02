@@ -1,340 +1,493 @@
 indicator: statistical_transparency
 country: south_sudan
 dimension: transparency
+notes: >
+  South Sudan has one of the weakest statistical systems in the world. The National
+  Bureau of Statistics (NBS) was established post-independence but with minimal
+  capacity. No census completed (planned for 2014, never held). GDP data is
+  oil-based estimate. Civil war destroyed what little capacity existed.
+  World Bank IDA assessed statistical capacity extremely low throughout.
+  IHSN/World Bank statistical capacity scores used where available.
 years:
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: wb_statistical_capacity_0_100
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: Southern Sudan statistical capacity — pre-independence not rated"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GOSS pre-independence. No national statistical office. GOSS relied on Sudan central statistics for any data. No independent data collection. No official statistics.
+      features:
+        - no_statistical_system
+      sources:
+        - citation: "World Bank: Southern Sudan 2005 — no statistical capacity"
+          url: "https://databank.worldbank.org"
+          type: international_org
+          reliability: medium
+      confidence: medium
+      notes: "GOSS no statistical office; relied on Sudan NBS; no independent data; no official statistics"
+
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: wb_statistical_capacity_0_100
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: Southern Sudan 2006"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No statistical capacity. Some donor-funded surveys beginning (UNICEF MICS). GOSS no national statistics bureau. No official statistics.
+      features:
+        - no_statistical_system
+      sources:
+        - citation: "UNICEF: MICS Southern Sudan 2006"
+          url: "https://www.unicef.org/southsudan"
+          type: international_org
+          reliability: medium
+      confidence: low
+      notes: "No GOSS statistical bureau; donor surveys only; no official statistics"
+
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: wb_statistical_capacity_0_100
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: Southern Sudan 2007"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Some household surveys conducted by donors (WFP, UNICEF). No official statistical bureau. Donor-dependent data only. Extremely limited.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "WFP: Southern Sudan 2007 surveys"
+          url: "https://www.wfp.org"
+          type: international_org
+          reliability: medium
+      confidence: low
+      notes: "Donor surveys only; no official bureau; extremely limited"
+
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: wb_statistical_capacity_0_100
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: Southern Sudan 2008"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Southern Sudan Bureau of Statistics established in Juba with donor support. Very nascent — minimal capacity. Extremely limited.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "GOSS: Southern Sudan Bureau of Statistics established 2008"
+          url: "https://www.nbs.gov.ss"
+          type: government
+          reliability: low
+      confidence: low
+      notes: "Stats bureau established; very nascent; donor-supported; extremely limited"
+
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: wb_statistical_capacity_0_100
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: Southern Sudan 2009"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bureau of Statistics beginning some data collection. Household survey (SSHS) conducted with World Bank support. Nascent but existing capacity. Extremely limited but improving.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank: Southern Sudan Household Survey 2009"
+          url: "https://databank.worldbank.org"
+          type: international_org
+          reliability: medium
+      confidence: low
+      notes: "SSHS conducted; World Bank support; nascent but existing; extremely limited"
+
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: wb_statistical_capacity_0_100
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: Southern Sudan 2010 — census planned for 2010"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        National population census planned but delayed to after referendum. Some capacity building. Bureau of Statistics operational with donor support. Extremely limited.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "UNFPA: Southern Sudan census planning 2010"
+          url: "https://www.unfpa.org"
+          type: international_org
+          reliability: medium
+      confidence: low
+      notes: "Census delayed; capacity building; bureau operational donor-supported; extremely limited"
+
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wb_statistical_capacity_0_100
+      value: 21
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Statistical Capacity Score: South Sudan 2011 — ~21/100"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Independence. National Bureau of Statistics (NBS) established. World Bank statistical capacity score approximately 21/100 — near bottom globally. Census planned for 2014 with UNFPA support. Extremely limited but building.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank: South Sudan Statistical Capacity 2011 — ~21/100"
+          url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+          type: international_org
+          reliability: medium
+      confidence: medium
+      notes: "NBS established; WB capacity 21/100; census planned 2014; extremely limited building"
+
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wb_statistical_capacity_0_100
+      value: 21
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Statistical Capacity: South Sudan 2012 — 21/100"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil shutdown devastated government resources for statistics. NBS underfunded. Statistical capacity stagnant. Extremely limited.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank: South Sudan Statistical Capacity 2012 — 21/100"
+          url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+          type: international_org
+          reliability: medium
+      confidence: medium
+      notes: "Oil shutdown; NBS underfunded; capacity stagnant; extremely limited"
+
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wb_statistical_capacity_0_100
+      value: 21
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Statistical Capacity: South Sudan 2013"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        NBS continuing. Census planned for 2014. Civil war December 2013 — capacity building ended. Statistical capacity approximately 21/100. Extremely limited.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank: South Sudan Statistical Capacity 2013"
+          url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+          type: international_org
+          reliability: medium
+      confidence: medium
+      notes: "Census planned 2014; civil war Dec; capacity building ended; extremely limited"
+
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wb_statistical_capacity_0_100
+      value: 17
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Statistical Capacity: South Sudan 2014 — declining with civil war"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Civil war. Census cancelled. NBS staff fled or displaced. Statistical capacity declining — approximately 17/100. Donor-funded data collections paused. No official statistics effectively.
+      features:
+        - no_statistical_system
+      sources:
+        - citation: "World Bank: South Sudan Statistical Capacity 2014 — declining"
+          url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+          type: international_org
+          reliability: medium
+      confidence: medium
+      notes: "Census cancelled; civil war; NBS staff fled; WB capacity declining; no official statistics"
+
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wb_statistical_capacity_0_100
+      value: 17
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Statistical Capacity: South Sudan 2015 — ~17/100"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Civil war + fiscal collapse. NBS essentially non-functional. Famine data collected by WFP/FEWSNET not NBS. Statistical capacity ~17/100. No official statistics.
+      features:
+        - no_statistical_system
+      sources:
+        - citation: "World Bank: South Sudan Statistical Capacity 2015 — ~17/100"
+          url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+          type: international_org
+          reliability: medium
+      confidence: medium
+      notes: "NBS non-functional; famine data from WFP/FEWSNET; WB capacity ~17; no official statistics"
+
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wb_statistical_capacity_0_100
+      value: 17
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Statistical Capacity: South Sudan 2016"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        ARCSS collapse, fiscal collapse. NBS destroyed. Statistical capacity near zero. No official statistics.
+      features:
+        - no_statistical_system
+      sources:
+        - citation: "World Bank: South Sudan Statistical Capacity 2016"
+          url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+          type: international_org
+          reliability: medium
+      confidence: medium
+      notes: "ARCSS collapse; NBS destroyed; capacity near zero; no official statistics"
+
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wb_statistical_capacity_0_100
+      value: 17
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Statistical Capacity: South Sudan 2017"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Famine. NBS non-functional. All data from humanitarian sources (WFP, OCHA, IPC). Statistical capacity near bottom. No official statistics.
+      features:
+        - no_statistical_system
+      sources:
+        - citation: "World Bank: South Sudan Statistical Capacity 2017"
+          url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+          type: international_org
+          reliability: medium
+      confidence: medium
+      notes: "Famine; NBS non-functional; humanitarian data only; no official statistics"
+
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wb_statistical_capacity_0_100
+      value: 20
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Statistical Capacity: South Sudan 2018 — marginal recovery"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        R-ARCSS. Some NBS rebuilding with World Bank support. Statistical capacity marginally recovering. Approximately 20/100. Extremely limited.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank: South Sudan Statistical Capacity 2018 — ~20/100"
+          url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+          type: international_org
+          reliability: medium
+      confidence: medium
+      notes: "R-ARCSS; NBS rebuilding; WB support; ~20/100; extremely limited"
+
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wb_statistical_capacity_0_100
+      value: 22
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Statistical Capacity: South Sudan 2019 — ~22/100"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-R-ARCSS. NBS operational. Some household surveys conducted. National accounts improving with World Bank support. Approximately 22/100. Extremely limited but improving.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank: South Sudan Statistical Capacity 2019 — ~22/100"
+          url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+          type: international_org
+          reliability: medium
+      confidence: medium
+      notes: "NBS operational; household surveys; WB national accounts support; ~22/100; extremely limited improving"
+
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wb_statistical_capacity_0_100
+      value: 22
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Statistical Capacity: South Sudan 2020"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RTGoNU. COVID disrupted data collection. NBS operational but limited. Approximately 22/100. Extremely limited.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank: South Sudan Statistical Capacity 2020"
+          url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+          type: international_org
+          reliability: medium
+      confidence: medium
+      notes: "RTGoNU; COVID disruption; NBS operational limited; ~22/100; extremely limited"
+
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wb_statistical_capacity_0_100
+      value: 25
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Statistical Capacity: South Sudan 2021 — ~25/100"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Some improvement in statistical infrastructure. NBS continuing. Oil data improving. But census still not held. Extremely limited improving.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank: South Sudan Statistical Capacity 2021 — ~25/100"
+          url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+          type: international_org
+          reliability: medium
+      confidence: medium
+      notes: "NBS continuing; oil data improving; census not held; ~25/100; extremely limited"
+
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wb_statistical_capacity_0_100
+      value: 28
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Statistical Capacity: South Sudan 2022 — ~28/100"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        High oil prices — some government investment in statistics. NBS published some national accounts. World Bank support continuing. ~28/100. Extremely limited but best since independence.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank: South Sudan Statistical Capacity 2022 — ~28/100"
+          url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+          type: international_org
+          reliability: medium
+      confidence: medium
+      notes: "Oil revenue investment; NBS national accounts; WB support; ~28/100; best since independence"
+
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wb_statistical_capacity_0_100
+      value: 25
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank Statistical Capacity: South Sudan 2023 — declining"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sudan war disrupted oil revenue — less government investment in statistics. NBS capacity declining slightly. ~25/100. Extremely limited.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank: South Sudan Statistical Capacity 2023 — declining"
+          url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+          type: international_org
+          reliability: medium
+      confidence: low
+      notes: "Sudan war; reduced investment; NBS declining; ~25/100; extremely limited"
+
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: wb_statistical_capacity_0_100
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank Statistical Capacity: South Sudan 2024"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Fiscal collapse, Machar detained, Sudan war. Statistical capacity further degraded. Extremely limited to no official statistics.
+      features:
+        - no_statistical_system
+      sources:
+        - citation: "World Bank: South Sudan 2024"
+          url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+          type: international_org
+          reliability: low
+      confidence: low
+      notes: "Fiscal collapse; Machar detained; Sudan war; statistical capacity degraded; no official statistics"
+
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: wb_statistical_capacity_0_100
+      unit: wb_statistical_capacity
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank Statistical Capacity: South Sudan 2025 — no data"
+        url: "https://databank.worldbank.org/source/statistical-capacity-indicators"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        March 2025: Sudan war, political instability, fiscal collapse. Statistical system non-functional. No official statistics.
+      features:
+        - no_statistical_system
+      sources:
+        - citation: "World Bank: South Sudan 2025"
+          url: "https://databank.worldbank.org"
+          type: international_org
+          reliability: low
+      confidence: low
+      notes: "Sudan war; fiscal collapse; statistical system non-functional; no official statistics"

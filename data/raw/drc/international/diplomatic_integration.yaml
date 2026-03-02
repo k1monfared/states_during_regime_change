@@ -1,580 +1,900 @@
 indicator: diplomatic_integration
 country: drc
 dimension: international
+notes: >
+  DRC diplomatic integration: complex history. Mobutu era (1990-1996): increasingly isolated
+  as Western support waned with Cold War's end; IMF/WB programs suspended; but no formal
+  diplomatic isolation. First Congo War (1996-1997): Western tacit support for Kabila/AFDL.
+  Kabila (L-D) 1997: initially embraced by West but friction over war/killings.
+  Second Congo War 1998-2003: DRC backed by Angola/Zimbabwe/Namibia; isolated from West
+  somewhat; but as victim of invasion receives sympathy. Transitional period 2003-2006:
+  full reintegration with international community. Post-2006: normal relations with tensions.
+  Constitutional crisis 2016-2018: partial isolation (US/EU sanctions, aid cuts).
+  Tshisekedi era: restored relations. 2022-2025: Rwanda-DRC crisis strains regional relations.
 years:
   1990:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "US Department of State: US-Zaïre relations 1990"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-Cold War. Mobutu's value to West declining. US reducing aid. IMF/WB suspended
+        programs. But Zaïre maintains full diplomatic relations. AU (OAU) member. UN member.
+        Partial isolation from Western support but not formal diplomatic isolation.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "US Department of State: US-Zaïre 1990"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Post-Cold War; Mobutu value declining; IMF/WB suspended; partial isolation"
+
   1991:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "US Department of State: US-Zaïre relations 1991"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Military mutinies embarrass Mobutu internationally. Western ambassadors temporarily
+        evacuate from Kinshasa. Aid suspended by many donors. Significant isolation from
+        Western partners. Some closures.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "Western donors suspend aid; embassies evacuate briefly 1991"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Military mutinies; Western evacuation; aid suspended; partial isolation"
+
   1992:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "US Department of State: US-Zaïre 1992"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Western donors maintaining pressure on Mobutu through aid suspension. IMF/WB
+        programs suspended. Some Western embassies remain. Partial isolation.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "Western donor pressure; aid suspension 1992"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Aid suspension; IMF/WB suspended; partial isolation"
+
   1993:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "US Department of State: US-Zaïre 1993"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued Western pressure. Mobutu increasingly isolated diplomatically.
+        France reduces engagement. Belgium distances itself. Partial isolation.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "Western pressure; France/Belgium distance 1993"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "France/Belgium distance; Western pressure; partial isolation"
+
   1994:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "US Department of State: Zaïre relations 1994 — Rwanda crisis"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Rwanda genocide crisis. Mobutu receives Rwandan refugee crisis influx. France
+        re-engages somewhat. US minimal engagement. International focus on Rwanda crisis
+        not Zaïre directly. Normal-partial isolation range.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "Rwanda crisis refocuses attention; Zaïre receives refugees"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Rwanda crisis; Mobutu hosts refugees; France re-engages; normal/minor disputes"
+
   1995:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "US Department of State: Zaïre 1995"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Mobutu hosting Hutu militia (FDLR precursor). Rwanda increasingly hostile.
+        Western donors maintaining distance. Partial isolation from Western partners
+        but full UN representation.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "Mobutu hosts FDLR; Rwanda hostile; Western distance 1995"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Hosts FDLR; Rwanda hostile; Western distance; partial isolation"
+
   1996:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "First Congo War 1996 — Mobutu isolated"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        First Congo War. AFDL advance backed by Rwanda/Uganda (Western-allied states).
+        West tacitly supports Kabila/AFDL against Mobutu. Mobutu increasingly isolated.
+        Significant isolation as Mobutu regime collapses diplomatically.
+      features:
+        - significant_isolation
+      sources:
+        - citation: "First Congo War; West tacit support for AFDL; Mobutu isolated"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "AFDL advance; West supports AFDL; Mobutu isolated; significant isolation"
+
   1997:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 1997 — Kabila takes power; Western embrace"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Kabila takes power May 1997. Initially embraced by US, EU, African leaders.
+        IMF engagement begins. Clinton visits Africa (1998). But tensions emerge over
+        killings of Hutu refugees and party ban. Normal relations with minor tensions.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "Kabila embraced; Clinton Africa visit 1998; minor tensions"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Kabila embraced by West; Clinton visits; minor tensions over killings"
+
   1998:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 1998 — Second Congo War; diplomatic fractures"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Second Congo War begins August 1998. DRC backed by Angola/Zimbabwe/Namibia.
+        Rwanda/Uganda invaders are Western-allied. Western sympathy for DRC as victim
+        of invasion but West also protects Rwanda/Uganda. Partial isolation from some
+        partners while others support DRC.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "Second Congo War; DRC backed by Angola/Zimbabwe/Namibia; West ambivalent"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Second Congo War; DRC backed regionally; West ambivalent; partial isolation"
+
   1999:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 1999 — Second Congo War; Lusaka talks"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Lusaka ceasefire process. UN engagement. UNSC authorizes MONUC. DRC participating
+        in international diplomacy. Partial isolation due to war but active international
+        engagement.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "Lusaka process; MONUC authorized; international engagement"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Lusaka process; MONUC; partial isolation due to war"
+
   2000:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2000 — Second Congo War; international pressure"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Second Congo War continues. Kabila increasingly authoritarian, restricts international
+        access. Partial isolation from Western donors. War continues.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "DRC 2000 — Kabila authoritarian; war continues"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Kabila authoritarian; restricts access; partial isolation"
+
   2001:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2001 — J Kabila; improved international engagement"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        J Kabila more open to international engagement. IMF/WB talks begin. Peace talks
+        progress. Western donors re-engage. Normal relations resuming.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "J Kabila opens to West; IMF/WB talks; peace process"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "J Kabila opens to West; IMF engagement; normal relations resuming"
+
   2002:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2002 — peace agreements; international support"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Pretoria and Luanda accords. International community fully engaged. South Africa
+        mediates. UNSC supportive. Full diplomatic integration returning.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "Peace agreements; SA mediation; UNSC support; full integration"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Peace agreements; SA mediation; UNSC support; full relations"
+
   2003:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2003 — transitional government; full international support"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Global and Inclusive Agreement. Transitional government. International community
+        fully engaged — MONUC, UNSC, bilateral donors, IMF/WB. Full diplomatic integration.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "DRC 2003 — full international support; MONUC; IMF/WB"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: high
+      notes: "Full international support; MONUC; transitional government; full relations"
+
   2004:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2004 — transitional; full international support"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Transitional government. Full international engagement. MONUC, Artemis (French
+        in Ituri). IMF program. EU engagement. Full diplomatic integration.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "DRC 2004 — full engagement; MONUC; Artemis"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: high
+      notes: "Full engagement; MONUC; IMF program; full relations"
+
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2005 — pre-election; full international support"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Pre-election period. International community funds and supports elections. MONUC.
+        Full diplomatic integration. Active international partners.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "DRC 2005 — international election support; MONUC"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: high
+      notes: "Election support; full international engagement; MONUC"
+
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2006 — first elections; full international engagement"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        First elections. Heavy international engagement (EU election mission, MONUC,
+        bilateral observers). Kabila wins. DRC in AU, SADC, UN. Full diplomatic integration.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "DRC 2006 — EU election mission; MONUC; full integration"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: high
+      confidence: high
+      notes: "First elections; EU mission; MONUC; full diplomatic integration"
+
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2007 — post-election; CNDP tensions with Rwanda"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-election government. CNDP rebellion begins. Rwanda tensions. International
+        engagement continues but DRC-Rwanda tensions create frictions. Normal with minor
+        disputes.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "DRC 2007 — CNDP; Rwanda tensions; normal relations"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "CNDP; Rwanda tensions; international engagement continues; normal disputes"
+
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2008 — Goma crisis; international pressure on Rwanda"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Goma crisis. International community puts pressure on Rwanda. Emergency UNSC
+        meetings. DRC diplomacy active. International support for DRC government.
+        Normal relations with some tensions.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "DRC 2008 — Goma; UNSC pressure; international support"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Goma crisis; UNSC pressure; Rwanda tensions; normal relations"
+
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2009 — CNDP integration; Rwanda-DRC rapprochement"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        CNDP integration. Rwanda-DRC rapprochement (joint military against FDLR).
+        Full diplomatic integration improving. MONUSCO. IMF HIPC process.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "DRC 2009 — Rwanda rapprochement; MONUSCO; full integration"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Rwanda rapprochement; CNDP integration; full diplomatic integration"
+
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2010 — HIPC completion; full integration"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        HIPC completion. Full IMF/WB engagement. Active bilateral donors. MONUSCO.
+        Full diplomatic integration.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "DRC 2010 — HIPC; IMF/WB; MONUSCO; full integration"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: high
+      notes: "HIPC completion; full IMF/WB engagement; full integration"
+
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2011 — disputed elections; international concern"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Disputed elections. International observers (EU, Carter Center) criticize results.
+        US and EU express concern. Some aid suspended. Normal with disputes — elections
+        dispute creates friction.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "DRC 2011 — EU/Carter Center criticize elections; normal disputes"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: high
+      confidence: high
+      notes: "Disputed elections; EU/Carter Center criticism; some aid suspended; normal disputes"
+
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2012 — M23 rebellion; Rwanda/Uganda suspended aid"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        M23 rebellion. US, UK, Netherlands, Germany suspend aid to Rwanda over M23 backing.
+        International community supports DRC government. DRC-Rwanda diplomatic crisis.
+        Normal with significant disputes.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "DRC 2012 — Rwanda aid suspended by donors; DRC-Rwanda crisis"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: high
+      confidence: high
+      notes: "M23; Rwanda aid suspended by donors; DRC-Rwanda crisis; normal disputes"
+
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2013 — M23 defeat; Peace Framework; full engagement"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        M23 defeated. International Peace Framework signed. UNSC supports DRC. Full
+        diplomatic engagement. MONUSCO FIB. Full relations.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "DRC 2013 — M23 defeat; Peace Framework; full engagement"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: high
+      confidence: high
+      notes: "M23 defeat; Peace Framework; full international engagement"
+
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2014 — post-M23; full international engagement"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-M23 recovery. MONUSCO. IMF program. Full international engagement.
+        DRC participates in AU, SADC, ICGLR. Full relations.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "DRC 2014 — MONUSCO; IMF; full engagement"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: high
+      confidence: high
+      notes: "Post-M23; MONUSCO; full international engagement"
+
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2015 — full international engagement"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Full international engagement. Term limit crisis building. Some international
+        criticism of electoral manipulation but overall full relations.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "DRC 2015 — full engagement; term limit criticism"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: high
+      confidence: high
+      notes: "Full engagement; term limit building criticism; full relations"
+
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2016 — constitutional crisis; partial isolation"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Constitutional crisis. US and EU impose targeted sanctions on Kabila allies.
+        Some bilateral aid suspended. MONUSCO relations strained. International criticism
+        of Kabila's overstay. Partial isolation.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "DRC 2016 — US/EU sanctions; aid suspended; partial isolation"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: high
+      confidence: high
+      notes: "Constitutional crisis; US/EU sanctions; aid suspended; partial isolation"
+
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2017 — Kabila unconstitutional; Kasai; partial isolation"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Kabila governs unconstitutionally. Kasai massacres trigger UN investigators.
+        US/EU further restrict relations. Aid cut significantly. Partial isolation.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "DRC 2017 — Kabila unconstitutional; UN investigators killed; partial isolation"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: high
+      confidence: high
+      notes: "Kabila unconstitutional; UN investigators killed; Kasai; partial isolation"
+
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2018 — elections; partial isolation"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Elections. US/EU question election integrity. Some Ebola restrictions. Internet
+        shut down during elections. International concern about Tshisekedi-Kabila deal.
+        Partial isolation but diplomats engaged.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "DRC 2018 — election concerns; Tshisekedi-Kabila deal; partial isolation"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: high
+      confidence: high
+      notes: "Election integrity concerns; Tshisekedi-Kabila deal; partial isolation"
+
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2019 — Tshisekedi; restored relations"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Tshisekedi takes power January 2019. International community embraces transition.
+        US, EU, Belgium restore fuller engagement. IMF program renewed. Full relations
+        restored.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "DRC 2019 — Tshisekedi; restored full relations; IMF"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: high
+      confidence: high
+      notes: "Tshisekedi; international embrace; US/EU/Belgium re-engage; full relations"
+
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2020 — full international engagement"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        COVID. M23 resurges. Sacred Union coalition. Full international engagement.
+        IMF ECF. MONUSCO. Active international partners.
+      features:
+        - full_relations_active_international
+      sources:
+        - citation: "DRC 2020 — full engagement; IMF ECF; MONUSCO"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: high
+      confidence: high
+      notes: "COVID; full engagement; IMF ECF; MONUSCO"
+
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2021 — M23 resurgence; Rwanda tensions"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        M23 resurges. Rwanda tensions emerging again. Full international engagement with
+        MONUSCO, IMF, bilateral donors. Some diplomatic tensions over Rwanda backing.
+        Normal with disputes.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "DRC 2021 — M23; Rwanda tensions; normal disputes"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: high
+      confidence: high
+      notes: "M23; Rwanda tensions; full engagement; normal disputes"
+
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2022 — M23/Rwanda; DRC-Rwanda diplomatic crisis"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        M23/Rwanda advance. DRC-Rwanda near-war. DRC expels Rwandan ambassador briefly.
+        Regional actors (Angola, South Africa) mediate. EAC deploys force. Western donors
+        suspend Rwanda aid again. DRC-Rwanda significant tensions but broader relations OK.
+        Normal with significant disputes.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "DRC 2022 — Rwanda crisis; EAC mediates; Rwanda aid suspended"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: high
+      confidence: high
+      notes: "DRC-Rwanda near-war; EAC mediates; Rwanda aid suspended; normal with disputes"
+
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2023 — M23/Rwanda; SADC; elections"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        M23/Rwanda controls territory. SADC force deployed. Elections. Multiple mediation
+        tracks (Luanda, Nairobi). DRC-Rwanda formal hostility. Normal international
+        relations except DRC-Rwanda. Normal with disputes.
+      features:
+        - normal_minor_disputes
+      sources:
+        - citation: "DRC 2023 — SADC; multiple mediation; DRC-Rwanda hostility"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: high
+      confidence: high
+      notes: "SADC deployed; multiple mediation; DRC-Rwanda hostility; normal with disputes"
+
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2024 — AFC/M23 Goma/Bukavu; MONUSCO withdrawn"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        AFC/M23 captures Goma/Bukavu. MONUSCO completes withdrawal. SADC force withdraws.
+        DRC-Rwanda de facto state of war. Western condemnation of Rwanda but limited action.
+        Ceasefire talks (Qatar mediation). Partial isolation from some African partners
+        defending Rwanda.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "DRC 2024 — AFC/M23; MONUSCO/SADC withdraw; DRC-Rwanda de facto war"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: high
+      confidence: high
+      notes: "AFC/M23 Goma/Bukavu; MONUSCO/SADC withdraw; DRC-Rwanda war; partial isolation"
+
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "DRC 2025 — ceasefire talks; ongoing crisis"
+        url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        AFC/M23 holds eastern DRC. Qatar-mediated ceasefire talks. Western support for
+        DRC. DRC-Rwanda diplomatic hostility. Some African states ambiguous on Rwanda.
+        Partial isolation from some partners.
+      features:
+        - partial_isolation_some_closures
+      sources:
+        - citation: "DRC 2025 — ceasefire; Western support; Rwanda hostility"
+          url: "https://www.state.gov/countries-areas/democratic-republic-of-the-congo/"
+          type: government_report
+          reliability: medium
+      confidence: medium
+      notes: "Ceasefire talks; Western support; DRC-Rwanda hostility; partial isolation"

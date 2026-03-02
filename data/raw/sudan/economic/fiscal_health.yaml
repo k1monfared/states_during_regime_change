@@ -1,356 +1,636 @@
 indicator: fiscal_health
 country: sudan
 dimension: economic
+unit: debt_percent_gdp
 years:
   2004:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: -3.5
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Sudan''s fiscal position in 2004 was strained with significant
+        deficit spending on military operations in Darfur. Oil revenues provided some
+        cushion but were insufficient to balance spending. External debt was very
+        high from decades of borrowing. Government maintained subsidies on fuel and
+        food, adding to fiscal burden.
+
+        '
+      features:
+      - moderate_deficit_elevated_60_90pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Deficit from military operations and subsidies; external debt very high;
+        oil revenues partial cushion
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: -2.2
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fiscal deficit reduced as oil revenues grew and north-south war
+        ended, reducing military spending. CPA reduced some security expenditures.
+        However, external debt burden remained very large from accumulated arrears.
+        Sudan was in debt distress but oil revenues provided some fiscal breathing
+        room.
+
+        '
+      features:
+      - moderate_deficit_elevated_60_90pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: CPA reduced military spending; oil revenues growing; external debt arrears
+        very large
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: -1.2
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fiscal position improving with oil revenues. Small deficit. Oil
+        sector expansion provided significant revenue. Sudan maintained extensive
+        subsidies. External debt remained very high in absolute terms but fiscal flow
+        position improving.
+
+        '
+      features:
+      - moderate_deficit_elevated_60_90pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Oil revenues improving fiscal flow; external debt stock still very high;
+        subsidies maintained
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: -1.8
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fiscal deficit remained small with oil revenues supporting government
+        budget. Sudan maintained significant spending on security and subsidies. External
+        debt burden from pre-oil era arrears remained very large. Overall fiscal position
+        relatively manageable during oil boom.
+
+        '
+      features:
+      - moderate_deficit_elevated_60_90pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Oil boom supported fiscal position; security spending high; legacy debt
+        arrears large
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0.9
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Rare near-balanced fiscal position in 2008 with high oil prices
+        generating large revenues. Sudan achieved a small surplus from oil windfalls.
+        However, this masked structural fiscal vulnerability — government was entirely
+        dependent on oil. External debt remained very large.
+
+        '
+      features:
+      - small_deficit_manageable_30_60pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Near surplus from high oil prices; structural vulnerability masked; external
+        debt arrears unchanged
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: -3.8
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fiscal deficit widened significantly with global oil price decline
+        in 2009. Revenue shortfall forced expenditure cuts. ICC warrant further constrained
+        external financing options. Sudan''s structural fiscal vulnerability was exposed
+        when oil revenues fell.
+
+        '
+      features:
+      - moderate_deficit_elevated_60_90pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Oil price decline revealed structural fiscal vulnerability; ICC warrant
+        constrained financing
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: -2.1
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fiscal deficit moderated as oil prices recovered. Election year
+        spending increased government outlays. Sudan preparing for post-referendum
+        fiscal adjustment as oil revenue loss loomed. IMF was not engaged (no program)
+        due to sanctions and arrears.
+
+        '
+      features:
+      - moderate_deficit_elevated_60_90pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Election year spending; pre-referendum fiscal adjustment preparation;
+        no IMF program
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: -4.3
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fiscal deficit widened after South Sudan''s independence removed
+        approximately 75% of oil revenues from Sudan. The government faced an immediate
+        fiscal crisis. Expenditure could not be quickly reduced to match the revenue
+        loss. This was the beginning of the multi-year fiscal crisis.
+
+        '
+      features:
+      - large_deficit_high_90_120pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: South Sudan independence removed 75% of oil revenues; immediate fiscal
+        crisis; expenditure adjustment lagged
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: -3.3
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Severe fiscal deficit despite austerity measures. Transit fee negotiations
+        with South Sudan disrupted pipeline flows. Government resorted to monetary
+        financing (printing money), triggering hyperinflation. External debt continued
+        to accumulate as arrears mounted. No IMF access.
+
+        '
+      features:
+      - unsustainable_debt_crisis
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Monetary financing; hyperinflation; external debt accumulating; pipeline
+        transit dispute
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: -1.7
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fuel subsidy removal in September 2013 temporarily reduced fiscal
+        pressure but triggered mass protests. Difficult balancing act between fiscal
+        needs and political stability. Gold revenues from RSF-managed gold mining
+        partially offset oil loss. External debt situation remained unsustainable.
+
+        '
+      features:
+      - unsustainable_debt_crisis
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Fuel subsidy removal September 2013; mass protests; gold revenues helping;
+        external debt unsustainable
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: -1.7
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fiscal deficit continued with external debt growing. Sudan was
+        in persistent debt distress with large arrears to multilateral creditors (World
+        Bank, IMF, AfDB). No debt relief available due to US sanctions blocking HIPC
+        access. Gold exports providing some revenue.
+
+        '
+      features:
+      - unsustainable_debt_crisis
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: External debt arrears blocking HIPC; US sanctions preventing multilateral
+        debt relief; gold revenues partial offset
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: -2.5
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fiscal deficit widened as global commodity prices fell, reducing
+        gold and oil revenues. Government continued spending on security and conflicts.
+        Subsidy costs reduced but other expenditures maintained. External debt remained
+        very high and unsustainable.
+
+        '
+      features:
+      - unsustainable_debt_crisis
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Commodity price decline reduced revenues; security spending maintained;
+        debt crisis continued
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: -1.4
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fiscal deficit reduced somewhat. Government undertook some austerity.
+        However, external debt situation remained unsustainable with arrears at an
+        estimated 163% of GDP. No path to debt relief without US cooperation on sanctions
+        removal. Monetary financing continued causing inflation.
+
+        '
+      features:
+      - unsustainable_debt_crisis
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: External debt arrears ~163% GDP; no path to debt relief; monetary financing
+        continued
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: -1.7
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fiscal deficit continued. US partial sanctions lift created some
+        hope for banking sector normalization and eventual debt relief but did not
+        immediately change fiscal dynamics. External debt remained very high. Gold
+        mining revenues channeled partly through RSF rather than state budget.
+
+        '
+      features:
+      - unsustainable_debt_crisis
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: US partial sanctions lift; RSF gold revenues not fully in state budget;
+        external debt unchanged
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: -2.7
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fiscal deficit widened in 2018 as economic crisis deepened. Currency
+        collapse and hyperinflation reflected fiscal dominance where monetary policy
+        served fiscal needs. December 2018 protests triggered by inability to maintain
+        even basic services and subsidies. Fiscal collapse was primary driver of political
+        crisis.
+
+        '
+      features:
+      - fiscal_collapse
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Fiscal dominance driving hyperinflation; protests December 2018 triggered
+        by fiscal collapse; bread/fuel shortages
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: -3.8
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fiscal situation remained dire during transition. Transitional
+        government inherited a deeply insolvent state. Gulf pledges ($3B package)
+        provided some emergency liquidity. IMF engagement began but no program in
+        place. External debt at approximately 200% of GDP. Transition government sought
+        HIPC relief but process would take years.
+
+        '
+      features:
+      - fiscal_collapse
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: External debt ~200% GDP; Gulf $3B package; IMF engagement began; HIPC
+        relief sought
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: -5.2
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fiscal deficit deepened with COVID-19 impacts and continued structural
+        problems. Exchange rate unification as part of IMF program reduced subsidies
+        significantly. Sudan removed from US terrorism list (October 2020), opening
+        path to debt relief. IMF SMP (Staff Monitored Program) in place. But fiscal
+        consolidation painful amid hyperinflation.
+
+        '
+      features:
+      - fiscal_collapse
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: IMF SMP; US terrorism list removal October 2020; exchange rate unification;
+        COVID-19; subsidy removal
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: -3.5
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fiscal position improving before the October 2021 coup, with Sudan
+        qualifying for HIPC enhanced initiative. But coup in October 2021 suspended
+        IMF program and all international financial support. HIPC process frozen.
+        Deficit financed by money printing again. Fiscal trajectory reversed sharply.
+
+        '
+      features:
+      - fiscal_collapse
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: HIPC qualification before coup; coup October 2021 suspended everything;
+        monetary financing resumed
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: -1.8
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Military junta''s fiscal management relied on monetary financing
+        and gold revenues. No IMF program. External debt remained very high with no
+        relief path. Economy was pre-war fragile with limited fiscal space. The deficit
+        was partly reduced by hyperinflation eroding real expenditure values.
+
+        '
+      features:
+      - unsustainable_debt_crisis
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, Sudan, October
+          2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Pre-war; no IMF program; monetary financing; debt relief blocked; hyperinflation
+        erodes real expenditures
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: debt_percent_gdp
+      unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: IMF Sudan Article IV — suspended; no reliable fiscal data 2023
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Sudan's fiscal situation constituted collapse in 2023. Civil war
+        meant no functioning national fiscal system. Both SAF and RSF conducting independent
+        resource extraction. IMF Article IV consultations suspended. Debt in default.
+        Military spending unaccountable.
+      features:
+      - fiscal_collapse
+      sources:
+      - citation: World Bank Sudan economic update 2023
+        url: https://www.worldbank.org/en/country/sudan
+        type: international_organization_report
+        reliability: low
+      confidence: low
+      notes: Civil war fiscal collapse; no national budget; IMF suspended; dual fiscal
+        authority; debt default
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: debt_percent_gdp
+      unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: IMF Sudan Article IV — suspended; no reliable fiscal data 2024
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Sudan's fiscal situation constituted collapse in 2024. Civil war
+        meant no functioning national fiscal system. Both SAF and RSF conducting independent
+        resource extraction. IMF Article IV consultations suspended. Debt in default.
+        Military spending unaccountable.
+      features:
+      - fiscal_collapse
+      sources:
+      - citation: World Bank Sudan economic update 2024
+        url: https://www.worldbank.org/en/country/sudan
+        type: international_organization_report
+        reliability: low
+      confidence: low
+      notes: Civil war fiscal collapse; no national budget; IMF suspended; dual fiscal
+        authority; debt default
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: debt_percent_gdp
+      unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: IMF Sudan Article IV — suspended; no reliable fiscal data 2025
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Sudan's fiscal situation constituted collapse in 2025. Civil war
+        meant no functioning national fiscal system. Both SAF and RSF conducting independent
+        resource extraction. IMF Article IV consultations suspended. Debt in default.
+        Military spending unaccountable.
+      features:
+      - fiscal_collapse
+      sources:
+      - citation: World Bank Sudan economic update 2025
+        url: https://www.worldbank.org/en/country/sudan
+        type: international_organization_report
+        reliability: low
+      confidence: low
+      notes: Civil war fiscal collapse; no national budget; IMF suspended; dual fiscal
+        authority; debt default

@@ -3,7 +3,7 @@ country: syria
 dimension: transparency
 years:
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -13,13 +13,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Syria is an oil-producing state with declining production. Not a member of EITI
+        (Extractive Industries Transparency Initiative). Ba'ath authoritarian state kept
+        oil and gas revenues completely opaque. Syrian Petroleum Company (state-owned)
+        reported to government but no public disclosure. No extractive transparency.
+        No membership, minimal disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "EITI. 'Member countries 2009.' eiti.org."
+          url: "https://eiti.org"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "Syria not EITI member; state oil revenues opaque; Syrian Petroleum Company no disclosure; no membership"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -29,13 +39,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Syria not EITI member. Oil production approximately 380,000 barrels/day (declining
+        from peak of 600,000 in mid-1990s). Revenue opaque — major budget source but
+        not publicly disclosed. No extractive transparency. No membership, minimal disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "EIA. 'Syria oil production 2010.' eia.gov."
+          url: "https://www.eia.gov"
+          type: official_statistics
+          reliability: medium
+      confidence: high
+      notes: "Syria not EITI; ~380K bbl/day declining production; revenue opaque; no membership"
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -45,13 +63,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Syria not EITI member. Oil production disrupted by uprising. EU oil embargo
+        announced December 2011 (effective February 2012). Syria's oil revenues began
+        collapsing. Extractive revenues entirely opaque. No disclosure. No membership,
+        minimal disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "EU. 'Syria oil embargo December 2011.' consilium.europa.eu."
+          url: "https://www.consilium.europa.eu"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "Syria not EITI; EU oil embargo Dec; production disrupted; revenues opaque; no membership"
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -61,13 +88,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Syria not EITI member. EU oil embargo (effective February 2012) eliminated most
+        oil exports. Production collapsed in conflict areas. Oil fields in east seized by
+        opposition/ISIS. Remaining production opaque. Extractive revenues minimal and
+        entirely non-transparent. No membership, no disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "EIA. 'Syria energy profile 2012.' eia.gov."
+          url: "https://www.eia.gov"
+          type: official_statistics
+          reliability: medium
+      confidence: high
+      notes: "EU embargo effective Feb; oilfields seized; production collapsed; revenues opaque; no membership"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -77,13 +113,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Syria not EITI member. ISIS beginning to control oil fields in eastern Syria
+        (Raqqa, Deir ez-Zor area). ISIS oil revenues funding operations — entirely opaque.
+        Regime oil production minimal. No extractive transparency from any actor.
+        No membership, no disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "UN Panel of Experts on ISIL. 'ISIS oil revenues.' 2015."
+          url: "https://www.un.org"
+          type: official_document
+          reliability: high
+      confidence: medium
+      notes: "ISIS controlling eastern oilfields; ISIS oil revenue entirely opaque; regime oil minimal; no disclosure"
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -93,13 +138,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        ISIS controlling major oil fields generating $1-3 million/day in oil revenues (UN
+        estimates). Regime retained minimal oil production. SDF/YPG later controlling some
+        fields. Multiple actors with opaque oil revenues. No extractive transparency from
+        any actor. No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "UN Security Council. 'ISIL financing from oil.' S/2015/358. 2015."
+          url: "https://www.un.org"
+          type: official_document
+          reliability: high
+      confidence: medium
+      notes: "ISIS $1-3M/day oil revenues UN estimate; SDF some fields; regime minimal; all opaque; no disclosure"
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -109,13 +163,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        ISIS oil revenues targeted by US/Russian coalition airstrikes. ISIS oil revenues
+        declining from peak. SDF gaining some oil fields in northeast. Regime minimal oil.
+        Russian military intervention began September 2015 targeting ISIS oil infrastructure.
+        All extractive revenues opaque. No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "US Department of Defense. 'Operation Tidal Wave II — ISIS oil.' 2015."
+          url: "https://www.defense.gov"
+          type: official_document
+          reliability: high
+      confidence: medium
+      notes: "ISIS oil bombed by US/Russia; SDF gaining fields; all revenues opaque; no disclosure"
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -125,13 +188,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        ISIS oil revenues largely destroyed by airstrikes. SDF controlling most Syrian
+        oil (northeast fields). Regime minimal oil. Russian and Iranian economic deals
+        for post-war oil concessions opaque. No EITI. No extractive transparency.
+        No disclosure, opaque.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "IEA. 'Syria oil production 2016.' iea.org."
+          url: "https://www.iea.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "ISIS oil destroyed; SDF controlling northeast fields; Russian concessions opaque; no disclosure"
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -141,13 +213,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SDF (US-backed) controlling northeast oil fields (~90,000 bbl/day capacity, much
+        damaged). Regime minimal oil. Russian company Stroytransgaz receiving phosphate
+        concessions. Syrian government contracted Russian/Iranian companies for post-war
+        oil. No extractive transparency from any actor. No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "ICG. 'Keeping Syria's Economic Borders Open.' 2017."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "SDF NE oil 90K bbl capacity; Russian Stroytransgaz phosphates; Iranian oil concessions; no disclosure"
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -157,13 +238,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SDF still controlling northeast oil under US oversight (US company — Rosneft/Delta
+        Crescent Energy discussions). Regime controlling minimal oil. Russian/Iranian
+        concessional deals. No EITI. All extractive revenues opaque. No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Reuters. 'SDF oil — US oversight.' 2018."
+          url: null
+          type: news_analysis
+          reliability: medium
+      confidence: medium
+      notes: "SDF NE oil US oversight; Russian/Iranian concessions; no EITI; all opaque; no disclosure"
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -173,13 +262,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SDF controlling northeast oil. US company Delta Crescent Energy contract with SDF
+        for northeast oil development (2020). Regime minimal oil. No extractive transparency.
+        Caesar Act signed December 2019 — any oil revenues subject to secondary sanctions.
+        No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "US Department of State. 'Syria oil — SDF.' 2020."
+          url: "https://www.state.gov"
+          type: official_document
+          reliability: medium
+      confidence: medium
+      notes: "SDF NE oil; Delta Crescent contract; Caesar Act Dec; no EITI; no disclosure"
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -189,13 +287,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Caesar Act June 2020 targeted oil revenues. SDF/Autonomous Administration of
+        Northeast Syria controlling oil with some US oversight (Delta Crescent Energy
+        contract). Regime receiving minimal oil revenues. All opaque. No extractive
+        transparency. No disclosure, opaque.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "US Treasury OFAC. 'Caesar Act oil provisions.' June 2020."
+          url: "https://home.treasury.gov"
+          type: official_document
+          reliability: high
+      confidence: medium
+      notes: "Caesar Act oil provisions; SDF Delta Crescent contract; all revenues opaque; no disclosure"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -205,13 +312,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SDF/AANES controlling northeast oil with US backing. Regime minimal oil production.
+        Captagon drug trade becoming major regime revenue — completely opaque and not
+        extractive. Syria not EITI. All oil revenues opaque. No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Newlines Institute. 'Syria Captagon Industry.' 2021."
+          url: null
+          type: think_tank_report
+          reliability: medium
+      confidence: medium
+      notes: "AANES/SDF NE oil; Captagon regime revenue opaque; no EITI; no disclosure"
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -221,13 +336,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SDF/AANES controlling northeast oil (~80,000 bbl/day estimated). Regime Captagon
+        drug revenues (estimated $5+ billion annually). Syria not EITI. All extractive
+        and quasi-extractive revenues completely opaque. No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Reuters. 'Syria Captagon trade $5B+.' 2022."
+          url: null
+          type: news_analysis
+          reliability: medium
+      confidence: medium
+      notes: "AANES NE oil ~80K bbl; Captagon $5B+ regime; no EITI; all revenues opaque; no disclosure"
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -237,13 +360,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued opaque extractive revenues. AANES northeast oil production. Assad Captagon
+        revenues. Arab League readmission no impact on extractive transparency. No EITI.
+        No disclosure. The Captagon trade exposed Assad regime's criminal economy but no
+        reform of transparency.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "HRW. 'Syria Captagon — state involvement.' hrw.org. 2023."
+          url: "https://www.hrw.org"
+          type: ngo_report
+          reliability: high
+      confidence: medium
+      notes: "AANES oil; Captagon criminal revenues; Arab League no transparency reform; no EITI; no disclosure"
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -253,13 +385,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Assad regime collapse December 8. Captagon trade infrastructure disrupted by
+        collapse. AANES northeast oil continuing under SDF. Post-collapse: HTS/transitional
+        government inheriting resource transparency vacuum. Early discussions of economic
+        reconstruction and resource management transparency. No EITI membership. No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "ICG. 'Syria: After Assad.' December 2024."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: low
+      notes: "Captagon infrastructure disrupted; AANES oil continuing; transitional government resource vacuum; no disclosure"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -269,8 +410,18 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Transitional government beginning discussions on resource management. Syria's oil
+        resources (northeastern fields, phosphates) under multiple actors (AANES, Turkish
+        backed groups, new government). No EITI membership or application initiated yet.
+        International reconstruction discussions noting need for extractive transparency.
+        Minimal disclosure only — early transitional. No membership, minimal disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "ICG. 'Syria Transition 2025.' crisisgroup.org."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: low
+      notes: "AANES NE oil; phosphates; no EITI application; reconstruction discussions; minimal disclosure beginning"

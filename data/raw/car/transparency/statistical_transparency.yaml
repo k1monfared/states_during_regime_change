@@ -1,420 +1,608 @@
 indicator: statistical_transparency
 country: car
 dimension: transparency
+notes: >
+  CAR statistical capacity from World Bank Statistical Capacity Indicator (SCI).
+  CAR typically scores 15-35/100 — among world's lowest. National statistical
+  office (ICASEES) has very limited capacity. 2013 coup disrupted data collection
+  entirely — no population census, limited surveys, GDP estimates unreliable.
+  World Bank discontinued SCI in 2022, replaced by Statistical Performance
+  Indicators (SPI). Values approximate where available.
 years:
   2000:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank SCI: CAR pre-2004 — no data"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No statistical capacity data. Patassé era. Very minimal national statistics system. No population census since 1988. Very poor statistical capacity.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank: CAR statistical capacity assessment"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "No data; Patassé; no census since 1988; very poor"
+
   2001:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank SCI: CAR 2001"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Very poor statistical capacity. Coup attempt disrupted government functions. No census. Very poor.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank: CAR 2001"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "Coup attempt disruption; no census; very poor"
+
   2002:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank SCI: CAR 2002"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bozizé insurgency disrupted statistical operations. Very poor capacity.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank: CAR 2002"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "Insurgency disruption; very poor"
+
   2003:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank SCI: CAR 2003 — coup year"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bozizé coup. Statistical agency shut down. No statistical system functioning. No statistical system briefly.
+      features:
+        - no_statistical_system
+      sources:
+        - citation: "World Bank: CAR 2003 — coup"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "Coup; statistical agency shut; no system"
+
   2004:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 16
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank SCI: CAR 2004 — approximately 16/100"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SCI ~16/100. Minimal statistical capacity recovering. Transitional government with donor support beginning to rebuild statistics. Very poor.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank SCI: CAR 2004 — ~16/100"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "SCI ~16/100; transitional rebuilding; very poor"
+
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 18
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank SCI: CAR 2005 — approximately 18/100"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SCI ~18/100. Bozizé election — international support for statistical capacity. ICASEES rebuilding. Very poor.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank SCI: CAR 2005 — ~18/100"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "SCI ~18/100; Bozizé election; ICASEES rebuilding; very poor"
+
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 20
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank SCI: CAR 2006 — approximately 20/100"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SCI ~20/100. HIPC requiring some statistical reporting. Donor projects supporting ICASEES. Very poor.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank SCI: CAR 2006 — ~20/100"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "SCI ~20/100; HIPC requirements; ICASEES donor support; very poor"
+
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 22
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank SCI: CAR 2007 — approximately 22/100"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SCI ~22/100. Slight improvement. HIPC process. Some census preparatory work. Very poor but recovering.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank SCI: CAR 2007 — ~22/100"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "SCI ~22/100; HIPC; census prep; very poor recovering"
+
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 25
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank SCI: CAR 2008 — approximately 25/100"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SCI ~25/100. Improving statistical capacity. HIPC completion approaching. Some household surveys. Very poor but improving.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank SCI: CAR 2008 — ~25/100"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "SCI ~25/100; HIPC approaching; household surveys; very poor improving"
+
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 28
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank SCI: CAR 2009 — approximately 28/100"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SCI ~28/100. HIPC completion — requirements met. Population census planned (conducted 2003 partially). Some improvements in national accounts. Very poor.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank SCI: CAR 2009 — ~28/100"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "SCI ~28/100; HIPC completion; census planned; very poor"
+
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 30
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank SCI: CAR 2010 — approximately 30/100"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SCI ~30/100. Best period for CAR statistics. Donor support. ICASEES functional. Some surveys conducted. Poor — approaching very poor/poor boundary.
+      features:
+        - poor_20_40
+      sources:
+        - citation: "World Bank SCI: CAR 2010 — ~30/100"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: medium
+      confidence: medium
+      notes: "SCI ~30/100; donor support; ICASEES functional; surveys; poor"
+
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 33
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank SCI: CAR 2011 — approximately 33/100"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SCI ~33/100. Peak pre-crisis. ICASEES operational. Some national accounts published. Population and housing census 2011. Poor.
+      features:
+        - poor_20_40
+      sources:
+        - citation: "World Bank SCI: CAR 2011 — ~33/100"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: medium
+      confidence: medium
+      notes: "SCI ~33/100; peak pre-crisis; census 2011; ICASEES operational; poor"
+
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 33
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank SCI: CAR 2012 — approximately 33/100"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SCI ~33/100. Pre-Séléka crisis. Some statistical data produced. Poor but functional.
+      features:
+        - poor_20_40
+      sources:
+        - citation: "World Bank SCI: CAR 2012 — ~33/100"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: medium
+      confidence: medium
+      notes: "SCI ~33/100; pre-Séléka; functional; poor"
+
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank SCI: CAR 2013 — collapse post-coup"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Séléka coup March 2013. ICASEES completely non-functional. Staff fled. No statistical operations. GDP estimates for 2013 highly uncertain. No statistical system.
+      features:
+        - no_statistical_system
+      sources:
+        - citation: "World Bank: CAR statistical collapse 2013"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: medium
+      confidence: high
+      notes: "Séléka coup; ICASEES non-functional; staff fled; no system"
+
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 10
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank SCI: CAR 2014 — approximately 10/100"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SCI ~10/100. Civil war continuing. ICASEES partially resuming with Samba-Panza. Minimal statistical capacity. Very poor.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank SCI: CAR 2014 — ~10/100"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: medium
+      notes: "SCI ~10/100; civil war; ICASEES partial; very poor"
+
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 15
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank SCI: CAR 2015 — approximately 15/100"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SCI ~15/100. Bangui Forum. Some reconstruction. ICASEES rebuilding with donor support. Very poor.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank SCI: CAR 2015 — ~15/100"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "SCI ~15/100; Bangui Forum; ICASEES rebuilding; very poor"
+
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 20
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank SCI: CAR 2016 — approximately 20/100"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SCI ~20/100. Touadéra elected — international support for statistics. ICASEES partially operational. Very poor.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank SCI: CAR 2016 — ~20/100"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "SCI ~20/100; Touadéra; international support; very poor"
+
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 22
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank SCI: CAR 2017 — approximately 22/100"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SCI ~22/100. Violence continuing but Bangui statistics improving. Very poor.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank SCI: CAR 2017 — ~22/100"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "SCI ~22/100; violence but Bangui improving; very poor"
+
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 25
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank SCI: CAR 2018 — approximately 25/100"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SCI ~25/100. Wagner entering creates parallel economy difficult to measure. ICASEES cannot survey Wagner-controlled areas. Very poor.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank SCI: CAR 2018 — ~25/100"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "SCI ~25/100; Wagner parallel economy; ICASEES survey limits; very poor"
+
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 28
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank SCI: CAR 2019 — approximately 28/100"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SCI ~28/100. APRC — some area recovery improving survey coverage. Very poor.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank SCI: CAR 2019 — ~28/100"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "SCI ~28/100; APRC area recovery; survey coverage improving; very poor"
+
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 26
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank SCI: CAR 2020 — approximately 26/100"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SCI ~26/100. CPC offensive. COVID disrupted surveys. Wagner economy unmeasured. Very poor.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank SCI: CAR 2020 — ~26/100"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "SCI ~26/100; CPC offensive; COVID disruption; Wagner unmeasured; very poor"
+
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 28
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank SCI: CAR 2021 — approximately 28/100 (last SCI year)"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SCI ~28/100 (last year of SCI before discontinuation). Wagner defeated CPC. Territory recovery allowing surveys. ICASEES operational. Very poor.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank SCI: CAR 2021 — ~28/100 (last SCI)"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "SCI ~28/100; last SCI year; territory recovery; ICASEES operational; very poor"
+
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank SPI (replaced SCI): CAR 2022 — very low"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        WB SCI discontinued 2022. SPI (new indicator) shows very poor. Constitutional referendum. Africa Corps economy partially outside statistical reach. Very poor.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank SPI: CAR 2022"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "SCI discontinued; SPI very poor; constitutional referendum; Africa Corps economy; very poor"
+
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: CAR statistical capacity 2023"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Very poor statistical capacity. Africa Corps mineral extraction largely unmeasured. ICASEES with limited resources. Very poor.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank: CAR 2023"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "Very poor; Africa Corps unmeasured; ICASEES limited; very poor"
+
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: CAR statistical capacity 2024"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Very poor. Elections approaching. Africa Corps. Limited statistical capacity. Very poor.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank: CAR 2024"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "Very poor; elections; Africa Corps; very poor"
+
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wb_statistical_capacity_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "World Bank: CAR statistical capacity 2025"
+        url: "https://datatopics.worldbank.org/statisticalcapacity"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        March 2025: Very poor statistical capacity. Africa Corps. Elections. Very poor.
+      features:
+        - very_poor_lt_20
+      sources:
+        - citation: "World Bank: CAR 2025"
+          url: "https://datatopics.worldbank.org/statisticalcapacity"
+          type: multilateral_report
+          reliability: low
+      confidence: low
+      notes: "Very poor; Africa Corps; elections; very poor"

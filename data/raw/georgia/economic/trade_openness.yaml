@@ -2,499 +2,665 @@ indicator: trade_openness
 country: georgia
 dimension: economic
 years:
+  1988:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: trade_pct_gdp
+      source:
+        citation: World Bank WDI — Soviet era; no market trade data
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Soviet command economy. Inter-republican trade not market-based. External trade minimal and state-controlled.
+      features:
+      - restricted_20_40pct
+      sources: []
+      confidence: low
+      notes: Soviet era
+  1989:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: trade_pct_gdp
+      source:
+        citation: Not applicable
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Soviet era. No market trade data.
+      features:
+      - restricted_20_40pct
+      sources: []
+      confidence: low
+      notes: Soviet era
+  1990:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: trade_pct_gdp
+      source:
+        citation: Not applicable
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Soviet collapse. Trade relationships collapsing.
+      features:
+      - restricted_20_40pct
+      sources: []
+      confidence: low
+      notes: Soviet collapse
+  1991:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: trade_pct_gdp
+      source:
+        citation: Not applicable
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Independence. Soviet trade network collapsing. New trade relationships not yet formed.
+      features:
+      - restricted_20_40pct
+      sources: []
+      confidence: low
+      notes: Independence; Soviet trade collapsed
+  1992:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: trade_pct_gdp
+      source:
+        citation: Not applicable
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Civil war. Trade disrupted. Economy in barter.
+      features:
+      - restricted_20_40pct
+      sources: []
+      confidence: low
+      notes: Civil war; barter economy
+  1993:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: trade_pct_gdp
+      source:
+        citation: Not applicable
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Abkhazia war. Trade minimal. Economy destroyed.
+      features:
+      - restricted_20_40pct
+      sources: []
+      confidence: low
+      notes: Economy destroyed; trade minimal
+  1994:
+    data_status: partial
+    quantitative:
+      value: 30.0
+      unit: trade_pct_gdp
+      source:
+        citation: World Bank WDI — Georgia 1994; estimated early transition
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Estimated ~30% trade/GDP. Trade emerging from post-civil-war collapse. IMF program. Re-establishing trade
+        links. Russia was main trading partner.
+      features:
+      - restricted_20_40pct
+      sources: []
+      confidence: low
+      notes: Estimated ~30%; recovery from war
   1995:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 57.7
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 1995
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 57.7% of GDP. Rapid trade liberalization post-Soviet. Georgia opened its economy. Lari introduced.
+        IMF program. Turkey, Russia, EU emerging as trade partners.
+      features:
+      - moderate_40_70pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 57.7%; trade liberalization; lari'
   1996:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 66.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 1996
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 66%. Increasing openness. Transit economy developing. Pipeline transit (early agreements). Russia
+        dominant.
+      features:
+      - moderate_40_70pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 66%; transit economy'
   1997:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 72.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 1997
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 72%. Growing openness. BTC pipeline agreed. Trade diversification starting.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 72%; BTC agreed; growing'
   1998:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 64.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 1998
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 64%. Russian financial crisis reduced trade. Lari depreciation affecting imports.
+      features:
+      - moderate_40_70pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 64%; Russian crisis; lari depreciation'
   1999:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 67.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 1999
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 67%. Recovery from Russian crisis. BTC agreements. Trade routes developing.
+      features:
+      - moderate_40_70pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 67%; recovery'
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 73.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2000
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 73%. Shevardnadze era. Trade growing despite corruption. BTC construction advancing.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 73%; BTC construction'
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 72.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2001
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 72%. Stable pre-revolution. WTO accession 2000 (Georgia joined WTO June 2000).
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 72%; WTO member since 2000'
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 68.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2002
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 68%. Pre-revolution slowdown. Corruption affecting trade efficiency.
+      features:
+      - moderate_40_70pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 68%; pre-revolution'
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 66.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2003
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 66%. Rose Revolution November 2003. Trade policy liberalization immediately after revolution.
+      features:
+      - moderate_40_70pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: 66%; Rose Revolution; liberalization began'
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 70.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2004
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 70%. Post-revolution liberalization. Saakashvili major tariff reductions. Flat tax. Business environment
+        improved. FDI inflows.
+      features:
+      - moderate_40_70pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 70%; post-revolution; tariff reduction; FDI'
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 83.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2005
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 83%. BTC pipeline opened — transit revenues. Significant trade expansion. Georgia became a transit
+        hub. Deregulation.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 83%; BTC transit; high openness'
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 95.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2006
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 95%. Near full openness. Russia banned Georgian wine/mineral water — trade diversification forced.
+        EU, Turkey, China growing as partners. Transit economy.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 95%; near full openness; Russia ban forced diversification'
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 96.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2007
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 96%. Very open economy. FDI peak. Economic boom. Georgia became one of most open economies in post-Soviet
+        space.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 96%; very open; FDI peak'
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 95.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2008
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 95%. Russia-Georgia War — trade disrupted briefly. War damage to some trade infrastructure. International
+        aid inflows distorted GDP. Trade remained high despite war.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 95%; war disrupted; aid inflows'
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 82.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2009
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 82%. Post-war recession. FDI collapse. Imports fell sharply. Global crisis.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 82%; post-war; FDI collapse'
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 88.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2010
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 88%. Recovery. Free trade agreement with Turkey (2007). EU PCA. Trade recovery.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 88%; recovery; Turkey FTA'
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 98.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2011
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 98%. Strong recovery. EU AA negotiations. Free trade areas developing. Tourism growing.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 98%; high openness; EU AA'
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 99.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2012
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 99%. Georgian Dream won elections. Very open economy maintained. FTAs growing.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 99%; very open'
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 100.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2013
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 100% of GDP. EU AA negotiations almost complete. DCFTA approaching. Highly open economy. EU, Turkey,
+        Russia, China as main partners.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 100%; full openness; EU AA approaching'
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 104.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2014
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 104% of GDP. EU AA+DCFTA signed June 2014. One of world's most open economies. Transit hub. EU becoming
+        dominant trade partner.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 104%; EU AA+DCFTA; very open'
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 101.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2015
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 101%. Slight decline due to lari depreciation and regional slowdown. EU DCFTA benefits starting. Highly
+        open maintained.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 101%; lari depreciation; DCFTA'
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 103.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2016
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 103%. EU DCFTA deepening. Tourism growing. Transit role.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 103%; DCFTA; tourism'
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 110.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2017
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 110%. Very high. EU visa-free. Tourism boom. DCFTA fully operational. Among most open economies in
+        the world.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 110%; very open; EU visa-free; DCFTA'
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 116.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2018
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 116%. Peak openness. Tourism boom. Financial services. China FTA (entered force 2018). Very open.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 116%; China FTA; peak openness'
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 122.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2019
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 122%. Record openness. Tourism peak year (9M visitors). Russia flight ban but tourism redirected.
+        Highly integrated global economy.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 122%; record; tourism 9M; Russia ban redirected'
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 91.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2020
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 91%. COVID collapse. Tourism to near-zero. Global trade disruption. Dramatic fall from 122%.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 91%; COVID; tourism zero; sharp fall'
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 100.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2021
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 100%. Recovery. Tourism recovering. Strong GDP growth. Saakashvili arrested.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 100%; recovery'
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 113.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2022
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 113%. Russian emigre influx boosted services trade. Russia-Ukraine war rerouted some trade through
+        Georgia. High openness maintained.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 113%; Russian emigre; rerouted trade'
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 116.0
+      unit: trade_pct_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Georgia 2023
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=GE
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade 116%. High openness. Tourism continued strong. EU trade dominant. Russian re-export trade significant.
+        Foreign agents protests.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'WB: 116%; high; EU dominant; Russian re-export'
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 115.0
+      unit: trade_pct_gdp
       source:
-        citation: null
+        citation: Estimated — WB 2024 not yet available
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Estimated ~115%. Political crisis (disputed elections, EU suspension). Trade continuing despite political
+        crisis. High openness maintained.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Estimated; political crisis; EU suspended; trade maintained
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_gdp
+      unit: trade_pct_gdp
       source:
-        citation: null
+        citation: Ongoing
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade outlook uncertain amid political crisis and EU suspension.
+      features:
+      - restricted_20_40pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: 2025 partial; uncertain

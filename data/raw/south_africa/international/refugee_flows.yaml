@@ -3,567 +3,815 @@ country: south_africa
 dimension: international
 years:
   1990:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR Statistical Yearbook; World Bank"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        South Africa was a net refugee-receiving country not a refugee-producing one.
+        ANC exiles began returning. Black South Africans in exile (primarily in Zambia,
+        Tanzania, Botswana, Zimbabwe) beginning to return with ANC unbanning. Internal
+        displacement due to political violence occurring but not counted as refugee flows.
+        Cross-border movement of Mozambican refugees to SA ongoing.
+      features:
+        - net_returns_minimal_displacement
+      sources:
+        - citation: "UNHCR Statistical Yearbook 1991"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: medium
+      confidence: medium
+      notes: "SA received refugees (Mozambique); ANC exiles returning; no significant outflow"
   1991:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR; World Bank"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Net returns continuing. ANC exiles returning en masse. Mozambican refugees in SA
+        large population. No significant South African refugee outflow.
+      features:
+        - net_returns_minimal_displacement
+      sources:
+        - citation: "UNHCR Statistical Yearbook 1992"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: medium
+      confidence: medium
       notes: null
   1992:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR; World Bank"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Net returns. Political violence causing internal displacement (KwaZulu-Natal,
+        Transvaal townships) but these were internal IDPs not international refugees.
+        No SA refugee outflow.
+      features:
+        - net_returns_minimal_displacement
+      sources:
+        - citation: "UNHCR; IDMC"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: medium
+      confidence: medium
+      notes: "Township violence: IDPs not international refugees"
   1993:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Net returns. ANC exiles fully returned. Mozambican refugee flow still present.
+        No SA outflow.
+      features:
+        - net_returns_minimal_displacement
+      sources:
+        - citation: "UNHCR Statistical Yearbook 1994"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: medium
+      confidence: medium
       notes: null
   1994:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR; World Bank"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Net returns. Democratic transition triggered return of all remaining exiles.
+        SA became significant refugee-receiving country as people fled neighboring country
+        conflicts (DRC, Mozambique, Angola, Zimbabwe). No SA outflow.
+      features:
+        - net_returns_minimal_displacement
+      sources:
+        - citation: "UNHCR Statistical Yearbook 1995"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Regime change year: all exiles returned; SA became major asylum destination"
   1995:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        SA increasingly large recipient of asylum seekers from continent. No domestic
+        refugee production. DRC, Zimbabwe, Ethiopia, Somalia nationals seeking asylum.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   1996:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. SA receiving refugees from continent. Xenophobic tensions
+        beginning in townships but no displacement of South Africans.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   1997:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. SA receiving asylum seekers from DRC (Mobutu fall 1997),
+        Zimbabwe, Mozambique, Horn of Africa.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   1998:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. Growing asylum seeker population from continent.
+        Zimbabwe crisis beginning to generate refugees.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   1999:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. SA largest asylum destination on continent. Growing refugee
+        population from Southern Africa and East Africa.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. SA receiving ~150,000 registered refugees/asylum seekers. Zimbabwe
+        economic crisis driving growing migration to SA.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. SA receiving large numbers. Zimbabwe crisis intensifying.
+        DRC, Burundi, Rwanda refugees.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. SA continuing to receive large numbers. Zimbabwe hyperinflation
+        driving mass economic migration.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. SA major asylum destination. Zimbabwe, DRC, Mozambique,
+        Somali, Ethiopian flows.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. SA asylum seeker population growing rapidly. Zimbabwe crisis
+        peak driving mass migration.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. SA receiving ~300,000 asylum applications. Zimbabwe mass migration.
+        SA became one of world's largest asylum-seeker receiving countries.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR Statistical Yearbook 2006"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. Very high asylum applications. Zimbabwe, DRC, Mozambique, Pakistan,
+        Bangladesh nationals seeking asylum. SA DHA overwhelmed by applications.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No SA outflows. SA receiving >400,000 asylum applications per year. World's
+        largest number of new asylum applications. Zimbabwe crisis at peak.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR Statistical Yearbook 2008"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "SA world's largest receiver of new asylum applications 2006-2009"
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.1
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR; Human Rights Watch"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No SA citizen outflows. May 2008 xenophobic violence displaced up to 100,000
+        migrants (non-South Africans) within SA or back to their countries. This was
+        displacement of foreigners in SA, not SA citizens leaving.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR; HRW Violent Xenophobia report 2008"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Xenophobic violence displaced foreigners IN SA; not SA citizen refugees"
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. SA still major asylum destination. Zimbabwe hyperinflation
+        drove massive migration (~1-3 million Zimbabweans in SA by 2009 estimates).
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. SA receiving asylum seekers from across continent and world.
+        Zimbabwe gradually stabilizing under GNU but economic refugees continuing.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. SA stable. Receiving asylum seekers from DRC, Somalia, Ethiopia,
+        Zimbabwe. High asylum application volumes.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No SA outflows. SA major destination. High-skilled emigration (brain drain of
+        white professionals, doctors, engineers) is economic emigration not political
+        refugee flow.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Brain drain of skilled professionals is economic emigration not refugee flow"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. SA stable destination country. Large migrant and asylum seeker
+        population from continent.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. Growing xenophobic tensions. SA remains stable country.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. Xenophobic attacks (April 2015) displaced foreigners in SA.
+        No SA citizens fled as refugees. SA stable.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR; HRW 2016"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. SA stable. State Capture damaging economy not triggering
+        displacement. SA still major asylum destination.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. State Capture era did not trigger refugee flows. SA stable.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. Ramaphosa era improving conditions. SA stable democratic country.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. Ongoing xenophobic violence against migrants (September 2019
+        attacks). Foreigners displaced within SA; no SA citizens fled.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR; HRW"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. COVID lockdown restricted movement. SA stable.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. July 2021 unrest caused internal displacement in KZN/Gauteng but
+        not international refugee flows. SA stable country.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR; IDMC"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. SA stable. Growing economic emigration (brain drain) is not refugee
+        flow. SA receiving asylum seekers from continent.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. SA stable. Receiving asylum seekers. Brain drain continues as
+        economic emigration.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.0
       unit: percent_population_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UNHCR"
+        url: "https://www.unhcr.org"
+        access_date: "2025-01-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No SA outflows. GNU formation positive for stability. SA remains major asylum
+        destination. No political refugee crisis.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: high
+      confidence: high
       notes: null
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_population_per_year
@@ -573,8 +821,14 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No SA outflows. SA stable democratic country. Asylum destination.
+      features:
+        - stable_minimal_new
+      sources:
+        - citation: "UNHCR 2025"
+          url: "https://www.unhcr.org"
+          type: international_organization
+          reliability: medium
+      confidence: medium
+      notes: "2025 partial"

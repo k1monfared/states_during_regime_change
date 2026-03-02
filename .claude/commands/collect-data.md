@@ -13,11 +13,43 @@ If years are unspecified, use the country's full time range (auto-calculated as:
 
 If indicators are unspecified, collect data for ALL indicators across ALL dimensions.
 
+## Source Routing Table
+
+For each indicator, consult the listed source skill for data sourcing guidance:
+
+| Indicator | Primary Source Skill | Fallback |
+|-----------|---------------------|---------|
+| gdp_per_capita | `source-worldbank` | `source-imf` |
+| inflation | `source-imf` | `source-worldbank` |
+| unemployment | `source-worldbank` | — |
+| trade_openness | `source-worldbank` | — |
+| fiscal_health | `source-imf` | — |
+| political_violence | `source-conflict` | `source-qualitative` |
+| territorial_control | `source-qualitative` | `source-conflict` |
+| institutional_functioning | `source-vdem` | `source-freedomhouse` |
+| civil_liberties | `source-freedomhouse` | `source-vdem` |
+| elite_cohesion | `source-qualitative` | `source-vdem` |
+| sanctions | `source-qualitative` | — |
+| diplomatic_integration | `source-qualitative` | — |
+| foreign_military | `source-qualitative` | — |
+| fdi | `source-worldbank` | — |
+| refugee_flows | `source-unhcr` | — |
+| budget_transparency | `source-openbudget` | — |
+| press_freedom | `source-rsf` | `source-freedomhouse` |
+| statistical_transparency | `source-worldbank` | — |
+| legal_transparency | `source-wjp` | `source-qualitative` |
+| extractive_transparency | `source-eiti` | — |
+
+Source skill files live at `.claude/skills/source-<name>/SKILL.md`. Each covers: what to measure, access URLs, citation format, scale/unit, coverage gaps, and reliability.
+
+> **Note for political_violence**: The death count → feature tag crosswalk is in the `source-conflict` skill — read that skill before picking feature tags.
+
 ## Process
 
 1. **Read the config files** to understand the indicator definitions and valid features:
    - `data/config/indicators.yaml` — valid features vocabulary, units, descriptions
    - `data/config/scoring_rubrics.yaml` — understand what score ranges the features map to
+   - `data/config/countries.yaml` — country's **time_range** and regime_change_years (read this before starting to determine the correct year range)
 
 2. **For each indicator-year combination**, research and fill in:
    - `data_status`: Set to `complete` if you have solid data, `partial` if incomplete, leave as `missing` if you find nothing
@@ -89,7 +121,7 @@ Indicators per dimension:
 
 ### New country not yet scaffolded
 1. First add the country entry to `data/config/countries.yaml`
-2. Run `python3 data/scripts/scaffold.py --country <new_id>`
+2. Run `/scaffold-country <country_id>` (faster than running scaffold.py directly)
 3. Then fill in the data as normal
 
 ### New indicator or dimension
@@ -107,13 +139,41 @@ If the time_range needs extending (e.g., new data for 2026):
 2. Run `python3 data/scripts/scaffold.py --country <id>` (adds new year entries)
 3. Fill in the new years
 
+## Handling Unknowable Years
+
+If a year is genuinely unknowable (e.g., active conflict zone, information blackout, pre-dataset coverage):
+- Set `data_status: missing`
+- Set `quantitative.value: null`
+- In `qualitative.notes`: explain *why* it's unknowable (e.g., "No reliable data available; conflict destroyed statistical infrastructure")
+- Set `qualitative.confidence: null`
+- Do NOT set `data_status: partial` unless you have at least some data
+
 ## After Collection
 
 Run these to verify your work:
 ```bash
 python3 data/scripts/validate.py --country <country_id>
 python3 data/scripts/generate_scores.py --country <country_id> --verbose --only-scored
+python3 data/scripts/plot_data.py --countries <country_id> --show-dimensions --output plots/<country_id>_dimensions.png
+# Quick visual sanity check — confirm the data looks reasonable before finishing
 ```
+
+Or use the dedicated commands:
+- `/validate-data --country <country_id>`
+- `/generate-scores --country <country_id>`
+
+## Session Learning Prompt
+
+After completing a collection session, if you encountered any edge cases, confusing instructions, or gaps in sourcing guidance, append a note to `.claude/meta/learnings/collect-data.md` (or the relevant `source-*` skill's learnings file) in this format:
+
+```markdown
+## YYYY-MM-DD
+- <what worked well>
+- <what was confusing or missing>
+- <edge case encountered and how it was resolved>
+```
+
+This feeds the `/improve-skill` meta-skill for continuous improvement.
 
 ## Now proceed
 

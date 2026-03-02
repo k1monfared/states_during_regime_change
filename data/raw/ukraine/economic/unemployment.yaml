@@ -2,419 +2,608 @@ indicator: unemployment
 country: ukraine
 dimension: economic
 years:
+  1999:
+    data_status: complete
+    quantitative:
+      value: 11.9
+      unit: percent_labor_force
+      source:
+        citation: World Bank WDI, ILO modeled estimate, Ukraine unemployment
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
+    qualitative:
+      assessment: 'Unemployment was 11.9% in 1999 at the nadir of the post-Soviet economic contraction.
+
+        Official Ukrainian labor statistics often understated unemployment; actual joblessness
+
+        including hidden unemployment and underemployment was higher.
+
+        '
+      features:
+      - elevated_10_15pct
+      sources:
+      - citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Post-Soviet trough unemployment; official rate likely understated
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 11.5
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate, Ukraine unemployment
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment remained elevated at 11.5% despite economic recovery starting. Industrial restructuring slow.
+      features:
+      - elevated_10_15pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Still high despite growth resumption
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 10.8
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment declined to 10.8% as economic growth accelerated.
+      features:
+      - elevated_10_15pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Declining with economic growth
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 9.6
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment continued declining to 9.6%.
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Continued improvement
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 9.1
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment declined to 9.1% with strong 9.6% real GDP growth.
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Strong growth reducing unemployment
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 8.6
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment fell to 8.6% as boom conditions in 2004 (12% real growth) absorbed workers.
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Improving with 12% growth; Orange Revolution year
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 7.2
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment fell to 7.2%, continuing the downward trend from post-Soviet highs.
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Improving labor market; post-revolution period
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 6.8
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment declined to 6.8%. Labor market improving with strong growth.
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Strong labor market improvement
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 6.4
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment declined further to 6.4% during the pre-crisis boom.
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Pre-crisis low unemployment
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 6.4
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment held at 6.4% through most of 2008 before crisis hit in Q4.
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Pre-crisis low; crisis hit Q4 2008
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 8.8
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment jumped to 8.8% during the 2009 crisis with 14.8% GDP contraction.
+
+        Industrial layoffs especially in steel and chemical sectors drove unemployment up sharply.
+
+        '
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Crisis-driven unemployment spike; industrial layoffs
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 8.1
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment began declining to 8.1% as recovery began.
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Post-crisis recovery; Yanukovych presidency
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 7.9
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment continued declining to 7.9%.
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Continued improvement
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 7.5
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment 7.5% despite near-stagnation (0.2% real growth).
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Stagnation but unemployment still declining
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 7.2
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment 7.2% in 2013, pre-revolution year. Euromaidan protests began November 2013.
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Pre-revolution; Euromaidan began November 2013
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 9.3
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment jumped to 9.3% following the 2014 revolution, Crimea annexation, and
+
+        Donbas conflict. Industrial disruption in eastern Ukraine particularly hit steel
+
+        and coal workers. GDP contracted 6.6%.
+
+        '
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Post-revolution crisis unemployment; Donbas industrial disruption
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 9.1
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment remained elevated at 9.1% in 2015 as the deep recession (9.8% GDP
+
+        contraction) continued. Donbas conflict and economic adjustment caused continued
+
+        labor market stress. Official rate likely understated actual hardship.
+
+        '
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Crisis-level unemployment; official rate understates actual hardship
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 9.5
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment 9.5% despite return to modest growth. Labor market adjustment continued.
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Lagging labor market recovery
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 9.7
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment slightly increased to 9.7%. Structural unemployment from Donbas deindustrialization persisted.
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Structural unemployment from war displacement
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 9.0
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment began declining to 9.0% with stronger economic growth (3.4% real).
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Gradual improvement with growth
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 8.5
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment declined to 8.5% in 2019. Zelensky presidency brought investor confidence; labor market improving.
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Improving labor market; Zelensky elected
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 9.2
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment rose to 9.2% due to COVID-19 lockdowns and service sector disruptions.
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: COVID-19 impact
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 9.8
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, ILO modeled estimate
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Unemployment remained elevated at 9.8% in 2021 despite economic recovery.
+      features:
+      - moderate_5_10pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Pre-invasion; labor market not fully recovered
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 24.5
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: ILO/World Bank modeled estimates; wartime conditions
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment surged to approximately 24.5% following Russia''s full-scale invasion
+
+        of February 2022. Millions displaced internally and abroad; businesses closed;
+
+        manufacturing disrupted. Official statistics unreliable during wartime. ILO estimated
+
+        ~24-28% during peak displacement. Western aid and reconstruction partially offset.
+
+        '
+      features:
+      - high_15_25pct
+      sources:
+      - citation: ILO Ukraine labor market assessment 2022
+        url: https://www.ilo.org/global/topics/employment-promotion/recovery-and-reconstruction/WCMS_843473/lang--en/index.htm
+        type: international_organization
+        reliability: low
+      confidence: low
+      notes: Highly uncertain; invasion caused massive labor market disruption; ~24-28% estimated range
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 19.1
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: ILO/World Bank modeled estimates; wartime conditions
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment declined to approximately 19% in 2023 as economy partially adjusted
+
+        to war conditions and some displaced workers returned or found new employment.
+
+        Official Ukrainian statistics show improvement but wartime data has quality concerns.
+
+        '
+      features:
+      - high_15_25pct
+      sources:
+      - citation: World Bank/ILO estimates
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        type: international_organization
+        reliability: low
+      confidence: low
+      notes: Wartime data uncertain; partial improvement as economy adapted
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 14.2
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: ILO modeled estimates Ukraine 2024
+        url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Unemployment estimated declining to ~14% as reconstruction activity created jobs
+
+        and economy further adapted to wartime conditions. Labor shortages in some sectors
+
+        due to mobilization and emigration of working-age population.
+
+        '
+      features:
+      - elevated_10_15pct
+      sources:
+      - citation: ILO estimates
+        url: https://www.ilo.org
+        type: international_organization
+        reliability: low
+      confidence: low
+      notes: Wartime data uncertain; labor shortages in some sectors due to mobilization
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 12.0
       unit: percent_labor_force
       source:
-        citation: null
+        citation: Estimated; wartime conditions
         url: null
         access_date: null
-      reliability: null
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Provisional 2025 estimate; wartime conditions make reliable estimates difficult.
+      features:
+      - elevated_10_15pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: 2025 provisional; war outcome determines labor market

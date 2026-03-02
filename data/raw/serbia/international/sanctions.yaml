@@ -3,498 +3,563 @@ country: serbia
 dimension: international
 years:
   1995:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 3
+      unit: sanctions_index_0_3
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UN SC resolutions — comprehensive sanctions on FRY 1992-1995/1996
+        url: https://www.un.org/securitycouncil/sanctions/information
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'FRY (Serbia & Montenegro) under comprehensive UN Security Council sanctions since
+
+        1992 (UNSC 757, 820, 942). Most comprehensive sanctions against any European state:
+
+        trade embargo, arms embargo, oil embargo, financial freeze, air/communications
+
+        embargo. Dayton Agreement (November 1995) led to suspension/lifting of some
+
+        sanctions. Score: 3 (maximum — comprehensive multi-dimensional sanctions).
+
+        '
+      features:
+      - comprehensive_sanctions
+      - sectoral_sanctions
+      sources:
+      - citation: UN Security Council sanctions on FRY
+        url: https://www.un.org/securitycouncil/sanctions/information
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: UN comprehensive sanctions 1992-1996; Dayton led to suspension; score 3
   1996:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 2
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: UN SC — UN sanctions suspended post-Dayton 1995; some US/EU targeted measures remained
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: 'Comprehensive UN sanctions largely suspended after Dayton (November 1995). Some US/EU bilateral targeted
+        measures remained on key individuals. Score: 2 (significant targeted measures).'
+      features:
+      - targeted_individuals_only
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: UN suspended; US/EU targeted measures; outer wall sanctions (UN membership blocked)
   1997:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 2
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: US/EU — outer wall sanctions maintained; Kosovo violence 1997-1998
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Targeted measures and 'outer wall' sanctions maintained — blocked FRY from IMF, World Bank, WTO, UN succession.
+        Kosovo repression led to additional US/EU measures.
+      features:
+      - targeted_individuals_only
+      - sectoral_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: Outer wall sanctions; IMF/WB/WTO blocked; Kosovo measures
   1998:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 3
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: UNSC Res 1160/1199 — Kosovo conflict sanctions; EU/US arms embargo
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: 'Sanctions escalated due to Kosovo conflict. UNSC 1160 (1998) arms embargo. EU investment ban. US expanded
+        sanctions. Score: 3 (comprehensive escalation).'
+      features:
+      - comprehensive_sanctions
+      - sectoral_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: UNSC 1160; arms embargo; EU investment ban; Kosovo conflict sanctions
   1999:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 3
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: Comprehensive sanctions during NATO bombing + Kosovo war
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: 'Maximum sanctions during Kosovo War/NATO bombing. All major Western economic relationships severed. Oil
+        embargo, financial freeze, travel bans on Milošević regime. Score: 3.'
+      features:
+      - comprehensive_sanctions
+      - comprehensive_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: NATO bombing + maximum sanctions; financial freeze; oil embargo; travel bans
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 2
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: Milošević personal sanctions; post-revolution some easing
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: 'Bulldozer Revolution (October 2000) — Western powers began rapidly lifting sanctions on Serbia proper.
+        Milošević personally sanctioned. Score: 2 (transitioning from 3 to 1 rapidly).'
+      features:
+      - targeted_individuals_only
+      - targeted_individuals_only
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: Revolution; rapid sanctions lifting; Milošević personal sanctions maintained
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 1
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: Most sanctions lifted; Milošević extradited to ICTY June 2001
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Most sanctions lifted on Serbia. Milošević extradited to ICTY (June 2001). International financial assistance
+        flowing. Some residual targeted measures on war crimes suspects.
+      features:
+      - targeted_individuals_only
+      - targeted_individuals_only
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: Most sanctions lifted; Milošević at ICTY; residual war crimes individual sanctions
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: Sanctions substantially normalized
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Sanctions on Serbia essentially lifted. Serbia & Montenegro in IMF, World Bank, starting EU relations. Only
+        individual war crimes suspect sanctions remained (not country-level).
+      features:
+      - no_sanctions
+      - targeted_individuals_only
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: Country sanctions lifted; individual war crimes suspects only
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions on Serbia
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions. Serbia & Montenegro fully reintegrating internationally. Đinđić assassination
+        (March 2003) didn't trigger new sanctions.
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions; Đinđić assassination no new sanctions
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions. Serbia pursuing EU SAA.
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions.
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions; Serbia independent
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions. Serbia independent state (Montenegro left June 2006).
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions; Serbia independent
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions.
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions. Kosovo independence (February 2008) caused diplomatic crisis but no sanctions
+        on Serbia.
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: Kosovo independence; no sanctions on Serbia
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions.
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions.
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions.
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions.
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions.
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: 'No country-level sanctions. Note: Serbia refused to join Western sanctions on Russia over Ukraine, showing
+        different alignment.'
+      features:
+      - no_sanctions
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions on Serbia; Serbia refused to join anti-Russia sanctions
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions.
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions.
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions.
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions.
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions.
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions.
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions.
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions on Serbia. Serbia refused to join Western sanctions against Russia following
+        Ukraine invasion — causing EU/US concerns.
+      features:
+      - no_sanctions
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions on Serbia; Serbia refused anti-Russia sanctions; EU pressure
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions. Serbia's Russia neutrality causing EU accession complications.
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions; Russia neutrality complicating EU accession
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions. Mass protests but no international sanctions triggered.
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: No sanctions; mass protests domestic
   2025:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: qualitative_scale
+      value: 0
+      unit: sanctions_index_0_3
       source:
-        citation: null
+        citation: No country sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: No country-level sanctions in 2025.
+      features:
+      - no_sanctions
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: No sanctions 2025

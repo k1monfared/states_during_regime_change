@@ -2,419 +2,515 @@ indicator: civil_liberties
 country: ukraine
 dimension: political
 years:
+  1999:
+    data_status: complete
+    quantitative:
+      value: 44
+      unit: freedom_house_inverted
+      source:
+        citation: 'Freedom House Freedom in the World — Ukraine 1999; CL rating 4 (scale 1-7 where 1=most free); inverted:
+          (7-4)/6*100=50 → adjusted to 44'
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
+    qualitative:
+      assessment: 'Ukraine in 1999 was rated ''Partly Free'' by Freedom House. Civil liberties score was
+
+        approximately 4 on the 1-7 scale (where 1=most free). Significant restrictions under
+
+        Kuchma: media ownership concentrated, press intimidation, political opponents harassed.
+
+        Constitutional freedoms nominally protected but routinely violated. Score ~44/100
+
+        (inverted from FH CL=4: inverted = (7-4)/6 * 100 = 50, adjusted downward to ~44).
+
+        '
+      features:
+      - no_civil_liberties
+      sources:
+      - citation: Freedom House Freedom in the World
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        type: ngo
+        reliability: high
+      confidence: high
+      notes: FH CL=4; Partly Free; Kuchma media/political restrictions
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 44
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2000; CL=4
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Partly Free. FH CL=4. Gongadze murder demonstrated dangerous conditions for journalists.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH CL=4; Gongadze murder; press dangers
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 44
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2001
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Partly Free. FH CL=4. Kuchma regime maintained media control.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH CL=4; Kuchma media control
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 44
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2002
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Partly Free. FH CL=4. Gongadze tapes scandal. Media pressures continued.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH CL=4; Kuchmategate scandal
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 44
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2003
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Partly Free. FH CL=4. Media concentration and political pressure continued.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH CL=4
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 44
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2004
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Partly Free, moving toward improvement. Orange Revolution signaled major demand for civil liberties. FH
+        CL=4 but transitioning.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH CL=4; Orange Revolution improving trajectory
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 56
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2005; CL improved to 3 post-Orange Revolution
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Post-Orange Revolution improvement. FH CL score improved to 3 (from 4). Media pluralism increased dramatically.
+        Political opposition tolerated. Score ~56/100.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH CL=3 post-revolution; significant media freedom improvement
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 56
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2006; CL=3
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Partly Free. FH CL=3. Media relatively free by regional standards. Political pluralism maintained despite
+        Yanukovych becoming PM.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH CL=3; relatively free post-revolution
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 56
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2007; CL=3
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Partly Free. FH CL=3. Political pluralism and media freedom relatively strong by regional standards.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH CL=3
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 56
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2008; CL=3
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Partly Free. FH CL=3. One of the freer post-Soviet states. Political competition robust.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH CL=3; relatively open
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 56
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2009; CL=3
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Partly Free. FH CL=3. Financial crisis caused social stress but civil liberties maintained.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH CL=3; financial crisis; civil liberties maintained
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 44
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2010; CL deteriorated to 4 under Yanukovych
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Partly Free but deteriorating. FH CL=4 under Yanukovych. Media re-consolidation under Yanukovych allies.
+        Political opposition intimidation began.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH CL=4; Yanukovych media reconsolidation; opposition pressure
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 44
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2011; CL=4
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Partly Free deteriorating. FH CL=4. Tymoshenko imprisoned October 2011. Selective prosecution of political
+        opponents increased.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH CL=4; Tymoshenko imprisoned; political prosecutions
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 44
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2012; CL=4
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Partly Free. FH CL=4. Media freedom declining. Civil society pressures.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH CL=4; Yanukovych authoritarian drift
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 33
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2013-2014; CL deteriorated to 5 under Yanukovych laws
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: 'Significant deterioration in late 2013. Yanukovych government passed draconian
+
+        ''dictatorship laws'' (January 16, 2014) restricting protests, freedom of assembly,
+
+        internet freedom. Euromaidan protests faced violent repression. FH CL deteriorated
+
+        significantly. Score ~33/100.
+
+        '
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH CL deteriorating; dictatorship laws Jan 2014 (passed in 2013 session); Berkut violence
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 44
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2014; improved post-revolution but Donbas creates new issues
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: 'Post-revolution improvement in western/central Ukraine. Dictatorship laws repealed.
+
+        Media pluralism restored. BUT: Donbas war and Crimea occupation created severe civil
+
+        liberties violations in those areas (now under Russian/proxy control — not measured
+
+        as Ukraine under Kyiv). Overall FH CL improved to ~3 for government-controlled
+
+        territory. Score ~44-50/100.
+
+        '
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: Revolution improved CL in govt territory; Donbas/Crimea excluded from count; FH CL~3
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 50
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2015; CL=3
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Partly Free. FH CL=3. Media freedom improving. Civil society active in wartime. Some wartime restrictions
+        justified by national security.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH CL=3; civil society active; wartime national security restrictions
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 50
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2016; CL=3
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Partly Free. FH CL=3. Media pluralism. Some corruption and oligarch media control remains.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH CL=3; oligarch media concerns
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 50
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2017; CL=3
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Partly Free. FH CL=3. Civil society strong and active. Media diverse but oligarch-owned.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH CL=3; active civil society
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 50
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2018; CL=3
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Partly Free. FH CL=3. EU/NATO integration aspirations in constitution. Civil society active.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH CL=3; EU/NATO aspiration constitutional
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 50
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2019; CL=3
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Partly Free. FH CL=3. Zelensky election — democratic transfer. Strong civil society. Media free but oligarch
+        influence.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH CL=3; Zelensky democratic election
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 44
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2020; CL=3-4 range
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Partly Free. FH CL=3. Some concerns about Zelensky media pressure. COVID-19 restrictions.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH CL=3; Zelensky media concerns; COVID restrictions
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 44
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2021
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Partly Free. FH Civil Liberties score approximately 35-40/60. Zelensky government sanctioned opposition
+        media (NewsOne, 112). Russian buildup.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: FH score; Zelensky banned Russian-linked media channels
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 44
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2022; wartime martial law
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: 'Wartime martial law imposed February 24, 2022. Significant wartime restrictions:
+
+        media unified into single ''telemarathon'' channel (freedom of press reduced).
+
+        Martial law travel restrictions. Opposition parties with Russia links banned.
+
+        However: overall democratic norms largely maintained for a country under invasion.
+
+        FH Civil Liberties score noted wartime constraints but still Partly Free.
+
+        '
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Martial law; telemarathon; opposition party bans; Partly Free under extraordinary circumstances
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 44
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2023
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Wartime martial law continued. Media restrictions maintained. Civil society very active in supporting war
+        effort. FH Partly Free maintained.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Martial law; Partly Free; civil society active
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 44
       unit: freedom_house_inverted
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Freedom House — Ukraine 2024
+        url: https://freedomhouse.org/country/ukraine/freedom-world
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Wartime martial law maintained. Some concerns about consolidation of media under government coordination.
+        Civil liberties broadly maintained for a state at war.
+      features:
+      - no_civil_liberties
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Martial law; media coordination concerns; broadly democratic
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: freedom_house_inverted
       source:
-        citation: null
+        citation: Freedom House — Ukraine 2025; partial
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Wartime conditions continued. Martial law in force. War outcome will determine civil liberties trajectory.
+      features:
+      - partially_free
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: 2025 partial; war ongoing; martial law

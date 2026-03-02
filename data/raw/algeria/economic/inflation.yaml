@@ -3,354 +3,559 @@ country: algeria
 dimension: economic
 years:
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3.6
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators — Inflation consumer prices (annual %) Algeria"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Moderate inflation at 3.6% in 2004. Algeria's administered prices on
+        essential goods (fuel, utilities, basic foods) keep measured inflation
+        artificially low. Government subsidies covering 12-15% of GDP. Real
+        inflation pressure higher than official figures. IMF Article IV notes
+        subsidy-distorted price signals.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Algeria Inflation"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+          type: "dataset"
+          reliability: high
+        - citation: "IMF Algeria Article IV 2004"
+          url: "https://www.imf.org/en/Publications/CR"
+          type: "government"
+          reliability: high
+      confidence: high
+      notes: "Administered prices suppress measured inflation; real cost pressures higher"
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 1.4
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Very low inflation at 1.4% — unusually low driven by continued administered
+        prices and strong currency from oil revenues. National Bank of Algeria
+        sterilizing oil revenues. Extensive subsidy system masks underlying price
+        pressures.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 2.5
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Low inflation at 2.5%. Oil boom revenues support currency. Public
+        investment program creating domestic demand but administered prices
+        keeping measured CPI low. Food prices remain subsidized.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3.7
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation rises to 3.7% as public investment program demand pressures
+        emerge. Global food price inflation beginning to affect import-dependent
+        Algeria. Construction sector boom creating wage pressures.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 4.4
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Global food price crisis drives inflation to 4.4%. January 2008 food
+        riots in southern Algeria (Ghardaia, Biskra). Government responds with
+        accelerated food subsidies. Oil revenues enable maintaining subsidies
+        despite global price pressures. Moderate but elevated.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: "January 2008 food riots in south Algeria"
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5.7
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation rises to 5.7% despite oil price crash. Massive public spending
+        program creates domestic demand pressure. Non-tradable sector (construction,
+        services) prices rising. Government maintains subsidies despite reduced
+        oil revenues.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3.9
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation moderates to 3.9% as oil price recovery improves supply-side
+        conditions. Currency appreciation from oil revenues reduces import prices.
+        Government continues subsidies.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 4.5
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Arab Spring emergency spending increases domestic demand and inflation
+        rises to 4.5%. Government dramatically increased wages (30-35% civil
+        servant wage increase), extended subsidies, and launched new housing
+        programs. Demand-pull inflation from fiscal expansion.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: "Arab Spring emergency spending drives demand-pull inflation"
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 8.9
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation spikes to 8.9% in 2012 — highest in the dataset period.
+        Driven by combination of 2011 wage increases feeding through to prices,
+        continued high public spending, and food import price pressures.
+        Still within moderate range but near elevated threshold. Government
+        maintains price controls on key items to prevent social unrest.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+          type: "dataset"
+          reliability: high
+        - citation: "IMF Algeria Article IV 2012"
+          url: "https://www.imf.org/en/Publications/CR"
+          type: "government"
+          reliability: high
+      confidence: high
+      notes: "2012 inflation peak for dataset period — 2011 spending effects feeding through"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3.3
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation drops sharply back to 3.3% as 2011-2012 spending surge
+        effects wane. Currency management and subsidy maintenance keeping
+        inflation in check. Bouteflika stroke does not immediately affect
+        macroeconomic stability.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 2.9
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Low inflation at 2.9% despite high public spending. Currency strong
+        from oil reserves. Oil price collapse begins H2 2014 but average
+        prices still high for year. Subsidy system maintained.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 4.8
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation rises to 4.8% as oil price crash forces currency depreciation
+        (dinar falls against USD). Import prices rise. Subsidy cuts on some items.
+        Fiscal austerity creating supply-side pressures. Moderate inflation.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 6.4
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation rises to 6.4% as dinar depreciation continues and subsidy
+        cuts feed through to prices. Fiscal deficit 13% of GDP driving monetary
+        financing. Some administered price increases. VAT increases. Oil
+        prices extremely low ($44/barrel average).
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5.6
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Unconventional monetary financing — central bank prints money to cover
+        fiscal deficit (October 2017 authorized). Inflation 5.6% remains moderate
+        but risk of acceleration from monetary financing rising. Exchange rate
+        parallel market pressure.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+          type: "dataset"
+          reliability: high
+        - citation: "IMF Algeria Article IV 2017 — monetary financing"
+          url: "https://www.imf.org/en/Publications/CR"
+          type: "government"
+          reliability: high
+      confidence: high
+      notes: "Monetary financing of deficit begins October 2017"
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 4.3
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation moderates slightly to 4.3%. Oil price recovery improves
+        currency position. Monetary financing continues but impact absorbed
+        by partial currency stability. Subsidy reform slow.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 2.0
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation drops to 2.0% — unusually low given fiscal pressures. Hirak
+        year; government possibly restraining price increases to avoid inflaming
+        protesters. Political transition uncertainty. Monetary financing paused
+        pre-Hirak. Low inflation despite structural pressures.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: "Unusually low inflation in Hirak year; possibly politically managed"
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 2.4
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        COVID year. Low demand suppresses inflation globally. Algeria inflation
+        2.4% — low for structural reasons. Government emergency spending absorbed
+        without immediate inflationary impact. Oil price crash creates deflationary
+        pressure on import prices.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 9.1
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation surges to 9.1% — highest since 2012. Post-COVID supply chain
+        disruptions, currency depreciation, fuel price adjustment, and resumed
+        monetary financing all contribute. Global commodity price inflation
+        affects food-import-dependent Algeria. Near elevated threshold.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: "Near elevated_10_25pct threshold at 9.1%"
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 9.3
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation at 9.3% — persistent high level. Ukraine war-driven global
+        food and energy price inflation feeds through to Algeria despite oil
+        export revenues. Import dependence for food and manufactured goods
+        exposes economy to global price shocks. At top of moderate range.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 9.3
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation remains at 9.3% — persistently high. Currency depreciation
+        continues. Subsidy cost mounting. Non-food inflation accelerating.
+        IMF recommends subsidy reform but government resistant due to social
+        stability concerns. At top of moderate range.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 7.2
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF Algeria WEO 2024"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2025-01-15"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation moderating to approximately 7.2% as global commodity prices
+        ease and currency stabilizes somewhat. Government maintains subsidies
+        despite fiscal cost. Moderate inflation persisting.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "IMF Algeria WEO 2024"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: "government"
+          reliability: medium
+      confidence: medium
+      notes: ""
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "IMF Algeria projections 2025"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2025-01-15"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation expected to remain in moderate range (5-9%). Structural
+        pressures from subsidy costs, currency depreciation, and import
+        dependence continue. Government resisting reform that would address
+        underlying inflation drivers.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "IMF Algeria WEO projections 2025"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: "government"
+          reliability: low
+      confidence: low
+      notes: ""

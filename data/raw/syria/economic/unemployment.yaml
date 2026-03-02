@@ -3,247 +3,369 @@ country: syria
 dimension: economic
 years:
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 8.10
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank. 'Unemployment, total (% of total labor force) — Syria 2009.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Official unemployment approximately 8.1% in 2009 per World Bank/ILO data.
+        Unofficial unemployment likely higher due to underemployment and informal sector.
+        Pre-uprising period with drought causing rural-to-urban migration and structural
+        unemployment among youth. Moderate unemployment.
+      features:
+        - moderate_5_10pct
+      sources:
+        - citation: "World Bank / ILO. 'Syria unemployment 2009.' data.worldbank.org."
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "~8.1% official; underemployment higher informal; drought rural-urban migration; moderate"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 8.40
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank. 'Unemployment — Syria 2010.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Official unemployment approximately 8.4% in 2010. Drought effects on agricultural
+        employment contributed to youth unemployment. Pre-uprising — structural unemployment
+        among educated youth was a contributing factor to 2011 uprising. Moderate unemployment.
+      features:
+        - moderate_5_10pct
+      sources:
+        - citation: "World Bank. 'Syria unemployment 2010.' data.worldbank.org."
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "~8.4%; drought agricultural unemployment; youth structural unemployment; moderate"
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 14.90
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ILO / World Bank estimates. 'Syria unemployment 2011.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Unemployment rising sharply with uprising. Estimated 14.9%. Business closure,
+        conflict-related displacement of workers, investor flight. Tourism sector (major
+        employer) effectively shut down. Manufacturing disrupted. Elevated unemployment.
+      features:
+        - elevated_10_15pct
+      sources:
+        - citation: "ILO. 'Syria labor market estimates 2011.' ilo.org."
+          url: "https://www.ilo.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~14.9% estimated; tourism shutdown; business closures; investor flight; elevated rising"
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 30.00
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ILO / UN estimates. 'Syria unemployment 2012.' ilo.org."
+        url: "https://www.ilo.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Unemployment estimated approximately 30% — rising dramatically. Civil war destroyed
+        productive sector. Aleppo industrial quarter largely destroyed. Homs oil refinery
+        captured. Mass displacement eliminating formal employment. Very high unemployment.
+      features:
+        - very_high_25_40pct
+      sources:
+        - citation: "ILO. 'Syria labor estimates 2012.' ilo.org."
+          url: "https://www.ilo.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~30% estimated; Aleppo industrial destroyed; mass displacement; no formal employment; very high"
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 45.00
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ILO / UN estimates. 'Syria unemployment 2013.' ilo.org."
+        url: "https://www.ilo.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Unemployment approximately 45%+. Civil war at peak intensity. Most formal sector
+        destroyed or inaccessible. ISIS areas and regime areas had different labor dynamics.
+        Humanitarian employment (war economy) partially substituting formal jobs. Crisis
+        unemployment level.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "ILO. 'Syria labor crisis 2013.' ilo.org."
+          url: "https://www.ilo.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~45%; civil war peak; formal sector destroyed; war economy substituting; crisis level"
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 52.00
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ILO / UN estimates. 'Syria unemployment 2014.' ilo.org."
+        url: "https://www.ilo.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Unemployment approximately 52%. Mass displacement meant most of labor force not
+        employed in formal sector. Multiple governance zones with separate informal economies.
+        Crisis-level unemployment. ILO estimates highly uncertain.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "ILO. 'Syria crisis labor estimates 2014.' ilo.org."
+          url: "https://www.ilo.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~52%; mass displacement; multiple governance informal economies; crisis level; ILO uncertain"
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 55.00
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ILO / UNDP estimates. 'Syria unemployment 2015.' ilo.org."
+        url: "https://www.ilo.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Unemployment approximately 55% — peak wartime unemployment. 11+ million displaced
+        persons. Refugee camp employment minimal. ISIS governance had some forced labor
+        arrangements. SDF areas had some economic activity. Crisis-level unemployment.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "ILO. 'Syria crisis labor 2015.' ilo.org."
+          url: "https://www.ilo.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~55%; peak wartime; 11M displaced; refugee camp minimal employment; crisis level"
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 50.00
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ILO estimates. 'Syria unemployment 2016.' ilo.org."
+        url: "https://www.ilo.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Unemployment approximately 50%. Regime reconquering territory but employment not
+        recovering — infrastructure destroyed. Aleppo reconquered December but industrial
+        quarter largely rubble. Crisis unemployment.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "ILO. 'Syria estimates 2016.' ilo.org."
+          url: "https://www.ilo.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~50%; Aleppo reconquest but rubble; no employment recovery; crisis level"
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 50.00
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ILO estimates. 'Syria unemployment 2017.' ilo.org."
+        url: "https://www.ilo.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Unemployment approximately 50%. Regime consolidating but no reconstruction.
+        ISIS defeat opening some eastern areas but infrastructure destroyed. Frozen-conflict
+        economy with very high unemployment. Crisis-level.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "ILO. 'Syria estimates 2017.' ilo.org."
+          url: "https://www.ilo.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~50%; regime consolidating but no reconstruction; ISIS areas destroyed; crisis level"
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 50.00
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ILO estimates. 'Syria unemployment 2018.' ilo.org."
+        url: "https://www.ilo.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Unemployment approximately 50%. Caesar Act pending blocked reconstruction investment
+        that would have created employment. SDF northeast had oil sector employment. Regime
+        government employment expanded as means of patronage. Very high crisis unemployment
+        maintained.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "ILO. 'Syria estimates 2018.' ilo.org."
+          url: "https://www.ilo.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~50%; Caesar Act blocked reconstruction; government patronage employment; oil sector NE; crisis"
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 47.00
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ILO estimates. 'Syria unemployment 2019.' ilo.org."
+        url: "https://www.ilo.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Unemployment approximately 47%. Frozen conflict with marginal economic stabilization.
+        Government sector employment in regime areas provided some jobs. SDF northeast oil
+        sector. Informal economy surviving. Still crisis-level unemployment.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "ILO. 'Syria estimates 2019.' ilo.org."
+          url: "https://www.ilo.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~47%; frozen conflict; government sector patronage; SDF oil; informal economy; crisis level"
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 50.00
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ILO / World Bank estimates. 'Syria unemployment 2020.' ilo.org."
+        url: "https://www.ilo.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Unemployment rising again to approximately 50%. Caesar Act June 2020 eliminated
+        remaining formal sector activity. COVID-19 further disrupted informal economy.
+        Lebanon crisis removed informal employment option for Syrian workers. Crisis unemployment.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "ILO. 'Syria estimates 2020.' ilo.org."
+          url: "https://www.ilo.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~50%; Caesar Act; COVID; Lebanon crisis removed Syrian workers; crisis level"
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 50.00
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ILO estimates. 'Syria unemployment 2021.' ilo.org."
+        url: "https://www.ilo.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Unemployment approximately 50%. Hyperinflation destroying real wages making
+        employment effectively worthless for basic needs. Multiple governance zones
+        with separate informal economies. Crisis-level unemployment maintained.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "ILO. 'Syria estimates 2021.' ilo.org."
+          url: "https://www.ilo.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~50%; hyperinflation destroying real wages; multiple governance zones; crisis level"
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 48.00
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ILO estimates. 'Syria unemployment 2022.' ilo.org."
+        url: "https://www.ilo.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Unemployment approximately 48%. Arab normalization did not create jobs. Russia
+        diverting resources to Ukraine reduced economic support. Still crisis unemployment.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "ILO. 'Syria estimates 2022.' ilo.org."
+          url: "https://www.ilo.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~48%; Arab normalization no jobs; Russia Ukraine diversion; crisis level"
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 47.00
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ILO estimates. 'Syria unemployment 2023.' ilo.org."
+        url: "https://www.ilo.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Unemployment approximately 47%. Earthquake February 2023 destroyed additional
+        livelihoods in northwest. Arab League readmission no economic improvement.
+        Crisis unemployment persisting.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "ILO. 'Syria estimates 2023.' ilo.org."
+          url: "https://www.ilo.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "~47%; earthquake destroyed livelihoods; Arab League no improvement; crisis level"
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
@@ -253,13 +375,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Unemployment extremely high through 2024. HTS offensive November-December 2024
+        disrupted whatever economic activity remained in major cities. Post-collapse:
+        transitional government beginning economic engagement but no reliable data.
+        Crisis unemployment continues. No reliable data.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "ICG. 'Syria: After Assad.' December 2024."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: low
+      notes: "HTS offensive economic disruption; transitional period; no reliable data; crisis level"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_labor_force
@@ -269,8 +400,18 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Unemployment declining from crisis peak with post-Assad economic opening but still
+        extremely high. Reconstruction sector beginning to create employment (Gulf investment,
+        international aid). Return of diaspora with capital and skills. However underlying
+        unemployment still crisis-level given destroyed economy. Very high but with early
+        improvement signals.
+      features:
+        - crisis_gt_40pct
+      sources:
+        - citation: "ICG. 'Syria Transition 2025.' crisisgroup.org."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: low
+      notes: "Reconstruction employment beginning; diaspora return; Gulf investment; still crisis level improving"

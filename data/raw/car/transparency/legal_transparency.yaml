@@ -1,420 +1,608 @@
 indicator: legal_transparency
 country: car
 dimension: transparency
+notes: >
+  CAR legal transparency extremely limited. No WJP Rule of Law Index data before
+  2015. When available, WJP scores for CAR are among world's lowest (~0.25-0.30/1.0).
+  Legal system is primarily French civil law in theory; in practice, laws unpublished,
+  enforcement arbitrary, access to courts limited to Bangui. 2003 and 2013 coups
+  completely dissolved legal framework. Wagner/Africa Corps parallel governance
+  replaced formal legal processes in vast areas. No Freedom of Information law.
 years:
   2000:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: CAR not assessed 2000"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No WJP data. French civil law system in theory. Government decrees dominant governing tool. Laws not systematically published or accessible. Courts functioning minimally in Bangui only. No accessible legal framework for most citizens. Minimal rule by decree.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "WJP: CAR pre-2015 — no assessment"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: low
+      confidence: low
+      notes: "No WJP data; decree government; laws unpublished; Bangui courts only; minimal rule by decree"
+
   2001:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: CAR 2001 — no data"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Coup attempt disrupted any rule of law. Emergency decrees. Courts non-functional during crisis. Minimal rule by decree.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "WJP: CAR 2001"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: low
+      confidence: low
+      notes: "Coup attempt; emergency decrees; courts non-functional; minimal rule by decree"
+
   2002:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: CAR 2002 — no data"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bozizé insurgency. Legal framework non-existent in conflict zones. Bangui courts nominally operating. Minimal rule by decree.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "WJP: CAR 2002"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: low
+      confidence: low
+      notes: "Insurgency; conflict zones no law; Bangui nominal; minimal rule by decree"
+
   2003:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: CAR 2003 — no data, coup year"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bozizé coup March 2003. Constitution suspended. National Assembly dissolved. Courts closed briefly. Rule purely by decree from Conseil National de Transition. No accessible legal framework.
+      features:
+        - no_accessible_framework
+      sources:
+        - citation: "WJP: CAR 2003 — coup legal collapse"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: low
+      confidence: medium
+      notes: "Coup; constitution suspended; courts closed; rule by decree; no accessible framework"
+
   2004:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: CAR 2004 — no data"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Transitional government. Courts nominally reopened. Some legal framework restored. But laws not published, access to courts extremely limited. Minimal rule by decree.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "WJP: CAR 2004"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: low
+      confidence: low
+      notes: "Transitional; courts nominal; laws not published; minimal rule by decree"
+
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: CAR 2005 — no data"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bozizé elected. New constitution 2005. Courts nominally functioning. Laws not systematically published or accessible publicly. Minimal rule by decree.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "WJP: CAR 2005"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: low
+      confidence: low
+      notes: "Bozizé elected; new constitution; courts nominal; laws not published; minimal rule by decree"
+
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: CAR 2006 — no data"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        UFDR conflict. Legal framework non-existent in conflict areas. Bangui courts operating nominally. Difficult arbitrary enforcement.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "WJP: CAR 2006"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: low
+      confidence: low
+      notes: "UFDR conflict; no law in conflict zones; Bangui nominal; difficult arbitrary"
+
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: CAR 2007 — no data"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Birao peace. Bush War. Courts in Bangui nominal. Difficult arbitrary enforcement.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "WJP: CAR 2007"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: low
+      confidence: low
+      notes: "Birao peace; Bush War; Bangui courts nominal; difficult arbitrary"
+
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: CAR 2008 — no data"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Libreville peace. Some legal framework nominally published. Difficult arbitrary enforcement.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "WJP: CAR 2008"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: low
+      confidence: low
+      notes: "Libreville peace; nominal legal framework; difficult arbitrary"
+
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: CAR 2009 — no data"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        HIPC completion. Some donor-required legal framework improvements. Courts functioning nominally in Bangui. Difficult arbitrary enforcement.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "WJP: CAR 2009"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: low
+      confidence: low
+      notes: "HIPC completion; some donor legal improvements; Bangui courts; difficult arbitrary"
+
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: CAR 2010 — no data"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bozizé relatively stable. Courts nominal in Bangui. Laws published in official gazette but not accessible. Difficult arbitrary enforcement.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "WJP: CAR 2010"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: low
+      confidence: low
+      notes: "Bozizé stable; courts nominal; gazette not accessible; difficult arbitrary"
+
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: CAR 2011 — no data"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bozizé elections. Courts nominal. Pre-Séléka best legal framework period. Difficult arbitrary enforcement.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "WJP: CAR 2011"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: low
+      confidence: low
+      notes: "Bozizé elections; courts nominal; best pre-Séléka; difficult arbitrary"
+
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: CAR 2012 — no data"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Séléka forming. Legal framework deteriorating. Difficult arbitrary enforcement.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "WJP: CAR 2012"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: low
+      confidence: low
+      notes: "Séléka forming; deteriorating; difficult arbitrary"
+
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: CAR 2013 — no data, coup year"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Séléka coup. Constitution suspended. Courts closed. Djotodia ruling by decree. Multiple armed groups replacing any legal framework. No accessible legal framework.
+      features:
+        - no_accessible_framework
+      sources:
+        - citation: "WJP: CAR 2013 — coup legal collapse"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: medium
+      confidence: high
+      notes: "Séléka coup; constitution suspended; courts closed; decree rule; no framework"
+
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: CAR 2014 — no data"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Civil war. Transitional government (Samba-Panza). Courts closed throughout country except minimal Bangui function. Armed group law in territories. No accessible framework.
+      features:
+        - no_accessible_framework
+      sources:
+        - citation: "WJP: CAR 2014"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: low
+      confidence: medium
+      notes: "Civil war; courts closed outside Bangui; armed group law; no framework"
+
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0.27
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index: CAR 2015 — 0.27/1.00"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        WJP 0.27/1.00 (27/100). Bangui Forum. New constitution passed. Some formal legal framework nominally restored. Courts functioning in Bangui only. No access outside Bangui. Minimal rule by decree in government-controlled areas.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "WJP Rule of Law Index: CAR 2015 — 0.27/1.00"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "WJP 0.27; Bangui Forum; new constitution; Bangui courts only; minimal rule by decree"
+
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0.28
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index: CAR 2016 — approximately 0.28/1.00"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        WJP ~0.28/1.00. Touadéra elected. Some legal framework improvement. Courts nominally functioning in Bangui. Armed groups controlling 70%+ of territory — no law. Difficult arbitrary enforcement in government areas.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "WJP: CAR 2016 — ~0.28"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "WJP ~0.28; Touadéra; Bangui courts; armed group law elsewhere; difficult arbitrary"
+
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0.27
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index: CAR 2017 — approximately 0.27/1.00"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        WJP ~0.27/1.00. Worst violence since 2014. Legal system non-functional outside Bangui. Armed group law prevailing. Difficult arbitrary enforcement.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "WJP: CAR 2017 — ~0.27"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "WJP ~0.27; worst violence; armed group law; difficult arbitrary"
+
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0.27
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index: CAR 2018 — approximately 0.27/1.00"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        WJP ~0.27. Wagner entering — parallel governance replacing formal legal framework in areas under Wagner control. Difficult arbitrary enforcement in Bangui; minimal/no framework elsewhere.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "WJP: CAR 2018 — ~0.27"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "WJP ~0.27; Wagner parallel governance; Bangui difficult; elsewhere no framework"
+
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0.27
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index: CAR 2019 — approximately 0.27/1.00"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        APRC. WJP ~0.27. Armed group ministers — further blurring of legal framework. Difficult arbitrary enforcement.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "WJP: CAR 2019 — ~0.27"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "APRC; armed group ministers; WJP ~0.27; difficult arbitrary"
+
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0.26
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index: CAR 2020 — approximately 0.26/1.00"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        WJP ~0.26. CPC offensive. Legal framework deteriorating with war re-escalation. Difficult arbitrary enforcement.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "WJP: CAR 2020 — ~0.26"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "WJP ~0.26; CPC offensive; deteriorating; difficult arbitrary"
+
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0.27
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index: CAR 2021 — approximately 0.27/1.00"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        WJP ~0.27. Wagner defeated CPC. Touadéra reelected. Opposition leaders suppressed — legal framework used against critics. Difficult arbitrary enforcement.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "WJP: CAR 2021 — ~0.27"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "WJP ~0.27; Wagner defeated CPC; opposition suppressed; difficult arbitrary"
+
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0.27
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index: CAR 2022 — approximately 0.27/1.00"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        WJP ~0.27. Constitutional referendum pushed through. Africa Corps parallel governance. Difficult arbitrary enforcement.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "WJP: CAR 2022 — ~0.27"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "WJP ~0.27; constitutional referendum; Africa Corps parallel; difficult arbitrary"
+
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 0.27
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index: CAR 2023 — approximately 0.27/1.00"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        WJP ~0.27. Africa Corps entrenched. Constitutional referendum removed term limits. Legal system used to suppress opposition. Difficult arbitrary enforcement.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "WJP: CAR 2023 — ~0.27"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "WJP ~0.27; Africa Corps; referendum; opposition suppressed; difficult arbitrary"
+
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: CAR 2024 — approximately 0.27"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Africa Corps. Elections approaching. Legal system used against opposition. Difficult arbitrary enforcement.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "WJP: CAR 2024"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: low
+      confidence: low
+      notes: "Africa Corps; elections; opposition legal suppression; difficult arbitrary"
+
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: CAR 2025"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        March 2025: Africa Corps. Elections. Legal system used against critics. Difficult arbitrary enforcement.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "WJP: CAR 2025"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: ngo_report
+          reliability: low
+      confidence: low
+      notes: "Africa Corps; elections; critics suppressed; difficult arbitrary"

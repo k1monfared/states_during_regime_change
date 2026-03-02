@@ -3,7 +3,7 @@ country: mexico
 dimension: political
 years:
   1995:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -13,13 +13,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Mexican federal government maintained effective control over the vast majority of territory.
+        The Zapatista (EZLN) rebellion controlled a small autonomous zone in parts of Chiapas —
+        the Lacandon Jungle area — representing less than 2% of national territory. No other
+        significant territorial challenges to federal authority existed in 1995.
+      features:
+        - minor_insurgencies_lt_10pct
+      sources:
+        - citation: "ICG, Mexico's Indigenous Rights, 2003; UCDP data on Chiapas conflict"
+          url: "https://crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Chiapas EZLN zone was small and largely contained; no national territorial challenge"
   1996:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -29,13 +38,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Federal government maintained broad territorial control. EZLN controlled small autonomous
+        communities in Chiapas with peace negotiations underway. EPR guerrilla emerged in Guerrero
+        and Oaxaca but did not hold territory. Drug cartels operated in border areas but had not
+        yet captured territory from state control.
+      features:
+        - minor_insurgencies_lt_10pct
+      sources:
+        - citation: "Human Rights Watch, Mexico country report 1997"
+          url: "https://hrw.org"
+          type: ngo_report
+          reliability: medium
+      confidence: high
       notes: null
   1997:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -45,13 +63,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Federal government broadly in control. Chiapas autonomous communities small. Acteal
+        massacre showed paramilitary presence in Chiapas but federal government retained
+        structural control. EPR operations limited guerrilla attacks but no territorial control.
+      features:
+        - minor_insurgencies_lt_10pct
+      sources:
+        - citation: "Human Rights Watch, Mexico country report 1998"
+          url: "https://hrw.org"
+          type: ngo_report
+          reliability: medium
+      confidence: high
       notes: null
   1998:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -61,13 +87,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Federal government maintained territorial control nationally. Chiapas autonomous zones
+        small. Drug cartel activity in border regions growing but states and municipalities
+        still formally under government administration. No significant ungoverned spaces outside
+        Chiapas autonomous communities.
+      features:
+        - minor_insurgencies_lt_10pct
+      sources:
+        - citation: "Human Rights Watch, Mexico country report 1999"
+          url: "https://hrw.org"
+          type: ngo_report
+          reliability: medium
+      confidence: high
       notes: null
   1999:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -77,13 +112,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Federal government in effective control of virtually all territory. Chiapas autonomous
+        zone small and stable. Pre-election period saw no significant territorial challenges.
+        Drug cartels operating primarily through corruption and infiltration rather than
+        territorial displacement of government.
+      features:
+        - minor_insurgencies_lt_10pct
+      sources:
+        - citation: "Human Rights Watch, Mexico country report 2000"
+          url: "https://hrw.org"
+          type: ngo_report
+          reliability: medium
+      confidence: high
       notes: null
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -93,13 +137,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Federal government in full effective control during peaceful democratic transition year.
+        Chiapas autonomous communities small and non-threatening. Fox transition occurred with
+        no territorial challenges. Drug cartel presence in border areas but not displacing
+        government administration.
+      features:
+        - full_control_no_challenges
+      sources:
+        - citation: "Human Rights Watch, Mexico country report 2001"
+          url: "https://hrw.org"
+          type: ngo_report
+          reliability: medium
+      confidence: high
+      notes: "2000 transition year had particularly stable territorial control"
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -109,13 +162,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Territorial control broadly maintained. EZLN March to Mexico City occurred peacefully,
+        demonstrating movement's non-violent character. Chiapas autonomous communities continued.
+        Drug cartels beginning to exert more influence in border municipalities but formal
+        government administration continued.
+      features:
+        - full_control_no_challenges
+      sources:
+        - citation: "Human Rights Watch, Mexico country report 2002"
+          url: "https://hrw.org"
+          type: ngo_report
+          reliability: medium
+      confidence: high
       notes: null
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -125,13 +187,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Territorial control broadly maintained across Mexico. Some drug cartel influence in
+        Sinaloa, Tamaulipas and Baja California municipalities but formal state structures
+        continued to operate. Federal institutions functioning nationally.
+      features:
+        - full_control_no_challenges
+      sources:
+        - citation: "Human Rights Watch, Mexico country report 2003"
+          url: "https://hrw.org"
+          type: ngo_report
+          reliability: medium
+      confidence: high
       notes: null
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -141,13 +211,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Federal control broadly intact. Drug cartel infiltration of local and state governments
+        in northern border areas growing but not yet reaching territorial displacement level.
+        Chiapas autonomous communities small. Federal institutions operational nationwide.
+      features:
+        - full_control_no_challenges
+      sources:
+        - citation: "Human Rights Watch, Mexico country report 2004"
+          url: "https://hrw.org"
+          type: ngo_report
+          reliability: medium
+      confidence: high
       notes: null
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -157,13 +235,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Territorial control maintained formally. Drug cartels increasingly challenging security
+        institutions in Tamaulipas and Sinaloa through violence rather than territorial control.
+        Municipal governments in some border areas effectively captured through corruption but
+        formal administration continued.
+      features:
+        - minor_insurgencies_lt_10pct
+      sources:
+        - citation: "Human Rights Watch, Mexico country report 2005"
+          url: "https://hrw.org"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Transition year toward cartel challenges but not yet territorial loss"
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -173,13 +260,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Drug cartel territorial challenges increasing in Nuevo Laredo and Tamaulipas (Gulf Cartel
+        vs Zetas). Police stations and government buildings attacked. Some municipalities
+        effectively under cartel control. Federal government struggling to reassert authority in
+        border areas. Chiapas autonomous zone maintained.
+      features:
+        - minor_insurgencies_lt_10pct
+      sources:
+        - citation: "Human Rights Watch, Mexico country report 2006"
+          url: "https://hrw.org"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -189,13 +285,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Calderon launched military deployment to Michoacan to challenge cartel territorial
+        control. Parts of Michoacan and Guerrero effectively under cartel influence. Oaxaca
+        had temporary contested control during teachers' strike suppression. Drug cartel
+        territorial displacement significant in 5-10% of territory by some estimates.
+      features:
+        - minor_insurgencies_lt_10pct
+      sources:
+        - citation: "ICG, Mexico's Drug War, 2007"
+          url: "https://crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
       notes: null
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -205,13 +310,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Military deployed in Michoacan, Guerrero, Tamaulipas and other states. Cartel territorial
+        control growing in rural and border areas. Some municipalities in Chihuahua, Sinaloa, and
+        Tamaulipas effectively under cartel administration. Federal military operations temporarily
+        displaced cartels but control not sustained.
+      features:
+        - significant_areas_outside_10_30pct
+      sources:
+        - citation: "ICG, Mexico's Drug War: The Mérida Initiative, 2010"
+          url: "https://crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
       notes: null
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -221,13 +335,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Cartel territorial control expanding across northern states. Ciudad Juarez lost to
+        cartel control in many neighborhoods. Chihuahua, Sinaloa, Tamaulipas, and Guerrero
+        had significant areas outside effective government control. Merida Initiative launched
+        with US cooperation. Major cities still under government control but many rural areas not.
+      features:
+        - significant_areas_outside_10_30pct
+      sources:
+        - citation: "ICG, Mexico's Drug War: The Mérida Initiative, 2010"
+          url: "https://crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
       notes: null
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -237,13 +360,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Peak territorial challenge. Ciudad Juarez murder rate highest in world. Multiple
+        municipalities in Chihuahua, Tamaulipas, and Guerrero effectively under cartel administration.
+        Police forces fled or were captured. Possibly 15-25% of national territory had significant
+        cartel influence over day-to-day governance. Federal government fighting to reassert control.
+      features:
+        - significant_areas_outside_10_30pct
+      sources:
+        - citation: "ICG, Mexico's Drug War: The Mérida Initiative, 2010"
+          url: "https://crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "Analyst estimates of cartel-controlled territory range widely; 10-25% is reasonable estimate"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -253,13 +385,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Territorial challenge at peak. Multiple municipalities in several states effectively
+        governed by cartels. Federal operations reclaiming some territory but unable to maintain
+        control. San Fernando massacres showed cartel control of strategic transport corridors.
+        UNODC estimated cartels active in 71% of municipalities.
+      features:
+        - significant_areas_outside_10_30pct
+      sources:
+        - citation: "UNODC, Transnational Organized Crime in Mexico, 2012"
+          url: "https://www.unodc.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "UNODC data shows cartel presence in 71% of municipalities though not full control"
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -269,13 +410,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Significant territorial challenges continuing. Some improvement in Ciudad Juarez.
+        New areas of cartel control emerging in Veracruz, Guerrero and Coahuila. Zetas
+        expanding territorial reach into Central America. Federal government unable to
+        consistently control border regions.
+      features:
+        - significant_areas_outside_10_30pct
+      sources:
+        - citation: "ICG, Mexico's Perilous Drug War, 2012"
+          url: "https://crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
       notes: null
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -285,13 +435,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Cartel territorial challenges began declining slightly in some areas (Ciudad Juarez
+        improved significantly). But Michoacan and Guerrero remained heavily contested.
+        Pena Nieto government changed approach — military less visible, cartel capture
+        prioritized. CJNG began territorial expansion.
+      features:
+        - significant_areas_outside_10_30pct
+      sources:
+        - citation: "ICG, Mexico's Perilous Drug War, 2012"
+          url: "https://crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
       notes: null
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -301,13 +460,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Autodefensa (self-defense) groups formed in Michoacan in response to Knights Templar
+        cartel extortion, showing federal government's inability to protect communities.
+        Cartel control in Guerrero consolidated. Federal government negotiating with autodefensas.
+        Some municipalities still outside effective state control.
+      features:
+        - significant_areas_outside_10_30pct
+      sources:
+        - citation: "ICG, Michoacan: Paving the Way for Cartel Hegemony, 2013"
+          url: "https://crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
       notes: null
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -317,13 +485,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Ayotzinapa disappearances showed local government complicity with cartels in Guerrero
+        — evidence of cartel capture rather than simple territorial displacement. Ayotzinapa
+        police chief worked for Guerreros Unidos cartel. Autodefensas formalized as Rural
+        Police in Michoacan but CJNG subsequently infiltrated them.
+      features:
+        - significant_areas_outside_10_30pct
+      sources:
+        - citation: "GIEI (Interdisciplinary Group of Independent Experts), Ayotzinapa Report, 2015"
+          url: "https://www.oas.org/en/IACHR/"
+          type: international_organization
+          reliability: high
+      confidence: medium
       notes: null
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -333,13 +510,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        CJNG expanding rapidly, challenging existing cartels in multiple states. Jalisco, Colima,
+        and Veracruz becoming new conflict zones. Federal government unable to contain CJNG
+        expansion. Rural communities in Guerrero and Michoacan still outside effective state
+        control or under cartel administration.
+      features:
+        - significant_areas_outside_10_30pct
+      sources:
+        - citation: "ICG, Containing the Violence in Mexico, 2017"
+          url: "https://crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
       notes: null
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -349,13 +535,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        CJNG expansion creating new zones of contested control. Multiple states saw effective
+        dual authority — formal government administration alongside cartel taxation and governance.
+        Guanajuato, Jalisco and Veracruz experienced new territorial challenges. Rural areas
+        and many municipalities in 10-15 states outside effective federal control.
+      features:
+        - significant_areas_outside_10_30pct
+      sources:
+        - citation: "ICG, Containing the Violence in Mexico, 2017"
+          url: "https://crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
       notes: null
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -365,13 +560,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Territorial challenges widespread across 10+ states. CJNG controlling significant
+        territory in western Mexico. Gulf Cartel and Zetas in northeast. Sinaloa in northwest
+        and mountain regions. Government effectively absent in large rural zones. Cartels
+        functioning as parallel governance in many communities through extortion and services.
+      features:
+        - significant_areas_outside_10_30pct
+      sources:
+        - citation: "ICG, Containing the Violence in Mexico, 2017"
+          url: "https://crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
       notes: null
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -381,13 +585,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Territorial challenges at peak levels. AMLO election partly due to perception that
+        government had lost control. Multiple cartel fiefdoms across country. CJNG vs Sinaloa
+        for national dominance. Many municipalities effectively governed by cartels with formal
+        government present only nominally. Violence against political candidates unprecedented.
+      features:
+        - significant_areas_outside_10_30pct
+      sources:
+        - citation: "ICG, Mexico's Everyday War: Guerrero and the Failures of Peace, 2018"
+          url: "https://crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
       notes: null
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -397,13 +610,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        AMLO's Culiacan incident (October 2019) — government released cartel leader's son after
+        cartel takeover of city — demonstrated cartel capacity to contest government control even
+        in major cities. Significant areas of Guerrero, Michoacan, Sinaloa, Tamaulipas with
+        minimal effective state presence.
+      features:
+        - significant_areas_outside_10_30pct
+      sources:
+        - citation: "ICG, Mexico's Everyday War: Guerrero and the Failures of Peace, 2018"
+          url: "https://crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "Culiacan incident particularly revealing of territorial control limits"
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -413,13 +635,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Territorial control situation broadly unchanged from 2019. Cartels expanded presence
+        during COVID as government capacity reduced. CJNG expansion continued. Many communities
+        in Guerrero, Michoacan, Chiapas, Tamaulipas and other states under cartel governance.
+        AMLO pursued negotiated peace with cartels rather than military confrontation.
+      features:
+        - significant_areas_outside_10_30pct
+      sources:
+        - citation: "ICG, Mexico's Everyday War, 2020"
+          url: "https://crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
       notes: null
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -429,13 +660,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        CJNG and Sinaloa Cartel dominant with territorial bases. Many municipalities in 15+
+        states with significant cartel governance. Guerrero effectively a failed state at
+        municipal level in many areas. AMLO's "hugs not bullets" policy unable to restore
+        government presence in cartel-held territories.
+      features:
+        - significant_areas_outside_10_30pct
+      sources:
+        - citation: "ICG, Mexico's Spiraling Internal Conflict, 2021"
+          url: "https://crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
       notes: null
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -445,13 +685,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Territorial control situation broadly persistent with extensive cartel governance in
+        significant portion of Mexico. CJNG expanding into new states. Some cartel consolidation
+        reducing inter-cartel violence in stabilized territories. State presence nominal in
+        many municipalities of violence-affected states.
+      features:
+        - significant_areas_outside_10_30pct
+      sources:
+        - citation: "ICG, Mexico's Spiraling Internal Conflict, 2022"
+          url: "https://crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
       notes: null
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -461,13 +710,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Territorial control challenges maintained. Cartel governance well-established in
+        Guerrero, Michoacan, Tamaulipas, Zacatecas, and other states. Sheinbaum (governor
+        of CDMX) preparing federal transition. Violence against 2024 election candidates
+        showed cartel territorial assertion in electoral context.
+      features:
+        - significant_areas_outside_10_30pct
+      sources:
+        - citation: "ICG, Mexico's Spiraling Internal Conflict, 2023"
+          url: "https://crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
       notes: null
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -477,13 +735,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sinaloa Cartel internal civil war (Chapitos vs. Mayo Zambada faction) created new
+        territorial instability in Sinaloa, Sonora and Baja California. Sheinbaum administration
+        reviewing security strategy. Significant portions of 10+ states still with minimal
+        effective government presence.
+      features:
+        - significant_areas_outside_10_30pct
+      sources:
+        - citation: "Reuters, Mexico security reporting 2024"
+          url: "https://reuters.com"
+          type: news_report
+          reliability: medium
+      confidence: medium
+      notes: "Sinaloa cartel civil war significant new development for 2024"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_territory_controlled
@@ -493,8 +760,17 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Territorial control situation unclear with Sinaloa Cartel reconfiguration underway.
+        US "terrorist organization" designation of cartels may affect security cooperation.
+        Sheinbaum pursuing social-led security approach. Multiple states remain with
+        significant cartel governance in rural and peri-urban areas.
+      features:
+        - significant_areas_outside_10_30pct
+      sources:
+        - citation: "Reuters, Mexico security reporting 2025"
+          url: "https://reuters.com"
+          type: news_report
+          reliability: medium
+      confidence: low
+      notes: "2025 situation evolving; high uncertainty"

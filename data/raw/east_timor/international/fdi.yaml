@@ -3,7 +3,7 @@ country: east_timor
 dimension: international
 years:
   1999:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -13,13 +13,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No FDI data for 1999. Economy was destroyed following post-referendum
+        violence. No investment activity possible. Investors fled. Economy
+        entirely dependent on international aid and UNTAET administration.
+      features:
+        - minimal_lt_05pct_gdp
+      sources:
+        - citation: "UNCTAD FDI database"
+          url: "https://unctad.org/topic/investment/world-investment-report"
+          type: international_organization
+          reliability: low
+      confidence: low
+      notes: "Post-referendum destruction; no FDI possible; economy collapsed"
   2000:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -29,13 +37,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Very minimal FDI. UNTAET administering territory. Some early reconstruction
+        business activity but formal FDI negligible. UN administration contracting
+        not counted as FDI. First investors beginning to arrive.
+      features:
+        - minimal_lt_05pct_gdp
+      sources:
+        - citation: "UNCTAD FDI database"
+          url: "https://unctad.org/topic/investment/world-investment-report"
+          type: international_organization
+          reliability: low
+      confidence: low
+      notes: "UNTAET period; minimal formal FDI; first investors arriving"
   2001:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -45,13 +61,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Pre-independence FDI minimal. Constitutional Assembly establishing
+        basic governance. Oil companies beginning negotiations for Timor Sea
+        petroleum contracts. Tourism and service sector investors exploratory.
+        Formal FDI very limited.
+      features:
+        - minimal_lt_05pct_gdp
+      sources:
+        - citation: "UNCTAD FDI database"
+          url: "https://unctad.org/topic/investment/world-investment-report"
+          type: international_organization
+          reliability: low
+      confidence: low
+      notes: "Pre-independence; petroleum contract negotiations; minimal formal FDI"
   2002:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -61,365 +86,572 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-independence FDI gradually increasing. Independence May 2002 opened
+        formal investment environment. Petroleum sector beginning formal FDI.
+        Retail and service sector investment in Dili. Still very small formal
+        investment environment.
+      features:
+        - minimal_lt_05pct_gdp
+      sources:
+        - citation: "UNCTAD FDI database"
+          url: "https://unctad.org/topic/investment/world-investment-report"
+          type: international_organization
+          reliability: low
+      confidence: low
+      notes: "Post-independence; petroleum FDI; retail/services in Dili; small environment"
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.92
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI 0.92% of GDP — minimal to very low. Petroleum sector investments
+        (Bayu-Undan field development by ConocoPhillips) the dominant FDI.
+        Non-petroleum private investment very small. Economy still entirely
+        aid-dependent with limited private sector.
+      features:
+        - very_low_05_1pct_gdp
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Petroleum FDI dominant; Bayu-Undan development; non-petroleum very small"
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.24
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI 0.24% of GDP — minimal. Petroleum investment declining post-Bayu-Undan
+        initial development. Non-petroleum private investment very limited.
+        Small economy with limited private sector development. UNMISET ending May 2005.
+      features:
+        - minimal_lt_05pct_gdp
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Post-initial petroleum development; non-petroleum very limited"
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.20
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI 0.20% — minimal. Petroleum Fund established 2005 beginning to channel
+        revenues. Bayu-Undan in production. UNOTIL advisory. Non-petroleum
+        private investment very small. Investment climate improving but still
+        very limited.
+      features:
+        - minimal_lt_05pct_gdp
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Petroleum Fund established; Bayu-Undan producing; non-petroleum very small"
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 1.87
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI 1.87% — low but increased. Despite 2006 political/military crisis,
+        petroleum sector investment continued. Bayu-Undan oil/gas production
+        operating. Non-petroleum investment negligible during crisis period.
+        Crisis year but petroleum FDI sustained.
+      features:
+        - low_1_2pct_gdp
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "2006 crisis; petroleum FDI sustained; non-petroleum negligible during crisis"
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 1.60
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI 1.6% — low. Post-2006 crisis recovery. New government under Gusmao
+        bringing investor confidence. Petroleum sector FDI (Bayu-Undan continuing).
+        Some non-petroleum investment starting in construction and services.
+      features:
+        - low_1_2pct_gdp
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Post-crisis recovery; Gusmao government; petroleum FDI; construction starting"
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 6.12
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI 6.12% — high. Surge in petroleum sector FDI. ConocoPhillips and
+        other companies investing in Bayu-Undan operations. Strong government
+        spending creating business opportunities. Non-petroleum investment
+        growing. Despite assassination attempt on Ramos-Horta, FDI surged.
+      features:
+        - high_gt_5pct_gdp
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Petroleum FDI surge; ConocoPhillips/Bayu-Undan; strong government spending"
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 6.60
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI 6.6% — highest recorded. Petroleum sector investments peak. GFC
+        limited impact due to petroleum insulation. Bayu-Undan field operations
+        at full production. Government spending creating business environment.
+        Strong non-petroleum investment in construction and services.
+      features:
+        - high_gt_5pct_gdp
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Peak FDI; Bayu-Undan full production; GFC insulated; construction boom"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3.44
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI 3.44% — moderate. Petroleum FDI declining from peak but still
+        significant. Government spending creating strong business environment.
+        Non-petroleum investment in construction, retail, hospitality growing.
+        Strong economic growth attracting investors.
+      features:
+        - moderate_2_5pct_gdp
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Petroleum FDI declining; non-petroleum growing; strong economic growth"
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 4.71
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI 4.71% — moderate-high. Growing business confidence. Government
+        spending stimulus attracting investment. Construction boom. Petroleum
+        sector FDI continuing. UNMIT completing. Non-petroleum investment
+        in services, retail, banking growing.
+      features:
+        - moderate_2_5pct_gdp
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "High FDI; construction boom; government spending stimulus; services growing"
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3.48
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI 3.48% — moderate. Successful 2012 elections boosting investor
+        confidence. UNMIT completed December 2012 — security stability
+        message positive. Post-petroleum peak but still healthy FDI level.
+      features:
+        - moderate_2_5pct_gdp
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "2012 elections boosted confidence; UNMIT completed; stable FDI"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 4.00
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI 4.0% — moderate. Post-UNMIT independent governance attracting
+        investors. Petroleum sector FDI continuing. Non-petroleum investment
+        growing slowly. Infrastructure projects attracting international
+        construction companies.
+      features:
+        - moderate_2_5pct_gdp
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Post-UNMIT governance; petroleum FDI; infrastructure investment"
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 2.34
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI 2.34% — moderate but declining. Oil price collapse from mid-2014
+        reducing petroleum sector investment. Government spending tapering.
+        Non-petroleum investment modest. Bayu-Undan declining production
+        reducing petroleum FDI.
+      features:
+        - moderate_2_5pct_gdp
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Oil price collapse; petroleum FDI declining; Bayu-Undan production declining"
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 2.70
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI 2.70% — moderate. Despite low oil prices, some investment continued.
+        Government infrastructure programs attracting foreign construction investors.
+        Non-petroleum investment (hospitality, retail) modest. Overall FDI
+        moderate by Southeast Asian LDC standards.
+      features:
+        - moderate_2_5pct_gdp
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Moderate FDI despite low oil prices; government infrastructure programs"
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.33
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI collapsed to 0.33% — minimal. Low oil prices, declining Bayu-Undan
+        production, and reduced government spending all suppressed investment.
+        Non-petroleum private investment also declined. Political uncertainty
+        ahead of 2017 elections adding investor uncertainty.
+      features:
+        - minimal_lt_05pct_gdp
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "FDI collapse; low oil prices; Bayu-Undan declining; pre-election uncertainty"
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.42
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI 0.42% — still minimal. Political crisis (two election rounds, budget
+        impasse) severely impacted investment. No approved budget for extended
+        period. Investors waited for political resolution. Non-petroleum investment
+        particularly suppressed.
+      features:
+        - minimal_lt_05pct_gdp
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Political crisis suppressed investment; budget impasse; investors waited"
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3.08
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI 3.08% — moderate recovery. New ANC government formed May 2018.
+        Maritime boundary treaty signed March 2018 enabling Greater Sunrise
+        development prospects. Government spending resumed. Investor confidence
+        recovering. Petroleum-adjacent investments increasing.
+      features:
+        - moderate_2_5pct_gdp
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Recovery; maritime boundary treaty; government resumed; Greater Sunrise prospects"
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -7.79
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI turned sharply negative at -7.79% — major oil sector divestment.
+        ConocoPhillips sold its 30% stake in Greater Sunrise/JPDA assets to
+        Timor-Leste state company TIMOR GAP. This large transfer is counted as
+        negative FDI outflow. Not a loss of confidence per se — strategic
+        repatriation of petroleum assets to national control.
+      features:
+        - negative_net_outflows
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "ConocoPhillips sold stake to TIMOR GAP; strategic repatriation; negative FDI"
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -16.21
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI deeply negative at -16.21% — largest negative FDI recorded. Continued
+        oil sector repatriation (Shell and others selling JPDA stakes). COVID-19
+        also suppressed new investment. These large negative numbers reflect
+        petroleum company exits/sales rather than collapsing investment environment.
+        TIMOR GAP acquiring stakes.
+      features:
+        - negative_net_outflows
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Shell/others exiting JPDA; COVID; TIMOR GAP acquiring; repatriation not collapse"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -6.59
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI -6.59% — still negative from petroleum repatriation continuing. Post-COVID
+        recovery beginning. TIMOR GAP now major player in petroleum sector. Non-
+        petroleum FDI recovering. Ongoing oil sector restructuring driving negative
+        aggregate figure.
+      features:
+        - negative_net_outflows
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Petroleum repatriation continuing; post-COVID recovery; TIMOR GAP expanding"
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 1.67
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI 1.67% — returned to positive. Petroleum sector repatriation cycle
+        largely completed. New non-petroleum investment. Gusmao as PM bringing
+        confidence. ASEAN accession in principle in November 2022 attracting
+        investors. Recovery to positive FDI.
+      features:
+        - low_1_2pct_gdp
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Positive FDI restored; repatriation cycle completed; ASEAN in principle"
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5.87
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI 5.87% — high. Strong recovery. Greater Sunrise development interest
+        generating investment. ASEAN accession attracting regional investors.
+        Petroleum sector restructuring completed enabling new investment cycle.
+        Non-petroleum investment in hospitality, retail, services also growing.
+      features:
+        - high_gt_5pct_gdp
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "High FDI recovery; Greater Sunrise interest; ASEAN; non-petroleum also growing"
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 11.56
       unit: percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+        url: "https://api.worldbank.org/v2/country/TL/indicator/BX.KLT.DINV.WD.GD.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI 11.56% — very high. Major investment surge partly reflecting Greater
+        Sunrise field development activities. ASEAN accession. Petroleum sector
+        new investment cycle. This may reflect TIMOR GAP/partner investments in
+        Greater Sunrise project. Very strong FDI despite fiscal challenges at
+        government level.
+      features:
+        - high_gt_5pct_gdp
+      sources:
+        - citation: "World Bank WDI BX.KLT.DINV.WD.GD.ZS"
+          url: "https://data.worldbank.org"
+          type: official_statistics
+          reliability: medium
+      confidence: low
+      notes: "Very high FDI likely from Greater Sunrise development; ASEAN; new investment cycle"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: percent_gdp
@@ -429,8 +661,16 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FDI expected to remain elevated with Greater Sunrise development.
+        ASEAN membership supporting regional investment. Petroleum sector
+        restructuring complete.
+      features:
+        - high_gt_5pct_gdp
+      sources:
+        - citation: "UNCTAD FDI database; TIMOR GAP"
+          url: "https://unctad.org"
+          type: international_organization
+          reliability: low
+      confidence: low
+      notes: "Status as of early 2026; Greater Sunrise FDI expected"

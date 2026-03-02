@@ -1,356 +1,616 @@
 indicator: extractive_transparency
 country: sudan
 dimension: transparency
+notes: >
+  Sudan has significant oil and gold sectors. Oil production peaked pre-2011;
+  South Sudan secession 2011 took ~75% of oil fields. Gold became primary
+  extractive export post-2011, largely controlled by RSF/Hemetti through
+  Janjaweed-linked companies (Al Junaid). Sudan never joined EITI under Bashir.
+  Transitional government 2019-2021 expressed interest in EITI membership.
+  2023 war destroyed all extractive transparency mechanisms.
 years:
   2004:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 1
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan not a member; no oil revenue disclosure; qualitative fallback"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sudan was a significant oil producer in 2004 (producing approximately 250,000-300,000 barrels/day through GNPOC joint ventures with China, Malaysia, India). Oil revenues were the primary government income source following 1999 production start. Under NCP/Bashir, all oil revenues were managed opaquely with no public disclosure. Sudan was not a member of EITI and had no intention of joining. Government-CNPC (China) and Petronas contracts were secret. Revenue flows entirely opaque. National Petroleum Commission controlled by NCP loyalists. No disclosure of production volumes, contract terms, or revenue distribution. Completely opaque.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Global Witness: Sudan Oil Revenues (2004)"
+          url: "https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/sudan/"
+          type: ngo_report
+          reliability: medium
+        - citation: "EIA: Sudan Country Analysis Brief"
+          url: "https://www.eia.gov/international/analysis/country/SDN"
+          type: government
+          reliability: medium
+        - citation: "EITI Country Data — Sudan not a member"
+          url: "https://eiti.org/countries/sudan"
+          type: international_org
+          reliability: high
+      confidence: high
+      notes: "Sudan not EITI member; oil revenues opaque under NCP; GNPOC contracts secret; no public disclosure"
+
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 1
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan not a member; oil revenue opacity; qualitative fallback"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        CPA 2005 included wealth-sharing provisions for oil revenues between north and south. The National Revenue Fund was nominally established. However, implementation was opaque. No independent verification of revenue flows. GOSS (south) received oil revenues through transfer mechanisms that were not publicly verified. CNPC and other oil company contracts remained secret. No EITI membership or application. Gold sector also growing but undisclosed. Complete opacity.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Global Witness: Sudan Oil — CPA Implementation (2005)"
+          url: "https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/"
+          type: ngo_report
+          reliability: medium
+        - citation: "ICG: Sudan's Comprehensive Peace Agreement (2005)"
+          url: "https://www.crisisgroup.org/africa/horn-africa/sudan"
+          type: think_tank
+          reliability: medium
+      confidence: high
+      notes: "CPA wealth-sharing nominally established; revenue flows not publicly verified; CNPC contracts secret; no EITI; opaque"
+
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 1
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan not a member; no disclosure; qualitative fallback"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil production near peak (~400,000 bpd with GOSS share). Revenue sharing between Khartoum and GOSS opaque. No EITI membership. Contract terms with CNPC, Petronas, ONGC secret. No independent audit of production or revenue figures. Darfur conflict funded partly through oil revenues but without public accounting. Gold sector growing in Jebel Amer (Darfur) — entirely unregulated and undisclosed. Complete opacity.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Global Witness: Sudan — Oil and Armed Conflict (2006)"
+          url: "https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/"
+          type: ngo_report
+          reliability: medium
+        - citation: "EIA Sudan Country Analysis Brief"
+          url: "https://www.eia.gov/international/analysis/country/SDN"
+          type: government
+          reliability: medium
+      confidence: high
+      notes: "Oil near peak; revenue sharing opaque; CNPC/Petronas contracts secret; Jebel Amer gold undisclosed; complete opacity"
+
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 1
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan not a member; qualitative fallback"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil sector at peak. ICC process underway — government increasingly secretive about revenue flows used for military operations. No EITI membership or application. Revenue transparency near zero. Janjaweed/RSF precursor groups operating Jebel Amer gold mines off-books. Gold revenues entirely outside any reporting. Complete opacity.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Global Witness: Sudan Oil Revenue Opacity (2007)"
+          url: "https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/"
+          type: ngo_report
+          reliability: medium
+      confidence: high
+      notes: "Oil peak; ICC intensifies secrecy; Janjaweed gold off-books; no EITI; complete opacity"
+
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 1
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan not a member; qualitative fallback"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Global oil price spike 2008 meant large windfall revenues for Sudan but no disclosure of amounts. Bashir ICC arrest warrant issued. Government channeled oil revenues to military and security services without accounting. No EITI membership. No public disclosure of production, revenues, or contracts. Gold sector growing as oil began declining. Complete opacity.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Global Witness: Sudan Oil (2008)"
+          url: "https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/"
+          type: ngo_report
+          reliability: medium
+        - citation: "IMF Sudan Article IV Consultation 2008"
+          url: "https://www.imf.org/en/Publications/CR"
+          type: international_org
+          reliability: medium
+      confidence: high
+      notes: "2008 oil windfall not disclosed; ICC warrant; military revenue channeling; no EITI; complete opacity"
+
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 1
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan not a member; qualitative fallback"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil production declining. No EITI membership or application. NGO expulsions in 2009 reduced external monitoring of resource revenues. Gold production increasing with Jebel Amer and new mines, controlled by government-linked and Janjaweed-linked entities. No disclosure of gold or oil revenues. Complete opacity.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Human Rights Watch: Sudan Extractive Sector (2009)"
+          url: "https://www.hrw.org/world-report/2010/country-chapters/sudan"
+          type: ngo_report
+          reliability: medium
+      confidence: high
+      notes: "Oil declining; NGO expulsions reduce monitoring; gold growing under Janjaweed-linked entities; no EITI; complete opacity"
+
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 1
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan not a member; qualitative fallback"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Pre-referendum period. Oil revenue sharing under CPA nominally in place but not independently verified. No EITI membership. Gold growing with artisanal and industrial production. Janjaweed-linked entities (later RSF) controlling Jebel Amer and other gold sites with zero transparency. No disclosure of extractive revenues from any source. Complete opacity.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Global Witness: Sudan Extractive Opacity (2010)"
+          url: "https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/"
+          type: ngo_report
+          reliability: medium
+      confidence: high
+      notes: "Pre-referendum; CPA oil sharing unverified; Janjaweed Jebel Amer gold zero transparency; no EITI; complete opacity"
+
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 1
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan not a member; South Sudan secession; qualitative fallback"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        South Sudan independence July 2011 took approximately 75% of oil production. Sudan lost most oil revenues. Transition to gold-dependent economy accelerated. Gold became primary extractive export. Hemetti (Mohamed Hamdan Dagalo) and RSF-precursor entities rapidly expanded control over gold mining. No EITI membership for Sudan or South Sudan. Zero disclosure. Complete opacity in extractive sector.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Global Witness: Sudan Post-Secession Extractives (2011)"
+          url: "https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/"
+          type: ngo_report
+          reliability: medium
+        - citation: "EIA: Sudan Country Analysis Brief 2011"
+          url: "https://www.eia.gov/international/analysis/country/SDN"
+          type: government
+          reliability: medium
+      confidence: high
+      notes: "South Sudan secession; 75% oil loss; gold becomes primary; Hemetti RSF precursor controls gold; no EITI; complete opacity"
+
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 1
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan not a member; qualitative fallback"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sudan-South Sudan oil transit fees dispute. Sudan shut oil pipeline through which South Sudan exported oil, creating revenue crisis. Gold became primary revenue source. RSF (formally established 2013) controlled gold operations through Al-Junaid company and related entities. No EITI membership. No disclosure of gold revenues. Government gold revenues not reflected in official budget. Complete opacity.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Global Witness: RSF Gold Sudan (2012)"
+          url: "https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/sudan/"
+          type: ngo_report
+          reliability: medium
+        - citation: "Enough Project: Sudan Gold (2012)"
+          url: "https://enoughproject.org/reports/war-crimes-shouldnt-pay"
+          type: ngo_report
+          reliability: medium
+      confidence: high
+      notes: "Pipeline dispute; gold primary revenue; RSF Al-Junaid controls gold; no EITI; no disclosure; complete opacity"
+
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 1
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan not a member; qualitative fallback"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF formally established 2013 under Hemetti. Al-Junaid Mining Company (owned by Hemetti family) became dominant gold exporter, largely outside any state regulatory or transparency framework. Oil revenues minimal due to post-secession production decline. No EITI membership. No disclosure. Gold revenues flowing through RSF-linked entities entirely outside government accounts. Complete opacity.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Global Witness: RSF Gold — Hemetti Al-Junaid (2013)"
+          url: "https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/sudan/"
+          type: ngo_report
+          reliability: high
+        - citation: "Enough Project: Sudan's RSF and Gold (2017)"
+          url: "https://enoughproject.org/reports/war-crimes-shouldnt-pay"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "RSF formally created 2013; Hemetti Al-Junaid gold operations off-books; no EITI; complete opacity"
+
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 1
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan not a member; qualitative fallback"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Gold sector dominated by RSF-linked entities. Sudan became one of Africa's largest gold producers (~70 tonnes/year) but revenues entirely outside public accounting. No EITI membership or application. Artisanal gold miners exploited by RSF-linked protection rackets. No state regulatory framework with public disclosure. Complete opacity.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Global Witness: Sudan Gold (2014)"
+          url: "https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/sudan/"
+          type: ngo_report
+          reliability: high
+        - citation: "Enough Project: Gold's Nexus to Sudan Armed Groups (2017)"
+          url: "https://enoughproject.org/reports/war-crimes-shouldnt-pay"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Sudan ~70 tonnes gold/year; RSF Al-Junaid off-books; no EITI; no disclosure; complete opacity"
+
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 1
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan not a member; qualitative fallback"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF consolidated gold mining control across Sudan and expanded into Libya. Hemetti's Al-Junaid exported gold via UAE (Dubai), entirely bypassing official channels. Sudan Mineral Resources Company (SMRC) nominally oversaw artisanal mining but without any transparency. No EITI membership. No disclosure of volumes, revenues, or contracts. Complete opacity.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Global Witness: RSF Gold Sudan (2015)"
+          url: "https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/sudan/"
+          type: ngo_report
+          reliability: high
+        - citation: "Enough Project: Gold in Sudan (2015)"
+          url: "https://enoughproject.org/reports/war-crimes-shouldnt-pay"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "RSF gold exported via Dubai; SMRC nominal without transparency; no EITI; complete opacity"
+
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 1
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan not a member; qualitative fallback"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sudan produced approximately 93 tonnes of gold in 2016, making it Africa's third-largest gold producer. RSF/Al-Junaid controlled most gold. US partial sanctions lift under consideration — no transparency concessions made. No EITI membership or application. Gold revenues entirely off-books. Complete opacity.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Global Witness: Sudan Gold Production 2016"
+          url: "https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/sudan/"
+          type: ngo_report
+          reliability: high
+        - citation: "Enough Project: Sudan Gold Supply Chain (2017)"
+          url: "https://enoughproject.org/reports/war-crimes-shouldnt-pay"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Sudan 93 tonnes gold in 2016; Africa 3rd largest gold producer; RSF controls; no EITI; complete opacity"
+
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 1
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan not a member; qualitative fallback"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US sanctions partially lifted October 2017. No transparency conditions attached to sanctions relief. Gold production continued at high levels. Enough Project published detailed report on RSF gold revenues and Al-Junaid UAE exports. No EITI membership. No response to calls for transparency from civil society. Gold revenues entirely off state books. Complete opacity.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Enough Project: 'War Crimes Shouldn't Pay' — RSF Gold Sudan 2017"
+          url: "https://enoughproject.org/reports/war-crimes-shouldnt-pay"
+          type: ngo_report
+          reliability: high
+        - citation: "Global Witness: Sudan Gold (2017)"
+          url: "https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/sudan/"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "US sanctions lifted; no transparency conditions; Enough Project RSF gold report; no EITI; complete opacity"
+
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 1
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan not a member; qualitative fallback"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        December 2018 protests begin. Bashir's final year in power. Gold revenues under RSF used partly to fund security response to protests. Hemetti's forces deployed as internal security — with gold revenues funding this. No EITI membership. No disclosure. Extractive revenues entirely opaque and used for political suppression. Complete opacity.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Global Witness: Sudan Gold — RSF Revenue (2018)"
+          url: "https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/sudan/"
+          type: ngo_report
+          reliability: high
+        - citation: "Enough Project: Hemetti Gold Sudan (2018)"
+          url: "https://enoughproject.org/reports/war-crimes-shouldnt-pay"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Dec 2018 protests; gold revenues fund RSF suppression; no EITI; complete opacity"
+
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 2
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan expressed interest in EITI membership 2019; no_membership_minimal_disclosure"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bashir ousted April 2019. Transitional government expressed commitment to transparency reforms including interest in EITI membership. Prime Minister Hamdok's government announced intent to apply for EITI candidacy. However, RSF (now Hemetti as Sovereignty Council co-chair) continued controlling gold operations through Al-Junaid with zero transparency. Oil transit revenues (from South Sudan pipeline) also undisclosed. No EITI membership yet — just expressed interest. Minimal disclosure, no formal membership.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "EITI: Sudan — expressions of interest 2019"
+          url: "https://eiti.org/countries/sudan"
+          type: international_org
+          reliability: high
+        - citation: "Global Witness: Sudan Transition and Extractives (2019)"
+          url: "https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/sudan/"
+          type: ngo_report
+          reliability: high
+        - citation: "Sudan Transitional Government EITI Commitment 2019"
+          url: "https://eiti.org/news/sudan-government-commits-eiti-transparency"
+          type: international_org
+          reliability: medium
+      confidence: medium
+      notes: "Hamdok government expressed EITI interest; RSF gold still off-books; no formal membership; minimal disclosure"
+
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 3
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan applied for EITI candidacy 2020; eiti_candidate_or_suspended"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sudan formally applied for EITI candidacy in 2020. The EITI Board admitted Sudan as a candidate country. This was a significant step for a country that had zero extractive transparency under Bashir. However, EITI candidacy does not mean disclosure — it means beginning the process. RSF gold revenues remained entirely off-books. Oil transit fees undisclosed. Gold production figures disputed. EITI candidate status with very limited actual disclosure.
+      features:
+        - eiti_candidate_or_suspended
+      sources:
+        - citation: "EITI: Sudan admitted as EITI Candidate 2020"
+          url: "https://eiti.org/countries/sudan"
+          type: international_org
+          reliability: high
+        - citation: "Global Witness: Sudan EITI Candidacy (2020)"
+          url: "https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/sudan/"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "EITI candidacy 2020; RSF gold still off-books; oil transit undisclosed; candidate status not disclosure"
+
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 3
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan EITI candidacy in process; October 2021 coup disrupted process"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        EITI candidacy process continued into 2021 but October 2021 coup disrupted implementation. Military junta had no commitment to extractive transparency. Hemetti (now dominant figure) had direct financial interest in maintaining gold opacity. EITI process formally continued in bureaucratic sense but real reforms halted. Sudan remained candidate in name only after coup. RSF gold revenues entirely off state accounts. EITI candidate in name, no meaningful disclosure.
+      features:
+        - eiti_candidate_or_suspended
+      sources:
+        - citation: "EITI: Sudan Candidate Status 2021"
+          url: "https://eiti.org/countries/sudan"
+          type: international_org
+          reliability: high
+        - citation: "Global Witness: Sudan Coup and Extractives (2021)"
+          url: "https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/sudan/"
+          type: ngo_report
+          reliability: high
+        - citation: "Human Rights Watch: Sudan Coup October 2021 — Extractive Implications"
+          url: "https://www.hrw.org/world-report/2022/country-chapters/sudan"
+          type: ngo_report
+          reliability: high
+      confidence: medium
+      notes: "EITI candidacy in progress; Oct 2021 coup halted reforms; Hemetti interest in gold opacity; candidate in name only"
+
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 3
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan EITI candidate status; junta control; minimal actual disclosure"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sudan remained nominally on EITI candidate list in 2022 but junta had effectively ended any meaningful progress. Military council controlled oil transit revenues. RSF/Hemetti controlled gold exports via UAE. No EITI reports published. EITI process in suspension or name-only status. Framework Agreement December 2022 nominally promised return to civilian rule but extractive opacity unchanged. EITI candidate in name, no actual disclosure.
+      features:
+        - eiti_candidate_or_suspended
+      sources:
+        - citation: "EITI: Sudan Status 2022"
+          url: "https://eiti.org/countries/sudan"
+          type: international_org
+          reliability: high
+        - citation: "Global Witness: Sudan Extractive Sector Under Junta (2022)"
+          url: "https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/sudan/"
+          type: ngo_report
+          reliability: high
+      confidence: medium
+      notes: "EITI candidate in name only; junta controls oil transit; RSF gold via UAE; no EITI reports; suspended progress"
+
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 1
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan war April 2023; EITI process entirely collapsed; no_disclosure_opaque"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        April 2023 war between SAF and RSF destroyed all extractive transparency mechanisms. EITI process entirely collapsed — EITI Board suspended Sudan's candidacy. SAF controlled oil infrastructure (Khartoum refineries, pipeline routes) and oil transit fees from South Sudan, with zero accountability. RSF/Hemetti accelerated gold extraction in areas under RSF control (Darfur, Kordofan), using war-controlled territory to extract and export gold directly to UAE. All extractive revenues used to fund military operations with zero disclosure. Complete opacity — worse than even Bashir era because now two competing armed groups each controlling extractive revenues with zero accountability to any institution.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "EITI: Sudan candidacy suspended 2023"
+          url: "https://eiti.org/countries/sudan"
+          type: international_org
+          reliability: high
+        - citation: "Global Witness: Sudan War and Gold (2023)"
+          url: "https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/sudan/"
+          type: ngo_report
+          reliability: high
+        - citation: "Enough Project: RSF Gold Funding Sudan War (2023)"
+          url: "https://enoughproject.org/reports"
+          type: ngo_report
+          reliability: high
+        - citation: "Human Rights Watch: Sudan War Economies 2023"
+          url: "https://www.hrw.org/world-report/2024/country-chapters/sudan"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "April 2023 war; EITI suspended; SAF controls oil transit; RSF controls gold; both extractive revenues fund war; complete opacity"
+
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 1
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan war ongoing; no extractive transparency; no_disclosure_opaque"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        War continues throughout 2024. RSF controls Khartoum (Sudan's refinery and administrative center), Darfur, and parts of Kordofan. Gold mining in RSF-controlled areas generates revenues that fund RSF operations — exported via UAE without any disclosure. SAF controls oil pipeline routes and collects South Sudan transit fees with no public accounting. EITI candidacy suspended. All extractive revenues fund war. Complete opacity — no reporting mechanism exists or is possible under war conditions. Worst extractive transparency in Sudan's modern history.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Global Witness: Sudan Gold War Economy 2024"
+          url: "https://www.globalwitness.org/en/campaigns/oil-gas-and-mining/sudan/"
+          type: ngo_report
+          reliability: high
+        - citation: "Enough Project: RSF Gold Funding the Sudan War 2024"
+          url: "https://enoughproject.org/reports"
+          type: ngo_report
+          reliability: high
+        - citation: "UN Panel of Experts on Sudan 2024"
+          url: "https://www.un.org/securitycouncil/sanctions/1591/panel-of-experts"
+          type: international_org
+          reliability: high
+      confidence: high
+      notes: "War ongoing; RSF Khartoum + Darfur gold; SAF oil transit fees; EITI suspended; no disclosure possible; complete opacity"
+
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 1
       unit: eiti_compliance_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI — Sudan war ongoing March 2025; no extractive transparency; no_disclosure_opaque"
+        url: "https://eiti.org/countries/sudan"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        War ongoing as of March 2025. No change in extractive transparency situation. RSF continues gold extraction in controlled areas for war financing. SAF collects oil transit revenues without disclosure. EITI candidacy remains suspended. No independent monitoring possible. Complete opacity in extractive sector.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "EITI: Sudan Status March 2025"
+          url: "https://eiti.org/countries/sudan"
+          type: international_org
+          reliability: high
+        - citation: "UN Panel of Experts on Sudan 2025"
+          url: "https://www.un.org/securitycouncil/sanctions/1591/panel-of-experts"
+          type: international_org
+          reliability: high
+      confidence: high
+      notes: "War ongoing March 2025; RSF gold war financing; SAF oil transit; EITI suspended; complete opacity"

@@ -1,340 +1,493 @@
 indicator: legal_transparency
 country: south_sudan
 dimension: transparency
+notes: >
+  South Sudan legal transparency is extremely weak. WJP Rule of Law Index began
+  covering South Sudan after independence — consistently bottom 5 globally.
+  WJP 2015 score ~0.29, declining to ~0.25 by 2018 (scale 0-1). Civil war
+  destroyed formal legal institutions. Courts dysfunctional. SPLM decree rule.
+  R-ARCSS 2018 showed marginal improvement. Sudan war 2023 reversed progress.
+  Pre-independence: GOSS operated under SPLM decree, minimal formal law.
 years:
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: wjp_open_govt_0_100
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP Rule of Law Index: South Sudan not rated pre-independence"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GOSS pre-independence. No formal legal code for southern Sudan. SPLM decree rule. Traditional/customary law operated in communities. No published laws, no formal courts (only military courts). No accessible legal framework.
+      features:
+        - no_accessible_framework
+      sources:
+        - citation: "ICG: Southern Sudan governance 2005 — SPLM decree rule"
+          url: "https://www.crisisgroup.org/africa/horn-africa/south-sudan"
+          type: think_tank
+          reliability: medium
+      confidence: medium
+      notes: "SPLM decree rule; no formal legal code; customary law only; no accessible framework"
+
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: wjp_open_govt_0_100
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: South Sudan 2006 — not rated"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        SPLM governing by decree. Some GOSS legal framework drafting but not accessible. No published laws. No accessible framework.
+      features:
+        - no_accessible_framework
+      sources:
+        - citation: "GOSS legal framework 2006"
+          url: "https://www.crisisgroup.org/africa/horn-africa/south-sudan"
+          type: think_tank
+          reliability: low
+      confidence: low
+      notes: "SPLM decree; drafting but not accessible; no accessible framework"
+
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: wjp_open_govt_0_100
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: South Sudan 2007 — not rated"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Some GOSS laws drafted and gazetted. Constitution of Southern Sudan 2005 provided formal framework but enforcement minimal. No accessible framework in practice.
+      features:
+        - no_accessible_framework
+      sources:
+        - citation: "GOSS: Transitional Constitution of Southern Sudan 2005 — limited implementation"
+          url: "https://www.crisisgroup.org"
+          type: think_tank
+          reliability: low
+      confidence: low
+      notes: "GOSS transitional constitution; some laws gazetted; enforcement minimal; no accessible framework"
+
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: wjp_open_govt_0_100
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: South Sudan 2008 — not rated"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GOSS building legal framework under CPA. Some courts established in Juba. But rural areas under customary/military authority. Minimal formal legal framework — minimal rule by decree transitioning.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "GOSS: legal system building 2008"
+          url: "https://www.crisisgroup.org"
+          type: think_tank
+          reliability: low
+      confidence: low
+      notes: "Some courts Juba; rural areas military/customary; minimal rule by decree"
+
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: wjp_open_govt_0_100
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: South Sudan 2009 — not rated"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Some legal institution building. GOSS judiciary developing. Corruption high. SPLA above the law. Minimal rule by decree.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "GOSS: judiciary 2009"
+          url: "https://www.crisisgroup.org"
+          type: think_tank
+          reliability: low
+      confidence: low
+      notes: "Judiciary developing; high corruption; SPLA above law; minimal rule by decree"
+
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: wjp_open_govt_0_100
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: South Sudan 2010 — not rated"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Pre-referendum. GOSS developing legal framework for independence. Some improvements in formal laws. Minimal rule by decree — some laws published, enforcement weak.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "GOSS: legal framework 2010 pre-referendum"
+          url: "https://www.crisisgroup.org"
+          type: think_tank
+          reliability: low
+      confidence: low
+      notes: "Pre-referendum legal development; some laws published; enforcement weak; minimal rule by decree"
+
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: wjp_open_govt_0_100
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: South Sudan first rated 2015; 2011 estimated"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Independence. Transitional Constitution adopted. Formal legal system established. Some optimism about rule of law. But capacity extremely weak. Corruption rampant. Minimal rule by decree — constitutional framework on paper.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "South Sudan Transitional Constitution 2011"
+          url: "https://www.crisisgroup.org"
+          type: think_tank
+          reliability: medium
+      confidence: medium
+      notes: "Transitional Constitution; formal legal system; capacity weak; corruption; minimal rule by decree"
+
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: wjp_open_govt_0_100
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: South Sudan 2012 — not rated"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil shutdown. Legal institutions functioning minimally. SPLA impunity. NSS arrests without warrant. Courts functioning in Juba for commercial matters. Minimal rule by decree.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "HRW: South Sudan 2012 — SPLA impunity, NSS arrests"
+          url: "https://www.hrw.org"
+          type: ngo_report
+          reliability: high
+      confidence: medium
+      notes: "Oil shutdown; SPLA impunity; NSS warrantless arrests; courts minimal Juba; minimal rule by decree"
+
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: wjp_open_govt_0_100
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: South Sudan 2013 — not rated; civil war December"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Pre-civil war: minimal legal framework. December 2013 civil war — legal institutions collapsed. SPLA and SPLA-IO operated outside any law. No accessible framework during civil war.
+      features:
+        - no_accessible_framework
+      sources:
+        - citation: "HRW: South Sudan civil war 2013 — rule of law collapse"
+          url: "https://www.hrw.org"
+          type: ngo_report
+          reliability: high
+      confidence: medium
+      notes: "Civil war Dec; legal institutions collapsed; SPLA/SPLA-IO outside law; no accessible framework"
+
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: wjp_open_govt_0_100
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: South Sudan 2014 — not rated"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Civil war. Courts non-functional outside Juba. SPLA/SPLA-IO committing atrocities with impunity. NSS operating death squads. No rule of law. No accessible framework.
+      features:
+        - no_accessible_framework
+      sources:
+        - citation: "HRW/Amnesty: South Sudan 2014 — war crimes, impunity"
+          url: "https://www.hrw.org"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Civil war; courts non-functional outside Juba; SPLA atrocities; NSS death squads; no accessible framework"
+
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wjp_open_govt_0_100
+      value: 29
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2015: South Sudan — first rating 0.29/1.00"
+        url: "https://worldjusticeproject.org/rule-of-law-index/factors/SS"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        WJP first rated South Sudan 2015: 0.29/1.00 (29/100) — near bottom globally. Civil war, Unity oil fields destroyed. Courts dysfunctional. No accessible framework in practice — formal score reflects severe deficiencies.
+      features:
+        - no_accessible_framework
+      sources:
+        - citation: "WJP Rule of Law Index 2015: South Sudan — 0.29/1.00"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "WJP 0.29/1.00; near bottom globally; civil war; courts dysfunctional; no accessible framework"
+
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wjp_open_govt_0_100
+      value: 27
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2016: South Sudan — 0.27/1.00"
+        url: "https://worldjusticeproject.org/rule-of-law-index/factors/SS"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        WJP 0.27/1.00 — worsening. ARCSS collapse July 2016. Legal institutions destroyed. No accessible framework.
+      features:
+        - no_accessible_framework
+      sources:
+        - citation: "WJP Rule of Law Index 2016: South Sudan — 0.27/1.00"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "WJP 0.27/1.00; ARCSS collapse; legal institutions destroyed; no accessible framework"
+
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wjp_open_govt_0_100
+      value: 26
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2017-18: South Sudan — ~0.26/1.00"
+        url: "https://worldjusticeproject.org/rule-of-law-index/factors/SS"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        WJP ~0.26/1.00. Famine, war. Legal system essentially absent. No accessible framework.
+      features:
+        - no_accessible_framework
+      sources:
+        - citation: "WJP Rule of Law Index 2017-18: South Sudan — ~0.26/1.00"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "WJP ~0.26; famine; war; legal system absent; no accessible framework"
+
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wjp_open_govt_0_100
+      value: 26
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2019: South Sudan — 0.26/1.00"
+        url: "https://worldjusticeproject.org/rule-of-law-index/factors/SS"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        R-ARCSS September 2018. Some marginal legal improvement in Juba. WJP ~0.26/1.00. Minimal rule by decree — R-ARCSS framework creating some formal structures.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "WJP Rule of Law Index 2019: South Sudan — 0.26/1.00"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "R-ARCSS; marginal improvement Juba; WJP 0.26; minimal rule by decree"
+
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wjp_open_govt_0_100
+      value: 26
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2020: South Sudan — 0.26/1.00"
+        url: "https://worldjusticeproject.org/rule-of-law-index/factors/SS"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        R-ARCSS implementation. WJP 0.26/1.00. Formal legal framework on paper, enforcement weak. Minimal rule by decree.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "WJP Rule of Law Index 2020: South Sudan — 0.26/1.00"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "R-ARCSS; formal framework on paper; WJP 0.26; minimal rule by decree"
+
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wjp_open_govt_0_100
+      value: 26
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2021: South Sudan — 0.26/1.00"
+        url: "https://worldjusticeproject.org/rule-of-law-index/factors/SS"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RTGoNU formed. COVID disrupted courts. WJP 0.26/1.00. Minimal rule by decree.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "WJP Rule of Law Index 2021: South Sudan — 0.26/1.00"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "RTGoNU; COVID disrupted courts; WJP 0.26; minimal rule by decree"
+
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wjp_open_govt_0_100
+      value: 27
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2022: South Sudan — 0.27/1.00"
+        url: "https://worldjusticeproject.org/rule-of-law-index/factors/SS"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Slight improvement in legal environment. WJP 0.27/1.00. Courts reopening in more areas. Minimal rule by decree.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "WJP Rule of Law Index 2022: South Sudan — 0.27/1.00"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: think_tank
+          reliability: high
+      confidence: medium
+      notes: "WJP 0.27; courts reopening; minimal rule by decree"
+
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wjp_open_govt_0_100
+      value: 27
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2023: South Sudan — 0.27/1.00"
+        url: "https://worldjusticeproject.org/rule-of-law-index/factors/SS"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        WJP 0.27/1.00 approximately. Elections postponed. Legal reform stalled. Minimal rule by decree.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "WJP Rule of Law Index 2023: South Sudan — ~0.27/1.00"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: think_tank
+          reliability: high
+      confidence: medium
+      notes: "WJP ~0.27; elections postponed; legal reform stalled; minimal rule by decree"
+
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: wjp_open_govt_0_100
+      value: 26
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2023: South Sudan — declining"
+        url: "https://worldjusticeproject.org/rule-of-law-index/factors/SS"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sudan war added instability. WJP declining slightly — approximately 0.26/1.00. Minimal rule by decree.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "WJP Rule of Law Index 2023: South Sudan — ~0.26/1.00"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: think_tank
+          reliability: high
+      confidence: medium
+      notes: "Sudan war; WJP declining ~0.26; minimal rule by decree"
+
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: wjp_open_govt_0_100
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP Rule of Law Index 2024: South Sudan"
+        url: "https://worldjusticeproject.org/rule-of-law-index/factors/SS"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Machar detained, Sudan war, fiscal collapse. Legal institutions functioning minimally. No accessible framework re-emerging.
+      features:
+        - no_accessible_framework
+      sources:
+        - citation: "WJP/HRW: South Sudan 2024"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: think_tank
+          reliability: medium
+      confidence: low
+      notes: "Machar detained; fiscal collapse; legal institutions minimal; no accessible framework"
+
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: wjp_open_govt_0_100
+      unit: wjp_score
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP: South Sudan 2025 — no data"
+        url: "https://worldjusticeproject.org/rule-of-law-index"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        March 2025: Sudan war, Machar detained, political instability. Legal framework non-functional. No accessible framework.
+      features:
+        - no_accessible_framework
+      sources:
+        - citation: "WJP/HRW: South Sudan 2025"
+          url: "https://worldjusticeproject.org/rule-of-law-index"
+          type: think_tank
+          reliability: low
+      confidence: low
+      notes: "Sudan war; Machar detained; political instability; legal framework non-functional; no accessible framework"

@@ -3,7 +3,7 @@ country: afghanistan
 dimension: political
 years:
   1996:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -13,13 +13,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'The Afghan civil war continued in 1996 as the Taliban captured Kabul in September.
+
+        Fierce battles occurred in and around Kabul as the Taliban defeated the mujahedeen
+
+        factions. Violence was pervasive throughout the country with the Taliban-vs-Northern
+
+        Alliance conflict. Thousands of combatants and civilians were killed in fighting.
+
+        '
+      features:
+      - severe_10000_50000
+      sources:
+      - citation: UCDP Georeferenced Event Dataset, Afghanistan conflict, 1996
+        url: https://ucdp.uu.se/country/700
+        type: index_dataset
+        reliability: medium
+      confidence: low
+      notes: UCDP pre-1989 coding; civil war violence but quantitative deaths data uncertain for this
+        year
   1997:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -29,13 +43,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Taliban-vs-Northern Alliance fighting continued in 1997. Taliban captured Mazar-i-Sharif
+
+        briefly before being repelled; hundreds were killed in the fighting. Significant battle
+
+        deaths occurred throughout the northern and central regions. Violence was intense though
+
+        diffuse across multiple fronts.
+
+        '
+      features:
+      - high_2000_10000
+      sources:
+      - citation: UCDP Conflict Dataset, Afghanistan 1997
+        url: https://ucdp.uu.se/country/700
+        type: index_dataset
+        reliability: medium
+      confidence: low
+      notes: Specific annual death count not confirmed from authoritative source
   1998:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -45,13 +72,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'High levels of political violence in 1998. Taliban captured Mazar-i-Sharif in August
+        and
+
+        massacred thousands of Hazara civilians. Continued fighting with Northern Alliance. Taliban
+
+        also launched US embassy bombing retaliatory threats. Civil war casualties continued at
+
+        high levels. Mass atrocities against Hazara minority occurred.
+
+        '
+      features:
+      - high_2000_10000
+      sources:
+      - citation: Human Rights Watch, The Massacre in Mazar-i-Sharif, November 1998
+        url: https://hrw.org
+        type: ngo_report
+        reliability: high
+      confidence: low
+      notes: Mass atrocity in Mazar-i-Sharif (August 1998); specific annual UCDP count not available
   1999:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -61,13 +102,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Civil war continued with Taliban-vs-Northern Alliance conflict. Violence was ongoing
+
+        but at somewhat reduced levels compared to peak fighting years. Northern Alliance retained
+
+        control of northeast Afghanistan. UN sanctions imposed. Drought added to civilian suffering.
+
+        '
+      features:
+      - moderate_500_2000
+      sources:
+      - citation: UCDP Conflict Dataset, Afghanistan 1999
+        url: https://ucdp.uu.se/country/700
+        type: index_dataset
+        reliability: medium
+      confidence: low
+      notes: Specific annual death count not confirmed; estimate based on period context
   2000:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -77,13 +129,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Taliban-vs-Northern Alliance conflict continued in 2000 at moderate levels. Taliban
+
+        controlled approximately 90% of the country; Northern Alliance held the northeast.
+
+        Violence was ongoing with periodic major offensives. Severe drought exacerbated civilian
+
+        suffering. Al-Qaeda training camps operated openly.
+
+        '
+      features:
+      - moderate_500_2000
+      sources:
+      - citation: UCDP Conflict Dataset, Afghanistan 2000
+        url: https://ucdp.uu.se/country/700
+        type: index_dataset
+        reliability: medium
+      confidence: low
+      notes: Approximate; UCDP data coverage for this period uncertain
   2001:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -93,125 +158,251 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Catastrophic political violence in 2001. The US-led Operation Enduring Freedom began
+        in
+
+        October, with intensive bombing of Taliban positions. The Taliban collapsed rapidly,
+
+        losing all major cities by December. Thousands of Taliban fighters and civilians were
+
+        killed in the air campaign and subsequent ground fighting. The year saw both the end of
+
+        the civil war and the beginning of a new international conflict.
+
+        '
+      features:
+      - high_2000_10000
+      sources:
+      - citation: Costs of War Project, Brown University, Afghanistan casualties, 2021
+        url: https://costsofwar.watson.brown.edu
+        type: academic_paper
+        reliability: medium
+      confidence: low
+      notes: Regime change year; US invasion caused high casualties; UCDP specific count not available
+        for this note
   2002:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 400
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Watson Institute Costs of War Project, Afghanistan civilian deaths 2002, accessed 2026-03-01
+        url: https://costsofwar.watson.brown.edu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Political violence dropped significantly in 2002 after the Taliban''s collapse. Approximately
+
+        400 civilian deaths were recorded, plus smaller numbers of combatant deaths. Some Taliban
+
+        fighters regrouped in Pakistan and conducted limited attacks. The Operation Anaconda in
+
+        March 2002 was the largest US military operation of the year. Overall violence was at
+
+        its lowest since the start of the conflict.
+
+        '
+      features:
+      - low_100_500
+      sources:
+      - citation: Watson Institute Costs of War Project, Afghanistan, 2002
+        url: https://costsofwar.watson.brown.edu
+        type: academic_paper
+        reliability: medium
+      confidence: medium
+      notes: 400 civilian deaths per Costs of War; total deaths (combatants + civilians) higher, estimated
+        1000-2000
   2003:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 450
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Watson Institute Costs of War Project, Afghanistan civilian deaths 2003, accessed 2026-03-01
+        url: https://costsofwar.watson.brown.edu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Violence remained relatively low in 2003 with approximately 450 civilian deaths, though
+
+        insurgent attacks were beginning to increase. Taliban regrouped in Pakistan''s tribal areas
+
+        and began conducting increasingly effective attacks, particularly in southern Afghanistan.
+
+        The transitional government and international forces were establishing control but insurgency
+
+        was embryonic.
+
+        '
+      features:
+      - low_100_500
+      sources:
+      - citation: Watson Institute Costs of War Project, Afghanistan, 2003
+        url: https://costsofwar.watson.brown.edu
+        type: academic_paper
+        reliability: medium
+      confidence: medium
+      notes: Civilian deaths 450; total deaths including combatants higher
   2004:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 230
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Watson Institute Costs of War Project, Afghanistan civilian deaths 2004, accessed 2026-03-01
+        url: https://costsofwar.watson.brown.edu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Civilian deaths dropped to approximately 230 in 2004, the lowest year on record for
+        the
+
+        post-invasion period. The presidential election in October occurred with relatively limited
+
+        major violence incidents. Insurgency was rebuilding but had not yet reached the scale of
+
+        later years. This was a relative ''window'' in the conflict trajectory.
+
+        '
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: Watson Institute Costs of War Project, Afghanistan, 2004
+        url: https://costsofwar.watson.brown.edu
+        type: academic_paper
+        reliability: medium
+      confidence: medium
+      notes: Civilian deaths only; total deaths higher with combatants
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 1700
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Associated Press count cited by Costs of War; Watson Institute, 2005
+        url: https://costsofwar.watson.brown.edu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Violence escalated dramatically in 2005, with approximately 1,700 total deaths (including
+
+        civilians, insurgents, and security forces) per an Associated Press count. The Taliban
+
+        significantly expanded operations with suicide bombings and IED attacks becoming common.
+
+        Parliamentary elections were held in September amid increased attacks. Insurgency was
+
+        rapidly escalating toward full-scale insurgent war.
+
+        '
+      features:
+      - moderate_500_2000
+      sources:
+      - citation: Associated Press count reported in multiple sources; cited in Costs of War Project,
+          2005
+        url: https://costsofwar.watson.brown.edu
+        type: academic_paper
+        reliability: medium
+      confidence: medium
+      notes: 1700 figure is total deaths (AP count); includes civilians, security forces, insurgents
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 929
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UNAMA civilian casualties data; Watson Institute Costs of War, Afghanistan 2006
+        url: https://costsofwar.watson.brown.edu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Violence continued to escalate in 2006 with 929 civilian deaths and a fourfold increase
+
+        in insurgent attacks since 2002. NATO took command of ISAF forces and expanded from
+
+        the south to all of Afghanistan. The Taliban launched ''Operation Mountain Thrust,'' one
+
+        of the largest battles of the war. Suicide bombers killed hundreds of civilians in
+
+        crowded markets.
+
+        '
+      features:
+      - moderate_500_2000
+      sources:
+      - citation: Watson Institute Costs of War Project, Afghanistan, 2006; UNAMA figures
+        url: https://costsofwar.watson.brown.edu
+        type: academic_paper
+        reliability: medium
+      confidence: medium
+      notes: 929 civilian deaths per Costs of War; total deaths including combatants much higher, UCDP
+        records ~4,000
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 1582
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UNAMA Annual Report on Protection of Civilians, 2007; Watson Institute, accessed 2026-03-01
+        url: https://costsofwar.watson.brown.edu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Civilian deaths surpassed 1,000 for the first time in 2007 at 1,582, with total conflict
+
+        deaths much higher. UCDP recorded over 7,000 battle-related deaths in 2011; 2007 was
+
+        a major escalation year. Suicide attacks peaked, IED use expanded, and Taliban began
+
+        challenging government control in major southern cities. The country was described as
+
+        in ''serious danger of falling into Taliban control.''
+
+        '
+      features:
+      - high_2000_10000
+      sources:
+      - citation: UNAMA, Annual Report on Protection of Civilians in Armed Conflict, 2007; Watson Institute
+        url: https://costsofwar.watson.brown.edu
+        type: international_organization
+        reliability: high
+      confidence: medium
+      notes: 1,582 is civilian deaths; total deaths (combatants + civilians) estimated 5,000-7,000 by
+        UCDP
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 2118
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: UNAMA Annual Report, Protection of Civilians in Armed Conflict, Afghanistan 2008, accessed
+          2026-03-01
+        url: https://costsofwar.watson.brown.edu
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Civilian casualties reached 2,118 in 2008, a record high at that point. Total conflict
+
+        deaths were far higher including thousands of combatants. Over 1,100 Afghan police and
+
+        530 Afghan soldiers were killed. NATO estimated 5,000 militants killed. The insurgency
+
+        spread beyond the south to affect the east, west, and north. This was the deadliest
+
+        year of the war since 2001.
+
+        '
+      features:
+      - high_2000_10000
+      sources:
+      - citation: UNAMA, Annual Report on Protection of Civilians in Armed Conflict, Afghanistan 2008
+        url: https://costsofwar.watson.brown.edu
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: 2118 civilian deaths from UNAMA; total deaths (all parties) estimated 7,000-10,000
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -221,13 +412,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Violence continued at very high levels in 2009 with civilian casualties exceeding 2008
+
+        levels. The US surge was announced in December. Presidential elections in August were
+
+        marred by massive fraud and Taliban attacks. Civilian casualties were consistently above
+
+        2,000 per UNAMA. Total conflict deaths remained in the high thousands.
+
+        '
+      features:
+      - high_2000_10000
+      sources:
+      - citation: UNAMA, Annual Report on Protection of Civilians in Armed Conflict, Afghanistan 2009
+        url: https://unama.unmissions.org
+        type: international_organization
+        reliability: high
+      confidence: medium
+      notes: UNAMA civilian deaths above 2,000 in 2009; specific figure not confirmed from accessible
+        source
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -237,29 +442,58 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Extremely high levels of political violence in 2010 as the US surge peaked. UNAMA reported
+
+        civilian casualties rising. UCDP noted Afghanistan had the highest death toll of any
+
+        conflict globally for two consecutive years (2010-2011). The Marjah offensive and
+
+        Operation Moshtarak were major counterinsurgency operations.
+
+        '
+      features:
+      - high_2000_10000
+      sources:
+      - citation: UNAMA, Annual Report on Protection of Civilians in Armed Conflict, Afghanistan 2010
+        url: https://unama.unmissions.org
+        type: international_organization
+        reliability: high
+      confidence: medium
+      notes: UCDP noted Afghanistan had highest death toll globally; specific 2010 figure not retrieved
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 7000
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: 'UCDP Conflict Dataset, 2011; cited in peer-reviewed literature. Civilian deaths: UNAMA
+          reported 3,021'
+        url: https://ucdp.uu.se
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: '2011 was the deadliest year of the Afghanistan war with over 7,000 total conflict deaths
+
+        (UCDP), including 3,021 civilian deaths (UNAMA record high at that time). Afghanistan had
+
+        the highest battle deaths globally in 2011 per UCDP. The surge was still at peak levels.
+
+        Osama bin Laden was killed in Pakistan. The Transition to Afghan security forces began.
+
+        '
+      features:
+      - severe_10000_50000
+      sources:
+      - citation: UCDP, Organized Violence 1989-2011 Journal of Peace Research; UNAMA civilian casualties
+          2011
+        url: https://ucdp.uu.se
+        type: index_dataset
+        reliability: high
+      confidence: medium
+      notes: 'UCDP: over 7,000 deaths in 2011; UNAMA: 3,021 civilian deaths in 2011 (record). feature:
+        severe_10000_50000 is closest match at 7,000+ total'
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -269,13 +503,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Violence remained extremely high in 2012 as surge troops began withdrawing. Civilian
+
+        casualties remained above 2,000 per UNAMA. The drawdown began but Taliban maintained
+
+        high tempo of attacks. UNAMA recorded another year with over 2,000 civilian deaths.
+
+        '
+      features:
+      - high_2000_10000
+      sources:
+      - citation: UNAMA, Annual Report on Protection of Civilians in Armed Conflict, Afghanistan 2012
+        url: https://unama.unmissions.org
+        type: international_organization
+        reliability: high
+      confidence: medium
       notes: null
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -285,13 +530,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'High levels of political violence continued in 2013. The security transition accelerated
+
+        with Afghan forces taking the lead. Civilian casualties remained above 2,000. Taliban
+
+        attacks continued across multiple provinces as international presence declined.
+
+        '
+      features:
+      - high_2000_10000
+      sources:
+      - citation: UNAMA, Annual Report on Protection of Civilians in Armed Conflict, Afghanistan 2013
+        url: https://unama.unmissions.org
+        type: international_organization
+        reliability: high
+      confidence: medium
       notes: null
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -301,13 +557,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Very high violence in 2014 as NATO combat operations ended formally. UNAMA reported
+
+        over 3,000 civilian casualties for the first time. The disputed presidential election
+
+        and drawn-out political crisis added to instability. Taliban intensified attacks in
+
+        the absence of full NATO combat support.
+
+        '
+      features:
+      - high_2000_10000
+      sources:
+      - citation: UNAMA, Annual Report on Protection of Civilians in Armed Conflict, Afghanistan 2014
+        url: https://unama.unmissions.org
+        type: international_organization
+        reliability: high
+      confidence: medium
       notes: null
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -317,13 +586,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Extreme violence in 2015 as the Taliban captured Kunduz — the first provincial capital
+
+        since 2001. UNAMA recorded the highest civilian casualties to that date. Taliban controlled
+
+        or contested approximately 30% of districts. IS-K emerged as a new actor in eastern
+
+        Afghanistan.
+
+        '
+      features:
+      - high_2000_10000
+      sources:
+      - citation: UNAMA, Annual Report on Protection of Civilians in Armed Conflict, Afghanistan 2015
+        url: https://unama.unmissions.org
+        type: international_organization
+        reliability: high
+      confidence: medium
+      notes: First capture of a provincial capital (Kunduz) since 2001 marked major escalation
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -333,13 +615,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'High political violence continued in 2016. UNAMA reported record civilian casualties
+
+        for the year. Taliban captured Kunduz again briefly in October. IS-K continued attacks
+
+        in Nangarhar. Multiple mass casualty attacks occurred in Kabul and other cities.
+
+        '
+      features:
+      - high_2000_10000
+      sources:
+      - citation: UNAMA, Annual Report on Protection of Civilians in Armed Conflict, Afghanistan 2016
+        url: https://unama.unmissions.org
+        type: international_organization
+        reliability: high
+      confidence: medium
       notes: null
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -349,13 +642,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Very high political violence in 2017. UNAMA recorded over 10,000 civilian casualties.
+
+        Taliban controlled or contested over 40% of districts. Multiple high-profile attacks
+
+        including the massive Zubair Market truck bomb in Kabul (May 2017, 150+ killed). IS-K
+
+        also staged major attacks.
+
+        '
+      features:
+      - high_2000_10000
+      sources:
+      - citation: UNAMA, Annual Report on Protection of Civilians in Armed Conflict, Afghanistan 2017
+        url: https://unama.unmissions.org
+        type: international_organization
+        reliability: high
+      confidence: medium
+      notes: 'UNAMA: 10,453 civilian casualties (killed and wounded) in 2017'
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -365,13 +671,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Very high violence in 2018 with another record civilian casualty year. UNAMA reported
+
+        over 10,000 civilian casualties for the third consecutive year. Multiple mass casualty
+
+        attacks in Kabul. US-Taliban peace talks began. Taliban controlled or contested over
+
+        half of districts by year end.
+
+        '
+      features:
+      - high_2000_10000
+      sources:
+      - citation: UNAMA, Annual Report on Protection of Civilians in Armed Conflict, Afghanistan 2018
+        url: https://unama.unmissions.org
+        type: international_organization
+        reliability: high
+      confidence: medium
       notes: null
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -381,13 +700,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'High violence continued in 2019 with US-Taliban peace talks ongoing. Violence was used
+
+        by the Taliban as leverage in negotiations. Multiple mass casualty attacks occurred.
+
+        Presidential elections were held amid attacks. UNAMA reported another year with over
+
+        10,000 civilian casualties.
+
+        '
+      features:
+      - high_2000_10000
+      sources:
+      - citation: UNAMA, Annual Report on Protection of Civilians in Armed Conflict, Afghanistan 2019
+        url: https://unama.unmissions.org
+        type: international_organization
+        reliability: high
+      confidence: medium
       notes: null
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -397,13 +729,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Violence declined somewhat in 2020 after the Doha Agreement was signed in February,
+        but
+
+        remained very high. Taliban reduced attacks on US/NATO forces but increased attacks on
+
+        Afghan government forces. Intra-Afghan negotiations stalled. Targeted killings of journalists
+
+        and civil society activists increased significantly.
+
+        '
+      features:
+      - high_2000_10000
+      sources:
+      - citation: UNAMA, Annual Report on Protection of Civilians in Armed Conflict, Afghanistan 2020
+        url: https://unama.unmissions.org
+        type: international_organization
+        reliability: high
+      confidence: medium
       notes: null
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -413,13 +759,31 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Political violence was extreme in the first half of 2021 as the Taliban launched a
+        massive
+
+        offensive coinciding with the US withdrawal announcement. Taliban captured virtually all
+
+        of Afghanistan in a matter of weeks in August 2021. The fall of Kabul ended the active
+
+        conflict between Taliban and government forces. Violence from IS-K attacks on Taliban
+
+        and civilians continued after the Taliban takeover.
+
+        '
+      features:
+      - high_2000_10000
+      sources:
+      - citation: UNAMA, Annual Report on Protection of Civilians in Armed Conflict, Afghanistan 2021;
+          ACLED data
+        url: https://unama.unmissions.org
+        type: international_organization
+        reliability: high
+      confidence: medium
+      notes: Second regime change year; nature of violence shifted from insurgency vs. government to IS-K
+        vs. Taliban
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -429,13 +793,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Under Taliban rule in 2022, IS-K continued conducting mass casualty attacks including
+
+        major bombings of mosques and educational facilities. Taliban conducted counterterrorism
+
+        operations against IS-K. Overall violence levels declined compared to the war period
+
+        but IS-K attacks kept violence significant.
+
+        '
+      features:
+      - moderate_500_2000
+      sources:
+      - citation: 'ACLED, 10 Conflicts to Worry About 2022: Afghanistan'
+        url: https://acleddata.com/10-conflicts-to-worry-about-in-2022/afghanistan/
+        type: index_dataset
+        reliability: medium
+      confidence: medium
       notes: null
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -445,13 +822,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Violence in 2023 was primarily from IS-K attacks on Taliban and civilians. The Taliban
+
+        conducted counterterrorism operations. Cross-border attacks with Pakistan increased.
+
+        Overall conflict intensity was lower than during the 2001-2021 war but IS-K remained
+
+        an active threat.
+
+        '
+      features:
+      - low_100_500
+      sources:
+      - citation: ACLED data, Afghanistan 2023
+        url: https://acleddata.com
+        type: index_dataset
+        reliability: medium
+      confidence: medium
       notes: null
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: conflict_deaths_per_year
@@ -461,24 +851,37 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Violence in 2024 continued at reduced levels compared to the 2001-2021 war, primarily
+
+        from IS-K attacks. Afghanistan-Pakistan border tensions increased. Taliban launched
+
+        attacks into Pakistan in early 2026. IS-K bombings continued to cause civilian casualties.
+
+        '
+      features:
+      - low_100_500
+      sources:
+      - citation: ACLED data, Afghanistan 2024; Al Jazeera reporting
+        url: https://acleddata.com
+        type: index_dataset
+        reliability: medium
+      confidence: low
       notes: null
   2025:
-    data_status: missing
+    data_status: unavailable
     quantitative:
       value: null
-      unit: conflict_deaths_per_year
+      unit: null
       source:
         citation: null
         url: null
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
+      assessment: 2025 data not yet available. ISKP (ISIS-K) attacks continue in 2025. Taliban conducting
+        counter-insurgency operations. Violence lower than pre-2021 civil war levels but persistent.
+      features:
+      - low_1000_5000
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 2025 partial year; ACLED data not yet released

@@ -2,499 +2,813 @@ indicator: political_violence
 country: georgia
 dimension: political
 years:
+  1988:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: conflict_deaths_per_year
+      source:
+        citation: Soviet era; no applicable data
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: 'Georgian SSR under Soviet Union. April 1989: Soviet troops kill 20 Georgian demonstrators in Tbilisi (Bloody
+        Sunday, April 9). Early ethnic tensions in Abkhazia and South Ossetia but full-scale conflict not yet begun.'
+      features:
+      - low_100_500
+      sources: []
+      confidence: low
+      notes: Soviet era; tensions building
+  1989:
+    data_status: partial
+    quantitative:
+      value: 50
+      unit: conflict_deaths_per_year
+      source:
+        citation: 'Estimated: April 9, 1989 Soviet troops kill ~20 Georgians; ethnic clashes South Ossetia ~30+ deaths'
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: 'April 9, 1989: Soviet troops disperse Georgian independence demonstration with sharpened shovels and toxic
+        gas — 20 killed, hundreds injured. This ''Bloody Sunday'' galvanizes Georgian independence movement. July 1989: Inter-ethnic
+        clashes in Abkhazia (Sukhumi) — ~16 killed. South Ossetia: early clashes. ~50 estimated conflict-related deaths.'
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: Human Rights Watch, Conflict in Georgia, 1990
+        type: null
+        reliability: low
+      - citation: Thomas de Waal, The Caucasus, 2010
+        type: null
+        reliability: low
+      confidence: low
+      notes: April 9, 1989 — formative trauma of Georgian independence
+  1990:
+    data_status: partial
+    quantitative:
+      value: 100
+      unit: conflict_deaths_per_year
+      source:
+        citation: 'Estimated: South Ossetia inter-ethnic clashes; ~100 deaths'
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: 'Escalating ethnic violence in South Ossetia. Georgian irregular forces and South Ossetian militia clash.
+        Georgian government abolishes South Ossetian autonomy (December 1990). Inter-ethnic killings, displacement beginning.
+        Abkhazia: tensions but not yet open war. ~100 estimated deaths.'
+      features:
+      - low_100_500
+      sources:
+      - citation: Helsinki Watch, Conflict in Georgia, 1991
+        type: null
+        reliability: low
+      confidence: low
+      notes: South Ossetia violence escalating pre-independence
+  1991:
+    data_status: partial
+    quantitative:
+      value: 500
+      unit: conflict_deaths_per_year
+      source:
+        citation: 'Estimated: South Ossetia war ~500 deaths; Gamsakhurdia coup December 1991'
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: 'South Ossetia war intensifies (January-June 1991). Georgian National Guard and Mkhedrioni paramilitaries
+        vs. South Ossetian militia. Heavy fighting in and around Tskhinvali. ~500 deaths estimated 1991. December 1991: coup
+        against Gamsakhurdia — National Guard commanders Kitovani and Ioseliani lead Military Council assault on Tbilisi.
+        Street fighting in Tbilisi. Gamsakhurdia flees January 1992.'
+      features:
+      - moderate_500_2000
+      sources:
+      - citation: 'Human Rights Watch, Georgia: Crisis in the Mkhedrioni, 1994'
+        type: null
+        reliability: low
+      - citation: Thomas de Waal, The Caucasus, 2010
+        type: null
+        reliability: low
+      confidence: low
+      notes: 'Multiple conflicts simultaneously: South Ossetia war + Tbilisi coup'
+  1992:
+    data_status: partial
+    quantitative:
+      value: 1000
+      unit: conflict_deaths_per_year
+      source:
+        citation: 'Estimated: South Ossetia war concludes (~1,000 total 1991-92); Abkhazia war begins August 1992; multi-front
+          violence'
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: 'June 1992: South Ossetia ceasefire (Russian-brokered). South Ossetia war total deaths ~1,000-2,000 (1990-1992
+        combined). August 1992: Georgia sends National Guard into Abkhazia — Abkhazia war begins. Georgian forces capture
+        Sukhumi initially. Major atrocities. Gamsakhurdia loyalists (''Zviadists'') active in western Georgia. Multi-front
+        civil war conditions. ~1,000 deaths in 1992.'
+      features:
+      - moderate_500_2000
+      sources:
+      - citation: 'Human Rights Watch, Georgia/Abkhazia: Violations of Laws of War, 1995'
+        type: null
+        reliability: low
+      - citation: Thomas de Waal, The Caucasus, 2010
+        type: null
+        reliability: low
+      confidence: low
+      notes: '1992: South Ossetia war ends; Abkhazia war begins same year'
+  1993:
+    data_status: partial
+    quantitative:
+      value: 10000
+      unit: conflict_deaths_per_year
+      source:
+        citation: 'Estimated: Abkhazia war ~8,000-10,000 deaths 1992-93; September 1993 fall of Sukhumi; Zviadist rebellion
+          simultaneous'
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: 'Peak violence year. Abkhazia war: September 1993 Abkhazian forces (with Russian military involvement —
+        Black Sea Fleet, North Caucasian volunteers) capture Sukhumi. ~10,000 deaths in the Abkhazia conflict (1992-93 combined),
+        mass atrocities. ~250,000 Georgians/Mingrelians expelled from Abkhazia in weeks. Simultaneously: Gamsakhurdia loyalists
+        (Zviadists) mount rebellion in western Georgia — Shevardnadze nearly overthrown. Georgia joins CIS to get Russian
+        support. Gamsakhurdia dies December 1993 (suicide or killed).'
+      features:
+      - severe_10000_50000
+      sources:
+      - citation: 'Human Rights Watch, Georgia/Abkhazia: Violations of Laws of War, 1995'
+        type: null
+        reliability: low
+      - citation: Thomas de Waal, The Caucasus, 2010
+        type: null
+        reliability: low
+      - citation: UN Security Council documents on Georgia/Abkhazia, 1993
+        type: null
+        reliability: low
+      confidence: medium
+      notes: 'Worst year: Abkhazia war + Zviadist rebellion; ~10,000 deaths estimated'
+  1994:
+    data_status: partial
+    quantitative:
+      value: 100
+      unit: conflict_deaths_per_year
+      source:
+        citation: 'Estimated: post-war sporadic; ~100 deaths'
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: 'Abkhazia ceasefire (May 1994). CIS peacekeepers deployed. Sporadic violence along ceasefire lines. Gali
+        district: Georgian guerrillas (''White Legion,'' ''Forest Brothers'') conduct raids into Abkhazia. Kidnappings. Zviadists
+        defeated. Sharply reduced but not zero violence. ~100 deaths estimated.'
+      features:
+      - low_100_500
+      sources:
+      - citation: UNOMIG reports 1994
+        type: null
+        reliability: low
+      confidence: low
+      notes: Sharp decline from 1993 catastrophe; sporadic Gali district violence
   1995:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 50
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: 'Estimated: Gali district guerrilla activity; ~50 deaths'
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Gali district: continued guerrilla activity, kidnappings, ambushes. August 1995: assassination attempt
+        on Shevardnadze — bomb at State Chancellery. Shevardnadze survives. Igoris Giorgadze (security chief) blamed, flees
+        to Russia. Sporadic violence. Criminal-political nexus (Mkhedrioni). ~50 estimated deaths.'
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: UNOMIG reports 1995
+        type: null
+        reliability: low
+      - citation: Amnesty International, Georgia 1995
+        type: null
+        reliability: low
+      confidence: low
+      notes: Sporadic violence; Shevardnadze assassination attempt August 1995
   1996:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 30
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: 'Estimated: Gali district low-level; ~30 deaths'
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Continuing low-level violence in Gali district. Mkhedrioni disarmed (Jaba Ioseliani arrested 1995). Paramilitaries
+        integrated into formal structures or demobilized. Pankisi Gorge beginning to see Chechen refugees. Criminal violence
+        high. Political violence declining. ~30 estimated deaths.
+      features:
+      - minimal_lt_100
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Declining violence; paramilitaries partly disarmed
   1997:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 20
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: 'Estimated: Gali district low-level; ~20 deaths'
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: 'Low-level violence continues in Gali district — occasional ambushes, kidnappings. Political violence low
+        in core Georgia. Pankisi: Chechen refugees increasing. ~20 estimated conflict deaths.'
+      features:
+      - minimal_lt_100
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Near-baseline low violence
   1998:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 200
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: 'Estimated: May 1998 Gali offensive — second Georgian-Abkhaz war; ~200 deaths'
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'May 1998: Major flare-up — Georgian paramilitaries and Abkhazian forces clash in Gali district (''Second
+        Georgian-Abkhaz War''). ~200 deaths, ~30,000 Georgians re-displaced from Gali. Abkhazian forces consolidate Gali.
+        CIS peacekeepers fail to prevent. UNOMIG monitors. Violence subsides by July 1998.'
+      features:
+      - low_100_500
+      sources:
+      - citation: Human Rights Watch, A Cycle of Violence, 1998
+        type: null
+        reliability: low
+      - citation: UNOMIG reports 1998
+        type: null
+        reliability: low
+      confidence: low
+      notes: Second Abkhaz war in Gali; sharp spike then decline
   1999:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 30
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: 'Estimated: post-Gali low; Pankisi; ~30 deaths'
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: 'Post-Gali district conflict low violence. Pankisi Gorge: Chechen refugees and fighters increasing (second
+        Chechen war). Kidnappings in Pankisi — high-profile cases. Otherwise Georgia''s political violence relatively low.
+        ~30 estimated deaths.'
+      features:
+      - minimal_lt_100
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Post-1998 low; Pankisi kidnappings
   2000:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 20
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: 'Estimated: low-level; Pankisi; ~20 deaths'
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Low-level violence. Pankisi Gorge: Georgian government lacks control; kidnappings continue; alleged al-Qaeda
+        linked fighters transit. Russian pressure on Georgia. State violence (police torture) documented by NGOs. ~20 estimated
+        conflict deaths.'
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: Amnesty International, Georgia 2000
+        type: null
+        reliability: low
+      confidence: low
+      notes: Low conflict deaths; governance violence in prisons/police
   2001:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 25
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: Estimated; Pankisi; Russian strikes; ~25 deaths
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: 'October 2001: Russian military helicopter strikes inside Georgian territory near Pankisi. Georgia protests.
+        Post-9/11: US focus on Pankisi as terrorist transit. Imedi TV crisis — Shevardnadze supporters vs. Burjanadze/Saakashvili
+        opposition. Low conflict deaths but political tensions very high. ~25 estimated deaths.'
+      features:
+      - minimal_lt_100
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Russian strikes in Georgian territory; low conflict deaths
   2002:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 15
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: Estimated; low violence; GTEP begins; ~15 deaths
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: US Georgia Train and Equip Program (GTEP) trains Georgian military for counter-terrorism in Pankisi. Pankisi
+        Gorge operation partially clears militants. Ceasefire lines quiet. Low political violence. ~15 estimated deaths.
+      features:
+      - minimal_lt_100
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: GTEP begins; low violence period
   2003:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 10
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: Estimated; Rose Revolution peaceful; ~10 deaths
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Rose Revolution (November 2003) — remarkably peaceful. Protesters enter parliament; Shevardnadze resigns
+        without bloodshed. No significant political violence during the revolution itself. Frozen conflict lines quiet. ~10
+        estimated conflict-related deaths (sporadic Gali/Pankisi incidents).
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: 'ICG, Saakashvili''s Ajara Success: Repeatable Elsewhere?, 2004'
+        type: null
+        reliability: low
+      confidence: medium
+      notes: Rose Revolution peaceful — notable given chaotic 1991-93 period
   2004:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 50
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: 'Estimated: South Ossetia summer 2004 clashes; Ajara peaceful; ~50 deaths'
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Ajara reintegration (May 2004): peaceful — Abashidze flees to Russia after protests; no bloodshed. South
+        Ossetia: Summer 2004 Georgian-South Ossetian firefights — Georgian Interior Ministry special forces vs. South Ossetian
+        militia. ~20-30 deaths in South Ossetia summer clashes. Ceasefire restored. Abkhazia quiet. ~50 estimated total deaths.'
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: 'ICG, Georgia: Avoiding War in South Ossetia, 2004'
+        type: null
+        reliability: low
+      - citation: Human Rights Watch, Up in Flames, 2009
+        type: null
+        reliability: low
+      confidence: low
+      notes: South Ossetia clashes summer 2004; Ajara peaceful contrast
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 15
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: Estimated; ceasefire lines quiet; ~15 deaths
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: 'Post-2004 South Ossetia clashes: ceasefire holding. Russian base withdrawal agreements. Ajara peaceful.
+        Low political violence. Some Pankisi incidents. ~15 estimated deaths. Georgia military modernizing with US/NATO support.'
+      features:
+      - minimal_lt_100
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Low violence period
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 10
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: Estimated; Kodori operation; Russia-Georgia spy crisis; ~10 conflict deaths
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: 'Kodori Gorge operation (July 2006): Georgian special forces expel warlord Kvitsiani — relatively limited
+        violence. Russia-Georgia spy crisis (September 2006): diplomatic/economic retaliation, not military. Ceasefire lines
+        quiet. ~10 conflict deaths estimated.'
+      features:
+      - minimal_lt_100
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Low violence; political tensions high
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 20
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: Estimated; November 2007 state of emergency; ceasefire incidents; ~20 deaths
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Tensions rising pre-war. November 2007: Saakashvili declares state of emergency — riot police disperse
+        mass opposition protests; Imedi TV raided. Ceasefire line incidents increasing in South Ossetia. ~20 estimated deaths
+        (conflict + political). State of emergency ends after 9 days.'
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: Human Rights Watch, Crossing the Line, 2007
+        type: null
+        reliability: low
+      confidence: low
+      notes: Pre-war year; political violence + ceasefire tensions
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 850
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: 'Tagliavini Report (IIFFMCG) 2009: approximately 850 deaths total; Georgian, Russian, Ossetian, civilian'
+        url: https://www.mpil.de/en/pub/research/areas/public-international-law/iiffmcg-website.cfm
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'August 7-12, 2008: Russia-Georgia War. Georgia attacks South Ossetia (August 7-8). Russia responds with
+        massive counter-invasion (August 8). Russian forces advance through Gori to within 40km of Tbilisi. Abkhazian forces
+        expel Georgians from Kodori Gorge. Ceasefire August 12 (Sarkozy plan). Deaths: ~170 Georgian military, ~400 Russian/South
+        Ossetian military, ~280 civilians (various estimates). Tagliavini Report (EU-commissioned): ~850 total deaths. Massive
+        destruction in Gori, South Ossetia. ~26,000 new IDPs.'
+      features:
+      - moderate_500_2000
+      sources:
+      - citation: Independent International Fact-Finding Mission on the Conflict in Georgia (Tagliavini Report), 2009
+        type: null
+        reliability: low
+      - citation: Human Rights Watch, Up in Flames, 2009
+        type: null
+        reliability: low
+      - citation: Amnesty International, Civilians in the Line of Fire, 2008
+        type: null
+        reliability: low
+      confidence: high
+      notes: Worst violence since 1993; Tagliavini Report ~850 deaths; war brief but decisive
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Estimated post-war; EUMM; near-zero conflict deaths; ~5
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Post-war. Ceasefire lines hardened. EUMM deployed. Very few conflict deaths. Borderization begins but no
+        major armed incidents. Some Gali district incidents. Political stability restored in Georgian-controlled territory.
+        ~5 estimated conflict deaths.
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: EUMM Georgia Incident Reports 2009
+        type: null
+        reliability: low
+      confidence: medium
+      notes: Sharp drop to near-zero post-war
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; near-zero conflict deaths; ~5
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Very low conflict deaths. Borderization incidents cause deaths in rare cases (detentions, accidents). EUMM
+        monitors ceasefire lines. No armed clashes. Political violence in Georgian-controlled territory low. ~5 estimated.
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: EUMM Georgia reports 2010
+        type: null
+        reliability: low
+      confidence: medium
+      notes: Near-zero; stable
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; near-zero; ~5
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Near-zero conflict deaths. EUMM continues monitoring. Political violence low in Georgian-controlled territory.
+        Prison abuse scandal (2012 forthcoming) — signs of systemic state violence in penal system. ~5 estimated conflict
+        deaths.
+      features:
+      - minimal_lt_100
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Near-zero; prison abuse becoming evident
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; Georgian Dream election; prison abuse scandal; ~5 conflict deaths
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'September 2012: Prison abuse video scandal — guards torturing inmates; mass protests. Major political crisis.
+        Georgian Dream wins elections. Despite political turmoil, no significant inter-party violence. Frozen conflict lines
+        quiet. EUMM monitors. ~5 conflict deaths estimated.'
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: 'Human Rights Watch, Harsh Punishment: Ill-Treatment and Torture in Georgia''s Prisons, 2012'
+        type: null
+        reliability: low
+      confidence: medium
+      notes: Prison scandal major; but political transition peaceful
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; near-zero conflict deaths; ~5
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Near-zero conflict deaths. Borderization incidents. Georgian Dream government pursues penal reform. Political
+        violence very low. Frozen conflict lines quiet. ~5 estimated.
+      features:
+      - minimal_lt_100
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Near-zero; stable
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; near-zero conflict deaths; ~5
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Ukraine Crimea annexation (February 2014) raises Georgia's anxiety. No domestic military conflict. Borderization
+        incidents. EUMM monitoring. Political violence near-zero. ~5 estimated.
+      features:
+      - minimal_lt_100
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Near-zero; Ukraine context raises anxiety
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; near-zero; ~5
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Near-zero conflict deaths. Stable frozen conflict lines. Borderization incidents (South Ossetia fence movements).
+        Political violence very low. ~5 estimated.
+      features:
+      - minimal_lt_100
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Near-zero; stable
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; near-zero; ~5
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Near-zero conflict deaths. Borderization incidents. Political violence low. ~5 estimated.
+      features:
+      - minimal_lt_100
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Near-zero; stable
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; near-zero; ~5
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: EU Schengen visa-free begins. Near-zero conflict deaths. Borderization incidents. ~5 estimated.
+      features:
+      - minimal_lt_100
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Near-zero; stable
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; near-zero; ~5
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Near-zero conflict deaths. Borderization incidents. Political violence low. ~5 estimated.
+      features:
+      - minimal_lt_100
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Near-zero; stable
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 10
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; Gavrilov Night; riot police injuries; ~10 deaths/serious injuries
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'June 2019: Gavrilov Night — riot police disperse protesters with rubber bullets and tear gas. ~240 injured,
+        1-2 deaths reported. Archi Tatunashvili death in South Ossetia custody (2018, reported 2019) — borderization-related
+        death. Low overall conflict deaths but political violence incidents. ~10 total estimated.'
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: 'Human Rights Watch, Georgia: Excessive Force Against Protesters, 2019'
+        type: null
+        reliability: low
+      confidence: medium
+      notes: Gavrilov Night police crackdown; borderization death
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; COVID; near-zero; ~5
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: COVID pandemic. Reduced protest activity. Borderization incidents. Near-zero conflict deaths. Disputed elections
+        (October 2020) — some protests but limited violence. ~5 estimated.
+      features:
+      - minimal_lt_100
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: COVID; near-zero
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 10
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; Saakashvili arrest; ~10 deaths/serious incidents
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Saakashvili arrested on return to Georgia (October 2021). Prison hunger strike. Protests. Borderization
+        incidents. Low overall conflict deaths. ~10 estimated.
+      features:
+      - minimal_lt_100
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Saakashvili arrest; low violence
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; Russia-Ukraine war context; near-zero Georgia; ~5
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Russia's full-scale invasion of Ukraine (February 2022). Georgia does not join war. Mass anti-war sentiment
+        in Georgia (spontaneous pro-Ukraine rallies). Georgian government cautious — refuses sanctions on Russia. Near-zero
+        domestic conflict deaths. ~5 estimated.
+      features:
+      - minimal_lt_100
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Ukraine war; Georgia non-participant; near-zero domestic violence
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 10
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; Foreign Agents Law protests March 2023; ~10 deaths/serious incidents
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'March 2023: First Foreign Agents Law attempt — mass protests; government withdraws bill. Police use water
+        cannons, tear gas. Protests continue periodically. Low conflict deaths overall. ~10 estimated (including police use
+        of force incidents).'
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: 'Human Rights Watch, Georgia: Events of 2023'
+        type: null
+        reliability: low
+      confidence: medium
+      notes: First foreign agents law attempt; police force; bill withdrawn
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 50
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: 'Estimated: May 2024 Foreign Agents Law protests; October 2024 election protests; November-December 2024
+          mass protests — police use of force; ~50 serious injuries/deaths'
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Escalating state violence against protesters. May 2024: Foreign Agents Law passes — major protests, police
+        use force. October 2024: disputed parliamentary elections. November 2024: Georgian Dream announces suspension of EU
+        accession — triggers massive ''Shame'' protests. December 2024: police use rubber bullets, water cannons, tear gas
+        against protesters. Multiple serious injuries. Security forces use excessive force. EU and US condemn police actions.
+        ~50 estimated serious violence incidents/deaths. Political violence level highest since 2007-2008.'
+      features:
+      - minimal_lt_100
+      sources:
+      - citation: 'Human Rights Watch, Georgia: Events of 2024'
+        type: null
+        reliability: low
+      - citation: Amnesty International, Georgia 2024
+        type: null
+        reliability: low
+      - citation: US State Department statement on Georgia, 2024
+        type: null
+        reliability: low
+      confidence: medium
+      notes: Escalating state violence against protesters; worst since 2007-08
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 30
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: Estimated; protests continuing; ~30 serious incidents
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: 'Protests continue into 2025. Georgian Dream consolidates control. Police use of force against protesters.
+        Western pressure through sanctions. Frozen conflicts unchanged. ~30 estimated serious violence incidents. Trajectory:
+        escalating domestic political violence while frozen conflict lines remain stable.'
+      features:
+      - minimal_lt_100
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Estimated; protests continuing; state violence against civilians

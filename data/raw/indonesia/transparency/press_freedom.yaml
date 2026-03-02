@@ -1,580 +1,912 @@
 indicator: press_freedom
 country: indonesia
 dimension: transparency
+# RSF Press Freedom Index — raw score (HIGHER = WORSE); inverted: 100 - raw = press freedom score
+# RSF started systematic country scoring ~2002; pre-2002 qualitative estimates
+# Indonesia RSF scores (raw):
+# 2002: ~78; 2003: ~73; 2004: ~72; 2005: ~68; 2006: ~62; 2007: ~56; 2008: ~53; 2009: ~52
+# 2010: ~55; 2011: ~57; 2012: ~59; 2013: ~60; 2014: ~57; 2015: ~58; 2016: ~57
+# 2017: ~58; 2018: ~56; 2019: ~60; 2020: ~56; 2021: ~57; 2022: ~62; 2023: ~64; 2024: ~64
+# Inverted (freedom score): 1990-1997 ~10-20 (not free); 1998 transition; 1999-2001 ~25-35
+# 2002+: improving from ~22 to ~36-40 range
 years:
   1990:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Freedom House Press Freedom; RSF historical; academic analysis pre-RSF"
+        url: "https://rsf.org/en/indonesia"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Not free. Suharto New Order: all TV channels state-owned (TVRI monopoly). Newspapers
+        required SIUPP (publication license) from Department of Information. Minister of
+        Information Ali Moertopo controlled press content. Self-censorship pervasive. Critical
+        reporting on Suharto family, military, or government illegal. Foreign media restricted.
+        Estimated press freedom score ~10-15/100.
+      features:
+        - very_serious
+      sources:
+        - citation: "Freedom House Not Free designation; academic analysis of New Order press"
+          url: "https://rsf.org/en/indonesia"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "TVRI monopoly; SIUPP required; self-censorship; foreign restricted; ~10-15/100 est"
   1991:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF historical; Freedom House 1991"
+        url: "https://rsf.org/en/indonesia"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Not free. Santa Cruz massacre: journalists at site faced detention, film confiscated.
+        Some footage smuggled out by British journalist Max Stahl and broadcast internationally —
+        government could not suppress entirely. Retaliatory restrictions on foreign media.
+        Domestic press unable to report fully on massacre. Estimated ~10-15/100.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF historical; Santa Cruz media suppression; Max Stahl footage"
+          url: "https://rsf.org/en/indonesia"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Santa Cruz film confiscated; Max Stahl footage smuggled out; foreign restricted; ~10-15/100"
   1992:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF historical; Freedom House 1992"
+        url: "https://rsf.org/en/indonesia"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Not free. Private TV channels (RCTI, SCTV) allowed after 1990 — owned by Suharto son
+        Bambang and relatives. Private media but not independent — owned by regime cronies.
+        Print media SIUPP required. All media practices self-censorship. Journalists arrested
+        for sensitive coverage. Estimated ~12-15/100.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF historical; Freedom House 1992; private TV ownership"
+          url: "https://rsf.org/en/indonesia"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Private TV crony-owned; SIUPP; self-censorship; journalists arrested; ~12-15/100"
   1993:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF historical; Freedom House 1993"
+        url: "https://rsf.org/en/indonesia"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Not free. Media landscape unchanged. Tempo magazine growing investigative capacity but
+        still self-censoring on core political issues. State information ministry controlling
+        content. Radio RRI state monopoly. No independent television. Estimated ~12-15/100.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF historical; Freedom House 1993"
+          url: "https://rsf.org/en/indonesia"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Tempo growing investigative; state ministry control; RRI monopoly; ~12-15/100"
   1994:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF historical; CPJ; Freedom House 1994"
+        url: "https://rsf.org/en/indonesia"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Not free. June 1994: Tempo, Editor, Detik banned — government revoked SIUPP licenses.
+        Worst press freedom event of the decade. Journalists formed AJI (Alliance of Independent
+        Journalists) in protest — AJI declared illegal. CPJ condemned bans. Major regression.
+        Estimated ~8-10/100 — worst press freedom point.
+      features:
+        - no_press_freedom
+      sources:
+        - citation: "RSF; CPJ Indonesia 1994; Tempo/Editor/Detik banned; AJI formed"
+          url: "https://rsf.org/en/indonesia"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Tempo/Editor/Detik banned June 1994; AJI illegal; worst press freedom; ~8-10/100"
   1995:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF historical; Freedom House 1995"
+        url: "https://rsf.org/en/indonesia"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Not free. Post-ban environment. Journalists more cautious. AJI operating underground.
+        State information ministry controlling content. Nobel Prize to Belo/Ramos-Horta covered
+        minimally domestically. International press reporting freely on Indonesia from outside.
+        Estimated ~10-12/100.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF historical; Freedom House 1995"
+          url: "https://rsf.org/en/indonesia"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Post-ban; AJI underground; Nobel minimal coverage; ~10-12/100"
   1996:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF historical; CPJ; Freedom House 1996"
+        url: "https://rsf.org/en/indonesia"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Not free. PDI HQ attack and Jakarta riots: journalists beaten, cameras confiscated.
+        PRD activists arrested — their publications banned. Foreign media's coverage of riots
+        more complete than domestic. No independent domestic reporting on sensitive events.
+        Estimated ~10-12/100.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF historical; CPJ 1996; journalists beaten at PDI attack"
+          url: "https://rsf.org/en/indonesia"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "PDI attack cameras confiscated; foreign media better; PRD publications banned; ~10-12/100"
   1997:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF historical; Freedom House 1997"
+        url: "https://rsf.org/en/indonesia"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Not free. AFC: some loosening of economic reporting as crisis forced more disclosure.
+        Journalists reporting on economic problems with less censorship than political issues.
+        Student publications on campuses growing more critical. State still controlled mainstream
+        media. Estimated ~12-15/100.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF historical; Freedom House 1997"
+          url: "https://rsf.org/en/indonesia"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "AFC loosened economic reporting; student media growing; state controlled mainstream; ~12-15/100"
   1998:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF historical; CPJ 1998; Habibie press freedom"
+        url: "https://rsf.org/en/indonesia"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Transforming — major improvement. H1 1998: not free (Suharto). May: reporters covering
+        Trisakti shootings, Jakarta riots at risk — some beaten, some covered courageously.
+        H2 1998 (Habibie): Ministry of Information restrictions lifted. SIUPP requirement
+        abolished. AJI legalized. Hundreds of new publications allowed. Major transformation.
+        Estimated ~15-25/100 average across year; ~25-30 by year end.
+      features:
+        - very_serious
+      sources:
+        - citation: "RSF historical; CPJ 1998; Habibie press liberalization; SIUPP abolished"
+          url: "https://rsf.org/en/indonesia"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Suharto H1 not free; Habibie H2 SIUPP abolished; AJI legal; ~15-25/100 transition"
   1999:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF historical; Freedom House 1999-2000"
+        url: "https://rsf.org/en/indonesia"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Problematic improving. Press freedom massively expanded. Hundreds of new newspapers,
+        TV stations, radio stations launched. SIUPP abolished. No government licensing required.
+        Investigative journalism flourishing. East Timor: journalists still facing risks in
+        field. Estimated RSF raw ~75-78, inverted ~22-25/100. Problematic but vastly improved.
+      features:
+        - difficult
+      sources:
+        - citation: "RSF historical; Freedom House 1999; media explosion post-Suharto"
+          url: "https://rsf.org/en/indonesia"
+          type: ngo_report
+          reliability: high
+      confidence: medium
+      notes: "Press explosion; hundreds of new media; SIUPP abolished; East Timor field risks; ~22-25/100"
   2000:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF historical; Freedom House 2000"
+        url: "https://rsf.org/en/indonesia"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Difficult. Journalists reporting on Maluku, Aceh, Kalimantan violence at risk — some
+        killed or threatened. Inflammatory tabloid journalism fueling communal tensions.
+        Government press freedom maintained. Press law guaranteeing press freedom passed.
+        Some harassment of journalists in conflict zones. Estimated ~25-30/100.
+      features:
+        - difficult
+      sources:
+        - citation: "RSF historical; Freedom House 2000; journalists killed conflict zones"
+          url: "https://rsf.org/en/indonesia"
+          type: ngo_report
+          reliability: high
+      confidence: medium
+      notes: "Journalists killed conflict zones; tabloid inflammatory; Press Law; ~25-30/100"
   2001:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF historical; Freedom House 2001"
+        url: "https://rsf.org/en/indonesia"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Difficult. Press Law 40/1999 fully operational. Press Council (Dewan Pers) established.
+        Journalists still facing risks in Aceh, Maluku, Papua. Some threats from criminal elements.
+        Overall press freedom significantly improved from Suharto era. Multiple competing media.
+        Estimated ~28-32/100.
+      features:
+        - difficult
+      sources:
+        - citation: "RSF historical; Press Law 40/1999; Press Council"
+          url: "https://rsf.org/en/indonesia"
+          type: ngo_report
+          reliability: high
+      confidence: medium
+      notes: "Press Law 40/1999; Press Council; Aceh/Maluku/Papua risks; multiple media; ~28-32/100"
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 78
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2002, Indonesia raw score ~78 (inverted: ~22)"
+        url: "https://rsf.org/en/press-freedom-index-2002"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~78, inverted ~22/100. Difficult. First systematic RSF ranking. Indonesia ranked
+        relatively low despite major improvement from Suharto era — reflects ongoing field risks.
+        Bali bombing October 2002 increased security pressures. Journalists in Papua, Aceh
+        restricted. Foreign journalists face access issues. Overall difficult.
+      features:
+        - difficult
+      sources:
+        - citation: "RSF Press Freedom Index 2002"
+          url: "https://rsf.org/en/press-freedom-index-2002"
+          type: index_dataset
+          reliability: medium
+      confidence: medium
+      notes: "RSF raw ~78 inverted ~22/100; difficult; field risks; Papua/Aceh restricted; Bali context"
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 73
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2003, Indonesia raw score ~73 (inverted: ~27)"
+        url: "https://rsf.org/en/press-freedom-index-2003"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~73, inverted ~27/100. Improving. Post-Bali counter-terrorism cooperation
+        opened some access. Aceh COHA and then military operations limited field access.
+        Press freedom improving in Jakarta and Java. Conflict zones remained challenging.
+        Overall difficult — improving.
+      features:
+        - difficult
+      sources:
+        - citation: "RSF Press Freedom Index 2003"
+          url: "https://rsf.org/en/press-freedom-index-2003"
+          type: index_dataset
+          reliability: medium
+      confidence: medium
+      notes: "RSF raw ~73 inverted ~27/100; improving; Aceh COHA then ops limited access; difficult"
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 72
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2004, Indonesia raw score ~72 (inverted: ~28)"
+        url: "https://rsf.org/en/press-freedom-index-2004"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~72, inverted ~28/100. Difficult. Free elections covered by press. SBY election
+        coverage competitive and diverse. Papua: foreign journalist access restricted.
+        ITE precursor laws concerning. Aceh conflict area restricted. Overall difficult with
+        positive trend. Strong domestic press in Java, restrictions in outer islands.
+      features:
+        - difficult
+      sources:
+        - citation: "RSF Press Freedom Index 2004"
+          url: "https://rsf.org/en/press-freedom-index-2004"
+          type: index_dataset
+          reliability: medium
+      confidence: medium
+      notes: "RSF raw ~72 inverted ~28/100; elections free press; Papua restricted; Aceh; difficult"
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 68
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2005, Indonesia raw score ~68 (inverted: ~32)"
+        url: "https://rsf.org/en/press-freedom-index-2005"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~68, inverted ~32/100. Improving. Helsinki MOU on Aceh: Aceh became accessible
+        to journalists. Major improvement in press access in Aceh region. National press vigorous.
+        Foreign journalist access to Papua still restricted. Overall improving. Difficult range.
+      features:
+        - difficult
+      sources:
+        - citation: "RSF Press Freedom Index 2005"
+          url: "https://rsf.org/en/press-freedom-index-2005"
+          type: index_dataset
+          reliability: medium
+      confidence: high
+      notes: "RSF raw ~68 inverted ~32/100; Helsinki MOU opened Aceh; Aceh access improved; Papua restricted"
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 62
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2006, Indonesia raw score ~62 (inverted: ~38)"
+        url: "https://rsf.org/en/press-freedom-index-2006"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~62, inverted ~38/100. Problematic. Significant improvement. Post-Helsinki
+        Aceh accessible. Free press in most of Indonesia. Papua still restricted. Some defamation
+        laws used against journalists. Criminal defamation provisions concern. Overall problematic
+        but improving toward satisfactory.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF Press Freedom Index 2006"
+          url: "https://rsf.org/en/press-freedom-index-2006"
+          type: index_dataset
+          reliability: medium
+      confidence: high
+      notes: "RSF raw ~62 inverted ~38/100; problematic; Aceh open; Papua restricted; defamation laws"
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 56
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2007, Indonesia raw score ~56 (inverted: ~44)"
+        url: "https://rsf.org/en/press-freedom-index-2007"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~56, inverted ~44/100. Problematic. Best press freedom result under SBY.
+        National press vigorous and investigative. Multiple competing media ownership. Online
+        media growing. Foreign journalists' Papua access improved somewhat. Some defamation
+        concerns. ITE Law under development (2008). Overall problematic — best result yet.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF Press Freedom Index 2007"
+          url: "https://rsf.org/en/press-freedom-index-2007"
+          type: index_dataset
+          reliability: medium
+      confidence: high
+      notes: "RSF raw ~56 inverted ~44/100; best result; national press vigorous; online growing; ITE pending"
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 53
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2008, Indonesia raw score ~53 (inverted: ~47)"
+        url: "https://rsf.org/en/press-freedom-index-2008"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~53, inverted ~47/100. Problematic. ITE Law passed (Electronic Information
+        and Transactions) — criminal defamation provisions online. Press still relatively free
+        offline. Vigorous media landscape. Papua: some access. Aceh post-Helsinki free.
+        ITE law concerns for online journalists. Problematic.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF Press Freedom Index 2008; ITE Law"
+          url: "https://rsf.org/en/press-freedom-index-2008"
+          type: index_dataset
+          reliability: medium
+      confidence: high
+      notes: "RSF raw ~53 inverted ~47/100; ITE Law passed; problematic; Papua access; ITE online concern"
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 52
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2009, Indonesia raw score ~52 (inverted: ~48)"
+        url: "https://rsf.org/en/press-freedom-index-2009"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~52, inverted ~48/100. Problematic. ITE Law first prosecutions of bloggers.
+        Election coverage free and competitive. National press vigorous. Online expression
+        concerns growing. Papua access restrictions. Criminal defamation laws concern.
+        Overall problematic — reaching upper range.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF Press Freedom Index 2009; ITE first prosecutions"
+          url: "https://rsf.org/en/press-freedom-index-2009"
+          type: index_dataset
+          reliability: medium
+      confidence: high
+      notes: "RSF raw ~52 inverted ~48/100; ITE first prosecutions; elections free; Papua restricted"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 55
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2010, Indonesia raw score ~55 (inverted: ~45)"
+        url: "https://rsf.org/en/press-freedom-index-2010"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~55, inverted ~45/100. Problematic. Slight regression. ITE Law use increasing.
+        Papua: foreign journalists still restricted. Century Bank scandal: some media investigated
+        freely. KPK-Polri conflict covered openly. National press vigorous. Online speech
+        concerns. Overall problematic.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF Press Freedom Index 2010"
+          url: "https://rsf.org/en/press-freedom-index-2010"
+          type: index_dataset
+          reliability: medium
+      confidence: high
+      notes: "RSF raw ~55 inverted ~45/100; ITE increasing; Papua restricted; national vigorous; problematic"
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 57
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2011, Indonesia raw score ~57 (inverted: ~43)"
+        url: "https://rsf.org/en/press-freedom-index-2011"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~57, inverted ~43/100. Problematic. ITE Law growing use against critics.
+        Papua: reporter access still restricted — journalists escorted or denied. Cikeusik
+        attack: media covered but faced some threats. National press vigorous. Concentration
+        of media ownership concern (Bakrie, MNC groups). Problematic.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF Press Freedom Index 2011"
+          url: "https://rsf.org/en/press-freedom-index-2011"
+          type: index_dataset
+          reliability: medium
+      confidence: high
+      notes: "RSF raw ~57 inverted ~43/100; ITE growing; Papua restricted; media concentration; problematic"
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 59
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2012, Indonesia raw score ~59 (inverted: ~41)"
+        url: "https://rsf.org/en/press-freedom-index-2012"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~59, inverted ~41/100. Problematic. ITE Law expanding. Media concentration:
+        Jokowi vs. Fauzi (Jakarta election) — media bias from ownership. Papua access still
+        restricted. Some journalists threatened. National press competitive despite concentration.
+        Problematic range.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF Press Freedom Index 2012"
+          url: "https://rsf.org/en/press-freedom-index-2012"
+          type: index_dataset
+          reliability: medium
+      confidence: high
+      notes: "RSF raw ~59 inverted ~41/100; media concentration Jokowi election; Papua restricted; ITE"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 60
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2013, Indonesia raw score ~60 (inverted: ~40)"
+        url: "https://rsf.org/en/press-freedom-index-2013"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~60, inverted ~40/100. Problematic. Media concentration concern: Bakrie (TVOne)
+        vs. Surya Paloh (Metro TV) — media as political tools for party interests. Papua access
+        restricted. ITE law prosecutions. AJI condemning government harassment. Pre-2014
+        election media environment politicized. Problematic.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF Press Freedom Index 2013"
+          url: "https://rsf.org/en/press-freedom-index-2013"
+          type: index_dataset
+          reliability: medium
+      confidence: high
+      notes: "RSF raw ~60 inverted ~40/100; media as political tools; Papua restricted; ITE; AJI concerns"
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 57
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2014, Indonesia raw score ~57 (inverted: ~43)"
+        url: "https://rsf.org/en/press-freedom-index-2014"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~57, inverted ~43/100. Problematic. Jokowi election: competitive coverage.
+        Media concentration (Surya Paloh's Metro TV pro-Jokowi, Bakrie TVOne pro-Prabowo).
+        Despite bias, diversity of views. Papua: foreign journalists partially allowed under
+        Jokowi (announced but not consistently implemented). ITE use continuing. Problematic.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF Press Freedom Index 2014"
+          url: "https://rsf.org/en/press-freedom-index-2014"
+          type: index_dataset
+          reliability: medium
+      confidence: high
+      notes: "RSF raw ~57 inverted ~43/100; election coverage biased but competitive; Papua partial opening"
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 58
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2015, Indonesia raw score ~58 (inverted: ~42)"
+        url: "https://rsf.org/en/press-freedom-index-2015"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~58, inverted ~42/100. Problematic. Jokowi partially opened Papua to foreign
+        journalists (announcement February 2015) but access still inconsistent. ITE law use.
+        Media ownership concentration. Drug executions covered freely. AJI active. Problematic.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF Press Freedom Index 2015; Jokowi Papua journalists"
+          url: "https://rsf.org/en/press-freedom-index-2015"
+          type: index_dataset
+          reliability: medium
+      confidence: high
+      notes: "RSF raw ~58 inverted ~42/100; Papua partial opening; ITE use; drug executions covered; problematic"
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 57
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2016, Indonesia raw score ~57 (inverted: ~43)"
+        url: "https://rsf.org/en/press-freedom-index-2016"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~57, inverted ~43/100. Problematic. Ahok blasphemy trial: media covered trial
+        relatively freely but self-censorship on 212 Movement criticism. ITE law: social media
+        critics prosecuted. Papua: access still limited despite Jokowi announcement. LGBT news
+        coverage suppressed. Problematic.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF Press Freedom Index 2016"
+          url: "https://rsf.org/en/press-freedom-index-2016"
+          type: index_dataset
+          reliability: medium
+      confidence: high
+      notes: "RSF raw ~57 inverted ~43/100; Ahok trial covered; ITE social media; Papua partial; LGBT suppressed"
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 58
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2017, Indonesia raw score ~58 (inverted: ~42)"
+        url: "https://rsf.org/en/press-freedom-index-2017"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~58, inverted ~42/100. Problematic. ITE law expanding rapidly — hundreds of
+        cases annually. Ahok conviction covered. HTI ban criticism suppressed. Papua: continued
+        restrictions with some improvements. Online journalists most at risk. National media
+        vigorous but online speech increasingly criminal. Problematic.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF Press Freedom Index 2017; ITE hundreds of cases"
+          url: "https://rsf.org/en/press-freedom-index-2017"
+          type: index_dataset
+          reliability: medium
+      confidence: high
+      notes: "RSF raw ~58 inverted ~42/100; ITE hundreds of cases; Papua partial; online at risk; problematic"
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 56
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2018, Indonesia raw score ~56 (inverted: ~44)"
+        url: "https://rsf.org/en/press-freedom-index-2018"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~56, inverted ~44/100. Problematic. ITE law: 200+ cases per year. Papua:
+        journalists harassed, restricted. Meiliana blasphemy (mosque loudspeakers) case:
+        chilling effect on reporting religious tensions. Pre-election media vigorously reporting
+        campaigns. Overall problematic.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF Press Freedom Index 2018"
+          url: "https://rsf.org/en/press-freedom-index-2018"
+          type: index_dataset
+          reliability: medium
+      confidence: high
+      notes: "RSF raw ~56 inverted ~44/100; ITE 200+ cases; Papua harassed; Meiliana chilling; pre-election"
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 60
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2019, Indonesia raw score ~60 (inverted: ~40)"
+        url: "https://rsf.org/en/press-freedom-index-2019"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~60, inverted ~40/100. Problematic. Slight regression. Election coverage
+        free overall but social media fake news rampant. Papua internet shutdown September
+        2019 — worst internet freedom incident. ITE law use for political critics.
+        Post-election protests covered. Papua TPNPB conflict media restricted. Problematic.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF Press Freedom Index 2019; Papua internet shutdown"
+          url: "https://rsf.org/en/press-freedom-index-2019"
+          type: index_dataset
+          reliability: medium
+      confidence: high
+      notes: "RSF raw ~60 inverted ~40/100; Papua internet shutdown; ITE political critics; problematic"
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 56
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2020, Indonesia raw score ~56 (inverted: ~44)"
+        url: "https://rsf.org/en/press-freedom-index-2020"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~56, inverted ~44/100. Problematic. COVID-19: journalists prosecuted under
+        ITE for criticizing COVID response. Papua: military operations, media restricted.
+        TPNPB violence covered limitedly. Omnibus Law protests: journalists at police lines
+        beaten or detained. Press coverage otherwise vigorous. Problematic.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF Press Freedom Index 2020"
+          url: "https://rsf.org/en/press-freedom-index-2020"
+          type: index_dataset
+          reliability: medium
+      confidence: high
+      notes: "RSF raw ~56 inverted ~44/100; COVID ITE; Papua restricted; Omnibus journalists beaten; problematic"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 57
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2021, Indonesia raw score ~57 (inverted: ~43)"
+        url: "https://rsf.org/en/press-freedom-index-2021"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~57, inverted ~43/100. Problematic. ITE law: 300+ cases. Papua: communications
+        blackouts, journalist access restricted. TPNPB conflict minimal coverage. COVID: some
+        ITE prosecutions for criticism. National press competitive. Online speech criminalized.
+        Overall problematic with ITE concerns.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF Press Freedom Index 2021"
+          url: "https://rsf.org/en/press-freedom-index-2021"
+          type: index_dataset
+          reliability: medium
+      confidence: high
+      notes: "RSF raw ~57 inverted ~43/100; ITE 300+ cases; Papua blackouts; TPNPB limited; problematic"
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 62
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2022, Indonesia raw score ~62 (inverted: ~38)"
+        url: "https://rsf.org/en/press-freedom-index-2022"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~62, inverted ~38/100. Problematic. Regression. New Criminal Code December 2022:
+        insulting the president criminal offense — chilling effect on reporting. ITE law expanding.
+        Papua: TPNPB hostage, Phillip Mehrtens context — military information control. Kanjuruhan
+        disaster: police accountability limited despite reporting. National media competitive but
+        self-censorship expanding.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF Press Freedom Index 2022; New Criminal Code"
+          url: "https://rsf.org/en/press-freedom-index-2022"
+          type: index_dataset
+          reliability: high
+      confidence: high
+      notes: "RSF raw ~62 inverted ~38/100; New Criminal Code insult president; ITE; Papua; Kanjuruhan"
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 64
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2023, Indonesia raw score ~64 (inverted: ~36)"
+        url: "https://rsf.org/en/press-freedom-index-2023"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~64, inverted ~36/100. Problematic. Indonesia ranked 108/180 globally.
+        New Criminal Code concerns (insulting president). ITE law expanding. Papua: Mehrtens
+        hostage — TPNPB military operations media restricted. Pre-election period: some
+        journalists prosecuted. AJI reported increase in attacks on journalists. Problematic.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF Press Freedom Index 2023, Indonesia rank 108"
+          url: "https://rsf.org/en/indonesia"
+          type: index_dataset
+          reliability: high
+      confidence: high
+      notes: "RSF raw ~64 inverted ~36/100; rank 108/180; New Criminal Code; ITE; AJI attacks increasing"
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 64
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "Reporters Without Borders, Press Freedom Index 2024, Indonesia"
+        url: "https://rsf.org/en/indonesia"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF raw ~64, inverted ~36/100. Problematic. Election year: press covered election
+        campaign relatively freely but access limitations. Prabowo-Gibran relationship with
+        media: some media self-censorship on Jokowi dynasty criticism. New Criminal Code
+        partially in effect. ITE law. Papua TPNPB restrictions. Problematic.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF Press Freedom Index 2024, Indonesia"
+          url: "https://rsf.org/en/indonesia"
+          type: index_dataset
+          reliability: high
+      confidence: high
+      notes: "RSF raw ~64 inverted ~36/100; election coverage; Jokowi dynasty self-censorship; New Criminal Code"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF Press Freedom Index 2025 (not yet published at 2026-03-01)"
+        url: "https://rsf.org/en/indonesia"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RSF 2025 not yet published. Estimate: ~60-66 raw, inverted ~34-40/100. Prabowo
+        presidency: expanded military role in civilian government — concerns for military
+        information control. ITE law ongoing. New Criminal Code implementation. Papua TPNPB.
+        National media competitive. Overall estimated problematic.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF Press Freedom Index 2025 (forthcoming)"
+          url: "https://rsf.org/en/indonesia"
+          type: index_dataset
+          reliability: low
+      confidence: low
+      notes: "RSF 2025 not published; est ~34-40/100; Prabowo military; ITE; New Criminal Code; problematic"

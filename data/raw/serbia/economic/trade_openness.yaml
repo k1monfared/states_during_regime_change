@@ -3,498 +3,531 @@ country: serbia
 dimension: economic
 years:
   1995:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_gdp
+      unit: trade_percent_gdp
       source:
-        citation: null
+        citation: World Bank WDI — FRY trade data severely limited by sanctions
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: FRY under comprehensive international sanctions 1992-2000. Trade severely restricted. Limited reliable data.
+      features:
+      - restricted_20_40pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Sanctions; very limited trade; data unreliable
   1996:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_gdp
+      unit: trade_percent_gdp
       source:
-        citation: null
+        citation: Limited data
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Partial sanctions relief post-Bosnia but trade still highly constrained.
+      features:
+      - restricted_20_40pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Limited data
   1997:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_gdp
+      unit: trade_percent_gdp
       source:
-        citation: null
+        citation: Limited data
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade constrained. Limited data.
+      features:
+      - restricted_20_40pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Limited data
   1998:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_gdp
+      unit: trade_percent_gdp
       source:
-        citation: null
+        citation: Limited data
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade constrained. Kosovo conflict.
+      features:
+      - restricted_20_40pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Kosovo conflict; limited data
   1999:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_gdp
+      unit: trade_percent_gdp
       source:
-        citation: null
+        citation: WB WDI — NATO bombing destroyed infrastructure
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade severely disrupted by NATO bombing. Infrastructure destroyed.
+      features:
+      - closed_lt_20pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: NATO bombing infrastructure; limited data
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 55.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI — Serbia/FRY 2000 estimated
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~55%. Sanctions lifted after revolution. International trade rapidly reopening. Post-revolution
+        integration.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'WB: ~55%; sanctions lifted; trade reopening'
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 70.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~70%. Rapid trade expansion. European trade preferences granted.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: ~70%; rapid expansion
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 73.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~73%. EU trade preferences. Import-led recovery.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: ~73%
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 78.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~78%. Continued expansion. SAA negotiations begun.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: ~78%
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 85.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~85%. High trade openness. EU preferences and FDI driving trade.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: ~85%
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 87.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~87%. High openness. SAA signed.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: ~87%
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 89.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~89%. Serbia independent state June 2006. Trade patterns adjusted.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: ~89%; Serbia independent
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 92.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~92%. Very high openness. Pre-crisis peak.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: ~92%
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 88.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~88%. Kosovo independence diplomatic crisis didn't significantly affect trade.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: ~88%
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 74.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP fell to ~74%. Financial crisis reduced trade. Global trade collapse.
+      features:
+      - restricted_20_40pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: ~74%; financial crisis
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 80.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~80%. Trade recovery.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: ~80%
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 91.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~91%. High openness recovering to pre-crisis levels.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: ~91%
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 85.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~85%. Eurozone crisis reduced EU trade.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: ~85%; Eurozone crisis
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 90.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~90%. High openness. EU accession driving trade alignment.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: ~90%
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 93.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~93%. Very high openness.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: ~93%
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 88.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~88%. Export-led growth strategy developing.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: ~88%
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 95.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~95%. Very high. Manufacturing exports (automobiles, auto parts) growing.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: ~95%; auto manufacturing exports
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 100.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~100%. Highly open economy. Fiat (Stellantis) Kragujevac factory contributing significantly to
+        exports.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: ~100%; Fiat Kragujevac exports
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 104.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~104%. Very high openness exceeding GDP. Diverse export base developing.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: ~104%
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 103.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~103%. Highly open. Pre-COVID peak.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: ~103%
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 90.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~90%. COVID-19 trade disruption.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: ~90%; COVID
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 105.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~105%. Strong recovery. High commodity prices boosted.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: ~105%
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 115.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~115%. High energy import prices inflated trade value. Russia-Ukraine diversification.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: ~115%; energy import prices inflated
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 108.0
+      unit: trade_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=RS
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Trade/GDP ~108%. High. Energy prices normalizing.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: ~108%
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 105.0
+      unit: trade_percent_gdp
       source:
-        citation: null
+        citation: Estimated
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Estimated ~105%. High openness continues.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Estimated
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 103.0
+      unit: trade_percent_gdp
       source:
-        citation: null
+        citation: Estimated
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Estimated ~103%. High openness.
+      features:
+      - highly_open_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Estimated

@@ -1,0 +1,191 @@
+[
+  {
+    "id": "composite",
+    "label": "Composite Score",
+    "type": "composite"
+  },
+  {
+    "id": "political",
+    "label": "Political",
+    "type": "dimension",
+    "dimension": "political"
+  },
+  {
+    "id": "political/territorial_control",
+    "label": "Territorial Control",
+    "type": "indicator",
+    "dimension": "political",
+    "description": "Percentage of country under effective central government control",
+    "unit": "percent_territory_controlled"
+  },
+  {
+    "id": "political/political_violence",
+    "label": "Political Violence",
+    "type": "indicator",
+    "dimension": "political",
+    "description": "Level of conflict-related deaths, terrorism, state repression",
+    "unit": "conflict_deaths_per_year"
+  },
+  {
+    "id": "political/institutional_functioning",
+    "label": "Institutional Functioning",
+    "type": "indicator",
+    "dimension": "political",
+    "description": "Do state institutions (courts, legislature, bureaucracy, elections) operate?",
+    "unit": "qualitative_scale"
+  },
+  {
+    "id": "political/civil_liberties",
+    "label": "Civil Liberties",
+    "type": "indicator",
+    "dimension": "political",
+    "description": "Freedom of expression, assembly, religion, movement",
+    "unit": "freedom_house_inverted"
+  },
+  {
+    "id": "political/elite_cohesion",
+    "label": "Elite Cohesion",
+    "type": "indicator",
+    "dimension": "political",
+    "description": "Is the ruling coalition stable or fragmenting? Risk of coups?",
+    "unit": "qualitative_scale"
+  },
+  {
+    "id": "economic",
+    "label": "Economic",
+    "type": "dimension",
+    "dimension": "economic"
+  },
+  {
+    "id": "economic/gdp_per_capita",
+    "label": "GDP per Capita",
+    "type": "indicator",
+    "dimension": "economic",
+    "description": "Living standards relative to baseline (indexed to peak)",
+    "unit": "usd_current_or_constant"
+  },
+  {
+    "id": "economic/inflation",
+    "label": "Inflation",
+    "type": "indicator",
+    "dimension": "economic",
+    "description": "Price stability (annual consumer price inflation rate)",
+    "unit": "percent_annual"
+  },
+  {
+    "id": "economic/unemployment",
+    "label": "Unemployment",
+    "type": "indicator",
+    "dimension": "economic",
+    "description": "Labor market health (official unemployment rate)",
+    "unit": "percent_labor_force"
+  },
+  {
+    "id": "economic/trade_openness",
+    "label": "Trade Openness",
+    "type": "indicator",
+    "dimension": "economic",
+    "description": "Economic integration with world ((Exports + Imports) / GDP)",
+    "unit": "percent_gdp"
+  },
+  {
+    "id": "economic/fiscal_health",
+    "label": "Fiscal Health",
+    "type": "indicator",
+    "dimension": "economic",
+    "description": "Government debt sustainability, budget balance",
+    "unit": "debt_percent_gdp"
+  },
+  {
+    "id": "international",
+    "label": "International",
+    "type": "dimension",
+    "dimension": "international"
+  },
+  {
+    "id": "international/sanctions",
+    "label": "Sanctions",
+    "type": "indicator",
+    "dimension": "international",
+    "description": "Degree of international economic restrictions",
+    "unit": "qualitative_scale"
+  },
+  {
+    "id": "international/diplomatic_integration",
+    "label": "Diplomatic Integration",
+    "type": "indicator",
+    "dimension": "international",
+    "description": "Recognition, embassy presence, membership in international bodies",
+    "unit": "qualitative_scale"
+  },
+  {
+    "id": "international/foreign_military",
+    "label": "Foreign Military",
+    "type": "indicator",
+    "dimension": "international",
+    "description": "External military involvement (sovereignty indicator)",
+    "unit": "qualitative_scale"
+  },
+  {
+    "id": "international/fdi",
+    "label": "FDI",
+    "type": "indicator",
+    "dimension": "international",
+    "description": "Foreign Direct Investment inflows as indicator of international business confidence",
+    "unit": "percent_gdp"
+  },
+  {
+    "id": "international/refugee_flows",
+    "label": "Refugee Flows",
+    "type": "indicator",
+    "dimension": "international",
+    "description": "Population displacement as indicator of crisis severity",
+    "unit": "percent_population_per_year"
+  },
+  {
+    "id": "transparency",
+    "label": "Transparency",
+    "type": "dimension",
+    "dimension": "transparency"
+  },
+  {
+    "id": "transparency/budget_transparency",
+    "label": "Budget Transparency",
+    "type": "indicator",
+    "dimension": "transparency",
+    "description": "Can citizens see how public money is raised and spent?",
+    "unit": "open_budget_index_0_100"
+  },
+  {
+    "id": "transparency/press_freedom",
+    "label": "Press Freedom",
+    "type": "indicator",
+    "dimension": "transparency",
+    "description": "Can journalists investigate government and publish findings?",
+    "unit": "rsf_inverted_0_100"
+  },
+  {
+    "id": "transparency/statistical_transparency",
+    "label": "Statistical Transparency",
+    "type": "indicator",
+    "dimension": "transparency",
+    "description": "Does the government produce credible, timely socioeconomic data?",
+    "unit": "wb_statistical_capacity_0_100"
+  },
+  {
+    "id": "transparency/legal_transparency",
+    "label": "Legal Transparency",
+    "type": "indicator",
+    "dimension": "transparency",
+    "description": "Are laws, regulations, and court decisions accessible and predictable?",
+    "unit": "wjp_open_govt_0_100"
+  },
+  {
+    "id": "transparency/extractive_transparency",
+    "label": "Extractive Transparency",
+    "type": "indicator",
+    "dimension": "transparency",
+    "description": "For oil/gas states, are revenues from natural resources disclosed?",
+    "unit": "eiti_compliance_scale"
+  }
+]

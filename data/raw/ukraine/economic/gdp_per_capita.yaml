@@ -2,419 +2,744 @@ indicator: gdp_per_capita
 country: ukraine
 dimension: economic
 years:
+  1999:
+    data_status: complete
+    quantitative:
+      value: 665
+      unit: usd_current_or_constant
+      source:
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine, accessed 2026-03-01
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
+    qualitative:
+      assessment: 'Ukraine''s GDP per capita bottomed at approximately $665 in 1999 after a decade of post-Soviet
+
+        economic contraction. The economy had shrunk by roughly 60% since 1991. The late 1990s saw
+
+        financial instability, devaluation of the hryvnia, and continued industrial decline. Ukraine''s
+
+        economy was closely tied to Russia and suffered from the 1998 Russian financial crisis.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.CD
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Post-Soviet trough; hryvnia crisis; economy ~60% below 1991 peak
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 664
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita remained at $664 in 2000, but in real terms the economy began recovering
+
+        after the 1999 trough. Ukraine saw its first positive real GDP growth in 2000, supported
+
+        by industrial output, devaluation-induced export competitiveness, and Russia recovery.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: First real GDP growth since independence; nominal dollar value still depressed by weak hryvnia
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 785
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita rose to $785 as recovery strengthened. Industrial output grew 14.2%
+
+        in 2001. Ukraine''s economy benefited from improved global commodity prices and
+
+        structural reform progress under President Kuchma.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Strong industrial recovery; 14% industrial growth
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 885
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita continued rising to $885. Real GDP grew ~5% in 2002. Political uncertainty
+
+        from contested parliamentary elections did not derail economic momentum.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Steady recovery; parliamentary elections year
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 1056
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita crossed $1,000 at $1,056. Real GDP growth was 9.6% in 2003. Ukraine''s
+
+        economy was benefiting from high global steel prices (Ukraine was a major steel exporter)
+
+        and continued structural improvements.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Crossed $1,000 threshold; 9.6% real GDP growth; steel exports driving growth
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 1375
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita rose strongly to $1,375. Real GDP grew 12.1% in 2004, Ukraine''s
+
+        highest growth rate. The Orange Revolution (November 2004) political crisis did not
+
+        prevent strong economic performance for the year overall.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: 12.1% real GDP growth in 2004; Orange Revolution did not disrupt economy short term
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 1840
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita reached $1,840 in 2005 post-Orange Revolution. Real GDP growth slowed
+
+        to 2.7% as post-revolution political instability and policy uncertainty dampened
+
+        business confidence. Yushchenko''s administration implemented social spending increases
+
+        that contributed to inflationary pressures.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Post-Orange Revolution slowdown; 2.7% real growth; social spending increases
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 2319
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita grew strongly to $2,319. Real GDP recovered to 7.4% growth. Political
+
+        compromise between Yushchenko and Yanukovych (Universal) allowed policy stability.
+
+        Steel exports boomed; FDI was accelerating.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: 7.4% real growth; political compromise; steel and FDI driving economy
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3101
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita crossed $3,000 at $3,101. Real GDP growth was 7.9%. Ukraine was
+
+        experiencing a credit and construction boom. FDI peaked. EU-Ukraine Association
+
+        Agreement negotiations began.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Pre-crisis peak approaching; credit boom; 7.9% real growth
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3945
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita peaked at $3,945 in 2008. Ukraine''s economy was at its pre-crisis
+
+        peak, but the global financial crisis struck hard in Q4 2008. Steel prices collapsed,
+
+        credit froze, and the hryvnia depreciated sharply. Ukraine needed an emergency IMF
+
+        bailout ($16.4 billion) in November 2008.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Pre-crisis peak; global financial crisis struck Q4 2008; IMF bailout November 2008
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 2557
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita fell sharply to $2,557 as the global financial crisis devastated Ukraine.
+
+        Real GDP contracted 14.8% in 2009 — the deepest recession among European economies.
+
+        Steel exports collapsed; capital flows reversed; unemployment spiked. IMF program
+
+        continued to provide support.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: GDP fell 14.8% real; deepest recession in Europe 2009; steel/credit crisis
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 2983
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita recovered to $2,983 as economy rebounded 4.1% in real terms.
+
+        Yanukovych won presidency in February 2010. Began reasserting relations with
+
+        Russia; gas pricing renegotiation; IMF program renewed.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: 4.1% real recovery; Yanukovych presidency began; Russia rapprochement
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3587
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita rose to $3,587. Real growth 5.2%. Ukraine continued recovering;
+
+        Tymoshenko imprisoned (October 2011) increasing Western concern about democratic
+
+        backsliding. IMF program suspended due to policy disagreements.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: 5.2% growth; Tymoshenko imprisoned; IMF program suspended
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3874
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita rose to $3,874 but growth slowed to 0.2% in real terms. The economy
+
+        stagnated as global steel demand weakened and domestic consumption plateaued. Yanukovych
+
+        pressured EU Association Agreement while maintaining Russia ties.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Near-stagnation; 0.2% real growth; EU-Ukraine negotiations ongoing
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 4051
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita peaked pre-crisis at $4,051. Real GDP growth was only 0.0%. Yanukovych
+
+        abruptly rejected the EU Association Agreement in November 2013, triggering the
+
+        Euromaidan protests that began in late November 2013 and eventually led to the
+
+        February 2014 revolution.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Pre-revolution peak; Yanukovych rejected EU AA November 2013; Euromaidan began
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3120
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita fell sharply to $3,120 following the Euromaidan revolution, Crimea
+
+        annexation, and onset of Donbas conflict. Real GDP contracted 6.6%. Hryvnia
+
+        depreciated sharply. IMF approved $17 billion rescue package. Western sanctions on
+
+        Russia disrupted trade. Ukraine signed EU Association Agreement June 2014.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: 6.6% real GDP contraction; Crimea annexed; Donbas war; IMF $17B rescue
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 2135
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita collapsed to $2,135 — back to 2005 levels. Real GDP contracted
+
+        9.8% in 2015 as the Donbas conflict continued, hryvnia crashed, inflation reached
+
+        48.7%, and Russia terminated trade preferences. Ukraine implemented painful IMF-mandated
+
+        austerity and structural reforms. Minsk II ceasefire signed February 2015.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: 9.8% real contraction; Donbas war; hryvnia crashed; 48.7% inflation; IMF austerity
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 2201
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita stabilized at $2,201. Real GDP grew 2.4% — first positive growth since
+
+        2013. Structural reforms continued; anti-corruption institutions established (NABU).
+
+        Donbas conflict frozen but ongoing. IMF program on track.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: First positive growth since 2013; 2.4% real; NABU established; frozen Donbas conflict
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 2654
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita rose to $2,654. Real GDP grew 2.5%. Reforms continued but political
+
+        resistance from oligarchic interests slowed anti-corruption progress. IMF program
+
+        continued providing support.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: 2.5% real growth; reform implementation mixed; oligarchic resistance
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3118
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita recovered to $3,118. Real GDP grew 3.4%. Russia-Ukraine naval
+
+        confrontation in Kerch Strait (November 2018) increased tensions. Zelensky won
+
+        presidential election in 2019.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: 3.4% real growth; Kerch Strait confrontation; pre-Zelensky period
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3688
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita rose to $3,688. Real GDP grew 3.2%. Zelensky won landslide
+
+        presidential election (73% in April 2019). Anti-corruption reforms advanced; IMF
+
+        new program signed. Economy performing at best level since pre-2014 crisis.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: 3.2% real growth; Zelensky presidency; IMF new program; best performance since 2013
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3780
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita was $3,780. Real GDP contracted only 4.0% due to COVID-19 —
+
+        less severe than many peers. Ukraine''s economy was resilient; agricultural
+
+        exports compensated for service sector decline.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: COVID-19 mild contraction of 4%; agriculture sector resilient
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 4874
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita surged to $4,874 — the highest pre-full invasion level. Real GDP
+
+        grew 3.4%. Agricultural exports boomed; commodity prices high. Russia began
+
+        amassing troops on Ukraine''s border in late 2021, signaling the coming full invasion.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Pre-invasion peak; 3.4% real growth; Russia troop buildup began late 2021
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 4694
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita fell to $4,694 nominal but real GDP contracted approximately 29.1%
+
+        as Russia launched full-scale invasion February 24, 2022. Eastern and southern
+
+        oblasts were devastated; millions displaced; industrial production collapsed.
+
+        Western military and financial aid ($100+ billion) prevented complete economic
+
+        breakdown. Martial law declared.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: ~29% real GDP contraction; full-scale Russian invasion; martial law; massive Western aid
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5326
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, NY.GDP.PCAP.CD, Ukraine
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita rose nominally to $5,326 with ~5.3% real GDP growth driven by
+
+        reconstruction activity, agricultural recovery, and continued Western financial
+
+        support (~$42 billion in 2023 alone). War continued with Russian attacks on
+
+        infrastructure. Economy showing unexpected resilience.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: 5.3% real growth; reconstruction activity; Western aid supporting economy
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5719
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF/WB preliminary data, Ukraine 2024
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'GDP per capita estimated at $5,719 for 2024. Real GDP growth estimated at ~3-4%.
+
+        Economy continued wartime resilience with Western support. Infrastructure attacks
+
+        (energy grid) caused significant disruption. Ceasefire negotiations ongoing.
+
+        '
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank/IMF 2024 preliminary estimate
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Preliminary 2024; wartime economy; energy infrastructure attacks; Western support continuing
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 5800
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO projections for Ukraine 2025
+        url: https://www.imf.org/en/countries/ukr
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: 'GDP per capita estimated provisionally for 2025. Outcome highly dependent on
+
+        war trajectory, ceasefire developments, and Western aid flows.
+
+        '
+      features:
+      - above_peak
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: 2025 provisional estimate; war outcome determines trajectory

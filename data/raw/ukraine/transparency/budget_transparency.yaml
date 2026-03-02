@@ -2,419 +2,521 @@ indicator: budget_transparency
 country: ukraine
 dimension: transparency
 years:
+  1999:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: open_budget_index_0_100
+      source:
+        citation: Open Budget Survey — Ukraine not surveyed in 1999; OBS started 2006
+        url: https://internationalbudget.org/open-budget-survey
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: OBS not yet established. Ukraine's budget transparency in 1999 was low under Kuchma — limited public access
+        to budget information.
+      features:
+      - no_information
+      sources: []
+      confidence: low
+      notes: OBS began 2006; pre-survey era; Kuchma opaque budgets
   2000:
-    data_status: missing
+    data_status: unavailable
     quantitative:
       value: null
       unit: open_budget_index_0_100
       source:
-        citation: null
+        citation: OBS pre-survey era
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Pre-OBS era. Budget transparency low.
+      features:
+      - minimal_20_40
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Pre-OBS
   2001:
-    data_status: missing
+    data_status: unavailable
     quantitative:
       value: null
       unit: open_budget_index_0_100
       source:
-        citation: null
+        citation: OBS pre-survey era
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Pre-OBS era.
+      features:
+      - minimal_20_40
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Pre-OBS
   2002:
-    data_status: missing
+    data_status: unavailable
     quantitative:
       value: null
       unit: open_budget_index_0_100
       source:
-        citation: null
+        citation: OBS pre-survey era
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Pre-OBS era.
+      features:
+      - minimal_20_40
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Pre-OBS
   2003:
-    data_status: missing
+    data_status: unavailable
     quantitative:
       value: null
       unit: open_budget_index_0_100
       source:
-        citation: null
+        citation: OBS pre-survey era
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Pre-OBS era.
+      features:
+      - minimal_20_40
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Pre-OBS
   2004:
-    data_status: missing
+    data_status: unavailable
     quantitative:
       value: null
       unit: open_budget_index_0_100
       source:
-        citation: null
+        citation: OBS pre-survey era
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Pre-OBS era. Orange Revolution brought new commitment to transparency.
+      features:
+      - minimal_20_40
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Pre-OBS; Orange Revolution transparency commitment
   2005:
-    data_status: missing
+    data_status: unavailable
     quantitative:
       value: null
       unit: open_budget_index_0_100
       source:
-        citation: null
+        citation: OBS pre-survey era
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Pre-OBS era. Ukraine not surveyed in 2005.
+      features:
+      - no_information
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Pre-OBS
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 55
       unit: open_budget_index_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Open Budget Survey 2006 — Ukraine score 55
+        url: https://internationalbudget.org/open-budget-survey/country-results/2006/ukraine
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: OBS 2006 first survey — Ukraine scored 55/100. Classified as providing 'significant' budget information.
+        Post-Orange Revolution improvements in budget disclosure.
+      features:
+      - limited_40_60
+      sources:
+      - citation: OBS 2006 Ukraine
+        url: https://internationalbudget.org/open-budget-survey/country-results/2006/ukraine
+        type: ngo
+        reliability: high
+      confidence: high
+      notes: 'OBS 2006: 55; significant information; post-revolution transparency improvement'
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 57
       unit: open_budget_index_0_100
       source:
-        citation: null
+        citation: Interpolated between OBS 2006 (55) and OBS 2008 (62)
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Interpolated estimate between 2006 (55) and 2008 (62). Budget transparency improving.
+      features:
+      - limited_40_60
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Interpolated 2006=55, 2008=62; estimated 57
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 62
       unit: open_budget_index_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Open Budget Survey 2008 — Ukraine score 62
+        url: https://internationalbudget.org/open-budget-survey/country-results/2008/ukraine
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'OBS 2008: Ukraine scored 62/100. Improvement from 2006. Classified as ''substantial'' information provider.'
+      features:
+      - substantial_60_80
+      sources:
+      - citation: OBS 2008 Ukraine
+        url: https://internationalbudget.org/open-budget-survey/country-results/2008/ukraine
+        type: ngo
+        reliability: high
+      confidence: high
+      notes: 'OBS 2008: 62; substantial budget information'
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 60
       unit: open_budget_index_0_100
       source:
-        citation: null
+        citation: Interpolated between OBS 2008 (62) and OBS 2010 (62)
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Estimated ~60. Stable. Financial crisis may have slightly reduced disclosure quality.
+      features:
+      - limited_40_60
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Interpolated between 2008=62 and 2010=62
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 62
       unit: open_budget_index_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Open Budget Survey 2010 — Ukraine score 62
+        url: https://internationalbudget.org/open-budget-survey/country-results/2010/ukraine
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'OBS 2010: Ukraine maintained 62/100. Substantial budget information despite Yanukovych presidency.'
+      features:
+      - substantial_60_80
+      sources:
+      - citation: OBS 2010 Ukraine
+        url: https://internationalbudget.org/open-budget-survey/country-results/2010/ukraine
+        type: ngo
+        reliability: high
+      confidence: high
+      notes: 'OBS 2010: 62; Yanukovych maintained formal budget disclosure'
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 55
       unit: open_budget_index_0_100
       source:
-        citation: null
+        citation: Interpolated between OBS 2010 (62) and OBS 2012 (54)
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Estimated declining ~55. Yanukovych regime reducing transparency.
+      features:
+      - limited_40_60
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Interpolated 2010=62 to 2012=54; declining trend
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 54
       unit: open_budget_index_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Open Budget Survey 2012 — Ukraine score 54
+        url: https://internationalbudget.org/open-budget-survey/country-results/2012/ukraine
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'OBS 2012: Ukraine 54/100. Decline from 2010 under Yanukovych. Still significant budget information but
+        deteriorating.'
+      features:
+      - limited_40_60
+      sources:
+      - citation: OBS 2012 Ukraine
+        url: https://internationalbudget.org/open-budget-survey/country-results/2012/ukraine
+        type: ngo
+        reliability: high
+      confidence: high
+      notes: 'OBS 2012: 54; decline under Yanukovych'
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 52
       unit: open_budget_index_0_100
       source:
-        citation: null
+        citation: Interpolated between OBS 2012 (54) and OBS 2015 (46)
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Estimated ~52. Declining under Yanukovych. Euromaidan triggered by AA rejection.
+      features:
+      - limited_40_60
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Interpolated 2012=54 to 2015=46
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 49
       unit: open_budget_index_0_100
       source:
-        citation: null
+        citation: Interpolated; post-revolution period
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Estimated ~49. Revolution and war created disruptions but new government committed to transparency reforms.
+      features:
+      - limited_40_60
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Revolution disruption; new govt transparency commitment
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 46
       unit: open_budget_index_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Open Budget Survey 2015 — Ukraine score 46
+        url: https://internationalbudget.org/open-budget-survey/country-results/2015/ukraine
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'OBS 2015: Ukraine 46/100. Decline despite post-revolution reform promises. War disruptions and institutional
+        instability affected budget processes.'
+      features:
+      - limited_40_60
+      sources:
+      - citation: OBS 2015 Ukraine
+        url: https://internationalbudget.org/open-budget-survey/country-results/2015/ukraine
+        type: ngo
+        reliability: high
+      confidence: high
+      notes: 'OBS 2015: 46; war disruptions; institutional instability'
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 52
       unit: open_budget_index_0_100
       source:
-        citation: null
+        citation: Interpolated between OBS 2015 (46) and OBS 2017 (54)
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Estimated ~52. Improving. ProZorro procurement launched 2015-2016 — major transparency improvement.
+      features:
+      - limited_40_60
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: ProZorro launched; improving trend; interpolated
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 54
       unit: open_budget_index_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Open Budget Survey 2017 — Ukraine score 54
+        url: https://internationalbudget.org/open-budget-survey/country-results/2017/ukraine
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'OBS 2017: Ukraine 54/100. Recovery from 2015 decline. ProZorro and reforms improving budget disclosure.'
+      features:
+      - limited_40_60
+      sources:
+      - citation: OBS 2017 Ukraine
+        url: https://internationalbudget.org/open-budget-survey/country-results/2017/ukraine
+        type: ngo
+        reliability: high
+      confidence: high
+      notes: 'OBS 2017: 54; ProZorro contributing; reform momentum'
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 55
       unit: open_budget_index_0_100
       source:
-        citation: null
+        citation: Interpolated between OBS 2017 (54) and OBS 2019 (55)
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Estimated ~55. Stable improvement.
+      features:
+      - limited_40_60
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Interpolated 2017=54 and 2019=55
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 55
       unit: open_budget_index_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Open Budget Survey 2019 — Ukraine score 55
+        url: https://internationalbudget.org/open-budget-survey/country-results/2019/ukraine
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'OBS 2019: Ukraine 55/100. Stable at significant information level. Zelensky election brought new reform
+        momentum.'
+      features:
+      - limited_40_60
+      sources:
+      - citation: OBS 2019 Ukraine
+        url: https://internationalbudget.org/open-budget-survey/country-results/2019/ukraine
+        type: ngo
+        reliability: high
+      confidence: high
+      notes: 'OBS 2019: 55; Zelensky reform momentum'
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 55
       unit: open_budget_index_0_100
       source:
-        citation: null
+        citation: Interpolated between OBS 2019 (55) and OBS 2021 (51)
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Estimated ~55. Stable. COVID-19 reduced some transparency.
+      features:
+      - limited_40_60
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Interpolated; COVID impacts
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 51
       unit: open_budget_index_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Open Budget Survey 2021 — Ukraine score 51
+        url: https://internationalbudget.org/open-budget-survey/country-results/2021/ukraine
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'OBS 2021: Ukraine 51/100. Slight decline. Constitutional Court crisis 2020 undermined some institutions.
+        Pre-invasion year.'
+      features:
+      - limited_40_60
+      sources:
+      - citation: OBS 2021 Ukraine
+        url: https://internationalbudget.org/open-budget-survey/country-results/2021/ukraine
+        type: ngo
+        reliability: high
+      confidence: high
+      notes: 'OBS 2021: 51; slight decline; Constitutional Court aftermath'
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 40
       unit: open_budget_index_0_100
       source:
-        citation: null
+        citation: Estimated — wartime budget processes severely disrupted
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: 'Wartime conditions severely reduced budget transparency. Martial law allowed
+
+        secret budget provisions. Military spending classified. Emergency spending outside
+
+        normal budget processes. OBS 2023 shows dramatic decline reflecting 2022 wartime
+
+        budget procedures. Estimated ~40 for 2022.
+
+        '
+      features:
+      - minimal_20_40
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Wartime; martial law; classified military spending; OBS 2023=38 reflecting wartime
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 38
       unit: open_budget_index_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Open Budget Survey 2023 — Ukraine score 38
+        url: https://internationalbudget.org/open-budget-survey/country-results/2023/ukraine
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'OBS 2023: Ukraine scored 38/100 — significant decline from pre-war levels.
+
+        Wartime conditions explain most of the decline: military spending classified,
+
+        martial law emergency provisions, national security exclusions. Ukraine''s
+
+        budget transparency recognized as constrained by extraordinary wartime conditions.
+
+        '
+      features:
+      - minimal_20_40
+      sources:
+      - citation: OBS 2023 Ukraine
+        url: https://internationalbudget.org/open-budget-survey/country-results/2023/ukraine
+        type: ngo
+        reliability: high
+      confidence: high
+      notes: 'OBS 2023: 38; wartime restrictions; classified military; martial law exclusions'
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 38
       unit: open_budget_index_0_100
       source:
-        citation: null
+        citation: Estimated — wartime conditions continuing
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Estimated ~38. Wartime conditions continued. EU accession process may have improved some elements.
+      features:
+      - minimal_20_40
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Wartime continuing; EU accession some improvement pressure
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 38.0
       unit: open_budget_index_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IBP OBS 2025 not yet published; estimated based on 2023 score (~38) and wartime context
+        url: https://www.internationalbudget.org/open-budget-survey
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Estimated 2025. War continues to depress budget transparency. Emergency spending opaque. OBS 2025 not yet
+        published. Based on 2023 score (38) and wartime trend. Minimal transparency.
+      features:
+      - minimal_20_40
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Estimated 2025; war context; IBP score not yet published

@@ -2,499 +2,671 @@ indicator: inflation
 country: georgia
 dimension: economic
 years:
+  1988:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: cpi_annual_percent
+      source:
+        citation: IMF WEO — Soviet era; no market inflation data
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Soviet price controls. No market inflation. Suppressed prices.
+      features:
+      - moderate_3_10pct
+      sources: []
+      confidence: low
+      notes: Soviet era; no market inflation data
+  1989:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: cpi_annual_percent
+      source:
+        citation: IMF WEO — Soviet era
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Soviet price system. Beginning of liberalization pressures.
+      features:
+      - moderate_3_10pct
+      sources: []
+      confidence: low
+      notes: Pre-independence
+  1990:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: cpi_annual_percent
+      source:
+        citation: IMF WEO — Soviet era
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Soviet price system collapsing. Shortages. No reliable market inflation.
+      features:
+      - moderate_3_10pct
+      sources: []
+      confidence: low
+      notes: Soviet collapse; shortages
+  1991:
+    data_status: partial
+    quantitative:
+      value: 131.0
+      unit: cpi_annual_percent
+      source:
+        citation: IMF WEO — Georgia 1991; estimated hyperinflation start
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Independence. Price liberalization. Civil war. Hyperinflation beginning. Soviet coupon currency collapsing.
+        Estimated ~131% inflation — start of hyperinflationary spiral.
+      features:
+      - hyperinflation_gt_100pct
+      sources: []
+      confidence: low
+      notes: Estimated; independence; civil war; hyperinflation starting
+  1992:
+    data_status: partial
+    quantitative:
+      value: 887.0
+      unit: cpi_annual_percent
+      source:
+        citation: IMF WEO — Georgia 1992; hyperinflation
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Hyperinflation. Abkhazia war. Coupon currency collapsed. Estimated ~887%. Economy devastated.
+      features:
+      - hyperinflation_gt_100pct
+      sources: []
+      confidence: low
+      notes: ~887% hyperinflation; Abkhazia war
+  1993:
+    data_status: partial
+    quantitative:
+      value: 3125.0
+      unit: cpi_annual_percent
+      source:
+        citation: IMF WEO — Georgia 1993; extreme hyperinflation
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Extreme hyperinflation ~3,125%. Abkhazia lost. Economy collapsed. Coupon worthless. Criminal economy. Civil
+        war ending.
+      features:
+      - hyperinflation_gt_100pct
+      sources: []
+      confidence: low
+      notes: ~3,125% hyperinflation; coupon worthless
+  1994:
+    data_status: complete
+    quantitative:
+      value: 15606.0
+      unit: cpi_annual_percent
+      source:
+        citation: IMF WEO — Georgia 1994; 15,606% inflation
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: medium
+    qualitative:
+      assessment: 'Maximum hyperinflation: 15,606%. Coupon currency completely collapsed. Barter economy. IMF emergency program.
+        Shevardnadze regime barely functioning. Worst economic conditions.'
+      features:
+      - hyperinflation_gt_100pct
+      sources: []
+      confidence: medium
+      notes: 'IMF: 15,606%; coupon collapsed; barter; IMF emergency'
   1995:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 162.7
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 1995
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Rapid disinflation. Lari introduced October 1995. IMF stabilization program working. From 15,000% to 163%
+        — dramatic improvement. Economic stabilization beginning.
+      features:
+      - hyperinflation_gt_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'IMF: 162.7%; lari 1995; dramatic disinflation'
   1996:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 39.4
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 1996
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Continued disinflation. 39.4%. Lari stabilizing. IMF program succeeding. Economic normalization.
+      features:
+      - high_25_50pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'IMF: 39.4%; continuing disinflation'
   1997:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 7.1
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 1997
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Single-digit inflation achieved. 7.1%. Stabilization complete. Economic recovery under way. Shevardnadze
+        era relative stability.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'IMF: 7.1%; single digit; stabilization complete'
   1998:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 3.6
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 1998
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Low inflation 3.6%. Russian financial crisis (August 1998) impacted lari. Lari depreciated sharply but inflation
+        remained moderate. IMF program adjustment.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'IMF: 3.6%; Russian crisis; lari depreciated but inflation low'
   1999:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 19.2
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 1999
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Inflation rose 19.2% — Russian crisis delayed effect. Lari depreciation feeding through. IMF program under
+        stress. Shevardnadze corruption endemic.
+      features:
+      - elevated_10_25pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'IMF: 19.2%; Russian crisis delayed effect; lari depreciation'
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 4.1
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2000
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Low inflation 4.1%. Stabilization restored. Late Shevardnadze era. Pre-Rose Revolution. Economic doldrums
+        with corruption.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'IMF: 4.1%; stable; pre-revolution'
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 4.7
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2001
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Low inflation 4.7%. Stable macroeconomy despite political corruption. BTC pipeline construction begun.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'IMF: 4.7%; stable; BTC construction'
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 5.7
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2002
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Moderate inflation 5.7%. Pre-Rose Revolution. Economic stagnation under Shevardnadze.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'IMF: 5.7%; pre-revolution'
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 4.8
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2003
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Low inflation 4.8%. Rose Revolution November 2003. Economic transition. Saakashvili won presidential election
+        January 2004 — inflation remained stable through transition.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: 'IMF: 4.8%; Rose Revolution; stable inflation through transition'
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 5.7
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2004
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Moderate inflation 5.7%. Post-revolution economic boom beginning. Tax reform doubled revenues. Rapid growth
+        without major inflationary pressure.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: 5.7%; post-revolution; tax reform; stable'
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 8.3
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2005
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Rising inflation 8.3%. BTC pipeline opened. Economic boom driving demand. Energy prices rising. Still manageable.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: 8.3%; BTC opened; boom inflation'
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 9.2
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2006
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Inflation 9.2%. Russia trade dispute (wine/mineral water ban). Gas crisis. Economic boom continued. Demand-pull
+        inflation.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: 9.2%; Russia ban; gas crisis; boom'
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 9.2
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2007
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Inflation 9.2%. Boom economy. FDI peak. Food and energy price pressure. Saakashvili state of emergency November
+        2007.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: 9.2%; FDI peak; state of emergency'
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 10.0
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2008
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Inflation 10.0%. August 2008 Russia-Georgia War. War disrupted supply chains. International aid flood. Inflation
+        elevated but managed.
+      features:
+      - elevated_10_25pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: 10.0%; Russia war; supply disruption; aid flood'
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 1.7
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2009
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Very low inflation 1.7%. Post-war demand collapse. Global financial crisis. FDI collapsed. Deflationary
+        pressure from recession.
+      features:
+      - low_lt_3pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: 1.7%; post-war recession; demand collapse; deflation risk'
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 7.1
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2010
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Inflation 7.1%. Recovery from recession. Food price inflation globally. Recovery demand.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: 7.1%; recovery; food prices'
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 8.5
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2011
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Inflation 8.5%. Strong growth driving demand. Global commodity prices. Prison scandal shocked society.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: 8.5%; growth; commodity prices'
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: -0.9
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2012
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Deflation -0.9%. Georgian Dream won elections — economic uncertainty. IMF program adjustment. Commodity
+        price falls.
+      features:
+      - low_lt_3pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -0.9%; deflation; Georgian Dream won'
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: -0.5
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2013
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Near-deflation -0.5%. Georgian Dream consolidating. Saakashvili transferred presidency. Economic transition
+        period. EU AA negotiations.
+      features:
+      - low_lt_3pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: -0.5%; near-deflation; transition'
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 3.1
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2014
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Low inflation 3.1%. EU AA+DCFTA signed. Economic normalization. Growth stable.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: 3.1%; EU AA; stable'
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 4.0
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2015
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Inflation 4.0%. Lari depreciation (-40%) — import price pressure. Russia-Ukraine war spillover. Higher import
+        inflation.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: 4.0%; lari depreciation; import inflation'
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 2.1
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2016
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Low inflation 2.1%. Lari stabilized. Georgian Dream dominant. EU DCFTA trade growing.
+      features:
+      - low_lt_3pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: 2.1%; stable; DCFTA'
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 6.0
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2017
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Moderate inflation 6.0%. EU visa-free. Economic growth. Energy price increase.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: 6.0%; EU visa-free; growth'
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 2.6
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2018
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Low inflation 2.6%. Strong growth. Tourism boom. Stable macroeconomics.
+      features:
+      - low_lt_3pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: 2.6%; tourism boom; stable'
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 4.9
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2019
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Moderate inflation 4.9%. Strong pre-COVID growth. Russia flight ban. Tourism strong anyway.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: 4.9%; growth; flight ban'
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 5.2
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2020
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Moderate inflation 5.2% despite COVID recession. Lari depreciated ~15% — import price inflation. COVID aid
+        spending. Disputed elections.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: 5.2%; COVID lari -15%; import inflation'
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 9.6
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2021
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: High inflation 9.6%. Post-COVID demand surge. Global commodity prices. Lari depreciation. Supply chain disruptions.
+        Strong economic recovery paradoxically fueling inflation.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: 9.6%; post-COVID demand; commodity prices'
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 11.9
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2022
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: High inflation 11.9%. Russia-Ukraine war shock — food/energy prices. Russian emigre spending boom paradoxically
+        stimulated inflation. IMF program adjustment.
+      features:
+      - elevated_10_25pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: 11.9%; Russia-Ukraine shock; emigre spending; energy prices'
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 2.5
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2023
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
+      assessment: Rapid disinflation 2.5%. Monetary tightening worked. Energy prices normalized. Russian emigre boom moderating.
+        Foreign agents law protests.
+      features:
+      - low_lt_3pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: 'IMF: 2.5%; rapid disinflation; monetary tightening; protests'
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 3.0
+      unit: cpi_annual_percent
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO — Georgia 2024; estimated
+        url: https://www.imf.org/en/Publications/WEO
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Low inflation ~3.0%. Disputed elections October 2024. Mass protests. EU suspended accession. Lari under
+        pressure but inflation contained.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: IMF ~3.0%; stable; political crisis; EU suspended
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_annual
+      unit: cpi_annual_percent
       source:
-        citation: null
+        citation: IMF WEO 2025 not yet available
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Inflation outlook uncertain amid political crisis and EU suspension.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: 2025 partial; political crisis; uncertain

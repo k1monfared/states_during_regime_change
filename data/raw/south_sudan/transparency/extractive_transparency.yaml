@@ -1,340 +1,493 @@
 indicator: extractive_transparency
 country: south_sudan
 dimension: transparency
+notes: >
+  South Sudan is not an EITI member. Oil sector (98% of government revenue)
+  is completely opaque. No contracts published, no revenue figures independently
+  verified. CNPC, Petronas, ONGC oil consortia operate without transparency.
+  Some civil society pushed for EITI during 2011-2013 optimism but civil war
+  ended all such efforts. Sudan war 2023 made EITI candidacy impossible.
+  Pre-independence: oil under Sudan's GNPOC with zero transparency.
 years:
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: Southern Sudan not member pre-independence"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Pre-independence. GNPOC (Greater Nile Petroleum Operating Company) controlled oil — operated by CNPC, Petronas, ONGC with Sudan government. Complete opacity. CPA wealth-sharing formula transferred revenues to GOSS but no transparency on actual extraction figures. No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "EITI: Southern Sudan not member; GNPOC opacity"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: high
+      notes: "GNPOC opacity; CNPC/Petronas/ONGC no disclosure; CPA transfers no transparency; no disclosure"
+
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: Southern Sudan 2006 — not member"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GNPOC continuing. Complete oil sector opacity. No EITI. No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "EITI: Southern Sudan 2006"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: high
+      notes: "GNPOC opacity; no EITI; no disclosure"
+
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: Southern Sudan 2007 — not member"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GNPOC. No disclosure. No EITI membership discussions. Complete opacity.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "EITI: Southern Sudan 2007"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: high
+      notes: "GNPOC; no EITI; no disclosure"
+
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: Southern Sudan 2008 — not member"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil peak year. GOSS receiving transfers from Khartoum. GNPOC no disclosure. Donors occasionally raised transparency but GOSS not pursuing EITI. No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "EITI: Southern Sudan 2008"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: high
+      notes: "Oil peak; GNPOC no disclosure; donors raised transparency; GOSS not pursuing EITI; no disclosure"
+
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: Southern Sudan 2009 — not member"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-GFC. No EITI. GNPOC opacity. No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "EITI: Southern Sudan 2009"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: high
+      notes: "Post-GFC; GNPOC opacity; no EITI; no disclosure"
+
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: Southern Sudan 2010 — not member, pre-referendum"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Pre-referendum. GOSS had some discussions with donors about post-independence extractive governance. No EITI candidacy. No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "EITI/donors: Southern Sudan 2010 post-independence planning"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: medium
+      notes: "Pre-referendum discussions about future EITI; no current candidacy; no disclosure"
+
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: South Sudan independent — not EITI member 2011"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Independence July 2011. GOSS/Government engaged with EITI in discussions. Oil sector (Nilepet established as national oil company). Civil society and donors pressed for EITI candidacy. No formal EITI application filed. Minimal disclosure — government acknowledged interest without commitment.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "EITI: South Sudan 2011 — discussions, no formal candidacy"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: medium
+      notes: "Independence; EITI discussions; Nilepet established; no formal application; minimal disclosure"
+
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: South Sudan 2012 — not member; oil shutdown"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil shutdown January 2012. Any EITI candidacy discussions frozen by crisis. Government focused on oil dispute, not transparency. No disclosure. Complete opacity.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "EITI: South Sudan 2012 — no candidacy"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: high
+      notes: "Oil shutdown; EITI discussions frozen; government focused on crisis; no disclosure"
+
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: South Sudan 2013 — oil resumed; no EITI"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil resumed. Civil society renewed EITI push. Government distracted by political crisis (Kiir dismissed cabinet July, civil war December). December 2013 civil war ended all EITI discussions. No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "EITI: South Sudan 2013 — civil war ended discussions"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: high
+      notes: "Oil resumed; civil society EITI push; civil war Dec ended discussions; no disclosure"
+
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: South Sudan 2014 — civil war; no EITI"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Civil war. Oil sector funding war effort — no transparency. No EITI. No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "EITI: South Sudan 2014 — civil war"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: high
+      notes: "Civil war; oil funding war; no EITI; no disclosure"
+
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: South Sudan 2015 — civil war; no EITI"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Civil war, oil fields destroyed, ARCSS. No EITI discussions. No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "EITI: South Sudan 2015"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: high
+      notes: "Civil war; oil destroyed; no EITI; no disclosure"
+
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: South Sudan 2016 — ARCSS collapse; no EITI"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        ARCSS collapse. No EITI. Oil sector funding conflict. Complete opacity. No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "EITI: South Sudan 2016"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: high
+      notes: "ARCSS collapse; oil funding conflict; no EITI; no disclosure"
+
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: South Sudan 2017 — famine; no EITI"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Famine, war. No EITI. No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "EITI: South Sudan 2017"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: high
+      notes: "Famine; war; no EITI; no disclosure"
+
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: South Sudan 2018 — R-ARCSS; no EITI candidacy"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        R-ARCSS September 2018. Some civil society revived EITI discussion as part of peace dividend agenda. Government acknowledged extractive governance reforms needed. No formal EITI application — minimal disclosure discussions.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "EITI: South Sudan 2018 — R-ARCSS peace governance discussions"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: medium
+      notes: "R-ARCSS; civil society EITI revived; government acknowledgment; no formal application; minimal disclosure"
+
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: South Sudan 2019 — no EITI candidacy"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        R-ARCSS pre-transition. Some Nilepet transparency discussions. Donors pushed for extractive sector reforms. No formal EITI. Minimal disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "EITI/donors: South Sudan 2019 extractive reform discussions"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: medium
+      notes: "Pre-transition; Nilepet discussions; donor pressure; no EITI formal; minimal disclosure"
+
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: South Sudan 2020 — RTGoNU; no EITI"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        RTGoNU formed. COVID, oil crash. EITI discussions not progressed. No membership. Minimal disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "EITI: South Sudan 2020"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: medium
+      notes: "RTGoNU; COVID; oil crash; EITI not progressed; no membership; minimal disclosure"
+
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: South Sudan 2021 — no EITI"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Elections postponed. EITI not progressed. No membership. Minimal disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "EITI: South Sudan 2021"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: medium
+      notes: "Elections postponed; EITI not progressed; no membership; minimal disclosure"
+
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: South Sudan 2022 — no EITI"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        High oil prices. EITI discussions never formalized into candidacy. Government opaque on oil revenues. No membership. Minimal disclosure — government continued to resist.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "EITI: South Sudan 2022"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: medium
+      notes: "High oil; EITI not formalized; government opaque on oil revenues; no membership; minimal disclosure"
+
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: South Sudan 2023 — Sudan war; no EITI"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sudan war disrupted oil. Pipeline closed. Any EITI discussions irrelevant as sector in crisis. No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "EITI: South Sudan 2023 — pipeline crisis"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: medium
+      notes: "Sudan war pipeline; oil crisis; EITI discussions irrelevant; no disclosure"
+
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: South Sudan 2024 — no EITI; Machar detained"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sudan war, Machar detained, fiscal collapse. No EITI. Oil sector completely opaque. No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "EITI: South Sudan 2024"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: high
+      confidence: medium
+      notes: "Sudan war; Machar detained; fiscal collapse; no EITI; no disclosure"
+
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: eiti_compliance_scale
+      unit: eiti_status
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "EITI: South Sudan March 2025 — no EITI"
+        url: "https://eiti.org/south-sudan"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        March 2025: Sudan war ongoing, political instability. No EITI. Oil sector opaque. No disclosure.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "EITI: South Sudan 2025"
+          url: "https://eiti.org/south-sudan"
+          type: international_org
+          reliability: medium
+      confidence: low
+      notes: "Sudan war; political instability; no EITI; oil opaque; no disclosure"

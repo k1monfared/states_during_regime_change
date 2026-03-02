@@ -3,7 +3,7 @@ country: syria
 dimension: international
 years:
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -13,13 +13,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Syria under limited pre-existing US sanctions since 1979 (state sponsor of terrorism
+        designation). Syria Accountability and Lebanese Sovereignty Restoration Act (SALSA)
+        sanctions in place since 2004 targeting specific exports. No broad economic sanctions.
+        Targeted restrictions on dual-use technology, oil equipment. Limited sectoral sanctions
+        on specific trade. No broad economic blockade.
+      features:
+        - sectoral_sanctions
+      sources:
+        - citation: "US Department of State. 'State Sponsors of Terrorism: Syria.' state.gov."
+          url: "https://www.state.gov"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "Syria state sponsor terrorism 1979; SALSA 2004 targeted export restrictions; no broad sanctions"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -29,13 +39,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued limited US sectoral sanctions under SALSA. Some diplomatic warming — US
+        ambassador returned to Damascus 2010 after five-year absence. EU had normal trade
+        relations. Pre-uprising period with limited targeted sanctions primarily on dual-use
+        exports. No broad economic sanctions package.
+      features:
+        - sectoral_sanctions
+      sources:
+        - citation: "US Department of State. 'Syria sanctions background.' 2010."
+          url: "https://www.state.gov"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "SALSA sectoral sanctions; US ambassador returned 2010; EU normal trade; pre-uprising"
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -45,13 +64,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sanctions escalation triggered by uprising crackdown. US Executive Order 13572 (April
+        2011) and 13582 (August 2011) froze assets of Assad government, blocked US trade with
+        Syria. EU imposed travel bans and asset freezes on officials. EU oil embargo announced
+        December 2011 (effective February 2012). Broad economic sanctions emerging rapidly.
+        Comprehensive sanctions becoming dominant by year end.
+      features:
+        - comprehensive_sanctions
+      sources:
+        - citation: "US Treasury. 'Executive Order 13582 — Syria.' August 2011."
+          url: "https://home.treasury.gov"
+          type: official_document
+          reliability: high
+        - citation: "EU Council Decision 2011/782/CFSP. December 2011."
+          url: "https://eur-lex.europa.eu"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "EO 13572/13582 US broad sanctions; EU travel bans/asset freezes; EU oil embargo Dec 2011"
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -61,13 +94,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Comprehensive US and EU sanctions in place. EU oil embargo effective February 2012.
+        US blocked virtually all trade and financial transactions with Syria. Arab League
+        suspended Syria and imposed own economic measures. Switzerland, Canada, Australia
+        followed with sanctions. Comprehensive sanctions with humanitarian exceptions for
+        food, medicine, and NGO activities. Broad economic sanctions dominant.
+      features:
+        - broad_economic_humanitarian_exceptions
+      sources:
+        - citation: "EU. 'EU restrictive measures — Syria.' consilium.europa.eu."
+          url: "https://www.consilium.europa.eu"
+          type: official_document
+          reliability: high
+        - citation: "US Treasury OFAC. 'Syria sanctions program.' treasury.gov."
+          url: "https://home.treasury.gov"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "EU oil embargo Feb; Arab League suspension/sanctions; US/EU comprehensive; humanitarian exceptions"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -77,13 +124,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Comprehensive sanctions with humanitarian exceptions maintained. EU lifted arms embargo
+        on opposition May 2013 (allowing arms to rebels) while maintaining economic sanctions
+        on Assad regime. US expanded individual designations. Chemical weapons use led to
+        additional US designations. Broad economic sanctions with extensive humanitarian
+        exceptions for civilian needs. UN chemical weapons resolutions. Comprehensive sanctions.
+      features:
+        - broad_economic_humanitarian_exceptions
+      sources:
+        - citation: "EU. 'Syria sanctions — arms embargo lifted for opposition.' May 2013."
+          url: "https://www.consilium.europa.eu"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "EU lifted opposition arms embargo; economic sanctions maintained; Ghouta chemical attack new designations"
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -93,13 +150,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued comprehensive sanctions with humanitarian exceptions. ISIS designated as
+        terrorist organization — separate US/UN sanctions on ISIS. Syria regime sanctions
+        maintained. UNSC Resolution 2170 (August 2014) on ISIS financing. Broad economic
+        sanctions on Assad regime persisting. Multiple overlapping sanction regimes.
+        Humanitarian exceptions maintained for civilian aid.
+      features:
+        - broad_economic_humanitarian_exceptions
+      sources:
+        - citation: "UNSC Resolution 2170 (2014). ISIS sanctions."
+          url: "https://www.un.org"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "Assad regime comprehensive sanctions; ISIS separate UN/US designations; humanitarian exceptions"
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -109,13 +176,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Comprehensive US and EU sanctions continued. Russia's military intervention September
+        2015 complicated Western response. UNSC deadlocked on Syria sanctions. US/EU
+        sanctions on regime assets and officials maintained. Humanitarian exceptions continued.
+        Oil-related sanctions prevented regime from accessing most export revenues. Broad
+        economic with humanitarian exceptions.
+      features:
+        - broad_economic_humanitarian_exceptions
+      sources:
+        - citation: "US Treasury OFAC. 'Syria sanctions 2015 update.' treasury.gov."
+          url: "https://home.treasury.gov"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "US/EU comprehensive maintained; Russia intervention blocked UNSC sanctions; humanitarian exceptions"
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -125,13 +202,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Comprehensive US/EU sanctions continued. Aleppo siege led to calls for additional
+        measures but Russia/China vetoed UNSC sanctions. EU maintained and expanded individual
+        designations. US designated additional entities. Broad economic with humanitarian
+        exceptions. Syrian pound collapsed partly due to sanctions pressure. Comprehensive.
+      features:
+        - broad_economic_humanitarian_exceptions
+      sources:
+        - citation: "EU Council. 'Syria sanctions update.' December 2016."
+          url: "https://www.consilium.europa.eu"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "Comprehensive US/EU; Aleppo UNSC vetoed; SYP collapse; broad economic humanitarian exceptions"
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -141,13 +227,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Comprehensive US and EU sanctions maintained. Executive Order 13894 extended Syrian
+        sanctions. EU framework maintained and expanded with new designations over chemical
+        weapons use. Khan Shaykhun chemical attack April 2017 triggered US Tomahawk strikes
+        but no new comprehensive sanctions. Broad economic sanctions with humanitarian exceptions.
+      features:
+        - broad_economic_humanitarian_exceptions
+      sources:
+        - citation: "US Treasury. 'Syria sanctions designations 2017.' treasury.gov."
+          url: "https://home.treasury.gov"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "Comprehensive maintained; Khan Shaykhun US strikes; EU new designations; humanitarian exceptions"
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -157,13 +252,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Comprehensive US and EU sanctions continued. Eastern Ghouta chemical attack April
+        2018 triggered US, UK, France military strikes. US imposed new sanctions on entities
+        supporting Syrian chemical weapons program. EU Global Human Rights Sanctions framework
+        applied to Syria. Broad economic sanctions maintained. Comprehensive with humanitarian
+        exceptions. Caesar Act pending (passed December 2019).
+      features:
+        - broad_economic_humanitarian_exceptions
+      sources:
+        - citation: "US Treasury OFAC. 'Syria Chemical Weapons Sanctions.' April 2018."
+          url: "https://home.treasury.gov"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "Ghouta chemical attack; US/UK/France strikes; new chemical weapons designations; Caesar Act pending"
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -173,13 +278,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Comprehensive US and EU sanctions continued. Caesar Syria Civilian Protection Act
+        passed by US Congress December 2019 (signed into law). Caesar Act scheduled to
+        enter effect June 2020. This represented major escalation of sanctions framework
+        targeting anyone doing business with Assad regime (including third-country entities).
+        Comprehensive sanctions entering new phase.
+      features:
+        - comprehensive_sanctions
+      sources:
+        - citation: "US Congress. 'Caesar Syria Civilian Protection Act of 2019.' December 2019."
+          url: "https://www.congress.gov"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "Caesar Act passed Dec 2019; comprehensive sanctions; third-country secondary sanctions framework"
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -189,13 +304,28 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Caesar Act entered into force June 17, 2020. Major escalation — secondary sanctions
+        on any entity or individual doing business with Assad regime anywhere globally.
+        US Treasury OFAC issued multiple designation rounds. EU maintained parallel
+        comprehensive sanctions. Syrian pound collapsed to catastrophic lows. Caesar Act
+        chilled even humanitarian actors. Comprehensive sanctions with some humanitarian
+        exceptions (General License 19 and 20 for humanitarian).
+      features:
+        - comprehensive_sanctions
+      sources:
+        - citation: "US Treasury. 'Caesar Act Implementation — June 2020.' treasury.gov."
+          url: "https://home.treasury.gov"
+          type: official_document
+          reliability: high
+        - citation: "EU Council. 'EU sanctions — Syria updated 2020.' consilium.europa.eu."
+          url: "https://www.consilium.europa.eu"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "Caesar Act effective June 17; secondary sanctions; SYP collapse; humanitarian GL19/GL20"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -205,13 +335,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Caesar Act fully operational. US/EU comprehensive sanctions maintained. Multiple
+        Caesar Act designation rounds continued. Humanitarian exceptions maintained but Caesar
+        Act chilling effects severe for NGOs and private sector. Syria's exclusion from SWIFT
+        limited financial transactions. Lebanon's economic crisis indirectly impacted Syria
+        given banking connections. Comprehensive sanctions with humanitarian exceptions.
+      features:
+        - comprehensive_sanctions
+      sources:
+        - citation: "US Treasury OFAC. 'Caesar Act Syria Designations.' 2021."
+          url: "https://home.treasury.gov"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "Caesar Act designation rounds; SWIFT exclusion; Lebanon banking crisis impact; comprehensive"
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -221,13 +361,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Comprehensive US/EU Caesar Act sanctions maintained. Arab normalization beginning
+        (Jordan, UAE) raised questions about effectiveness. Some Arab states ignoring US
+        sanctions secondary pressure. US issued Syria General License authorizing certain
+        transactions with Arab-normalized states. Comprehensive sanctions with widening
+        humanitarian exception scope. Caesar Act designations continued.
+      features:
+        - comprehensive_sanctions
+      sources:
+        - citation: "US Treasury OFAC. 'Syria General License updates 2022.' treasury.gov."
+          url: "https://home.treasury.gov"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "Caesar Act continued; Arab normalization undermining; GL expanded; comprehensive maintained"
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -237,13 +387,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Comprehensive US/EU sanctions maintained despite Arab League readmission May 2023.
+        Earthquake February 2023 led to 180-day temporary sanctions relief for humanitarian
+        access (Executive Order 14071 exemption extended). US maintained Caesar Act.
+        Arab states readmitting Assad diplomatically but US/EU sanctions prevented full
+        economic reintegration. Comprehensive sanctions continued.
+      features:
+        - comprehensive_sanctions
+      sources:
+        - citation: "US Treasury OFAC. 'Syria earthquake humanitarian exemptions.' February 2023."
+          url: "https://home.treasury.gov"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "Caesar Act maintained; earthquake humanitarian relief exemptions; Arab readmission; comprehensive"
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -253,13 +413,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Comprehensive US/EU sanctions maintained through most of 2024. Assad regime collapse
+        December 8, 2024 triggered immediate sanctions review. US Treasury issued Syria
+        General License 23 (December 23, 2024) providing broad authorizations for
+        transactions with new Syrian transitional government and HTS. EU began reviewing
+        sanctions framework. Rapid shift from comprehensive sanctions to partial lifting
+        in transitional period.
+      features:
+        - broad_economic_humanitarian_exceptions
+      sources:
+        - citation: "US Treasury OFAC. 'Syria General License 23 — December 2024.' treasury.gov."
+          url: "https://home.treasury.gov"
+          type: official_document
+          reliability: high
+      confidence: medium
+      notes: "Comprehensive through Dec 8; GL23 Dec 23 broad authorization; sanctions review post-Assad"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -269,8 +440,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-Assad sanctions trajectory toward lifting. US Treasury GL23 and subsequent
+        general licenses authorized broad economic engagement with new Syrian government.
+        EU suspended most economic sanctions on Syria. HTS (Hayat Tahrir al-Sham) remained
+        on US/EU terrorist designation lists despite leading transitional government — a
+        legal tension. Some targeted individual sanctions remained. Transitioning from
+        comprehensive sanctions to targeted/minimal sanctions in 2025.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "US Treasury OFAC. 'Syria sanctions relief 2025.' treasury.gov."
+          url: "https://home.treasury.gov"
+          type: official_document
+          reliability: medium
+        - citation: "EU Council. 'Syria sanctions suspension 2025.' consilium.europa.eu."
+          url: "https://www.consilium.europa.eu"
+          type: official_document
+          reliability: medium
+      confidence: low
+      notes: "GL23 broad authorization; EU suspending economic sanctions; HTS still designated terrorist; targeted remains"

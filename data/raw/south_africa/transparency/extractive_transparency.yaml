@@ -3,7 +3,7 @@ country: south_africa
 dimension: transparency
 years:
   1990:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -13,13 +13,30 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Under apartheid, South Africa's massive mining sector (gold, diamonds, platinum,
+        coal) operated with minimal public disclosure of revenues. The Chamber of Mines
+        and Anglo American, De Beers, and other conglomerates reported to shareholders
+        but government revenue flows were not publicly disclosed in detail. EITI did not
+        exist (founded 2002). Apartheid mining laws provided racial labor controls and
+        state revenues from royalties were not transparently reported. No_disclosure_opaque
+        describes the extractive sector transparency under apartheid.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Chamber of Mines South Africa, Annual Report 1990"
+          url: null
+          type: government
+          reliability: low
+        - citation: "Innes, D., Anglo: Anglo American and the Rise of Modern South Africa, 1984 (context)"
+          url: null
+          type: academic
+          reliability: medium
+      confidence: medium
+      notes: "EITI founded 2002; pre-EITI assessment based on historical mining revenue transparency."
+
   1991:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -29,13 +46,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Similar to 1990. Apartheid mining sector with no public disclosure of government
+        extractive revenues. Royalty and tax revenues from mining not transparently reported.
+        De Beers diamond cartel operated globally with non-transparent revenue flows.
+        Gold mining (South Africa was world's largest gold producer) generated massive
+        revenues with no EITI-equivalent disclosure. No_disclosure_opaque.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Chamber of Mines South Africa, Annual Report 1991"
+          url: null
+          type: government
+          reliability: low
+      confidence: medium
+      notes: "No extractive sector revenue transparency under apartheid."
+
   1992:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -45,13 +73,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Transition negotiations began including discussions of natural resource revenue
+        governance post-apartheid. The ANC's economic policy (MERG report 1993) discussed
+        mining sector transformation. No public disclosure of extractive revenues during
+        this period. Transition planning included discussions of the Mineral and Petroleum
+        Resources Development Act concepts (eventually enacted 2002). No_disclosure_opaque
+        for extractive transparency under late apartheid.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "ANC, Macroeconomic Research Group (MERG) Report 1993"
+          url: null
+          type: government
+          reliability: medium
+      confidence: medium
+      notes: "Transition discussions began about post-apartheid mining governance framework."
+
   1993:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -61,13 +101,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Still under apartheid mining regime. No public disclosure of extractive revenues.
+        Mining houses (Anglo, De Beers, Gencor, JCI) published annual reports to
+        shareholders but government revenue flows not disclosed. Some academic and NGO
+        work beginning to document the scale of mining revenues and their distribution
+        (racial disparity in benefits). Pre-EITI era, no formal extractive transparency
+        mechanism. No_disclosure_opaque.
+      features:
+        - no_disclosure_opaque
+      sources:
+        - citation: "Crush, J., Mine Migrancy in Historical Perspective, 1994 (context)"
+          url: null
+          type: academic
+          reliability: medium
+      confidence: medium
       notes: null
+
   1994:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -77,13 +129,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Democratic transition. Mining sector remained largely unchanged structurally —
+        Mineral and Petroleum Resources Development Act (MPRDA) and new royalty regime
+        not yet enacted. Mining companies continued operating under old Mines and Works
+        Act framework. Some improvement in government revenue reporting in the new
+        democratic Budget process, but specific mining revenue line items not disaggregated
+        for public transparency. No formal extractive transparency mechanism. Minimal_disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "Department of Minerals and Energy, Annual Report 1994/95"
+          url: null
+          type: government
+          reliability: medium
+      confidence: medium
+      notes: "Democratic transition began but mining sector legal framework unchanged until MPRDA 2002."
+
   1995:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -93,13 +157,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        New democratic government began reviewing mining legislation. The White Paper on
+        Energy Policy and early mineral law reform discussions began. Mining revenue
+        flows partially visible through National Treasury Budget publications for the
+        first time under the new democratic framework. However, company-by-company
+        revenue data, royalty payments, and government beneficial interest were not
+        publicly reported. EITI not yet founded. Minimal disclosure improving slightly.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "Department of Minerals and Energy, White Paper on Energy Policy 1998 (process began 1995)"
+          url: null
+          type: government
+          reliability: medium
+      confidence: medium
       notes: null
+
   1996:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -109,13 +185,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Mining revenue flows partially reported in democratic Budget. Mining sector under
+        debate for transformation — black economic empowerment in mining beginning.
+        Government revenue from gold and diamond royalties visible at aggregate level
+        in Budget but company-level disclosure absent. EITI not yet in existence.
+        Minimal disclosure with aggregate budget transparency but no extractive-specific
+        reporting.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "South African National Treasury, Budget Review 1996"
+          url: "https://treasury.gov.za"
+          type: government
+          reliability: medium
+      confidence: medium
       notes: null
+
   1997:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -125,13 +213,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        South African mining sector increasingly under BEE transformation pressure.
+        Mineral royalty revenues visible in National Revenue Fund accounts. Draft
+        Mineral and Petroleum Resources Development Bill discussions began. No EITI
+        framework. Some transparency through annual Budget and National Revenue Fund
+        accounts. Mining company annual reports disclosed to stock exchange (JSE-listed
+        companies). Improving to no_membership_minimal_disclosure but far below EITI
+        standards that would develop from 2002.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "South African National Treasury, Budget Review 1997"
+          url: "https://treasury.gov.za"
+          type: government
+          reliability: medium
+      confidence: medium
       notes: null
+
   1998:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -141,13 +242,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        MPRDA drafting formally began. Diamond exports and gold sales data published by
+        the South African Reserve Bank. Mining sector revenues disclosed at aggregate
+        level in Budget. JSE-listed mining companies disclosed financials to stock exchange.
+        No company-by-company revenue-government payment reconciliation. Pre-EITI era.
+        Minimal but improving disclosure through democratic accountability frameworks.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "South African Reserve Bank, Quarterly Bulletin 1998"
+          url: "https://resbank.co.za"
+          type: government
+          reliability: high
+      confidence: medium
       notes: null
+
   1999:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -157,13 +269,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        South Africa's public finances improving significantly; mining revenue reporting
+        in Budget more detailed. MPRDA drafting continued. Anglo American plc incorporated
+        in UK (1999) with higher disclosure standards. De Beers restructured. JSE disclosure
+        improving. Overall extractive transparency improving through commercial and
+        fiscal channels but no specific extractive transparency mechanism (EITI not yet
+        founded until 2002). Minimal disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "South African National Treasury, Budget Review 1999"
+          url: "https://treasury.gov.za"
+          type: government
+          reliability: medium
+      confidence: medium
       notes: null
+
   2000:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -173,13 +297,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Still pre-EITI. Mining revenue flows visible in aggregate through Budget and
+        SARB publications. Mining companies listed on JSE disclosed financials. Some
+        improvement in mineral revenue reporting through the democratic accountability
+        framework. The Extractive Industries Transparency Initiative concept was not
+        yet launched (Blair speech at WSSD in 2002 launched EITI). South Africa's
+        mining sector transparent through stock exchange and budget channels but no
+        specific extractive sector reconciliation. Minimal disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "National Treasury, Budget Review 2000"
+          url: "https://treasury.gov.za"
+          type: government
+          reliability: medium
+      confidence: medium
       notes: null
+
   2001:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -189,13 +326,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        MPRDA drafting still in process. Mining revenue at aggregate level in Budget.
+        De Beers taken private by Oppenheimers and Anglo American (2001) reducing
+        JSE disclosure transparency. South Africa still far from EITI-era transparency.
+        Pre-EITI minimal disclosure through general fiscal reporting channels only.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "National Treasury, Budget Review 2001"
+          url: "https://treasury.gov.za"
+          type: government
+          reliability: medium
+      confidence: medium
+      notes: "De Beers delisting from JSE (2001) reduced mining sector transparency."
+
   2002:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -205,13 +352,30 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        EITI launched at World Summit on Sustainable Development (Johannesburg, August 2002)
+        by UK Prime Minister Blair. South Africa hosted the summit but did not immediately
+        become an EITI member (its position was complex given its role as a middle-income
+        country with well-developed institutions rather than a typical extractive-dependent
+        developing country). MPRDA enacted 2002, establishing new state royalty and
+        beneficiation framework. Mineral revenue now under a new legal framework.
+        No EITI membership but improving disclosure through MPRDA.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "EITI, Launch at World Summit on Sustainable Development, 2002"
+          url: "https://eiti.org"
+          type: ngo_report
+          reliability: high
+        - citation: "Mineral and Petroleum Resources Development Act 28 of 2002"
+          url: "https://dmre.gov.za"
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "EITI launched in Johannesburg 2002; MPRDA 2002 transformed South African mining legal framework."
+
   2003:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -221,13 +385,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        MPRDA implementation began. New royalty regime for minerals still being finalized.
+        South Africa observed EITI development but did not join as implementing country.
+        Mining royalties and taxes paid to government now regulated under new MPRDA
+        framework. Company-level payments disclosed to SARS (tax authority) but not
+        publicly reconciled. Some improvement in disclosure through new royalty regime
+        but no EITI membership. Minimal disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "Department of Minerals and Energy, Annual Report 2003/04"
+          url: "https://dmre.gov.za"
+          type: government
+          reliability: medium
+      confidence: medium
+      notes: "MPRDA 2002 in implementation phase; new royalty framework being operationalized."
+
   2004:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -237,13 +413,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        EITI Secretariat established globally. South Africa not yet an EITI member.
+        The South African government position was that its institutions (independent
+        Auditor-General, National Treasury, Parliamentary oversight) provided adequate
+        extractive transparency without EITI membership. Mining royalties reported
+        in aggregate in Budget. BEE mining transactions not always transparently disclosed.
+        Minimal disclosure relative to EITI standards.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "EITI, Annual Progress Report 2004"
+          url: "https://eiti.org"
+          type: ngo_report
+          reliability: high
+      confidence: medium
+      notes: "South Africa not EITI member; government argued existing institutions sufficient."
+
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -253,13 +441,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Mining Royalties Act drafting in process (enacted 2008). South Africa still not
+        EITI member. However, through JSE listing requirements, Auditor-General reports,
+        and National Treasury disclosures, some extractive revenue transparency existed.
+        The South African mining industry was predominantly private (unlike state-owned
+        extractive sectors in many EITI members) which partly justified different approach.
+        Revenue Agency (SARS) collected mining taxes but did not publish company-level data.
+        Minimal disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "National Treasury, Budget Review 2005"
+          url: "https://treasury.gov.za"
+          type: government
+          reliability: medium
+      confidence: medium
+      notes: "Mining Royalties Act 2008 drafting reflected ongoing revenue framework development."
+
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -269,13 +470,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        South Africa still not EITI member. BEE mining transactions (empowerment deals)
+        raised concerns about lack of transparency in beneficial ownership of mines.
+        Kumba Iron Ore, Amplats, and other major miners listed on JSE with disclosure
+        requirements. Some civil society calls for South Africa to join EITI, particularly
+        given BEE transparency concerns. Minimal but improving disclosure relative to
+        pre-MPRDA era. no_membership_minimal_disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "ActionAid South Africa, Mining Revenue Transparency 2006"
+          url: null
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Civil society calls for EITI membership began in this period."
+
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -285,13 +498,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Mining royalty legislation advancing toward finalization. JSE disclosure for
+        mining companies improving. Some extractive revenue data available through
+        Budget and National Revenue Fund reports. South Africa not EITI member but
+        discussed potential candidacy. The mining sector generated substantial revenues —
+        gold exports $7B, platinum $5B — with no company-level government payment
+        disclosure. Minimal disclosure by EITI standards.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "Chamber of Mines South Africa, Annual Report 2007"
+          url: "https://chamberofmines.org.za"
+          type: government
+          reliability: medium
+      confidence: medium
       notes: null
+
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -301,13 +526,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Mineral and Petroleum Resources Royalty Act 28 of 2008 enacted — new royalty
+        regime for all mineral resources (effective 2010). This represented a significant
+        step in formalizing and clarifying the revenue framework. South Africa still
+        not EITI member. Aggregate royalty revenue data to be published. BEE ownership
+        of mining assets not fully transparently disclosed. Mining sector revenues visible
+        at macro level through Budget but company-level reconciliation absent.
+        no_membership_minimal_disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "Mineral and Petroleum Resources Royalty Act 28 of 2008"
+          url: "https://www.gov.za"
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "New royalty act 2008 effective 2010 established clearer revenue framework."
+
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -317,13 +555,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Global financial crisis caused significant drop in mining revenues. South Africa
+        did not join EITI despite advocacy from civil society. Mining royalty revenue
+        data began being published in Budget as the new royalty act approached
+        implementation (2010). Chamber of Mines published sector-level data. JSE disclosure
+        maintained. Aggregate transparency improving but company-level reconciliation
+        still absent. no_membership_minimal_disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "National Treasury, Budget Review 2009"
+          url: "https://treasury.gov.za"
+          type: government
+          reliability: medium
+      confidence: medium
       notes: null
+
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -333,13 +583,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        New mineral royalty regime came into effect. Royalty revenues now formally collected
+        and visible in Budget. South Africa still not EITI member. Civil society groups
+        continued advocating for EITI candidacy given the scale of the mining sector and
+        BEE opacity. Aggregate mineral royalty revenue (~R1.2B first year) published.
+        JSE-listed mining company disclosures comprehensive. No company-payment reconciliation.
+        Minimal disclosure trend continuing.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "National Treasury, Budget Review 2010; SARS Tax Statistics 2010"
+          url: "https://treasury.gov.za"
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "First year of mineral royalty regime; aggregate revenues published in Budget."
+
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -349,13 +611,28 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        South Africa's mining sector under stress from labor disputes. Debate about
+        nationalization of mines arose (ANC Youth League, Malema). South Africa started
+        formal discussions about EITI candidacy. National Treasury and DMR held consultations.
+        Transparency on beneficial ownership of mining assets raised as concern given
+        BEE structures. South Africa not yet EITI candidate. Minimal disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "EITI, South Africa Status Report 2011"
+          url: "https://eiti.org"
+          type: ngo_report
+          reliability: high
+        - citation: "Chamber of Mines South Africa, Annual Report 2011"
+          url: "https://chamberofmines.org.za"
+          type: government
+          reliability: medium
+      confidence: medium
+      notes: "Formal EITI candidacy discussions began in South Africa."
+
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -365,13 +642,29 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Marikana massacre (August 2012) highlighted concerns about mining sector governance
+        and transparency. Labor relations in mining sector in severe crisis. EITI candidacy
+        discussions continued but did not result in formal application. Royalty and tax
+        data from mining sector reported in Budget. JSE disclosure maintained. Some
+        country-payment data available through Dodd-Frank Section 1504 disclosures by
+        US-listed South African mining companies (beginning 2013 rules). Minimal disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "Farlam Commission, Marikana background reports 2012"
+          url: null
+          type: government
+          reliability: medium
+        - citation: "National Treasury, Budget Review 2012"
+          url: "https://treasury.gov.za"
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "Marikana focused attention on mining governance gaps including transparency."
+
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -381,13 +674,30 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        South Africa formally expressed interest in EITI candidacy. The government
+        committed in principle but formal application delayed. EITI Board encouraged
+        South Africa to apply. Some US-listed South African mining companies began
+        Dodd-Frank country-by-country payment disclosures. JSE disclosure comprehensive.
+        Aggregate royalty revenue R4.8B in 2013. No EITI member. Moving toward
+        eiti_candidate level in terms of commitments but not yet formally applied.
+        Minimal disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "EITI, Global Progress Report 2013"
+          url: "https://eiti.org"
+          type: ngo_report
+          reliability: high
+        - citation: "National Treasury, SARS Tax Statistics 2013"
+          url: "https://sars.gov.za"
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "South Africa expressed interest in EITI candidacy but did not formally apply."
+
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -397,13 +707,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        State Capture environment reduced institutional capacity and political will for
+        extractive transparency reforms. South Africa still not EITI member despite
+        previous expressions of interest. EU country-by-country reporting requirements
+        for extractive companies beginning to affect European-listed South African miners.
+        Aggregate mining revenue data in Budget. JSE disclosure maintained. Minimal
+        disclosure by EITI standards.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "National Treasury, Budget Review 2014"
+          url: "https://treasury.gov.za"
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "State Capture environment reduced momentum for extractive transparency reforms."
+
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -413,13 +735,28 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Mining sector under continued labor and regulatory pressure. Commodity price
+        collapse affected South African mining revenues. South Africa still not EITI
+        member. Civil society (Publish What You Pay South Africa) continued advocacy.
+        JSE disclosure high for listed companies. Budget aggregate royalty data (~R3.5B)
+        published. No EITI membership or company-level reconciliation. Minimal disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "Publish What You Pay South Africa, Annual Report 2015"
+          url: null
+          type: ngo_report
+          reliability: high
+        - citation: "National Treasury, Budget Review 2015"
+          url: "https://treasury.gov.za"
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "Publish What You Pay South Africa active in advocacy for EITI membership."
+
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -429,13 +766,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        State Capture deepened institutional problems across government. Mining charter
+        negotiations contentious. South Africa still not EITI member. Mining sector revenues
+        declining with commodity prices. GuptaLeaks (published 2017) eventually revealed
+        some Gupta mining asset transactions. EU CBCR requirements affecting some EU-listed
+        South African miners. JSE disclosures maintained. Minimal disclosure by EITI standards.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "National Treasury, Budget Review 2016"
+          url: "https://treasury.gov.za"
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "Gupta mining assets (Optimum, Koornfontein) highlighted opacity in beneficial ownership."
+
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -445,13 +793,29 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GuptaLeaks documents (June 2017) revealed Gupta family's opaque acquisition of
+        coal mines (Optimum Coal, Koornfontein). This public exposure of extractive sector
+        opacity strengthened calls for EITI membership. Mining charter dispute between
+        Chamber of Mines and government created uncertainty. South Africa still not EITI
+        member. Minimal disclosure, worsened by State Capture revelations showing
+        beneficial ownership opacity.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "amaBhungane, GuptaLeaks — Optimum and Koornfontein mines, 2017"
+          url: "https://amabhungane.org"
+          type: ngo_report
+          reliability: high
+        - citation: "National Treasury, Budget Review 2017"
+          url: "https://treasury.gov.za"
+          type: government
+          reliability: high
+      confidence: high
+      notes: "GuptaLeaks revealed scale of beneficial ownership opacity in South African mining sector."
+
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -461,13 +825,29 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Ramaphosa government committed to improving governance of the mining sector.
+        New Mining Charter published (September 2018). EITI candidacy discussions renewed.
+        South Africa expressed renewed commitment to EITI. Zondo Commission examined some
+        mining-related State Capture transactions. JSE disclosure maintained. Beneficial
+        ownership register development for companies began. Improving trajectory but still
+        no EITI membership. Minimal disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "Department of Mineral Resources, Mining Charter 2018"
+          url: "https://dmre.gov.za"
+          type: government
+          reliability: high
+        - citation: "EITI, Status of South Africa 2018"
+          url: "https://eiti.org"
+          type: ngo_report
+          reliability: high
+      confidence: medium
+      notes: "Ramaphosa government renewed EITI membership discussions; Mining Charter 2018 improved framework."
+
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -477,13 +857,29 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        South Africa began formal EITI candidacy application process. Companies Act
+        amended to improve beneficial ownership disclosure. EITI Board encouraged
+        formal application. Government mining revenue data improving — mineral royalties,
+        corporate taxes from mining companies better reported. Some preliminary steps
+        toward EITI compliance. Still no formal EITI candidate status. Moving from
+        minimal toward eiti_candidate level of disclosure.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "EITI, South Africa Candidacy Discussions 2019"
+          url: "https://eiti.org/south-africa"
+          type: ngo_report
+          reliability: high
+        - citation: "National Treasury, Budget Review 2019"
+          url: "https://treasury.gov.za"
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "Formal EITI candidacy application process began in 2019."
+
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -493,13 +889,28 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        COVID-19 slowed EITI candidacy process. Mining sector severely affected (Anglo
+        suspended operations briefly). South Africa still not formal EITI candidate.
+        FATF grey list concerns noted issues with beneficial ownership transparency
+        (relevant to mining). JSE disclosures maintained. Companies Amendment Act
+        improving beneficial ownership registers. Minimal disclosure but improving trend.
+      features:
+        - no_membership_minimal_disclosure
+      sources:
+        - citation: "EITI, Global Progress Report 2020"
+          url: "https://eiti.org"
+          type: ngo_report
+          reliability: high
+        - citation: "National Treasury, Budget Review 2020"
+          url: "https://treasury.gov.za"
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "COVID delayed EITI process; Companies Amendment Act beneficial ownership provisions advancing."
+
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -509,13 +920,29 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        South Africa made formal commitment to EITI membership application. Cabinet
+        approved pursuing EITI candidacy. Multi-stakeholder group formation began.
+        This was a significant step toward formal EITI candidacy. Beneficial ownership
+        company register work ongoing. Mining royalty and tax revenue data published in
+        Budget (~R8.5B royalties). Companies Act beneficial ownership amendments progressing.
+        Moving from minimal to eiti_candidate in process terms.
+      features:
+        - eiti_candidate_or_suspended
+      sources:
+        - citation: "EITI, South Africa Candidacy Status 2021"
+          url: "https://eiti.org/south-africa"
+          type: ngo_report
+          reliability: high
+        - citation: "Department of Mineral Resources and Energy, EITI Commitment 2021"
+          url: "https://dmre.gov.za"
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "Cabinet approved EITI candidacy pursuit; multi-stakeholder group formation began."
+
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -525,13 +952,30 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        South Africa's EITI application process continued. Multi-stakeholder group
+        (government, industry, civil society) established for EITI candidacy process.
+        The Companies Amendment Act 2022 requiring beneficial ownership disclosure
+        enacted — directly relevant to EITI requirements. Mining royalty revenues
+        (~R11.5B) in Budget. FATF greylisting (February 2023) highlighted beneficial
+        ownership gaps — EITI candidacy was part of response strategy.
+        Eiti_candidate_or_suspended trajectory.
+      features:
+        - eiti_candidate_or_suspended
+      sources:
+        - citation: "EITI, South Africa Country Overview 2022"
+          url: "https://eiti.org/south-africa"
+          type: ngo_report
+          reliability: high
+        - citation: "Companies Amendment Act 26 of 2022"
+          url: "https://www.gov.za"
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "Companies Amendment Act 2022 beneficial ownership provisions aligned with EITI requirements."
+
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -541,13 +985,29 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        FATF greylisting (February 2023) accelerated South Africa's beneficial ownership
+        and extractive transparency reforms. South Africa's EITI candidacy process advanced.
+        Mining royalty revenues (~R12B) published in Budget. JSE disclosure by mining
+        companies comprehensive. CIPC (Companies and Intellectual Property Commission)
+        beneficial ownership register operational. South Africa close to formal EITI
+        candidate status. eiti_candidate_or_suspended level in terms of progress.
+      features:
+        - eiti_candidate_or_suspended
+      sources:
+        - citation: "EITI, South Africa Country Profile 2023"
+          url: "https://eiti.org/south-africa"
+          type: ngo_report
+          reliability: high
+        - citation: "FATF, Mutual Evaluation Follow-up Report South Africa 2023"
+          url: "https://fatf-gafi.org"
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "FATF greylisting accelerated extractive and beneficial ownership transparency reforms."
+
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -557,13 +1017,30 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        South Africa's EITI candidacy process at advanced stage. GNU formation following
+        May 2024 elections maintained commitment to EITI. FATF greylisting expected
+        to end February 2025 partly based on beneficial ownership improvements relevant
+        to EITI. Mining sector revenues (~R13B royalties) in Budget. JSE disclosures
+        comprehensive for listed miners (Anglo, Implats, Northam, Kumba). Beneficial
+        ownership register operational. South Africa approaching formal EITI candidacy
+        or near-compliant level.
+      features:
+        - eiti_candidate_or_suspended
+      sources:
+        - citation: "EITI, South Africa Country Profile 2024"
+          url: "https://eiti.org/south-africa"
+          type: ngo_report
+          reliability: high
+        - citation: "National Treasury, Budget Review 2024"
+          url: "https://treasury.gov.za"
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "GNU maintained EITI commitment; FATF exit Feb 2025 reflected beneficial ownership improvements."
+
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: eiti_compliance_scale
@@ -573,8 +1050,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        South Africa exited FATF grey list February 2025. EITI candidacy process continuing.
+        GNU government maintaining extractive transparency reform agenda. Beneficial ownership
+        register operational. Mining royalty and tax data published. South Africa moving
+        toward formal EITI candidate or early-compliant status. Data as of early 2025
+        suggests continued progress but formal EITI candidate status not yet confirmed.
+        eiti_candidate_or_suspended trajectory maintained.
+      features:
+        - eiti_candidate_or_suspended
+      sources:
+        - citation: "EITI, South Africa Country Profile 2025 (latest available)"
+          url: "https://eiti.org/south-africa"
+          type: ngo_report
+          reliability: medium
+        - citation: "FATF, South Africa exit from grey list, February 2025"
+          url: "https://fatf-gafi.org"
+          type: government
+          reliability: high
+      confidence: medium
+      notes: "FATF exit Feb 2025 and ongoing EITI process; formal EITI candidate status not yet confirmed."

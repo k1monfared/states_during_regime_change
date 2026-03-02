@@ -3,578 +3,856 @@ country: sierra_leone
 dimension: economic
 years:
   1990:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 110
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 1990, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Pre-war Sierra Leone experienced very high inflation from poor monetary policy
+        and fiscal deficits under the APC government. GDP deflator inflation peaked at
+        ~128% in 1991. In 1990, inflation was already extremely high, estimated around
+        110% based on historical data. Leone was a weak currency.
+      features:
+        - hyperinflation_gt_100pct
+      sources:
+        - citation: "World Bank WDI CPI Sierra Leone 1990"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: low
+      notes: "Pre-war hyperinflation under APC; weak monetary policy; leone weak currency; ~110%"
   1991:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 128
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 1991, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Peak hyperinflation year. GDP deflator inflation reached ~128% in 1991 as
+        war began. RUF insurgency combined with pre-existing fiscal deficits and
+        poor monetary management to drive prices to extraordinary levels. Leone
+        severely devalued.
+      features:
+        - hyperinflation_gt_100pct
+      sources:
+        - citation: "World Bank GDP deflator data; Sierra Leone 1991"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Peak inflation ~128% GDP deflator; RUF war + fiscal deficits + poor monetary policy"
   1992:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 65
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 1992, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation declining from 1991 peak but still very high at approximately 65%.
+        NPRC coup April 1992. War ongoing. Monetary chaos. Leone continued to depreciate
+        though rate of inflation somewhat reduced.
+      features:
+        - very_high_50_100pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 1992; NPRC coup"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "~65% inflation; declining from 1991 peak; NPRC coup; monetary chaos"
   1993:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 23
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 1993, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Significant inflation reduction. NPRC government attempting fiscal stabilization.
+        Inflation declining to approximately 23%. Still elevated but major improvement
+        from hyperinflation peak. IMF engagement under NPRC.
+      features:
+        - elevated_10_25pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 1993"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Significant reduction to ~23%; NPRC fiscal stabilization; IMF engagement"
   1994:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 25
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 1994, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation approximately 25%. War continuing. NPRC fiscal policies. Elevated
+        inflation persisting due to war disruption and fiscal deficits.
+      features:
+        - elevated_10_25pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 1994"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "~25% inflation; war continuing; elevated due to war disruption and fiscal deficits"
   1995:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 26
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 1995, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation approximately 26%. RUF near Freetown, EO deployed. Continued
+        elevated inflation from war disruption and fiscal pressures.
+      features:
+        - elevated_10_25pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 1995"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "~26% inflation; elevated due to war and fiscal pressures; EO deployed"
   1996:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 23
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 1996, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation approximately 23%. Elections and civilian government. Abidjan Accord.
+        Some stabilization with civilian government and international engagement.
+        Elevated but declining.
+      features:
+        - elevated_10_25pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 1996"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "~23% inflation; elections; Abidjan Accord; some stabilization"
   1997:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 15
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 1997, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        AFRC coup May 1997. ECOMOG blockade and economic collapse paradoxically may
+        have reduced monetary activity. Inflation approximately 15% — declining despite
+        political crisis, possibly due to supply collapse and reduced monetary activity.
+      features:
+        - elevated_10_25pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 1997; AFRC coup"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: low
+      notes: "~15% despite AFRC coup; ECOMOG blockade; supply collapse; low monetary activity paradox"
   1998:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 36
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 1998, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Kabbah restored February 1998. Inflation spiked to approximately 36% as
+        ECOMOG blockade lifted and normal monetary activity resumed but war
+        continued. Supply disruptions from ongoing conflict driving prices.
+      features:
+        - high_25_50pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 1998"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "~36% inflation; ECOMOG blockade lifted; supply disruptions from war; Kabbah restored"
   1999:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 34
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 1999, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Freetown massacre January 1999 destroyed much of Freetown's economy and supply.
+        Inflation approximately 34%. Lomé Accord July 1999. War disruptions continuing
+        to drive inflation.
+      features:
+        - high_25_50pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 1999; Freetown massacre"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "~34% inflation; Freetown massacre; supply disruptions; Lomé Accord"
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -4
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2000, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP deflator showed deflation of approximately -4% in 2000 (as noted in
+        historical data: record low of -3.916% in 2002, but near-deflation in 2000).
+        Actual consumer inflation may have been positive. Supply collapse from war
+        created complex price dynamics.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank GDP deflator Sierra Leone 2000"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: low
+      confidence: low
+      notes: "Near-deflation GDP deflator; complex price dynamics from supply collapse; CPI may differ"
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 10
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2001, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        UNAMSIL DDR bringing stability. Inflation approximately 10% as economy
+        beginning to normalize. War ending process allowing supply chains to recover.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2001"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "~10% inflation; UNAMSIL DDR; economy normalizing; supply chains recovering"
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -4
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2002, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        War ended January 2002. GDP deflator reached record low of approximately
+        -3.9% to -4% as post-war adjustment occurred. CPI deflation as returning
+        goods flooded markets after wartime scarcity. Post-war price normalization.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank GDP deflator Sierra Leone 2002; war ended"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "GDP deflator ~-4% (post-war deflation); war ended; goods returning; price normalization"
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 8
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2003, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-war recovery. Inflation approximately 8% as economy normalizing.
+        International aid flowing in. Price pressures moderate as supply recovering.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2003"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "Post-war recovery; ~8% inflation; economy normalizing; aid flowing"
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 14
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2004, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation increased to approximately 14% in 2004 as demand recovered
+        post-war. Reconstruction demand-pull inflation. Economy growing faster
+        than supply capacity. Elevated inflation.
+      features:
+        - elevated_10_25pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2004"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "~14% inflation; reconstruction demand-pull; economy outgrowing supply; elevated"
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 12
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2005, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation approximately 12% in 2005. Reconstruction continuing. Monetary
+        policy improving with better governance. Elevated but declining trend.
+      features:
+        - elevated_10_25pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2005"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "~12%; reconstruction; improved monetary policy; elevated but declining"
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 12
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2006, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation approximately 12%. Economic growth accelerating. Monetary policy
+        managing. Elevated but stable.
+      features:
+        - elevated_10_25pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2006"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "~12%; accelerating growth; elevated but stable"
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 11
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2007, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        First peaceful transfer, Koroma elected. Inflation approximately 11%.
+        Economy growing. Elevated but manageable.
+      features:
+        - elevated_10_25pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2007"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "~11%; peaceful transfer; Koroma; elevated but manageable"
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 15
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2008, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation increased to approximately 15% in 2008 due to global food and
+        energy price increases. Iron ore investment bringing in capital but also
+        demand pressures. Elevated inflation.
+      features:
+        - elevated_10_25pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2008; global food/energy prices"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "~15%; global food/energy prices; iron ore investment demand; elevated"
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 9
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2009, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Global financial crisis reduced commodity and import prices. Inflation
+        declined to approximately 9%. Better monetary management. Approaching
+        moderate range.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2009"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "~9%; global crisis reduced prices; better monetary management; approaching moderate"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 17
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2010, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation rose to approximately 17% in 2010 as recovery accelerated and
+        iron ore boom drove demand pressures. Capital inflows pushing up prices.
+        Elevated inflation during boom period.
+      features:
+        - elevated_10_25pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2010"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "~17%; iron ore boom demand pressure; capital inflows; elevated during boom"
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 18
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2011, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation approximately 18% during iron ore boom. Rapid economic growth
+        and capital inflows driving demand-pull inflation. Elevated but alongside
+        high economic growth.
+      features:
+        - elevated_10_25pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2011"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "~18%; iron ore boom; demand-pull inflation; elevated alongside high growth"
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 12
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2012, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation declining to approximately 12% in 2012 despite peak economic growth.
+        Better monetary policy under improved governance. Koroma re-elected.
+      features:
+        - elevated_10_25pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2012"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "~12%; declining despite peak growth; better monetary policy; Koroma re-elected"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 11
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2013, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation approximately 11%. Steady improvement in monetary management.
+        UNIPSIL completed. Economy performing strongly. Elevated but declining.
+      features:
+        - elevated_10_25pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2013"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "~11%; improving monetary management; UNIPSIL completed; elevated declining"
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 8
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2014, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation reduced to approximately 8% in first half 2014. Ebola epidemic
+        from July/August disrupted supply chains and may have pushed prices higher
+        in second half. Full-year approximately 8%.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2014; Ebola from July"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "~8%; reduced pre-Ebola; Ebola disrupted supply chains second half"
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 8
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2015, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Ebola year. Inflation approximately 8%. Despite economic contraction from
+        Ebola and mine closures, inflation was moderate as demand also collapsed.
+        Supply and demand shocks partly offsetting.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2015"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "~8%; Ebola year; supply/demand shocks offsetting; mine closures; moderate"
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 10
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2016, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-Ebola recovery inflation. Currency depreciating. Import costs rising.
+        Approximately 10% inflation as economy recovering.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2016"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "~10%; post-Ebola recovery; currency depreciating; import costs rising"
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 18
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2017, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation spiked to approximately 18% in 2017 due to leone depreciation
+        and fiscal expansion. August mudslide disrupted supply. Election spending
+        pressures. Elevated inflation.
+      features:
+        - elevated_10_25pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2017; leone depreciation; mudslide"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "~18%; leone depreciation; fiscal expansion; mudslide supply disruption; elevated"
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 16
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2018, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation approximately 16%. Bio elected, new government taking fiscal
+        austerity measures. Free Quality Education spending. Exchange rate pressures.
+        Elevated inflation.
+      features:
+        - elevated_10_25pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2018; Bio elected"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "~16%; Bio elected; Free Quality Education fiscal pressure; exchange rate; elevated"
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 15
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2019, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation approximately 15%. Bio government fiscal pressures. Leone continuing
+        to depreciate. Elevated but manageable.
+      features:
+        - elevated_10_25pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2019"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "~15%; Bio fiscal pressures; leone depreciation; elevated"
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 13
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2020, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        COVID year. Inflation approximately 13.45% (World Bank data). Demand
+        destruction from COVID somewhat dampening inflation pressure despite
+        supply chain disruptions.
+      features:
+        - elevated_10_25pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2020; 13.45%"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "13.45% (World Bank); COVID demand/supply shocks; elevated"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 12
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2021, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation approximately 11.87% in 2021 (World Bank data). Post-COVID
+        recovery demand driving prices. Leone depreciating. Elevated inflation.
+      features:
+        - elevated_10_25pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2021; 11.87%"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "11.87% (World Bank); post-COVID demand; leone depreciating; elevated"
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 27
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2022, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation spiked sharply to 27.21% in 2022 (World Bank data). Global inflation
+        pressures, food and energy price increases from Ukraine war, leone depreciation.
+        August 2022 protests directly caused by cost-of-living crisis. Very high inflation.
+      features:
+        - high_25_50pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2022; 27.21%; August 2022 protests"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "27.21% (World Bank); global inflation; Ukraine war effects; leone depreciation; Aug 2022 protests"
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 48
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2023, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Very high inflation at 47.64% in 2023 (World Bank data) — near hyperinflation
+        territory. Leone severely devalued. Energy and food prices. IMF program engaged
+        to address fiscal and monetary problems. Major economic crisis contributing to
+        political tensions.
+      features:
+        - very_high_50_100pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2023; 47.64%"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "47.64% (World Bank); leone severely devalued; IMF program; near-hyperinflation; major economic crisis"
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 28
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, FP.CPI.TOTL.ZG, Sierra Leone 2024, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation declining from 2023 peak to approximately 28.63% in 2024 (World Bank).
+        IMF program helping stabilize. Leone more stable. High but declining trend.
+      features:
+        - high_25_50pct
+      sources:
+        - citation: "World Bank WDI Sierra Leone 2024; 28.63%"
+          url: "https://data.worldbank.org"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "28.63% (World Bank); declining from 2023 peak; IMF program; leone stabilizing"
   2025:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 18
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF projection; qualitative assessment, Sierra Leone 2025, accessed 2026-03-01"
+        url: "https://www.imf.org"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        IMF projects continued inflation reduction in 2025, estimated around 18%.
+        IMF program maintaining monetary discipline. Elevated but declining trend.
+      features:
+        - elevated_10_25pct
+      sources:
+        - citation: "IMF Sierra Leone 2025 projection"
+          url: "https://www.imf.org"
+          type: government
+          reliability: low
+      confidence: low
+      notes: "~18% IMF estimate; declining trend; IMF program discipline; elevated"

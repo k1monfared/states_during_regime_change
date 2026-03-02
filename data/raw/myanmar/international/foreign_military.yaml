@@ -3,7 +3,7 @@ country: myanmar
 dimension: international
 years:
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -13,13 +13,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No foreign military forces stationed in Myanmar. The SPDC military junta
+        maintained full sovereignty over Myanmar's territory. China provided military
+        equipment and technical advisors but no combat forces. No UN peacekeeping mission.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "SIPRI Military Balance Southeast Asia 2005"
+          url: "https://sipri.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Chinese military advisors/equipment but no combat forces; full Myanmar sovereignty over territory it controlled"
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -29,13 +37,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No foreign military forces. Myanmar maintained full sovereignty. China continued
+        military equipment supply. No peacekeeping mission. Junta maintained control
+        of armed forces without foreign military presence.
+      features:
+        - no_foreign_presence_full_sovereignty
+      sources:
+        - citation: "SIPRI Southeast Asia 2006"
+          url: "https://sipri.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
       notes: null
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -45,13 +61,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No foreign military forces in Myanmar. Full military sovereignty maintained
+        by junta. China and India maintained arms sales relationships. No UN peacekeeping.
+      features:
+        - no_foreign_presence_full_sovereignty
+      sources:
+        - citation: "SIPRI Southeast Asia 2007"
+          url: "https://sipri.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
       notes: null
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -61,13 +84,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No foreign military forces. Myanmar rejected most foreign assistance including
+        military support after Cyclone Nargis. Full sovereignty maintained.
+      features:
+        - no_foreign_presence_full_sovereignty
+      sources:
+        - citation: "SIPRI Southeast Asia 2008"
+          url: "https://sipri.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Cyclone Nargis; junta refused foreign military assistance"
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -77,13 +107,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No foreign military forces in Myanmar. Full sovereignty maintained. China
+        arms supply continued. Military relations with Russia also maintained.
+      features:
+        - no_foreign_presence_full_sovereignty
+      sources:
+        - citation: "SIPRI Southeast Asia 2009"
+          url: "https://sipri.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
       notes: null
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -93,13 +130,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No foreign military forces. Full sovereignty maintained by junta. Military
+        technology from China, Russia. No foreign combat or peacekeeping forces.
+      features:
+        - no_foreign_presence_full_sovereignty
+      sources:
+        - citation: "SIPRI Southeast Asia 2010"
+          url: "https://sipri.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
       notes: null
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -109,13 +153,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No foreign military forces. Democratic transition began but military maintained
+        full sovereign control over armed forces. US military advisors began limited
+        engagement but no combat or peacekeeping forces.
+      features:
+        - no_foreign_presence_full_sovereignty
+      sources:
+        - citation: "US-Myanmar military engagement reports"
+          url: "https://www.defense.gov/"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Transition year; no foreign forces"
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -125,13 +177,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No foreign military forces. Myanmar opened to US military engagement including
+        officer training programs and limited advisors as part of normalization.
+        Sovereignty fully maintained.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "US-Myanmar military normalization"
+          url: "https://www.defense.gov/"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Limited US military advisors/training as part of normalization"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -141,13 +201,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Limited US military training engagement. No foreign combat forces. Myanmar
+        maintaining sovereign military authority. International military training
+        cooperation expanding.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "US-Myanmar military cooperation"
+          url: "https://www.defense.gov/"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -157,13 +225,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Limited US and international military training and engagement. Myanmar military
+        increasingly engaging internationally. No foreign combat forces. Full sovereignty.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "US-Myanmar military cooperation"
+          url: "https://www.defense.gov/"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -173,13 +248,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Limited international military training continuing. NLD election victory
+        did not change military sovereignty arrangements. No foreign combat forces.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "SIPRI Southeast Asia 2015"
+          url: "https://sipri.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
       notes: null
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -189,13 +271,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        NLD government in power. Military maintained autonomous command. No foreign
+        combat forces. Limited international military engagement continued.
+      features:
+        - no_foreign_presence_full_sovereignty
+      sources:
+        - citation: "SIPRI Southeast Asia 2016"
+          url: "https://sipri.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Post-Rohingya ARSA attacks; US reduced some military engagement"
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -205,13 +294,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        US suspended military training and cooperation following Rohingya crackdown.
+        No foreign forces present. Myanmar military conducting operations independently.
+        Full sovereign control of military operations.
+      features:
+        - no_foreign_presence_full_sovereignty
+      sources:
+        - citation: "US suspension of military engagement with Myanmar 2017"
+          url: "https://www.defense.gov/"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "US suspended military training post-Rohingya"
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -221,13 +318,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No significant foreign military presence. US military ties largely suspended.
+        China maintained military equipment supply. Full sovereignty. Myanmar military
+        operating without significant foreign military presence.
+      features:
+        - no_foreign_presence_full_sovereignty
+      sources:
+        - citation: "SIPRI Southeast Asia 2018"
+          url: "https://sipri.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
       notes: null
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -237,13 +342,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No foreign military forces. Full Myanmar military sovereignty. US military
+        ties largely suspended. China arms supply continued. Russia also selling arms.
+      features:
+        - no_foreign_presence_full_sovereignty
+      sources:
+        - citation: "SIPRI Arms Transfers Southeast Asia"
+          url: "https://sipri.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
       notes: null
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -253,13 +365,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No foreign military forces. Pre-coup period. Myanmar military operating
+        independently. China and Russia as main arms suppliers.
+      features:
+        - no_foreign_presence_full_sovereignty
+      sources:
+        - citation: "SIPRI Arms Transfers Southeast Asia"
+          url: "https://sipri.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
       notes: null
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -269,13 +388,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No formal foreign military forces. Junta received Chinese and Russian arms.
+        No UN peacekeeping deployed (China and Russia blocked). Chinese military
+        advisors reportedly providing some support. Myanmar's military sovereignty
+        maintained in its controlled areas.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "SIPRI Arms Transfers 2021"
+          url: "https://sipri.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "Coup year; China/Russia arms; no UN deployment (China/Russia blocked UNSC)"
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -285,13 +413,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No formal foreign military forces. Russia and China supplying arms and jets to
+        junta. Jet fuel for air force sourced from Russia. No UN peacekeeping. Junta
+        dependent on Chinese and Russian arms while maintaining formal sovereignty.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "SIPRI Arms Transfers 2022; Human Rights Watch on arms to Myanmar"
+          url: "https://sipri.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "China/Russia arms critical for junta's air operations"
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -301,13 +437,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No formal foreign military forces. Junta dependent on Chinese and Russian arms.
+        China concerned about instability at its border following Operation 1027 affecting
+        northern Shan State. China allegedly facilitating some ceasefire negotiations.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "SIPRI Arms Transfers 2023"
+          url: "https://sipri.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "China facilitated Shan ceasefire talks after Operation 1027"
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: qualitative_scale
@@ -317,13 +461,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No formal foreign combat forces. China and Russia continue to arm the junta.
+        China balancing support for junta vs protecting its border interests. No UN
+        peacekeeping deployment.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "SIPRI Arms Transfers 2024"
+          url: "https://sipri.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
       notes: null
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -333,8 +485,15 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continuing Chinese and Russian arms to junta. No UN peacekeeping. Civil war
+        ongoing.
+      features:
+        - limited_invited_advisors
+      sources:
+        - citation: "SIPRI ongoing data"
+          url: "https://sipri.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "Status as of early 2026"

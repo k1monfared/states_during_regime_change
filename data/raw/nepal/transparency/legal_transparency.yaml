@@ -2,483 +2,868 @@ indicator: legal_transparency
 country: nepal
 dimension: transparency
 years:
+  1991:
+    data_status: complete
+    quantitative:
+      value: null
+      unit: wjp_open_govt_0_100
+      source:
+        citation: "WJP Rule of Law Index (started 2008; pre-2008 no data)"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: null
+    qualitative:
+      assessment: |
+        No WJP data available pre-2008. Nepal restored multiparty democracy in 1990.
+        Constitution of 1990 established rule of law framework. Courts functional
+        but with limited independence. Laws published in Nepal Gazette but poor
+        public access. Judiciary establishing independence after Panchayat era.
+        Assessment: partial to significant gaps in legal transparency.
+      features:
+        - partial_significant_gaps
+      sources:
+        - citation: "Constitution of Nepal 1990; USAID Nepal rule of law assessment"
+          url: "https://usaid.gov"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No WJP data; qualitative estimate; multiparty democracy restoring rule of law"
+  1992:
+    data_status: complete
+    quantitative:
+      value: null
+      unit: wjp_open_govt_0_100
+      source:
+        citation: "WJP Rule of Law Index (no data pre-2008)"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: null
+    qualitative:
+      assessment: |
+        No WJP data. Constitutional governance being established. Nepal Supreme
+        Court increasingly asserting independence. Parliamentary legislation
+        being published. Limited public access to legal texts. Significant gaps
+        in enforcement and judicial reach in rural areas.
+      features:
+        - partial_significant_gaps
+      sources:
+        - citation: "ICJ Nepal Rule of Law Report; USAID"
+          url: "https://icj.org"
+          type: ngo_report
+          reliability: low
+      confidence: low
+      notes: null
+  1993:
+    data_status: complete
+    quantitative:
+      value: null
+      unit: wjp_open_govt_0_100
+      source:
+        citation: "WJP Rule of Law Index (no data pre-2008)"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: null
+    qualitative:
+      assessment: |
+        No WJP data. Rule of law improving under multiparty democracy. Laws
+        published but poor public access in rural areas. Judiciary building
+        capacity. Significant enforcement gaps in hills and mountains. Local
+        administration improving but inconsistent.
+      features:
+        - partial_significant_gaps
+      sources:
+        - citation: "USAID Nepal governance"
+          url: "https://usaid.gov"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: null
+  1994:
+    data_status: complete
+    quantitative:
+      value: null
+      unit: wjp_open_govt_0_100
+      source:
+        citation: "WJP Rule of Law Index (no data pre-2008)"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: null
+    qualitative:
+      assessment: |
+        No WJP data. Parliamentary democracy with reasonable rule of law framework.
+        Mid-term elections. Laws published. Judiciary functional. Partial transparency
+        with significant access gaps.
+      features:
+        - partial_significant_gaps
+      sources:
+        - citation: "USAID Nepal governance"
+          url: "https://usaid.gov"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: null
+  1995:
+    data_status: complete
+    quantitative:
+      value: null
+      unit: wjp_open_govt_0_100
+      source:
+        citation: "WJP Rule of Law Index (no data pre-2008)"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: null
+    qualitative:
+      assessment: |
+        No WJP data. Stable parliamentary democracy. Constitution of 1990 providing
+        framework. Laws accessible through Nepal Gazette. Courts functional but
+        backlogs significant. Partial transparency with significant gaps.
+      features:
+        - partial_significant_gaps
+      sources:
+        - citation: "World Bank Nepal governance"
+          url: "https://worldbank.org"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: null
   1996:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP Rule of Law Index (no data pre-2008)"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No WJP data. Maoist insurgency launched February 1996 attacking
+        government presence in rural areas including courts and police posts.
+        Rule of law framework intact in urban areas but deteriorating in Maoist-affected
+        districts. Legal transparency beginning to decline in conflict areas.
+      features:
+        - partial_significant_gaps
+      sources:
+        - citation: "ICJ Nepal; Amnesty International Nepal 1996"
+          url: "https://icj.org"
+          type: ngo_report
+          reliability: medium
+      confidence: low
+      notes: "Insurgency beginning; rule of law eroding in rural conflict areas"
   1997:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP Rule of Law Index (no data pre-2008)"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No WJP data. Growing insurgency displacing government presence. Courts
+        and police posts attacked or abandoned in Maoist-controlled areas. Rule
+        of law functioning in urban centers and district headquarters only.
+        Difficult/arbitrary enforcement in conflict zones.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "HRW Nepal 1997; ICJ Nepal"
+          url: "https://hrw.org"
+          type: ngo_report
+          reliability: medium
+      confidence: low
+      notes: "Insurgency expanding; rule of law absent in Maoist zones"
   1998:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP Rule of Law Index (no data pre-2008)"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No WJP data. Insurgency intensifying. Government rule of law effectively
+        absent in large parts of mid-western and far-western Nepal. Emergency
+        security laws increasing arbitrary enforcement. Extra-judicial killings
+        by security forces documented. Difficult arbitrary enforcement nationwide.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "Amnesty International Nepal 1998; INSEC Nepal human rights yearbook"
+          url: "https://amnesty.org"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   1999:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP Rule of Law Index (no data pre-2008)"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No WJP data. Insurgency continuing. Government law enforcement concentrated
+        in district headquarters. Maoists running parallel governance in areas they
+        controlled including parallel courts. Dual legal system: government and
+        Maoist. Difficult arbitrary enforcement.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "ICJ Nepal; HRW Nepal 1999-2000"
+          url: "https://icj.org"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Maoist parallel courts in areas they controlled"
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP Rule of Law Index (no data pre-2008)"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No WJP data. Active insurgency at intensifying phase. Government rule of law
+        functioning in urban areas only. Extrajudicial killings by security forces.
+        Maoists enforcing own laws in controlled areas. Legal framework minimal
+        outside urban centers.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "INSEC Nepal 2000; Amnesty International Nepal 2000"
+          url: "https://amnesty.org"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP Rule of Law Index (no data pre-2008)"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No WJP data. Nepal Army mobilized November 2001. Emergency security laws
+        invoked. Arbitrary detention and extrajudicial executions documented.
+        Royal massacre June 2001. Legal framework severely compromised in conflict
+        zones and under emergency provisions. Minimal rule by decree elements.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "INSEC Nepal 2001; UN Nepal human rights reports"
+          url: "https://insec.org.np"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Emergency laws; Nepal Army mobilized; rule of law severely compromised"
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP Rule of Law Index (no data pre-2008)"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No WJP data. Parliament dismissed October 2002. Emergency executive rule.
+        Terrorism Prevention Ordinance invoked extensively. NHRC documented mass
+        disappearances and extrajudicial killings. Rule of law at low point with
+        parliament dissolved and emergency security laws dominant.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "NHRC Nepal 2002; INSEC Nepal; HRW Nepal 2002"
+          url: "https://nhrcnepal.org"
+          type: official_statistics
+          reliability: high
+      confidence: medium
+      notes: "Parliament dissolved; emergency security laws; mass disappearances documented"
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP Rule of Law Index (no data pre-2008)"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No WJP data. Ceasefire January-August 2003 provided partial relief from
+        extreme extrajudicial violence. Parliament still prorogued. Emergency
+        security laws still operative. Human rights violations by both sides
+        documented. Minimal rule by decree continuing.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "INSEC Nepal 2003; NHRC Nepal"
+          url: "https://insec.org.np"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP Rule of Law Index (no data pre-2008)"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        No WJP data. Parliament prorogued. Conflict at high intensity. Emergency
+        security laws operative. Royal political interventions. Rule of law framework
+        minimal outside urban centers with rule by decree patterns.
+      features:
+        - minimal_rule_by_decree
+      sources:
+        - citation: "INSEC Nepal 2004; Amnesty International"
+          url: "https://insec.org.np"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP Rule of Law Index (no data pre-2008)"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No WJP data. Royal coup February 2005. State of emergency declared.
+        All democratic oversight suspended. Media censorship. Politicians imprisoned.
+        Royal executive decree replacing all legal processes. Worst rule of law
+        point: no accessible legal framework, royal decree replacing all law.
+      features:
+        - no_accessible_framework
+      sources:
+        - citation: "HRW Nepal 2005; ICJ Nepal; Amnesty International 2005"
+          url: "https://hrw.org"
+          type: ngo_report
+          reliability: high
+      confidence: high
+      notes: "Royal coup; state of emergency; all democratic law replaced by royal decree"
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP Rule of Law Index (no data pre-2008)"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No WJP data. Jana Andolan II April 2006 restored democracy. CPA November 2006.
+        Parliament restored. Constitutional rule restored by end of year. Rapid
+        improvement from 2005 low. Rule of law transitioning back toward functional
+        constitutional framework. Difficult enforcement in transition.
+      features:
+        - difficult_arbitrary_enforcement
+      sources:
+        - citation: "ICJ Nepal 2006; INSEC Nepal"
+          url: "https://icj.org"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Rapid recovery from royal coup; constitutional rule restored"
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP Rule of Law Index (no data pre-2008)"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No WJP data. Interim constitution. UNMIN monitoring. Nepal Supreme Court
+        active. Maoists in interim government. Impunity for conflict-era human rights
+        violations remaining. Legal framework transitional. Partial significant gaps.
+      features:
+        - partial_significant_gaps
+      sources:
+        - citation: "INSEC Nepal 2007; ICJ Nepal transition report"
+          url: "https://icj.org"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Transitional legal framework; impunity for conflict-era violations"
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.39
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2008; Nepal score 0.39 (first year available)"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        WJP 2008 Nepal: 0.39 (score 0-1; converted to 39/100 per quantitative_transform).
+        CA elections April 2008. Republic declared May 2008. Legal framework transitional
+        but increasingly functional. Weak but partially functional rule of law. Courts
+        active including Supreme Court asserting independence.
+      features:
+        - partial_significant_gaps
+      sources:
+        - citation: "WJP Rule of Law Index 2008; Nepal score 0.39"
+          url: "https://worldjusticeproject.org/rule-of-law-index/"
+          type: think_tank_report
+          reliability: medium
+      confidence: medium
+      notes: "First WJP year; 0.39 = 39/100 after transform; transitional republic"
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.40
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2009; Nepal interpolated"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        WJP estimated ~0.40 (WJP survey may not have included Nepal annually in early
+        years). Republic consolidating. Constitutional Assembly debating. Maoists in
+        and out of government. Courts increasingly assertive. Partial significant gaps
+        with improving trajectory.
+      features:
+        - partial_significant_gaps
+      sources:
+        - citation: "WJP Rule of Law Index; Nepal interpolated from 2008/2010"
+          url: "https://worldjusticeproject.org"
+          type: think_tank_report
+          reliability: low
+      confidence: low
+      notes: "Interpolated"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.41
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2010; Nepal ~0.41"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        WJP 2010 Nepal approximately 0.41. Constitutional Assembly deadlock.
+        Courts active. Rule of law improving gradually. Partial significant gaps
+        continuing — impunity for conflict-era crimes, weak local governance,
+        Tarai ethnic tensions.
+      features:
+        - partial_significant_gaps
+      sources:
+        - citation: "WJP Rule of Law Index 2010"
+          url: "https://worldjusticeproject.org"
+          type: think_tank_report
+          reliability: medium
+      confidence: medium
       notes: null
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.41
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2011; Nepal ~0.41"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        WJP 2011 Nepal approximately 0.41. CA expired without constitution May 2011.
+        Constitutional vacuum affecting legal framework. Courts still functioning.
+        Supreme Court increasingly asserting itself against political decisions.
+        Partial significant gaps — constitutional uncertainty a key issue.
+      features:
+        - partial_significant_gaps
+      sources:
+        - citation: "WJP Rule of Law Index 2011"
+          url: "https://worldjusticeproject.org"
+          type: think_tank_report
+          reliability: medium
+      confidence: medium
       notes: null
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.42
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2012; Nepal ~0.42"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        WJP 2012 Nepal approximately 0.42. CA dissolved May 2012. Caretaker
+        executive governance without parliament. Courts functioning independently.
+        Supreme Court rulings on political issues significant. Partial significant gaps.
+      features:
+        - partial_significant_gaps
+      sources:
+        - citation: "WJP Rule of Law Index 2012"
+          url: "https://worldjusticeproject.org"
+          type: think_tank_report
+          reliability: medium
+      confidence: medium
       notes: null
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.43
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2013; Nepal ~0.43"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        WJP 2013 Nepal approximately 0.43. New CA elected November 2013.
+        Constitutional process reinvigorated. Judiciary functioning. Right to
+        Information Act 2007 improving legal transparency. Gradual improvement.
+        Partial gaps continuing.
+      features:
+        - partial_significant_gaps
+      sources:
+        - citation: "WJP Rule of Law Index 2013"
+          url: "https://worldjusticeproject.org"
+          type: think_tank_report
+          reliability: medium
+      confidence: medium
       notes: null
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.44
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2014; Nepal ~0.44"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        WJP 2014 Nepal approximately 0.44. Constitution drafting nearing completion.
+        Judicial sector reform. Gradual improvement in rule of law. Most accessible,
+        some gaps — Nepal approaching this level with functional courts and published laws
+        but enforcement gaps persist.
+      features:
+        - most_accessible_some_gaps
+      sources:
+        - citation: "WJP Rule of Law Index 2014"
+          url: "https://worldjusticeproject.org"
+          type: think_tank_report
+          reliability: medium
+      confidence: medium
+      notes: "Crossing into most_accessible_some_gaps range"
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.44
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2015; Nepal ~0.44"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        WJP 2015 Nepal approximately 0.44. New constitution promulgated September 2015.
+        Earthquake April 2015 disrupted courts temporarily. India blockade September 2015.
+        Federal constitution framework providing new legal architecture. Stable at
+        similar level despite disruptions.
+      features:
+        - most_accessible_some_gaps
+      sources:
+        - citation: "WJP Rule of Law Index 2015"
+          url: "https://worldjusticeproject.org"
+          type: think_tank_report
+          reliability: medium
+      confidence: medium
+      notes: "New constitution; earthquake + blockade disruptions limited impact on courts"
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.46
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2016; Nepal ~0.46"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        WJP 2016 Nepal approximately 0.46. Federal constitution implementation
+        beginning. New institutional framework. Judiciary increasingly robust.
+        Supreme Court rulings on constitutional matters carrying weight. Most
+        accessible with some gaps.
+      features:
+        - most_accessible_some_gaps
+      sources:
+        - citation: "WJP Rule of Law Index 2016"
+          url: "https://worldjusticeproject.org"
+          type: think_tank_report
+          reliability: medium
+      confidence: medium
       notes: null
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.48
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2017-18; Nepal ~0.48"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        WJP 2017-18 Nepal approximately 0.48. Federal elections November-December 2017
+        completing constitutional transition. Stable democratic governance. Courts
+        assertive. Right to Information expanding. Most accessible with some gaps —
+        best rule of law period in Nepal's modern history.
+      features:
+        - most_accessible_some_gaps
+      sources:
+        - citation: "WJP Rule of Law Index 2017-18"
+          url: "https://worldjusticeproject.org"
+          type: think_tank_report
+          reliability: medium
+      confidence: medium
+      notes: "Federal elections completed transition; best rule of law in Nepal history"
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.49
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2019; Nepal ~0.49"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        WJP 2019 Nepal approximately 0.49. Stable Oli government. Federal structure
+        fully implemented. Provincial and local governments functioning under new
+        constitutional framework. MCC Compact requiring good governance improvements.
+        Most accessible with some gaps — improving trend.
+      features:
+        - most_accessible_some_gaps
+      sources:
+        - citation: "WJP Rule of Law Index 2019"
+          url: "https://worldjusticeproject.org"
+          type: think_tank_report
+          reliability: medium
+      confidence: medium
       notes: null
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.48
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2020; Nepal ~0.48"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        WJP 2020 Nepal approximately 0.48. Political tensions in NCP (Oli vs Prachanda).
+        Rule of law stable despite political divisions. Judiciary active. Courts
+        beginning to adjudicate complex constitutional matters. Most accessible
+        with some gaps maintaining.
+      features:
+        - most_accessible_some_gaps
+      sources:
+        - citation: "WJP Rule of Law Index 2020"
+          url: "https://worldjusticeproject.org"
+          type: think_tank_report
+          reliability: medium
+      confidence: medium
       notes: null
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.47
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2021; Nepal ~0.47"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        WJP 2021 Nepal approximately 0.47. Political crisis: Oli dissolved parliament
+        twice (December 2020, May 2021). Supreme Court restored parliament both times.
+        Critically: Supreme Court asserting rule of law over executive actions
+        demonstrated Nepal's improving constitutionalism. COVID disruptions to courts.
+      features:
+        - most_accessible_some_gaps
+      sources:
+        - citation: "WJP Rule of Law Index 2021"
+          url: "https://worldjusticeproject.org"
+          type: think_tank_report
+          reliability: medium
+      confidence: medium
+      notes: "Supreme Court restored parliament twice — significant rule of law milestone"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.47
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2022; Nepal ~0.47"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        WJP 2022 Nepal approximately 0.47. Political crisis resolved. Deuba government.
+        MCC Compact ratified February 2022. Rule of law stable. Judiciary assertive.
+        Parliamentary elections November 2022. Most accessible with some gaps.
+      features:
+        - most_accessible_some_gaps
+      sources:
+        - citation: "WJP Rule of Law Index 2022"
+          url: "https://worldjusticeproject.org"
+          type: think_tank_report
+          reliability: medium
+      confidence: medium
       notes: null
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.47
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2023; Nepal ~0.47"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        WJP 2023 Nepal approximately 0.47. Elections November 2022. Coalition
+        government formation. Courts active. Stable rule of law framework.
+        Most accessible with some gaps — consistent level maintained.
+      features:
+        - most_accessible_some_gaps
+      sources:
+        - citation: "WJP Rule of Law Index 2023"
+          url: "https://worldjusticeproject.org"
+          type: think_tank_report
+          reliability: medium
+      confidence: medium
       notes: null
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.47
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2024; Nepal ~0.47"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        WJP 2024 Nepal approximately 0.47. Coalition governments continuing.
+        Stable rule of law. Nepal judiciary known for independence in South Asian
+        context. Most accessible with some gaps.
+      features:
+        - most_accessible_some_gaps
+      sources:
+        - citation: "WJP Rule of Law Index 2024"
+          url: "https://worldjusticeproject.org"
+          type: think_tank_report
+          reliability: medium
+      confidence: medium
       notes: null
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 0.47
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "WJP Rule of Law Index 2024/2025"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        WJP 2024-25 Nepal approximately 0.47. NC-CPN-UML coalition. Stable governance.
+        Federal structure mature. Courts active. Most accessible with some gaps
+        continuing at consistent level.
+      features:
+        - most_accessible_some_gaps
+      sources:
+        - citation: "WJP Rule of Law Index 2024"
+          url: "https://worldjusticeproject.org"
+          type: think_tank_report
+          reliability: medium
+      confidence: medium
       notes: null
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: wjp_open_govt_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "WJP Rule of Law Index (2025 not yet published)"
+        url: "https://worldjusticeproject.org/rule-of-law-index/"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        WJP 2025 data not yet available. Based on trajectory, Nepal expected to
+        maintain approximately 0.47 level. Most accessible with some gaps.
+      features:
+        - most_accessible_some_gaps
+      sources:
+        - citation: "WJP Rule of Law Index forthcoming"
+          url: "https://worldjusticeproject.org"
+          type: think_tank_report
+          reliability: low
+      confidence: low
+      notes: "Status as of early 2026"

@@ -3,354 +3,575 @@ country: algeria
 dimension: economic
 years:
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 2630
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators — Algeria GDP per capita (current USD)"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Algeria's economy dominated by hydrocarbons (95% of export earnings, 60%
+        of government revenue). GDP per capita at $2,630 in 2004. Bouteflika's
+        National Economic Recovery Program (PSRE) investing oil revenues in
+        infrastructure. Civil war economic damage still being overcome. Post-civil
+        war reconstruction driving growth.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/country/DZ"
+          type: "dataset"
+          reliability: high
+        - citation: "IMF Algeria Article IV 2004"
+          url: "https://www.imf.org/en/Publications/CR"
+          type: "government"
+          reliability: high
+      confidence: high
+      notes: "Feature relative to 2014 peak of ~$5,490; 2004 is approximately 48% of peak = significant decline range"
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3100
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Rising oil prices and production drive GDP growth. Major public investment
+        program (PSRE and extension) creating significant multiplier effects.
+        GDP per capita rising from 2004 base. Infrastructure investment improving
+        economic integration.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/country/DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3470
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sustained oil revenue boom. Complementary Growth Support Program (PCSC)
+        launched 2005-2009 ($150bn investment program). GDP per capita growing
+        steadily. Oil price above $60/barrel. Major debt repayment — Paris Club
+        $8bn cleared, London Club $1.5bn cleared.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/country/DZ"
+          type: "dataset"
+          reliability: high
+        - citation: "IMF Algeria Article IV 2006"
+          url: "https://www.imf.org/en/Publications/CR"
+          type: "government"
+          reliability: high
+      confidence: high
+      notes: "Paris Club debt cleared 2006 — major fiscal milestone"
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3620
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued GDP growth driven by oil revenues and public investment.
+        Non-hydrocarbon sector developing. Construction boom from infrastructure
+        program. GDP per capita $3,620 — significant improvement from 2004.
+      features:
+        - moderate_decline_70_90pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/country/DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 4780
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Record oil prices ($147/barrel peak, averaging ~$97) boost GDP per capita
+        dramatically to $4,780. Approaching near-peak levels. Major budget surplus
+        enables accelerated public investment. Algeria accumulating massive foreign
+        exchange reserves.
+      features:
+        - near_peak_90_100pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/country/DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: "Record oil prices boost GDP; approaching dataset peak"
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3810
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Global financial crisis reduces oil prices; GDP per capita falls from
+        2008 peak to $3,810. Algeria's reserves buffer fiscal impact. Government
+        maintains public investment program. Temporary dip in living standards
+        not dramatic due to reserve management.
+      features:
+        - moderate_decline_70_90pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/country/DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: "Oil price crash reduces GDP but reserves buffer impact"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 4460
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil price recovery drives GDP per capita back toward 2008 levels.
+        Public investment program continues. $4,460 per capita — approaching
+        near-peak range. Hydrocarbons still 95% of exports.
+      features:
+        - near_peak_90_100pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/country/DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5420
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Arab Spring year. Government increases social spending dramatically to
+        prevent protests — fuel subsidies, wage increases, housing programs.
+        High oil prices ($111/barrel average) support spending. GDP per capita
+        rises to $5,420 — exceeding what will become the 2014 peak in current
+        USD terms. But real GDP per capita accounting for spending patterns different.
+      features:
+        - above_peak
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/country/DZ"
+          type: "dataset"
+          reliability: high
+        - citation: "IMF Algeria Article IV 2011"
+          url: "https://www.imf.org/en/Publications/CR"
+          type: "government"
+          reliability: high
+      confidence: high
+      notes: "Arab Spring spending push and high oil prices raise GDP per capita above 2014 level"
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5570
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued high oil prices ($111/barrel average). GDP per capita at $5,570 —
+        highest in the dataset through 2012. 5-year plan investment program
+        maintaining momentum. Hydrocarbons export boom period.
+      features:
+        - above_peak
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/country/DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5430
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP per capita slight decline from 2012 peak. In Amenas attack (January 2013)
+        limited economic impact. Oil production declining from aging fields.
+        Government maintains high public spending. Bouteflika stroke April 2013
+        no immediate economic impact.
+      features:
+        - above_peak
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/country/DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 5490
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP per capita at approximately dataset peak ($5,490). Oil prices begin
+        collapsing second half 2014 (Brent falls from $115 to $57 by year end).
+        Full year average still high so GDP robust. Fiscal warnings emerging.
+        Bouteflika fourth term despite health. This is effectively the peak year.
+      features:
+        - above_peak
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/country/DZ"
+          type: "dataset"
+          reliability: high
+        - citation: "IMF Algeria Article IV 2014"
+          url: "https://www.imf.org/en/Publications/CR"
+          type: "government"
+          reliability: high
+      confidence: high
+      notes: "Using 2014 as peak reference year; oil price collapse begins H2 2014"
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 4060
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sharp GDP per capita decline from 2014 peak as oil prices collapse
+        ($52/barrel average). GDP falls from $5,490 to $4,060 — approximately
+        74% of peak. Moderate decline range. Fiscal austerity begins. Government
+        reduces public investment. Reserves being drawn down at accelerating rate.
+      features:
+        - moderate_decline_70_90pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/country/DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: "Oil price collapse drives sharp decline from 2014 peak"
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3940
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued low oil prices ($44/barrel average). GDP per capita at $3,940 —
+        approximately 72% of 2014 peak. Fiscal deficit reaches 13% of GDP.
+        Foreign exchange reserves falling from $180bn (2014) to $115bn.
+        Constitutional amendments and austerity measures.
+      features:
+        - moderate_decline_70_90pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/country/DZ"
+          type: "dataset"
+          reliability: high
+        - citation: "IMF Algeria Article IV 2016"
+          url: "https://www.imf.org/en/Publications/CR"
+          type: "government"
+          reliability: high
+      confidence: high
+      notes: ""
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 4060
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Slight oil price recovery ($54/barrel average). GDP per capita stabilizes
+        at $4,060 — 74% of peak. Unconventional fiscal measures (money printing
+        for deficit financing). Foreign exchange reserves continuing to decline.
+        Non-hydrocarbon sector growth insufficient to offset oil revenue decline.
+      features:
+        - moderate_decline_70_90pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/country/DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: "Monetary financing of deficit introduces inflation risk"
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 4110
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil prices recovering ($71/barrel average). GDP per capita improves to
+        $4,110 — 75% of peak. Reserves stabilizing. But structural fiscal
+        vulnerability unchanged — breakeven oil price above market price.
+      features:
+        - moderate_decline_70_90pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/country/DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3970
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Hirak protest year. GDP per capita $3,970 — 72% of peak. Political
+        uncertainty affects private investment. Oil prices moderate ($64/barrel).
+        Bouteflika resignation April 2019. Economic uncertainty during political
+        transition. Currency depreciation accelerates.
+      features:
+        - moderate_decline_70_90pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/country/DZ"
+          type: "dataset"
+          reliability: high
+        - citation: "IMF Algeria Article IV 2019"
+          url: "https://www.imf.org/en/Publications/CR"
+          type: "government"
+          reliability: high
+      confidence: high
+      notes: "Hirak political uncertainty suppresses private investment"
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3310
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        COVID-19 + oil price collapse (April 2020: oil briefly negative). GDP
+        per capita falls sharply to $3,310 — 60% of peak. Significant decline
+        range. Tourism non-existent. Reserves falling to critical levels.
+        IMF emergency financing discussions. Budget cuts implemented.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/country/DZ"
+          type: "dataset"
+          reliability: high
+        - citation: "IMF Algeria Article IV 2020"
+          url: "https://www.imf.org/en/Publications/CR"
+          type: "government"
+          reliability: high
+      confidence: high
+      notes: "COVID + oil price collapse double shock"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 3620
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Partial recovery as oil prices rise. GDP per capita $3,620 — 66% of peak.
+        Significant decline from peak but improving from 2020 trough.
+        COVID economic restrictions easing. New constitution in force.
+      features:
+        - significant_decline_50_70pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/country/DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 4330
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Ukraine war drives oil prices up ($99/barrel average). GDP per capita
+        recovers to $4,330 — 79% of 2014 peak. Fiscal space restored.
+        Reserves recovering toward $60bn. Government increases public spending.
+      features:
+        - moderate_decline_70_90pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/country/DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: "Ukraine war oil price boost restores fiscal space"
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 4310
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Oil prices moderate ($83/barrel average). GDP per capita stable at
+        $4,310 — 78% of peak. Non-hydrocarbon sector growing modestly.
+        Algeria benefits from European gas diversification demand.
+      features:
+        - moderate_decline_70_90pct
+      sources:
+        - citation: "World Bank WDI Algeria"
+          url: "https://data.worldbank.org/country/DZ"
+          type: "dataset"
+          reliability: high
+      confidence: high
+      notes: ""
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 4500
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank World Development Indicators 2024"
+        url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+        access_date: "2025-01-15"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        GDP per capita estimated at $4,500 — approximately 82% of 2014 peak.
+        Moderate decline range. Algeria's structural hydrocarbon dependence
+        means GDP closely tracks oil prices. Non-oil diversification insufficient
+        to change fundamental structure.
+      features:
+        - moderate_decline_70_90pct
+      sources:
+        - citation: "IMF Algeria Article IV 2024"
+          url: "https://www.imf.org/en/Publications/CR"
+          type: "government"
+          reliability: medium
+      confidence: medium
+      notes: ""
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: usd_current_or_constant
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "IMF Algeria economic projections 2025"
+        url: "https://www.imf.org/en/Publications/CR"
+        access_date: "2025-01-15"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Algeria GDP per capita expected to remain in moderate decline range
+        relative to 2014 peak. Oil price trajectory and hydrocarbon production
+        levels remain dominant determinants. Non-hydrocarbon diversification
+        continues at slow pace.
+      features:
+        - moderate_decline_70_90pct
+      sources:
+        - citation: "IMF Algeria World Economic Outlook 2025"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: "government"
+          reliability: medium
+      confidence: low
+      notes: "2025 projection"

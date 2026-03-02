@@ -1,0 +1,184 @@
+- Skill System — Regime Change Analysis
+    - Last Updated: 2026-02-28
+    - Purpose: Canonical reference for the 4-layer skill architecture
+    - Convert to markdown: loglog .claude/meta/skills.log > .claude/meta/skills.md
+
+- Architecture Overview
+    - Layer 1 General: Primitive reference skills (data structure, pipeline, config)
+    - Layer 1 Source: One skill per data source; covers 20 indicators
+    - Layer 2 Commands: Specialized workflow commands; compose Layer 1 skills
+    - Layer 3 Meta: improve-skill and create-skill for iterative improvement
+    - Layer 4 Meta-Management: proactive system-wide analysis; does not wait for learnings to accumulate
+        - skill-audit: structural completeness scoring of all skill files
+        - cross-skill-patterns: finds transferable knowledge, asymmetries, redundancy across all skills
+        - synthesize-learnings: meta-analyses all learnings files; hypothesises improvements for undocumented skills
+        - skill-management: orchestrates all three; produces unified health report + priority queue; self-applicable
+    - Learning Store: .claude/meta/learnings/<name>.md; feeds improve-skill and synthesize-learnings
+
+- Layer 1 — General Skills
+    - data-schema: Canonical YAML structure for all raw data files
+        - File: .claude/skills/data-schema/SKILL.md
+        - Covers: year entry schema, data_status values, reliability, confidence, source types, feature vocabulary pattern
+        - Used by: collect-data, validate-data, all source-* skills
+    - pipeline: Reference for all 4 Python scripts
+        - File: .claude/skills/pipeline/SKILL.md
+        - Covers: scaffold.py, validate.py, generate_scores.py, plot_data.py — args, prerequisites, outputs, errors
+        - Used by: validate-data, generate-scores, scaffold-country, analyze-country, compare
+    - country-config: Read and interpret data/config/countries.yaml
+        - File: .claude/skills/country-config/SKILL.md
+        - Covers: schema, time_range auto-calculation, regions, categories, adding new countries
+        - Used by: scaffold-country, analyze-country, compare
+
+- Layer 1 — Data Source Skills
+    - source-worldbank: World Bank WDI indicators
+        - File: .claude/skills/source-worldbank/SKILL.md
+        - Indicators: gdp_per_capita, unemployment, trade_openness, fdi, statistical_transparency
+        - Series: NY.GDP.PCAP.CD, SL.UEM.TOTL.ZS, NE.TRD.GNFS.ZS, BX.KLT.DINV.WD.GD.ZS, IQ.SCI.OVRL
+    - source-imf: IMF World Economic Outlook
+        - File: .claude/skills/source-imf/SKILL.md
+        - Indicators: inflation, fiscal_health (primary); gdp_per_capita (fallback)
+        - Series: PCPIPCH, GGXCNL_NGDP, GGXWDG_NGDP, NGDPDPC
+    - source-conflict: UCDP GED + ACLED
+        - File: .claude/skills/source-conflict/SKILL.md
+        - Indicators: political_violence (primary); territorial_control (supplementary)
+        - Crosswalk: death counts to feature vocabulary
+    - source-freedomhouse: Freedom House Freedom in the World
+        - File: .claude/skills/source-freedomhouse/SKILL.md
+        - Indicators: civil_liberties (primary); institutional_functioning (supplementary)
+        - Scale: FH 1-7 inverted to 0-100; enter raw FH score
+    - source-rsf: RSF World Press Freedom Index
+        - File: .claude/skills/source-rsf/SKILL.md
+        - Indicator: press_freedom
+        - Scale: 0-100 (100=free); enter raw RSF score; methodology breaks 2013 and 2022
+    - source-openbudget: IBP Open Budget Survey
+        - File: .claude/skills/source-openbudget/SKILL.md
+        - Indicator: budget_transparency
+        - Scale: 0-100; biennial; interpolate between survey years
+    - source-wjp: WJP Rule of Law Index
+        - File: .claude/skills/source-wjp/SKILL.md
+        - Indicator: legal_transparency
+        - Variable: Factor 3 Open Government (0-1 × 100); starts 2008; gaps 2011-2012
+    - source-eiti: EITI country status
+        - File: .claude/skills/source-eiti/SKILL.md
+        - Indicator: extractive_transparency
+        - Method: status-to-score mapping (Compliant/Candidate/Suspended/None)
+    - source-unhcr: UNHCR Refugee Data Finder + IDMC
+        - File: .claude/skills/source-unhcr/SKILL.md
+        - Indicator: refugee_flows
+        - Metric: new displacement per 1000 population (refugees + IDPs)
+    - source-vdem: V-Dem Dataset
+        - File: .claude/skills/source-vdem/SKILL.md
+        - Indicators: institutional_functioning (primary); elite_cohesion (supplementary)
+        - Variables: v2x_libdem (0-1 × 100); v2xel_frefair; v2jucomp; v2lgbicam
+    - source-qualitative: Qualitative assessment process
+        - File: .claude/skills/source-qualitative/SKILL.md
+        - Indicators: territorial_control, elite_cohesion, diplomatic_integration, foreign_military, sanctions
+        - Sources: ICG, Chatham House, Carnegie, Brookings, SIPRI, UN Security Council, Reuters, BBC
+
+- Indicator → Source Routing Table
+    - gdp_per_capita: source-worldbank (primary), source-imf (fallback)
+    - inflation: source-imf (primary), source-worldbank (fallback)
+    - unemployment: source-worldbank (primary)
+    - trade_openness: source-worldbank (primary)
+    - fiscal_health: source-imf (primary)
+    - political_violence: source-conflict (primary), source-qualitative (fallback)
+    - territorial_control: source-qualitative (primary), source-conflict (supplementary)
+    - institutional_functioning: source-vdem (primary), source-freedomhouse (fallback)
+    - civil_liberties: source-freedomhouse (primary), source-vdem (fallback)
+    - elite_cohesion: source-qualitative (primary), source-vdem (supplementary)
+    - sanctions: source-qualitative (primary)
+    - diplomatic_integration: source-qualitative (primary)
+    - foreign_military: source-qualitative (primary)
+    - fdi: source-worldbank (primary)
+    - refugee_flows: source-unhcr (primary)
+    - budget_transparency: source-openbudget (primary)
+    - press_freedom: source-rsf (primary), source-freedomhouse (fallback)
+    - statistical_transparency: source-worldbank (primary)
+    - legal_transparency: source-wjp (primary), source-qualitative (fallback)
+    - extractive_transparency: source-eiti (primary)
+
+- Layer 2 — Specialized Commands
+    - scaffold-country: Add new country to config and create 20 YAML files
+        - File: .claude/commands/scaffold-country.md
+        - Composes: country-config, pipeline (scaffold.py)
+    - validate-data: Run validation and summarize coverage and errors
+        - File: .claude/commands/validate-data.md
+        - Composes: pipeline (validate.py)
+    - generate-scores: Run scoring and summarize results
+        - File: .claude/commands/generate-scores.md
+        - Composes: pipeline (generate_scores.py)
+    - analyze-country: Full E2E workflow for one country
+        - File: .claude/commands/analyze-country.md
+        - Composes: country-config, pipeline (all scripts), calls collect-data + validate-data + generate-scores + plot-data
+    - compare: Cross-country/region comparison + narrative
+        - File: .claude/commands/compare.md
+        - Composes: pipeline (generate_scores.py + plot_data.py), country-config
+    - update-status: Update STATUS.log and sync
+        - File: .claude/commands/update-status.md
+        - Composes: loglog skill
+    - collect-data: Collect raw data for a country (existing, enhanced)
+        - File: .claude/commands/collect-data.md
+        - Composes: data-schema + source-* skills per indicator
+    - plot-data: Generate visualizations (existing)
+        - File: .claude/commands/plot-data.md
+        - Composes: pipeline (plot_data.py)
+
+- Layer 3 — Meta Skills
+    - improve-skill: Review and propose improvements to any skill or command
+        - File: .claude/skills/improve-skill/SKILL.md
+        - Process: read skill → read learnings → analyze → write immediately → report changes
+    - create-skill: Draft a new skill from a task description
+        - File: .claude/skills/create-skill/SKILL.md
+        - Process: understand task → check overlap → determine placement → draft → write immediately → update skills.log
+
+- Layer 4 — Meta-Management Skills
+    - skill-audit: Structural completeness scoring of all skill and command files
+        - File: .claude/skills/skill-audit/SKILL.md
+        - Rubric: frontmatter, examples, edge cases, cross-references, source-specific criteria
+        - Output: per-file score, broken references, learnings coverage map
+    - cross-skill-patterns: Find patterns spanning multiple skills
+        - File: .claude/skills/cross-skill-patterns/SKILL.md
+        - Lenses: repeated warnings, knowledge asymmetries, extractable primitives, structural patterns, vocabulary inconsistencies, graph completeness
+        - Output: ranked pattern catalog with transfer recommendations
+    - synthesize-learnings: Meta-analyse all learnings files holistically
+        - File: .claude/skills/synthesize-learnings/SKILL.md
+        - Method: tag all learning entries → find cross-cutting themes → hypothesise for undocumented skills by analogy and structural inference
+        - Output: thematic synthesis, hypotheses table, learning debts, positive patterns
+    - skill-management: Orchestrator; full system health report + priority queue
+        - File: .claude/skills/skill-management/SKILL.md
+        - Composes: skill-audit + cross-skill-patterns + synthesize-learnings + improve-skill
+        - Scoring: weighted combination of structural score, patterns, learnings, usage frequency
+        - --act flag: auto-runs improve-skill on top 3 priorities
+        - Self-applicable: appears in its own audit; layer 4 improves itself
+
+- Learning Store
+    - Location: .claude/meta/learnings/<name>.md
+    - Format: dated entries (## YYYY-MM-DD) with bullet observations
+    - Created on demand; read by improve-skill
+    - Current entries:
+        - collect-data.md (seed entry)
+        - source-qualitative.md (seed entry)
+
+- Improvement Workflow
+    - After a collection session: note edge cases in .claude/meta/learnings/<skill-name>.md
+    - Periodically: run /improve-skill <name> to incorporate learnings into the skill file
+    - Adding new skill: use /create-skill "<description>"; it will update this file
+
+- When to Add a New Skill vs. Extend an Existing One
+    - Add new skill if: new data source, new workflow not covered by existing commands, new meta-operation
+    - Extend existing if: same task but missing edge case, outdated information, new argument needed
+    - Rule of thumb: if you find yourself reading a skill and wishing it said something different, that's an improvement (use improve-skill); if you wish a skill existed, that's a creation (use create-skill)
+
+- Dependency Map
+    - General primitives: data-schema, pipeline, country-config
+    - Source primitives: source-worldbank, source-imf, source-conflict, source-freedomhouse, source-rsf, source-openbudget, source-wjp, source-eiti, source-unhcr, source-vdem, source-qualitative
+    - Commands compose: collect-data uses data-schema + source-* skills; validate-data uses pipeline; generate-scores uses pipeline; scaffold-country uses country-config + pipeline; analyze-country uses all; compare uses pipeline + country-config; update-status uses loglog
+    - Meta composes everything: improve-skill and create-skill reference all skills/commands
+
+- Skill Management Run: 2026-02-28
+    - Skills analysed: 32 files (24 skills, 13 commands including stubs)
+    - Average structural score: 78% (source skills: 76%; commands: 80%; meta skills: 85%)
+    - Skills below 50%: 4 (commit, push, test, message — stub files by design)
+    - High-impact patterns found: 4 (missing Quick Lookup, conflict-state gap propagation, missing $ARGUMENTS, year-lag inconsistency)
+    - Learning debts resolved: 10 hypothetical learnings files created for all source skills
+    - Improvements applied: collect-data, source-qualitative, source-vdem, source-freedomhouse, source-conflict, source-imf, source-rsf, source-wjp, source-openbudget, source-eiti, source-unhcr

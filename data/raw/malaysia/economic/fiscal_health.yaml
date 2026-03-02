@@ -2,339 +2,612 @@ indicator: fiscal_health
 country: malaysia
 dimension: economic
 years:
-  2005:
-    data_status: missing
+  2003:
+    data_status: complete
     quantitative:
-      value: null
+      value: -5.3
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Fiscal deficit of -5.3% of GDP. Malaysia ran persistent deficits due to
+
+        expansionary fiscal policy and subsidies. General government gross debt
+
+        approximately 45% of GDP — manageable. Deficit gradually declining from
+
+        post-AFC highs.
+
+        '
+      features:
+      - small_deficit_manageable_30_60pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: 'Fiscal balance: -5.3% GDP; debt ~45% GDP'
+  2004:
+    data_status: complete
+    quantitative:
+      value: -4.1
+      unit: debt_percent_gdp
+      source:
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
+    qualitative:
+      assessment: 'Fiscal deficit narrowed to -4.1% of GDP as strong growth boosted revenues.
+
+        Deficit reduction trajectory continued. Debt level manageable at around 44% GDP.
+
+        '
+      features:
+      - small_deficit_manageable_30_60pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: null
+  2005:
+    data_status: complete
+    quantitative:
+      value: -3.6
+      unit: debt_percent_gdp
+      source:
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
+    qualitative:
+      assessment: 'Deficit narrowed to -3.6%. Fiscal consolidation on track. Petroleum revenues
+
+        helped finance government operations. Debt declining relative to GDP.
+
+        '
+      features:
+      - small_deficit_manageable_30_60pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: high
       notes: null
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -3.2
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Fiscal deficit -3.2% of GDP. Continued gradual consolidation. Strong oil
+
+        revenues from Petronas contributed to government finances. Debt sustainable.
+
+        '
+      features:
+      - small_deficit_manageable_30_60pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: high
       notes: null
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -3.1
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Fiscal deficit -3.1% of GDP. Stable fiscal management. Debt around 41% GDP.
+
+        Fiscal framework broadly sound.
+
+        '
+      features:
+      - small_deficit_manageable_30_60pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: high
       notes: null
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -4.8
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fiscal deficit widened to -4.8% due to fuel and food subsidies (subsidy bill
+
+        ballooned with oil price spike in H1 2008) and early GFC stimulus measures.
+
+        Subsidy costs were unsustainable at high oil prices, contributing to eventual
+
+        subsidy reform push.
+
+        '
+      features:
+      - small_deficit_manageable_30_60pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Fuel subsidy cost ballooned with oil price spike; fiscal deficit widened
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -6.7
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fiscal deficit widened to -6.7% due to large stimulus package (~RM60 billion)
+
+        deployed to counter GFC recession. Counter-cyclical fiscal policy appropriate
+
+        but raised debt levels. Debt rose to approximately 52% of GDP.
+
+        '
+      features:
+      - moderate_deficit_elevated_60_90pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: GFC stimulus year; large deficit but appropriate counter-cyclical policy
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -5.4
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Fiscal deficit narrowed to -5.4% as economy recovered but stimulus still
+
+        in effect. Government committed to gradual fiscal consolidation. Debt around
+
+        54% of GDP — somewhat elevated.
+
+        '
+      features:
+      - moderate_deficit_elevated_60_90pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: high
       notes: null
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -4.8
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Deficit continued narrowing to -4.8%. GST under discussion for fiscal consolidation.
+
+        Subsidies still high. Debt approximately 55% of GDP — elevated but stable.
+
+        '
+      features:
+      - small_deficit_manageable_30_60pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: high
       notes: null
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -4.5
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Fiscal deficit -4.5%. Gradual consolidation continued. Subsidy rationalization
+
+        measures announced. Debt around 55% GDP.
+
+        '
+      features:
+      - small_deficit_manageable_30_60pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: high
       notes: null
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -3.9
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Deficit narrowed to -3.9%. Pre-election spending moderated; GST announced for
+
+        2015 implementation. Subsidy rationalization program underway.
+
+        '
+      features:
+      - small_deficit_manageable_30_60pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: high
       notes: null
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -3.4
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fiscal deficit further narrowed to -3.4%. Subsidy cuts (fuel prices liberalized).
+
+        GST implementation confirmed for April 2015. Debt around 55% GDP. 1MDB
+
+        off-balance-sheet obligations beginning to emerge as concern.
+
+        '
+      features:
+      - small_deficit_manageable_30_60pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: medium
+      notes: 1MDB contingent liabilities not fully captured in official fiscal figures
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -3.2
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Deficit -3.2% despite lower oil revenues. GST introduction partly offset
+
+        petroleum revenue loss. 1MDB debt obligations increasingly worrisome — up to
+
+        $11 billion in government-linked debt. Official debt around 57% GDP but
+
+        contingent 1MDB liabilities added fiscal risk.
+
+        '
+      features:
+      - small_deficit_manageable_30_60pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: medium
+      notes: GST offset oil revenue loss; 1MDB contingent liabilities significant
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -3.1
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Deficit -3.1%. Fiscal consolidation maintained despite low oil prices through
+
+        GST revenues. Government managed fiscal balance within targets. 1MDB liabilities
+
+        continued to accumulate off-balance-sheet.
+
+        '
+      features:
+      - small_deficit_manageable_30_60pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: medium
       notes: null
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -3.0
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Deficit -3.0% of GDP. Pre-election fiscal management maintained nominal targets.
+
+        Official debt ~55% GDP but total liabilities including 1MDB, government-guaranteed
+
+        debt significantly higher. Fiscal framework nominally sound but actual exposure unclear.
+
+        '
+      features:
+      - small_deficit_manageable_30_60pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: medium
+      notes: Pre-election budget management; 1MDB actual liabilities uncertain
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -3.7
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fiscal deficit widened to -3.7% as PH government abolished GST (revenue loss
+
+        ~RM40 billion), spent on election promises, and discovered true extent of
+
+        government liabilities. PH raised total government liabilities including 1MDB
+
+        to RM1 trillion ($241 billion). GST replaced by lower-rate SST.
+
+        '
+      features:
+      - small_deficit_manageable_30_60pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: medium
+      notes: PH abolished GST June 2018; government revealed RM1 trillion total liabilities (including
+        contingent)
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -3.4
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Deficit -3.4% under PH government. Fiscal consolidation attempted with SST
+
+        revenues but challenging given GST abolition revenue loss. Government managing
+
+        1MDB debt obligations within sovereign debt framework.
+
+        '
+      features:
+      - small_deficit_manageable_30_60pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: medium
       notes: null
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -6.2
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fiscal deficit ballooned to -6.2% due to COVID-19 stimulus packages totaling
+
+        ~RM300 billion across multiple economic relief initiatives. Revenue fell as
+
+        economy contracted. Debt rose to approximately 65% of GDP — above 60% threshold
+
+        for first time. Necessary but elevated.
+
+        '
+      features:
+      - moderate_deficit_elevated_60_90pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: COVID-19 stimulus; debt exceeded 60% GDP for first time
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -6.5
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Deficit remained elevated at -6.5% as COVID-19 continued requiring stimulus
+
+        and emergency healthcare spending. Debt rose further to approximately 67% GDP.
+
+        Parliament raised statutory debt ceiling to accommodate borrowing needs.
+
+        '
+      features:
+      - moderate_deficit_elevated_60_90pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Debt ceiling raised; deficit persisted; debt ~67% GDP
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -5.6
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Deficit narrowed to -5.6% as economy recovered strongly (8.7% growth). Revenue
+
+        improved but subsidy costs (blanket subsidies for fuel, food) remained high.
+
+        Anwar government elected with commitment to subsidy rationalization.
+
+        '
+      features:
+      - moderate_deficit_elevated_60_90pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: high
       notes: null
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: -5.0
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: 'Deficit narrowed to -5.0% as Anwar government began subsidy rationalization
+
+        and fiscal reform. Targeted subsidies replacing blanket subsidies. Debt around
+
+        64% GDP — still elevated but on declining path.
+
+        '
+      features:
+      - moderate_deficit_elevated_60_90pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: high
       notes: null
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: -4.3
       unit: debt_percent_gdp
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Fiscal deficit estimated at -4.3% for 2024 per IMF. Diesel subsidy
+
+        rationalization implemented June 2024. Targeted subsidy program expanded.
+
+        Gradual fiscal consolidation continuing.
+
+        '
+      features:
+      - small_deficit_manageable_30_60pct
+      sources:
+      - citation: IMF World Economic Outlook Database, GGXCNL_NGDP, October 2024
+        url: https://www.imf.org/en/Publications/WEO/weo-database
+        type: official_statistics
+        reliability: high
+      confidence: medium
+      notes: IMF projection; diesel subsidy rationalization June 2024
   2025:
-    data_status: missing
+    data_status: unavailable
     quantitative:
       value: null
-      unit: debt_percent_gdp
+      unit: null
       source:
         citation: null
         url: null
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
+      assessment: 2025 data not yet published for fiscal_health. Malaysia stable; expected to show continuity
+        with 2024 values when released.
+      features:
+      - data_collection_impossible
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: 2025 data not yet available; year in progress

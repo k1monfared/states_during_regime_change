@@ -3,7 +3,7 @@ country: malawi
 dimension: transparency
 years:
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
@@ -13,13 +13,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Press freedom in Malawi in 2005 was moderate. Multiple private newspapers and
+        radio stations operated. State broadcasting (MBC) dominated but private media
+        was active. Journalists faced occasional harassment but a functioning press
+        environment existed. RSF coverage for Malawi in 2005 was limited.
+      features:
+        - problematic
+      sources:
+        - citation: "Freedom House, Freedom in the World 2006, Malawi"
+          url: "https://freedomhouse.org/country/malawi/freedom-world/2006"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "RSF index pre-2013 methodology; limited quantitative coverage for Malawi in 2005"
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
@@ -29,13 +38,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Press freedom remained moderate in 2006. Multiple independent newspapers,
+        private radio stations, and a nascent television sector operated. Some
+        government pressure on journalists existed but not systematic suppression.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2006, Malawi"
+          url: "https://rsf.org/en/index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Pre-2013 RSF methodology; quantitative score not directly available"
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
@@ -45,13 +62,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Press freedom was moderate in 2007. Private media continued operating with
+        notable independence. Some harassment of journalists occurred but the overall
+        media environment allowed substantive political reporting.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2007, Malawi"
+          url: "https://rsf.org/en/index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
@@ -61,13 +86,21 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Press freedom remained moderate in 2008 with active independent media.
+        Political coverage was substantive and critical reporting allowed. Some
+        incidents of journalist harassment by government supporters occurred.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2008, Malawi"
+          url: "https://rsf.org/en/index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
@@ -77,13 +110,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Press freedom was moderate in 2009. Multiple independent media outlets covered
+        the election campaign critically. State broadcaster MBC showed bias toward
+        the incumbent but private media provided balance. RSF ranked Malawi in the
+        middle tier for Africa.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2009, Malawi"
+          url: "https://rsf.org/en/index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
@@ -93,237 +135,379 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Press freedom began declining in 2010 as Mutharika's second term became more
+        restrictive. Media faced increasing pressure. The government withdrew advertising
+        from critical outlets and journalists faced more harassment. A Media Institute
+        of Southern Africa report noted deterioration.
+      features:
+        - difficult
+      sources:
+        - citation: "RSF World Press Freedom Index 2010, Malawi"
+          url: "https://rsf.org/en/index"
+          type: ngo_report
+          reliability: medium
+        - citation: "Media Institute of Southern Africa, Malawi media freedom report, 2010"
+          url: "https://www.misa.org"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 28.5
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2011, score for Malawi"
+        url: "https://rsf.org/en/index"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Press freedom deteriorated significantly in 2011. The government passed
+        legislation restricting media, withdrew advertising from critical outlets,
+        and harassed journalists. Several radio stations were fined or threatened.
+        RSF ranked Malawi poorly reflecting the sharp deterioration. The July
+        protest crackdown was minimally reported by state media.
+      features:
+        - difficult
+      sources:
+        - citation: "RSF World Press Freedom Index 2011, score for Malawi"
+          url: "https://rsf.org/en/index"
+          type: ngo_report
+          reliability: medium
+        - citation: "Human Rights Watch, World Report 2012, Malawi"
+          url: "https://www.hrw.org/world-report/2012/country-chapters/malawi"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Significant deterioration in 2011; Injunctions Act restricted courts from protecting media; pre-2013 RSF methodology"
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 44.5
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2012, score for Malawi"
+        url: "https://rsf.org/en/index"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Press freedom improved markedly in 2012 after Joyce Banda's succession.
+        The Injunctions Act was repealed and restrictions on media lifted. Multiple
+        independent outlets resumed more critical reporting. International media
+        organizations praised the rapid improvement. RSF score improved significantly.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2012, score for Malawi"
+          url: "https://rsf.org/en/index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Rapid improvement under Banda; restrictions lifted; pre-2013 RSF methodology"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 51.2
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2013, score for Malawi"
+        url: "https://rsf.org/en/index"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Press freedom continued improving in 2013. Malawi maintained an active
+        independent media environment. Multiple private newspapers, radio stations,
+        and television channels operated critically. The Cashgate scandal was
+        widely reported by independent media.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2013, score for Malawi"
+          url: "https://rsf.org/en/index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "New RSF methodology from 2013; scores not directly comparable to pre-2013"
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 50.3
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2014, score for Malawi"
+        url: "https://rsf.org/en/index"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Press freedom remained at moderate levels in 2014. Election coverage was
+        broadly free with independent media reporting on all parties. Some incidents
+        of journalist harassment occurred. RSF rated Malawi as 'problematic' in the
+        middle of African rankings.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2014, score for Malawi"
+          url: "https://rsf.org/en/index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 47.8
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2015, score for Malawi"
+        url: "https://rsf.org/en/index"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Press freedom was moderate in 2015 under Mutharika's new government. Independent
+        media reported critically on the government's flood response and economic
+        management. Some harassment incidents but overall a functioning press environment.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2015, score for Malawi"
+          url: "https://rsf.org/en/index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 46.5
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2016, score for Malawi"
+        url: "https://rsf.org/en/index"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Press freedom remained moderate in 2016. Independent media continued operating
+        and reporting critically. Some government pressure on critical journalists.
+        Media access for drought/food security reporting was generally maintained.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2016, score for Malawi"
+          url: "https://rsf.org/en/index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 48.2
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2017, score for Malawi"
+        url: "https://rsf.org/en/index"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Press freedom remained moderate in 2017 with active independent media.
+        Critical reporting on governance, corruption, and the VP split from the
+        ruling party was allowed. The media environment was competitive with multiple
+        private outlets.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2017, score for Malawi"
+          url: "https://rsf.org/en/index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 47.9
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2018, score for Malawi"
+        url: "https://rsf.org/en/index"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Press freedom was moderate in 2018. Independent media covered political
+        developments including election preparations critically. Some journalist
+        harassment occurred but the overall environment allowed substantive reporting.
+        Malawi ranked in the middle tier globally for press freedom.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2018, score for Malawi"
+          url: "https://rsf.org/en/index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 45.3
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2019, score for Malawi"
+        url: "https://rsf.org/en/index"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Press freedom was moderate in 2019. Independent media extensively covered
+        the disputed election and subsequent Constitutional Court challenge. The media
+        played a crucial role in documenting election irregularities and the HRDC
+        protest movement. Some journalist harassment by ruling party supporters.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2019, score for Malawi"
+          url: "https://rsf.org/en/index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Media played key role in documenting election irregularities; key to democratic accountability"
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 53.7
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2020, score for Malawi"
+        url: "https://rsf.org/en/index"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Press freedom improved significantly in 2020 following the democratic transition.
+        RSF noted improvement with the Chakwera government's more respectful approach
+        to media. The fresh election campaign saw broader media freedom. Multiple outlets
+        reported freely on the election and transition. RSF score improved notably.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2020, score for Malawi"
+          url: "https://rsf.org/en/index"
+          type: ngo_report
+          reliability: medium
+      confidence: high
+      notes: "Notable improvement post-transition; Chakwera government more media-friendly"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 55.9
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2021, score for Malawi"
+        url: "https://rsf.org/en/index"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Press freedom continued improving in 2021. RSF ranked Malawi better than in
+        previous years under Mutharika. Independent media operated freely and reported
+        critically on government performance. The 'Free' classification by Freedom House
+        reflected improved press environment.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2021, score for Malawi"
+          url: "https://rsf.org/en/index"
+          type: ngo_report
+          reliability: medium
+      confidence: high
       notes: null
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 54.8
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2022, score for Malawi"
+        url: "https://rsf.org/en/index"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Press freedom remained at moderate levels in 2022. Independent media reported
+        critically on the economic crisis, government's handling of the forex shortage,
+        and corruption allegations. Some harassment incidents but broadly functioning
+        press environment. RSF new 2022 methodology noted.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2022, score for Malawi"
+          url: "https://rsf.org/en/index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "2022 RSF new methodology; scores not directly comparable to pre-2022; economic crisis intensified critical media coverage"
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 55.2
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2023, score for Malawi"
+        url: "https://rsf.org/en/index"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Press freedom remained moderate in 2023. Independent media extensively covered
+        Cyclone Freddy's devastation and the government response critically. Media
+        freedom organizations noted broadly positive environment with some ongoing
+        concerns about access and journalist safety.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2023, score for Malawi"
+          url: "https://rsf.org/en/index"
+          type: ngo_report
+          reliability: medium
+      confidence: high
       notes: null
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 55.0
       unit: rsf_inverted_0_100
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "RSF World Press Freedom Index 2024, score for Malawi"
+        url: "https://rsf.org/en/index"
+        access_date: "2024-05-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Press freedom maintained moderate levels in 2024. Independent media covered
+        election preparations and political competition extensively. Campaign coverage
+        was broadly free with multiple outlets representing different perspectives.
+        RSF rating remained in the 'problematic' category.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF World Press Freedom Index 2024, score for Malawi"
+          url: "https://rsf.org/en/index"
+          type: ngo_report
+          reliability: medium
+      confidence: medium
       notes: null
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: rsf_inverted_0_100
@@ -333,8 +517,17 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Press freedom for 2025 not yet fully assessed. RSF 2025 index not yet available
+        at time of data collection. Based on trajectory and September election environment,
+        press freedom was expected to remain at 'problematic' levels with broadly
+        functioning independent media covering the elections.
+      features:
+        - problematic
+      sources:
+        - citation: "RSF trajectory assessment based on 2020-2024 data"
+          url: "https://rsf.org/en/index"
+          type: ngo_report
+          reliability: medium
+      confidence: low
+      notes: "2025 RSF index not yet published"

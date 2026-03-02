@@ -3,9 +3,9 @@ country: syria
 dimension: political
 years:
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 100
       unit: percent_territory_controlled
       source:
         citation: null
@@ -13,15 +13,18 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
+      assessment: |
+        Assad government controlled all of Syria. No armed opposition, no contested
+        territory. Full authoritarian control with security services pervasive throughout.
+      features:
+        - full_control_no_challenges
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: "Full Assad control; pre-uprising"
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 100
       unit: percent_territory_controlled
       source:
         citation: null
@@ -29,15 +32,18 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
+      assessment: |
+        Assad government controlled all of Syria. Pre-Arab Spring, no armed challenge.
+        Full authoritarian control.
+      features:
+        - full_control_no_challenges
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: "Full Assad control; pre-uprising"
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 90
       unit: percent_territory_controlled
       source:
         citation: null
@@ -45,15 +51,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Civil uprising began March 2011. Assad government controlled most territory.
+        Protests spread nationally but military-security retained control. Some areas
+        in Deraa, Homs, and suburbs of Damascus became contested as armed uprising
+        emerged late 2011. Government controlled approximately 90% at year end.
+      features:
+        - minor_insurgencies_lt_10pct
+      sources:
+        - citation: "ICG. 'Syria's Phase of Radicalisation.' 2012."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "Deraa/Homs/Damascus suburbs contested; FSA emerging late 2011; ~90% government"
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 65
       unit: percent_territory_controlled
       source:
         citation: null
@@ -61,15 +76,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Civil war escalating rapidly. Government lost control of large areas — rural
+        Idlib, parts of Aleppo, Deir ez-Zor, Raqqa governorate. Fighting in Damascus
+        suburbs. Government controlled major cities and strategic areas. FSA and other
+        groups held significant territory. Government approximately 60-70% territory.
+      features:
+        - significant_areas_outside_10_30pct
+      sources:
+        - citation: "UN Commission of Inquiry on Syria. 2012."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "Civil war; FSA held rural Idlib/Aleppo/Deir ez-Zor; government ~65% territory"
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 50
       unit: percent_territory_controlled
       source:
         citation: null
@@ -77,15 +101,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Civil war intensifying. Government lost significant territory in north and east.
+        Raqqa fell to opposition (March 2013). ISIS/ISIL emerged. Government controlled
+        major cities (Damascus, Latakia, Homs partially, Hama), Alawi heartland coast.
+        Opposition and ISIS controlled much of north and east. Government approximately
+        50% territory.
+      features:
+        - large_portions_contested_30_50pct
+      sources:
+        - citation: "UN Commission of Inquiry on Syria. 'A/HRC/25/65.' 2014."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "Raqqa fell; ISIS emerging; government ~50% territory; major cities held"
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 30
       unit: percent_territory_controlled
       source:
         citation: null
@@ -93,15 +127,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        ISIS declared Caliphate June 2014 and controlled large eastern Syria. Government
+        controlled approximately 20-35% territory — Damascus and surroundings, Latakia,
+        Tartous coast, Hama, parts of Homs. ISIS controlled east (Raqqa, Deir ez-Zor),
+        opposition controlled Idlib and Aleppo areas. Multi-actor fragmentation.
+      features:
+        - majority_outside_control
+      sources:
+        - citation: "ICG. 'Syria's Metastasising Conflicts.' Middle East Report No. 143, 2014."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "ISIS caliphate large east; government ~30% territory; Damascus/coast/Hama retained"
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 20
       unit: percent_territory_controlled
       source:
         citation: null
@@ -109,15 +152,26 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Assad regime territory at minimum — approximately 17-22%. Russia intervened
+        September 2015 to prevent further collapse. ISIS controlled massive eastern
+        territory. SDF/YPG controlling northeast. HTS/opposition in northwest (Idlib,
+        Aleppo) and parts of south. Government retained Damascus, Latakia, coast,
+        Hama, parts of Homs. Multiple competing authorities — failed state conditions.
+      features:
+        - majority_outside_control
+        - multiple_competing_authorities
+      sources:
+        - citation: "ICG. 'Russia's Syrian Gamble.' Middle East Briefing No. 47, 2015."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "Assad minimum territory ~20%; Russia intervened Sept; ISIS massive; SDF northeast; multiple authorities"
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 35
       unit: percent_territory_controlled
       source:
         citation: null
@@ -125,15 +179,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Regime recovering territory with Russian/Iranian support. Aleppo recaptured
+        December 2016. ISIS losing territory to SDF and regime. Government approximately
+        30-40% territory. SDF controlled northeast. HTS/opposition in Idlib. Multiple
+        competing authorities remained.
+      features:
+        - large_portions_contested_30_50pct
+        - multiple_competing_authorities
+      sources:
+        - citation: "UN Commission of Inquiry on Syria. 'A/HRC/34/64.' 2017."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "Aleppo recaptured Dec; regime recovering ~35%; SDF northeast; Idlib opposition; multiple authorities"
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 55
       unit: percent_territory_controlled
       source:
         citation: null
@@ -141,15 +205,25 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Regime continuing reconquest with Russian support. Deir ez-Zor relieved September
+        2017. ISIS territorially collapsing. SDF controlling northeast approximately 25%.
+        Government approximately 50-60%. HTS in Idlib approximately 5-10%. Multiple
+        authorities still competing.
+      features:
+        - significant_areas_outside_10_30pct
+        - multiple_competing_authorities
+      sources:
+        - citation: "UN Commission of Inquiry on Syria. 2017 reports."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "Deir ez-Zor Sept; ISIS collapse; SDF ~25% northeast; government ~55%; Idlib HTS"
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 65
       unit: percent_territory_controlled
       source:
         citation: null
@@ -157,15 +231,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Regime controlled approximately 60-70%. Eastern Ghouta February-April 2018.
+        Daraa/southwest reconquered July 2018. SDF controlled northeast (~25%).
+        HTS controlled Idlib (~7%). ISIS remnants in desert. Multiple authorities.
+      features:
+        - significant_areas_outside_10_30pct
+        - multiple_competing_authorities
+      sources:
+        - citation: "UN Commission of Inquiry on Syria. 2018 reports."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "Ghouta/Daraa reconquered; government ~65%; SDF northeast; Idlib HTS; ISIS remnants"
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 65
       unit: percent_territory_controlled
       source:
         citation: null
@@ -173,15 +256,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Government controlled approximately 65% of territory. SDF/US northeast approximately
+        25%. HTS Idlib approximately 7-8%. Turkish-backed operation Euphrates Shield area.
+        Multiple competing authorities but regime dominant. Idlib offensive began.
+      features:
+        - significant_areas_outside_10_30pct
+        - multiple_competing_authorities
+      sources:
+        - citation: "ACLED. 'Syria Conflict Data 2019.' acleddata.com."
+          url: "https://acleddata.com"
+          type: official_statistics
+          reliability: high
+      confidence: medium
+      notes: "Government ~65%; SDF northeast ~25%; HTS Idlib ~8%; Turkish-held areas; multiple authorities"
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 67
       unit: percent_territory_controlled
       source:
         citation: null
@@ -189,15 +281,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Government approximately 65-70% after Idlib ceasefire March 2020. Turkish-backed
+        forces held northwest. SDF northeast. Ceasefire stabilized Idlib but Turkish
+        military present. Multiple competing authorities persisted.
+      features:
+        - significant_areas_outside_10_30pct
+        - multiple_competing_authorities
+      sources:
+        - citation: "UN OCHA. 'Syria Displacement Update 2020.' unocha.org."
+          url: "https://www.unocha.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "Idlib ceasefire March; Turkish forces; government ~67%; SDF northeast; multiple authorities"
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 65
       unit: percent_territory_controlled
       source:
         citation: null
@@ -205,15 +306,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Frozen conflict. Government approximately 63-65%. SDF northeast approximately
+        25%. Turkish-backed factions northwest approximately 8%. HTS Idlib approximately
+        7%. Multiple competing authorities in frozen conflict lines.
+      features:
+        - significant_areas_outside_10_30pct
+        - multiple_competing_authorities
+      sources:
+        - citation: "UN Commission of Inquiry on Syria. 'A/HRC/48/70.' 2021."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "Frozen conflict; government ~65%; SDF ~25%; Turkish ~8%; HTS ~7%; multiple authorities"
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 65
       unit: percent_territory_controlled
       source:
         citation: null
@@ -221,15 +331,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Frozen conflict continuing. Government approximately 65%. SDF/US northeast
+        approximately 25%. Turkish-backed factions northwest. HTS Idlib. Lines largely
+        unchanged. Multiple competing authorities.
+      features:
+        - significant_areas_outside_10_30pct
+        - multiple_competing_authorities
+      sources:
+        - citation: "ACLED. 'Syria Conflict Data 2022.' acleddata.com."
+          url: "https://acleddata.com"
+          type: official_statistics
+          reliability: high
+      confidence: medium
+      notes: "Frozen conflict; government ~65%; SDF ~25%; multiple authorities"
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 65
       unit: percent_territory_controlled
       source:
         citation: null
@@ -237,15 +356,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Frozen conflict. Lines largely unchanged. Government approximately 65%. SDF
+        northeast. Turkish-backed northwest. HTS Idlib. Arab normalization with Assad.
+        Multiple competing authorities.
+      features:
+        - significant_areas_outside_10_30pct
+        - multiple_competing_authorities
+      sources:
+        - citation: "ACLED. 'Syria Conflict Data 2023.' acleddata.com."
+          url: "https://acleddata.com"
+          type: official_statistics
+          reliability: high
+      confidence: medium
+      notes: "Frozen lines; government ~65%; Arab normalization; multiple authorities"
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 20
       unit: percent_territory_controlled
       source:
         citation: null
@@ -253,15 +381,27 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        HTS-led offensive November 27: Aleppo fell November 30, Hama December 5,
+        Homs December 8, Damascus December 8. Assad fled. By December 8 virtually
+        all government territory fell to rebel coalition. Post-December: HTS/rebel
+        coalition controlling most of Syria. SDF retained northeast (~25%).
+        Turkish-backed factions retained northwest. Multiple competing authorities
+        in post-Assad transitional period.
+      features:
+        - multiple_competing_authorities
+        - failed_state_no_authority
+      sources:
+        - citation: "ICG. 'Syria: After Assad.' December 2024."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: high
+      notes: "HTS offensive Nov 27; Assad fell Dec 8; rebel coalition dominant; SDF northeast; multiple authorities"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 60
       unit: percent_territory_controlled
       source:
         citation: null
@@ -269,8 +409,19 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-Assad transitional governance. HTS/Syrian Transitional Government controlling
+        approximately 55-60% of territory. SDF/US-backed forces controlling northeast
+        (approximately 25%). Turkish-backed factions controlling northwest. Contested
+        areas in south (Druze, former regime). Multiple competing authorities in
+        transitional period.
+      features:
+        - significant_areas_outside_10_30pct
+        - multiple_competing_authorities
+      sources:
+        - citation: "ICG. 'Syria Transition 2025.' crisisgroup.org."
+          url: "https://www.crisisgroup.org"
+          type: think_tank_report
+          reliability: high
+      confidence: medium
+      notes: "HTS/STG ~60%; SDF northeast ~25%; Turkish northwest; Druze south; multiple competing authorities"

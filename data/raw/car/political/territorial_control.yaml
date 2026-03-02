@@ -1,420 +1,609 @@
 indicator: territorial_control
 country: car
 dimension: political
+notes: >
+  CAR has chronically weak territorial control. The state has never effectively
+  controlled territory outside Bangui. Patassé era (1993-2003) had multiple
+  coup attempts. Bozizé (2003-2013) controlled Bangui but not the north/east.
+  2013 Séléka coup — militia coalition controlled country briefly but fragmenting.
+  Anti-Balaka emergence 2013. Post-2014: fragmented control with dozens of armed
+  groups controlling most territory. MINUSCA presence but limited reach.
+  Wagner/Russia 2018+ improved government control somewhat in select areas.
 years:
   2000:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: CAR territorial control 2000"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Patassé era. Several coup attempts (2001 Bozizé first attempt). Government of Patassé technically holds country but weak control outside Bangui. FACA (armed forces) fragmented. Large portions contested with rebel/militia presence.
+      features:
+        - large_portions_contested_30_50pct
+      sources:
+        - citation: "ICG: CAR 2000 — Patassé coup attempts"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: medium
+      confidence: medium
+      notes: "Patassé era; coup attempts; weak outside Bangui; large portions contested"
+
   2001:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: CAR 2001 — Bozizé first coup attempt"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bozizé first coup attempt May 2001 suppressed with Libyan help. Armed conflict in Bangui itself. Patassé survived but state authority weakened. Multiple competing armed factions. Large portions contested.
+      features:
+        - large_portions_contested_30_50pct
+      sources:
+        - citation: "ICG: CAR 2001 — Bozizé coup attempt"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: medium
+      confidence: medium
+      notes: "Bozizé coup attempt suppressed; Bangui fighting; state weakened; large portions contested"
+
   2002:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: CAR 2002"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bozizé operating from Chad with rebel forces. Northern CAR contested with Bozizé forces. Government control limited to south and Bangui. Majority outside control — northern regions controlled by rebels/Bozizé.
+      features:
+        - majority_outside_control
+      sources:
+        - citation: "ICG: CAR 2002 — Bozizé northern insurgency"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: medium
+      confidence: medium
+      notes: "Bozizé from Chad; northern CAR rebel; government south/Bangui only; majority outside control"
+
   2003:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: CAR 2003 — Bozizé coup"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bozizé coup March 2003 succeeded — seized Bangui while Patassé in Niger. Bozizé installed as president. Transition period. Bozizé militias (Chadian mercenaries, CAR fighters) and FACA fragmented. Multiple competing authorities during transition.
+      features:
+        - multiple_competing_authorities
+      sources:
+        - citation: "ICG: CAR 2003 — Bozizé coup successful"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Bozizé coup March 2003; transition; Chadian mercenaries; FACA fragmented; multiple competing"
+
   2004:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: CAR 2004 — Bozizé consolidation"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bozizé consolidating power. Northern and northeastern CAR poorly controlled. FDPC and UFDR rebel groups operating. Large portions contested — significant rural territory under armed groups.
+      features:
+        - large_portions_contested_30_50pct
+      sources:
+        - citation: "ICG: CAR 2004 — Bozizé northern threats"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: medium
+      confidence: medium
+      notes: "Bozizé consolidating; northern rebel groups FDPC/UFDR; large portions contested"
+
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: CAR 2005"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bozizé elected president March 2005 in first democratic elections since 1993. Northern areas still contested with UFDR and other rebels. FACA weak. Large portions contested.
+      features:
+        - large_portions_contested_30_50pct
+      sources:
+        - citation: "ICG: CAR 2005 — Bozizé election; northern rebels"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: medium
+      confidence: medium
+      notes: "Bozizé elected; UFDR northern rebels; FACA weak; large portions contested"
+
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: CAR 2006"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        UFDR captured Birao in October 2006. Major rebel offensive in northeast. Government unable to retake without French intervention. Majority of northeastern CAR outside government control.
+      features:
+        - majority_outside_control
+      sources:
+        - citation: "ICG: CAR 2006 — UFDR captures Birao"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "UFDR captured Birao; French intervention; northeast outside government; majority outside control"
+
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: CAR 2007 — MICOPAX peacekeepers"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Libreville peace agreement January 2007 with rebels. MICOPAX (CEMAC peacekeepers) deployed. Nominal peace in north but rebel groups still present. Large portions contested with fragile peace.
+      features:
+        - large_portions_contested_30_50pct
+      sources:
+        - citation: "ICG: CAR 2007 — Libreville peace; MICOPAX"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: medium
+      confidence: medium
+      notes: "Libreville peace; MICOPAX deployed; rebels still present; large portions contested"
+
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: CAR 2008"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continuing instability despite peace agreements. LRA violence in southeast added new dimension. UFDR and CPJP continued operating in north. Large portions contested.
+      features:
+        - large_portions_contested_30_50pct
+      sources:
+        - citation: "ICG: CAR 2008 — LRA in southeast"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: medium
+      confidence: medium
+      notes: "Peace agreement fragile; LRA southeast; UFDR/CPJP north; large portions contested"
+
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: CAR 2009"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inclusive Political Dialogue peace process. Some rebel integration. Bozizé government nominally controlling more territory. Large portions contested — northeast and southeastern CAR still problematic.
+      features:
+        - large_portions_contested_30_50pct
+      sources:
+        - citation: "ICG: CAR 2009 — Inclusive Political Dialogue"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: medium
+      confidence: medium
+      notes: "Inclusive dialogue; some rebel integration; northeast/southeast contested; large portions contested"
+
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: CAR 2010"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Relative stability in election run-up. CPJP active in north. LRA still in southeast. Government controlled Bangui and major towns. Large portions contested.
+      features:
+        - large_portions_contested_30_50pct
+      sources:
+        - citation: "ICG: CAR 2010 — election preparation"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: medium
+      confidence: medium
+      notes: "CPJP north; LRA southeast; government major towns; large portions contested"
+
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: CAR 2011 — Bozizé re-elected"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bozizé re-elected January 2011 in disputed elections. Government controlled Bangui and south. North and northeast nominally pacified but rebel groups still present. CPJP operating. Large portions contested.
+      features:
+        - large_portions_contested_30_50pct
+      sources:
+        - citation: "ICG: CAR 2011 — Bozizé re-election; CPJP"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: medium
+      confidence: medium
+      notes: "Bozizé re-elected; CPJP north; government south; large portions contested"
+
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: CAR 2012 — Séléka forming"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Séléka coalition formed December 2012 from multiple northern rebel groups. Launched rapid advance from northeast. By end of 2012, Séléka controlled large swaths of north/northeast. Multiple competing authorities — government losing territory rapidly.
+      features:
+        - multiple_competing_authorities
+      sources:
+        - citation: "ICG: CAR 2012 — Séléka coalition forms, advances"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Séléka formed December; rapid northern advance; government losing territory; multiple competing"
+
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ICG: CAR 2013 — Séléka coup March"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Séléka coup March 24, 2013 — Djotodia installed. Séléka controlled Bangui but fragmented immediately. Anti-Balaka militias formed in response. Second half of 2013: multiple competing militias. Government nominally in Bangui but no control elsewhere. Multiple competing authorities throughout.
+      features:
+        - multiple_competing_authorities
+      sources:
+        - citation: "ICG: CAR 2013 — Séléka coup; anti-Balaka emergence"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Séléka coup March; Djotodia; anti-Balaka formed; multiple armed groups; multiple competing"
+
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ICG: CAR 2014 — Djotodia resigned; MISCA/MINUSCA"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Djotodia resigned January 2014 under international pressure. Catherine Samba-Panza transitional president. MISCA (AU) then MINUSCA (UN) deployed. Anti-Balaka and ex-Séléka factions fighting throughout country. Most of CAR outside any government control — truly fragmented. Multiple competing authorities.
+      features:
+        - multiple_competing_authorities
+      sources:
+        - citation: "ICG/HRW: CAR 2014 — MINUSCA; fragmented control"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Samba-Panza transitional; MINUSCA deployed; anti-Balaka and ex-Séléka; fragmented; multiple competing"
+
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ICG: CAR 2015 — Bangui Forum"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Bangui Forum peace process May 2015. Many armed groups signed accords. But implementation weak. Outside Bangui: dozens of armed groups control territorial enclaves. MINUSCA limited reach. Multiple competing authorities — state control only nominal in Bangui.
+      features:
+        - multiple_competing_authorities
+      sources:
+        - citation: "ICG: CAR 2015 — Bangui Forum; armed groups"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Bangui Forum; weak implementation; armed groups territorial enclaves; MINUSCA limited; multiple competing"
+
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ICG: CAR 2016 — Touadéra election"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Touadéra elected February 2016 in internationally observed elections. Democratic legitimacy returned. But armed groups still controlled most of country outside Bangui. MINUSCA unable to pacify. Multiple competing authorities — government in Bangui only effectively.
+      features:
+        - multiple_competing_authorities
+      sources:
+        - citation: "ICG: CAR 2016 — Touadéra election; armed groups"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Touadéra elected; democratic legitimacy; armed groups rural control; MINUSCA limited; multiple competing"
+
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ICG: CAR 2017 — escalating violence"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Violence escalated significantly in 2017. UPC, FPRC, MPC and other groups fighting each other and civilians. 80%+ of territory outside government control per MINUSCA. Multiple competing authorities — worst year since 2013-2014 crisis.
+      features:
+        - multiple_competing_authorities
+      sources:
+        - citation: "MINUSCA/ICG: CAR 2017 — 80% territory outside government"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "UPC/FPRC/MPC fighting; 80%+ outside government; MINUSCA limited; multiple competing"
+
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ICG: CAR 2018 — Wagner/Russia enters"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Wagner Group (Russia) military advisers and fighters entered CAR to support Touadéra. Khartoum peace process. Wagner enabled government to expand control in some areas. Still 14 armed groups active. Multiple competing authorities — improving slightly with Wagner.
+      features:
+        - multiple_competing_authorities
+      sources:
+        - citation: "ICG/HRW: CAR 2018 — Wagner Group enters; Khartoum process"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Wagner Group enters; Khartoum peace; government expansion some areas; 14 armed groups; multiple competing"
+
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ICG: CAR 2019 — APRD peace agreement"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Political Agreement for Peace and Reconciliation (APRD/APRC) February 2019 — all 14 armed groups signed. Wagner-backed FACA expanded control. Still most of country outside government. Large portions contested — improvement from multiple competing but still fragmented.
+      features:
+        - large_portions_contested_30_50pct
+      sources:
+        - citation: "ICG: CAR 2019 — APRC peace; Wagner-FACA expansion"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "APRC February 2019; 14 groups signed; Wagner-FACA expanding; still fragmented; large portions contested"
+
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ICG: CAR 2020 — CPC coalition attack"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        CPC (Coalition des Patriotes pour le Changement) formed December 2020 by 6 armed groups including ex-Séléka to prevent elections. Launched offensive. Wagner and FACA defeated initial CPC advance. Wagner expanded to country's interior. Multiple competing authorities briefly then government/Wagner retaking.
+      features:
+        - multiple_competing_authorities
+      sources:
+        - citation: "ICG: CAR 2020 — CPC offensive; Wagner defeats CPC"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "CPC formed Dec; 6 armed groups; Wagner/FACA defeated; elections held; multiple competing"
+
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ICG: CAR 2021 — Touadéra re-elected; Wagner expansion"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Touadéra re-elected January 2021. Wagner Group expanded significantly — estimated 1,000+ fighters. Wagner-FACA retook many provincial towns. CPC retreated to border areas. Government controlled most provincial capitals for first time in years. Large portions contested — improvement from post-2013 nadir.
+      features:
+        - large_portions_contested_30_50pct
+      sources:
+        - citation: "ICG/HRW: CAR 2021 — Wagner expansion; provincial recapture"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Wagner 1,000+ fighters; provincial towns retaken; CPC at borders; large portions contested improving"
+
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ICG: CAR 2022 — Wagner dominance"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Wagner and FACA extended government reach to most of country's prefectures. CPC armed groups pushed to borders with Cameroon, Chad, Sudan, DRC. Improved government territorial control — though at cost of Wagner abuses. Large portions contested still — borders and southeast.
+      features:
+        - large_portions_contested_30_50pct
+      sources:
+        - citation: "ICG/UN: CAR 2022 — Wagner reaches prefectures; CPC at borders"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Wagner/FACA in most prefectures; CPC at borders; improved control; large portions contested"
+
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ICG: CAR 2023"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Wagner Group rebranded as Africa Corps after Wagner mutiny in Russia. Continued CAR operations. Government/Wagner controlling major population centers. Border areas still contested. Large portions contested — significant improvement from 2013-2020.
+      features:
+        - large_portions_contested_30_50pct
+      sources:
+        - citation: "ICG: CAR 2023 — Africa Corps/Wagner; border contested"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: high
+      confidence: medium
+      notes: "Wagner→Africa Corps; major centers controlled; border areas contested; large portions contested"
+
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "ICG: CAR 2024"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Africa Corps continuing CAR operations. Touadéra preparing referendum to extend term. Some resurgent armed group activity. Government/Africa Corps controlling most major towns. Large portions contested — border areas and southeast.
+      features:
+        - large_portions_contested_30_50pct
+      sources:
+        - citation: "ICG: CAR 2024"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: medium
+      confidence: medium
+      notes: "Africa Corps continuing; referendum preparation; resurgent activity; large portions contested"
+
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_territory_controlled
+      unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: CAR March 2025"
+        url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        March 2025: Africa Corps/Wagner presence; Touadéra consolidating with Russian support. Armed groups still active in border areas. Large portions contested.
+      features:
+        - large_portions_contested_30_50pct
+      sources:
+        - citation: "ICG: CAR 2025"
+          url: "https://www.crisisgroup.org/africa/central-africa/central-african-republic"
+          type: think_tank
+          reliability: low
+      confidence: low
+      notes: "Africa Corps; Touadéra with Russian support; border armed groups; large portions contested"

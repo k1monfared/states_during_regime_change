@@ -1,580 +1,913 @@
 indicator: elite_cohesion
 country: drc
 dimension: political
+notes: >
+  DRC elite cohesion has been extremely low throughout the period. Mobutu maintained
+  fragile cohesion through divide-and-rule but collapsed by 1996-1997. Kabila (L-D) ruled
+  alone briefly before assassination 1997-2001. J Kabila slowly built a patronage coalition
+  but this was always fragile; Second Congo War 1998-2003 had complete fragmentation.
+  Post-war transition 2003-2006 had formal power-sharing (1+4) but ongoing tensions.
+  Kabila 2006-2018 consolidated through patronage but faced constant elite defections
+  (Nkunda/CNDP, M23, etc.). Constitutional crisis 2016-2018: elite fractured.
+  Tshisekedi 2019: initially cohabitation with Kabila coalition, then broke with Sacred Union.
+  Eastern DRC has continuous factional conflict among armed group leaders.
 years:
   1990:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: Zaïre 1990 — Mobutu elite management"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Mobutu uses divide-and-rule to maintain fragile elite cohesion. Sovereign National
+        Conference pressure creates elite fractures. Military barons, regional notables
+        challenging Mobutu's patronage network. Significant competition but Mobutu still
+        managing through divide-and-rule.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "Young, C. & Turner, T. (1985). The Rise and Decline of the Zairian State"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: academic
+          reliability: high
+      confidence: medium
+      notes: "Mobutu divide-and-rule; SNC pressure; elite fractures forming; significant competition managed"
+
   1991:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: Zaïre 1991 — SNC; elite fragmentation"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sovereign National Conference forces elite into camps. Tshisekedi vs Mobutu.
+        Military mutinies suggest military elite breaking away. Open factional conflict
+        at elite level between reformers and Mobutu loyalists.
+      features:
+        - open_factional_conflict
+      sources:
+        - citation: "ICG: Zaïre 1991 — SNC elite fracture"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: medium
+      confidence: medium
+      notes: "SNC; Tshisekedi vs Mobutu; military mutinies; open factional conflict"
+
   1992:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: Zaïre 1992 — dual government; elite split"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Dual government (HCR-PT vs Mobutu). Mobutu dismisses Tshisekedi. Political elite
+        openly split. Active power struggles between Mobutu camp and reform camp.
+      features:
+        - active_power_struggles
+      sources:
+        - citation: "ICG: Zaïre 1992 — dual government"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: medium
+      confidence: medium
+      notes: "Dual government; Mobutu dismisses Tshisekedi; active power struggles"
+
   1993:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: Zaïre 1993 — dual government continues"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Dual government continues. Mobutu retains military support but political elite
+        fragmented. Regional notables increasingly independent. Active power struggles
+        at national level.
+      features:
+        - active_power_struggles
+      sources:
+        - citation: "ICG: Zaïre 1993 — continuing elite fragmentation"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: medium
+      confidence: medium
+      notes: "Dual government; military with Mobutu; regional notables independent; active power struggles"
+
   1994:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: Zaïre 1994 — Rwanda crisis impact on elite"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Rwanda refugee crisis tests Mobutu's control of eastern provinces. Local military
+        commanders gaining autonomy. Ethnic Tutsi communities vs Hutu refugee tensions
+        fracture eastern elite networks. Active power struggles.
+      features:
+        - active_power_struggles
+      sources:
+        - citation: "ICG: Zaïre 1994 — eastern elite fragmentation"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: medium
+      confidence: medium
+      notes: "Rwanda crisis; local commanders autonomous; eastern elite fracture; active power struggles"
+
   1995:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: Zaïre 1995 — Mobutu weakening"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Mobutu diagnosed with cancer (prostate). Succession planning begins informally.
+        Elite factions positioning for post-Mobutu. Active power struggles. Mobutu still
+        manages but losing grip. Open factional conflict emerging.
+      features:
+        - active_power_struggles
+      sources:
+        - citation: "ICG: Zaïre 1995 — Mobutu cancer; succession"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: medium
+      confidence: medium
+      notes: "Mobutu cancer diagnosis; succession positioning; active power struggles"
+
   1996:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: First Congo War 1996 — complete elite fragmentation"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        AFDL rebellion. Mobutu largely absent (cancer treatment in Europe). Military
+        elite defecting to AFDL or fleeing. State completely fragmented at elite level.
+        Complete fragmentation — no unified governing elite.
+      features:
+        - complete_fragmentation
+      sources:
+        - citation: "ICG: First Congo War 1996 — elite collapse"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "AFDL rebellion; Mobutu absent; military defecting; complete fragmentation"
+
   1997:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 1997 — Kabila takes power; new elite"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Kabila takes power with Rwanda/Uganda backing. New elite coalition: AFDL, Rwandan
+        Tutsi, Congolese Tutsi (Banyamulenge), some old Mobutists. Fragile cohesion
+        dependent on foreign backers. Tensions between Kabila and Rwandan handlers already
+        emerging. Open factional conflict within ruling coalition.
+      features:
+        - open_factional_conflict
+      sources:
+        - citation: "ICG: DRC 1997 — Kabila-Rwanda tensions"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Kabila + Rwanda/Uganda; new elite fragile; Kabila-Rwanda tensions; open factional conflict"
+
   1998:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 1998 — Second Congo War; elite fragmentation"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Kabila breaks with Rwanda/Uganda — triggers Second Congo War. AFDL dissolved.
+        Elite completely fragmented: Kabila backed by Angola/Zimbabwe/Namibia;
+        Rwanda/Uganda backing RCD; MLC; numerous other factions. Complete fragmentation.
+      features:
+        - complete_fragmentation
+      sources:
+        - citation: "ICG: DRC 1998 — Second Congo War elite fracture"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Kabila breaks with Rwanda; Second Congo War; multiple elite factions; complete fragmentation"
+
   1999:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 1999 — Second Congo War; multiple factions"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Second Congo War. Multiple competing elite factions each with foreign backers.
+        RCD splits into RCD-Goma (Rwanda) and RCD-ML (Uganda). MLC (Jean-Pierre Bemba).
+        Complete fragmentation at elite level across the country.
+      features:
+        - complete_fragmentation
+      sources:
+        - citation: "ICG: DRC 1999 — multiple factions; RCD splits"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Second Congo War; RCD splits; MLC; multiple factions; complete fragmentation"
+
   2000:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2000 — Second Congo War stalemate"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Second Congo War stalemate with multiple elite factions each controlling territory.
+        Kabila government elite cohesive in west but isolated. Rwanda/Uganda elite conflict
+        (Kisangani). Complete fragmentation nationally.
+      features:
+        - complete_fragmentation
+      sources:
+        - citation: "ICG: DRC 2000 — multiple factions; stalemate"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "War stalemate; multiple elite factions; Rwanda vs Uganda; complete fragmentation"
+
   2001:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2001 — J Kabila assassination/succession"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Laurent-Désiré Kabila assassinated January 16, 2001 — extreme elite instability.
+        Son Joseph Kabila installs himself. J Kabila begins building his own coalition.
+        Peace talks open. Active power struggles within Kabila camp, and ongoing war factions.
+      features:
+        - active_power_struggles
+      sources:
+        - citation: "ICG: DRC 2001 — L-D Kabila assassination; J Kabila"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "L-D Kabila assassinated; J Kabila installs himself; active power struggles; peace talks"
+
   2002:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2002 — peace negotiations; elite realignment"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Peace negotiations lead to power-sharing agreements. Elites beginning to converge
+        around transitional framework. Still open factional conflict but trajectory toward
+        managed competition. Open factional conflict with peace process underway.
+      features:
+        - open_factional_conflict
+      sources:
+        - citation: "ICG: DRC 2002 — peace negotiations; power-sharing"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Peace negotiations; power-sharing; open factional conflict with peace trajectory"
+
   2003:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2003 — 1+4 transitional government"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        1+4 formula: Kabila + 4 VPs (Jean-Pierre Bemba/MLC; Azarias Ruberwa/RCD-Goma;
+        Arthur Z'ahidi Ngoma; Yerodia Ndombasi). Formal power-sharing. Elite competition
+        managed within transitional framework but significant tensions. Significant competition managed.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "ICG: DRC 2003 — 1+4 power-sharing"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "1+4 transitional govt; formal power-sharing; significant competition managed"
+
   2004:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2004 — transitional tensions; Bukavu"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Transitional government under strain. Bukavu crisis (Nkunda/Mutebutsi mutiny against
+        transitional authority). VP Ruberwa (RCD-Goma) blamed by Kabila. Transitional elite
+        cohesion fraying. Open factional conflict within transition.
+      features:
+        - open_factional_conflict
+      sources:
+        - citation: "ICG: DRC 2004 — Bukavu; transitional elite tensions"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Bukavu crisis; RCD-Goma tensions; transitional elite fraying; open factional conflict"
+
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2005 — pre-election elite positioning"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Pre-election elite positioning. All transitional elites seeking electoral advantage.
+        Kabila building patronage network for elections. Bemba positioning. Significant
+        competition managed within transitional framework.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "ICG: DRC 2005 — pre-election elite positioning"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: medium
+      notes: "Pre-election positioning; Kabila patronage building; Bemba positioning; competition managed"
+
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2006 — elections; Kabila vs Bemba"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Elections. Kabila vs Bemba runoff (Kabila wins). Post-election: Kabila and Bemba
+        forces fight in Kinshasa (August). Bemba flees. Kabila consolidates. Open factional
+        conflict at elite level during and after elections.
+      features:
+        - open_factional_conflict
+      sources:
+        - citation: "ICG: DRC 2006 — post-election Kinshasa violence"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Kabila vs Bemba; post-election Kinshasa fighting; Bemba flees; open factional conflict"
+
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2007 — Kabila consolidates; CNDP"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Kabila consolidates power after elections. Nkunda's CNDP represents military elite
+        defection. Bemba in ICC. Kabila manages competition through patronage. Significant
+        competition managed at national level but open factional conflict in east (CNDP).
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "ICG: DRC 2007 — Kabila consolidates; CNDP rebellion"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: medium
+      notes: "Kabila consolidates; Nkunda CNDP defection; Bemba ICC; competition managed nationally"
+
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2008 — CNDP advance; elite fracture"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        CNDP near-captures Goma. Military elite fractured — FARDC officers defecting to
+        CNDP. Kabila government humiliated. Active power struggles involving military elite.
+      features:
+        - active_power_struggles
+      sources:
+        - citation: "ICG: DRC 2008 — CNDP advance; FARDC defections"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "CNDP near-Goma; FARDC defections; government humiliated; active power struggles"
+
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2009 — CNDP integration; Rwanda deal"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Rwanda-DRC deal. Nkunda arrested (January 2009). CNDP integrated into FARDC.
+        Bosco Ntaganda becomes senior FARDC officer (despite ICC warrant). Kabila manages
+        competition through integration. Significant competition managed but fragile.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "ICG: DRC 2009 — CNDP integration; Nkunda arrested"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Nkunda arrested; CNDP integrated; Bosco Ntaganda in FARDC; competition managed"
+
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2010 — Kabila consolidation"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Kabila relatively consolidated. Ex-CNDP integrated but not fully loyal. Election
+        year approaching (2011). Patronage networks active. Significant competition managed
+        but elite tensions simmering.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "ICG: DRC 2010 — Kabila consolidated"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: medium
+      notes: "Kabila consolidated; ex-CNDP integrated but not loyal; competition managed"
+
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2011 — disputed elections; elite tensions"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Disputed elections. Tshisekedi camp vs Kabila camp. Election result disputed.
+        Elite fractures around election. Ex-CNDP officers (Ntaganda) tensions with FARDC.
+        Open factional conflict at elite level.
+      features:
+        - open_factional_conflict
+      sources:
+        - citation: "ICG: DRC 2011 — disputed elections; elite fractures"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Disputed elections; Tshisekedi vs Kabila; Ntaganda tensions; open factional conflict"
+
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2012 — M23 rebellion; elite fracture"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        M23 rebellion led by Bosco Ntaganda and Sultani Makenga (ex-CNDP officers).
+        Major military elite defection. Rwanda backing confirmed. Complete fragmentation
+        of military elite in east. Active power struggles.
+      features:
+        - active_power_struggles
+      sources:
+        - citation: "ICG: DRC 2012 — M23; Ntaganda defection"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "M23; Ntaganda defects; Rwanda backing; military elite fracture; active power struggles"
+
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2013 — M23 defeated; Kabila recovery"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        M23 defeated November 2013. Kabila somewhat consolidated. Ntaganda surrenders to ICC.
+        But new armed groups forming (NDC-Rénové, etc.). Term limit approaching. Significant
+        competition managed at national level.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "ICG: DRC 2013 — M23 defeat; Ntaganda ICC"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "M23 defeated; Ntaganda ICC; Kabila consolidated; competition managed"
+
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2014 — post-M23; term limit looming"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-M23. Term limit looming (2016). Opposition building around Moïse Katumbi,
+        Tshisekedi. Kabila begins maneuvering to stay in power. Competition managed but
+        increasing. Significant competition managed.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "ICG: DRC 2014 — term limit; Kabila maneuvering"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: medium
+      notes: "Term limit looming; opposition building; Kabila maneuvering; competition managed"
+
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2015 — electoral manipulation; opposition"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Electoral law amendment. Opposition increasingly active. Katumbi, Tshisekedi,
+        others challenging Kabila. Catholic Church increasingly mediating. Open factional
+        conflict between Kabila camp and growing opposition.
+      features:
+        - open_factional_conflict
+      sources:
+        - citation: "ICG: DRC 2015 — electoral law; opposition vs Kabila"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: medium
+      notes: "Electoral manipulation; Katumbi/Tshisekedi opposition; Church mediates; open factional conflict"
+
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2016 — constitutional crisis; elite split"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Kabila refuses to step down (December 2016 term expires). St Sylvestre Agreement.
+        Katumbi flees prosecution. Elite comprehensively split: Kabila camp vs Tshisekedi
+        / Katumbi / UDPS. Active power struggles.
+      features:
+        - active_power_struggles
+      sources:
+        - citation: "ICG: DRC 2016 — constitutional crisis; Kabila stays"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Constitutional crisis; Kabila stays; Katumbi flees; elite split; active power struggles"
+
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2017 — Kabila unconstitutional; elite opposition"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Kabila governs unconstitutionally. Kasai conflict. Opposition increasingly unified
+        against Kabila. Kabila loyalists vs opposition bloc. Active power struggles at
+        highest level of state.
+      features:
+        - active_power_struggles
+      sources:
+        - citation: "ICG: DRC 2017 — Kabila unconstitutional; unified opposition"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Kabila unconstitutional; opposition unified; Kasai conflict; active power struggles"
+
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2018 — election; Kabila-Tshisekedi deal"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Election December 2018. Behind-scenes deal: Kabila delivers presidency to Tshisekedi
+        (over Fayulu who apparently won) in exchange for coalition control. Active power
+        struggles resolved through deal but factional conflict continues.
+      features:
+        - open_factional_conflict
+      sources:
+        - citation: "ICG: DRC 2018 — election deal; Kabila-Tshisekedi"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Kabila-Tshisekedi deal; Fayulu excluded; behind-scenes power deal; open factional conflict"
+
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2019 — Tshisekedi-Kabila cohabitation"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Tshisekedi inaugurated with Kabila controlling parliament and government coalition.
+        Cohabitation tensions. Tshisekedi begins building independent base. Significant
+        competition managed within formal cohabitation framework.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "ICG: DRC 2019 — cohabitation tensions"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Tshisekedi-Kabila cohabitation; Kabila controls parliament; competition managed"
+
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2020 — Tshisekedi breaks with Kabila"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Tshisekedi breaks from Kabila coalition — forms Sacred Union with cross-party
+        allies. Kabila loses parliamentary majority. Open rupture between Tshisekedi
+        and Kabila camps. Open factional conflict at elite level.
+      features:
+        - open_factional_conflict
+      sources:
+        - citation: "ICG: DRC 2020 — Sacred Union; Kabila-Tshisekedi rupture"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: high
+      notes: "Sacred Union; Tshisekedi breaks with Kabila; open rupture; open factional conflict"
+
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2021 — Sacred Union; M23 resurgence"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sacred Union consolidates. Tshisekedi gains parliament control. Kabila marginalized
+        but not eliminated. M23 resurgence exposes continuing eastern military elite
+        fractures. Significant competition managed at national level.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "ICG: DRC 2021 — Sacred Union consolidates; M23"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: medium
+      notes: "Sacred Union consolidates; Kabila marginalized; M23 military fractures; competition managed"
+
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2022 — M23/Rwanda; electoral positioning"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        M23/Rwanda crisis. Pre-2023 election positioning. Tshisekedi uses eastern crisis
+        for nationalist mobilization. Opposition (Katumbi, Fayulu) positioning. Significant
+        competition managed at national level. Eastern military elite fragmented.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "ICG: DRC 2022 — M23/Rwanda; election positioning"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: medium
+      notes: "M23/Rwanda nationalist mobilization; election positioning; competition managed nationally"
+
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2023 — elections; Tshisekedi re-elected"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Elections December 2023. Tshisekedi re-elected in disputed election. Opposition
+        (Katumbi, Fayulu) contest results. M23/Rwanda control east. Significant competition
+        managed at national level around elections.
+      features:
+        - significant_competition_managed
+      sources:
+        - citation: "ICG: DRC 2023 — Tshisekedi re-elected; disputed"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: medium
+      notes: "Tshisekedi re-elected; opposition contests; M23 east; competition managed"
+
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2024 — AFC/M23 crisis; Tshisekedi under pressure"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        AFC/M23 captures Goma/Bukavu creating national crisis. Tshisekedi government under
+        extreme pressure. Elite unity around national defense somewhat but factional conflict
+        over response. Open factional conflict under existential crisis conditions.
+      features:
+        - open_factional_conflict
+      sources:
+        - citation: "ICG: DRC 2024 — AFC/M23 crisis; elite under pressure"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: medium
+      notes: "AFC/M23 crisis; national unity under pressure; factional conflict over response"
+
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
       source:
-        citation: null
-        url: null
-        access_date: null
+        citation: "ICG: DRC 2025 — ongoing eastern crisis; ceasefire talks"
+        url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+        access_date: "2026-03-01"
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        AFC/M23 holds east. Ceasefire talks. Tshisekedi government navigating existential
+        crisis. Elite disagreements over negotiation vs military response. Open factional
+        conflict on strategy.
+      features:
+        - open_factional_conflict
+      sources:
+        - citation: "ICG: DRC 2025 — ongoing crisis; ceasefire talks"
+          url: "https://www.crisisgroup.org/africa/central-africa/democratic-republic-congo"
+          type: think_tank
+          reliability: high
+      confidence: medium
+      notes: "AFC/M23 holds east; ceasefire talks; elite disagreements; open factional conflict"

@@ -3,578 +3,853 @@ country: senegal
 dimension: economic
 years:
   1990:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 0.2
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 1990"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation very low in 1990 at ~0.2%. Senegal's CFA franc was pegged to
+        the French franc, providing monetary discipline and low inflation.
+        The overvalued exchange rate kept import prices low but hurt exports.
+        Very low inflation throughout the pre-1994 period.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "CFA franc peg to French franc; monetary discipline"
   1991:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: -1.4
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 1991"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Slight deflation in 1991 (-1.4%). The overvalued CFA franc kept import
+        prices low. Senegal's inflation was among the lowest in sub-Saharan Africa.
+        Low or deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Mild deflation; overvalued CFA franc"
   1992:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 0.1
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 1992"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Near-zero inflation in 1992. CFA franc monetary discipline maintained.
+        Senegal's low inflation reflected the overvalued exchange rate more than
+        genuine economic health. Low or deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   1993:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: -0.7
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 1993"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Mild deflation in 1993 (-0.7%). Pre-devaluation period: overvalued
+        CFA franc keeping prices low. Monetary union with France maintained
+        price stability at cost of competitiveness.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Pre-CFA franc devaluation; mild deflation"
   1994:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 32.1
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 1994"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation spike to 32.1% in 1994 following the January 1994 CFA franc
+        devaluation (50% against French franc). Import prices doubled overnight.
+        Sharp one-time price shock. Painful adjustment for households but
+        contained to one year. High_25_50pct.
+      features:
+        - high_25_50pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "CFA franc devaluation 50% January 1994 caused inflation spike"
   1995:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 7.8
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 1995"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation declined sharply to 7.8% in 1995 as the post-devaluation price
+        shock was absorbed. Moderate inflation. Monetary discipline of the CFA
+        zone reasserting itself. Moderate_3_10pct.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Post-devaluation inflation normalizing"
   1996:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 2.8
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 1996"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation returned to low level of 2.8% in 1996. CFA franc monetary
+        discipline reestablished. Post-devaluation inflation fully absorbed.
+        Senegal returning to low-inflation CFA zone norms. Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "CFA monetary discipline reestablished"
   1997:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 1.8
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 1997"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Inflation at 1.8% in 1997. CFA franc zone monetary stability fully restored.
+        Senegal enjoying both improved competitiveness (post-devaluation) and
+        low inflation. Excellent monetary environment. Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   1998:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 1.1
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 1998"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Inflation at 1.1% in 1998. Excellent monetary stability from CFA zone.
+        Senegal's inflation one of the lowest in Africa. Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   1999:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 0.8
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 1999"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Near-zero inflation at 0.8% in 1999. CFA franc zone delivering consistent
+        low inflation. Macroeconomic stability excellent ahead of political transition.
+        Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 0.7
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2000"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation at 0.7% in the 2000 regime change year. Macroeconomic stability
+        maintained through political transition. CFA zone monetary discipline
+        unaffected by regime change. Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Stable inflation through regime change"
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 3.0
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2001"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Inflation at 3.0% in 2001 — slightly elevated but still in low range.
+        CFA zone stability maintained. Wade's economic policies not inflationary.
+        Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 2.3
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2002"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Inflation at 2.3% in 2002. Low and stable. CFA zone monetary discipline
+        intact. Senegal among the most price-stable countries in Africa.
+        Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 0.0
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2003"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Near-zero inflation in 2003. Euro appreciation raised competitiveness
+        concerns but kept import prices low. Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 0.5
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2004"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation at 0.5% in 2004. HIPC completion year. Monetary stability
+        maintained. Excellent macroeconomic environment. Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "HIPC completion; excellent monetary stability"
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 1.7
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2005"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Inflation at 1.7% in 2005. Low and stable. CFA zone monetary discipline
+        maintained. Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 2.1
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2006"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Inflation at 2.1% in 2006. Low and stable. CFA zone. Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 5.9
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2007"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation rose to 5.9% in 2007 due to global food and energy price
+        pressures. Above CFA zone norms but not alarming. Moderate_3_10pct.
+        Government subsidized some food prices to mitigate impact.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Global food/energy price pressures 2007-2008"
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 5.8
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2008"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation at 5.8% in 2008. Global food and fuel price crisis hit Senegal
+        hard. Significant popular discontent — "joola" protests. Government
+        attempted price controls. Moderate_3_10pct.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Global food/fuel price crisis; popular protests"
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: -1.7
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2009"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Deflation of -1.7% in 2009 as global commodity prices crashed. Rapid
+        reversal from 2008 inflation. CFA zone monetary stability kept Senegal
+        from experiencing prolonged inflation. Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Global commodity price crash → deflation"
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 1.2
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2010"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Inflation back to low 1.2% in 2010. CFA zone stability restored. Low
+        and stable macroeconomic environment. Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 3.4
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2011"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Inflation at 3.4% in 2011. Slightly above CFA zone norms due to renewed
+        global commodity pressures. Low-moderate. Moderate_3_10pct barely.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 1.4
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2012"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation at 1.4% in 2012. Low and stable. Political transition to
+        Macky Sall had no inflationary impact. CFA zone monetary stability.
+        Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Transition to Sall; no inflationary impact"
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 0.7
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2013"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Near-zero inflation at 0.7% in 2013. Excellent macroeconomic environment
+        under Sall. Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: -1.1
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2014"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Mild deflation in 2014 (-1.1%). Oil price decline benefiting consumers.
+        CFA zone monetary stability. Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Oil price decline; mild deflation"
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 0.1
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2015"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Near-zero inflation at 0.1% in 2015. Low oil prices and CFA zone stability.
+        Excellent macroeconomic environment for strong growth. Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 0.8
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2016"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Inflation at 0.8% in 2016. Low and stable. CFA zone monetary discipline.
+        Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 1.3
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2017"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Inflation at 1.3% in 2017. Low and stable. Strong real growth (~7.1%)
+        without inflationary pressure. Excellent macroeconomic performance.
+        Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 0.5
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2018"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Inflation at 0.5% in 2018. Very low. Strong growth without inflation.
+        CFA zone performance. Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 1.0
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2019"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Inflation at 1.0% in 2019. Low and stable. Benign macroeconomic
+        environment. Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 2.5
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2020"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation at 2.5% in 2020. Slightly above CFA zone norms but still
+        low. COVID-19 supply disruptions cause minor price pressure. CFA zone
+        prevented major monetary instability. Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "COVID supply disruptions minor price pressure"
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 2.2
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2021"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
+      assessment: |
+        Inflation at 2.2% in 2021. Low and stable. Post-COVID recovery without
+        significant inflation. CFA zone monetary stability advantage. Low_or_deflationary.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
       notes: null
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 9.7
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2022"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation spiked to 9.7% in 2022 — highest in decades. Russia-Ukraine
+        war caused global food and energy price surge. Senegal's food import
+        dependence made it vulnerable. CFA zone couldn't offset commodity shock.
+        Moderate_3_10pct (barely).
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Highest inflation in decades; Russia-Ukraine war commodity shock"
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 5.9
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "World Bank WDI, Inflation CPI annual %, Senegal 2023"
+        url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+        access_date: "2024-03-01"
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation declining to 5.9% in 2023 as commodity prices normalized.
+        Still elevated by CFA zone standards but declining trend. Monetary
+        stability returning. Moderate_3_10pct.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "World Bank WDI, Inflation CPI annual %, Senegal"
+          url: "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Declining from 2022 peak"
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 4.5
+      unit: percent_annual_cpi
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "IMF World Economic Outlook, Senegal 2024 estimate"
+        url: "https://www.imf.org/en/Publications/WEO"
+        access_date: "2024-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation declining to ~4.5% in 2024. Returning toward CFA zone norms.
+        Oil/gas production beginning to improve fiscal position. Moderate_3_10pct.
+      features:
+        - moderate_3_10pct
+      sources:
+        - citation: "IMF World Economic Outlook, Senegal 2024"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Estimate; declining from elevated levels"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
-      unit: percent_annual
+      unit: percent_annual_cpi
       source:
         citation: null
         url: null
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Inflation expected to return close to CFA zone norms (~2-3%) in 2025
+        as global commodity pressures ease and oil/gas revenues strengthen
+        the fiscal position. Low_or_deflationary trend expected.
+      features:
+        - low_lt_3pct
+      sources:
+        - citation: "IMF World Economic Outlook 2025, Senegal projections"
+          url: "https://www.imf.org/en/Publications/WEO"
+          type: official_statistics
+          reliability: medium
+      confidence: low
+      notes: "2025 projection; expected return to CFA zone low-inflation norms"

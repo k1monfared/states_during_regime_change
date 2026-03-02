@@ -2,499 +2,835 @@ indicator: territorial_control
 country: georgia
 dimension: political
 years:
+  1988:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: percent_territory_controlled
+      source:
+        citation: Georgian SSR; Soviet era; no separate territorial data
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Georgian SSR under Soviet Union. Full territorial integrity as part of USSR. South Ossetia AO and Abkhaz
+        ASSR are autonomous units within Georgian SSR — no de facto separation yet.
+      features:
+      - full_control_no_challenges
+      sources: []
+      confidence: low
+      notes: Soviet era; territory intact within USSR structure
+  1989:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: percent_territory_controlled
+      source:
+        citation: Soviet era; early independence movements
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Soviet Georgia. Tensions begin. South Ossetia Council votes to upgrade to SSR (November 1989). Abkhazia
+        Supreme Soviet votes to restore 1925 constitution. Georgian government rejects both. Conflict embryonic but territorial
+        control remains Soviet/Georgian state.
+      features:
+      - full_control_no_challenges
+      sources:
+      - citation: 'ICG, Georgia: Avoiding War in South Ossetia, 2004'
+        type: null
+        reliability: low
+      confidence: low
+      notes: Tensions rising but no de facto separation yet
+  1990:
+    data_status: unavailable
+    quantitative:
+      value: null
+      unit: percent_territory_controlled
+      source:
+        citation: Soviet era; independence movement
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Georgia declares sovereignty (November 1990). Gamsakhurdia leads Round Table coalition. South Ossetia declares
+        independence (December 1990). Georgian government abolishes South Ossetian autonomy. Inter-ethnic violence begins
+        in South Ossetia. Abkhazia also pushing autonomy demands.
+      features:
+      - significant_areas_outside_10_30pct
+      sources:
+      - citation: Thomas de Waal, The Caucasus, Oxford 2010
+        type: null
+        reliability: low
+      confidence: low
+      notes: Territorial control contested in South Ossetia from late 1990
+  1991:
+    data_status: partial
+    quantitative:
+      value: 90
+      unit: percent_territory_controlled
+      source:
+        citation: 'Estimated: full territory except active conflict zone in South Ossetia (~3%); Abkhazia technically controlled'
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Georgia declares independence (April 1991). South Ossetia war intensifies — Georgian paramilitaries (Mkhedrioni)
+        and National Guard in South Ossetia capital Tskhinvali. Abkhazia still under Georgian administration. Gamsakhurdia
+        overthrown December 1991 / January 1992 coup. Territorial control approximately 90% (South Ossetia in active conflict
+        ~3%).
+      features:
+      - full_control_no_challenges
+      sources:
+      - citation: 'Human Rights Watch, Georgia/South Ossetia: Crackdown in the Capital, 1991'
+        type: null
+        reliability: low
+      - citation: Thomas de Waal, The Caucasus, 2010
+        type: null
+        reliability: low
+      confidence: low
+      notes: Independence April 1991; South Ossetia war de facto loss beginning
+  1992:
+    data_status: partial
+    quantitative:
+      value: 85
+      unit: percent_territory_controlled
+      source:
+        citation: 'Estimated: South Ossetia ~3% de facto lost; Abkhazia war beginning July 1992; ~85% controlled'
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: 'Shevardnadze returns, becomes head of State Council. June 1992: Russian-brokered ceasefire in South Ossetia
+        — joint peacekeeping force (Georgian/Russian/Ossetian). South Ossetia de facto independent but internationally unrecognized.
+        August 1992: Georgia sends National Guard into Abkhazia — Abkhazia war begins. By year end, Abkhazian forces with
+        Russian support advance. ~85% territory under Tbilisi control.'
+      features:
+      - minor_insurgencies_lt_10pct
+      sources:
+      - citation: Svante Cornell, Autonomy and Conflict, 2001
+        type: null
+        reliability: low
+      - citation: Human Rights Watch, Georgia/Abkhazia, 1995
+        type: null
+        reliability: low
+      confidence: low
+      notes: Two de facto losses beginning simultaneously
+  1993:
+    data_status: partial
+    quantitative:
+      value: 80
+      unit: percent_territory_controlled
+      source:
+        citation: 'Estimated: Abkhazia (~12% of territory) lost de facto after September 1993 fall of Sukhumi; South Ossetia
+          (~3%) under ceasefire; ~80% Georgian control'
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: 'September 1993: Abkhazian forces (with Russian military support) capture Sukhumi, President Gamsakhurdia''s
+        supporters simultaneously attack. Georgian forces collapse. ~250,000 Georgians/Mingrelians flee Abkhazia in weeks.
+        Shevardnadze surrounded in Sukhumi, evacuated by Russian helicopter. Georgia forced to join CIS and allow Russian
+        military bases in exchange for Russian support against Gamsakhurdia. Territorial control reduced to ~80%.'
+      features:
+      - significant_areas_outside_10_30pct
+      sources:
+      - citation: 'Human Rights Watch, Georgia/Abkhazia: Violations of Laws of War, 1995'
+        type: null
+        reliability: low
+      - citation: Thomas de Waal, The Caucasus, 2010
+        type: null
+        reliability: low
+      confidence: medium
+      notes: Catastrophic territorial loss in 1993 — watershed year
+  1994:
+    data_status: partial
+    quantitative:
+      value: 80
+      unit: percent_territory_controlled
+      source:
+        citation: 'Estimated: South Ossetia ~3% + Abkhazia ~12% = ~15% de facto lost; ~80% Georgian control; CIS peacekeepers'
+        url: null
+        access_date: '2026-03-01'
+      reliability: low
+    qualitative:
+      assessment: Ceasefire agreements stabilize 'frozen conflicts.' May 1994 Abkhazia ceasefire (Moscow Agreement) — CIS
+        peacekeepers (Russian troops) deployed. South Ossetia Joint Peacekeeping Force (Russian-led) continues. Georgia controls
+        ~80% of internationally recognized territory. Ajara semi-autonomous (Aslan Abashidze controls but nominally Georgian).
+        Pankisi Gorge ungoverned.
+      features:
+      - significant_areas_outside_10_30pct
+      sources:
+      - citation: UNOMIG established 1993; CIS PKF deployed 1994
+        type: null
+        reliability: low
+      confidence: medium
+      notes: Frozen conflict status established; ~80% Georgian control
   1995:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
+        citation: Estimated territorial control; frozen conflicts stable at 80%
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Frozen conflict lines stable. Abkhazia de facto independent with ~250K Georgian IDPs unable to return. South
+        Ossetia under Russian/Ossetian control. New Georgian constitution adopted (1995) — claims full territorial integrity
+        including Abkhazia and South Ossetia. Ajara — Abashidze nominally loyal. Georgia controls approximately 80% of its
+        recognized territory.
+      features:
+      - significant_areas_outside_10_30pct
+      sources:
+      - citation: Georgia 1995 Constitution
+        type: null
+        reliability: low
+      - citation: UNOMIG reports
+        type: null
+        reliability: low
+      confidence: medium
+      notes: Stable at ~80% through 1994-2007 period
   1996:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
+        citation: Estimated; frozen conflicts stable
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Frozen conflict lines unchanged. Abkhazia elections held (not recognized internationally). South Ossetia
+        maintains de facto separation. Georgian government begins BTC pipeline negotiations to reduce Russian energy dependency.
+        No territorial changes.
+      features:
+      - significant_areas_outside_10_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Stable; no change
   1997:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
+        citation: Estimated; frozen conflicts stable
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Frozen conflicts stable. Minsk Group negotiations on Abkhazia status make no progress. South Ossetia negotiations
+        stalled. Ajara remains nominally under Georgian sovereignty — Abashidze consolidates. ~80% control.
+      features:
+      - significant_areas_outside_10_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: No change
   1998:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
+        citation: Estimated; Gali offensive
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'May 1998: Second Georgian-Abkhaz war (Gali district). Georgian paramilitaries and Abkhaz forces clash.
+        ~30,000 additional Georgians displaced from Gali. Abkhazia consolidates control. CIS sanctions on Abkhazia declared
+        but not enforced. ~80% control maintained.'
+      features:
+      - significant_areas_outside_10_30pct
+      sources:
+      - citation: Human Rights Watch, A Cycle of Violence, 1998
+        type: null
+        reliability: low
+      confidence: medium
+      notes: Second round of Abkhaz conflict; lines unchanged
   1999:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
+        citation: Estimated; frozen conflicts; Pankisi instability
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Istanbul OSCE Summit (November 1999): Russia agrees to close Gudauta base in Abkhazia and Vaziani base
+        near Tbilisi. Pankisi Gorge increasingly ungoverned — Chechen refugees and fighters enter. ~80% control. Ajara still
+        Abashidze-controlled.'
+      features:
+      - significant_areas_outside_10_30pct
+      sources:
+      - citation: OSCE Istanbul Summit documents 1999
+        type: null
+        reliability: low
+      confidence: medium
+      notes: Russian withdrawal agreed but not implemented; Pankisi ungoverned
   2000:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
+        citation: Estimated; frozen conflicts stable; ~80%
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Frozen conflict lines unchanged. Pankisi Gorge increasingly lawless. Shevardnadze government losing control
+        of periphery — not just Abkhazia/South Ossetia but also warlord zones. Russian pressure on Pankisi (al-Qaeda linked
+        fighters allegedly present). ~80% internationally recognized territory under Tbilisi control.
+      features:
+      - significant_areas_outside_10_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Stable frozen conflicts; peripheral governance deteriorating
   2001:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
+        citation: Estimated; stable at 80%
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Post-9/11: US focuses on Pankisi Gorge as possible Al-Qaeda transit. Russian military strikes in Pankisi
+        area (October 2001 helicopter). Georgia demands Russian forces leave. Georgia Train and Equip Program (GTEP) preparation
+        begins. Frozen conflicts unchanged. Kodori Gorge (upper Abkhazia) remains Georgian-controlled — contested area.'
+      features:
+      - significant_areas_outside_10_30pct
+      sources:
+      - citation: 'ICG, Georgia: Avoiding War in South Ossetia, 2004'
+        type: null
+        reliability: low
+      confidence: medium
+      notes: Frozen conflict stable; US engagement begins
   2002:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
+        citation: Estimated; stable at 80%
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: 'US Georgia Train and Equip Program (GTEP) launches. US special forces train Georgian military for counter-terrorism.
+        Russia-Georgia tensions over Pankisi. Frozen conflicts stable. BTC pipeline construction begins. Ajara: Abashidze
+        consolidates personal militia and customs revenues.'
+      features:
+      - significant_areas_outside_10_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: GTEP begins; frozen conflicts stable
   2003:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
+        citation: Estimated; Rose Revolution year; frozen conflicts unchanged
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Rose Revolution (November 2003). Saakashvili, Burjanadze, Zhvania replace Shevardnadze. Immediate priority:
+        restore territorial control and state authority. Frozen conflict lines unchanged during revolution. New government
+        announces intent to resolve Abkhazia and South Ossetia through peaceful means with Western support. Ajara crisis imminent.'
+      features:
+      - significant_areas_outside_10_30pct
+      sources:
+      - citation: 'ICG, Georgia: Avoiding War in South Ossetia, 2004'
+        type: null
+        reliability: low
+      confidence: medium
+      notes: Rose Revolution; territorial lines unchanged
   2004:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 84
       unit: percent_territory_controlled
       source:
-        citation: null
+        citation: 'Estimated: Ajara (~4%) reintegrated May 2004; Abkhazia (~12%) and South Ossetia (~3%) still de facto lost;
+          ~84%'
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'May 2004: Ajara crisis resolved peacefully. Abashidze flees to Russia after mass protests; Georgian government
+        takes control of Ajara without bloodshed — major success. ~4% territory reintegrated. South Ossetia: renewed tensions
+        — Georgian Interior Ministry special forces enter. Summer 2004: Georgian-South Ossetian firefights. Russia signals
+        support for South Ossetia. Overall ~84% territory under Tbilisi control post-Ajara.'
+      features:
+      - significant_areas_outside_10_30pct
+      sources:
+      - citation: 'ICG, Georgia: Avoiding War in South Ossetia, 2004'
+        type: null
+        reliability: low
+      - citation: Human Rights Watch, Up in Flames, 2009
+        type: null
+        reliability: low
+      confidence: medium
+      notes: Ajara reintegration — biggest territorial gain since independence
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 84
       unit: percent_territory_controlled
       source:
-        citation: null
+        citation: Estimated; Russian base withdrawal agreement; frozen conflicts stable; ~84%
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'May 2005: Georgia-Russia agreement on Russian military base withdrawals — Batumi (Ajara) and Akhalkalaki
+        bases to close by 2008. Russian bases had been leverage for Russia; withdrawal reduces that leverage. Frozen conflicts
+        stable. South Ossetia: Georgian infrastructure projects attempt to draw population. Kodori Gorge (upper Abkhazia)
+        remains Georgian-controlled. ~84% control.'
+      features:
+      - significant_areas_outside_10_30pct
+      sources:
+      - citation: Russia-Georgia agreement on military bases, 2005
+        type: null
+        reliability: low
+      confidence: medium
+      notes: Russian base withdrawal agreement — reduced leverage; stable at 84%
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 84
       unit: percent_territory_controlled
       source:
-        citation: null
+        citation: Estimated; Kodori operation; stable at ~84%
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'July 2006: Georgian special forces enter Kodori Gorge (upper Abkhazia) — expel warlord Emzar Kvitsiani.
+        Government of Abkhazia-in-exile relocated to Kodori. This gave Georgia de facto control of ~3% of Abkhazia territory.
+        Russia objects. September 2006: Georgia arrests Russian military intelligence officers — major Russia-Georgia crisis.
+        Spy crisis leads to Russian sanctions, deportations. ~84% control.'
+      features:
+      - significant_areas_outside_10_30pct
+      sources:
+      - citation: Human Rights Watch, Up in Flames, 2009
+        type: null
+        reliability: low
+      - citation: 'ICG, Georgia and Russia: Clashing over Abkhazia, 2008'
+        type: null
+        reliability: low
+      confidence: medium
+      notes: Kodori operation — partial Abkhazia re-entry; Russia-Georgia tensions sharpen
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 84
       unit: percent_territory_controlled
       source:
-        citation: null
+        citation: Estimated; pre-war; frozen conflicts stable; ~84%
         url: null
-        access_date: null
-      reliability: null
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Tensions escalating. Abkhazia and South Ossetia de facto governments increasingly integrated with Russia
+        — ruble zone, Russian passports distributed. Georgia protests Russian 'passportization.' Batumi/Akhalkalaki Russian
+        bases close per 2005 agreement (completed November 2007). Gudauta base (Abkhazia) — Russia refuses to close, citing
+        1999 Istanbul obligation. ~84% control pre-war.
+      features:
+      - significant_areas_outside_10_30pct
+      sources:
+      - citation: 'ICG, Georgia and Russia: Clashing over Abkhazia, 2008'
+        type: null
+        reliability: low
+      confidence: medium
+      notes: Pre-war tensions peak; Russian passportization underway
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: August 2008 Russia-Georgia war; Russia recognizes Abkhazia and S.Ossetia; Georgia loses de facto ~20% of
+          territory; returns to ~80%
+        url: https://www.crisisgroup.org/europe-central-asia/caucasus/georgia
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'August 7-12, 2008: Russia-Georgia War. Georgia attacks South Ossetia capital Tskhinvali; Russia responds
+        with full invasion. Russian forces advance to within 40km of Tbilisi before ceasefire (Sarkozy plan August 12). Georgia
+        loses Kodori Gorge (Abkhaz forces expel Georgians). Russian forces briefly occupy Gori, Zugdidi. August 26: Russia
+        recognizes Abkhazia and South Ossetia as independent — first country to do so. Russian forces permanently stationed
+        in both breakaway regions. Georgia loses ~20% territory: Abkhazia ~12% + South Ossetia ~8% (expanded ''buffer zones''
+        around 2008). Returns to ~80% control.'
+      features:
+      - significant_areas_outside_10_30pct
+      sources:
+      - citation: 'Human Rights Watch, Up in Flames: Humanitarian Law Violations and Civilian Victims in the Conflict over
+          South Ossetia, 2009'
+        type: null
+        reliability: low
+      - citation: 'ICG, Russia vs Georgia: The Fallout, 2008'
+        type: null
+        reliability: low
+      - citation: Independent International Fact-Finding Mission on the Conflict in Georgia (Tagliavini Report), 2009
+        type: null
+        reliability: low
+      confidence: high
+      notes: 'Watershed: 2008 war cements territorial losses at ~20%; Russia recognizes breakaway regions'
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Post-war; EUMM deployed; borderization begins; ~80% control
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Post-war consolidation. EUMM (EU Monitoring Mission) deployed October 2008 — monitors ceasefire lines.
+        Russia refuses EUMM access to Abkhazia and South Ossetia. Borderization begins: Russia/breakaway forces install fences
+        and barriers along administrative boundary lines (ABLs). ~80% Georgian control unchanged. Geneva International Discussions
+        begin (October 2008) — framework for conflict resolution, still ongoing.'
+      features:
+      - significant_areas_outside_10_30pct
+      sources:
+      - citation: EUMM Georgia reports 2009
+        type: null
+        reliability: low
+      - citation: 'ICG, South Ossetia: The Burden of Recognition, 2010'
+        type: null
+        reliability: low
+      confidence: high
+      notes: Post-war; borderization begins; EUMM monitors; ~80% stable
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; borderization; ~80% Georgian control
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Borderization accelerates in South Ossetia — fences, barriers, 'creeping annexation.' Abkhazia and South
+        Ossetia deepen integration with Russia (economic, military, administrative). Recognized by handful of states (Nicaragua,
+        Venezuela, Nauru). Georgia enacts Law on Occupied Territories (2008) — restricts entry to breakaway regions. ~80%
+        control stable.
+      features:
+      - significant_areas_outside_10_30pct
+      sources:
+      - citation: EUMM Georgia reports 2010
+        type: null
+        reliability: low
+      confidence: high
+      notes: Borderization accelerates; ~80% stable
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; stable at 80%
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Borderization continues. Abkhazia and South Ossetia deepen Russian integration. No changes to control lines.
+        Geneva Discussions continue without substantive progress. Saakashvili government maintains no-war/no-recognition policy.
+        Georgian military rebuilding post-2008.
+      features:
+      - significant_areas_outside_10_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: Stable at 80%; no change
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; Georgian Dream wins; stable at 80%
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Georgian Dream wins October 2012 elections — first peaceful democratic transfer of power. Ivanishvili government
+        adopts more conciliatory approach toward Russia. 'Normalization' without recognition. Frozen conflicts unchanged.
+        ~80% control.
+      features:
+      - significant_areas_outside_10_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: Peaceful transfer; no territorial change
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; stable at 80%
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Borderization continues — South Ossetia ABL fence extensions. Some incidents of Georgian villagers waking
+        to find fence moved overnight on their property. EUMM monitors incidents but cannot access breakaway side. ~80% control
+        unchanged. Ivanishvili resigns as PM after one year.
+      features:
+      - significant_areas_outside_10_30pct
+      sources:
+      - citation: EUMM incident reports 2013
+        type: null
+        reliability: low
+      confidence: high
+      notes: Stable; borderization incidents
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; EU AA signed; stable at 80%
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: EU Association Agreement signed (June 2014) — amid Russia's annexation of Crimea. Georgia acutely aware
+        of parallel with Abkhazia/South Ossetia. Russia-Ukraine war context increases Georgia's solidarity with territorial
+        integrity norms. Frozen conflicts unchanged. Borderization continues. ~80% control.
+      features:
+      - significant_areas_outside_10_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: EU AA context; Crimea parallel reinforces Georgia concerns
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; stable at 80%
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Borderization incidents continue (South Ossetia). Abkhazia signs 'Treaty on Alliance and Strategic Partnership'
+        with Russia (November 2014) — further integration. South Ossetia formally requests unification with Russia (not granted).
+        ~80% control. Geneva Discussions continue.
+      features:
+      - significant_areas_outside_10_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: Breakaway regions deepen Russian integration
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; stable at 80%
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: South Ossetia 'Treaty on Integration and Alliance' with Russia signed (March 2015 in effect). Borderization
+        continuing. No change to overall control percentages. EU visa liberalization for Georgia on horizon (2017). ~80% control.
+      features:
+      - significant_areas_outside_10_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: Stable; breakaway integration with Russia deepens
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; EU visa-free; stable at 80%
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: EU Schengen visa-free travel granted (March 2017). Frozen conflicts unchanged. Borderization incidents continuing.
+        South Ossetia incorporates additional Georgian villages into its administrative boundary in periodic 'borderization'
+        moves. ~80% control.
+      features:
+      - significant_areas_outside_10_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: Stable at 80%; periodic borderization incidents
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; stable at 80%
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Borderization continues. Georgian Dream wins parliamentary elections. Constitutional changes (2017 constitutional
+        reform in effect). No territorial changes. EUMM continues monitoring. Geneva Discussions ongoing. ~80% control.
+      features:
+      - significant_areas_outside_10_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: Stable
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; stable at 80%
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'June 2019: Russian MP Gavrilov sits in Georgian parliamentary speaker''s chair during inter-parliamentary
+        event — sparks mass protests (''Gavrilov Night''). Riot police disperse protesters. Political crisis but no territorial
+        change. Frozen conflicts unchanged. ~80% control.'
+      features:
+      - significant_areas_outside_10_30pct
+      sources:
+      - citation: Reuters, Georgian protests after Russian lawmaker takes parliament speaker's seat, 2019
+        type: null
+        reliability: low
+      confidence: high
+      notes: Gavrilov Night protests; no territorial change
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; COVID; stable at 80%
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: COVID pandemic. Borderization continuing but reduced activity due to pandemic. Disputed parliamentary elections
+        (October 2020). Frozen conflicts unchanged. ~80% control.
+      features:
+      - significant_areas_outside_10_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: COVID year; stable at 80%
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; stable at 80%
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Arrested former President Saakashvili returns to Georgia, arrested. Political crisis. Frozen conflicts unchanged.
+        Borderization continues (South Ossetia incidents). ~80% control.
+      features:
+      - significant_areas_outside_10_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: Stable at 80%
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; Russia-Ukraine war context; stable at 80%
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Russia's full-scale invasion of Ukraine (February 2022) sharply increases Georgia's anxiety about its own
+        occupied territories and Russian intentions. Georgia refrains from sanctioning Russia — criticized by West. EU candidate
+        status denied (June 2022 — Georgia gets 'potential candidate'). Russian emigres/anti-war Russians flood Georgia. Frozen
+        conflicts unchanged. Borderization continues. ~80% control.
+      features:
+      - significant_areas_outside_10_30pct
+      sources:
+      - citation: EUMM Georgia reports 2022
+        type: null
+        reliability: low
+      confidence: high
+      notes: Ukraine war heightens Georgia territorial anxiety; stable at 80%
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; stable at 80%
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: 'EU grants Georgia ''candidate status'' (December 2023) — conditional. Frozen conflicts unchanged. Borderization
+        continues. South Ossetia: Russia continues deepening administrative integration. Abkhazia: internal political tensions
+        (Abkhaz population resistant to Russian economic domination). ~80% control.'
+      features:
+      - significant_areas_outside_10_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: high
+      notes: EU candidate; stable at 80%
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: EUMM; EU accession suspended; stable at 80%
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Georgian Dream wins disputed elections (October 2024). Foreign Agents Law passed (May 2024) — mass protests
+        ('Shame'). EU suspends accession process. US Magnitsky sanctions on Ivanishvili and officials. Massive protests November-December
+        2024. Frozen conflicts unchanged. Borderization continues. Some analysts warn Georgian Dream's Russia-accommodation
+        could facilitate further territorial erosion. ~80% control.
+      features:
+      - significant_areas_outside_10_30pct
+      sources:
+      - citation: EUMM Georgia reports 2024
+        type: null
+        reliability: low
+      - citation: 'Human Rights Watch, Georgia: Events of 2024'
+        type: null
+        reliability: low
+      confidence: high
+      notes: Political crisis; territorial lines stable but Western disengagement raises risks
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 80
       unit: percent_territory_controlled
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: Estimated; EUMM; protests continuing; ~80%
+        url: https://www.eumm.eu
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
+      assessment: Protests continue into 2025. Salome Zourabichvili term ends; Georgian Dream appoints new president. Western
+        pressure through sanctions and suspended accession. Frozen conflicts unchanged. Borderization continues. Risk of further
+        territorial erosion if Georgia fully abandons Euro-Atlantic integration path — but no immediate change. ~80% control.
+      features:
+      - significant_areas_outside_10_30pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: medium
+      notes: Estimated; crisis continuing; territorial lines stable

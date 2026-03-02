@@ -2,419 +2,601 @@ indicator: trade_openness
 country: ukraine
 dimension: economic
 years:
+  1999:
+    data_status: complete
+    quantitative:
+      value: 90.0
+      unit: percent_gdp_trade
+      source:
+        citation: World Bank WDI, Trade (% of GDP), Ukraine
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: medium
+    qualitative:
+      assessment: 'Ukraine had very high trade openness (~90% of GDP) in 1999 despite economic crisis.
+
+        Ukraine was deeply integrated into Soviet-era trade networks, particularly with Russia.
+
+        Trade was dominated by commodities (steel, chemicals, grain) and energy imports from Russia.
+
+        '
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: High post-Soviet trade integration; mostly Russia-oriented trade
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 115.7
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI, Trade (% of GDP), Ukraine
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Trade openness surged to 115.7% of GDP in 2000 as hryvnia devaluation made
+
+        Ukrainian exports highly competitive (especially steel), boosting export values
+
+        in relative terms. Ukraine''s economy is one of the most open in the post-Soviet space.
+
+        '
+      features:
+      - highly_open_gt_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Devaluation-boosted export competitiveness; very high openness
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 104.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Trade openness 104% of GDP. Ukraine remains highly trade-integrated.
+      features:
+      - highly_open_gt_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Very high openness
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 98.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Trade openness remained near 100% of GDP.
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: High openness maintained
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 99.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Trade openness near 100% of GDP.
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Consistent high openness
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 98.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Trade openness near 98% of GDP. Steel export boom contributing.
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Steel exports booming
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 90.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Trade openness ~90% of GDP. Diversifying trade toward EU while maintaining Russia ties.
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Post-revolution; EU trade growing
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 88.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Trade openness ~88% of GDP.
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: High openness; WTO accession process
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 90.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Trade openness ~90%. Ukraine joined WTO in May 2008. EU-Ukraine Association Agreement negotiations began.
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: WTO accession 2008; EU-AA negotiations
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 92.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Trade openness ~92%. Ukraine joined WTO in 2008. Pre-crisis peak of economic activity.
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: WTO member 2008
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 85.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Trade fell sharply in absolute terms with global crisis. Openness ratio remained relatively high.
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Trade collapsed in absolute terms; global crisis
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 90.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Trade openness recovered to ~90% as commodity exports rebounded.
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Commodity exports recovery
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 93.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Trade openness ~93%.
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Continued high openness
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 90.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Trade openness ~90%.
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Stable high openness
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 85.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Trade openness ~85%. Ukraine debating EU AA vs. Customs Union with Russia. Yanukovych rejected EU AA November
+        2013.
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Pre-revolution; EU vs. Russia trade choice; Euromaidan trigger
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 90.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Trade openness ~90% as EU AA signed June 2014. Russia imposed trade restrictions
+
+        and terminated free trade agreement. EU-oriented trade began growing. Crimea and
+
+        Donbas disrupted industrial production.
+
+        '
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: EU AA signed; Russia trade disrupted; structural reorientation began
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 95.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Trade openness rose to ~95% of GDP as trade reorientation toward EU accelerated.
+
+        Russia terminated preferential trade; EU DCFTA provisionally applied from January 2016.
+
+        In absolute terms trade fell sharply due to economic collapse.
+
+        '
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: EU reorientation; DCFTA provisionally applied 2016; Russia trade lost
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 94.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Trade openness ~94%. EU DCFTA fully in force. EU became Ukraine's largest trade partner.
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: EU DCFTA in force; EU largest trade partner
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 90.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Trade openness ~90%.
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Stable EU-oriented trade
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 88.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Trade openness ~88%.
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Continued EU integration
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 86.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Trade openness ~86%. EU trade dominant; agricultural exports growing.
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: EU dominant; agricultural exports growing; Zelensky year
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 79.2
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Trade openness declined to 79.2% as COVID-19 disrupted global trade.
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: COVID-19 trade disruption
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 83.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Trade openness recovered to ~83% as global trade rebounded. EU remains dominant partner.
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: high
+      confidence: high
+      notes: Trade recovery; pre-invasion last normal year
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 87.7
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Trade openness rose to 87.7% of GDP despite massive war disruption. The ratio rose
+
+        partly because GDP collapsed more than trade in relative terms, and because massive
+
+        Western aid and arms deliveries counted in trade statistics. Ukrainian grain exports
+
+        disrupted by Russian Black Sea blockade.
+
+        '
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Statistics distorted by war; Western aid and arms in trade data; Black Sea blockade
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 77.0
+      unit: percent_gdp_trade
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        access_date: '2026-03-01'
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Trade openness declined to 77% of GDP in 2023 as economy partially stabilized.
+
+        Ukrainian grain exports resumed via Danube route after Black Sea blockade.
+
+        EU trade dominant; massive import dependence for reconstruction materials.
+
+        '
+      features:
+      - open_70_100pct
+      sources:
+      - citation: World Bank WDI
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=UA
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Grain exports resumed via Danube; EU trade dominant
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 75.0
+      unit: percent_gdp_trade
       source:
-        citation: null
+        citation: Estimated from 2023 trend
         url: null
         access_date: null
-      reliability: null
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Estimated ~75% trade openness in 2024 as wartime economy continues adjusting.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: Wartime estimate
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: percent_gdp
+      value: 75.0
+      unit: percent_gdp_trade
       source:
-        citation: null
+        citation: Estimated provisional
         url: null
         access_date: null
-      reliability: null
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: 2025 provisional estimate.
+      features:
+      - open_70_100pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: 2025 provisional

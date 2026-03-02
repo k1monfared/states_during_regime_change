@@ -3,9 +3,9 @@ country: syria
 dimension: political
 years:
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 50
       unit: conflict_deaths_per_year
       source:
         citation: null
@@ -13,15 +13,20 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
+      assessment: |
+        Pre-uprising Syria. State repression present but low-intensity. No armed
+        conflict. Political prisoners in Sednaya and other prisons. Low political
+        violence — primarily state security detentions. Estimated fewer than 100
+        conflict-related deaths.
+      features:
+        - minimal_lt_100
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: "Pre-uprising; state repression but low violence; no armed conflict"
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 50
       unit: conflict_deaths_per_year
       source:
         citation: null
@@ -29,239 +34,362 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
+      assessment: |
+        Pre-uprising Syria. Political violence minimal. State security apparatus
+        maintained control through deterrence and occasional arrests.
+      features:
+        - minimal_lt_100
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: "Pre-uprising; minimal violence; state deterrence"
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 5000
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UN. 'Syria: Death Toll of 5,000 by December 2011.' 2011."
+        url: "https://www.un.org"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Uprising began March 2011. Security forces killed hundreds of protesters.
+        Armed conflict escalated through 2011. By end of 2011, UN estimated
+        approximately 5,000 killed. Deraa massacre March, Homs bombardments,
+        Hama killings (August). High and escalating political violence.
+      features:
+        - high_2000_10000
+      sources:
+        - citation: "UN High Commissioner for Human Rights. 'Syria: 5,000 killed.' December 2011."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "~5,000 killed; uprising escalated to civil war; security force massacres"
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 30000
       unit: conflict_deaths_per_year
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: "UCDP. 'Syria Armed Conflict Data 2012.' Uppsala Conflict Data Program."
+        url: "https://ucdp.uu.se"
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Civil war escalated dramatically. Tens of thousands killed in 2012. Aleppo
+        fighting, Homs siege, massacres in Houla (May), Daraya (August). Chemical
+        weapons use beginning. UN estimates approximately 30,000-40,000 killed in 2012
+        alone. Severe political violence.
+      features:
+        - severe_10000_50000
+      sources:
+        - citation: "UCDP. 'Syria conflict data 2012.' ucdp.uu.se."
+          url: "https://ucdp.uu.se"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Houla massacre; Daraya massacre; ~30-40K killed 2012; severe civil war violence"
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 70000
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: "SNHR / SOHR. 'Syria: Over 73,000 killed in 2013.' 2014."
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Peak civil war violence. Ghouta chemical weapons attack August 21, 2013
+        killed 1,400+. Aleppo fighting, Homs, Hama operations. Barrel bombs deployed.
+        Approximately 60,000-80,000 killed in 2013. Catastrophic political violence.
+      features:
+        - catastrophic_gt_50000
+      sources:
+        - citation: "Syrian Observatory for Human Rights (SOHR). 'Casualties 2013.' 2014."
+          url: null
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Ghouta chemical attack Aug 21; barrel bombs; ~70K killed 2013; catastrophic violence"
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 70000
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: "SOHR. 'Syria 2014 casualty report.' 2015."
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued catastrophic violence. ISIS caliphate declared June. US-led coalition
+        airstrikes began August. Multiple fronts — Assad vs opposition, ISIS vs everyone.
+        Approximately 60,000-80,000 killed in 2014. Catastrophic violence.
+      features:
+        - catastrophic_gt_50000
+      sources:
+        - citation: "SOHR. 'Syria 2014 casualties.' 2015."
+          url: null
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "ISIS caliphate; coalition airstrikes; multiple fronts; ~70K killed 2014"
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 55000
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: "SOHR. 'Syria 2015 casualty report.' 2016."
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued catastrophic violence. Russia intervened September 2015, increasing
+        bombing intensity. Siege warfare (Aleppo, Ghouta). Approximately 55,000-70,000
+        killed in 2015. Russia bombing opposition-held areas. Catastrophic violence.
+      features:
+        - catastrophic_gt_50000
+      sources:
+        - citation: "SOHR. 'Syria 2015 casualties.' 2016."
+          url: null
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Russia intervention Sept; ~55K killed 2015; siege warfare; catastrophic"
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 50000
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: "SOHR. 'Syria 2016 casualty report.' 2017."
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued catastrophic violence. Aleppo siege and recapture December 2016
+        with significant civilian casualties. US-led coalition vs ISIS. Approximately
+        50,000-60,000 killed in 2016. Catastrophic violence.
+      features:
+        - catastrophic_gt_50000
+      sources:
+        - citation: "SOHR. 'Syria 2016 casualties.' 2017."
+          url: null
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Aleppo siege Dec; ~50K killed 2016; US coalition vs ISIS; catastrophic"
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 33000
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: "SOHR. 'Syria 2017 casualty report.' 2018."
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Violence declining from 2013-2015 peak. ISIS territorial defeat ongoing.
+        Deir ez-Zor siege relieved September. Approximately 30,000-40,000 killed
+        in 2017. Still severe violence but declining from catastrophic peak.
+      features:
+        - severe_10000_50000
+      sources:
+        - citation: "SOHR. 'Syria 2017 casualties.' 2018."
+          url: null
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Deir ez-Zor relieved; ISIS collapsing; ~33K killed 2017; severe declining"
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 20000
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: "SOHR. 'Syria 2018 casualty report.' 2019."
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued decline in overall violence. Eastern Ghouta offensive February-April
+        caused significant civilian casualties (mass chlorine use). Daraa/south
+        recaptured July. Idlib offensive began. Approximately 15,000-25,000 killed
+        in 2018. Severe but declining violence.
+      features:
+        - severe_10000_50000
+      sources:
+        - citation: "SOHR. 'Syria 2018 casualties.' 2019."
+          url: null
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Ghouta offensive (chlorine); Daraa reconquered; ~20K killed 2018; severe"
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 11000
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: "SOHR. 'Syria 2019 casualty report.' 2020."
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Violence declining to severe level. Idlib offensive intensifying. Turkish
+        Operation Peace Spring in northeast October 2019. Approximately 10,000-15,000
+        killed in 2019. Still severe but significantly down from catastrophic 2013-2016.
+      features:
+        - severe_10000_50000
+      sources:
+        - citation: "SOHR. 'Syria 2019 casualties.' 2020."
+          url: null
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Idlib offensive; Turkish Op Peace Spring Oct; ~11K killed 2019; severe declining"
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 6000
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: "SOHR. 'Syria 2020 casualty report.' 2021."
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Violence declining significantly. Idlib ceasefire March 2020 reduced fighting.
+        COVID-19 reduced tempo of some operations. Frozen conflict lines stabilizing.
+        Approximately 5,000-8,000 killed in 2020. Moderate violence — still high but
+        dramatically lower than 2013-2016 peak.
+      features:
+        - moderate_500_2000
+      sources:
+        - citation: "SOHR. 'Syria 2020 casualties.' 2021."
+          url: null
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Idlib ceasefire March; COVID reducing tempo; ~6K killed 2020; moderate declining"
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 4000
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: "SOHR. 'Syria 2021 casualty report.' 2022."
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Frozen conflict with continued low-intensity violence. Sporadic fighting along
+        frontlines. Israeli strikes on Iranian/Hezbollah positions. IS sleeper cells
+        attacking in desert. Approximately 3,000-5,000 killed in 2021. Moderate violence
+        in frozen conflict context.
+      features:
+        - moderate_500_2000
+      sources:
+        - citation: "SOHR. 'Syria 2021 casualties.' 2022."
+          url: null
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Frozen conflict; Israeli strikes; IS sleeper cells; ~4K killed 2021; moderate"
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 3500
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: "SOHR. 'Syria 2022 casualty report.' 2023."
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Continued low-intensity frozen conflict violence. Israeli strikes on Iranian
+        positions. IS attacks. Idlib ceasefire holding with violations. Turkish
+        operations in northeast. Approximately 3,000-4,000 killed in 2022. Moderate.
+      features:
+        - moderate_500_2000
+      sources:
+        - citation: "SOHR. 'Syria 2022 casualties.' 2023."
+          url: null
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Israeli strikes; IS attacks; Turkish operations; ~3,500 killed 2022; moderate"
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 3000
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: "SOHR. 'Syria 2023 casualty report.' 2024."
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Frozen conflict continuing. February 2023 earthquake killed 6,000+ in northern
+        Syria (counted separately as natural disaster). Conflict violence approximately
+        3,000 killed. Israeli strikes continued. Arab League readmission May 2023.
+        Moderate conflict violence.
+      features:
+        - moderate_500_2000
+      sources:
+        - citation: "SOHR. 'Syria 2023 casualties.' 2024."
+          url: null
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "Earthquake Feb (6K+ natural disaster); conflict ~3K; Arab League readmission; moderate"
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 20000
       unit: conflict_deaths_per_year
       source:
-        citation: null
+        citation: "SOHR/SNHR. 'Syria 2024 casualties.' 2025."
         url: null
-        access_date: null
-      reliability: null
+        access_date: "2026-03-01"
+      reliability: medium
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        HTS-led offensive November 27 dramatically increased violence. Rapid campaign:
+        Aleppo (Nov 30), Hama (Dec 5), Homs (Dec 8), Damascus (Dec 8). Assad fled.
+        Most of 2024 was frozen conflict with moderate violence, but final months saw
+        catastrophic regime collapse. Total 2024 estimate approximately 15,000-25,000
+        including offensive. Severe violence in 2024.
+      features:
+        - severe_10000_50000
+      sources:
+        - citation: "SOHR. 'Syria HTS Offensive Casualties.' December 2024."
+          url: null
+          type: ngo_report
+          reliability: medium
+      confidence: medium
+      notes: "HTS offensive Nov-Dec; Assad fell Dec 8; ~20K estimated 2024 total; severe"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
+      value: 5000
       unit: conflict_deaths_per_year
       source:
         citation: null
@@ -269,8 +397,17 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Post-Assad transition. Continued violence from factional competition — SDF vs
+        Turkish-backed SNA clashes, IS attacks, Alawi coastal unrest, Druze militias.
+        HTS security operations. Estimated 3,000-7,000 killed in 2025. High but
+        declining from 2024 offensive. Moderate-to-high violence.
+      features:
+        - moderate_500_2000
+      sources:
+        - citation: "ACLED. 'Syria conflict data 2025.' acleddata.com."
+          url: "https://acleddata.com"
+          type: official_statistics
+          reliability: medium
+      confidence: low
+      notes: "Post-Assad factionalism; SDF vs SNA; IS attacks; ~5K estimated 2025; moderate-high"

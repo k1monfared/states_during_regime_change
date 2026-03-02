@@ -3,7 +3,7 @@ country: afghanistan
 dimension: international
 years:
   1996:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -13,13 +13,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No international sanctions regime targeted Afghanistan in 1996. Taliban takeover
+        of Kabul in September 1996 drew international condemnation but no formal sanctions.
+        The UN continued recognizing the Rabbani government. No UNSC sanctions resolution
+        against Afghanistan or the Taliban had been passed.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "UN Security Council records. 1996."
+          url: "https://www.un.org/securitycouncil"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "No UN sanctions; Taliban condemned but not sanctioned; Rabbani government recognized"
   1997:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -29,13 +38,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No formal international sanctions against Afghanistan or Taliban in 1997. US
+        government imposed domestic restrictions on Taliban but no UNSC sanctions.
+        Pakistan, Saudi Arabia, and UAE recognition of Taliban created diplomatic split
+        but no sanctions regime.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "US Department of State. Background Notes: Afghanistan. 1997."
+          url: null
+          type: official_document
+          reliability: medium
+      confidence: high
+      notes: "No UNSC sanctions; three-country recognition; US domestic restrictions only"
   1998:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -45,13 +63,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        No UNSC sanctions against Afghanistan in 1998. US cruise missile strikes against
+        Al-Qaeda camps in August 1998 (after embassy bombings) were unilateral military
+        action, not a sanctions regime. UNSC discussed but had not yet passed sanctions.
+        US Treasury designated some Al-Qaeda entities under IEEPA.
+      features:
+        - no_sanctions
+      sources:
+        - citation: "UN Security Council records. 1998."
+          url: "https://www.un.org/securitycouncil"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "No UNSC sanctions; US unilateral strikes August 1998; US IEEPA Al-Qaeda designations"
   1999:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -61,13 +88,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        UNSC Resolution 1267 (October 15, 1999) imposed targeted sanctions on the Taliban:
+        flight ban on Ariana Afghan Airlines, asset freeze on Taliban funds. These were
+        targeted at the Taliban leadership and Bin Laden/Al-Qaeda, demanding extradition
+        of Bin Laden. The sanctions targeted specific individuals and entities, not
+        Afghanistan's economy or population broadly. The Sanctions Committee (1267
+        Committee) was established to administer the regime.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "UN Security Council Resolution 1267 (1999). S/RES/1267. October 15, 1999."
+          url: "https://www.un.org/securitycouncil/s/res/1267-(1999)"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "UNSC 1267: flight ban on Ariana, asset freeze; targeted Taliban/Bin Laden; 1267 Committee established"
   2000:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -77,13 +115,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        UNSC Resolution 1333 (December 19, 2000) significantly expanded Taliban sanctions:
+        arms embargo, closure of Taliban offices abroad, ban on provision of acetic
+        anhydride (precursor for heroin processing), additional asset freezes and travel
+        bans. This moved from targeted individuals to broader sectoral restrictions
+        including arms embargo affecting Afghanistan's conflict dynamics. Sanctions
+        remained focused on Taliban as entity rather than Afghan state broadly.
+      features:
+        - sectoral_sanctions
+      sources:
+        - citation: "UN Security Council Resolution 1333 (2000). S/RES/1333. December 19, 2000."
+          url: "https://www.un.org/securitycouncil/s/res/1333-(2000)"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "UNSC 1333: arms embargo, Taliban office closures, acetic anhydride ban, expanded asset freeze"
   2001:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -93,13 +142,28 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        UNSC Resolution 1390 (January 2002, retroactively applicable) and UNSC 1363
+        (July 2001) maintained Taliban/Al-Qaeda sanctions. Post-September 11, the 9/11
+        attacks led to UNSC Resolution 1373 (anti-terrorism) and further asset freezes
+        of Al-Qaeda/Taliban funds globally. Post-Bonn, the new Afghan Interim Authority
+        was not sanctioned — sanctions regime split: Taliban/Al-Qaeda individuals
+        continued on sanctions list while new Afghan state was unsanctioned.
+      features:
+        - sectoral_sanctions
+      sources:
+        - citation: "UN Security Council Resolution 1363 (2001). S/RES/1363. July 30, 2001."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+        - citation: "UN Security Council Resolution 1373 (2001). S/RES/1373. September 28, 2001."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Pre-9/11: UNSC 1363 maintained 1333; Post-9/11: 1373 global anti-terror; new Afghan state not sanctioned"
   2002:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -109,13 +173,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        After Taliban collapse, UNSC Resolution 1390 (January 2002) maintained targeted
+        sanctions against Taliban and Al-Qaeda individuals on the consolidated list
+        (travel ban, asset freeze, arms embargo on listed individuals). The Afghan
+        Interim Authority and later Transitional Authority were not subject to sanctions.
+        Sanctions were individualized, targeting the Taliban as an insurgent movement
+        and Al-Qaeda. Afghan state could receive international aid and investment freely.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "UN Security Council Resolution 1390 (2002). S/RES/1390. January 16, 2002."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "UNSC 1390: Taliban/AQ individual sanctions continued; Afghan state not sanctioned; aid flows freely"
   2003:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -125,13 +200,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Targeted sanctions continued under 1267 Committee. Taliban and Al-Qaeda
+        individuals on consolidated list subject to travel ban, asset freeze, arms
+        embargo. Afghan government fully integrated into international financial
+        system. Major donor conferences (Tokyo 2002, Berlin 2004) channeled aid to
+        Afghan state. No sanctions against Afghan state or economy.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "UN Security Council Resolution 1526 (2004). S/RES/1526."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "1267 targeted sanctions on Taliban/AQ individuals; Afghan state free to receive international aid"
   2004:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -141,13 +226,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Targeted sanctions regime continued. UNSC 1526 (January 2004) renewed and
+        strengthened targeted measures against Taliban/Al-Qaeda individuals. Afghan
+        government signed international agreements, accessed World Bank, IMF, Asian
+        Development Bank financing. No sanctions on Afghan state.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "UN Security Council Resolution 1526 (2004). S/RES/1526. January 30, 2004."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "1267/1526 targeted sanctions on Taliban individuals; Afghan state fully integrated"
   2005:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -157,13 +251,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Targeted individual sanctions regime continued under 1267 Committee. London
+        Conference on Afghanistan (2006) signaled international engagement. Afghan
+        state not sanctioned. Taliban commanders and Al-Qaeda leaders on consolidated
+        sanctions list. Targeted measures: asset freeze, travel ban, arms embargo
+        on listed individuals only.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "UN 1267 Sanctions Committee. Consolidated List 2005."
+          url: "https://www.un.org/securitycouncil/sanctions/1988/materials/summaries"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Targeted individual sanctions continued; Afghan state fully engaged internationally"
   2006:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -173,13 +277,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        UNSC Resolution 1735 (2006) updated 1267 regime. Targeted sanctions on Taliban
+        and Al-Qaeda individuals continued. Afghan government not sanctioned. London
+        Compact signed February 2006 between Afghanistan and international community
+        affirmed major aid commitments. No restrictions on Afghan state economic activity.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "UN Security Council Resolution 1735 (2006). S/RES/1735. December 22, 2006."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "UNSC 1735 updated targeted regime; London Compact; Afghan state unsanctioned"
   2007:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -189,13 +302,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Targeted individual sanctions regime continued. UNSC 1822 (2008) later bifurcated
+        Taliban and Al-Qaeda lists. In 2007 the consolidated list remained in force with
+        targeted measures against Taliban commanders. Afghan state had full access to
+        international financial institutions and aid flows.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "UN 1267 Committee. Consolidated Sanctions List 2007."
+          url: "https://www.un.org/securitycouncil/sanctions"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Targeted individual sanctions; Afghan state no restrictions"
   2008:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -205,13 +327,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        UNSC Resolution 1822 (June 2008) split the 1267 consolidated list into separate
+        Taliban sanctions list and Al-Qaeda sanctions list, recognizing different political
+        status. Taliban-specific sanctions targeted individuals: travel ban, asset freeze,
+        arms embargo on listed persons. Afghan government not sanctioned. Paris Conference
+        June 2008 pledged $21 billion in aid to Afghanistan.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "UN Security Council Resolution 1822 (2008). S/RES/1822. June 30, 2008."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "UNSC 1822 bifurcated Taliban/AQ lists; Paris Conference aid pledges; state not sanctioned"
   2009:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -221,13 +353,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Targeted individual sanctions on Taliban continued. Afghan government not
+        sanctioned. US imposed additional financial sanctions on Taliban-linked
+        individuals under Treasury OFAC designations. International aid increased
+        substantially with Obama surge. No sectoral sanctions on Afghanistan.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "US Treasury OFAC. 'Specially Designated Nationals List.' 2009."
+          url: "https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "1267/1988 Taliban targeted sanctions; US OFAC additional designations; Afghan state not sanctioned"
   2010:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -237,13 +378,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        UNSC Resolution 1988 (June 2011, retro to 2010 policy discussions) formally
+        created separate Taliban Sanctions Committee (1988 Committee) distinct from
+        Al-Qaeda Committee. Taliban sanctions specifically designed with peace process
+        flexibility in mind. Targeted individual measures continued: 135 individuals
+        on Taliban consolidated list. Afghan state not sanctioned.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "UN Security Council Resolution 1988 (2011). S/RES/1988. June 17, 2011."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Pre-1988 resolution period; targeted Taliban individual sanctions; Afghan state free"
   2011:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -253,13 +404,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        UNSC Resolution 1988 (June 2011) established separate Taliban Sanctions Committee,
+        explicitly with provisions for peace process flexibility including delisting
+        procedures. Taliban individual sanctions maintained (travel ban, asset freeze,
+        arms embargo on listed persons). Afghan state completely unsanctioned. Bonn II
+        Conference planned for December 2011.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "UN Security Council Resolution 1988 (2011). S/RES/1988. June 17, 2011."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "UNSC 1988: separate Taliban committee; delisting procedures for peace process; state unsanctioned"
   2012:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -269,13 +430,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Targeted Taliban individual sanctions continued under 1988 Committee. Taliban
+        political office opened in Doha Qatar, opening questions about sanctions regime.
+        Afghan state fully engaged in international system. Tokyo Mutual Accountability
+        Framework 2012 conditioned aid on governance benchmarks but was not sanctions.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "UN 1988 Sanctions Committee. Annual Report 2012."
+          url: "https://www.un.org/securitycouncil/sanctions/1988"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "1988 Committee targeted sanctions; Taliban Doha office opened; state not sanctioned"
   2013:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -285,13 +455,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Targeted individual sanctions on Taliban under 1988 Committee continued. Five
+        Taliban prisoners exchanged for Bowe Bergdahl (completed 2014) tested sanctions
+        regime flexibility. Afghan state fully integrated internationally. No sectoral
+        sanctions on Afghanistan.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "UN 1988 Sanctions Committee. Reports 2013."
+          url: "https://www.un.org/securitycouncil/sanctions/1988"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Targeted individual sanctions; Bergdahl negotiations tested delisting; state unsanctioned"
   2014:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -301,13 +480,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Targeted sanctions continued. Bergdahl exchange: five Taliban leaders (Khairullah
+        Khairkhwa, Mullah Fazl, Mullah Norullah Nori, Mohammad Nabi Omari, Abdul Haq
+        Wasiq) removed from 1988 list under travel exclusion to Qatar for one year.
+        Afghan state fully engaged internationally. NUG established October 2014.
+        No sanctions on Afghan state.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "UN Security Council. 'Bergdahl Exchange Notification.' 2014."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Five Taliban delisted for Bergdahl exchange; targeted regime continued; Afghan state unsanctioned"
   2015:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -317,13 +506,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Targeted individual sanctions on Taliban under 1988 Committee. Afghan state not
+        sanctioned. US continued OFAC Taliban designations. No changes to fundamental
+        sanctions architecture. Afghan NUG fully engaged internationally. Heart of Asia
+        Istanbul Process diplomatic engagement continued.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "UN 1988 Sanctions Committee. Annual Report 2015."
+          url: "https://www.un.org/securitycouncil/sanctions/1988"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "1988 targeted sanctions maintained; Afghan state fully engaged"
   2016:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -333,13 +531,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Targeted individual sanctions continued under 1988 Committee. Afghan state not
+        sanctioned. Brussels Conference on Afghanistan October 2016 pledged $15.2 billion
+        through 2020. The sanctions regime remained focused on individual Taliban
+        commanders with travel bans, asset freezes, and arms embargo on listed persons.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "Brussels Conference on Afghanistan. 'Self-Reliance through Mutual Accountability.' October 2016."
+          url: "https://www.mfa.gov.af"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "1988 targeted sanctions; Brussels Conference $15.2B aid; state not sanctioned"
   2017:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -349,13 +556,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Targeted individual sanctions on Taliban under 1988 Committee continued.
+        Afghan state fully integrated in international system. UNSC monitoring reports
+        noted Taliban leadership approximately 144 individuals on list. No sanctions
+        on Afghan economy or state institutions.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "UN Security Council. 'Report of the Analytical Support and Sanctions Monitoring Team S/2017/409.' 2017."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "144 Taliban individuals on 1988 list; state not sanctioned"
   2018:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -365,13 +581,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Targeted individual sanctions continued. US-Taliban peace talks beginning in
+        Doha raised questions about sanctions regime flexibility. Taliban representatives
+        participated in talks without formal sanctions waivers. Afghan state fully
+        unsanctioned. No changes to fundamental architecture.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "UN 1988 Sanctions Monitoring Team. Report 2018."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "1988 targeted sanctions; Doha talks without waivers; state unsanctioned"
   2019:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -381,13 +606,22 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Targeted individual sanctions continued. Doha Agreement negotiations included
+        discussion of sanctions relief for Taliban. US offered to discuss delisting
+        as part of peace deal. UNSC 1988 targeted sanctions on approximately 135
+        Taliban individuals maintained. Afghan state fully engaged internationally.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "UN Security Council. 'S/2019/481 Monitoring Team Report.' 2019."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "Doha negotiations included sanctions discussions; ~135 Taliban on list; Afghan state unsanctioned"
   2020:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -397,13 +631,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Doha Agreement (February 29, 2020) included US commitment to seek UNSC delisting
+        of Taliban leaders. Some delisting requests filed. Targeted individual sanctions
+        continued under 1988 regime. Afghan state not sanctioned. UNSC reviewed list with
+        some delistings to facilitate peace process. Taliban Doha office participants had
+        de facto sanctions travel exemptions for negotiations.
+      features:
+        - targeted_individuals_only
+      sources:
+        - citation: "US-Taliban Doha Agreement. 'Agreement for Bringing Peace to Afghanistan.' February 29, 2020."
+          url: "https://www.state.gov"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "Doha Agreement included delisting commitment; some delistings; state not sanctioned"
   2021:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -413,13 +657,30 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Taliban takeover August 2021 triggered major new sanctions regime. US froze
+        approximately $9.5 billion in Da Afghanistan Bank (DAB) assets held at Federal
+        Reserve Bank of New York under Executive Order. EO 14064 issued February 2022
+        bifurcated frozen assets. UNSC maintained 1988 Taliban targeted sanctions.
+        US Treasury issued General License 14 for humanitarian transactions.
+        The broad economic effect was severe despite nominal humanitarian exemptions —
+        the frozen DAB assets effectively collapsed the banking system. Multiple
+        humanitarian exemptions issued (GL14, GL15, GL19, GL20) to allow aid flows.
+      features:
+        - broad_economic_humanitarian_exceptions
+      sources:
+        - citation: "US Executive Order 14064. February 11, 2022. Blocking Property and Prohibiting Certain Transactions With Respect to Afghanistan."
+          url: "https://home.treasury.gov"
+          type: official_document
+          reliability: high
+        - citation: "US Treasury OFAC. General License 14. August 2021."
+          url: "https://home.treasury.gov"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "DAB assets frozen ~$9.5B; EO 14064 Feb 2022; GL14/GL15/GL19/GL20 humanitarian exemptions; banking system collapse"
   2022:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -429,13 +690,29 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        EO 14064 (February 2022) maintained freeze on ~$7 billion of DAB assets (remainder
+        to Afghan Fund for Reconstruction). Afghan Fund established to hold $3.5 billion
+        for eventual release. 1988 Committee targeted Taliban sanctions maintained.
+        UNSC Resolution 2615 (December 2021) humanitarian exemption enshrined. Multiple
+        US Treasury general licenses expanded humanitarian space. Economic sanctions
+        effect remained severe — banking system not restored, imports restricted,
+        aid dependent economy.
+      features:
+        - broad_economic_humanitarian_exceptions
+      sources:
+        - citation: "UN Security Council Resolution 2615 (2021). S/RES/2615. December 22, 2021."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+        - citation: "Afghan Fund for Reconstruction. Establishment Documents. September 2022."
+          url: "https://www.state.gov"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "EO 14064 in force; Afghan Fund $3.5B established; UNSC 2615 humanitarian exemption; banking not restored"
   2023:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -445,13 +722,23 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Broad sanctions and asset freeze regime continued. DAB assets ($7B frozen at Fed)
+        debate continued. Afghan Fund released $40M in first tranche for humanitarian
+        procurement. 1988 targeted Taliban sanctions maintained. US Treasury general
+        licenses expanded to facilitate humanitarian operations. Banking system remained
+        severely compromised. SWIFT access limited.
+      features:
+        - broad_economic_humanitarian_exceptions
+      sources:
+        - citation: "US Treasury. 'Afghan Sanctions Policy Update.' 2023."
+          url: "https://home.treasury.gov"
+          type: official_document
+          reliability: high
+      confidence: high
+      notes: "Afghan Fund first release $40M; DAB freeze continues; Taliban individual sanctions; banking restricted"
   2024:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -461,13 +748,24 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sanctions architecture unchanged. DAB assets ($7B) remained frozen. Afghan Fund
+        continued limited humanitarian disbursements. 1988 Taliban targeted sanctions
+        maintained. US general licenses provided humanitarian space but commercial
+        banking severely restricted. Taliban EITI delisting June 2024 further reduced
+        international engagement. No pathway to unfreezing central bank assets under
+        current political conditions.
+      features:
+        - broad_economic_humanitarian_exceptions
+      sources:
+        - citation: "UN Analytical Support and Sanctions Monitoring Team. 'Report S/2024/92.' 2024."
+          url: "https://www.un.org"
+          type: international_organization
+          reliability: high
+      confidence: high
+      notes: "DAB freeze unchanged; Afghan Fund disbursements; 1988 sanctions; commercial banking restricted"
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
       value: null
       unit: qualitative_scale
@@ -477,8 +775,18 @@ years:
         access_date: null
       reliability: null
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: |
+        Sanctions regime continued. DAB assets freeze maintained. Afghan Fund humanitarian
+        disbursements continued at limited scale. 1988 targeted Taliban sanctions in force.
+        International community debated conditionality for asset release but Taliban
+        made no concessions on women's rights or governance. Economic strangulation
+        continued with humanitarian carve-outs insufficient to reverse economic collapse.
+      features:
+        - broad_economic_humanitarian_exceptions
+      sources:
+        - citation: "UN OCHA. 'Afghanistan Humanitarian Update.' 2025."
+          url: "https://www.unocha.org"
+          type: international_organization
+          reliability: high
+      confidence: medium
+      notes: "DAB freeze ongoing; Taliban no concessions; limited humanitarian disbursements"

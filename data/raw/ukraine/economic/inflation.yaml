@@ -2,419 +2,598 @@ indicator: inflation
 country: ukraine
 dimension: economic
 years:
+  1999:
+    data_status: complete
+    quantitative:
+      value: 22.7
+      unit: percent_cpi_annual
+      source:
+        citation: IMF WEO / World Bank WDI, CPI inflation Ukraine
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
+    qualitative:
+      assessment: 'Inflation was 22.7% in 1999, reflecting the aftermath of the 1998 Russian financial
+
+        crisis and hryvnia devaluation. Exchange rate pass-through drove consumer price increases.
+
+        '
+      features:
+      - elevated_10_25pct
+      sources:
+      - citation: IMF WEO Ukraine
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Post-Russia crisis spillover; hryvnia devaluation pass-through
   2000:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 28.2
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI, CPI inflation Ukraine
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Inflation peaked at 28.2% in 2000 driven by energy price increases and hryvnia depreciation carry-over.
+      features:
+      - high_25_50pct
+      sources:
+      - citation: IMF WEO Ukraine
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Energy price increases and FX depreciation
   2001:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 12.0
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Inflation dropped sharply to 12% as currency stabilized and monetary policy tightened.
+      features:
+      - elevated_10_25pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Sharp disinflation as hryvnia stabilized
   2002:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 0.8
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Inflation fell to near-zero 0.8% in 2002. Strong monetary control achieved price stability.
+      features:
+      - low_lt_3pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Near price stability achieved
   2003:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 5.2
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Moderate inflation of 5.2% in 2003. Acceptable for emerging market with strong growth.
+      features:
+      - moderate_3_10pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Moderate; consistent with strong GDP growth
   2004:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 9.0
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Inflation rose to 9.0% driven by strong demand growth and commodity price rises.
+      features:
+      - moderate_3_10pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Demand-pull; Orange Revolution year
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 13.5
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Inflation rose to 13.5% in 2005. Post-Orange Revolution social spending increases
+
+        and energy import price increases from Russia drove inflation higher.
+
+        '
+      features:
+      - elevated_10_25pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Social spending increases post-revolution; energy price rises from Russia
   2006:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 9.1
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Inflation moderated to 9.1% in 2006 as monetary policy adjusted.
+      features:
+      - moderate_3_10pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Some moderation; hryvnia peg maintained
   2007:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 12.8
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Inflation rose to 12.8% driven by global food and energy price increases and domestic demand boom.
+      features:
+      - elevated_10_25pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Global food/energy inflation plus domestic demand boom
   2008:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 25.2
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Inflation surged to 25.2% in 2008. Global commodity price spike, strong credit growth,
+
+        and energy import price increases drove inflation. IMF emergency bailout in November 2008.
+
+        '
+      features:
+      - high_25_50pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Pre-crisis commodity and credit boom inflation; IMF bailout Q4 2008
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 15.9
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Inflation remained elevated at 15.9% despite severe economic contraction, driven by hryvnia depreciation.
+      features:
+      - elevated_10_25pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Stagflation; FX devaluation maintained inflation despite deep recession
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 9.4
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Inflation moderated to 9.4% in 2010 as recovery began and base effects normalized.
+      features:
+      - moderate_3_10pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Post-crisis normalization; Yanukovych presidency
   2011:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 8.0
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Inflation continued declining to 8.0%.
+      features:
+      - moderate_3_10pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Continued disinflation trend
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 0.6
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Inflation near zero at 0.6% in 2012. Economic stagnation contributed to price stability.
+      features:
+      - low_lt_3pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Near price stability; stagnation contributing
   2013:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: -0.3
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Mild deflation of -0.3% in 2013. Euromaidan protests began November 2013 as
+
+        Yanukovych rejected EU Association Agreement.
+
+        '
+      features:
+      - low_lt_3pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Mild deflation; pre-revolution economic stagnation
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 12.1
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Inflation jumped to 12.1% following the Euromaidan revolution, Crimea annexation,
+
+        and beginning of Donbas conflict. Hryvnia depreciated sharply; energy prices adjusted.
+
+        '
+      features:
+      - elevated_10_25pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Revolution/conflict inflation; hryvnia depreciation; energy adjustment
   2015:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 48.7
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Inflation spiked to 48.7% — the highest since 1990s. Driven by massive hryvnia
+
+        depreciation (~65% against USD), energy price deregulation required by IMF,
+
+        disruption to eastern industrial production, and loss of Russian trade.
+
+        '
+      features:
+      - high_25_50pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Worst inflation since 1990s; hryvnia crashed; energy deregulation; Donbas war
   2016:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 13.9
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Inflation dropped sharply to 13.9% as currency stabilized and base effects normalized post-2015 spike.
+      features:
+      - elevated_10_25pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Sharp drop from 48.7%; hryvnia stabilization
   2017:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 14.4
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Inflation remained elevated at 14.4% as energy price deregulation continued under IMF program.
+      features:
+      - elevated_10_25pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Energy deregulation continuing
   2018:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 10.9
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Inflation declined to 10.9% as NBU tightened monetary policy and hryvnia stabilized.
+      features:
+      - elevated_10_25pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: NBU tightening effective
   2019:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 7.9
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Inflation fell to 7.9% approaching NBU target band. Zelensky government supported NBU independence.
+      features:
+      - moderate_3_10pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Approaching NBU target; best inflation since pre-crisis
   2020:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 2.7
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Inflation fell to 2.7% amid COVID-19 demand contraction. Very low by Ukrainian historical standards.
+      features:
+      - low_lt_3pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: COVID demand destruction lowered inflation
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 9.4
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Inflation rose to 9.4% as global supply chain disruptions and commodity price increases fed through.
+      features:
+      - moderate_3_10pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Global post-COVID supply disruptions
   2022:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 20.2
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: 'Inflation surged to 20.2% following Russia''s full-scale invasion. Supply disruptions,
+
+        hryvnia pressure, infrastructure destruction, and commodity price spikes drove inflation.
+
+        Remarkably contained given the scale of the war.
+
+        '
+      features:
+      - elevated_10_25pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: War inflation; NBU maintained credibility despite invasion
   2023:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 12.9
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Inflation declined to 12.9% as NBU tightened rates aggressively and hryvnia stabilized with Western support.
+      features:
+      - elevated_10_25pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Declining war inflation; NBU tightening effective
   2024:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 6.5
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO / World Bank WDI
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        access_date: '2026-03-01'
+      reliability: high
     qualitative:
-      assessment: null
-      features: []
-      sources: []
-      confidence: null
-      notes: null
+      assessment: Inflation fell to 6.5% in 2024, a remarkable achievement given ongoing war conditions.
+      features:
+      - moderate_3_10pct
+      sources:
+      - citation: IMF WEO
+        url: https://www.imf.org/external/datamapper/profile/UKR
+        type: international_organization
+        reliability: high
+      confidence: high
+      notes: Sharp decline; NBU credibility maintained
   2025:
-    data_status: missing
+    data_status: partial
     quantitative:
-      value: null
-      unit: percent_annual
+      value: 8.0
+      unit: percent_cpi_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation: IMF WEO projections, Ukraine 2025
+        url: https://www.imf.org/en/countries/ukr
+        access_date: '2026-03-01'
+      reliability: low
     qualitative:
-      assessment: null
-      features: []
+      assessment: Provisional 2025 estimate; IMF projected moderate inflation depending on war developments.
+      features:
+      - moderate_3_10pct
       sources: []
-      confidence: null
-      notes: null
+      confidence: low
+      notes: 2025 provisional
