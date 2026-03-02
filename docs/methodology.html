@@ -72,7 +72,7 @@
         (reversals such as press freedom and inflation are inverted).
       </p>
 
-      <h3>Political (5 indicators)</h3>
+      <h3 id="dim-political">Political (5 indicators)</h3>
       <table class="indicator-table">
         <thead><tr><th>Indicator</th><th>Measures</th><th>Primary Sources</th></tr></thead>
         <tbody>
@@ -84,7 +84,7 @@
         </tbody>
       </table>
 
-      <h3>Economic (5 indicators)</h3>
+      <h3 id="dim-economic">Economic (5 indicators)</h3>
       <table class="indicator-table">
         <thead><tr><th>Indicator</th><th>Measures</th><th>Primary Sources</th></tr></thead>
         <tbody>
@@ -96,7 +96,7 @@
         </tbody>
       </table>
 
-      <h3>International (5 indicators)</h3>
+      <h3 id="dim-international">International (5 indicators)</h3>
       <table class="indicator-table">
         <thead><tr><th>Indicator</th><th>Measures</th><th>Primary Sources</th></tr></thead>
         <tbody>
@@ -108,7 +108,7 @@
         </tbody>
       </table>
 
-      <h3>Transparency (5 indicators)</h3>
+      <h3 id="dim-transparency">Transparency (5 indicators)</h3>
       <table class="indicator-table">
         <thead><tr><th>Indicator</th><th>Measures</th><th>Primary Sources</th></tr></thead>
         <tbody>
@@ -303,8 +303,9 @@ function renderDefCard(def) {
     ? `<div class="def-break-notice"><strong>Methodology break:</strong> ${esc(breakText)}</div>`
     : "";
 
+  const anchorId = `ind-${(def.id ?? "").replace("/", "-")}`;
   return `
-    <details class="def-details">
+    <details class="def-details" id="${anchorId}">
       <summary class="def-summary">${esc(def.label ?? def.id)} ${sourceTag}</summary>
       ${breakHtml}
       <dl class="def-body">${body}</dl>

@@ -79,6 +79,7 @@ function _renderCountryList(s) {
         ${displayName}
         ${rcYears.length > 0 ? `<small class="country-regime-years">${rcYears.join(", ")}</small>` : ""}
       </span>
+      <a href="countries.html?country=${id}" target="_blank" rel="noopener" class="info-link country-info-link" title="View country page">↗</a>
     `;
 
     ul.appendChild(li);
@@ -224,6 +225,14 @@ function _regionLabel(id) {
   }[id] ?? id;
 }
 
+// ── Helpers ─────────────────────────────────────────────────────────────────────
+
+function _methodologyAnchor(ind) {
+  if (ind.id === "composite") return "aggregation";
+  if (ind.type === "dimension") return `dim-${ind.id}`;
+  return `ind-${ind.id.replace("/", "-")}`;
+}
+
 // ── Metric list ─────────────────────────────────────────────────────────────────
 
 function _renderMetricList() {
@@ -245,6 +254,7 @@ function _renderMetricList() {
     li.innerHTML = `
       <input type="checkbox" class="metric-check" data-id="${ind.id}" ${checked ? "checked" : ""}>
       <span class="metric-label">${ind.label}</span>
+      <a href="methodology.html#${_methodologyAnchor(ind)}" target="_blank" rel="noopener" class="info-link" title="View in methodology">ℹ</a>
     `;
     ul.appendChild(li);
   }

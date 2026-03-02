@@ -144,8 +144,8 @@ function _renderOverlay(el, seriesList, appState) {
             yref: "paper",
             line: {
               color: getColor(s.countryId, _colorMap),
-              width: 1,
-              dash: "dot",
+              width: 1.5,
+              dash: "dash",
             },
           });
         }
@@ -229,7 +229,7 @@ function _renderStacked(el, seriesList, appState) {
         xref: xAxis,
         yref: `${yAxis} domain`,
         x0: x, x1: x, y0: 0, y1: 1,
-        line: { color: "#aaa", width: 1, dash: "dot" },
+        line: { color: "#888", width: 1.5, dash: "dash" },
       });
     }
   }

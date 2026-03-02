@@ -192,6 +192,21 @@ body {
   display: block;
 }
 
+/* ── Info/page links on sidebar items ──────────────────────────────────────── */
+.info-link {
+  margin-left: auto;
+  flex-shrink: 0;
+  font-size: 11px;
+  color: var(--text-muted);
+  text-decoration: none;
+  opacity: 0.5;
+  line-height: 1;
+  padding: 1px 2px;
+}
+.info-link:hover { opacity: 1; color: var(--accent); }
+.country-info-link { opacity: 0; }
+.country-item:hover .country-info-link { opacity: 0.6; }
+
 .country-sub-row {
   padding: 2px 0 4px 18px;
   display: flex;
