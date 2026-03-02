@@ -41,9 +41,19 @@ function getDash(id) {
 
 // ── Build Plotly traces & layout ───────────────────────────────────────────────
 
-function buildHoverTemplate(countryLabel, metricLabel, xMode) {
-  const xLabel = xMode === "absolute" ? "%{x}" : "t=%{x}";
-  return `<b>${countryLabel}</b> ${xLabel}<br>${metricLabel}: %{y:.1f}<extra></extra>`;
+/**
+ * customdata per point: [calendarYear, tOffset]
+ * tOffset is year - pivotYear, or null if no pivot year known.
+ */
+function buildCustomdata(points, pivotYear) {
+  return points.map((p) => [p.year, pivotYear != null ? p.year - pivotYear : null]);
+}
+
+function buildHoverTemplate(countryLabel, metricLabel, pivotYear) {
+  const tLine = pivotYear != null
+    ? `<br>t = %{customdata[1]} (from ${pivotYear})`
+    : "";
+  return `<b>${countryLabel}</b><br>${metricLabel}: %{y:.1f}<br>Year: %{customdata[0]}${tLine}<extra></extra>`;
 }
 
 /**
@@ -102,11 +112,12 @@ function _renderOverlay(el, seriesList, appState) {
     traces.push({
       x: s.points.map((p) => p.x),
       y: s.points.map((p) => p.y),
+      customdata: buildCustomdata(s.points, s.pivotYear),
       type: "scatter",
       mode: "lines",
       name,
       line: { color, dash, width: 1.8 },
-      hovertemplate: buildHoverTemplate(s.countryLabel, s.metricLabel, appState.xMode),
+      hovertemplate: buildHoverTemplate(s.countryLabel, s.metricLabel, s.pivotYear),
     });
 
     // In absolute mode, mark regime change years with a triangle on the curve
@@ -117,12 +128,13 @@ function _renderOverlay(el, seriesList, appState) {
         traces.push({
           x: rcPoints.map((p) => p.x),
           y: rcPoints.map((p) => p.y),
+          customdata: buildCustomdata(rcPoints, s.pivotYear),
           type: "scatter",
           mode: "markers",
           name,
           showlegend: false,
           marker: { color, symbol: "triangle-up", size: 10, line: { color: "#fff", width: 1 } },
-          hovertemplate: buildHoverTemplate(s.countryLabel, s.metricLabel + " (regime change)", appState.xMode),
+          hovertemplate: buildHoverTemplate(s.countryLabel, s.metricLabel + " (regime change)", s.pivotYear),
         });
       }
     }
@@ -209,13 +221,14 @@ function _renderStacked(el, seriesList, appState) {
       traces.push({
         x: s.points.map((p) => p.x),
         y: s.points.map((p) => p.y),
+        customdata: buildCustomdata(s.points, s.pivotYear),
         type: "scatter",
         mode: "lines",
         name: s.metricLabel,
         xaxis: xAxis,
         yaxis: yAxis,
         line: { color, dash, width: 1.8 },
-        hovertemplate: buildHoverTemplate(s.countryLabel, s.metricLabel, appState.xMode),
+        hovertemplate: buildHoverTemplate(s.countryLabel, s.metricLabel, s.pivotYear),
         showlegend: row === 0, // show legend entries only once
         legendgroup: s.metricId,
       });
@@ -248,6 +261,7 @@ function _renderStacked(el, seriesList, appState) {
     plot_bgcolor: "#ffffff",
     font: { family: "-apple-system, 'Inter', system-ui, sans-serif", size: 12 },
     hovermode: "closest",
+    hoverlabel: { bordercolor: "transparent", font: { size: 12 } },
     shapes,
     legend: { orientation: "h", y: -0.06, font: { size: 11 } },
     autosize: true,
@@ -308,6 +322,7 @@ function _baseLayout(appState) {
     plot_bgcolor: "#ffffff",
     font: { family: "-apple-system, 'Inter', system-ui, sans-serif", size: 12 },
     hovermode: "closest",
+    hoverlabel: { bordercolor: "transparent", font: { size: 12 } },
     xaxis: {
       title: { text: xTitle, font: { size: 11 }, standoff: 8 },
       showgrid: true,

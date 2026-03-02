@@ -211,6 +211,17 @@ export function getAllCountrySeries(appState, allData) {
 
     const displayName = countries[countryId]?.display_name ?? countryId;
     const rcXs = getRegimeChangeXPositions(countryId, appState, countries);
+    const rcYears = countries[countryId]?.regime_change_years ?? [];
+
+    // Pivot year used for t= computation in tooltips
+    let pivotYear = null;
+    if (appState.xMode === "aligned") {
+      pivotYear = appState.alignYears?.[countryId] ?? rcYears[0] ?? null;
+    } else if (appState.xMode === "pivot") {
+      pivotYear = appState.pivots?.[countryId] ?? rcYears[0] ?? null;
+    } else {
+      pivotYear = rcYears[0] ?? null; // absolute: annotate relative to first rc year
+    }
 
     for (const metricId of appState.metrics) {
       const points = getSeries(countryId, metricId, appState, allData);
@@ -223,6 +234,7 @@ export function getAllCountrySeries(appState, allData) {
         metricLabel: metricLabels[metricId] ?? metricId,
         points,
         regimeChangeXs: rcXs,
+        pivotYear,
       });
     }
   }
