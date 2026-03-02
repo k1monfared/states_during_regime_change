@@ -32,6 +32,7 @@
         <div class="sidebar-section-body">
           <input type="text" id="country-search" placeholder="Search..." autocomplete="off">
           <ul id="country-list"></ul>
+          <div id="country-groups"></div>
           <div class="group-buttons" id="group-buttons"></div>
         </div>
       </div>
@@ -63,6 +64,45 @@
           <label><input type="radio" name="x-mode" value="absolute"><span>Absolute</span></label>
           <label><input type="radio" name="x-mode" value="aligned"><span>Aligned</span></label>
           <label><input type="radio" name="x-mode" value="pivot"><span>Pivot</span></label>
+        </div>
+
+        <span style="margin-left:12px" class="toolbar-label">Analysis:</span>
+        <div class="overlay-toggle-group">
+
+          <label class="overlay-toggle-label">
+            <input type="checkbox" id="cb-overlay-bands"><span>Confidence</span>
+          </label>
+          <div class="overlay-sub-row" id="sub-bands">
+            <div class="radio-group radio-group-sm">
+              <label><input type="radio" name="bands-method" value="quality"><span>Data quality</span></label>
+              <label><input type="radio" name="bands-method" value="variance"><span>Score variance</span></label>
+            </div>
+          </div>
+
+          <label class="overlay-toggle-label">
+            <input type="checkbox" id="cb-overlay-volatility"><span>Volatility</span>
+          </label>
+          <div class="overlay-sub-row" id="sub-volatility">
+            <div class="radio-group radio-group-sm">
+              <label><input type="radio" name="volatility-window" value="3"><span>3-yr</span></label>
+              <label><input type="radio" name="volatility-window" value="5"><span>5-yr</span></label>
+            </div>
+          </div>
+
+          <label class="overlay-toggle-label">
+            <input type="checkbox" id="cb-overlay-trend"><span>Trend</span>
+          </label>
+          <div class="overlay-sub-row" id="sub-trend">
+            <div class="radio-group radio-group-sm">
+              <label><input type="radio" name="trend-method" value="slope"><span>Slope</span></label>
+              <label><input type="radio" name="trend-method" value="mannkendall"><span>Mann-Kendall</span></label>
+            </div>
+          </div>
+
+          <label class="overlay-toggle-label">
+            <input type="checkbox" id="cb-overlay-source-markers"><span>Sources ◇</span>
+          </label>
+
         </div>
 
         <div class="toolbar-spacer"></div>
@@ -169,13 +209,13 @@ return 0.5 * gov + 0.5 * econ"></textarea>
     // Subscribe to state changes → re-render chart
     state.subscribe((s) => {
       const seriesList = getAllCountrySeries(s, allData);
-      render(seriesList, s);
+      render(seriesList, s, allData);
     });
 
     // Initial chart render
     const s = state.get();
     const seriesList = getAllCountrySeries(s, allData);
-    render(seriesList, s);
+    render(seriesList, s, allData);
   }
 
   main().catch(console.error);

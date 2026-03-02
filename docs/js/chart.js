@@ -4,6 +4,11 @@
  * Uses Plotly.react() for efficient diff-updates.
  */
 
+import {
+  computeConfidenceBand, computeVolatility,
+  computeTrend, computeSourceChangeXs,
+} from "./data.js";
+
 // 10-color palette, colorblind-accessible
 const COUNTRY_COLORS = [
   "#2563eb", // blue
@@ -42,26 +47,30 @@ function getDash(id) {
 // ── Build Plotly traces & layout ───────────────────────────────────────────────
 
 /**
- * customdata per point: [calendarYear, tOffset]
- * tOffset is year - pivotYear, or null if no pivot year known.
+ * Pre-build hover text per point (year + t= offset) as a plain string.
+ * Using `text` attribute instead of `customdata` for reliable Plotly.js support.
  */
-function buildCustomdata(points, pivotYear) {
-  return points.map((p) => [p.year, pivotYear != null ? p.year - pivotYear : null]);
+function buildHoverText(points, pivotYear) {
+  return points.map((p) => {
+    let s = `Year: ${p.year}`;
+    if (pivotYear != null) {
+      s += `<br>t = ${p.year - pivotYear} (from ${pivotYear})`;
+    }
+    return s;
+  });
 }
 
-function buildHoverTemplate(countryLabel, metricLabel, pivotYear) {
-  const tLine = pivotYear != null
-    ? `<br>t = %{customdata[1]} (from ${pivotYear})`
-    : "";
-  return `<b>${countryLabel}</b><br>${metricLabel}: %{y:.1f}<br>Year: %{customdata[0]}${tLine}<extra></extra>`;
+function buildHoverTemplate(countryLabel, metricLabel) {
+  return `<b>${countryLabel}</b><br>${metricLabel}: %{y:.1f}<br>%{text}<extra></extra>`;
 }
 
 /**
- * render(seriesList, appState)
+ * render(seriesList, appState, allData)
  * seriesList: output of getAllCountrySeries()
  * appState: current state snapshot
+ * allData: {combined, countries, indicators} for overlay computations
  */
-export function render(seriesList, appState) {
+export function render(seriesList, appState, allData) {
   const el = document.getElementById("chart");
   const emptyEl = document.getElementById("chart-empty");
 
@@ -76,29 +85,200 @@ export function render(seriesList, appState) {
   if (emptyEl) emptyEl.style.display = "none";
 
   if (appState.chartMode === "stacked") {
-    _renderStacked(el, seriesList, appState);
+    _renderStacked(el, seriesList, appState, allData);
   } else {
-    _renderOverlay(el, seriesList, appState);
+    _renderOverlay(el, seriesList, appState, allData);
   }
+}
+
+// ── Overlay trace builders ──────────────────────────────────────────────────────
+
+/**
+ * _buildOverlayTraces(s, appState, allData, axisConfig)
+ * Returns array of Plotly trace objects for overlays (bands, volatility, source markers).
+ * axisConfig: {xAxis, yAxis, color}
+ */
+function _buildOverlayTraces(s, appState, allData, axisConfig) {
+  const { xAxis, yAxis, color } = axisConfig;
+  const traces = [];
+  const combined = allData?.combined;
+
+  if (appState.overlayBands && combined) {
+    const bands = computeConfidenceBand(
+      s.points, s.metricId, combined, s.countryId, appState.overlayBandsMethod
+    );
+    const validBands = bands.filter((b) => b.yHigh != null);
+    if (validBands.length > 0) {
+      // Upper bound (invisible line)
+      traces.push({
+        x: bands.map((b) => b.x),
+        y: bands.map((b) => b.yHigh),
+        type: "scatter",
+        mode: "lines",
+        line: { color: "transparent", width: 0 },
+        showlegend: false,
+        hoverinfo: "skip",
+        xaxis: xAxis,
+        yaxis: yAxis,
+      });
+      // Lower bound with fill to upper
+      traces.push({
+        x: bands.map((b) => b.x),
+        y: bands.map((b) => b.yLow),
+        type: "scatter",
+        mode: "lines",
+        line: { color: "transparent", width: 0 },
+        fill: "tonexty",
+        fillcolor: color + "33",
+        showlegend: false,
+        hoverinfo: "skip",
+        xaxis: xAxis,
+        yaxis: yAxis,
+      });
+    }
+  }
+
+  if (appState.overlayVolatility) {
+    const volData = computeVolatility(s.points, appState.overlayVolatilityWindow ?? 3);
+    const xs = s.points.map((p) => p.x);
+    const ys = s.points.map((p) => p.y);
+    // Upper envelope: y + vol
+    traces.push({
+      x: xs,
+      y: ys.map((y, i) => volData[i].vol != null ? Math.min(100, y + volData[i].vol) : null),
+      type: "scatter",
+      mode: "lines",
+      line: { color: "transparent", width: 0 },
+      showlegend: false,
+      hoverinfo: "skip",
+      xaxis: xAxis,
+      yaxis: yAxis,
+    });
+    // Lower envelope with fill
+    traces.push({
+      x: xs,
+      y: ys.map((y, i) => volData[i].vol != null ? Math.max(0, y - volData[i].vol) : null),
+      type: "scatter",
+      mode: "lines",
+      line: { color: "transparent", width: 0 },
+      fill: "tonexty",
+      fillcolor: color + "22",
+      showlegend: false,
+      hoverinfo: "skip",
+      xaxis: xAxis,
+      yaxis: yAxis,
+    });
+  }
+
+  if (appState.overlaySourceMarkers && combined) {
+    const changeXs = computeSourceChangeXs(s.points, s.metricId, combined, s.countryId);
+    if (changeXs.length > 0) {
+      const changePoints = s.points.filter((p) => changeXs.includes(p.x));
+      traces.push({
+        x: changePoints.map((p) => p.x),
+        y: changePoints.map((p) => p.y),
+        type: "scatter",
+        mode: "markers",
+        name: "Source change",
+        showlegend: false,
+        hoverinfo: "skip",
+        marker: {
+          symbol: "diamond",
+          size: 9,
+          color: "#fff",
+          line: { color, width: 2 },
+        },
+        xaxis: xAxis,
+        yaxis: yAxis,
+      });
+    }
+  }
+
+  return traces;
+}
+
+/**
+ * _buildTrendAnnotations(seriesList, appState, yref?)
+ * Returns array of Plotly layout.annotations for trend indicators.
+ */
+function _buildTrendAnnotations(seriesList, appState, yrefFn) {
+  if (!appState.overlayTrend) return [];
+  const annotations = [];
+
+  for (const s of seriesList) {
+    if (s.points.length < 3) continue;
+    const trend = computeTrend(
+      s.points,
+      appState.overlayTrendMethod ?? "slope",
+      appState.overlayTrendWindow ?? 5
+    );
+    if (!trend) continue;
+
+    const lastPt = s.points[s.points.length - 1];
+    const color = getColor(s.countryId, _colorMap);
+    const yref = yrefFn ? yrefFn(s) : "y";
+
+    annotations.push({
+      x: lastPt.x,
+      y: lastPt.y,
+      xref: "x",
+      yref,
+      text: trend.label,
+      showarrow: false,
+      xanchor: "left",
+      xshift: 6,
+      font: { size: 10, color },
+    });
+  }
+
+  return annotations;
 }
 
 // ── Overlay mode ───────────────────────────────────────────────────────────────
 
-function _renderOverlay(el, seriesList, appState) {
-  const traces = [];
-  const annotations = [];
-  const seenRC = new Set(); // avoid duplicate RC line labels
+function _renderOverlay(el, seriesList, appState, allData) {
+  const mainTraces = [];
+  const overlayTraces = [];
+  const legendTraces = [];
+  const shapes = [];
+  const seenRC = new Set();
 
-  // Collect unique countries for RC annotations
-  const countriesInOrder = appState.countryOrder.filter((c) =>
-    appState.countries.includes(c)
-  );
+  const multiMetric = appState.metrics.length > 1;
+  const multiCountry = appState.countries.length > 1;
+  const splitLegend = multiMetric && multiCountry;
+
+  // In multi-country + multi-metric mode, add legend-only dummy traces so the
+  // legend shows colors → countries and line styles → metrics separately.
+  if (splitLegend) {
+    const seenCountries = new Set();
+    const seenMetrics = new Set();
+    for (const s of seriesList) {
+      if (!seenCountries.has(s.countryId)) {
+        seenCountries.add(s.countryId);
+        legendTraces.push({
+          x: [], y: [], type: "scatter", mode: "lines",
+          name: s.countryLabel,
+          line: { color: getColor(s.countryId, _colorMap), dash: "solid", width: 2 },
+          showlegend: true,
+          hoverinfo: "skip",
+        });
+      }
+      if (!seenMetrics.has(s.metricId)) {
+        seenMetrics.add(s.metricId);
+        legendTraces.push({
+          x: [], y: [], type: "scatter", mode: "lines",
+          name: s.metricLabel,
+          line: { color: "#888", dash: getDash(s.metricId), width: 2 },
+          showlegend: true,
+          hoverinfo: "skip",
+        });
+      }
+    }
+  }
 
   for (const s of seriesList) {
     const color = getColor(s.countryId, _colorMap);
-    const dash = appState.metrics.length > 1 ? getDash(s.metricId) : "solid";
-    const multiMetric = appState.metrics.length > 1;
-    const multiCountry = appState.countries.length > 1;
+    const dash = multiMetric ? getDash(s.metricId) : "solid";
 
     let name;
     if (multiMetric && multiCountry) {
@@ -109,15 +289,20 @@ function _renderOverlay(el, seriesList, appState) {
       name = s.countryLabel;
     }
 
-    traces.push({
+    // Build overlay traces (render behind main lines)
+    const axisConfig = { xAxis: undefined, yAxis: undefined, color };
+    overlayTraces.push(..._buildOverlayTraces(s, appState, allData, axisConfig));
+
+    mainTraces.push({
       x: s.points.map((p) => p.x),
       y: s.points.map((p) => p.y),
-      customdata: buildCustomdata(s.points, s.pivotYear),
+      text: buildHoverText(s.points, s.pivotYear),
       type: "scatter",
       mode: "lines",
       name,
+      showlegend: !splitLegend,
       line: { color, dash, width: 1.8 },
-      hovertemplate: buildHoverTemplate(s.countryLabel, s.metricLabel, s.pivotYear),
+      hovertemplate: buildHoverTemplate(s.countryLabel, s.metricLabel),
     });
 
     // In absolute mode, mark regime change years with a triangle on the curve
@@ -125,29 +310,29 @@ function _renderOverlay(el, seriesList, appState) {
       const rcSet = new Set(s.regimeChangeXs);
       const rcPoints = s.points.filter((p) => rcSet.has(p.x));
       if (rcPoints.length > 0) {
-        traces.push({
+        mainTraces.push({
           x: rcPoints.map((p) => p.x),
           y: rcPoints.map((p) => p.y),
-          customdata: buildCustomdata(rcPoints, s.pivotYear),
+          text: buildHoverText(rcPoints, s.pivotYear),
           type: "scatter",
           mode: "markers",
           name,
           showlegend: false,
           marker: { color, symbol: "triangle-up", size: 10, line: { color: "#fff", width: 1 } },
-          hovertemplate: buildHoverTemplate(s.countryLabel, s.metricLabel + " (regime change)", s.pivotYear),
+          hovertemplate: buildHoverTemplate(s.countryLabel, s.metricLabel + " (regime change)"),
         });
       }
     }
   }
 
-  // Regime change vertical lines (overlay: one annotation set)
+  // Regime change vertical lines (overlay: one shape set)
   if (appState.xMode !== "absolute") {
     for (const s of seriesList) {
       for (const x of s.regimeChangeXs) {
         const key = `${s.countryId}:${x}`;
         if (!seenRC.has(key)) {
           seenRC.add(key);
-          annotations.push({
+          shapes.push({
             type: "line",
             x0: x,
             x1: x,
@@ -166,15 +351,17 @@ function _renderOverlay(el, seriesList, appState) {
   }
 
   const layout = _baseLayout(appState);
-  layout.shapes = annotations;
+  layout.shapes = shapes;
   layout.legend = { orientation: "h", y: -0.12, font: { size: 11 } };
+  layout.annotations = _buildTrendAnnotations(seriesList, appState);
 
-  Plotly.react(el, traces, layout, _config());
+  // legendTraces first (so they anchor the legend order), then overlays, then main lines
+  Plotly.react(el, [...legendTraces, ...overlayTraces, ...mainTraces], layout, _config());
 }
 
 // ── Stacked mode ───────────────────────────────────────────────────────────────
 
-function _renderStacked(el, seriesList, appState) {
+function _renderStacked(el, seriesList, appState, allData) {
   const countriesInOrder = appState.countryOrder.filter((c) =>
     appState.countries.includes(c)
   );
@@ -206,6 +393,7 @@ function _renderStacked(el, seriesList, appState) {
   }
 
   // Build traces and shapes
+  const allAnnotations = [];
   for (let row = 0; row < N; row++) {
     const countryId = countriesInOrder[row];
     const axisNum = row === 0 ? "" : String(row + 1);
@@ -218,21 +406,33 @@ function _renderStacked(el, seriesList, appState) {
       const color = metricColorMap[s.metricId] ?? COUNTRY_COLORS[0];
       const dash = appState.metrics.length > 1 ? getDash(s.metricId) : "solid";
 
+      // Overlay traces for this row (behind main line)
+      const rowOverlays = _buildOverlayTraces(s, appState, allData, { xAxis, yAxis, color });
+      traces.push(...rowOverlays);
+
       traces.push({
         x: s.points.map((p) => p.x),
         y: s.points.map((p) => p.y),
-        customdata: buildCustomdata(s.points, s.pivotYear),
+        text: buildHoverText(s.points, s.pivotYear),
         type: "scatter",
         mode: "lines",
         name: s.metricLabel,
         xaxis: xAxis,
         yaxis: yAxis,
         line: { color, dash, width: 1.8 },
-        hovertemplate: buildHoverTemplate(s.countryLabel, s.metricLabel, s.pivotYear),
+        hovertemplate: buildHoverTemplate(s.countryLabel, s.metricLabel),
         showlegend: row === 0, // show legend entries only once
         legendgroup: s.metricId,
       });
     }
+
+    // Trend annotations for this row
+    const rowAnnotations = _buildTrendAnnotations(
+      countrySeries,
+      appState,
+      () => yAxis
+    );
+    allAnnotations.push(...rowAnnotations);
 
     // Regime change lines
     const rcXs = countrySeries[0]?.regimeChangeXs ?? [];
@@ -263,6 +463,7 @@ function _renderStacked(el, seriesList, appState) {
     hovermode: "closest",
     hoverlabel: { bordercolor: "transparent", font: { size: 12 } },
     shapes,
+    annotations: allAnnotations,
     legend: { orientation: "h", y: -0.06, font: { size: 11 } },
     autosize: true,
   };

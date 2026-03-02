@@ -6,6 +6,17 @@
 
 import { state } from "./state.js";
 
+// Mirror chart.js color/dash assignments for sidebar indicators
+const COUNTRY_COLORS = [
+  "#2563eb","#dc2626","#16a34a","#d97706","#7c3aed",
+  "#0891b2","#db2777","#65a30d","#ea580c","#475569",
+];
+const METRIC_DASH = ["solid","dash","dot","dashdot","longdash"];
+
+// Collapse state for sidebar groups (persists across re-renders)
+let _collapsedMetricGroups = new Set();
+let _collapsedCountryGroups = new Set();
+
 let _allData = null;
 let _sortable = null;
 let _customIdCounter = 0;
@@ -35,6 +46,27 @@ function _removeFromLibrary(slug) {
 
 function _toSlug(name) {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "");
+}
+
+// Returns the chart color for a selected country (based on its position in the
+// selected+ordered list, matching chart.js getColor assignment order).
+function _countryColor(countryId, selectedInOrder) {
+  const idx = selectedInOrder.indexOf(countryId);
+  return idx >= 0 ? COUNTRY_COLORS[idx % COUNTRY_COLORS.length] : null;
+}
+
+// Returns a small SVG line element representing a dash style.
+function _dashSvg(dash, active = true) {
+  const arrays = {
+    solid: "",
+    dash: "5,2.5",
+    dot: "1.5,2",
+    dashdot: "5,2,1.5,2",
+    longdash: "8,3",
+  };
+  const da = arrays[dash] ?? "";
+  const color = active ? "#555" : "#ccc";
+  return `<svg class="metric-dash-svg" width="18" height="10" viewBox="0 0 18 10"><line x1="1" y1="5" x2="17" y2="5" stroke="${color}" stroke-width="2.5"${da ? ` stroke-dasharray="${da}"` : ""}></line></svg>`;
 }
 
 function _methodologyAnchor(ind) {
@@ -85,30 +117,23 @@ function _renderCountryList(s) {
   const allIds = Object.keys(countriesMeta).filter((k) => !k.startsWith("_"));
   const selectedSet = new Set(s.countries);
 
-  const orderedSelected = s.countryOrder.filter((id) => allIds.includes(id));
-  const unselected = allIds
-    .filter((id) => !selectedSet.has(id))
-    .sort((a, b) =>
-      (countriesMeta[a]?.display_name ?? a).localeCompare(
-        countriesMeta[b]?.display_name ?? b
-      )
-    );
+  // orderedSelected: selected countries in drag order
+  const orderedSelected = s.countryOrder.filter((id) => allIds.includes(id) && selectedSet.has(id));
 
-  const displayList = [...orderedSelected, ...unselected];
+  // ── Selected countries in #country-list UL (draggable) ──────────────────────
+  ul.innerHTML = "";
 
-  const filtered = displayList.filter((id) => {
+  const filteredSelected = orderedSelected.filter((id) => {
     if (!search) return true;
     const name = (countriesMeta[id]?.display_name ?? id).toLowerCase();
     return name.includes(search);
   });
 
-  ul.innerHTML = "";
-
-  for (const id of filtered) {
+  for (const id of filteredSelected) {
     const meta = countriesMeta[id];
     const displayName = meta?.display_name ?? id;
     const rcYears = meta?.regime_change_years ?? [];
-    const isSelected = selectedSet.has(id);
+    const color = _countryColor(id, orderedSelected);
 
     const li = document.createElement("li");
     li.className = "country-item";
@@ -116,7 +141,8 @@ function _renderCountryList(s) {
 
     li.innerHTML = `
       <span class="drag-handle" title="Drag to reorder">⠿</span>
-      <input type="checkbox" class="country-check" ${isSelected ? "checked" : ""} data-id="${id}">
+      <span class="country-color-dot" style="background:${color || 'transparent'};border:${color ? 'none' : '1px solid var(--border)'}"></span>
+      <input type="checkbox" class="country-check" checked data-id="${id}">
       <span class="country-label">
         ${displayName}
         ${rcYears.length > 0 ? `<small class="country-regime-years">${rcYears.join(", ")}</small>` : ""}
@@ -126,7 +152,7 @@ function _renderCountryList(s) {
 
     ul.appendChild(li);
 
-    if (isSelected && s.xMode === "aligned" && rcYears.length > 1) {
+    if (s.xMode === "aligned" && rcYears.length > 1) {
       const alignRow = document.createElement("div");
       alignRow.className = "country-sub-row country-align-row";
       alignRow.dataset.for = id;
@@ -143,7 +169,7 @@ function _renderCountryList(s) {
       ul.appendChild(alignRow);
     }
 
-    if (isSelected && s.xMode === "pivot") {
+    if (s.xMode === "pivot") {
       const pivotRow = document.createElement("div");
       pivotRow.className = "country-sub-row country-pivot-row visible";
       pivotRow.dataset.for = id;
@@ -169,6 +195,7 @@ function _renderCountryList(s) {
     }
   }
 
+  // Wire events for selected countries in ul
   ul.querySelectorAll(".country-check").forEach((cb) => {
     cb.addEventListener("change", () => state.toggleCountry(cb.dataset.id));
   });
@@ -218,6 +245,7 @@ function _renderCountryList(s) {
     });
   });
 
+  // ── Sortable on #country-list (selected only) ────────────────────────────────
   if (_sortable) { _sortable.destroy(); _sortable = null; }
   if (window.Sortable) {
     _sortable = new Sortable(ul, {
@@ -235,7 +263,134 @@ function _renderCountryList(s) {
     });
   }
 
+  // ── Unselected countries in #country-groups grouped by region ────────────────
+  _renderCountryGroups(s, allIds, selectedSet, search, orderedSelected, countriesMeta);
+
   _renderGroupButtons(s);
+}
+
+function _renderCountryGroups(s, allIds, selectedSet, search, orderedSelected, countriesMeta) {
+  const container = document.getElementById("country-groups");
+  if (!container) return;
+
+  const groups = _allData.countries._groups?.by_region ?? {};
+  const REGION_ORDER = ["mena", "africa_violent", "africa_peaceful", "eastern_europe", "asia", "latin_america"];
+
+  // Build a map: countryId -> regionId
+  const countryToRegion = {};
+  for (const [regionId, ids] of Object.entries(groups)) {
+    for (const id of ids) countryToRegion[id] = regionId;
+  }
+
+  // Collect unselected countries (filtered by search)
+  const unselectedIds = allIds.filter((id) => {
+    if (selectedSet.has(id)) return false;
+    if (search) {
+      const name = (countriesMeta[id]?.display_name ?? id).toLowerCase();
+      if (!name.includes(search)) return false;
+    }
+    return true;
+  });
+
+  // Build region buckets for unselected
+  const regionBuckets = {};
+  for (const rid of REGION_ORDER) regionBuckets[rid] = [];
+  regionBuckets["other"] = [];
+
+  for (const id of unselectedIds) {
+    const rid = countryToRegion[id];
+    if (rid && regionBuckets[rid]) regionBuckets[rid].push(id);
+    else regionBuckets["other"].push(id);
+  }
+
+  // Sort each bucket alphabetically
+  for (const ids of Object.values(regionBuckets)) {
+    ids.sort((a, b) =>
+      (countriesMeta[a]?.display_name ?? a).localeCompare(countriesMeta[b]?.display_name ?? b)
+    );
+  }
+
+  container.innerHTML = "";
+
+  const allRegions = [...REGION_ORDER, "other"];
+  for (const regionId of allRegions) {
+    const idsInRegion = regionBuckets[regionId] ?? [];
+    // Count selected within this region group (from original group data)
+    const allInRegion = regionId === "other"
+      ? allIds.filter((id) => !countryToRegion[id])
+      : (groups[regionId] ?? []);
+    const selectedCount = allInRegion.filter((id) => selectedSet.has(id)).length;
+    const totalCount = allInRegion.length;
+
+    // Skip empty groups (no unselected AND no selected shown)
+    if (idsInRegion.length === 0 && selectedCount === 0) continue;
+
+    const groupDiv = document.createElement("div");
+    groupDiv.className = "country-group" + (_collapsedCountryGroups.has(regionId) ? " collapsed" : "");
+
+    const headerDiv = document.createElement("div");
+    headerDiv.className = "country-group-header";
+    headerDiv.dataset.group = regionId;
+    headerDiv.innerHTML = `
+      <span class="country-group-chevron">▾</span>
+      <span class="country-group-name">${_regionLabel(regionId)}</span>
+      <span class="country-group-count">(${selectedCount}/${totalCount})</span>
+      <button class="btn-select-group" data-region="${regionId}">Select all</button>
+    `;
+
+    const bodyDiv = document.createElement("div");
+    bodyDiv.className = "country-group-body";
+
+    for (const id of idsInRegion) {
+      const meta = countriesMeta[id];
+      const displayName = meta?.display_name ?? id;
+      const rcYears = meta?.regime_change_years ?? [];
+
+      const itemDiv = document.createElement("div");
+      itemDiv.className = "country-item";
+      itemDiv.dataset.id = id;
+
+      itemDiv.innerHTML = `
+        <input type="checkbox" class="country-check" data-id="${id}">
+        <span class="country-label">
+          ${displayName}
+          ${rcYears.length > 0 ? `<small class="country-regime-years">${rcYears.join(", ")}</small>` : ""}
+        </span>
+        <a href="countries.html?country=${id}" target="_blank" rel="noopener" class="info-link country-info-link" title="View country page">↗</a>
+      `;
+
+      bodyDiv.appendChild(itemDiv);
+    }
+
+    // Wire checkbox events on group body
+    bodyDiv.querySelectorAll(".country-check").forEach((cb) => {
+      cb.addEventListener("change", () => state.toggleCountry(cb.dataset.id));
+    });
+
+    // Wire "Select all" button
+    headerDiv.querySelector(".btn-select-group").addEventListener("click", (e) => {
+      e.stopPropagation();
+      const regionIds = regionId === "other"
+        ? allIds.filter((id) => !countryToRegion[id])
+        : (groups[regionId] ?? []);
+      state.selectGroup(regionIds);
+    });
+
+    // Wire header collapse toggle
+    headerDiv.addEventListener("click", () => {
+      if (_collapsedCountryGroups.has(regionId)) {
+        _collapsedCountryGroups.delete(regionId);
+        groupDiv.classList.remove("collapsed");
+      } else {
+        _collapsedCountryGroups.add(regionId);
+        groupDiv.classList.add("collapsed");
+      }
+    });
+
+    groupDiv.appendChild(headerDiv);
+    groupDiv.appendChild(bodyDiv);
+    container.appendChild(groupDiv);
+  }
 }
 
 // ── Group buttons ─────────────────────────────────────────────────────────────
@@ -284,31 +439,85 @@ function _renderMetricList() {
   if (!ul) return;
 
   const indicators = _allData.indicators;
+  const s = state.get();
   ul.innerHTML = "";
 
-  for (const ind of indicators) {
-    const li = document.createElement("li");
-    li.className = `metric-item metric-type-${ind.type}`;
-    li.dataset.id = ind.id;
+  // Group definitions: name -> filter function
+  const groupDefs = [
+    { id: "overall",       label: "Overall",       filter: (ind) => ind.type === "composite" },
+    { id: "political",     label: "Political",     filter: (ind) => ind.id === "political" || ind.id.startsWith("political/") },
+    { id: "economic",      label: "Economic",      filter: (ind) => ind.id === "economic" || ind.id.startsWith("economic/") },
+    { id: "international", label: "International", filter: (ind) => ind.id === "international" || ind.id.startsWith("international/") },
+    { id: "transparency",  label: "Transparency",  filter: (ind) => ind.id === "transparency" || ind.id.startsWith("transparency/") },
+  ];
 
-    const s = state.get();
-    const checked = s.metrics.includes(ind.id);
+  for (const grp of groupDefs) {
+    const groupInds = indicators.filter(grp.filter);
+    if (groupInds.length === 0) continue;
 
-    li.innerHTML = `
-      <input type="checkbox" class="metric-check" data-id="${ind.id}" ${checked ? "checked" : ""}>
-      <span class="metric-label">${ind.label}</span>
-      <a href="methodology.html#${_methodologyAnchor(ind)}" target="_blank" rel="noopener" class="info-link" title="View in methodology">ℹ</a>
-    `;
-    ul.appendChild(li);
+    const groupDiv = document.createElement("div");
+    groupDiv.className = "metric-group" + (_collapsedMetricGroups.has(grp.id) ? " collapsed" : "");
+    groupDiv.dataset.group = grp.id;
+
+    const headerDiv = document.createElement("div");
+    headerDiv.className = "metric-group-header";
+    headerDiv.dataset.group = grp.id;
+    headerDiv.innerHTML = `<span class="metric-group-chevron">▾</span><span class="metric-group-name">${grp.label}</span>`;
+
+    const bodyDiv = document.createElement("div");
+    bodyDiv.className = "metric-group-body";
+
+    for (const ind of groupInds) {
+      const checked = s.metrics.includes(ind.id);
+      const dashIdx = checked ? s.metrics.indexOf(ind.id) : -1;
+      const dash = dashIdx >= 0 ? METRIC_DASH[dashIdx % METRIC_DASH.length] : "solid";
+
+      const li = document.createElement("li");
+      li.className = `metric-item metric-type-${ind.type}`;
+      li.dataset.id = ind.id;
+
+      li.innerHTML = `
+        <input type="checkbox" class="metric-check" data-id="${ind.id}" ${checked ? "checked" : ""}>
+        <span class="metric-dash-indicator">${_dashSvg(dash, checked)}</span>
+        <span class="metric-label">${ind.label}</span>
+        <a href="methodology.html#${_methodologyAnchor(ind)}" target="_blank" rel="noopener" class="info-link" title="View in methodology">ℹ</a>
+      `;
+
+      li.querySelector(".metric-check").addEventListener("change", () => state.toggleMetric(ind.id));
+      bodyDiv.appendChild(li);
+    }
+
+    headerDiv.addEventListener("click", () => {
+      if (_collapsedMetricGroups.has(grp.id)) {
+        _collapsedMetricGroups.delete(grp.id);
+        groupDiv.classList.remove("collapsed");
+      } else {
+        _collapsedMetricGroups.add(grp.id);
+        groupDiv.classList.add("collapsed");
+      }
+    });
+
+    groupDiv.appendChild(headerDiv);
+    groupDiv.appendChild(bodyDiv);
+    ul.appendChild(groupDiv);
   }
 
-  ul.querySelectorAll(".metric-check").forEach((cb) => {
-    cb.addEventListener("change", () => state.toggleMetric(cb.dataset.id));
-  });
+  // Custom group placeholder (populated by _syncCustomMetricCheckboxes)
+  const customGroupDiv = document.createElement("div");
+  customGroupDiv.id = "metric-group-custom";
+  customGroupDiv.className = "metric-group";
+  ul.appendChild(customGroupDiv);
 
   state.subscribe((s) => {
-    ul.querySelectorAll(".metric-check").forEach((cb) => {
-      cb.checked = s.metrics.includes(cb.dataset.id);
+    // Update checkboxes and dash indicators for all built-in metrics
+    ul.querySelectorAll(".metric-check[data-id]").forEach((cb) => {
+      const id = cb.dataset.id;
+      const checked = s.metrics.includes(id);
+      cb.checked = checked;
+      const dashIdx = checked ? s.metrics.indexOf(id) : -1;
+      const dash = dashIdx >= 0 ? METRIC_DASH[dashIdx % METRIC_DASH.length] : "solid";
+      const indicator = cb.closest(".metric-item")?.querySelector(".metric-dash-indicator");
+      if (indicator) indicator.innerHTML = _dashSvg(dash, checked);
     });
     _syncCustomMetricCheckboxes(s);
   });
@@ -318,23 +527,70 @@ function _syncCustomMetricCheckboxes(s) {
   const ul = document.getElementById("metric-list");
   if (!ul) return;
 
-  ul.querySelectorAll("[data-custom]").forEach((li) => {
+  // Find or create the custom group container
+  let customGroup = document.getElementById("metric-group-custom");
+  if (!customGroup) {
+    customGroup = document.createElement("div");
+    customGroup.id = "metric-group-custom";
+    customGroup.className = "metric-group";
+    ul.appendChild(customGroup);
+  }
+
+  // Remove items no longer in state
+  customGroup.querySelectorAll("[data-custom]").forEach((li) => {
     if (!s.custom.find((c) => c.id === li.dataset.id)) li.remove();
   });
 
+  // Add/show header only when there are custom metrics
+  let header = customGroup.querySelector(".metric-group-header");
+  let body = customGroup.querySelector(".metric-group-body");
+
+  if (s.custom.length === 0) {
+    customGroup.innerHTML = "";
+    return;
+  }
+
+  if (!header) {
+    header = document.createElement("div");
+    header.className = "metric-group-header";
+    header.dataset.group = "custom";
+    header.innerHTML = `<span class="metric-group-chevron">▾</span><span class="metric-group-name">Custom</span>`;
+    header.addEventListener("click", () => {
+      if (_collapsedMetricGroups.has("custom")) {
+        _collapsedMetricGroups.delete("custom");
+        customGroup.classList.remove("collapsed");
+      } else {
+        _collapsedMetricGroups.add("custom");
+        customGroup.classList.add("collapsed");
+      }
+    });
+    customGroup.appendChild(header);
+  }
+
+  if (!body) {
+    body = document.createElement("div");
+    body.className = "metric-group-body";
+    customGroup.appendChild(body);
+  }
+
   for (const custom of s.custom) {
-    if (ul.querySelector(`[data-id="${custom.id}"]`)) continue;
+    if (body.querySelector(`[data-id="${custom.id}"]`)) continue;
 
     const li = document.createElement("li");
     li.className = "metric-item metric-type-custom";
     li.dataset.id = custom.id;
     li.dataset.custom = "1";
 
+    const checked = s.metrics.includes(custom.id);
+    const dashIdx = checked ? s.metrics.indexOf(custom.id) : -1;
+    const dash = dashIdx >= 0 ? METRIC_DASH[dashIdx % METRIC_DASH.length] : "solid";
+
     li.innerHTML = `
-      <input type="checkbox" class="metric-check" data-id="${custom.id}" checked>
+      <input type="checkbox" class="metric-check" data-id="${custom.id}" ${checked ? "checked" : ""}>
+      <span class="metric-dash-indicator">${_dashSvg(dash, checked)}</span>
       <span class="metric-label">${custom.name} <span class="metric-custom-tag">custom</span></span>
     `;
-    ul.appendChild(li);
+    body.appendChild(li);
 
     li.querySelector(".metric-check").addEventListener("change", () => {
       state.toggleMetric(custom.id);
@@ -527,6 +783,27 @@ function _wireToolbar() {
 
   const search = document.getElementById("country-search");
   if (search) search.addEventListener("input", () => _renderCountryList(state.get()));
+
+  // Overlay checkboxes
+  document.getElementById("cb-overlay-bands")
+    ?.addEventListener("change", (e) => state.update({ overlayBands: e.target.checked }));
+  document.getElementById("cb-overlay-volatility")
+    ?.addEventListener("change", (e) => state.update({ overlayVolatility: e.target.checked }));
+  document.getElementById("cb-overlay-trend")
+    ?.addEventListener("change", (e) => state.update({ overlayTrend: e.target.checked }));
+  document.getElementById("cb-overlay-source-markers")
+    ?.addEventListener("change", (e) => state.update({ overlaySourceMarkers: e.target.checked }));
+
+  // Overlay sub-option radios
+  document.querySelectorAll("input[name=bands-method]").forEach((radio) => {
+    radio.addEventListener("change", () => state.update({ overlayBandsMethod: radio.value }));
+  });
+  document.querySelectorAll("input[name=volatility-window]").forEach((radio) => {
+    radio.addEventListener("change", () => state.update({ overlayVolatilityWindow: parseInt(radio.value, 10) }));
+  });
+  document.querySelectorAll("input[name=trend-method]").forEach((radio) => {
+    radio.addEventListener("change", () => state.update({ overlayTrendMethod: radio.value }));
+  });
 }
 
 function _updateToolbarFromState(s) {
@@ -535,6 +812,32 @@ function _updateToolbarFromState(s) {
   });
   document.querySelectorAll("input[name=x-mode]").forEach((radio) => {
     radio.checked = radio.value === s.xMode;
+  });
+
+  // Overlay checkboxes
+  const cbBands = document.getElementById("cb-overlay-bands");
+  if (cbBands) cbBands.checked = !!s.overlayBands;
+  const cbVol = document.getElementById("cb-overlay-volatility");
+  if (cbVol) cbVol.checked = !!s.overlayVolatility;
+  const cbTrend = document.getElementById("cb-overlay-trend");
+  if (cbTrend) cbTrend.checked = !!s.overlayTrend;
+  const cbSrc = document.getElementById("cb-overlay-source-markers");
+  if (cbSrc) cbSrc.checked = !!s.overlaySourceMarkers;
+
+  // Sub-row visibility
+  document.getElementById("sub-bands")?.classList.toggle("visible", !!s.overlayBands);
+  document.getElementById("sub-volatility")?.classList.toggle("visible", !!s.overlayVolatility);
+  document.getElementById("sub-trend")?.classList.toggle("visible", !!s.overlayTrend);
+
+  // Sync radio states
+  document.querySelectorAll("input[name=bands-method]").forEach((radio) => {
+    radio.checked = radio.value === (s.overlayBandsMethod ?? "quality");
+  });
+  document.querySelectorAll("input[name=volatility-window]").forEach((radio) => {
+    radio.checked = radio.value === String(s.overlayVolatilityWindow ?? 3);
+  });
+  document.querySelectorAll("input[name=trend-method]").forEach((radio) => {
+    radio.checked = radio.value === (s.overlayTrendMethod ?? "slope");
   });
 }
 
