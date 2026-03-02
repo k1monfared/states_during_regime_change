@@ -275,6 +275,18 @@ body {
 .pivot-year-input::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
 .pivot-year-input:focus { outline: none; border-color: var(--accent); }
 
+.pivot-reset {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--text-muted);
+  padding: 1px 3px;
+  opacity: 0.7;
+}
+.pivot-reset:hover { color: var(--accent); opacity: 1; }
+.pivot-reset-hidden { visibility: hidden; }
+
 .country-pivot-year {
   font-variant-numeric: tabular-nums;
   min-width: 28px;

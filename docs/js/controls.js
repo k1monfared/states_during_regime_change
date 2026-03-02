@@ -112,7 +112,9 @@ function _renderCountryList(s) {
       const years = meta?.years ?? [];
       const minYear = years[0] ?? 1990;
       const maxYear = years[years.length - 1] ?? 2026;
-      const currentPivot = s.pivots[id] ?? rcYears[0] ?? Math.round((minYear + maxYear) / 2);
+      const defaultPivot = rcYears[0] ?? Math.round((minYear + maxYear) / 2);
+      const currentPivot = s.pivots[id] ?? defaultPivot;
+      const isModified = currentPivot !== defaultPivot;
 
       pivotRow.innerHTML = `
         <span class="sub-row-label">pivot:</span>
@@ -120,6 +122,7 @@ function _renderCountryList(s) {
           <button class="pivot-step" data-country="${id}" data-delta="-1">‹</button>
           <input type="number" class="pivot-year-input" value="${currentPivot}" min="${minYear}" max="${maxYear}" data-country="${id}">
           <button class="pivot-step" data-country="${id}" data-delta="1">›</button>
+          <button class="pivot-reset ${isModified ? "" : "pivot-reset-hidden"}" data-country="${id}" data-default="${defaultPivot}" title="Reset to default (${defaultPivot})">↺</button>
         </div>
       `;
 
@@ -142,19 +145,35 @@ function _renderCountryList(s) {
       const max = parseInt(input.max, 10);
       const year = Math.max(min, Math.min(max, parseInt(input.value, 10) || min));
       input.value = year;
+      const resetBtn = input.closest(".pivot-stepper")?.querySelector(".pivot-reset");
+      if (resetBtn) resetBtn.classList.toggle("pivot-reset-hidden", year === parseInt(resetBtn.dataset.default, 10));
       state.setPivot(countryId, year);
     });
   });
 
   ul.querySelectorAll(".pivot-step").forEach((btn) => {
     btn.addEventListener("click", () => {
-      const input = btn.closest(".pivot-stepper").querySelector(".pivot-year-input");
+      const stepper = btn.closest(".pivot-stepper");
+      const input = stepper.querySelector(".pivot-year-input");
       const min = parseInt(input.min, 10);
       const max = parseInt(input.max, 10);
       const delta = parseInt(btn.dataset.delta, 10);
       const year = Math.max(min, Math.min(max, parseInt(input.value, 10) + delta));
       input.value = year;
+      const resetBtn = stepper.querySelector(".pivot-reset");
+      if (resetBtn) resetBtn.classList.toggle("pivot-reset-hidden", year === parseInt(resetBtn.dataset.default, 10));
       state.setPivot(btn.dataset.country, year);
+    });
+  });
+
+  ul.querySelectorAll(".pivot-reset").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const stepper = btn.closest(".pivot-stepper");
+      const input = stepper.querySelector(".pivot-year-input");
+      const defaultYear = parseInt(btn.dataset.default, 10);
+      input.value = defaultYear;
+      btn.classList.add("pivot-reset-hidden");
+      state.setPivot(btn.dataset.country, defaultYear);
     });
   });
 
