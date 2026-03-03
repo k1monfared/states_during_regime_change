@@ -611,6 +611,17 @@ function _renderStacked(el, seriesList, rawSeriesList, appState, allData) {
     const xAxis = ctx.getScoreXAxis(countryId);
     const yAxis = ctx.getScoreYAxis(countryId);
 
+    // Add an invisible placeholder so Plotly renders this subplot even when
+    // no score traces exist (raw-only view).  Without at least one trace on
+    // each primary axis Plotly may discard the subplot and orphan secondary axes.
+    traces.push({
+      x: [0], y: [null],
+      type: "scatter", mode: "lines",
+      showlegend: false, hoverinfo: "skip",
+      xaxis: xAxis, yaxis: yAxis,
+      line: { width: 0 },
+    });
+
     const countrySeries = seriesList.filter((s) => s.countryId === countryId);
 
     for (const s of countrySeries) {
@@ -736,9 +747,37 @@ function _renderStacked(el, seriesList, rawSeriesList, appState, allData) {
     };
   }
 
-  // Secondary y-axes for raw traces: one per (country, unit), overlaying that row's primary axis
+  // When syncRawAxes is on, compute shared [min, max] per unit across all raw series.
+  // Score axes always stay at [0, 105].
+  const unitSharedRange = {};
+  if (appState.syncRawAxes) {
+    for (const rs of rawSeriesList) {
+      const unit = rs.unit ?? "";
+      const vals = rs.points.map((p) => p.y).filter((v) => v != null && !isNaN(v));
+      if (vals.length === 0) continue;
+      const mn = Math.min(...vals);
+      const mx = Math.max(...vals);
+      if (!(unit in unitSharedRange)) {
+        unitSharedRange[unit] = [mn, mx];
+      } else {
+        unitSharedRange[unit][0] = Math.min(unitSharedRange[unit][0], mn);
+        unitSharedRange[unit][1] = Math.max(unitSharedRange[unit][1], mx);
+      }
+    }
+    // Pad each range by 5% on each side so data isn't flush against the axis edges
+    for (const unit in unitSharedRange) {
+      const [mn, mx] = unitSharedRange[unit];
+      const span = mx - mn;
+      const pad = span > 0 ? span * 0.05 : Math.abs(mn) * 0.05 || 1;
+      unitSharedRange[unit] = [mn - pad, mx + pad];
+    }
+  }
+
+  // Secondary y-axes for raw traces: one per (country, unit), overlaying that row's primary axis.
+  // All secondary axes need an explicit anchor so Plotly places their tick labels in the
+  // correct subplot row.  unitIdx=0 anchors to the row's x-axis; unitIdx>0 floats free.
   for (const entry of ctx.rawAxisEntries) {
-    const { axisKey, unit, overlayAxis, unitIdx } = entry;
+    const { axisKey, unit, overlayAxis, unitIdx, xaxisKey } = entry;
     const axisNum = axisKey.slice(1);
     const unitLabel = unit ? unit.replace(/_/g, " ") : "Raw value";
     const spec = {
@@ -748,9 +787,17 @@ function _renderStacked(el, seriesList, rawSeriesList, appState, allData) {
       showgrid: false,
       zeroline: false,
       tickfont: { size: 10 },
-      autorange: true,
     };
-    if (unitIdx > 0) {
+    if (appState.syncRawAxes && (unit in unitSharedRange)) {
+      spec.range = unitSharedRange[unit];
+      spec.autorange = false;
+    } else {
+      spec.autorange = true;
+    }
+    if (unitIdx === 0) {
+      // Anchor to this row's x-axis so labels appear beside the correct subplot
+      spec.anchor = xaxisKey || "x";
+    } else {
       spec.anchor = "free";
       spec.position = 1.0 + unitIdx * 0.08; // slight offset for 2nd+ unit per row
     }

@@ -1053,6 +1053,8 @@ function _wireToolbar() {
     ?.addEventListener("change", (e) => state.update({ overlaySourceMarkers: e.target.checked }));
   document.getElementById("cb-tooltip-detail")
     ?.addEventListener("change", (e) => state.update({ tooltipDetail: e.target.checked }));
+  document.getElementById("cb-sync-raw-axes")
+    ?.addEventListener("change", (e) => state.update({ syncRawAxes: e.target.checked }));
 
   // Overlay sub-option radios
   document.querySelectorAll("input[name=bands-method]").forEach((radio) => {
@@ -1091,6 +1093,11 @@ function _updateToolbarFromState(s) {
   if (cbSrc) cbSrc.checked = !!s.overlaySourceMarkers;
   const cbDetail = document.getElementById("cb-tooltip-detail");
   if (cbDetail) cbDetail.checked = !!s.tooltipDetail;
+  const cbSync = document.getElementById("cb-sync-raw-axes");
+  if (cbSync) cbSync.checked = !!s.syncRawAxes;
+  // Show stacked-only options only in stacked mode
+  const stackedOpts = document.getElementById("stacked-options");
+  if (stackedOpts) stackedOpts.classList.toggle("visible", s.chartMode === "stacked");
 
   // Sub-row visibility
   document.getElementById("sub-bands")?.classList.toggle("visible", !!s.overlayBands);

@@ -1284,6 +1284,14 @@ details[open] > .def-summary::before { content: "▼"; }
   font-size: 11px;
 }
 
+/* ── Stacked-mode options (hidden unless stacked is active) ─────────────────── */
+.toolbar-stacked-opts {
+  display: none;
+  align-items: center;
+  margin-left: 12px;
+}
+.toolbar-stacked-opts.visible { display: flex; }
+
 /* ── Analytical Overlays ────────────────────────────────────────────────────── */
 .overlay-toggle-group { display: flex; align-items: flex-start; gap: 10px; flex-wrap: wrap; }
 

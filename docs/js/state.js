@@ -47,6 +47,7 @@ const DEFAULT_STATE = {
   overlayTrendWindow: 5,              // years used for regression
   overlaySourceMarkers: false,
   rawAxes: [],                        // metricId[] — right y-axis raw series (per-unit axes)
+  syncRawAxes: false,                 // stacked mode: share y-range across rows for each raw unit
   tooltipDetail: false,               // show raw data detail in tooltip (indicator metrics only)
   dimensionFormulas: {},              // { metricId: formulaString } — custom aggregation formulas
 };
