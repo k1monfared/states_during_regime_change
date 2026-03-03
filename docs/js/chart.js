@@ -578,6 +578,7 @@ function _renderStacked(el, seriesList, appState, allData) {
       zeroline: false,
       tickfont: { size: 10 },
       showticklabels: isBottom,
+      ...(appState.xMode === "absolute" ? { range: appState.range } : { autorange: true }),
       // Link all x-axes so pan/zoom is synchronised; skip self-reference on row 0
       ...(row > 0 ? { matches: "x" } : { title: { text: xTitle, font: { size: 11 }, standoff: 6 } }),
     };
@@ -627,6 +628,9 @@ function _baseLayout(appState, unitAxisMap = new Map()) {
       gridcolor: "#f0f0f0",
       zeroline: false,
       tickfont: { size: 10 },
+      // In absolute mode, honour the explicit year range from state so Plotly.react
+      // doesn't silently preserve a stale autoranged extent across re-renders.
+      ...(appState.xMode === "absolute" ? { range: appState.range } : { autorange: true }),
       // Shrink domain to make room for stacked right axes when there are multiple
       domain: numExtraAxes > 1 ? [0, Math.max(0.5, 1 - numExtraAxes * 0.10)] : [0, 1],
     },

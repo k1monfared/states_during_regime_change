@@ -5,7 +5,7 @@ years:
   1960:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -15,7 +15,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -23,24 +23,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1960"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1960"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   1961:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -50,7 +58,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -58,24 +66,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1961"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1961"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   1962:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -85,7 +101,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -93,24 +109,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1962"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1962"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   1963:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -120,7 +144,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -128,24 +152,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1963"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1963"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   1964:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -155,7 +187,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -163,24 +195,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1964"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1964"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   1965:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -190,7 +230,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -198,24 +238,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1965"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1965"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   1966:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -225,7 +273,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -233,24 +281,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1966"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1966"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   1967:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -260,7 +316,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -268,24 +324,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1967"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1967"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   1968:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -295,7 +359,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -303,24 +367,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1968"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1968"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   1969:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -330,7 +402,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -338,24 +410,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1969"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1969"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   1970:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -365,7 +445,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -373,17 +453,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1970"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1970"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -400,7 +488,7 @@ years:
       reliability: medium
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -408,17 +496,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1971"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1971"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -435,7 +531,7 @@ years:
       reliability: medium
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -443,17 +539,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1972"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1972"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -470,7 +574,7 @@ years:
       reliability: medium
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -478,17 +582,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1973"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1973"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -505,7 +617,7 @@ years:
       reliability: medium
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -513,17 +625,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1974"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1974"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -540,7 +660,7 @@ years:
       reliability: medium
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -548,24 +668,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1975"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1975"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   1976:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -575,7 +703,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -583,17 +711,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1976"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1976"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -610,7 +746,7 @@ years:
       reliability: medium
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -618,24 +754,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Moderate education expenditure. 5.4% in final Shah year; heavy investment in education under White Revolution."
       features:
-        - moderate_4_6pct
+      - moderate_4_6pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1977"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1977"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   1978:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -645,7 +789,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -653,24 +797,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1978"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1978"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   1979:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -680,7 +832,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -688,24 +840,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1979"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1979"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   1980:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -715,7 +875,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -723,17 +883,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1980"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1980"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -750,7 +918,7 @@ years:
       reliability: medium
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -758,17 +926,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "High education expenditure. 7.1%; post-revolution Islamic Republic invests heavily in literacy and education."
       features:
-        - high_gt_6pct
+      - high_gt_6pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1981"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1981"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -785,7 +961,7 @@ years:
       reliability: medium
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -793,17 +969,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Moderate education expenditure."
       features:
-        - moderate_4_6pct
+      - moderate_4_6pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1982"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1982"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -820,7 +1004,7 @@ years:
       reliability: medium
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -828,17 +1012,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Moderate education expenditure."
       features:
-        - moderate_4_6pct
+      - moderate_4_6pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1983"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1983"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -855,7 +1047,7 @@ years:
       reliability: medium
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -863,17 +1055,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1984"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1984"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -890,7 +1090,7 @@ years:
       reliability: medium
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -898,17 +1098,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1985"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1985"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -925,7 +1133,7 @@ years:
       reliability: medium
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -933,17 +1141,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1986"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1986"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -960,7 +1176,7 @@ years:
       reliability: medium
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -968,17 +1184,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Moderate education expenditure."
       features:
-        - moderate_4_6pct
+      - moderate_4_6pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1987"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1987"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -995,7 +1219,7 @@ years:
       reliability: medium
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -1003,17 +1227,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1988"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1988"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1030,7 +1262,7 @@ years:
       reliability: medium
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -1038,17 +1270,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1989"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1989"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1065,7 +1305,7 @@ years:
       reliability: medium
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -1073,17 +1313,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1990"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1990"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1108,17 +1356,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1991"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1991"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1143,17 +1399,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1992"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1992"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1178,24 +1442,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Moderate education expenditure."
       features:
-        - moderate_4_6pct
+      - moderate_4_6pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1993"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1993"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   1994:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -1205,7 +1477,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -1213,17 +1485,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1994"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1994"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1248,17 +1528,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Moderate education expenditure."
       features:
-        - moderate_4_6pct
+      - moderate_4_6pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1995"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1995"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1283,24 +1571,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1996"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1996"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   1997:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -1310,7 +1606,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -1318,24 +1614,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1997"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1997"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   1998:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -1345,7 +1649,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -1353,17 +1657,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1998"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1998"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1388,17 +1700,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Moderate education expenditure."
       features:
-        - moderate_4_6pct
+      - moderate_4_6pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1999"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 1999"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1423,17 +1743,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Moderate education expenditure."
       features:
-        - moderate_4_6pct
+      - moderate_4_6pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2000"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2000"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1458,17 +1786,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Moderate education expenditure."
       features:
-        - moderate_4_6pct
+      - moderate_4_6pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2001"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2001"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1493,17 +1829,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Moderate education expenditure."
       features:
-        - moderate_4_6pct
+      - moderate_4_6pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2002"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2002"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1528,17 +1872,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Moderate education expenditure."
       features:
-        - moderate_4_6pct
+      - moderate_4_6pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2003"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2003"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1563,17 +1915,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Moderate education expenditure."
       features:
-        - moderate_4_6pct
+      - moderate_4_6pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2004"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2004"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1598,17 +1958,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Moderate education expenditure."
       features:
-        - moderate_4_6pct
+      - moderate_4_6pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2005"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2005"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1633,17 +2001,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Moderate education expenditure."
       features:
-        - moderate_4_6pct
+      - moderate_4_6pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2006"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2006"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1668,17 +2044,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Moderate education expenditure. 4.6%; peak in post-revolution era under Ahmadinejad."
       features:
-        - moderate_4_6pct
+      - moderate_4_6pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2007"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2007"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1703,17 +2087,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2008"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2008"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1738,17 +2130,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2009"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2009"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1773,17 +2173,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2010"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2010"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1808,17 +2216,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2011"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2011"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1843,17 +2259,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2012"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2012"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1878,17 +2302,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2013"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2013"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1913,17 +2345,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure. 2.6%; declining share as sanctions and economic pressure force budget cuts."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2014"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2014"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1948,17 +2388,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2015"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2015"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -1983,17 +2431,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2016"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2016"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -2018,17 +2474,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2017"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2017"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -2053,17 +2517,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2018"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2018"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -2088,17 +2560,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2019"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2019"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -2123,24 +2603,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure. 3.2%; COVID-19 disrupts schooling; remote learning hampered by sanctions on tech."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2020"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2020"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   2021:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -2150,7 +2638,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -2158,17 +2646,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2021"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2021"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -2193,17 +2689,25 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2022"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2022"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
@@ -2220,7 +2724,7 @@ years:
       reliability: medium
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -2228,24 +2732,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low education expenditure."
       features:
-        - low_2_4pct
+      - low_2_4pct
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2023"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2023"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   2024:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -2255,7 +2767,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -2263,24 +2775,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2024"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2024"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   2025:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -2290,7 +2810,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -2298,24 +2818,32 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2025"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2025"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"
 
   2026:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(education_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
       source:
@@ -2325,7 +2853,7 @@ years:
       reliability: low
       components:
         education_pct_govt_budget:
-          value: null
+          value:
           unit: pct_govt_expenditure
           role: context
           source:
@@ -2333,16 +2861,24 @@ years:
             url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Data not available for this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2026"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Iran, 2026"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "UNESCO Institute for Statistics data via World Bank; gaps in 1976, 1978-1980, 1994, 1997-1998, 2021; Iran had high education spending under both Shah and early Islamic Republic; declining trend post-2010 reflects austerity"

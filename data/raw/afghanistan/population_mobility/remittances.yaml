@@ -5,7 +5,7 @@ years:
   1986:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -15,7 +15,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -23,23 +23,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 1986."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1986"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1986"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Soviet occupation / civil war period"
   1987:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -49,7 +56,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -57,23 +64,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 1987."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1987"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1987"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Soviet occupation / civil war period"
   1988:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -83,7 +97,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -91,23 +105,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 1988."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1988"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1988"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Soviet occupation / civil war period"
   1989:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -117,7 +138,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -125,23 +146,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 1989."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1989"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1989"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Soviet occupation / civil war period"
   1990:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -151,7 +179,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -159,23 +187,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 1990."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1990"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1990"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Soviet occupation / civil war period"
   1991:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -185,7 +220,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -193,23 +228,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 1991."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1991"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1991"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Soviet occupation / civil war period"
   1992:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -219,7 +261,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -227,23 +269,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 1992."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1992"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1992"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Mujahideen civil war period"
   1993:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -253,7 +302,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -261,23 +310,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 1993."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1993"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1993"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Mujahideen civil war period"
   1994:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -287,7 +343,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -295,23 +351,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 1994."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1994"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1994"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Mujahideen civil war period"
   1995:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -321,7 +384,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -329,23 +392,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 1995."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1995"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1995"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Mujahideen civil war period"
   1996:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -355,7 +425,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -363,23 +433,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 1996."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1996"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1996"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Taliban first emirate (1996-2001)"
   1997:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -389,7 +466,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -397,23 +474,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 1997."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1997"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1997"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Taliban first emirate (1996-2001)"
   1998:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -423,7 +507,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -431,23 +515,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 1998."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1998"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1998"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Taliban first emirate (1996-2001)"
   1999:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -457,7 +548,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -465,23 +556,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 1999."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1999"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 1999"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Taliban first emirate (1996-2001)"
   2000:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -491,7 +589,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -499,23 +597,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 2000."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2000"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2000"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Taliban first emirate (1996-2001)"
   2001:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -525,7 +630,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -533,23 +638,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 2001."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2001"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2001"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Taliban first emirate (1996-2001)"
   2002:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -559,7 +671,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -567,23 +679,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 2002."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2002"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2002"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Post-2001 reconstruction"
   2003:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -593,7 +712,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -601,23 +720,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 2003."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2003"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2003"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Post-2001 reconstruction"
   2004:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -627,7 +753,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -635,23 +761,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 2004."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2004"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2004"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "US occupation / Islamic Republic period"
   2005:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -661,7 +794,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -669,23 +802,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 2005."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2005"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2005"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "US occupation / Islamic Republic period"
   2006:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -695,7 +835,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -703,23 +843,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 2006."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2006"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2006"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "US occupation / Islamic Republic period"
   2007:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -729,7 +876,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -737,17 +884,24 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 2007."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2007"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2007"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "US occupation / Islamic Republic period"
   2008:
@@ -771,17 +925,25 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Remittances were 0.89% of GDP in 2008. Afghan diaspora in Iran, Pakistan, Gulf states and increasingly Western countries sent funds home. Remittances provided vital income to households in a country with few formal employment opportunities."
       features:
-        - minimal_lt_1pct
+      - minimal_lt_1pct
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2008"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2008"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "US occupation / Islamic Republic period"
   2009:
@@ -805,17 +967,25 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Remittances were 1.13% of GDP in 2009. Afghan diaspora in Iran, Pakistan, Gulf states and increasingly Western countries sent funds home. Remittances provided vital income to households in a country with few formal employment opportunities."
       features:
-        - low_1_2pct
+      - low_1_2pct
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2009"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2009"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "US occupation / Islamic Republic period"
   2010:
@@ -839,17 +1009,25 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Remittances were 2.39% of GDP in 2010. Afghan diaspora in Iran, Pakistan, Gulf states and increasingly Western countries sent funds home. Remittances provided vital income to households in a country with few formal employment opportunities."
       features:
-        - moderate_2_5pct
+      - moderate_2_5pct
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2010"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2010"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "US occupation / Islamic Republic period"
   2011:
@@ -873,17 +1051,25 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Remittances were 1.01% of GDP in 2011. Afghan diaspora in Iran, Pakistan, Gulf states and increasingly Western countries sent funds home. Remittances provided vital income to households in a country with few formal employment opportunities."
       features:
-        - low_1_2pct
+      - low_1_2pct
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2011"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2011"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "US occupation / Islamic Republic period"
   2012:
@@ -907,17 +1093,25 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Remittances were 1.10% of GDP in 2012. Afghan diaspora in Iran, Pakistan, Gulf states and increasingly Western countries sent funds home. Remittances provided vital income to households in a country with few formal employment opportunities."
       features:
-        - low_1_2pct
+      - low_1_2pct
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2012"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2012"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "US occupation / Islamic Republic period"
   2013:
@@ -941,17 +1135,25 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Remittances were 1.72% of GDP in 2013. Afghan diaspora in Iran, Pakistan, Gulf states and increasingly Western countries sent funds home. Remittances provided vital income to households in a country with few formal employment opportunities."
       features:
-        - low_1_2pct
+      - low_1_2pct
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2013"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2013"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "US occupation / Islamic Republic period"
   2014:
@@ -975,17 +1177,25 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Remittances were 1.24% of GDP in 2014. Afghan diaspora in Iran, Pakistan, Gulf states and increasingly Western countries sent funds home. Remittances provided vital income to households in a country with few formal employment opportunities."
       features:
-        - low_1_2pct
+      - low_1_2pct
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2014"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2014"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "US occupation / Islamic Republic period"
   2015:
@@ -1009,17 +1219,25 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Remittances reached 1.82% of GDP in 2015, becoming a significant income source. The growing diaspora in Europe and North America, many of whom left during the peak conflict period, sent increasing amounts home as electronic transfer systems expanded."
       features:
-        - low_1_2pct
+      - low_1_2pct
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2015"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2015"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "US occupation / Islamic Republic period"
   2016:
@@ -1043,17 +1261,25 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Remittances reached 3.46% of GDP in 2016, becoming a significant income source. The growing diaspora in Europe and North America, many of whom left during the peak conflict period, sent increasing amounts home as electronic transfer systems expanded."
       features:
-        - moderate_2_5pct
+      - moderate_2_5pct
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2016"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2016"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "US occupation / Islamic Republic period"
   2017:
@@ -1077,17 +1303,25 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Remittances reached 4.39% of GDP in 2017, becoming a significant income source. The growing diaspora in Europe and North America, many of whom left during the peak conflict period, sent increasing amounts home as electronic transfer systems expanded."
       features:
-        - moderate_2_5pct
+      - moderate_2_5pct
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2017"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2017"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "US occupation / Islamic Republic period"
   2018:
@@ -1111,17 +1345,25 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Remittances reached 4.45% of GDP in 2018, becoming a significant income source. The growing diaspora in Europe and North America, many of whom left during the peak conflict period, sent increasing amounts home as electronic transfer systems expanded."
       features:
-        - moderate_2_5pct
+      - moderate_2_5pct
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2018"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2018"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "US occupation / Islamic Republic period"
   2019:
@@ -1145,17 +1387,25 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Remittances reached 4.41% of GDP in 2019, becoming a significant income source. The growing diaspora in Europe and North America, many of whom left during the peak conflict period, sent increasing amounts home as electronic transfer systems expanded."
       features:
-        - moderate_2_5pct
+      - moderate_2_5pct
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2019"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2019"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "US occupation / Islamic Republic period"
   2020:
@@ -1179,17 +1429,25 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Remittances reached 3.95% of GDP in 2020, becoming a significant income source. The growing diaspora in Europe and North America, many of whom left during the peak conflict period, sent increasing amounts home as electronic transfer systems expanded."
       features:
-        - moderate_2_5pct
+      - moderate_2_5pct
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2020"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2020"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "US occupation / Islamic Republic period"
   2021:
@@ -1213,17 +1471,25 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Remittances reached 2.24% of GDP in 2021, becoming a significant income source. The growing diaspora in Europe and North America, many of whom left during the peak conflict period, sent increasing amounts home as electronic transfer systems expanded."
       features:
-        - moderate_2_5pct
+      - moderate_2_5pct
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2021"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2021"
+        type: statistical
+        reliability: medium
       confidence: low
       notes: "WB uses $320M flat estimate post-2021; high uncertainty"
   2022:
@@ -1247,17 +1513,25 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Remittances estimated at 2.21% of GDP in 2022. Post-Taliban takeover remittances continued as households needed support, though formal banking restrictions complicated transfers. Estimates have high uncertainty."
       features:
-        - moderate_2_5pct
+      - moderate_2_5pct
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2022"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2022"
+        type: statistical
+        reliability: medium
       confidence: low
       notes: "WB uses $320M flat estimate post-2021; high uncertainty"
   2023:
@@ -1281,23 +1555,31 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Remittances estimated at 1.87% of GDP in 2023. Post-Taliban takeover remittances continued as households needed support, though formal banking restrictions complicated transfers. Estimates have high uncertainty."
       features:
-        - low_1_2pct
+      - low_1_2pct
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2023"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2023"
+        type: statistical
+        reliability: medium
       confidence: low
       notes: "WB uses $320M flat estimate post-2021; high uncertainty"
   2024:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -1315,23 +1597,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 2024."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2024"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2024"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "WB uses $320M flat estimate post-2021; high uncertainty"
   2025:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -1341,7 +1630,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -1349,23 +1638,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 2025."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2025"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2025"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Second Taliban emirate (post-2021)"
   2026:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -1375,7 +1671,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -1383,16 +1679,23 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No remittances data for 2026."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2026"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Afghanistan, 2026"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Second Taliban emirate (post-2021)"

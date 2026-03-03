@@ -185,6 +185,11 @@ INDICATOR_LABELS = {
     "internet_users": "Internet Users",
     "health_expenditure": "Health Expenditure",
     "education_expenditure": "Education Expenditure",
+    "poverty_rate": "Poverty Rate ($2.15/day)",
+    "hdi": "Human Dev. Index (HDI)",
+    "gini_adjusted_gdp_per_capita_ppp": "Adj. GDP/Capita PPP (Gini)",
+    "export_diversification": "Export Diversification",
+    "non_resource_export_share": "Non-Resource Exports",
 }
 
 

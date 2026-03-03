@@ -15,7 +15,7 @@ years:
       reliability: medium
       components:
         standard_error:
-          value: null
+          value:
           unit: wgi_std_error
           role: uncertainty
           source:
@@ -23,6 +23,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.STD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank:
           value: 16.2679424285889
           unit: percentile_0_100
@@ -32,6 +34,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         number_of_sources:
           value: 10
           unit: count
@@ -41,6 +45,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.NO.SRC"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         percentile_rank_lower_ci:
           value: 3.35
           unit: percentile_0_100
@@ -50,6 +56,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.LOWER"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         percentile_rank_upper_ci:
           value: 23.44
           unit: percentile_0_100
@@ -59,14 +67,20 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.UPPER"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Syria's control of corruption score in 2009 was -1.05, placing it at the 16th percentile globally — meaning approximately 84% of countries scored better. The Assad regime operated a highly corrupt patronage system, with regime-connected businessmen (notably Rami Makhlouf) dominating key economic sectors. State institutions were subordinated to informal networks of regime loyalty and bribery. Based on 10 data sources, this estimate carries moderate reliability."
       features:
-        - pervasive_corruption
+      - pervasive_corruption
       sources:
-        - citation: "World Bank WGI, CC.EST, Syria, 2009"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WGI, CC.EST, Syria, 2009"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "10 sources used; WGI note only available back to 1996."
   2010:
@@ -82,7 +96,7 @@ years:
       reliability: medium
       components:
         standard_error:
-          value: null
+          value:
           unit: wgi_std_error
           role: uncertainty
           source:
@@ -90,6 +104,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.STD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank:
           value: 12.8571424484253
           unit: percentile_0_100
@@ -99,6 +115,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         number_of_sources:
           value: 10
           unit: count
@@ -108,6 +126,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.NO.SRC"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         percentile_rank_lower_ci:
           value: 2.38
           unit: percentile_0_100
@@ -117,6 +137,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.LOWER"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         percentile_rank_upper_ci:
           value: 20.95
           unit: percentile_0_100
@@ -126,16 +148,22 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.UPPER"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Control of corruption slightly worsened in 2010 (-1.10), with Syria falling to the 13th percentile. Regime patronage networks remained entrenched; economic liberalization under Bashar al-Assad since the early 2000s had created a crony capitalist class without meaningful anti-corruption reforms. The drought of 2006-2010 displaced large rural populations with minimal government support, reflecting the systemic failure of state accountability."
       features:
-        - pervasive_corruption
+      - pervasive_corruption
       sources:
-        - citation: "World Bank WGI, CC.EST, Syria, 2010"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WGI, CC.EST, Syria, 2010"
+        type: official_statistics
+        reliability: medium
       confidence: medium
-      notes: null
+      notes:
   2011:
     data_status: complete
     quantitative:
@@ -149,7 +177,7 @@ years:
       reliability: low
       components:
         standard_error:
-          value: null
+          value:
           unit: wgi_std_error
           role: uncertainty
           source:
@@ -157,6 +185,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.STD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank:
           value: 13.2701425552368
           unit: percentile_0_100
@@ -166,6 +196,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         number_of_sources:
           value: 10
           unit: count
@@ -175,6 +207,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.NO.SRC"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         percentile_rank_lower_ci:
           value: 2.84
           unit: percentile_0_100
@@ -184,6 +218,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.LOWER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank_upper_ci:
           value: 21.80
           unit: percentile_0_100
@@ -193,14 +229,20 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.UPPER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "The 2011 WGI score remained essentially unchanged at -1.10 despite the uprising. WGI scores tend to lag underlying conditions; survey data underlying the 2011 estimate was largely collected before the civil war fully erupted. Corruption and regime patronage were widely cited as drivers of the uprising. The 13th percentile ranking reflects governance survey assessments accumulated before mid-2011."
       features:
-        - pervasive_corruption
+      - pervasive_corruption
       sources:
-        - citation: "World Bank WGI, CC.EST, Syria, 2011"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WGI, CC.EST, Syria, 2011"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "WGI survey data partially predates civil war onset; score may lag reality."
   2012:
@@ -216,7 +258,7 @@ years:
       reliability: low
       components:
         standard_error:
-          value: null
+          value:
           unit: wgi_std_error
           role: uncertainty
           source:
@@ -224,6 +266,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.STD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank:
           value: 10.4265403747559
           unit: percentile_0_100
@@ -233,6 +277,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         number_of_sources:
           value: 9
           unit: count
@@ -242,6 +288,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.NO.SRC"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         percentile_rank_lower_ci:
           value: 0.47
           unit: percentile_0_100
@@ -251,6 +299,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.LOWER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank_upper_ci:
           value: 18.01
           unit: percentile_0_100
@@ -260,14 +310,20 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.UPPER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Corruption worsened to -1.22 in 2012, dropping to the 10th percentile. The civil war created conditions for unprecedented looting, war profiteering, and systematic state asset extraction. Confidence interval widens significantly (lower bound at 0.47 percentile) as fewer survey sources could operate in conflict conditions. The score captures the beginning of a regime-wide governance collapse."
       features:
-        - pervasive_corruption
+      - pervasive_corruption
       sources:
-        - citation: "World Bank WGI, CC.EST, Syria, 2012"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WGI, CC.EST, Syria, 2012"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "9 sources; widening confidence intervals reflect data scarcity under conflict."
   2013:
@@ -283,7 +339,7 @@ years:
       reliability: low
       components:
         standard_error:
-          value: null
+          value:
           unit: wgi_std_error
           role: uncertainty
           source:
@@ -291,6 +347,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.STD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank:
           value: 8.53080558776855
           unit: percentile_0_100
@@ -300,6 +358,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         number_of_sources:
           value: 9
           unit: count
@@ -309,6 +369,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.NO.SRC"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         percentile_rank_lower_ci:
           value: 0.0
           unit: percentile_0_100
@@ -318,6 +380,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.LOWER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank_upper_ci:
           value: 16.11
           unit: percentile_0_100
@@ -327,14 +391,20 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.UPPER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Corruption score -1.27 at the 8.5th percentile; lower confidence bound now touches zero indicating extreme uncertainty. War economy corruption — checkpoint extortion, looting, humanitarian aid diversion, and black market profiteering — operated at massive scale. Governance assessors have minimal field access. Score should be understood as a floor estimate."
       features:
-        - pervasive_corruption
+      - pervasive_corruption
       sources:
-        - citation: "World Bank WGI, CC.EST, Syria, 2013"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WGI, CC.EST, Syria, 2013"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Lower CI bound reaches 0; extreme uncertainty. War economy conditions make assessment unreliable."
   2014:
@@ -350,7 +420,7 @@ years:
       reliability: low
       components:
         standard_error:
-          value: null
+          value:
           unit: wgi_std_error
           role: uncertainty
           source:
@@ -358,6 +428,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.STD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank:
           value: 1.44230771064758
           unit: percentile_0_100
@@ -367,6 +439,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         number_of_sources:
           value: 8
           unit: count
@@ -376,6 +450,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.NO.SRC"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         percentile_rank_lower_ci:
           value: 0.0
           unit: percentile_0_100
@@ -385,6 +461,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.LOWER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank_upper_ci:
           value: 7.21
           unit: percentile_0_100
@@ -394,14 +472,20 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.UPPER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Sharp drop to -1.56, placing Syria at 1.4th percentile — among the worst performers globally. ISIS controlling major territory introduced a different form of extractive governance. The regime's corruption metastasized into full predation. Only 8 sources available; upper CI barely reaches 7th percentile, reflecting systemic data poverty."
       features:
-        - pervasive_corruption
+      - pervasive_corruption
       sources:
-        - citation: "World Bank WGI, CC.EST, Syria, 2014"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WGI, CC.EST, Syria, 2014"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Near global floor; 8 sources only. ISIS territorial control introduces additional governance fragmentation."
   2015:
@@ -417,7 +501,7 @@ years:
       reliability: low
       components:
         standard_error:
-          value: null
+          value:
           unit: wgi_std_error
           role: uncertainty
           source:
@@ -425,6 +509,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.STD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank:
           value: 1.90476191043854
           unit: percentile_0_100
@@ -434,6 +520,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         number_of_sources:
           value: 8
           unit: count
@@ -443,6 +531,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.NO.SRC"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         percentile_rank_lower_ci:
           value: 0.0
           unit: percentile_0_100
@@ -452,6 +542,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.LOWER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank_upper_ci:
           value: 7.62
           unit: percentile_0_100
@@ -461,16 +553,22 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.UPPER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Essentially unchanged at -1.57, at the 1.9th percentile. Syria entrenched as one of the most corrupt environments globally. Russian intervention beginning September 2015 added a new dimension to the political economy but did not improve governance accountability. Humanitarian corruption (aid diversion, siege tactics used as economic leverage) well-documented."
       features:
-        - pervasive_corruption
+      - pervasive_corruption
       sources:
-        - citation: "World Bank WGI, CC.EST, Syria, 2015"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WGI, CC.EST, Syria, 2015"
+        type: official_statistics
+        reliability: low
       confidence: low
-      notes: null
+      notes:
   2016:
     data_status: complete
     quantitative:
@@ -484,7 +582,7 @@ years:
       reliability: low
       components:
         standard_error:
-          value: null
+          value:
           unit: wgi_std_error
           role: uncertainty
           source:
@@ -492,6 +590,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.STD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank:
           value: 1.90476191043854
           unit: percentile_0_100
@@ -501,6 +601,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         number_of_sources:
           value: 7
           unit: count
@@ -510,6 +612,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.NO.SRC"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         percentile_rank_lower_ci:
           value: 0.0
           unit: percentile_0_100
@@ -519,6 +623,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.LOWER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank_upper_ci:
           value: 9.05
           unit: percentile_0_100
@@ -528,14 +634,20 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.UPPER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Score at -1.59, 1.9th percentile; Syria among the world's worst performers on corruption control. Battle of Aleppo year; systematic looting of captured areas well-documented. 7 sources used; confidence intervals remain extremely wide."
       features:
-        - pervasive_corruption
+      - pervasive_corruption
       sources:
-        - citation: "World Bank WGI, CC.EST, Syria, 2016"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WGI, CC.EST, Syria, 2016"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "7 sources; systematic looting in Aleppo documented."
   2017:
@@ -551,7 +663,7 @@ years:
       reliability: low
       components:
         standard_error:
-          value: null
+          value:
           unit: wgi_std_error
           role: uncertainty
           source:
@@ -559,6 +671,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.STD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank:
           value: 2.38095235824585
           unit: percentile_0_100
@@ -568,6 +682,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         number_of_sources:
           value: 6
           unit: count
@@ -577,6 +693,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.NO.SRC"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         percentile_rank_lower_ci:
           value: 0.0
           unit: percentile_0_100
@@ -586,6 +704,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.LOWER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank_upper_ci:
           value: 8.10
           unit: percentile_0_100
@@ -595,14 +715,20 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.UPPER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Score -1.58, 2.4th percentile with only 6 data sources remaining. ISIS collapse in 2017 removed one set of predatory governance but regime reconsolidation brought systematic checkpoint extraction and property confiscation in recaptured areas. The number of sources available to WGI is declining, further widening uncertainty."
       features:
-        - pervasive_corruption
+      - pervasive_corruption
       sources:
-        - citation: "World Bank WGI, CC.EST, Syria, 2017"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WGI, CC.EST, Syria, 2017"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Only 6 sources; declining coverage reflects conflict-related data access constraints."
   2018:
@@ -618,7 +744,7 @@ years:
       reliability: low
       components:
         standard_error:
-          value: null
+          value:
           unit: wgi_std_error
           role: uncertainty
           source:
@@ -626,6 +752,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.STD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank:
           value: 1.42857146263123
           unit: percentile_0_100
@@ -635,6 +763,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         number_of_sources:
           value: 5
           unit: count
@@ -644,6 +774,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.NO.SRC"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         percentile_rank_lower_ci:
           value: 0.0
           unit: percentile_0_100
@@ -653,6 +785,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.LOWER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank_upper_ci:
           value: 8.57
           unit: percentile_0_100
@@ -662,14 +796,20 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.UPPER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Score further deteriorated to -1.65, 1.4th percentile, with only 5 sources. The regime's post-reconquest property confiscation (Law 10 of 2018) systematically dispossessed displaced populations. Corruption institutionalized in reconstruction processes. Estimates highly uncertain with wide confidence intervals."
       features:
-        - pervasive_corruption
+      - pervasive_corruption
       sources:
-        - citation: "World Bank WGI, CC.EST, Syria, 2018"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WGI, CC.EST, Syria, 2018"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "5 sources; Law 10 property confiscation institutionalizes dispossession."
   2019:
@@ -685,7 +825,7 @@ years:
       reliability: low
       components:
         standard_error:
-          value: null
+          value:
           unit: wgi_std_error
           role: uncertainty
           source:
@@ -693,6 +833,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.STD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank:
           value: 1.42857146263123
           unit: percentile_0_100
@@ -702,6 +844,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         number_of_sources:
           value: 5
           unit: count
@@ -711,6 +855,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.NO.SRC"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         percentile_rank_lower_ci:
           value: 0.0
           unit: percentile_0_100
@@ -720,6 +866,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.LOWER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank_upper_ci:
           value: 7.62
           unit: percentile_0_100
@@ -729,14 +877,20 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.UPPER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Score -1.71, 1.4th percentile. Corruption continues to worsen as sanctions increase informal economy dependence. Drug trafficking (Captagon) emerges as major regime revenue stream, institutionalizing criminal governance. 5 sources; very low confidence."
       features:
-        - pervasive_corruption
+      - pervasive_corruption
       sources:
-        - citation: "World Bank WGI, CC.EST, Syria, 2019"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WGI, CC.EST, Syria, 2019"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Captagon drug trade emerging as regime revenue source; criminal governance deepening."
   2020:
@@ -752,7 +906,7 @@ years:
       reliability: low
       components:
         standard_error:
-          value: null
+          value:
           unit: wgi_std_error
           role: uncertainty
           source:
@@ -760,6 +914,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.STD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank:
           value: 0.476190477609634
           unit: percentile_0_100
@@ -769,6 +925,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         number_of_sources:
           value: 5
           unit: count
@@ -778,6 +936,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.NO.SRC"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         percentile_rank_lower_ci:
           value: 0.0
           unit: percentile_0_100
@@ -787,6 +947,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.LOWER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank_upper_ci:
           value: 5.71
           unit: percentile_0_100
@@ -796,14 +958,20 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.UPPER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Score -1.74, 0.5th percentile — essentially the global floor. Caesar Act sanctions pushed the economy further into informal/criminal channels. COVID-19 humanitarian response mired in corruption. Syria is among the 2-3 worst performers globally on corruption control."
       features:
-        - pervasive_corruption
+      - pervasive_corruption
       sources:
-        - citation: "World Bank WGI, CC.EST, Syria, 2020"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WGI, CC.EST, Syria, 2020"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Near global minimum; Caesar Act sanctions and COVID compound corruption environment."
   2021:
@@ -819,7 +987,7 @@ years:
       reliability: low
       components:
         standard_error:
-          value: null
+          value:
           unit: wgi_std_error
           role: uncertainty
           source:
@@ -827,6 +995,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.STD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank:
           value: 0.476190477609634
           unit: percentile_0_100
@@ -836,6 +1006,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         number_of_sources:
           value: 6
           unit: count
@@ -845,6 +1017,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.NO.SRC"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         percentile_rank_lower_ci:
           value: 0.0
           unit: percentile_0_100
@@ -854,6 +1028,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.LOWER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank_upper_ci:
           value: 4.76
           unit: percentile_0_100
@@ -863,14 +1039,20 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.UPPER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Score -1.80, 0.5th percentile — worst recorded score for Syria, effectively at global floor. Captagon drug trade, systematic corruption in all state functions, and absence of any accountability mechanism defines this period. 6 sources with slight increase but still very low."
       features:
-        - pervasive_corruption
+      - pervasive_corruption
       sources:
-        - citation: "World Bank WGI, CC.EST, Syria, 2021"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WGI, CC.EST, Syria, 2021"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Lowest recorded score for Syria."
   2022:
@@ -886,7 +1068,7 @@ years:
       reliability: low
       components:
         standard_error:
-          value: null
+          value:
           unit: wgi_std_error
           role: uncertainty
           source:
@@ -894,6 +1076,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.STD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank:
           value: 0.943396210670471
           unit: percentile_0_100
@@ -903,6 +1087,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         number_of_sources:
           value: 6
           unit: count
@@ -912,6 +1098,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.NO.SRC"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         percentile_rank_lower_ci:
           value: 0.0
           unit: percentile_0_100
@@ -921,6 +1109,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.LOWER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank_upper_ci:
           value: 4.72
           unit: percentile_0_100
@@ -930,16 +1120,22 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.UPPER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Score -1.78, 0.9th percentile. Arab normalization process beginning with some Gulf states seeking to re-engage with Assad. No meaningful anti-corruption measures implemented. Rami Makhlouf's public feud with Assad in 2020 revealed internal regime asset stripping. Score near global minimum."
       features:
-        - pervasive_corruption
+      - pervasive_corruption
       sources:
-        - citation: "World Bank WGI, CC.EST, Syria, 2022"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WGI, CC.EST, Syria, 2022"
+        type: official_statistics
+        reliability: low
       confidence: low
-      notes: null
+      notes:
   2023:
     data_status: complete
     quantitative:
@@ -953,7 +1149,7 @@ years:
       reliability: low
       components:
         standard_error:
-          value: null
+          value:
           unit: wgi_std_error
           role: uncertainty
           source:
@@ -961,6 +1157,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.STD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank:
           value: 0.471698105335236
           unit: percentile_0_100
@@ -970,6 +1168,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         number_of_sources:
           value: 6
           unit: count
@@ -979,6 +1179,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.NO.SRC"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         percentile_rank_lower_ci:
           value: 0.0
           unit: percentile_0_100
@@ -988,6 +1190,8 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.LOWER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank_upper_ci:
           value: 6.13
           unit: percentile_0_100
@@ -997,20 +1201,26 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.UPPER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Score -1.75, 0.5th percentile — last WGI measurement before the regime's fall. The earthquake of February 2023 revealed extreme humanitarian aid corruption as the regime diverted earthquake relief. Syria remains at near-global floor on corruption control. The 2023 score reflects the Assad-era governance; the December 2024 transition will not be reflected until future WGI releases."
       features:
-        - pervasive_corruption
+      - pervasive_corruption
       sources:
-        - citation: "World Bank WGI, CC.EST, Syria, 2023"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WGI, CC.EST, Syria, 2023"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Last WGI measurement under Assad regime; earthquake aid corruption documented. Regime fell December 2024."
   2024:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: wgi_estimate_z_score
       formula: "UCM weighted average of governance surveys"
       source:
@@ -1020,7 +1230,7 @@ years:
       reliability: low
       components:
         standard_error:
-          value: null
+          value:
           unit: wgi_std_error
           role: uncertainty
           source:
@@ -1028,8 +1238,10 @@ years:
             url: "https://data.worldbank.org/indicator/CC.STD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank:
-          value: null
+          value:
           unit: percentile_0_100
           role: cross_country_context
           source:
@@ -1037,8 +1249,10 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         number_of_sources:
-          value: null
+          value:
           unit: count
           role: methodology_metadata
           source:
@@ -1046,8 +1260,10 @@ years:
             url: "https://data.worldbank.org/indicator/CC.NO.SRC"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank_lower_ci:
-          value: null
+          value:
           unit: percentile_0_100
           role: confidence_bound
           source:
@@ -1055,8 +1271,10 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.LOWER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank_upper_ci:
-          value: null
+          value:
           unit: percentile_0_100
           role: confidence_bound
           source:
@@ -1064,19 +1282,25 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.UPPER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No WGI data available for 2024. The Assad regime collapsed in December 2024; 2024 WGI data has not yet been released. The transition from an entrenched kleptocratic regime to an HTS-led authority represents a structural break; future WGI assessments will need to measure a fundamentally different governance entity."
       features: []
       sources:
-        - citation: "World Bank WGI, CC.EST, Syria, 2024 — no data yet released"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WGI, CC.EST, Syria, 2024 — no data yet released"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "WGI 2024 data not yet released; regime change December 2024 creates structural break in series."
   2025:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: wgi_estimate_z_score
       formula: "UCM weighted average of governance surveys"
       source:
@@ -1086,7 +1310,7 @@ years:
       reliability: low
       components:
         standard_error:
-          value: null
+          value:
           unit: wgi_std_error
           role: uncertainty
           source:
@@ -1094,8 +1318,10 @@ years:
             url: "https://data.worldbank.org/indicator/CC.STD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank:
-          value: null
+          value:
           unit: percentile_0_100
           role: cross_country_context
           source:
@@ -1103,8 +1329,10 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         number_of_sources:
-          value: null
+          value:
           unit: count
           role: methodology_metadata
           source:
@@ -1112,8 +1340,10 @@ years:
             url: "https://data.worldbank.org/indicator/CC.NO.SRC"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank_lower_ci:
-          value: null
+          value:
           unit: percentile_0_100
           role: confidence_bound
           source:
@@ -1121,8 +1351,10 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.LOWER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank_upper_ci:
-          value: null
+          value:
           unit: percentile_0_100
           role: confidence_bound
           source:
@@ -1130,19 +1362,25 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.UPPER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Post-transition period; new governing authority."
       features: []
       sources:
-        - citation: "World Bank WGI, CC.EST, Syria, 2025 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WGI, CC.EST, Syria, 2025 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data."
   2026:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: wgi_estimate_z_score
       formula: "UCM weighted average of governance surveys"
       source:
@@ -1152,7 +1390,7 @@ years:
       reliability: low
       components:
         standard_error:
-          value: null
+          value:
           unit: wgi_std_error
           role: uncertainty
           source:
@@ -1160,8 +1398,10 @@ years:
             url: "https://data.worldbank.org/indicator/CC.STD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank:
-          value: null
+          value:
           unit: percentile_0_100
           role: cross_country_context
           source:
@@ -1169,8 +1409,10 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         number_of_sources:
-          value: null
+          value:
           unit: count
           role: methodology_metadata
           source:
@@ -1178,8 +1420,10 @@ years:
             url: "https://data.worldbank.org/indicator/CC.NO.SRC"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank_lower_ci:
-          value: null
+          value:
           unit: percentile_0_100
           role: confidence_bound
           source:
@@ -1187,8 +1431,10 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.LOWER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         percentile_rank_upper_ci:
-          value: null
+          value:
           unit: percentile_0_100
           role: confidence_bound
           source:
@@ -1196,12 +1442,18 @@ years:
             url: "https://data.worldbank.org/indicator/CC.PER.RNK.UPPER"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available; year not yet complete."
       features: []
       sources:
-        - citation: "World Bank WGI, CC.EST, Syria, 2026 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WGI, CC.EST, Syria, 2026 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Year not yet complete."

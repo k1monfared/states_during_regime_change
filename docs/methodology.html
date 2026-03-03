@@ -40,7 +40,7 @@
       <h2 id="overview">Overview</h2>
       <p>
         This dataset covers 39 countries across six regions that experienced significant regime changes
-        from the 1990s through the mid-2020s. For each country, 20 indicators across four dimensions
+        from the 1990s through the mid-2020s. For each country, 34 indicators across six dimensions
         are scored annually on a 0–100 scale, where higher values represent greater stability, openness,
         and state capacity.
       </p>
@@ -68,93 +68,99 @@
 
       <h2 id="indicators">Indicators</h2>
       <p>
-        Twenty indicators are organized into four equal-weight dimensions.
+        Indicators are organized into equal-weight dimensions.
         Each indicator is scored 0–100; higher scores consistently represent better outcomes
-        (reversals such as press freedom and inflation are inverted).
+        (indicators where lower raw values are better — such as inflation, violence, and debt — are inverted).
       </p>
-
-      <h3 id="dim-political">Political (5 indicators)</h3>
-      <table class="indicator-table">
-        <thead><tr><th>Indicator</th><th>Measures</th><th>Primary Sources</th></tr></thead>
-        <tbody>
-          <tr><td>Territorial Control</td><td>% of territory under central government control</td><td><a href="https://www.crisisgroup.org" target="_blank" rel="noopener">ICG</a>, <a href="https://acleddata.com" target="_blank" rel="noopener">ACLED</a>, academic</td></tr>
-          <tr><td>Political Violence</td><td>Conflict deaths, terrorism, state repression (inverted)</td><td><a href="https://ucdp.uu.se" target="_blank" rel="noopener">UCDP/PRIO</a>, <a href="https://acleddata.com" target="_blank" rel="noopener">ACLED</a></td></tr>
-          <tr><td>Institutional Functioning</td><td>Courts, legislature, bureaucracy, elections operating</td><td><a href="https://www.v-dem.net" target="_blank" rel="noopener">V-Dem</a>, <a href="https://freedomhouse.org/report/freedom-world" target="_blank" rel="noopener">Freedom House</a></td></tr>
-          <tr><td>Civil Liberties</td><td>Expression, assembly, religion, movement (Freedom House inverted)</td><td><a href="https://freedomhouse.org/report/freedom-world" target="_blank" rel="noopener">Freedom House</a></td></tr>
-          <tr><td>Elite Cohesion</td><td>Ruling coalition stability, coup risk</td><td><a href="https://www.crisisgroup.org" target="_blank" rel="noopener">ICG</a>, qualitative</td></tr>
-        </tbody>
-      </table>
-
-      <h3 id="dim-economic">Economic (5 indicators)</h3>
-      <table class="indicator-table">
-        <thead><tr><th>Indicator</th><th>Measures</th><th>Primary Sources</th></tr></thead>
-        <tbody>
-          <tr><td>GDP per Capita</td><td>Living standards indexed to country peak (inverted collapse)</td><td><a href="https://data.worldbank.org/indicator/NY.GDP.PCAP.CD" target="_blank" rel="noopener">World Bank</a>, <a href="https://imf.org/en/Publications/WEO" target="_blank" rel="noopener">IMF</a></td></tr>
-          <tr><td>Inflation</td><td>Annual CPI; hyperinflation = 0, low = 100 (inverted)</td><td><a href="https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG" target="_blank" rel="noopener">World Bank</a>, <a href="https://imf.org/en/Publications/WEO" target="_blank" rel="noopener">IMF</a></td></tr>
-          <tr><td>Unemployment</td><td>Official unemployment rate (inverted)</td><td><a href="https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS" target="_blank" rel="noopener">World Bank</a>, <a href="https://ilostat.ilo.org/data/" target="_blank" rel="noopener">ILO</a></td></tr>
-          <tr><td>Trade Openness</td><td>(Exports + Imports) / GDP</td><td><a href="https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS" target="_blank" rel="noopener">World Bank</a></td></tr>
-          <tr><td>Fiscal Health</td><td>Debt/GDP, budget balance sustainability</td><td><a href="https://imf.org/en/Publications/WEO" target="_blank" rel="noopener">IMF</a>, <a href="https://data.worldbank.org" target="_blank" rel="noopener">World Bank</a></td></tr>
-        </tbody>
-      </table>
-
-      <h3 id="dim-international">International (5 indicators)</h3>
-      <table class="indicator-table">
-        <thead><tr><th>Indicator</th><th>Measures</th><th>Primary Sources</th></tr></thead>
-        <tbody>
-          <tr><td>Sanctions</td><td>Degree of international economic restrictions (inverted)</td><td><a href="https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information" target="_blank" rel="noopener">US OFAC</a>, <a href="https://www.sanctionsmap.eu" target="_blank" rel="noopener">EU</a>, <a href="https://www.un.org/securitycouncil/sanctions/information" target="_blank" rel="noopener">UN SC</a></td></tr>
-          <tr><td>Diplomatic Integration</td><td>Recognition, embassy presence, international body membership</td><td><a href="https://www.un.org/en/about-us/member-states" target="_blank" rel="noopener">UN</a>, foreign ministry announcements</td></tr>
-          <tr><td>Foreign Military</td><td>External military involvement as sovereignty indicator (inverted)</td><td><a href="https://www.iiss.org/publications/the-military-balance/" target="_blank" rel="noopener">IISS Military Balance</a>, <a href="https://www.sipri.org/databases/pko" target="_blank" rel="noopener">SIPRI PKO</a></td></tr>
-          <tr><td>FDI</td><td>Foreign direct investment inflows as business confidence indicator</td><td><a href="https://unctad.org/topic/investment/world-investment-report" target="_blank" rel="noopener">UNCTAD</a>, <a href="https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS" target="_blank" rel="noopener">World Bank</a></td></tr>
-          <tr><td>Refugee Flows</td><td>Population displacement as crisis severity indicator (inverted)</td><td><a href="https://www.unhcr.org/refugee-statistics/" target="_blank" rel="noopener">UNHCR</a>, <a href="https://www.internal-displacement.org" target="_blank" rel="noopener">IDMC</a></td></tr>
-        </tbody>
-      </table>
-
-      <h3 id="dim-transparency">Transparency (5 indicators)</h3>
-      <table class="indicator-table">
-        <thead><tr><th>Indicator</th><th>Measures</th><th>Primary Sources</th></tr></thead>
-        <tbody>
-          <tr><td>Budget Transparency</td><td>Public access to government budget information</td><td><a href="https://internationalbudget.org/open-budget-survey/" target="_blank" rel="noopener">Open Budget Index (IBP)</a></td></tr>
-          <tr><td>Press Freedom</td><td>Journalist freedom to investigate and publish (RSF inverted)</td><td><a href="https://rsf.org/en/index" target="_blank" rel="noopener">Reporters Without Borders (RSF)</a></td></tr>
-          <tr><td>Statistical Transparency</td><td>Government production of credible socioeconomic data</td><td><a href="https://datatopics.worldbank.org/statisticalcapacity/" target="_blank" rel="noopener">World Bank Statistical Capacity</a></td></tr>
-          <tr><td>Legal Transparency</td><td>Accessibility and predictability of laws and court decisions</td><td><a href="https://worldjusticeproject.org/rule-of-law-index" target="_blank" rel="noopener">World Justice Project</a></td></tr>
-          <tr><td>Extractive Transparency</td><td>Natural resource revenue disclosure (not applicable for ~13 countries)</td><td><a href="https://eiti.org/countries" target="_blank" rel="noopener">EITI</a></td></tr>
-        </tbody>
-      </table>
+      <div id="indicator-tables"><div class="loading">Loading…</div></div>
 
       <h2 id="scoring">Scoring Scale</h2>
       <p>
         All indicators use a <strong>0–100 scale</strong> where 100 represents the best possible
         outcome and 0 represents the worst. The scale direction is consistent: a higher score always
         means a better situation, regardless of whether the underlying data is "good when high"
-        (e.g. GDP) or "good when low" (e.g. inflation, violence). Inversions are applied during
-        data collection.
+        (e.g. GDP) or "good when low" (e.g. inflation, violence). Inversions are applied before
+        threshold scoring.
       </p>
       <p>
-        Quantitative indicators are transformed to the 0–100 scale using documented formulas
-        (e.g. <code>(8 - FH_civil_liberties) / 7 * 100</code>).
-        Qualitative indicators use controlled vocabulary feature sets with corresponding score
-        anchors; assessors select the feature that best describes the observed situation.
+        Four input transforms are used to normalize raw values before threshold lookup:
+      </p>
+      <table class="indicator-table">
+        <thead><tr><th>Transform</th><th>Formula</th><th>Used for</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><code>freedom_house_invert</code></td>
+            <td><code>(8 − FH_CL) / 7 × 100</code></td>
+            <td>Civil Liberties — converts FH 1–7 scale (1=best) to 0–100 (100=best)</td>
+          </tr>
+          <tr>
+            <td><code>rsf_invert</code></td>
+            <td><code>100 − RSF_score</code> <em>(pre-2022 only)</em></td>
+            <td>Press Freedom — pre-2022 RSF used 0=best; post-2022 RSF already 100=best</td>
+          </tr>
+          <tr>
+            <td><code>wjp_multiply_100</code></td>
+            <td><code>WJP_Factor3 × 100</code></td>
+            <td>Legal Transparency — converts WJP 0–1 scale to 0–100</td>
+          </tr>
+          <tr>
+            <td><code>percent_of_peak</code></td>
+            <td><code>value / max(series) × 100</code></td>
+            <td>GDP per Capita — indexed to each country's own historical maximum</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        After any input transform, quantitative values are mapped to score ranges via a threshold
+        lookup table. Qualitative indicators use controlled vocabulary feature sets with
+        corresponding score anchors; assessors select the feature that best describes the observed
+        situation. Exact formulas for each indicator are shown in the Source Definitions section below.
       </p>
 
       <h2 id="dimensions">Dimension Scores</h2>
       <p>
-        Each dimension score is the weighted average of its five indicators.
+        Each dimension score is the weighted average of its indicators.
         All indicator weights default to 1.0 (equal weight). Missing data is handled by
-        <code>skip_and_renormalize</code>: the average is computed over available indicators
-        only, with weights adjusted proportionally.
+        <code>skip_and_renormalize</code>: only available (non-null) indicators contribute;
+        their weights are summed as the effective denominator.
       </p>
+      <pre><code># skip_and_renormalize formula (Python pseudocode):
+def dimension_score(indicator_scores, weights):
+    available = {k: v for k, v in indicator_scores.items() if v is not None}
+    if not available:
+        return None
+    total_weight = sum(weights[k] for k in available)
+    return sum(available[k] * weights[k] for k in available) / total_weight
+
+# Example — Political dimension, 8 indicators, 2 missing:
+#   available = {terr_ctrl: 60, pol_viol: 40, inst_func: 50,
+#                civ_lib: 45, elite_coh: 70, mil_exp: 55}   # 6 of 8
+#   total_weight = 6 × 1.0 = 6.0   (NOT 8.0)
+#   dimension_score = (60+40+50+45+70+55) / 6.0 = 53.3</code></pre>
       <p>
         One exception: <em>Extractive Transparency</em> is excluded from the Transparency
         dimension for 13 countries where the indicator is not applicable (no significant
-        extractive sector).
+        extractive sector). Those countries' Transparency scores are computed from 5 indicators
+        instead of 6.
       </p>
 
       <h2 id="aggregation">Composite Score</h2>
       <p>
-        The composite score is the weighted average of the four dimension scores, with equal
+        The composite score is the weighted average of the six dimension scores, with equal
         weights (1.0 each). As with indicators, missing dimensions are handled by
-        <code>skip_and_renormalize</code>.
+        <code>skip_and_renormalize</code>:
       </p>
+      <pre><code># Composite score formula:
+def composite_score(dimension_scores, weights):
+    available = {k: v for k, v in dimension_scores.items() if v is not None}
+    if not available:
+        return None
+    total_weight = sum(weights[k] for k in available)
+    return sum(available[k] * weights[k] for k in available) / total_weight
+
+# All six dimension weights = 1.0:
+#   dimensions: political, economic, international, transparency,
+#               population_mobility, social</code></pre>
       <p>
         The composite score is the primary metric shown by default in the dashboard.
         Users can select individual dimensions or indicators, or build custom weighted
@@ -279,16 +285,66 @@
 <script type="module">
 import { loadDefinitions } from "./js/data.js";
 
-const DIMENSION_ORDER = ["political", "economic", "international", "transparency"];
+const DIMENSION_ORDER = ["political", "economic", "international", "transparency", "population_mobility", "social"];
 const DIMENSION_LABELS = {
   political: "Political",
   economic: "Economic",
   international: "International",
   transparency: "Transparency",
+  population_mobility: "Population Mobility",
+  social: "Social & Human Dev.",
 };
 
 function esc(s) {
   return String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+function scoreRangeBadge(text) {
+  const clean = text.trim();
+  const match = clean.match(/^(\d+)[–\-](\d+)(.*)$/);
+  if (!match) return `<span class="tc-score-other">${esc(clean)}</span>`;
+  const lo = parseInt(match[1], 10);
+  const range = `${match[1]}–${match[2]}`;
+  const rest = match[3].trim();
+  const cls = lo >= 80 ? "sr-high" : lo >= 60 ? "sr-med-high" : lo >= 40 ? "sr-mid" : lo >= 20 ? "sr-med-low" : "sr-low";
+  return `<span class="tc-score-range ${cls}">${esc(range)}</span>${rest ? ` <span class="tc-score-note">${esc(rest)}</span>` : ""}`;
+}
+
+function formatTransform(raw) {
+  if (!raw) return "";
+  const text = raw.trim();
+  if (!text.includes("→")) return `<span class="transform-plain">${esc(text)}</span>`;
+  let preamble = "", rulesText = text;
+  const colonIdx = text.indexOf(": ");
+  const firstArrow = text.indexOf("→");
+  if (colonIdx > 0 && colonIdx < firstArrow) {
+    preamble = text.slice(0, colonIdx);
+    rulesText = text.slice(colonIdx + 2);
+  }
+  const parts = rulesText.split(/;\s*/);
+  const rows = [], notes = [];
+  for (const part of parts) {
+    const p = part.trim();
+    if (!p) continue;
+    const ai = p.indexOf("→");
+    if (ai < 0) { const n = p.replace(/^\.\s*/, "").trim(); if (n) notes.push(n); continue; }
+    const cond = p.slice(0, ai).trim().replace(/_/g, " ");
+    let score = p.slice(ai + 1).trim();
+    const dotNote = score.match(/^(\d+[–\-]\d+)\.\s+(.+)$/);
+    if (dotNote) { score = dotNote[1]; notes.push(dotNote[2]); }
+    else score = score.replace(/\.\s*$/, "").trim();
+    rows.push({ cond, score });
+  }
+  if (!rows.length) return `<span class="transform-plain">${esc(text)}</span>`;
+  let html = '<div class="transform-block">';
+  if (preamble) html += `<div class="transform-preamble">${esc(preamble)}</div>`;
+  html += '<table class="transform-table">';
+  for (const { cond, score } of rows)
+    html += `<tr><td class="tc-cond">${esc(cond)}</td><td class="tc-arrow">→</td><td class="tc-score">${scoreRangeBadge(score)}</td></tr>`;
+  html += "</table>";
+  if (notes.length) html += `<div class="transform-notes">${notes.map(esc).join(" · ")}</div>`;
+  html += "</div>";
+  return html;
 }
 
 /**
@@ -329,6 +385,8 @@ function renderDefCard(def) {
   const concept = (def.concept ?? "").replace(/\s+/g, " ").trim();
   const nativeScale = (def.native_scale ?? "").replace(/\s+/g, " ").trim();
   const projectTransform = (def.project_transform ?? "").replace(/\s+/g, " ").trim();
+  // score_formula is preserved with original whitespace (multi-line code block)
+  const scoreFormula = (def.score_formula ?? "").trimEnd();
   const breakText = (def.methodology_break ?? "").replace(/\s+/g, " ").trim();
   const coverageStr = [def.coverage_period, def.frequency, def.geographic_coverage]
     .filter(Boolean)
@@ -360,7 +418,10 @@ function renderDefCard(def) {
     body += `<dt class="def-field-label">Native scale</dt><dd class="def-field-value">${esc(nativeScale)}</dd>`;
   }
   if (projectTransform) {
-    body += `<dt class="def-field-label">Project transform</dt><dd class="def-field-value">${esc(projectTransform)}</dd>`;
+    body += `<dt class="def-field-label">Project transform</dt><dd class="def-field-value">${formatTransform(projectTransform)}</dd>`;
+  }
+  if (scoreFormula) {
+    body += `<dt class="def-field-label">Exact formula</dt><dd class="def-field-value"><pre class="score-formula"><code>${esc(scoreFormula)}</code></pre></dd>`;
   }
   if (coverageStr) {
     body += `<dt class="def-field-label">Coverage</dt><dd class="def-field-value">${esc(coverageStr)}</dd>`;
@@ -385,6 +446,40 @@ function renderDefCard(def) {
       ${breakHtml}
       <dl class="def-body">${body}</dl>
     </details>`;
+}
+
+async function renderIndicatorTables() {
+  const container = document.getElementById("indicator-tables");
+  if (!container) return;
+  try {
+    const defs = await loadDefinitions();
+    let html = "";
+    for (const dim of DIMENSION_ORDER) {
+      const dimDefs = Object.values(defs).filter((d) => d.dimension === dim);
+      if (!dimDefs.length) continue;
+      const dimLabel = DIMENSION_LABELS[dim] ?? dim;
+      html += `<h3 id="dim-${dim}">${esc(dimLabel)} <span class="dim-count">(${dimDefs.length} indicators)</span></h3>`;
+      html += `<table class="indicator-table">`;
+      html += `<thead><tr><th>Indicator</th><th>Measures</th><th>Primary Source</th></tr></thead><tbody>`;
+      for (const def of dimDefs) {
+        const anchor = `ind-${(def.id ?? "").replace("/", "-")}`;
+        const label = esc(def.label ?? (def.id ?? "").split("/")[1] ?? def.id);
+        const concept = esc((def.concept ?? "").replace(/\s+/g, " ").trim());
+        const srcLink = def.primary_source_url
+          ? `<a href="${esc(def.primary_source_url)}" target="_blank" rel="noopener">${esc(def.primary_source ?? def.primary_source_url)}</a>`
+          : esc(def.primary_source ?? "—");
+        html += `<tr>
+          <td><a href="#${anchor}" class="ind-anchor-link">${label}</a></td>
+          <td>${concept || "—"}</td>
+          <td>${srcLink}</td>
+        </tr>`;
+      }
+      html += `</tbody></table>`;
+    }
+    container.innerHTML = html;
+  } catch (err) {
+    container.innerHTML = `<div class="error-msg">Failed to load indicator list: ${esc(err.message)}</div>`;
+  }
 }
 
 async function renderDefinitions() {
@@ -417,6 +512,7 @@ async function renderDefinitions() {
   }
 }
 
+renderIndicatorTables();
 renderDefinitions();
 </script>
 

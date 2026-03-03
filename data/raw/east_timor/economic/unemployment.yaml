@@ -5,13 +5,17 @@ years:
   1999:
     data_status: partial
     quantitative:
-      value: null
+      value:
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         No reliable unemployment data for 1999. Post-referendum destruction left
@@ -19,24 +23,28 @@ years:
         economic activity collapsed. Survival agriculture and subsistence the norm.
         Formal labor market statistics non-existent.
       features:
-        - high_15_25pct
+      - high_15_25pct
       sources:
-        - citation: "UNDP East Timor Human Development Reports"
-          url: "https://hdr.undp.org"
-          type: international_organization
-          reliability: low
+      - citation: "UNDP East Timor Human Development Reports"
+        url: "https://hdr.undp.org"
+        type: international_organization
+        reliability: low
       confidence: low
       notes: "Post-referendum; formal economy destroyed; no labor statistics available"
   2000:
     data_status: partial
     quantitative:
-      value: null
+      value:
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         No formal unemployment data. Economy being rebuilt under UNTAET. Most
@@ -44,24 +52,28 @@ years:
         very limited — primarily UN mission staff and early government employees.
         ILO estimates place effective unemployment and underemployment very high.
       features:
-        - high_15_25pct
+      - high_15_25pct
       sources:
-        - citation: "ILO East Timor country assessments"
-          url: "https://www.ilo.org"
-          type: international_organization
-          reliability: low
+      - citation: "ILO East Timor country assessments"
+        url: "https://www.ilo.org"
+        type: international_organization
+        reliability: low
       confidence: low
       notes: "UNTAET period; no formal labor market; subsistence agriculture dominant"
   2001:
     data_status: partial
     quantitative:
-      value: null
+      value:
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Formal employment still very limited. Constitutional Assembly elections
@@ -69,24 +81,28 @@ years:
         employment. Formal unemployment statistics still not established. Youth
         unemployment particularly high in Dili.
       features:
-        - high_15_25pct
+      - high_15_25pct
       sources:
-        - citation: "ILO East Timor country assessments"
-          url: "https://www.ilo.org"
-          type: international_organization
-          reliability: low
+      - citation: "ILO East Timor country assessments"
+        url: "https://www.ilo.org"
+        type: international_organization
+        reliability: low
       confidence: low
       notes: "Pre-independence; limited formal economy; youth unemployment high"
   2002:
     data_status: partial
     quantitative:
-      value: null
+      value:
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Post-independence formal labor market very small. Government employment
@@ -94,12 +110,12 @@ years:
         high due to limited formal sector. Subsistence agriculture dominant. Labor
         force surveys not yet systematically conducted.
       features:
-        - elevated_10_15pct
+      - elevated_10_15pct
       sources:
-        - citation: "ILO East Timor country assessments"
-          url: "https://www.ilo.org"
-          type: international_organization
-          reliability: low
+      - citation: "ILO East Timor country assessments"
+        url: "https://www.ilo.org"
+        type: international_organization
+        reliability: low
       confidence: low
       notes: "Independence May 2002; government employment expanding; private sector very small"
   2003:
@@ -112,6 +128,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled unemployment estimate ~3.6% — very low by ILO methodology which
@@ -120,12 +140,12 @@ years:
         figure reflects ILO definitional approach rather than job quality conditions.
         Most employment is subsistence agriculture, informal, or under-employed.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; very low formally but underemployment very high; subsistence dominant"
   2004:
@@ -138,18 +158,22 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~3.5%. Very low formal unemployment by ILO definition.
         Economy stabilizing. Agriculture dominant. Formal private sector still very
         small. Government employment the main formal sector employer.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "ILO modeled; actual underemployment high; formal economy small"
   2005:
@@ -162,6 +186,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~3.4%. Petroleum Fund established 2005 beginning to
@@ -169,12 +197,12 @@ years:
         slowly. Subsistence agriculture still dominant. Youth unemployment in
         urban areas high but not captured in ILO estimates.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Petroleum Fund established; formal employment growing; urban youth unemployment high"
   2006:
@@ -187,6 +215,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~3.4%. 2006 political/military crisis disrupted
@@ -194,12 +226,12 @@ years:
         temporarily. Real unemployment conditions worsened during crisis period
         but ILO modeled estimate doesn't capture this disruption well.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "2006 crisis disrupted urban employment; IDPs; ILO estimate understates disruption"
   2007:
@@ -212,6 +244,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~3.3%. Post-crisis recovery. 2007 elections brought
@@ -219,12 +255,12 @@ years:
         from petroleum revenues — creating construction employment and government
         jobs. Economy recovering from 2006 crisis.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Post-2006 recovery; 2007 elections; government spending creating employment"
   2008:
@@ -237,6 +273,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~3.3%. Strong government spending driving employment.
@@ -244,12 +284,12 @@ years:
         attempt on Ramos-Horta contained — did not derail employment conditions.
         Petroleum Fund resources enabling large government employment programs.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Strong government spending; construction boom; Petroleum Fund employment programs"
   2009:
@@ -262,6 +302,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~3.1%. Global financial crisis had limited direct
@@ -269,12 +313,12 @@ years:
         Construction and public sector employment continuing. Economy growing at
         double-digit rates driven by government expenditure.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "GFC limited impact; petroleum insulation; double-digit economic growth"
   2010:
@@ -287,6 +331,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~3.0%. Employment conditions improving with economic
@@ -294,12 +342,12 @@ years:
         UNMIT mission employment winding down. Formal private sector still small
         but growing.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Construction boom; government employment expanding; UNMIT winding down"
   2011:
@@ -312,6 +360,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~3.0%. Economy growing strongly. Employment in
@@ -319,12 +371,12 @@ years:
         December 2012. Poverty levels still high despite formal employment figures.
         Labor force surveys showing high underemployment.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Strong growth; UNMIT completing; formal employment low but underemployment high"
   2012:
@@ -337,6 +389,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~2.9%. Successful 2012 elections. UNMIT mission
@@ -344,12 +400,12 @@ years:
         Government expenditure-driven employment continued. Private sector
         investment beginning with political stability.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "2012 elections; UNMIT completed; political stability supporting investment"
   2013:
@@ -362,18 +418,22 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~2.8%. Economy growing. Government spending from
         Petroleum Fund maintaining employment. Petroleum Fund approaching peak.
         Concern about long-term fiscal sustainability and post-petroleum employment.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Petroleum Fund approaching peak; government spending maintaining employment"
   2014:
@@ -386,6 +446,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~2.8%. Economy stable. Oil price collapse from
@@ -393,12 +457,12 @@ years:
         sustainability concerns. Private sector still small. Youth unemployment
         structurally high despite low ILO headline number.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Oil price decline beginning; fiscal sustainability concerns; youth unemployment high"
   2015:
@@ -411,6 +475,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~2.7%. Low oil prices reducing petroleum revenues.
@@ -418,12 +486,12 @@ years:
         development still insufficient to replace petroleum-driven public spending.
         Structural unemployment concerns for youth.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Low oil prices; government spending tapering; youth unemployment structural issue"
   2016:
@@ -436,18 +504,22 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~2.6%. Low oil price environment reducing fiscal
         space. Government seeking to diversify economy. Private sector very small.
         Economy facing long-term structural challenge as petroleum revenues decline.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Low oil prices; fiscal constraints; structural economic challenge emerging"
   2017:
@@ -460,6 +532,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~2.5%. Political crisis — two election rounds and
@@ -467,12 +543,12 @@ years:
         conditions likely worsened despite low ILO headline figure. Government
         unable to implement full budget.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Political crisis; budget impasse; reduced government spending impacting employment"
   2018:
@@ -485,6 +561,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~2.4%. New ANC government formed May 2018, spending
@@ -492,12 +572,12 @@ years:
         Sunrise field development progress. Employment recovering from 2017 political
         uncertainty.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Government resumed; maritime boundary treaty; employment recovering"
   2019:
@@ -510,6 +590,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~2.3%. Economy growing with government spending. Private
@@ -517,12 +601,12 @@ years:
         FDI strongly negative in 2019 (oil sector exit). Government employment
         dominant formal sector employer.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Government employment dominant; private sector small; FDI negative from oil exit"
   2020:
@@ -535,6 +619,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~2.1%. COVID-19 pandemic limited impact due to
@@ -542,12 +630,12 @@ years:
         spending from Petroleum Fund maintained. Tourism (small but growing) hit.
         Overall formal employment broadly maintained.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "COVID-19 limited impact; government spending maintained; agriculture-dominant"
   2021:
@@ -560,18 +648,22 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~1.9%. Post-COVID recovery. Government spending
         maintained from Petroleum Fund. Bayu-Undan field declining but not yet
         zero. ASEAN accession formal application. FDI recovered from large negative.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Post-COVID recovery; government spending; ASEAN accession progress"
   2022:
@@ -584,6 +676,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~1.8%. Economy recovering. Gusmao returned as PM.
@@ -591,12 +687,12 @@ years:
         pressure mounting as Bayu-Undan production declining. Long-term employment
         sustainability concerns.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Gusmao returned as PM; Petroleum Fund declining; long-term employment concerns"
   2023:
@@ -609,6 +705,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~1.6%. Bayu-Undan production effectively ended.
@@ -616,12 +716,12 @@ years:
         ASEAN accession continuing. Long-term fiscal and employment sustainability
         critical issue without Greater Sunrise development.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Bayu-Undan ended; fiscal pressure intensifying; ASEAN accession"
   2024:
@@ -634,6 +734,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/SL.UEM.TOTL.ZS"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         ILO modeled estimate ~1.5%. Very low formal unemployment by ILO definition
@@ -641,35 +745,39 @@ years:
         Fiscal pressure from petroleum revenue decline. Non-oil economy developing
         slowly. Long-term structural challenge.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI SL.UEM.TOTL.ZS (ILO modeled)"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "ILO estimate very low; underemployment/informality high; fiscal sustainability critical"
   2025:
     data_status: partial
     quantitative:
-      value: null
+      value:
       unit: percent_labor_force
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Low formal unemployment by ILO estimates but persistent underemployment.
         Fiscal pressure from petroleum revenue decline a structural challenge for
         employment creation.
       features:
-        - low_lt_5pct
+      - low_lt_5pct
       sources:
-        - citation: "ILO East Timor country estimates"
-          url: "https://www.ilo.org"
-          type: international_organization
-          reliability: low
+      - citation: "ILO East Timor country estimates"
+        url: "https://www.ilo.org"
+        type: international_organization
+        reliability: low
       confidence: low
       notes: "Status as of early 2026; structural employment challenges remain"

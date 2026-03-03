@@ -31,6 +31,28 @@ political:
       majority_outside_control → 10–29;
       failed_state_no_authority → 0–9.
       Modifiers: foreign_occupation −10, multiple_competing_authorities −15.
+    score_formula: |
+      # Raw input: territory_pct — estimated % of national territory under central govt control (0–100)
+      # Input transform: none
+      # Combination rule: quantitative_preferred (qualitative used as fallback)
+
+      # Quantitative thresholds (checked in order; first match wins):
+      if territory_pct >= 95:  score = 90–100
+      if territory_pct >= 90:  score = 70–89
+      if territory_pct >= 70:  score = 50–69
+      if territory_pct >= 50:  score = 30–49
+      if territory_pct >= 20:  score = 10–29
+      else:                    score = 0–9
+
+      # Qualitative feature vocabulary (fallback; default scores):
+      full_control_no_challenges          → 90–100  (default 95)
+      minor_insurgencies_lt_10pct         → 70–89   (default 80)
+      significant_areas_outside_10_30pct  → 50–69   (default 60)
+      large_portions_contested_30_50pct   → 30–49   (default 40)
+      majority_outside_control            → 10–29   (default 20)
+      failed_state_no_authority           → 0–9     (default 5)
+      Modifiers: foreign_occupation −10 pts; multiple_competing_authorities −15 pts
+      Multi-feature rule: minimum (worst feature wins if multiple selected)
     coverage_period: "1990–2025 (varies by country start year)"
     frequency: "Annual (qualitative assessment)"
     geographic_coverage: "All 39 project countries"
@@ -69,6 +91,28 @@ political:
       Threshold scoring (inverted — lower deaths = higher score):
       < 100 deaths → 90–100; < 500 → 70–89; < 2,000 → 50–69;
       < 10,000 → 30–49; < 50,000 → 10–29; ≥ 50,000 → 0–9.
+    score_formula: |
+      # Raw input: deaths_per_year — annual conflict-related deaths (UCDP GED best_fatality_estimate)
+      # Input transform: none
+      # Note: MORE deaths = LOWER score (inverted scale)
+      # Combination rule: quantitative_preferred
+
+      # Quantitative thresholds (inverted; checked in order):
+      if deaths_per_year < 100:    score = 90–100
+      if deaths_per_year < 500:    score = 70–89
+      if deaths_per_year < 2000:   score = 50–69
+      if deaths_per_year < 10000:  score = 30–49
+      if deaths_per_year < 50000:  score = 10–29
+      else:                        score = 0–9
+
+      # Qualitative feature vocabulary:
+      minimal_lt_100         → 90–100  (default 95)
+      low_100_500            → 70–89   (default 80)
+      moderate_500_2000      → 50–69   (default 60)
+      high_2000_10000        → 30–49   (default 40)
+      severe_10000_50000     → 10–29   (default 20)
+      catastrophic_gt_50000  → 0–9     (default 5)
+      Multi-feature rule: minimum
     coverage_period: "1989–present (GED); ACLED supplements from 1997 for Africa, 2010s globally"
     frequency: "Annual"
     geographic_coverage: "Global; UCDP covers all project countries"
@@ -110,6 +154,29 @@ political:
       severely_degraded → 30–49;
       collapsed_or_nominal → 10–29;
       no_functioning_institutions → 0–9.
+    score_formula: |
+      # Raw input: vdem_libdem — V-Dem liberal democracy index (v2x_libdem), scale 0–1
+      # Input transform: none (multiply by 100 as presentation step before threshold lookup)
+      # Combination rule: quantitative_preferred
+
+      vdem_scaled = vdem_libdem * 100  # → 0–100
+
+      # Quantitative thresholds:
+      if vdem_scaled >= 80:  score = 90–100
+      if vdem_scaled >= 60:  score = 70–89
+      if vdem_scaled >= 40:  score = 50–69
+      if vdem_scaled >= 20:  score = 30–49
+      if vdem_scaled >= 5:   score = 10–29
+      else:                  score = 0–9
+
+      # Qualitative feature vocabulary (fallback):
+      fully_functional_democratic   → 90–100  (default 95)
+      functional_but_flawed         → 70–89   (default 80)
+      partially_functional          → 50–69   (default 55)
+      severely_degraded             → 30–49   (default 40)
+      collapsed_or_nominal          → 10–29   (default 20)
+      no_functioning_institutions   → 0–9     (default 5)
+      Multi-feature rule: minimum
     coverage_period: "1789–present (V-Dem); qualitative for all 39 countries from their start year"
     frequency: "Annual"
     geographic_coverage: "V-Dem covers 180+ countries; qualitative assessment fills gaps"
@@ -146,6 +213,36 @@ political:
       G: Personal Autonomy), each question scored 0–4, summed to 0–60
       raw score, then binned to 1–7.
     project_transform: "(8 − CL_rating) / 7 × 100 → 0–100 where 100 = most free"
+    score_formula: |
+      # Raw input: FH_CL — Freedom House Civil Liberties rating, 1–7 (1 = most free, 7 = least free)
+      # Input transform: freedom_house_invert — converts 1–7 (1=best) to 0–100 (100=best)
+      # Combination rule: quantitative_preferred
+
+      transformed = (8 - FH_CL) / 7 * 100
+      #   FH_CL = 1  →  transformed = 100.0  (most free)
+      #   FH_CL = 2  →  transformed =  85.7
+      #   FH_CL = 3  →  transformed =  71.4
+      #   FH_CL = 4  →  transformed =  57.1
+      #   FH_CL = 5  →  transformed =  42.9
+      #   FH_CL = 6  →  transformed =  28.6
+      #   FH_CL = 7  →  transformed =  14.3  (least free)
+
+      # Threshold scoring after transform:
+      if transformed >= 85:  score = 90–100
+      if transformed >= 70:  score = 70–89
+      if transformed >= 50:  score = 50–69
+      if transformed >= 30:  score = 30–49
+      if transformed >= 15:  score = 10–29
+      else:                  score = 0–9
+
+      # Qualitative feature vocabulary (fallback):
+      full_freedoms                   → 90–100  (default 95)
+      mostly_free_minor_restrictions  → 70–89   (default 80)
+      partially_free                  → 50–69   (default 57)
+      significant_restrictions        → 30–49   (default 43)
+      severe_restrictions             → 10–29   (default 20)
+      no_civil_liberties              → 0–9     (default 5)
+      Multi-feature rule: minimum
     coverage_period: "1973–present (annual)"
     frequency: "Annual"
     geographic_coverage: "195 countries and territories"
@@ -188,6 +285,18 @@ political:
       open_factional_conflict → 30–49;
       active_power_struggles → 10–29;
       complete_fragmentation → 0–9.
+    score_formula: |
+      # Raw input: qualitative assessment only — no standard quantitative index exists
+      # Combination rule: qualitative_only
+
+      # Feature vocabulary → score ranges (default scores):
+      stable_unified_governance        → 90–100  (default 95)
+      minor_tensions_functional        → 70–89   (default 80)
+      significant_competition_managed  → 50–69   (default 60)
+      open_factional_conflict          → 30–49   (default 40)
+      active_power_struggles           → 10–29   (default 20)
+      complete_fragmentation           → 0–9     (default 5)
+      Multi-feature rule: minimum (worst feature wins)
     coverage_period: "1990–2025 (varies by country start year)"
     frequency: "Annual (qualitative assessment)"
     geographic_coverage: "All 39 project countries"
@@ -206,6 +315,184 @@ political:
         url: "https://www.crisisgroup.org"
       - name: "Coup d'État Project (Powell & Thyne)"
         url: "https://www.uky.edu/~clthyn2/coup_data/home.htm"
+
+  military_expenditure:
+    label: "Military Expenditure"
+    concept: >
+      Government military spending as a share of GDP. Elevated spending signals
+      a war economy or security-state priorities at the expense of social and
+      productive investment. The score is inverted: lower spending earns a
+      higher score.
+    primary_source: "SIPRI Military Expenditure Database"
+    primary_source_url: "https://sipri.org/databases/milex"
+    series_id: "SIPRI share of GDP series; World Bank MS.MIL.XPND.GD.ZS as supplement"
+    numerator: "Military expenditure (current USD)"
+    denominator: "GDP (current USD)"
+    native_unit: "Percent of GDP"
+    native_scale: "0–50%+ (most countries 1–4%; war economies can exceed 20%)"
+    project_transform: >
+      Inverted threshold scoring (lower spending = higher score):
+      < 1% → 90–100; < 2% → 70–89; < 4% → 50–69;
+      < 7% → 30–49; < 15% → 10–29; ≥ 15% → 0–9.
+    score_formula: |
+      # Raw input: milex_pct_gdp — military expenditure as % of GDP (SIPRI % GDP series)
+      # Input transform: none
+      # Note: HIGHER spending = LOWER score (inverted scale)
+      # Combination rule: quantitative_preferred
+
+      # Quantitative thresholds (inverted):
+      if milex_pct_gdp < 1:   score = 90–100
+      if milex_pct_gdp < 2:   score = 70–89
+      if milex_pct_gdp < 4:   score = 50–69
+      if milex_pct_gdp < 7:   score = 30–49
+      if milex_pct_gdp < 15:  score = 10–29
+      else:                   score = 0–9
+
+      # Qualitative feature vocabulary:
+      minimal_military_spending_lt_1pct → 90–100  (default 95)
+      low_1_2pct                        → 70–89   (default 80)
+      moderate_2_4pct                   → 50–69   (default 60)
+      elevated_4_7pct                   → 30–49   (default 40)
+      high_7_15pct                      → 10–29   (default 20)
+      war_economy_gt_15pct              → 0–9     (default 5)
+      Multi-feature rule: minimum
+    coverage_period: "1988–present (SIPRI); World Bank WDI from 1960 for some countries"
+    frequency: "Annual"
+    geographic_coverage: "172 countries (SIPRI); most countries in WDI"
+    methodology_break: null
+    caveats:
+      - "SIPRI figures represent the best estimate from primary and secondary sources; data quality varies, especially for conflict-affected states where budgets are opaque"
+      - "Off-budget military spending (paramilitary forces, intelligence agencies, debt servicing for past arms purchases) is not captured"
+      - "NATO reporting convention includes military R&D and military pensions; many non-NATO countries use narrower definitions"
+      - "Very low figures (< 0.5%) may reflect data gaps rather than genuinely minimal spending"
+      - "High spending can reflect genuine wartime necessity or peacetime militarism; the indicator does not distinguish between these"
+    secondary_sources:
+      - name: "World Bank MS.MIL.XPND.GD.ZS"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+      - name: "NATO Defence Expenditure Statistics"
+        url: "https://www.nato.int/cps/en/natohq/topics_49198.htm"
+      - name: "IMF Government Finance Statistics"
+        url: "https://data.imf.org/?sk=a0867067-d23c-4ebc-ad23-d3b015045405"
+
+  political_stability:
+    label: "Political Stability"
+    concept: >
+      Perceptions of the likelihood that the government will be destabilized
+      or overthrown by unconstitutional or violent means, including politically
+      motivated violence and terrorism. Higher values indicate a more stable
+      political environment.
+    primary_source: "World Bank World Governance Indicators (WGI)"
+    primary_source_url: "https://info.worldbank.org/governance/wgi/"
+    series_id: "PV.EST (Political Stability and Absence of Violence/Terrorism)"
+    numerator: null
+    denominator: null
+    native_unit: "Standard normal units (z-score)"
+    native_scale: >
+      Standard normal distribution with mean 0 and standard deviation 1;
+      typical range −2.5 to +2.5. Derived from ~30 underlying data sources
+      aggregated via Bayesian Unobserved Components Model (UCM). Higher = more stable.
+    project_transform: >
+      Threshold scoring (WGI PV.EST scale, no transform required):
+      ≥ 1.5 → 90–100; ≥ 0.5 → 75–89; ≥ −0.5 → 55–74;
+      ≥ −1.5 → 35–54; ≥ −2.0 → 15–34; < −2.0 → 0–14.
+    score_formula: |
+      # Raw input: WGI_PV — World Bank WGI Political Stability and Absence of Violence/Terrorism
+      # Series: PV.EST, standard normal distribution (z-score), typical range −2.5 to +2.5
+      # Input transform: none (WGI scale used directly)
+      # Combination rule: qualitative_preferred (qualitative assessment preferred; WGI as fallback)
+
+      # Quantitative thresholds:
+      if WGI_PV >= 1.5:   score = 90–100
+      if WGI_PV >= 0.5:   score = 75–89
+      if WGI_PV >= -0.5:  score = 55–74
+      if WGI_PV >= -1.5:  score = 35–54
+      if WGI_PV >= -2.0:  score = 15–34
+      else:               score = 0–14
+
+      # Qualitative feature vocabulary (preferred):
+      very_stable                   → 90–100  (default 95)
+      stable                        → 75–89   (default 82)
+      mild_instability              → 55–74   (default 65)
+      significant_instability       → 35–54   (default 45)
+      high_instability              → 15–34   (default 25)
+      extreme_instability_conflict  → 0–14    (default 7)
+      Multi-feature rule: minimum
+    coverage_period: "1996–present (WGI published biennially 1996–2002, then annually)"
+    frequency: "Annual (since 2002)"
+    geographic_coverage: "~215 countries and territories"
+    methodology_break: >
+      WGI methodology was updated in 2011 (revised UCM approach); pre-2011
+      and post-2011 estimates are broadly comparable but small discontinuities
+      exist at the revision boundary.
+    caveats:
+      - "WGI aggregates perception-based surveys (EIU, ICRG, PRS, Freedom House, Bertelsmann, etc.); the composite estimate masks disagreement between underlying sources"
+      - "Standard errors are substantial (95% CI can span ±0.5–1.0 units); year-to-year changes smaller than 0.3 standard deviations should not be treated as meaningful"
+      - "PV.EST conflates two conceptually distinct phenomena: coup risk (elite stability) and terrorist/insurgent violence (security environment)"
+      - "Coverage of small states and territories may rely on fewer underlying sources, widening uncertainty"
+    secondary_sources:
+      - name: "WGI Data Download"
+        url: "https://info.worldbank.org/governance/wgi/Home/downLoadFile?fileName=wgidataset.xlsx"
+      - name: "ICRG Political Risk Rating (component)"
+        url: "https://www.prsgroup.com/explore-our-products/international-country-risk-guide/"
+      - name: "Economist Intelligence Unit Democracy Index"
+        url: "https://www.eiu.com/n/campaigns/democracy-index-2023/"
+
+  government_effectiveness:
+    label: "Gov't Effectiveness"
+    concept: >
+      Perceptions of the quality of public services, the quality of the civil
+      service and the degree of its independence from political pressures, the
+      quality of policy formulation and implementation, and the credibility of
+      the government's commitment to such policies.
+    primary_source: "World Bank World Governance Indicators (WGI)"
+    primary_source_url: "https://info.worldbank.org/governance/wgi/"
+    series_id: "GE.EST (Government Effectiveness)"
+    numerator: null
+    denominator: null
+    native_unit: "Standard normal units (z-score)"
+    native_scale: >
+      Standard normal distribution with mean 0 and standard deviation 1;
+      typical range −2.5 to +2.5. Derived from ~30 underlying data sources
+      aggregated via Bayesian UCM. Higher = more effective government.
+    project_transform: >
+      Threshold scoring (WGI GE.EST scale, no transform required):
+      ≥ 1.5 → 85–100; ≥ 0.5 → 70–84; ≥ −0.5 → 50–69;
+      ≥ −1.5 → 25–49; < −1.5 → 0–24.
+    score_formula: |
+      # Raw input: WGI_GE — World Bank WGI Government Effectiveness
+      # Series: GE.EST, standard normal distribution (z-score), typical range −2.5 to +2.5
+      # Input transform: none
+      # Combination rule: qualitative_preferred
+
+      # Quantitative thresholds:
+      if WGI_GE >= 1.5:   score = 85–100
+      if WGI_GE >= 0.5:   score = 70–84
+      if WGI_GE >= -0.5:  score = 50–69
+      if WGI_GE >= -1.5:  score = 25–49
+      else:               score = 0–24
+
+      # Qualitative feature vocabulary (preferred):
+      very_effective           → 85–100  (default 92)
+      effective                → 70–84   (default 77)
+      partially_effective      → 50–69   (default 60)
+      low_effectiveness        → 25–49   (default 37)
+      ineffective_or_captured  → 0–24    (default 12)
+      Multi-feature rule: minimum
+    coverage_period: "1996–present (WGI)"
+    frequency: "Annual (since 2002)"
+    geographic_coverage: "~215 countries and territories"
+    methodology_break: null
+    caveats:
+      - "GE.EST relies heavily on business-environment perception surveys (EIU, ICRG, World Bank Enterprise Survey) that may overweight formal sector experience"
+      - "During active conflict, government effectiveness collapses but the WGI may lag by 1–2 years as underlying survey data takes time to reflect deterioration"
+      - "Combines very different concepts: public service delivery quality, bureaucratic independence, and policy implementation credibility"
+    secondary_sources:
+      - name: "WGI Data Download"
+        url: "https://info.worldbank.org/governance/wgi/Home/downLoadFile?fileName=wgidataset.xlsx"
+      - name: "Bertelsmann Transformation Index — Governance Performance"
+        url: "https://bti-project.org/en/index"
+      - name: "World Bank Enterprise Surveys"
+        url: "https://www.enterprisesurveys.org"
 
 economic:
 
@@ -228,6 +515,30 @@ economic:
       highest observed GDP per capita for that country across the full
       data period. Resulting score: 0–100 where 100 = peak year,
       scores > 100 impossible.
+    score_formula: |
+      # Raw input: gdp_per_capita_usd — current USD per person (World Bank NY.GDP.PCAP.CD)
+      # Input transform: percent_of_peak — indexes each country to its own historical maximum
+      # Combination rule: quantitative_preferred
+
+      peak = max(gdp_per_capita_usd for all years in this country's data series)
+      transformed = gdp_per_capita_usd / peak * 100  # → 0–100 (100 = peak year; cannot exceed 100)
+
+      # Threshold scoring after transform:
+      if transformed >= 95:  score = 90–100
+      if transformed >= 80:  score = 70–89
+      if transformed >= 60:  score = 50–69
+      if transformed >= 40:  score = 30–49
+      if transformed >= 20:  score = 10–29
+      else:                  score = 0–9
+
+      # Qualitative feature vocabulary (fallback):
+      above_peak                    → 90–100  (default 95)
+      near_peak_90_100pct           → 70–89   (default 85)
+      moderate_decline_70_90pct     → 50–69   (default 65)
+      significant_decline_50_70pct  → 30–49   (default 45)
+      severe_decline_30_50pct       → 10–29   (default 25)
+      collapse_below_30pct          → 0–9     (default 5)
+      Multi-feature rule: minimum
     coverage_period: "1960–present (most countries); earlier gaps for some"
     frequency: "Annual"
     geographic_coverage: "189 countries"
@@ -264,6 +575,29 @@ economic:
       Inverted threshold scoring (lower inflation = higher score):
       < 3% → 90–100; < 10% → 70–89; < 25% → 50–69;
       < 50% → 30–49; < 100% → 10–29; ≥ 100% → 0–9.
+    score_formula: |
+      # Raw input: inflation_pct — annual % change in consumer prices (World Bank FP.CPI.TOTL.ZG)
+      # Input transform: none
+      # Note: HIGHER inflation = LOWER score (inverted scale)
+      # Combination rule: quantitative_preferred
+
+      # Quantitative thresholds (inverted; checked in order):
+      if inflation_pct < 3:    score = 90–100
+      if inflation_pct < 10:   score = 70–89
+      if inflation_pct < 25:   score = 50–69
+      if inflation_pct < 50:   score = 30–49
+      if inflation_pct < 100:  score = 10–29
+      else:                    score = 0–9
+      # Note: deflation (negative CPI) treated same as 0–3% → scores 90–100
+
+      # Qualitative feature vocabulary:
+      low_lt_3pct              → 90–100  (default 95)
+      moderate_3_10pct         → 70–89   (default 80)
+      elevated_10_25pct        → 50–69   (default 60)
+      high_25_50pct            → 30–49   (default 40)
+      very_high_50_100pct      → 10–29   (default 20)
+      hyperinflation_gt_100pct → 0–9     (default 5)
+      Multi-feature rule: minimum
     coverage_period: "1960–present (most countries)"
     frequency: "Annual"
     geographic_coverage: "189 countries"
@@ -299,6 +633,29 @@ economic:
       Inverted threshold scoring (lower unemployment = higher score):
       < 5% → 90–100; < 10% → 70–89; < 15% → 50–69;
       < 25% → 30–49; < 40% → 10–29; ≥ 40% → 0–9.
+    score_formula: |
+      # Raw input: unemployment_pct — % of total labor force (ILO modeled estimates, SL.UEM.TOTL.ZS)
+      # ILO definition: not employed, currently available for work, and actively seeking work
+      # Input transform: none
+      # Note: HIGHER unemployment = LOWER score (inverted scale)
+      # Combination rule: quantitative_preferred
+
+      # Quantitative thresholds (inverted):
+      if unemployment_pct < 5:   score = 90–100
+      if unemployment_pct < 10:  score = 70–89
+      if unemployment_pct < 15:  score = 50–69
+      if unemployment_pct < 25:  score = 30–49
+      if unemployment_pct < 40:  score = 10–29
+      else:                      score = 0–9
+
+      # Qualitative feature vocabulary:
+      low_lt_5pct        → 90–100  (default 95)
+      moderate_5_10pct   → 70–89   (default 80)
+      elevated_10_15pct  → 50–69   (default 60)
+      high_15_25pct      → 30–49   (default 40)
+      very_high_25_40pct → 10–29   (default 20)
+      crisis_gt_40pct    → 0–9     (default 5)
+      Multi-feature rule: minimum
     coverage_period: "1991–present (ILO modeled estimates)"
     frequency: "Annual"
     geographic_coverage: "189 countries (modeled estimates; some gaps for conflict-affected states)"
@@ -336,6 +693,27 @@ economic:
       Threshold scoring (higher = more open = higher score):
       ≥ 100% → 90–100; ≥ 70% → 70–89; ≥ 40% → 50–69;
       ≥ 20% → 30–49; ≥ 10% → 10–29; < 10% → 0–9.
+    score_formula: |
+      # Raw input: trade_pct_gdp — (exports + imports of goods & services) / GDP × 100 (NE.TRD.GNFS.ZS)
+      # Input transform: none
+      # Combination rule: quantitative_preferred
+
+      # Quantitative thresholds:
+      if trade_pct_gdp >= 100:  score = 90–100
+      if trade_pct_gdp >= 70:   score = 70–89
+      if trade_pct_gdp >= 40:   score = 50–69
+      if trade_pct_gdp >= 20:   score = 30–49
+      if trade_pct_gdp >= 10:   score = 10–29
+      else:                     score = 0–9
+
+      # Qualitative feature vocabulary:
+      highly_open_gt_100pct  → 90–100  (default 95)
+      open_70_100pct         → 70–89   (default 80)
+      moderate_40_70pct      → 50–69   (default 60)
+      restricted_20_40pct    → 30–49   (default 40)
+      closed_lt_20pct        → 10–29   (default 20)
+      autarky_or_blockade    → 0–9     (default 5)
+      Multi-feature rule: minimum
     coverage_period: "1960–present"
     frequency: "Annual"
     geographic_coverage: "189 countries"
@@ -372,6 +750,29 @@ economic:
       Inverted threshold scoring (lower debt = higher score):
       < 30% → 90–100; < 60% → 70–89; < 90% → 50–69;
       < 120% → 30–49; < 200% → 10–29; ≥ 200% → 0–9.
+    score_formula: |
+      # Raw input: debt_pct_gdp — general govt gross debt as % of GDP (IMF WEO: GGXWDG_NGDP)
+      # Definition: outstanding stock of all government liabilities; gross (not net of assets)
+      # Input transform: none
+      # Note: HIGHER debt = LOWER score (inverted scale)
+      # Combination rule: quantitative_preferred
+
+      # Quantitative thresholds (inverted):
+      if debt_pct_gdp < 30:   score = 90–100
+      if debt_pct_gdp < 60:   score = 70–89
+      if debt_pct_gdp < 90:   score = 50–69
+      if debt_pct_gdp < 120:  score = 30–49
+      if debt_pct_gdp < 200:  score = 10–29
+      else:                   score = 0–9
+
+      # Qualitative feature vocabulary:
+      surplus_low_debt_lt_30pct           → 90–100  (default 95)
+      small_deficit_manageable_30_60pct   → 70–89   (default 80)
+      moderate_deficit_elevated_60_90pct  → 50–69   (default 60)
+      large_deficit_high_90_120pct        → 30–49   (default 40)
+      unsustainable_debt_crisis           → 10–29   (default 20)
+      fiscal_collapse                     → 0–9     (default 5)
+      Multi-feature rule: minimum
     coverage_period: "1980–present (most countries); earlier for some; IMF WEO published twice yearly"
     frequency: "Annual (IMF WEO spring and fall editions)"
     methodology_break: null
@@ -389,6 +790,479 @@ economic:
         url: "https://www.imf.org/en/Publications/FM"
       - name: "IMF Article IV Staff Reports (country-specific)"
         url: "https://www.imf.org/en/Publications/CR"
+
+  natural_resource_rents:
+    label: "Resource Rents"
+    concept: >
+      Total natural resources rents as a percentage of GDP — the economic
+      surplus above extraction costs from oil, gas, coal, minerals, and
+      forests. High resource dependence is associated with the 'resource
+      curse': weaker institutions, lower economic diversification, and
+      increased conflict risk. The score is inverted and capped at 84,
+      reflecting a permanent penalty for high resource dependence.
+    primary_source: "World Bank World Development Indicators"
+    primary_source_url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
+    series_id: "NY.GDP.TOTL.RT.ZS (total natural resources rents, % of GDP)"
+    numerator: "Total economic rent from oil + natural gas + coal + mineral + forest resources"
+    denominator: "GDP (current USD)"
+    native_unit: "Percent of GDP"
+    native_scale: "0–80%+ (Gulf states have historically exceeded 50%; most countries < 10%)"
+    project_transform: >
+      Inverted threshold scoring (lower rents = higher score); maximum score is 84
+      (not 100) to reflect structural resource-dependence penalty:
+      < 5% → 70–84; < 15% → 50–64; < 30% → 30–49;
+      < 50% → 15–29; < 65% → 5–14; ≥ 65% → 0–9.
+    score_formula: |
+      # Raw input: rents_pct_gdp — total natural resources rents as % of GDP (NY.GDP.TOTL.RT.ZS)
+      # World Bank definition: rents = unit resource price minus average extraction costs
+      # Input transform: none
+      # Note: HIGHER rents = LOWER score (inverted; resource-curse framing)
+      # Note: MAXIMUM score is 84, not 100 — intentional ceiling for resource-dependent economies
+      # Combination rule: quantitative_preferred
+
+      # Quantitative thresholds (inverted; max score 84):
+      if rents_pct_gdp < 5:   score = 70–84
+      if rents_pct_gdp < 15:  score = 50–64
+      if rents_pct_gdp < 30:  score = 30–49
+      if rents_pct_gdp < 50:  score = 15–29
+      if rents_pct_gdp < 65:  score = 5–14
+      else:                   score = 0–9
+
+      # Qualitative feature vocabulary:
+      minimal_lt_5pct          → 70–84  (default 77)
+      moderate_5_15pct         → 50–64  (default 57)
+      significant_15_30pct     → 30–49  (default 40)
+      high_30_50pct            → 15–29  (default 22)
+      very_high_40_60pct       → 5–14   (default 10)
+      extremely_high_gt_60pct  → 0–9    (default 5)
+      Multi-feature rule: minimum
+    coverage_period: "1970–present (World Bank WDI)"
+    frequency: "Annual"
+    geographic_coverage: "189 countries"
+    methodology_break: null
+    caveats:
+      - "Rent calculations depend on world commodity price estimates applied to extraction cost assumptions; price volatility creates year-to-year score fluctuations unrelated to actual governance changes"
+      - "Resource curse literature shows non-linear effects: moderate rents can fund development while very high rents crowd out diversification — the scoring reflects this with a non-linear threshold table"
+      - "Maximum score of 84 reflects that no resource-dependent economy has fully escaped the structural risks associated with resource wealth"
+      - "Forest rents are included but poorly measured in conflict-affected states where illegal logging is prevalent"
+      - "Gas flaring and stranded resources may reduce effective rent capture below the theoretical value"
+    secondary_sources:
+      - name: "Natural Resource Governance Institute (NRGI)"
+        url: "https://resourcegovernance.org"
+      - name: "IMF Fiscal Affairs Department — Fiscal Policy and Resource Wealth"
+        url: "https://www.imf.org/en/Topics/fiscal-policies/natural-resources"
+      - name: "UNCTAD Commodity Statistics"
+        url: "https://unctad.org/statistics"
+
+  youth_unemployment:
+    label: "Youth Unemployment"
+    concept: >
+      The unemployment rate among persons aged 15–24, as a percentage of
+      the youth labor force. Youth unemployment is a sensitive indicator
+      of social and economic dysfunction, often running 2–3 times the
+      overall rate. The score is inverted: lower youth unemployment earns
+      a higher score.
+    primary_source: "World Bank / ILO modeled estimates"
+    primary_source_url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
+    series_id: "SL.UEM.1524.ZS (unemployment, youth total, % of total labor force ages 15–24, ILO modeled estimates)"
+    numerator: "Youth (15–24) without employment, available for work, actively seeking work"
+    denominator: "Youth (15–24) labor force (employed + unemployed)"
+    native_unit: "Percent of youth labor force"
+    native_scale: "0–100% (typically 5–60% in practice)"
+    project_transform: >
+      Inverted threshold scoring (lower youth unemployment = higher score):
+      < 10% → 80–100; < 20% → 55–79; < 30% → 30–54;
+      < 40% → 10–29; ≥ 40% → 0–9.
+    score_formula: |
+      # Raw input: youth_unemp_pct — youth unemployment rate, ages 15–24 (SL.UEM.1524.ZS)
+      # ILO definition: not employed, available for work, actively seeking, aged 15–24
+      # Input transform: none
+      # Note: HIGHER youth unemployment = LOWER score (inverted scale)
+      # Combination rule: quantitative_preferred
+
+      # Quantitative thresholds (inverted):
+      if youth_unemp_pct < 10:  score = 80–100
+      if youth_unemp_pct < 20:  score = 55–79
+      if youth_unemp_pct < 30:  score = 30–54
+      if youth_unemp_pct < 40:  score = 10–29
+      else:                     score = 0–9
+
+      # Qualitative feature vocabulary:
+      low_lt_10pct        → 80–100  (default 90)
+      moderate_10_20pct   → 55–79   (default 67)
+      elevated_20_30pct   → 30–54   (default 42)
+      high_30_40pct       → 10–29   (default 20)
+      very_high_gt_40pct  → 0–9     (default 5)
+      Multi-feature rule: minimum
+    coverage_period: "1991–present (ILO modeled estimates)"
+    frequency: "Annual"
+    geographic_coverage: "189 countries (modeled; gaps for some conflict-affected states)"
+    methodology_break: null
+    caveats:
+      - "Youth unemployment runs 2–3× the overall rate in most countries; high youth unemployment can coexist with moderate overall unemployment"
+      - "ILO modeled estimates fill gaps in national labor force survey coverage; uncertainty is higher for conflict-affected and fragile states"
+      - "Discouraged workers (youth who have given up seeking work) are excluded from the unemployment rate, causing under-measurement in crisis contexts"
+      - "Youth NEET rate (not in employment, education, or training) is a broader indicator but less consistently available; not used here"
+    secondary_sources:
+      - name: "ILO ILOSTAT — Youth Labour Market Indicators"
+        url: "https://ilostat.ilo.org/data/"
+      - name: "World Bank Youth Employment Overview"
+        url: "https://www.worldbank.org/en/topic/jobsanddevelopment/brief/youth-employment"
+
+  gini:
+    label: "Inequality (Gini)"
+    concept: >
+      The Gini coefficient measures income or consumption inequality within
+      a country on a 0–100 scale: 0 = perfect equality (all incomes
+      identical); 100 = perfect inequality (one person holds all income).
+      The score is inverted: lower inequality earns a higher score.
+    primary_source: "World Bank World Development Indicators"
+    primary_source_url: "https://data.worldbank.org/indicator/SI.POV.GINI"
+    series_id: "SI.POV.GINI (Gini index, World Bank estimate)"
+    numerator: null
+    denominator: null
+    native_unit: "Index 0–100 (Gini coefficient × 100)"
+    native_scale: >
+      0–100 where 0 = perfect equality; typical range 25–65 in practice.
+      Derived from household income or consumption surveys; exact definition
+      varies (pre-tax income, post-transfer income, or consumption expenditure).
+    project_transform: >
+      Inverted threshold scoring (lower inequality = higher score):
+      < 30 → 75–100; < 40 → 50–74; < 50 → 25–49; ≥ 50 → 0–24.
+    score_formula: |
+      # Raw input: gini_coeff — Gini coefficient (World Bank SI.POV.GINI, scale 0–100)
+      # Definition: 0 = perfect equality; 100 = one person holds all income
+      # Input transform: none
+      # Note: LOWER gini = LESS inequality = HIGHER score (inverted scale)
+      # Combination rule: quantitative_preferred
+
+      # Quantitative thresholds (inverted):
+      if gini_coeff < 30:  score = 75–100
+      if gini_coeff < 40:  score = 50–74
+      if gini_coeff < 50:  score = 25–49
+      else:                score = 0–24
+
+      # Qualitative feature vocabulary:
+      low_lt_30       → 75–100  (default 87)
+      moderate_30_40  → 50–74   (default 62)
+      elevated_40_50  → 25–49   (default 37)
+      high_gt_50      → 0–24    (default 12)
+      Multi-feature rule: minimum
+    coverage_period: "1960–present (gaps; survey-based, not annual)"
+    frequency: "Irregular (household surveys; typically every 3–5 years per country)"
+    geographic_coverage: "~165 countries (inconsistent coverage)"
+    methodology_break: null
+    caveats:
+      - "Gini is survey-based and not collected annually; most countries have surveys every 3–5 years; values between surveys require interpolation"
+      - "Income vs. consumption Gini can differ by 5–10 points; the World Bank series mixes both depending on country; direct cross-country comparison requires caution"
+      - "Post-conflict and crisis years often have no survey data; the Gini series may not capture peak inequality episodes"
+      - "Top-income underreporting in surveys causes all household surveys to underestimate true inequality; the Gini understates inequality for high-income countries with large capital income"
+      - "SWIID (Standardized World Income Inequality Database) harmonizes Gini estimates across concepts; used as cross-check but not primary source"
+    secondary_sources:
+      - name: "SWIID — Standardized World Income Inequality Database"
+        url: "https://fsolt.org/swiid/"
+      - name: "OECD Income Distribution Database"
+        url: "https://stats.oecd.org/Index.aspx?DataSetCode=IDD"
+      - name: "UN-WIDER World Income Inequality Database (WIID)"
+        url: "https://www.wider.unu.edu/database/world-income-inequality-database-wiid"
+
+  neet_rate:
+    label: "NEET Rate"
+    concept: >
+      The percentage of youth aged 15–24 who are Not in Education, Employment,
+      or Training (NEET). A broader measure of youth marginalisation than
+      unemployment alone: it captures discouraged workers and those outside
+      the formal labour market entirely. Higher NEET rates signal greater
+      social and economic dysfunction; the score is inverted.
+    primary_source: "World Bank / ILO — Youth NEET"
+    primary_source_url: "https://data.worldbank.org/indicator/SL.UEM.NEET.ZS"
+    series_id: "SL.UEM.NEET.ZS (% of youth not in education, employment or training, total)"
+    numerator: "Youth aged 15–24 neither employed nor in education or training"
+    denominator: "Total youth population aged 15–24"
+    native_unit: "Percent of youth population (ages 15–24)"
+    native_scale: "0–100% (typically 10–60% in practice)"
+    project_transform: >
+      Inverted threshold scoring (lower NEET = higher score):
+      < 10% → 80–100; < 20% → 55–79; < 30% → 30–54;
+      < 40% → 10–29; ≥ 40% → 0–9.
+    score_formula: |
+      # Raw input: neet_pct — % youth 15–24 not in education/employment/training
+      # ILO/World Bank definition: excludes those in school or employed
+      # Input transform: none (inverted scale)
+      # Note: HIGHER NEET = LOWER score
+      # Combination rule: quantitative_preferred
+
+      if neet_pct < 10:  score = 80–100
+      if neet_pct < 20:  score = 55–79
+      if neet_pct < 30:  score = 30–54
+      if neet_pct < 40:  score = 10–29
+      else:              score = 0–9
+
+      # Qualitative feature vocabulary:
+      low_lt_10pct        → 80–100  (default 90)
+      moderate_10_20pct   → 55–79   (default 67)
+      elevated_20_30pct   → 30–54   (default 42)
+      high_30_40pct       → 10–29   (default 20)
+      very_high_gt_40pct  → 0–9     (default 5)
+      Multi-feature rule: minimum
+    coverage_period: "2000–present (modeled; gaps for conflict-affected states)"
+    frequency: "Annual (modeled)"
+    geographic_coverage: "~180 countries"
+    methodology_break: null
+    caveats:
+      - "NEET availability is patchier than youth unemployment for many conflict-affected and fragile states; values before ~2000 are rarely available"
+      - "Definitions vary: some countries include 15–29 age band; series uses the ILO standard 15–24 band where available"
+      - "In high-fertility settings, many young women are outside the labour force by choice (family care); NEET rates can appear high without implying economic crisis"
+    secondary_sources:
+      - name: "ILO ILOSTAT — NEET Indicators"
+        url: "https://ilostat.ilo.org/data/"
+
+  poverty_rate:
+    label: "Poverty Rate"
+    concept: >
+      The share of the population living below the international poverty line
+      of $2.15 per person per day (2017 PPP). A direct measure of extreme
+      material deprivation. Higher poverty rates signal worse economic outcomes;
+      the score is inverted.
+    primary_source: "World Bank Poverty and Inequality Platform"
+    primary_source_url: "https://pip.worldbank.org"
+    series_id: "SI.POV.DDAY (poverty headcount ratio at $2.15 a day, 2017 PPP, % of population)"
+    numerator: "Population below $2.15/day (2017 PPP) threshold"
+    denominator: "Total population"
+    native_unit: "Percent of population"
+    native_scale: "0–100% (typically 0–80% in practice for this dataset)"
+    project_transform: >
+      Inverted threshold scoring (lower poverty rate = higher score):
+      < 3% → 80–100; < 10% → 60–79; < 25% → 35–59;
+      < 50% → 10–34; ≥ 50% → 0–9.
+    score_formula: |
+      # Raw input: poverty_pct — % population below $2.15/day (2017 PPP)
+      # World Bank PIP definition: international absolute poverty line
+      # Input transform: none (inverted scale)
+      # Note: HIGHER poverty = LOWER score
+      # Combination rule: quantitative_preferred
+
+      if poverty_pct < 3:   score = 80–100
+      if poverty_pct < 10:  score = 60–79
+      if poverty_pct < 25:  score = 35–59
+      if poverty_pct < 50:  score = 10–34
+      else:                 score = 0–9
+
+      # Qualitative feature vocabulary:
+      very_low_lt_3pct      → 80–100  (default 90)
+      low_3_10pct           → 60–79   (default 70)
+      moderate_10_25pct     → 35–59   (default 47)
+      high_25_50pct         → 10–34   (default 22)
+      severe_gt_50pct       → 0–9     (default 5)
+      Multi-feature rule: minimum
+    coverage_period: "1967–present (survey-based; irregular)"
+    frequency: "Irregular (household surveys; typically every 3–5 years)"
+    geographic_coverage: "~160 countries (modeled interpolations fill some gaps)"
+    methodology_break: >
+      World Bank updated the international poverty line from $1.90 (2011 PPP)
+      to $2.15 (2017 PPP) in September 2022. Historical series have been
+      revised back consistently by the Bank; comparability is maintained.
+    caveats:
+      - "Survey-based; annual data are modeled interpolations between surveys, not direct observations"
+      - "Conflict years often have no reliable household surveys; poverty estimates for fragile states carry high uncertainty"
+      - "The $2.15/day line captures extreme poverty; near-poverty and vulnerability are not reflected in this series"
+      - "In-kind transfers, subsistence agriculture, and informal support networks reduce measured poverty below true welfare levels"
+    secondary_sources:
+      - name: "UNDP Human Development Reports — Multidimensional Poverty Index"
+        url: "https://hdr.undp.org/data-center/human-development-index"
+      - name: "World Bank PovcalNet (legacy)"
+        url: "https://iresearch.worldbank.org/PovcalNet/"
+
+  gini_adjusted_gdp_per_capita:
+    label: "Inequality-Adjusted Income"
+    concept: >
+      GDP per capita (constant 2015 USD) adjusted downward by the country's
+      Gini coefficient to reflect the income level of a typical person rather
+      than the mean. Computed as: GDP_pc × (1 − Gini/100). Captures both
+      the average income level and its distribution in a single metric.
+      Like gdp_per_capita, scored as a percentage of the country's own peak
+      value (percent_of_peak transform).
+    primary_source: "World Bank WDI (GDP per capita) + Gini series"
+    primary_source_url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD"
+    series_id: "Derived: NY.GDP.PCAP.KD × (1 − SI.POV.GINI/100)"
+    numerator: "GDP per capita (constant 2015 USD) × (1 − Gini coefficient/100)"
+    denominator: null
+    native_unit: "Constant 2015 USD per capita (inequality-adjusted)"
+    native_scale: "Indexed to country historical peak (0–100 after transform)"
+    project_transform: >
+      percent_of_peak: (value / max(series)) × 100. Same thresholds as
+      GDP per capita: ≥ 95% → 90–100; ≥ 80% → 70–89;
+      ≥ 60% → 50–69; ≥ 40% → 25–49; ≥ 20% → 10–24; < 20% → 0–9.
+    score_formula: |
+      # Raw input: gini_adj_gdp — GDP_pc × (1 − Gini/100) in constant 2015 USD
+      # World Bank NY.GDP.PCAP.KD × (1 − SI.POV.GINI/100)
+      # Input transform: percent_of_peak — indexed to country's own historical max
+      # Note: Gini series has gaps; years with missing Gini use linear interpolation
+      # Combination rule: quantitative_preferred
+
+      transformed = (gini_adj_gdp / peak_gini_adj_gdp) * 100
+      if transformed >= 95:  score = 90–100
+      if transformed >= 80:  score = 70–89
+      if transformed >= 60:  score = 50–69
+      if transformed >= 40:  score = 25–49
+      if transformed >= 20:  score = 10–24
+      else:                  score = 0–9
+    coverage_period: "1960–present (limited by Gini availability)"
+    frequency: "Annual (GDP); irregular Gini interpolated"
+    geographic_coverage: "~150 countries (constrained by Gini coverage)"
+    methodology_break: null
+    caveats:
+      - "Gini series has substantial gaps; years without survey data require interpolation, introducing measurement uncertainty"
+      - "The adjustment penalises unequal countries but does not capture non-income welfare dimensions"
+      - "GDP per capita itself does not capture home production, informal economy, or in-kind transfers"
+    secondary_sources:
+      - name: "UNDP Human Development Report — IHDI"
+        url: "https://hdr.undp.org/data-center/human-development-index"
+
+  gini_adjusted_gdp_per_capita_ppp:
+    label: "Inequality-Adjusted Income (PPP)"
+    concept: >
+      Same as gini_adjusted_gdp_per_capita but using GDP per capita in
+      constant 2017 international PPP dollars (NY.GDP.PCAP.PP.KD), enabling
+      cross-country comparison on a purchasing-power-equivalent basis.
+      Scored as percent_of_peak relative to each country's own maximum.
+    primary_source: "World Bank WDI (GDP per capita PPP) + Gini series"
+    primary_source_url: "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD"
+    series_id: "Derived: NY.GDP.PCAP.PP.KD × (1 − SI.POV.GINI/100)"
+    numerator: "GDP per capita (constant 2017 PPP $) × (1 − Gini coefficient/100)"
+    denominator: null
+    native_unit: "Constant 2017 PPP USD per capita (inequality-adjusted)"
+    native_scale: "Indexed to country historical peak (0–100 after transform)"
+    project_transform: >
+      percent_of_peak: (value / max(series)) × 100. Same thresholds as
+      GDP per capita: ≥ 95% → 90–100; ≥ 80% → 70–89;
+      ≥ 60% → 50–69; ≥ 40% → 25–49; ≥ 20% → 10–24; < 20% → 0–9.
+    score_formula: |
+      # Raw input: gini_adj_gdp_ppp — GDP_pc_PPP × (1 − Gini/100) in 2017 PPP $
+      # World Bank NY.GDP.PCAP.PP.KD × (1 − SI.POV.GINI/100)
+      # Input transform: percent_of_peak
+      # Combination rule: quantitative_preferred
+
+      transformed = (gini_adj_gdp_ppp / peak_gini_adj_gdp_ppp) * 100
+      if transformed >= 95:  score = 90–100
+      if transformed >= 80:  score = 70–89
+      if transformed >= 60:  score = 50–69
+      if transformed >= 40:  score = 25–49
+      if transformed >= 20:  score = 10–24
+      else:                  score = 0–9
+    coverage_period: "1990–present (limited by Gini availability)"
+    frequency: "Annual (GDP); irregular Gini interpolated"
+    geographic_coverage: "~150 countries"
+    methodology_break: null
+    caveats:
+      - "PPP conversion factors change with each ICP round (2005, 2011, 2017); historical series revised retroactively"
+      - "Gini availability limits the series to years with interpolated or survey-based estimates"
+    secondary_sources:
+      - name: "World Bank International Comparison Program"
+        url: "https://www.worldbank.org/en/programs/icp"
+
+  export_diversification:
+    label: "Export Diversification"
+    concept: >
+      The degree to which a country's export basket is diversified across
+      product categories and trading partners. Higher diversification
+      (lower dependence on a single commodity or market) is associated
+      with greater economic resilience. Measured via the inverse of the
+      Herfindahl-Hirschman Index (HHI) or the IMF Export Diversification
+      Index; higher score = more diversified.
+    primary_source: "IMF / UNCTAD / World Bank WITS"
+    primary_source_url: "https://www.imf.org/en/Publications/WP/Issues/2016/12/31/Export-Diversification-in-Low-Income-Countries-An-International-Comparison-24310"
+    series_id: "Derived from UNCTAD bilateral trade data or World Bank WITS HS commodity classifications"
+    numerator: null
+    denominator: null
+    native_unit: "Index (0–1 where 1 = fully diversified; or inverse HHI)"
+    native_scale: "0–1 (inverse HHI) or 0–100 depending on source"
+    project_transform: >
+      Direct threshold scoring (higher diversification = higher score):
+      > 0.8 → 75–100; > 0.6 → 55–74; > 0.4 → 30–54;
+      > 0.2 → 10–29; ≤ 0.2 → 0–9.
+    score_formula: |
+      # Raw input: export_div — diversification index (0=concentrated, 1=diversified)
+      # Normalised inverse Herfindahl-Hirschman Index or equivalent
+      # Input transform: none (direct scale)
+      # Combination rule: quantitative_preferred
+
+      if export_div > 0.8:  score = 75–100
+      if export_div > 0.6:  score = 55–74
+      if export_div > 0.4:  score = 30–54
+      if export_div > 0.2:  score = 10–29
+      else:                 score = 0–9
+
+      # Qualitative feature vocabulary:
+      highly_diversified     → 75–100  (default 87)
+      moderately_diversified → 55–74   (default 65)
+      limited_diversification → 30–54  (default 42)
+      concentrated           → 10–29   (default 20)
+      highly_concentrated    → 0–9     (default 5)
+      Multi-feature rule: minimum
+    coverage_period: "1995–present (UNCTAD/WITS)"
+    frequency: "Annual"
+    geographic_coverage: "~200 countries"
+    methodology_break: null
+    caveats:
+      - "Diversification indices are sensitive to the product classification granularity (HS2 vs HS6)"
+      - "Re-export economies (e.g. transit hubs) may appear diversified without underlying productive capacity"
+      - "Service exports are often excluded from standard merchandise trade diversification measures"
+    secondary_sources:
+      - name: "UNCTAD STAT — Merchandise Trade"
+        url: "https://unctadstat.unctad.org"
+      - name: "World Bank WITS"
+        url: "https://wits.worldbank.org"
+
+  non_resource_export_share:
+    label: "Non-Resource Export Share"
+    concept: >
+      The share of total merchandise exports that are non-extractive: all
+      products excluding fuels (SITC 3) and non-ferrous metals / ores
+      (SITC 27, 28, 68). A high non-resource export share indicates a
+      diversified productive economy less dependent on commodity rents.
+      Higher share = higher score (direct).
+    primary_source: "World Bank WITS / UNCTAD"
+    primary_source_url: "https://wits.worldbank.org"
+    series_id: "Derived: (total_exports − fuel_exports − mineral_exports) / total_exports × 100"
+    numerator: "Total merchandise exports minus SITC 3 (fuels) and SITC 27+28+68 (mineral ores)"
+    denominator: "Total merchandise exports"
+    native_unit: "Percent of total merchandise exports"
+    native_scale: "0–100%"
+    project_transform: >
+      Direct threshold scoring (higher non-resource share = higher score):
+      > 80% → 80–100; > 60% → 60–79; > 40% → 35–59;
+      > 20% → 10–34; ≤ 20% → 0–9.
+    score_formula: |
+      # Raw input: non_res_export_pct — % exports that are non-fuel/non-mineral
+      # SITC classification: excludes groups 3 (fuels), 27+28+68 (minerals)
+      # Input transform: none (direct scale)
+      # Combination rule: quantitative_preferred
+
+      if non_res_export_pct > 80:  score = 80–100
+      if non_res_export_pct > 60:  score = 60–79
+      if non_res_export_pct > 40:  score = 35–59
+      if non_res_export_pct > 20:  score = 10–34
+      else:                        score = 0–9
+
+      # Qualitative feature vocabulary:
+      very_high_gt_80pct   → 80–100  (default 90)
+      high_60_80pct        → 60–79   (default 70)
+      moderate_40_60pct    → 35–59   (default 47)
+      low_20_40pct         → 10–34   (default 22)
+      very_low_lt_20pct    → 0–9     (default 5)
+      Multi-feature rule: minimum
+    coverage_period: "1995–present"
+    frequency: "Annual"
+    geographic_coverage: "~170 countries"
+    methodology_break: null
+    caveats:
+      - "Countries with large re-export sectors may overstate non-resource share"
+      - "Excludes service exports; for services-heavy economies the share is understated"
+      - "Commodity price fluctuations cause denominator swings that alter the share even without structural change"
+    secondary_sources:
+      - name: "UNCTAD — Structure of Trade"
+        url: "https://unctadstat.unctad.org/wds/TableViewer/tableView.aspx"
 
 international:
 
@@ -414,6 +1288,19 @@ international:
       broad_economic_humanitarian_exceptions → 30–49;
       comprehensive_sanctions → 10–29;
       total_isolation → 0–9.
+    score_formula: |
+      # Raw input: qualitative assessment of sanction regime type
+      # No quantitative series; note: MORE/HEAVIER sanctions = LOWER score (inverted)
+      # Combination rule: qualitative_only
+
+      # Feature vocabulary → score ranges (default scores):
+      no_sanctions                           → 90–100  (default 95)
+      targeted_individuals_only              → 70–89   (default 80)
+      sectoral_sanctions                     → 50–69   (default 60)
+      broad_economic_humanitarian_exceptions → 30–49   (default 40)
+      comprehensive_sanctions                → 10–29   (default 20)
+      total_isolation                        → 0–9     (default 5)
+      Multi-feature rule: minimum
     coverage_period: "1990–2025 (varies by country)"
     frequency: "Annual"
     geographic_coverage: "All 39 project countries"
@@ -461,6 +1348,18 @@ international:
       significant_isolation → 30–49;
       pariah_status → 10–29;
       no_international_recognition → 0–9.
+    score_formula: |
+      # Raw input: qualitative assessment of diplomatic status and international engagement
+      # Combination rule: qualitative_only
+
+      # Feature vocabulary → score ranges (default scores):
+      full_relations_active_international → 90–100  (default 95)
+      normal_minor_disputes               → 70–89   (default 80)
+      partial_isolation_some_closures     → 50–69   (default 60)
+      significant_isolation               → 30–49   (default 40)
+      pariah_status                       → 10–29   (default 20)
+      no_international_recognition        → 0–9     (default 5)
+      Multi-feature rule: minimum
     coverage_period: "1990–2025 (varies by country)"
     frequency: "Annual"
     geographic_coverage: "All 39 project countries"
@@ -503,6 +1402,19 @@ international:
       contested_mixed_presence → 30–49;
       occupied_major_uninvited → 10–29;
       active_foreign_combat_operations → 0–9.
+    score_formula: |
+      # Raw input: qualitative assessment of foreign military presence type
+      # Note: MORE foreign presence = LOWER score (inverted — sovereignty indicator)
+      # Combination rule: qualitative_only
+
+      # Feature vocabulary → score ranges (default scores):
+      no_foreign_presence_full_sovereignty → 90–100  (default 95)
+      limited_invited_advisors             → 70–89   (default 80)
+      significant_invited_forces           → 50–69   (default 60)
+      contested_mixed_presence             → 30–49   (default 40)
+      occupied_major_uninvited             → 10–29   (default 20)
+      active_foreign_combat_operations     → 0–9     (default 5)
+      Multi-feature rule: minimum
     coverage_period: "1990–2025 (varies by country)"
     frequency: "Annual"
     geographic_coverage: "All 39 project countries"
@@ -538,6 +1450,28 @@ international:
       Threshold scoring (higher FDI = higher score):
       ≥ 5% → 90–100; ≥ 2% → 70–89; ≥ 1% → 50–69;
       ≥ 0.5% → 30–49; ≥ 0% → 10–29; < 0% (net outflows) → 0–9.
+    score_formula: |
+      # Raw input: fdi_pct_gdp — net FDI inflows as % of GDP (World Bank BX.KLT.DINV.WD.GD.ZS)
+      # Definition: ≥10% ownership stake by foreign investor; net = inflows minus disinvestment
+      # Input transform: none
+      # Combination rule: quantitative_preferred
+
+      # Quantitative thresholds:
+      if fdi_pct_gdp >= 5:    score = 90–100
+      if fdi_pct_gdp >= 2:    score = 70–89
+      if fdi_pct_gdp >= 1:    score = 50–69
+      if fdi_pct_gdp >= 0.5:  score = 30–49
+      if fdi_pct_gdp >= 0:    score = 10–29
+      else (negative):        score = 0–9   # net disinvestment
+
+      # Qualitative feature vocabulary:
+      high_gt_5pct_gdp      → 90–100  (default 95)
+      moderate_2_5pct_gdp   → 70–89   (default 80)
+      low_1_2pct_gdp        → 50–69   (default 60)
+      very_low_05_1pct_gdp  → 30–49   (default 40)
+      minimal_lt_05pct_gdp  → 10–29   (default 20)
+      negative_net_outflows → 0–9     (default 5)
+      Multi-feature rule: minimum
     coverage_period: "1970–present (UNCTAD); 1972–present (World Bank WDI)"
     frequency: "Annual"
     geographic_coverage: "Most countries (gaps for heavily sanctioned or conflict-affected states)"
@@ -576,6 +1510,31 @@ international:
       Inverted threshold scoring (lower displacement = higher score):
       ≤ 0 (net returns) → 90–100; < 0.1% → 70–89; < 1% → 50–69;
       < 3% → 30–49; < 10% → 10–29; ≥ 10% → 0–9.
+    score_formula: |
+      # Raw inputs: new_refugees (UNHCR annual new outflows), new_IDPs (IDMC conflict displacement),
+      #             population (World Bank SP.POP.TOTL)
+      # Input transform: none
+      # Note: HIGHER displacement = LOWER score (inverted scale)
+      # Combination rule: quantitative_preferred
+
+      displacement_pct = (new_refugees + new_IDPs) / population * 100
+
+      # Quantitative thresholds (inverted):
+      if displacement_pct <= 0:    score = 90–100  # net returns
+      if displacement_pct < 0.1:   score = 70–89
+      if displacement_pct < 1:     score = 50–69
+      if displacement_pct < 3:     score = 30–49
+      if displacement_pct < 10:    score = 10–29
+      else:                        score = 0–9
+
+      # Qualitative feature vocabulary:
+      net_returns_minimal_displacement  → 90–100  (default 95)
+      stable_minimal_new                → 70–89   (default 80)
+      moderate_outflows_lt_1pct         → 50–69   (default 60)
+      significant_outflows_1_3pct       → 30–49   (default 40)
+      mass_displacement_3_10pct         → 10–29   (default 20)
+      catastrophic_gt_10pct             → 0–9     (default 5)
+      Multi-feature rule: minimum
     coverage_period: "UNHCR: 1951–present; IDMC: 2003–present for conflict displacement; annual"
     frequency: "Annual (UNHCR updates quarterly; annual data used)"
     geographic_coverage: "UNHCR: global; IDMC: global from 2003"
@@ -621,6 +1580,29 @@ transparency:
       Enacted Budget, Citizens Budget, In-Year Reports, Mid-Year Review,
       Year-End Report, Audit Report), each question scored 0/33/67/100.
     project_transform: "Direct mapping (OBI score = project score)"
+    score_formula: |
+      # Raw input: OBI_score — Open Budget Index composite score (0–100, already on project scale)
+      # Type: direct — score passes through a threshold table but stays close to the OBI value
+      # Input transform: none
+      # Combination rule: quantitative_preferred
+
+      # Threshold scoring (direct; OBI score → project score range):
+      if OBI_score >= 80:  score = 80–100
+      if OBI_score >= 60:  score = 60–79
+      if OBI_score >= 40:  score = 40–59
+      if OBI_score >= 20:  score = 20–39
+      if OBI_score >= 1:   score = 1–19
+      else:                score = 0
+
+      # Qualitative feature vocabulary (used for non-survey years and countries not in OBI):
+      extensive_gt_80    → 80–100  (default 85)
+      substantial_60_80  → 60–79   (default 70)
+      limited_40_60      → 40–59   (default 50)
+      minimal_20_40      → 20–39   (default 30)
+      scant_lt_20        → 1–19    (default 10)
+      no_information     → 0       (default 0)
+      Multi-feature rule: minimum
+      Note: OBI published biennially; off-years interpolated linearly between survey rounds
     coverage_period: "2006, 2008, 2010, 2012, 2015, 2017, 2019, 2021, 2023 (biennial; 9 rounds)"
     frequency: "Biennial"
     geographic_coverage: "125 countries (2023 round)"
@@ -665,6 +1647,35 @@ transparency:
       Post-2022 RSF: use directly (already 0=worst, 100=best).
       Pre-2022 RSF: apply 100 − RSF_raw to normalize direction.
       Both yield project score: 0–100 where 100 = best press freedom.
+    score_formula: |
+      # Raw input: RSF_score — Reporters Without Borders World Press Freedom Index
+      # CRITICAL: scale direction changed in 2022
+      #   Pre-2022: 0–100 where 0 = best press freedom (inverted direction)
+      #   Post-2022: 0–100 where 100 = best press freedom (correct direction)
+      # Input transform: rsf_invert (applied pre-2022 only)
+      # Combination rule: quantitative_preferred
+
+      if year < 2022:
+          transformed = 100 - RSF_score  # invert pre-2022 direction: 0=best → 100=best
+      else:
+          transformed = RSF_score         # post-2022 already: 100=best
+
+      # Threshold scoring after transform:
+      if transformed >= 85:  score = 85–100
+      if transformed >= 70:  score = 70–84
+      if transformed >= 55:  score = 55–69
+      if transformed >= 40:  score = 40–54
+      if transformed >= 15:  score = 15–39
+      else:                  score = 0–14
+
+      # Qualitative feature vocabulary:
+      free_environment  → 85–100  (default 90)
+      satisfactory      → 70–84   (default 75)
+      problematic       → 55–69   (default 60)
+      difficult         → 40–54   (default 45)
+      very_serious      → 15–39   (default 25)
+      no_press_freedom  → 0–14    (default 5)
+      Multi-feature rule: minimum
     coverage_period: "2002–present (annual)"
     frequency: "Annual (published spring of following year)"
     geographic_coverage: "180 countries and territories"
@@ -711,6 +1722,30 @@ transparency:
       ODIN (2015/16–present): 22 categories × coverage + openness dimensions;
       0–100 composite.
     project_transform: "Direct mapping (SCI or ODIN score = project score)"
+    score_formula: |
+      # Raw input: SCI_score — World Bank Statistical Capacity Indicator (IQ.SCI.OVRL, 0–100)
+      # Post-2021: ODIN (Open Data Inventory) score as supplement (also 0–100)
+      # Type: direct — both sources already on 0–100 scale
+      # Input transform: none
+      # Combination rule: quantitative_preferred
+
+      # Threshold scoring (direct):
+      if score >= 80:  score = 80–100
+      if score >= 60:  score = 60–79
+      if score >= 40:  score = 40–59
+      if score >= 20:  score = 20–39
+      if score >= 1:   score = 1–19
+      else:            score = 0
+
+      # Qualitative feature vocabulary:
+      excellent_gt_80        → 80–100  (default 85)
+      good_60_80             → 60–79   (default 70)
+      moderate_40_60         → 40–59   (default 50)
+      poor_20_40             → 20–39   (default 30)
+      very_poor_lt_20        → 1–19    (default 10)
+      no_statistical_system  → 0       (default 0)
+      Multi-feature rule: minimum
+      Note: SCI discontinued 2021; ODIN (biennial) or World Bank SPI used as supplement from 2022
     coverage_period: "SCI: 2004–2021 (published annually for ~145 developing countries); ODIN: 2015/16–present (biennial)"
     frequency: "Annual (SCI); Biennial (ODIN)"
     geographic_coverage: "SCI: ~145 developing countries (excludes high-income OECD); ODIN: ~185 countries"
@@ -757,6 +1792,30 @@ transparency:
       Each sub-factor is a weighted average of expert and household survey
       responses in ~120 questions. Composite Factor 3 scored 0–1.
     project_transform: "WJP Factor 3 × 100 → project score 0–100"
+    score_formula: |
+      # Raw input: WJP_Factor3 — World Justice Project Rule of Law Index, Factor 3: Open Government (0–1)
+      # Sub-factors: publicized laws & data, right to information, civic participation, complaint mechanisms
+      # Input transform: wjp_multiply_100
+      # Combination rule: quantitative_preferred
+
+      transformed = WJP_Factor3 * 100  # → 0–100
+
+      # Threshold scoring after transform:
+      if transformed >= 80:  score = 90–100
+      if transformed >= 60:  score = 70–89
+      if transformed >= 40:  score = 50–69
+      if transformed >= 25:  score = 30–49
+      if transformed >= 10:  score = 10–29
+      else:                  score = 0–9
+
+      # Qualitative feature vocabulary:
+      laws_published_searchable_foi    → 90–100  (default 95)
+      most_accessible_some_gaps        → 70–89   (default 80)
+      partial_significant_gaps         → 50–69   (default 60)
+      difficult_arbitrary_enforcement  → 30–49   (default 40)
+      minimal_rule_by_decree           → 10–29   (default 20)
+      no_accessible_framework          → 0–9     (default 5)
+      Multi-feature rule: minimum
     coverage_period: "2008, 2009, 2010 (first editions); 2013; 2014–present annual (gap years 2011–2012)"
     frequency: "Annual (since 2014)"
     geographic_coverage: "~140 countries (expanding; not all 39 project countries covered every year)"
@@ -804,6 +1863,21 @@ transparency:
       eiti_candidate_or_suspended → 30–49;
       no_membership_minimal_disclosure → 10–29;
       no_disclosure_opaque → 0–9.
+    score_formula: |
+      # Raw input: EITI membership and validation status (assessed from eiti.org country profiles)
+      # No quantitative series
+      # NOT APPLICABLE for 13 project countries with no significant extractive sector
+      # Combination rule: qualitative_only
+
+      # Feature vocabulary → score ranges (default scores):
+      eiti_compliant_satisfactory       → 90–100  (default 95)
+      eiti_compliant_meaningful         → 70–89   (default 80)
+      eiti_compliant_corrective_actions → 50–69   (default 60)
+      eiti_candidate_or_suspended       → 30–49   (default 40)
+      no_membership_minimal_disclosure  → 10–29   (default 20)
+      no_disclosure_opaque              → 0–9     (default 5)
+      Multi-feature rule: minimum
+      Note: not_applicable countries are excluded from the Transparency dimension average
     coverage_period: "EITI founded 2003; country memberships vary by join date"
     frequency: "Annual (based on EITI status at year-end)"
     geographic_coverage: "EITI member/candidate countries only; non-members scored qualitatively"
@@ -825,3 +1899,508 @@ transparency:
         url: "https://www.publishwhatyoupay.org"
       - name: "EITI Data Download Portal"
         url: "https://eiti.org/data-library"
+
+  control_of_corruption:
+    label: "Control of Corruption"
+    concept: >
+      Perceptions of the extent to which public power is exercised for private
+      gain, including both petty and grand forms of corruption, as well as
+      'state capture' — the influence of elites and private interests over
+      government decisions. Higher values indicate less corruption.
+    primary_source: "World Bank World Governance Indicators (WGI)"
+    primary_source_url: "https://info.worldbank.org/governance/wgi/"
+    series_id: "CC.EST (Control of Corruption)"
+    numerator: null
+    denominator: null
+    native_unit: "Standard normal units (z-score)"
+    native_scale: >
+      Standard normal distribution with mean 0 and standard deviation 1;
+      typical range −2.5 to +2.5. Aggregated from ~20 underlying sources
+      including Transparency International, ICRG, and business surveys.
+      Higher = less corruption.
+    project_transform: >
+      Threshold scoring (WGI CC.EST scale, no transform):
+      ≥ 1.5 → 90–100; ≥ 0.5 → 70–89; ≥ −0.5 → 50–69;
+      ≥ −1.5 → 30–49; ≥ −2.0 → 15–29; < −2.0 → 0–14.
+    score_formula: |
+      # Raw input: WGI_CC — World Bank WGI Control of Corruption
+      # Series: CC.EST, standard normal distribution (z-score), typical range −2.5 to +2.5
+      # Higher values = less corruption = better
+      # Input transform: none
+      # Combination rule: qualitative_preferred
+
+      # Quantitative thresholds:
+      if WGI_CC >= 1.5:   score = 90–100
+      if WGI_CC >= 0.5:   score = 70–89
+      if WGI_CC >= -0.5:  score = 50–69
+      if WGI_CC >= -1.5:  score = 30–49
+      if WGI_CC >= -2.0:  score = 15–29
+      else:               score = 0–14
+
+      # Qualitative feature vocabulary (preferred):
+      minimal_corruption    → 90–100  (default 95)
+      low_corruption        → 70–89   (default 80)
+      moderate_corruption   → 50–69   (default 60)
+      elevated_corruption   → 30–49   (default 40)
+      high_corruption       → 15–29   (default 22)
+      pervasive_corruption  → 0–14    (default 7)
+      Multi-feature rule: minimum
+    coverage_period: "1996–present (WGI)"
+    frequency: "Annual (since 2002)"
+    geographic_coverage: "~215 countries and territories"
+    methodology_break: null
+    caveats:
+      - "Corruption perception indices measure beliefs about corruption, not direct observation of corrupt acts; high-profile scandals can shift perceptions independently of underlying rates"
+      - "WGI aggregates include Transparency International CPI, which is itself an aggregate of other surveys — creating overlap and potential double-counting"
+      - "Standard errors are substantial (95% CI ~±0.5–1.0 units); changes smaller than 0.3 standard deviations should not be interpreted as real trends"
+      - "State capture (elite corruption) and petty corruption have different implications for governance but are combined in this indicator"
+    secondary_sources:
+      - name: "Transparency International Corruption Perceptions Index (CPI)"
+        url: "https://www.transparency.org/en/cpi"
+      - name: "WGI Data Download"
+        url: "https://info.worldbank.org/governance/wgi/Home/downLoadFile?fileName=wgidataset.xlsx"
+      - name: "ICRG Political Risk Rating — Corruption Component"
+        url: "https://www.prsgroup.com/explore-our-products/international-country-risk-guide/"
+
+population_mobility:
+
+  net_migration:
+    label: "Net Migration"
+    concept: >
+      The net balance of emigration and immigration — whether more people
+      are leaving or arriving. Interpreted as a signal of economic and
+      political conditions: persistent net outflows indicate a country
+      that people are fleeing; net inflows or balanced migration suggest
+      normal or attractive conditions.
+    primary_source: "World Bank World Development Indicators / qualitative assessment"
+    primary_source_url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+    series_id: "SM.POP.NETM (net migration, 5-year estimates); qualitative assessment for annual values"
+    numerator: "Immigrants minus emigrants (persons)"
+    denominator: null
+    native_unit: "Persons (net count); rate per 1,000 population used for thresholds"
+    native_scale: >
+      Net migration count; typically expressed as rate per 1,000 population.
+      World Bank data is 5-year totals; annual rates are derived estimates.
+    project_transform: >
+      Qualitative feature vocabulary (net migration rate per 1,000 population per year):
+      strong_net_inflow (> +5) → 80–100; mild_net_inflow (+1 to +5) → 60–79;
+      return_migration → 65–79; roughly_stable (−1 to +1) → 45–59;
+      mild_net_outflow (−5 to −1) → 25–44;
+      significant_net_outflow (−15 to −5) → 10–24;
+      severe_net_outflow (< −15) → 0–9.
+    score_formula: |
+      # Raw input: qualitative assessment of net migration pattern
+      # Reference: World Bank SM.POP.NETM (5-year totals) used to calibrate annual assessments
+      # Input transform: none
+      # Combination rule: qualitative_only (annual net migration rate unreliable cross-country)
+
+      # Feature vocabulary → score ranges (defaults; rate = per 1,000 population per year):
+      strong_net_inflow       → 80–100  (default 90)   # > +5 per 1,000
+      mild_net_inflow         → 60–79   (default 70)   # +1 to +5 per 1,000
+      return_migration        → 65–79   (default 72)   # significant returnees post-conflict
+      roughly_stable          → 45–59   (default 52)   # −1 to +1 per 1,000
+      mild_net_outflow        → 25–44   (default 35)   # −5 to −1 per 1,000
+      significant_net_outflow → 10–24   (default 17)   # −15 to −5 per 1,000
+      severe_net_outflow      → 0–9     (default 5)    # below −15 per 1,000
+      Multi-feature rule: minimum
+      Note: context matters — economic emigration differs from crisis-driven flight;
+      small island states often show high emigration unrelated to political conditions
+    coverage_period: "1960–present (World Bank 5-year totals); qualitative annually"
+    frequency: "Annual (qualitative); 5-year totals (World Bank)"
+    geographic_coverage: "All 39 project countries"
+    methodology_break: null
+    caveats:
+      - "World Bank net migration data comes in 5-year intervals (e.g., 2015–2020); annual figures require interpolation or qualitative estimation"
+      - "Net migration conflates very different phenomena: labor migration, refugee flight, retirement migration, and diaspora return"
+      - "Undocumented migration (both emigration and immigration) is systematically under-counted in official statistics"
+      - "Small countries can show extreme rates driven by a single large inflow/outflow event that are not indicative of general conditions"
+      - "Return migration after conflict (a positive sign) can temporarily appear as near-zero net migration, masking the underlying improvement"
+    secondary_sources:
+      - name: "World Bank SM.POP.NETM"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+      - name: "IOM World Migration Report"
+        url: "https://worldmigrationreport.iom.int"
+      - name: "UNDESA International Migration Stock"
+        url: "https://www.un.org/development/desa/pd/content/international-migration-1"
+
+  remittances:
+    label: "Remittances"
+    concept: >
+      Personal remittances received from abroad as a percentage of GDP.
+      Remittances reflect diaspora engagement and can be a vital income
+      source for fragile states. The score is non-monotonic: moderate
+      remittances (2–5% of GDP) score highest, reflecting healthy diaspora
+      ties without excessive dependence; very high remittances may indicate
+      economic fragility.
+    primary_source: "World Bank World Development Indicators"
+    primary_source_url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+    series_id: "BX.TRF.PWKR.DT.GD.ZS (personal remittances received, current USD, % of GDP)"
+    numerator: "Personal remittances received (includes workers' remittances + compensation of employees + migrant transfers)"
+    denominator: "GDP (current USD)"
+    native_unit: "Percent of GDP"
+    native_scale: "0–50%+ (fragile small states can exceed 30%; most countries 0–5%)"
+    project_transform: >
+      Non-monotonic qualitative scoring (moderate remittances score highest):
+      minimal_lt_1pct → 45–60; low_1_2pct → 50–65;
+      moderate_2_5pct → 55–70; high_5_10pct → 40–55;
+      very_high_gt_10pct → 20–35.
+    score_formula: |
+      # Raw input: remittances_pct_gdp — personal remittances received as % of GDP
+      # Source: World Bank BX.TRF.PWKR.DT.GD.ZS
+      # Input transform: none
+      # Combination rule: qualitative_only
+      # NOTE: scoring is non-monotonic — moderate remittances score highest;
+      # very high remittances signal potential economic dependence and vulnerability
+
+      # Feature vocabulary → score ranges (defaults):
+      minimal_lt_1pct    → 45–60  (default 52)   # minimal diaspora engagement
+      low_1_2pct         → 50–65  (default 57)
+      moderate_2_5pct    → 55–70  (default 62)   # balanced engagement — highest score
+      high_5_10pct       → 40–55  (default 47)   # significant dependence risk
+      very_high_gt_10pct → 20–35  (default 27)   # high dependence vulnerability
+      Multi-feature rule: minimum
+    coverage_period: "1970–present (World Bank WDI)"
+    frequency: "Annual"
+    geographic_coverage: "189 countries"
+    methodology_break: null
+    caveats:
+      - "World Bank BX.TRF.PWKR.DT.GD.ZS bundles workers' remittances, compensation of employees, and migrant transfers — three conceptually different flows"
+      - "Informal remittance channels (hawala, hand-carried cash) are not captured in official statistics; true flows likely 20–50% higher in some corridors"
+      - "Very high remittance ratios often reflect small economy size (denominator effect) rather than extremely large absolute flows"
+      - "Remittance flows are countercyclical — they often increase during crises as diaspora supports family; this makes high remittances ambiguously positive or negative"
+    secondary_sources:
+      - name: "World Bank Remittances Data"
+        url: "https://www.worldbank.org/en/topic/migrationremittancesdiasporaissues/brief/migration-remittances-data"
+      - name: "IMF Balance of Payments Statistics — Current Transfers"
+        url: "https://data.imf.org/?sk=7a51304b-6426-40c0-83dd-ca473ca1fd52"
+      - name: "IFAD Sending Money Home Report"
+        url: "https://www.ifad.org/en/web/latest/-/report/sending-money-home"
+
+social:
+
+  life_expectancy:
+    label: "Life Expectancy"
+    concept: >
+      Life expectancy at birth — the expected number of years a newborn
+      would live given current age-specific mortality rates. A composite
+      measure of health system capacity, nutrition, sanitation, and
+      overall living conditions. Higher values reflect better outcomes.
+    primary_source: "World Bank World Development Indicators"
+    primary_source_url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+    series_id: "SP.DYN.LE00.IN (life expectancy at birth, total, years)"
+    numerator: null
+    denominator: null
+    native_unit: "Years"
+    native_scale: "0–90+ years (typical country range: 50–85)"
+    project_transform: >
+      Threshold scoring (higher years = higher score):
+      ≥ 75 → 85–100; ≥ 70 → 70–84; ≥ 65 → 50–69;
+      ≥ 60 → 30–49; < 60 → 0–29.
+    score_formula: |
+      # Raw input: life_exp_years — life expectancy at birth, total (years) (SP.DYN.LE00.IN)
+      # Definition: expected years of life given current age-specific mortality rates
+      # Input transform: none
+      # Combination rule: quantitative_preferred
+
+      # Quantitative thresholds:
+      if life_exp_years >= 75:  score = 85–100
+      if life_exp_years >= 70:  score = 70–84
+      if life_exp_years >= 65:  score = 50–69
+      if life_exp_years >= 60:  score = 30–49
+      else:                     score = 0–29
+
+      # Qualitative feature vocabulary:
+      high_gt_75     → 85–100  (default 92)
+      good_70_75     → 70–84   (default 77)
+      moderate_65_70 → 50–69   (default 60)
+      low_60_65      → 30–49   (default 40)
+      very_low_lt_60 → 0–29    (default 15)
+      Multi-feature rule: minimum
+    coverage_period: "1960–present (World Bank); UN IGME revisions update historical series"
+    frequency: "Annual"
+    geographic_coverage: "189 countries"
+    methodology_break: null
+    caveats:
+      - "Life expectancy at birth is a period measure (current mortality rates applied to a synthetic cohort), not a prediction of how long any individual will actually live"
+      - "Conflict can cause sharp short-term declines that recover quickly once fighting stops; the series smooths over sub-annual spikes"
+      - "HIV/AIDS caused major declines in Southern African life expectancy in the 1990s–2000s; recovery from AIDS-related mortality can mask persistent non-AIDS mortality problems"
+    secondary_sources:
+      - name: "UN IGME — Inter-agency Group for Child Mortality Estimation"
+        url: "https://childmortality.org"
+      - name: "WHO Global Health Observatory"
+        url: "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/life-expectancy-at-birth-(years)"
+      - name: "IHME Global Burden of Disease"
+        url: "https://www.healthdata.org/research-analysis/gbd"
+
+  infant_mortality:
+    label: "Infant Mortality"
+    concept: >
+      The probability of dying between birth and exactly one year of age,
+      expressed per 1,000 live births. A sensitive indicator of child health,
+      nutrition, access to clean water, and basic healthcare. The score is
+      inverted: lower mortality earns a higher score.
+    primary_source: "World Bank World Development Indicators"
+    primary_source_url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+    series_id: "SP.DYN.IMRT.IN (mortality rate, infant, per 1,000 live births)"
+    numerator: "Deaths under age 1"
+    denominator: "1,000 live births"
+    native_unit: "Deaths per 1,000 live births"
+    native_scale: "0–200+ (typical range: 2–100 in project countries)"
+    project_transform: >
+      Inverted threshold scoring (lower mortality = higher score):
+      < 10 → 80–100; < 25 → 55–79; < 50 → 30–54;
+      < 80 → 10–29; ≥ 80 → 0–9.
+    score_formula: |
+      # Raw input: imr — infant mortality rate (deaths under age 1 per 1,000 live births)
+      # Source: World Bank SP.DYN.IMRT.IN (UN IGME estimates)
+      # Input transform: none
+      # Note: HIGHER IMR = LOWER score (inverted scale)
+      # Combination rule: quantitative_preferred
+
+      # Quantitative thresholds (inverted):
+      if imr < 10:   score = 80–100
+      if imr < 25:   score = 55–79
+      if imr < 50:   score = 30–54
+      if imr < 80:   score = 10–29
+      else:          score = 0–9
+
+      # Qualitative feature vocabulary:
+      low_lt_10        → 80–100  (default 90)
+      moderate_10_25   → 55–79   (default 67)
+      elevated_25_50   → 30–54   (default 42)
+      high_50_80       → 10–29   (default 20)
+      very_high_gt_80  → 0–9     (default 5)
+      Multi-feature rule: minimum
+    coverage_period: "1960–present (World Bank / UN IGME)"
+    frequency: "Annual (UN IGME estimates smoothed from survey data)"
+    geographic_coverage: "195 countries (UN IGME coverage)"
+    methodology_break: null
+    caveats:
+      - "UN IGME estimates are modeled from household surveys (DHS, MICS), censuses, and vital registration; for countries with poor vital registration, estimates carry wide uncertainty"
+      - "Conflict dramatically increases infant mortality through disruption of healthcare but this is hard to measure directly; survey-based estimates may lag actual mortality spikes by 3–5 years"
+      - "Definition: deaths within first year of life per 1,000 live births; distinct from neonatal mortality (first 28 days) and under-5 mortality rate"
+    secondary_sources:
+      - name: "UN IGME — Levels and Trends in Child Mortality"
+        url: "https://childmortality.org"
+      - name: "UNICEF State of the World's Children — Statistics"
+        url: "https://www.unicef.org/reports/state-worlds-children"
+      - name: "WHO Global Health Observatory — Child Mortality"
+        url: "https://www.who.int/data/gho/data/themes/topics/topic-details/GHO/child-mortality-and-causes-of-death"
+
+  internet_users:
+    label: "Internet Users"
+    concept: >
+      The share of the population that has accessed the Internet from any
+      device in the last three months. Reflects digital connectivity,
+      access to information, and economic modernization. Higher values
+      indicate greater connectivity.
+    primary_source: "World Bank World Development Indicators / ITU"
+    primary_source_url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+    series_id: "IT.NET.USER.ZS (individuals using the Internet, % of population)"
+    numerator: "Persons who accessed the Internet in the last 3 months"
+    denominator: "Total population"
+    native_unit: "Percent of population"
+    native_scale: "0–100% (approaching 100% in high-income countries)"
+    project_transform: >
+      Threshold scoring (higher % = higher score):
+      ≥ 80% → 85–100; ≥ 60% → 70–84; ≥ 40% → 55–69;
+      ≥ 20% → 35–54; ≥ 5% → 15–34; < 5% → 0–14.
+    score_formula: |
+      # Raw input: internet_pct — % of population using the Internet (IT.NET.USER.ZS)
+      # ITU definition: accessed the Internet from any location and device in the last 3 months
+      # Input transform: none
+      # Combination rule: quantitative_preferred
+
+      # Quantitative thresholds:
+      if internet_pct >= 80:  score = 85–100
+      if internet_pct >= 60:  score = 70–84
+      if internet_pct >= 40:  score = 55–69
+      if internet_pct >= 20:  score = 35–54
+      if internet_pct >= 5:   score = 15–34
+      else:                   score = 0–14
+
+      # Qualitative feature vocabulary:
+      very_high_gt_80pct → 85–100  (default 92)
+      high_60_80pct      → 70–84   (default 77)
+      moderate_40_60pct  → 55–69   (default 62)
+      low_20_40pct       → 35–54   (default 45)
+      very_low_5_20pct   → 15–34   (default 25)
+      minimal_lt_5pct    → 0–14    (default 7)
+      Multi-feature rule: minimum
+    coverage_period: "1990–present (ITU; coverage improves from 2000s)"
+    frequency: "Annual"
+    geographic_coverage: "~195 countries"
+    methodology_break: null
+    caveats:
+      - "ITU data relies on country self-reporting; many low-income countries lack regular ICT surveys and extrapolate from mobile subscription data"
+      - "Access vs. use distinction: mobile data access (even minimal) counts as 'using the Internet'; does not distinguish meaningful connectivity from occasional access"
+      - "Rural-urban digital divide can mean national averages mask near-zero rural connectivity alongside high urban penetration"
+    secondary_sources:
+      - name: "ITU ICT Development Index"
+        url: "https://www.itu.int/en/ITU-D/Statistics/Pages/IDI/default.aspx"
+      - name: "Our World in Data — Internet Access"
+        url: "https://ourworldindata.org/internet"
+
+  health_expenditure:
+    label: "Health Expenditure"
+    concept: >
+      Current health expenditure as a percentage of GDP, covering all
+      expenditures for health functions including public and private
+      spending on hospital care, ambulatory care, medical goods, and
+      public health programs. Higher spending (as % of GDP) indicates
+      greater societal investment in health.
+    primary_source: "World Bank World Development Indicators / WHO"
+    primary_source_url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+    series_id: "SH.XPD.CHEX.GD.ZS (current health expenditure, % of GDP)"
+    numerator: "Current health expenditure (public + private, current USD)"
+    denominator: "GDP (current USD)"
+    native_unit: "Percent of GDP"
+    native_scale: "0–20%+ (typical range: 2–17% in project countries)"
+    project_transform: >
+      Threshold scoring (higher % = higher score):
+      ≥ 8% → 75–100; ≥ 5% → 50–74; ≥ 3% → 25–49; < 3% → 0–24.
+    score_formula: |
+      # Raw input: health_exp_pct — current health expenditure as % of GDP (SH.XPD.CHEX.GD.ZS)
+      # WHO/World Bank definition: all recurrent and capital health spending; includes public + private
+      # Input transform: none
+      # Combination rule: quantitative_preferred
+
+      # Quantitative thresholds:
+      if health_exp_pct >= 8:  score = 75–100
+      if health_exp_pct >= 5:  score = 50–74
+      if health_exp_pct >= 3:  score = 25–49
+      else:                    score = 0–24
+
+      # Qualitative feature vocabulary:
+      high_gt_8pct      → 75–100  (default 87)
+      moderate_5_8pct   → 50–74   (default 62)
+      low_3_5pct        → 25–49   (default 37)
+      very_low_lt_3pct  → 0–24    (default 12)
+      Multi-feature rule: minimum
+    coverage_period: "2000–present (WHO National Health Accounts; some gaps)"
+    frequency: "Annual"
+    geographic_coverage: "~190 countries"
+    methodology_break: null
+    caveats:
+      - "High health expenditure % of GDP does not guarantee good health outcomes; efficiency of spending varies enormously"
+      - "Conflict disrupts health system financing and utilization; expenditure data may not reflect actual service availability"
+      - "Private out-of-pocket payments are included; a high ratio driven by out-of-pocket costs (low public spending) may indicate financial hardship rather than good coverage"
+      - "WHO data revisions are substantial; historical series are frequently revised as National Health Accounts are updated"
+    secondary_sources:
+      - name: "WHO Global Health Expenditure Database"
+        url: "https://apps.who.int/nha/database"
+      - name: "IHME Financing Global Health"
+        url: "https://www.healthdata.org/research-analysis/health-financing"
+
+  education_expenditure:
+    label: "Education Expenditure"
+    concept: >
+      Government expenditure on education (all levels combined) as a
+      percentage of GDP. Reflects public investment in human capital
+      development. Higher values indicate a greater commitment of public
+      resources to education.
+    primary_source: "World Bank World Development Indicators / UNESCO Institute for Statistics"
+    primary_source_url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+    series_id: "SE.XPD.TOTL.GD.ZS (government expenditure on education, total, % of GDP)"
+    numerator: "General government expenditure on education (all levels, current USD)"
+    denominator: "GDP (current USD)"
+    native_unit: "Percent of GDP"
+    native_scale: "0–15%+ (typical range: 1–8% in project countries)"
+    project_transform: >
+      Threshold scoring (higher % = higher score):
+      ≥ 6% → 70–100; ≥ 4% → 45–69; ≥ 2% → 20–44; < 2% → 0–19.
+    score_formula: |
+      # Raw input: edu_exp_pct — government expenditure on education as % of GDP (SE.XPD.TOTL.GD.ZS)
+      # UNESCO/World Bank definition: general government expenditure on education, all levels
+      # Excludes household private education spending
+      # Input transform: none
+      # Combination rule: quantitative_preferred
+
+      # Quantitative thresholds:
+      if edu_exp_pct >= 6:  score = 70–100
+      if edu_exp_pct >= 4:  score = 45–69
+      if edu_exp_pct >= 2:  score = 20–44
+      else:                 score = 0–19
+
+      # Qualitative feature vocabulary:
+      high_gt_6pct      → 70–100  (default 85)
+      moderate_4_6pct   → 45–69   (default 57)
+      low_2_4pct        → 20–44   (default 32)
+      very_low_lt_2pct  → 0–19    (default 10)
+      Multi-feature rule: minimum
+    coverage_period: "1970–present (UNESCO/World Bank; significant gaps)"
+    frequency: "Annual (UNESCO reporting; many countries irregular)"
+    geographic_coverage: "~180 countries (gaps; conflict-affected states frequently absent)"
+    methodology_break: null
+    caveats:
+      - "Education expenditure data is among the most gap-prone in the WDI; conflict-affected countries may have no data for 5–10 year stretches"
+      - "Excludes private household spending on education, which can be large in countries with weak public systems"
+      - "High spending does not guarantee good education outcomes; enrollment rates, teacher quality, and curriculum matter equally"
+      - "Military spending during conflict diverts from social spending; drops in education expenditure often coincide with conflict peaks"
+    secondary_sources:
+      - name: "UNESCO Institute for Statistics — Education Finance"
+        url: "https://uis.unesco.org/en/topic/education-finance"
+      - name: "World Bank Education Statistics"
+        url: "https://datatopics.worldbank.org/education/"
+
+  hdi:
+    label: "Human Development Index"
+    concept: >
+      The UNDP Human Development Index (HDI) is a composite measure of three
+      dimensions of human development: a long and healthy life (life expectancy),
+      access to knowledge (mean and expected years of schooling), and a decent
+      standard of living (GNI per capita, PPP). It ranges from 0 to 1; higher
+      values indicate higher human development. Scored on a 0–100 scale by
+      multiplying by 100.
+    primary_source: "UNDP Human Development Reports"
+    primary_source_url: "https://hdr.undp.org/data-center/human-development-index"
+    series_id: "UNDP HDI (composite index, 0–1 scale)"
+    numerator: "Geometric mean of health, education, and income dimension indices"
+    denominator: null
+    native_unit: "Index 0–1"
+    native_scale: >
+      0–1 where 1 = highest human development. UNDP categories:
+      Very High ≥ 0.800; High 0.700–0.799; Medium 0.550–0.699; Low < 0.550.
+    project_transform: >
+      Multiply by 100 to convert to 0–100 scale, then threshold scoring:
+      ≥ 80 → 80–100; ≥ 70 → 60–79; ≥ 55 → 35–59;
+      ≥ 40 → 10–34; < 40 → 0–9.
+    score_formula: |
+      # Raw input: hdi_value — UNDP Human Development Index (0–1 scale)
+      # UNDP definition: geometric mean of life expectancy, education, and income indices
+      # Input transform: multiply by 100 → 0–100 scale
+      # Combination rule: quantitative_preferred
+
+      transformed = hdi_value * 100
+      if transformed >= 80:  score = 80–100
+      if transformed >= 70:  score = 60–79
+      if transformed >= 55:  score = 35–59
+      if transformed >= 40:  score = 10–34
+      else:                  score = 0–9
+
+      # Qualitative feature vocabulary:
+      very_high_gt_80      → 80–100  (default 87)
+      high_70_80           → 60–79   (default 72)
+      medium_55_70         → 35–59   (default 50)
+      low_40_55            → 10–34   (default 22)
+      very_low_lt_40       → 0–9     (default 5)
+      Multi-feature rule: minimum
+    coverage_period: "1990–present (annual since 1990)"
+    frequency: "Annual"
+    geographic_coverage: "191 countries and territories"
+    methodology_break: >
+      UNDP revised the HDI methodology in 2010 (shifted from arithmetic to
+      geometric mean, updated goalposts) and again in 2021 (updated goalposts).
+      Historical values before 2010 have been recalculated using the current
+      methodology in the 2023 report; comparability across the full series is
+      maintained by UNDP.
+    caveats:
+      - "HDI does not capture inequality within countries; two countries with the same HDI can have very different distributions of wellbeing"
+      - "UNDP publishes revised historical series with each report; scores from older reports are not comparable to the current series"
+      - "The income component uses GNI per capita PPP, which undervalues subsistence economies and overstates income in high-cost urban economies"
+      - "Education component uses expected years of schooling, which can remain high even when school quality collapses (e.g. conflict contexts)"
+    secondary_sources:
+      - name: "UNDP Global Data Lab HDI Data"
+        url: "https://globaldatalab.org/shdi/"
+      - name: "Our World in Data — Human Development Index"
+        url: "https://ourworldindata.org/human-development-index"

@@ -23,19 +23,27 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Remittances to Syria in 2009 were $1.35 billion, representing 2.49% of GDP — placing Syria in the moderate remittance category. A significant Syrian diaspora in the Gulf states, Lebanon, and Europe (particularly Sweden and Germany) sent regular remittances. These flows supported household consumption, particularly in rural areas. Syria was a moderate remittance receiver by regional standards at the time."
       features:
-        - moderate_2_5pct
+      - moderate_2_5pct
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2009"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2009"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2010:
     data_status: complete
     quantitative:
@@ -57,23 +65,31 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Remittances rose to $1.62 billion (2.64% of GDP) in 2010 — last pre-uprising year. Growing Syrian diaspora in Gulf states and increasing informal labor migration supported remittance flows. This represented the pre-conflict baseline before the exodus would fundamentally alter remittance dynamics."
       features:
-        - moderate_2_5pct
+      - moderate_2_5pct
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2010"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2010"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "Last year with World Bank remittance data for Syria."
   2011:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -83,7 +99,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -91,23 +107,31 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No World Bank data available for 2011 onward. Civil war onset disrupted formal banking channels through which remittances were typically tracked. Informal hawala networks became the primary transmission mechanism for money flows to Syria, which are not captured in official statistics. Actual remittance volumes likely increased as diaspora tried to support family members, but formal measurement became impossible."
       features:
-        - moderate_2_5pct
+      - moderate_2_5pct
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2011 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2011 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No WB data from 2011 onward; informal hawala channels dominate; actual flows unmeasured."
   2012:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -117,7 +141,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -125,22 +149,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Full-scale civil war; formal banking system severely disrupted. Diaspora remittances via informal channels were a critical survival mechanism for families inside Syria, but volumes are entirely unquantified."
       features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2012 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2012 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data; informal remittance channels dominant."
   2013:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -150,7 +182,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -158,22 +190,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. As the Syrian diaspora expanded massively in 2013, remittance flows likely grew substantially in absolute terms but were channeled through informal networks. The rapidly expanding refugee population in Turkey and Lebanon was itself financially distressed, potentially reducing diaspora remittances from these populations."
       features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2013 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2013 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data."
   2014:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -183,7 +223,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -191,22 +231,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available."
       features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2014 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2014 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data."
   2015:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -216,7 +264,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -224,22 +272,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Growing Syrian diaspora in Europe (over 1 million refugees arrived in Europe in 2015) were themselves in initial refugee status and unable to send substantial remittances. Gulf-based Syrians remained a source of informal flows."
       features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2015 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2015 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data. Newly arrived European refugees unable to send remittances."
   2016:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -249,7 +305,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -257,22 +313,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available."
       features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2016 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2016 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data."
   2017:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -282,7 +346,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -290,22 +354,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Syrian diaspora in Germany and Sweden beginning to find employment and potentially sending some remittances. Hawala networks remain primary channel to Syria. No formal measurement."
       features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2017 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2017 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data."
   2018:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -315,7 +387,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -323,22 +395,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available."
       features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2018 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2018 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data."
   2019:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -348,7 +428,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -356,22 +436,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Caesar Act sanctions approaching; Lebanese financial crisis in late 2019 severely disrupted Syria-Lebanon financial corridor, which was the main informal remittance channel. Formal remittances to Syria essentially impossible given sanctions environment."
       features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2019 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2019 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data. Lebanese financial crisis disrupts informal corridor."
   2020:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -381,7 +469,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -389,22 +477,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Caesar Act sanctions (June 2020) explicitly target financial transactions with Syria, making formal remittance channels legally precarious. Lebanese banking collapse further disrupts the main informal corridor. Despite these obstacles, some flows continue through hawala and cryptocurrency channels."
       features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2020 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2020 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Caesar Act sanctions explicitly restrict financial flows to Syria."
   2021:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -414,7 +510,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -422,22 +518,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Continued sanctions environment; cryptocurrency use reportedly growing as a remittance channel. Diaspora in Europe increasingly employed and able to send money but formal channels remain restricted."
       features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2021 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2021 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data; cryptocurrency channels emerging."
   2022:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -447,7 +551,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -455,22 +559,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available."
       features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2022 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2022 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data."
   2023:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -480,7 +592,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -488,22 +600,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Earthquake February 2023; massive international humanitarian response may have included informal family transfers. No formal measurement."
       features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2023 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2023 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data; earthquake humanitarian response."
   2024:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -513,7 +633,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -521,22 +641,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Assad regime fell December 2024. Post-transition context may see partial lifting of sanctions and restoration of banking channels, which would enable formal remittance flows. Diaspora transfers to support returning family members likely increasing in informal channels."
       features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2024 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2024 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data; regime change; potential sanctions relief could restore formal channels."
   2025:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -546,7 +674,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -554,22 +682,30 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Post-transition period; US and EU beginning to ease some Syria sanctions following regime change. If banking channels reopen, formal remittance flows may become measurable again. The large diaspora represents a significant potential remittance source for reconstruction."
       features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2025 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2025 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data; post-transition sanctions easing may restore formal channels."
   2026:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(remittances_received_usd / gdp_current_usd) * 100"
       source:
@@ -579,7 +715,7 @@ years:
       reliability: low
       components:
         remittances_received_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -587,15 +723,23 @@ years:
             url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available; year not yet complete."
       features: []
       sources:
-        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2026 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Syria, 2026 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Year not yet complete."

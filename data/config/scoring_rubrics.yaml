@@ -734,6 +734,155 @@ economic:
       multi_feature_rule: minimum
     combination_rule: quantitative_preferred
 
+  poverty_rate:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # % population below $2.15/day; lower = better
+      thresholds:
+        - score_range: [85, 100]
+          condition: "< 3"
+        - score_range: [65, 84]
+          condition: "< 10"
+        - score_range: [45, 64]
+          condition: "< 25"
+        - score_range: [20, 44]
+          condition: "< 50"
+        - score_range: [0, 19]
+          condition: ">= 50"
+    qualitative_scoring:
+      features:
+        very_low_lt_3pct:
+          score_range: [85, 100]
+          default_score: 92
+        low_3_10pct:
+          score_range: [65, 84]
+          default_score: 75
+        moderate_10_25pct:
+          score_range: [45, 64]
+          default_score: 55
+        high_25_50pct:
+          score_range: [20, 44]
+          default_score: 32
+        very_high_gt_50pct:
+          score_range: [0, 19]
+          default_score: 10
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  gini_adjusted_gdp_per_capita_ppp:
+    quantitative_scoring:
+      type: threshold
+      input_transform: "percent_of_peak"
+      # PPP-adjusted: GDP_pc_PPP × (1 − Gini/100); scored as percent of series peak
+      thresholds:
+        - score_range: [90, 100]
+          condition: ">= 95"
+        - score_range: [70, 89]
+          condition: ">= 80"
+        - score_range: [50, 69]
+          condition: ">= 60"
+        - score_range: [30, 49]
+          condition: ">= 40"
+        - score_range: [10, 29]
+          condition: ">= 20"
+        - score_range: [0, 9]
+          condition: "< 20"
+    qualitative_scoring:
+      features:
+        above_peak:
+          score_range: [90, 100]
+          default_score: 95
+        near_peak_90_100pct:
+          score_range: [70, 89]
+          default_score: 85
+        moderate_decline_70_90pct:
+          score_range: [50, 69]
+          default_score: 65
+        significant_decline_50_70pct:
+          score_range: [30, 49]
+          default_score: 45
+        severe_decline_30_50pct:
+          score_range: [10, 29]
+          default_score: 25
+        collapse_below_30pct:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  export_diversification:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # HHI 0-1; lower = more diversified = better
+      thresholds:
+        - score_range: [85, 100]
+          condition: "< 0.10"
+        - score_range: [65, 84]
+          condition: "< 0.20"
+        - score_range: [45, 64]
+          condition: "< 0.35"
+        - score_range: [20, 44]
+          condition: "< 0.55"
+        - score_range: [0, 19]
+          condition: ">= 0.55"
+    qualitative_scoring:
+      features:
+        highly_diversified_lt_0_10:
+          score_range: [85, 100]
+          default_score: 92
+        diversified_0_10_0_20:
+          score_range: [65, 84]
+          default_score: 75
+        moderate_concentration_0_20_0_35:
+          score_range: [45, 64]
+          default_score: 55
+        concentrated_0_35_0_55:
+          score_range: [20, 44]
+          default_score: 32
+        highly_concentrated_gt_0_55:
+          score_range: [0, 19]
+          default_score: 10
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  non_resource_export_share:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # % total merchandise exports; higher = less resource-dependent = better
+      thresholds:
+        - score_range: [85, 100]
+          condition: ">= 80"
+        - score_range: [65, 84]
+          condition: ">= 60"
+        - score_range: [45, 64]
+          condition: ">= 40"
+        - score_range: [20, 44]
+          condition: ">= 20"
+        - score_range: [0, 19]
+          condition: "< 20"
+    qualitative_scoring:
+      features:
+        high_gt_80pct:
+          score_range: [85, 100]
+          default_score: 92
+        moderate_high_60_80pct:
+          score_range: [65, 84]
+          default_score: 75
+        moderate_40_60pct:
+          score_range: [45, 64]
+          default_score: 55
+        low_20_40pct:
+          score_range: [20, 44]
+          default_score: 32
+        very_low_lt_20pct:
+          score_range: [0, 19]
+          default_score: 10
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
 international:
   sanctions:
     quantitative_scoring:
@@ -1372,5 +1521,41 @@ social:
         very_low_lt_2pct:
           score_range: [0, 19]
           default_score: 10
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  hdi:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # UNDP HDI 0-1; higher = better
+      thresholds:
+        - score_range: [85, 100]
+          condition: ">= 0.8"
+        - score_range: [65, 84]
+          condition: ">= 0.7"
+        - score_range: [45, 64]
+          condition: ">= 0.55"
+        - score_range: [25, 44]
+          condition: ">= 0.4"
+        - score_range: [0, 24]
+          condition: "< 0.4"
+    qualitative_scoring:
+      features:
+        very_high_gt_0_8:
+          score_range: [85, 100]
+          default_score: 92
+        high_0_7_0_8:
+          score_range: [65, 84]
+          default_score: 75
+        medium_0_55_0_7:
+          score_range: [45, 64]
+          default_score: 55
+        low_0_4_0_55:
+          score_range: [25, 44]
+          default_score: 35
+        very_low_lt_0_4:
+          score_range: [0, 24]
+          default_score: 12
       multi_feature_rule: minimum
     combination_rule: quantitative_preferred

@@ -5,7 +5,7 @@ years:
   1986:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_labor_force_age_15_24
       formula: "(youth_unemployed / youth_labor_force) * 100"
       source:
@@ -15,7 +15,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -23,8 +23,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -32,20 +34,25 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No youth unemployment data available for 1986."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Soviet occupation / civil war period"
   1987:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_labor_force_age_15_24
       formula: "(youth_unemployed / youth_labor_force) * 100"
       source:
@@ -55,7 +62,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -63,8 +70,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -72,20 +81,25 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No youth unemployment data available for 1987."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Soviet occupation / civil war period"
   1988:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_labor_force_age_15_24
       formula: "(youth_unemployed / youth_labor_force) * 100"
       source:
@@ -95,7 +109,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -103,8 +117,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -112,20 +128,25 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No youth unemployment data available for 1988."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Soviet occupation / civil war period"
   1989:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_labor_force_age_15_24
       formula: "(youth_unemployed / youth_labor_force) * 100"
       source:
@@ -135,7 +156,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -143,8 +164,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -152,20 +175,25 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No youth unemployment data available for 1989."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Soviet occupation / civil war period"
   1990:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_labor_force_age_15_24
       formula: "(youth_unemployed / youth_labor_force) * 100"
       source:
@@ -175,7 +203,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -183,8 +211,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -192,14 +222,19 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No youth unemployment data available for 1990."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Soviet occupation / civil war period"
   1991:
@@ -215,7 +250,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -223,8 +258,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -232,14 +269,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.2% in 1991. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Soviet occupation / civil war period"
   1992:
@@ -255,7 +298,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -263,8 +306,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -272,14 +317,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.2% in 1992. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Mujahideen civil war period"
   1993:
@@ -295,7 +346,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -303,8 +354,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -312,14 +365,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.2% in 1993. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Mujahideen civil war period"
   1994:
@@ -335,7 +394,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -343,8 +402,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -352,14 +413,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.2% in 1994. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Mujahideen civil war period"
   1995:
@@ -375,7 +442,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -383,8 +450,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -392,14 +461,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.1% in 1995. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Mujahideen civil war period"
   1996:
@@ -415,7 +490,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -423,8 +498,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -432,14 +509,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.2% in 1996. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Taliban first emirate (1996-2001)"
   1997:
@@ -455,7 +538,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -463,8 +546,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -472,14 +557,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.2% in 1997. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Taliban first emirate (1996-2001)"
   1998:
@@ -495,7 +586,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -503,8 +594,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -512,14 +605,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.2% in 1998. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Taliban first emirate (1996-2001)"
   1999:
@@ -535,7 +634,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -543,8 +642,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -552,14 +653,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.2% in 1999. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Taliban first emirate (1996-2001)"
   2000:
@@ -575,7 +682,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -583,8 +690,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -592,14 +701,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.2% in 2000. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Taliban first emirate (1996-2001)"
   2001:
@@ -615,7 +730,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -623,8 +738,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -632,14 +749,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.3% in 2001. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Taliban first emirate (1996-2001)"
   2002:
@@ -655,7 +778,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -663,8 +786,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -672,14 +797,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.2% in 2002. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Post-2001 reconstruction"
   2003:
@@ -695,7 +826,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -703,8 +834,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -712,14 +845,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.2% in 2003. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Post-2001 reconstruction"
   2004:
@@ -735,7 +874,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -743,8 +882,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -752,14 +893,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.1% in 2004. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; US occupation / Islamic Republic period"
   2005:
@@ -775,7 +922,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -783,8 +930,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -792,14 +941,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.2% in 2005. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; US occupation / Islamic Republic period"
   2006:
@@ -815,7 +970,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -823,8 +978,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -832,14 +989,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.2% in 2006. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; US occupation / Islamic Republic period"
   2007:
@@ -855,7 +1018,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -863,8 +1026,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -872,14 +1037,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.1% in 2007. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; US occupation / Islamic Republic period"
   2008:
@@ -895,7 +1066,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -903,8 +1074,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -912,14 +1085,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.1% in 2008. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; US occupation / Islamic Republic period"
   2009:
@@ -935,7 +1114,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -943,8 +1122,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -952,14 +1133,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.1% in 2009. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; US occupation / Islamic Republic period"
   2010:
@@ -975,7 +1162,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -983,8 +1170,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -992,14 +1181,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.0% in 2010. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; US occupation / Islamic Republic period"
   2011:
@@ -1015,7 +1210,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1023,8 +1218,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -1032,14 +1229,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.0% in 2011. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; US occupation / Islamic Republic period"
   2012:
@@ -1055,7 +1258,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1063,8 +1266,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -1072,14 +1277,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.1% in 2012. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; US occupation / Islamic Republic period"
   2013:
@@ -1095,7 +1306,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1103,8 +1314,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -1112,14 +1325,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.1% in 2013. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; US occupation / Islamic Republic period"
   2014:
@@ -1135,7 +1354,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1143,8 +1362,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -1152,14 +1373,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment was estimated at 10.1% in 2014. These modeled estimates should be treated cautiously; Afghanistan had limited formal labor market surveys. The informal economy and agriculture absorbed most youth, masking true unemployment."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; US occupation / Islamic Republic period"
   2015:
@@ -1175,7 +1402,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1183,8 +1410,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -1192,14 +1421,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment rose to 12.5% in 2015, reflecting deteriorating economic conditions and security. The formal private sector remained underdeveloped; youth faced limited opportunities outside subsistence farming or joining security forces."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; US occupation / Islamic Republic period"
   2016:
@@ -1215,7 +1450,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1223,8 +1458,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -1232,14 +1469,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment rose to 14.9% in 2016, reflecting deteriorating economic conditions and security. The formal private sector remained underdeveloped; youth faced limited opportunities outside subsistence farming or joining security forces."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; US occupation / Islamic Republic period"
   2017:
@@ -1255,7 +1498,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1263,8 +1506,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -1272,14 +1517,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment rose to 17.3% in 2017, reflecting deteriorating economic conditions and security. The formal private sector remained underdeveloped; youth faced limited opportunities outside subsistence farming or joining security forces."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; US occupation / Islamic Republic period"
   2018:
@@ -1295,7 +1546,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1303,8 +1554,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -1312,14 +1565,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment rose to 16.4% in 2018, reflecting deteriorating economic conditions and security. The formal private sector remained underdeveloped; youth faced limited opportunities outside subsistence farming or joining security forces."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; US occupation / Islamic Republic period"
   2019:
@@ -1335,7 +1594,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1343,8 +1602,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -1352,14 +1613,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment rose to 15.5% in 2019, reflecting deteriorating economic conditions and security. The formal private sector remained underdeveloped; youth faced limited opportunities outside subsistence farming or joining security forces."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; US occupation / Islamic Republic period"
   2020:
@@ -1375,7 +1642,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1383,8 +1650,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -1392,14 +1661,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment rose to 16.1% in 2020, reflecting deteriorating economic conditions and security. The formal private sector remained underdeveloped; youth faced limited opportunities outside subsistence farming or joining security forces."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; US occupation / Islamic Republic period"
   2021:
@@ -1415,7 +1690,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1423,8 +1698,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -1432,14 +1709,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment rose to 16.0% in 2021, reflecting deteriorating economic conditions and security. The formal private sector remained underdeveloped; youth faced limited opportunities outside subsistence farming or joining security forces."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; US occupation / Islamic Republic period"
   2022:
@@ -1455,7 +1738,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1463,8 +1746,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -1472,14 +1757,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment estimated at 17.5% in 2022. Under Taliban rule, women were barred from most employment, and the collapse of aid-funded public sector eliminated many jobs. Modeled estimates have high uncertainty."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Second Taliban emirate (post-2021)"
   2023:
@@ -1495,7 +1786,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1503,8 +1794,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -1512,14 +1805,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment estimated at 17.5% in 2023. Under Taliban rule, women were barred from most employment, and the collapse of aid-funded public sector eliminated many jobs. Modeled estimates have high uncertainty."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Second Taliban emirate (post-2021)"
   2024:
@@ -1535,7 +1834,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1543,8 +1842,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -1552,14 +1853,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment estimated at 17.2% in 2024. Under Taliban rule, women were barred from most employment, and the collapse of aid-funded public sector eliminated many jobs. Modeled estimates have high uncertainty."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Second Taliban emirate (post-2021)"
   2025:
@@ -1575,7 +1882,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1583,8 +1890,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -1592,20 +1901,26 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment estimated at 16.8% in 2025. Under Taliban rule, women were barred from most employment, and the collapse of aid-funded public sector eliminated many jobs. Modeled estimates have high uncertainty."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Second Taliban emirate (post-2021)"
   2026:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_labor_force_age_15_24
       formula: "(youth_unemployed / youth_labor_force) * 100"
       source:
@@ -1615,7 +1930,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1623,8 +1938,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -1632,13 +1949,18 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No youth unemployment data available for 2026."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, modeled ILO estimate"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "ILO modeled estimate; low survey coverage for Afghanistan; Second Taliban emirate (post-2021)"

@@ -311,6 +311,58 @@ economic:
     primary_sources:
       - "Derived: World Bank NY.GDP.PCAP.CD × (1 − SI.POV.GINI/100)"
 
+  poverty_rate:
+    description: "Population below $2.15/day international poverty line (% of population; lower = better)"
+    unit: percent_population
+    valid_features:
+      - very_low_lt_3pct
+      - low_3_10pct
+      - moderate_10_25pct
+      - high_25_50pct
+      - very_high_gt_50pct
+    primary_sources:
+      - "World Bank PovcalNet / Poverty and Inequality Platform (WB_SI.POV.DDAY)"
+
+  gini_adjusted_gdp_per_capita_ppp:
+    description: "PPP-adjusted GDP per capita corrected for inequality: GDP_pc_PPP × (1 − Gini/100)"
+    unit: intl_dollar_inequality_adjusted
+    quantitative_transform: "stored as pre-computed value"
+    valid_features:
+      - above_peak
+      - near_peak_90_100pct
+      - moderate_decline_70_90pct
+      - significant_decline_50_70pct
+      - severe_decline_30_50pct
+      - collapse_below_30pct
+    primary_sources:
+      - "Derived: World Bank NY.GDP.PCAP.PP.CD × (1 − SI.POV.GINI/100)"
+
+  export_diversification:
+    description: "Herfindahl-Hirschman Index of export concentration by product (0–1; lower = more diversified = better)"
+    unit: hhi_0_to_1
+    valid_features:
+      - highly_diversified_lt_0_10
+      - diversified_0_10_0_20
+      - moderate_concentration_0_20_0_35
+      - concentrated_0_35_0_55
+      - highly_concentrated_gt_0_55
+    primary_sources:
+      - "UN Comtrade via WITS / OEC (product-level export values, HS classification)"
+      - "UNCTAD export diversification index"
+
+  non_resource_export_share:
+    description: "Non-fuel, non-mineral exports as % of total merchandise exports (higher = less resource-dependent)"
+    unit: percent_total_exports
+    valid_features:
+      - high_gt_80pct
+      - moderate_high_60_80pct
+      - moderate_40_60pct
+      - low_20_40pct
+      - very_low_lt_20pct
+    primary_sources:
+      - "World Bank WITS / UN Comtrade HS sections 26-27 excluded"
+      - "World Bank WDI TX.VAL.MANF.ZS (manufactures exports % merchandise)"
+
   fiscal_health:
     description: "Government debt sustainability, budget balance"
     unit: debt_percent_gdp
@@ -630,3 +682,17 @@ social:
     primary_sources:
       - "World Bank SE.XPD.TOTL.GD.ZS"
       - "UNESCO"
+
+  hdi:
+    description: "UNDP Human Development Index (0–1): geometric mean of life expectancy, education, and GNI per capita indices (higher = better)"
+    unit: hdi_0_to_1
+    valid_features:
+      - very_high_gt_0_8
+      - high_0_7_0_8
+      - medium_0_55_0_7
+      - low_0_4_0_55
+      - very_low_lt_0_4
+    primary_sources:
+      - "UNDP Human Development Reports (UNDP_HDI)"
+      - "UNDP HDR Data: hdr.undp.org/data-center/human-development-index"
+    notes: "Overlaps with life_expectancy (HDI health component). Treat as supplementary in social aggregation."

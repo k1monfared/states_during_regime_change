@@ -23,6 +23,8 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         life_expectancy_female:
           value: 75.603
           unit: years
@@ -32,16 +34,22 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Syria's life expectancy at birth in 2009 was 73.5 years, placing it solidly in the 'good' category (70-75 years) and well above the global average for lower-middle income countries. The Ba'athist state had invested substantially in healthcare and primary health infrastructure over decades, yielding significant health improvements. Male life expectancy was 71.6 years and female 75.6 years, reflecting the typical gender gap. This represented Syria's near-peak health achievement."
       features:
-        - good_70_75
+      - good_70_75
       sources:
-        - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2009"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2009"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2010:
     data_status: complete
     quantitative:
@@ -63,6 +71,8 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         life_expectancy_female:
           value: 75.618
           unit: years
@@ -72,14 +82,20 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Life expectancy at birth 73.5 years in 2010, essentially stable from 2009 and the pre-uprising peak. Healthcare system functional; Syria had achieved near-universal primary healthcare access in urban areas. Last year before the civil war would begin dramatically reducing life expectancy."
       features:
-        - good_70_75
+      - good_70_75
       sources:
-        - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2010"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2010"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "Pre-uprising peak year for health outcomes."
   2011:
@@ -103,6 +119,8 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         life_expectancy_female:
           value: 74.86
           unit: years
@@ -112,14 +130,20 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Life expectancy declined to 72.3 years in 2011 as the civil war began causing excess mortality. The impact on males was sharper — male life expectancy dropped 1.75 years to 69.9 — reflecting combat-related deaths affecting predominantly young adult males. Healthcare system disruption beginning; conflict-related injuries and deaths not yet at full scale. The decline from peak represents the beginning of a devastating multi-year trend."
       features:
-        - good_70_75
+      - good_70_75
       sources:
-        - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2011"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2011"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Civil war onset; male mortality spike driven by combat deaths."
   2012:
@@ -143,6 +167,8 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         life_expectancy_female:
           value: 71.525
           unit: years
@@ -152,14 +178,20 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Life expectancy collapsed to 66.2 years in 2012 — a loss of over 7 years in a single year, one of the most dramatic declines ever recorded for any country in peacetime or wartime. Male life expectancy dropped to 61.6 years (a loss of 8.3 years from the 2011 level). This reflects massive excess mortality from combat, displacement, and healthcare system destruction. These WB estimates are model-based and carry significant uncertainty."
       features:
-        - moderate_65_70
+      - moderate_65_70
       sources:
-        - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2012"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2012"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "One of the largest single-year life expectancy collapses on record. Model-based estimate with high uncertainty."
   2013:
@@ -183,6 +215,8 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         life_expectancy_female:
           value: 70.871
           unit: years
@@ -192,14 +226,20 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Life expectancy continued declining to 65.1 years; a total loss of 8.4 years from the 2010 peak in just 3 years. Chemical weapons attack in Ghouta (August 2013) caused additional mass casualties. Male life expectancy at 60.25 years represents the nadir of the male series. Healthcare facilities actively targeted; WHO documented over 600 attacks on health facilities over the conflict period."
       features:
-        - moderate_65_70
+      - moderate_65_70
       sources:
-        - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2013"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2013"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Chemical weapons attack August 2013; healthcare facilities systematically targeted."
   2014:
@@ -223,6 +263,8 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         life_expectancy_female:
           value: 71.198
           unit: years
@@ -232,14 +274,20 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Life expectancy at 65.5 years — a marginal improvement but still dramatically below pre-war levels. ISIS territorial expansion in 2014 added new zones of conflict. Total deaths from the conflict estimated at over 200,000 by end 2014. Some stabilization in the pace of decline as the demographics of mortality shifted."
       features:
-        - moderate_65_70
+      - moderate_65_70
       sources:
-        - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2014"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2014"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Over 200,000 estimated conflict deaths by end 2014."
   2015:
@@ -263,6 +311,8 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         life_expectancy_female:
           value: 70.646
           unit: years
@@ -272,14 +322,20 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Life expectancy dropped to 63.3 years — the lowest point in the series — representing a loss of 10.3 years from the 2010 peak in just 5 years. Male life expectancy at 57.2 years crossed below the 60-year threshold. Russian military intervention from September 2015 intensified bombardment of opposition areas, adding to mortality. This is one of the steepest life expectancy declines ever recorded for any country over a 5-year period."
       features:
-        - low_60_65
+      - low_60_65
       sources:
-        - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2015"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2015"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Peak life expectancy loss: -10.3 years from 2010 to 2015. One of largest 5-year declines recorded globally."
   2016:
@@ -303,6 +359,8 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         life_expectancy_female:
           value: 71.924
           unit: years
@@ -312,14 +370,20 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Life expectancy recovered slightly to 65.2 years, with male life expectancy recovering to 59.5 years. The Battle of Aleppo (concluded December 2016) was a major conflict event, but the WB estimates suggest a partial stabilization in overall mortality rates, possibly reflecting the demographic changes from mass emigration and changing conflict dynamics."
       features:
-        - moderate_65_70
+      - moderate_65_70
       sources:
-        - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2016"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2016"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Partial recovery; Battle of Aleppo; demographic changes from mass emigration may affect calculations."
   2017:
@@ -343,6 +407,8 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         life_expectancy_female:
           value: 71.877
           unit: years
@@ -352,14 +418,20 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Continued gradual recovery to 65.7 years. ISIS collapse reducing one major source of mortality; regime territorial reconsolidation in western Syria. However, healthcare system remains severely damaged with WHO documenting continued attacks on health facilities. Life expectancy still 8 years below pre-war peak."
       features:
-        - moderate_65_70
+      - moderate_65_70
       sources:
-        - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2017"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2017"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "8 years below pre-war peak despite gradual recovery."
   2018:
@@ -383,6 +455,8 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         life_expectancy_female:
           value: 72.185
           unit: years
@@ -392,14 +466,20 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Stronger recovery to 67.4 years in 2018 as major combat operations reduced in previously active zones. Male life expectancy recovered to 63 years. Still approximately 6 years below pre-war peak. The model-based WB estimates for Syria in this period carry large uncertainty bands."
       features:
-        - moderate_65_70
+      - moderate_65_70
       sources:
-        - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2018"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2018"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Recovery accelerating as major combat reduces; still 6 years below pre-war peak."
   2019:
@@ -423,6 +503,8 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         life_expectancy_female:
           value: 74.253
           unit: years
@@ -432,14 +514,20 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Strong recovery to 71.0 years in 2019, recovering back to the 'good' category. The modeled recovery rate seems rapid; this likely reflects both reduced conflict mortality and compositional effects from mass emigration. The WB model may be capturing a residual population with different demographic characteristics than the pre-war Syrian population."
       features:
-        - good_70_75
+      - good_70_75
       sources:
-        - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2019"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2019"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Rapid recovery suspicious; may reflect compositional demographic effects from mass emigration rather than genuine health improvement."
   2020:
@@ -463,6 +551,8 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         life_expectancy_female:
           value: 74.808
           unit: years
@@ -472,14 +562,20 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Life expectancy at 71.9 years; Caesar Act sanctions and COVID-19 created new health pressures but the WB model does not show significant impact. The modeled recovery appears rapid relative to the observable healthcare system collapse. These estimates for conflict-affected Syria should be treated as provisional model outputs with significant uncertainty."
       features:
-        - good_70_75
+      - good_70_75
       sources:
-        - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2020"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2020"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Model-based estimate; Caesar Act and COVID health impacts may not be fully captured."
   2021:
@@ -503,6 +599,8 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         life_expectancy_female:
           value: 74.594
           unit: years
@@ -512,14 +610,20 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Continued modeled recovery to 72.4 years; still approximately 1.1 years below the pre-war 2010 peak. The WB model suggests near-full recovery in life expectancy even as observable health infrastructure remains severely degraded. These figures likely reflect assumptions about reduced conflict mortality rather than improved health service delivery."
       features:
-        - good_70_75
+      - good_70_75
       sources:
-        - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2021"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2021"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Near pre-war levels per model; inconsistent with observable healthcare degradation."
   2022:
@@ -543,6 +647,8 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         life_expectancy_female:
           value: 75.204
           unit: years
@@ -552,14 +658,20 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Modeled life expectancy at 72.8 years, approaching the pre-war 2010 level. The continued rapid recovery in the model likely reflects assumptions about declining conflict-related mortality. Observable conditions — collapsed healthcare funding, severe medicine shortages, damaged facilities — suggest actual health outcomes may be significantly worse than modeled values."
       features:
-        - good_70_75
+      - good_70_75
       sources:
-        - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2022"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2022"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Modeled value; near pre-war level inconsistent with observable healthcare collapse."
   2023:
@@ -583,6 +695,8 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         life_expectancy_female:
           value: 74.412
           unit: years
@@ -592,20 +706,26 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Slight decline to 72.1 years in 2023, likely reflecting the February earthquake's mortality impact. Despite this being the highest life expectancy recorded since the early war years, the February 2023 earthquake killed over 50,000 people in Syria and Turkey combined, with approximately 6,000 deaths in Syria. This is captured in the modeled estimate's slight decline from 2022."
       features:
-        - good_70_75
+      - good_70_75
       sources:
-        - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2023"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2023"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "February 2023 earthquake killed ~6,000+ in Syria; slight decline from 2022 reflects this."
   2024:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: years
       formula: "weighted_avg of male/female — WB provides combined directly"
       source:
@@ -615,7 +735,7 @@ years:
       reliability: low
       components:
         life_expectancy_male:
-          value: null
+          value:
           unit: years
           role: sub_component
           source:
@@ -623,8 +743,10 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         life_expectancy_female:
-          value: null
+          value:
           unit: years
           role: sub_component
           source:
@@ -632,19 +754,25 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available from World Bank. Assad regime fell December 2024; the regime change itself involved military conflict that likely caused additional mortality. The transition year will not be captured in official statistics for some time."
       features: []
       sources:
-        - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2024 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2024 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data; regime change year."
   2025:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: years
       formula: "weighted_avg of male/female — WB provides combined directly"
       source:
@@ -654,7 +782,7 @@ years:
       reliability: low
       components:
         life_expectancy_male:
-          value: null
+          value:
           unit: years
           role: sub_component
           source:
@@ -662,8 +790,10 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         life_expectancy_female:
-          value: null
+          value:
           unit: years
           role: sub_component
           source:
@@ -671,19 +801,25 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available."
       features: []
       sources:
-        - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2025 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2025 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data."
   2026:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: years
       formula: "weighted_avg of male/female — WB provides combined directly"
       source:
@@ -693,7 +829,7 @@ years:
       reliability: low
       components:
         life_expectancy_male:
-          value: null
+          value:
           unit: years
           role: sub_component
           source:
@@ -701,8 +837,10 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         life_expectancy_female:
-          value: null
+          value:
           unit: years
           role: sub_component
           source:
@@ -710,12 +848,18 @@ years:
             url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available; year not yet complete."
       features: []
       sources:
-        - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2026 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SP.DYN.LE00.IN, Syria, 2026 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Year not yet complete."

@@ -12,18 +12,22 @@ years:
         url: "https://data.worldbank.org"
         access_date: "2026-03-01"
       reliability: high
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Syria inflation approximately 2.9% in 2009. Moderate and manageable. Pre-uprising
         economic stability with some price pressures from oil price volatility. Central
         Bank maintaining reasonable price stability. Low inflation environment.
       features:
-        - low_lt_3pct
+      - low_lt_3pct
       sources:
-        - citation: "World Bank. 'Syria inflation 2009.' data.worldbank.org."
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank. 'Syria inflation 2009.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "~2.9% inflation; pre-uprising stability; Central Bank manageable; low"
   2010:
@@ -36,18 +40,22 @@ years:
         url: "https://data.worldbank.org"
         access_date: "2026-03-01"
       reliability: high
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Syria inflation approximately 4.4% in 2010. Slight increase from food price pressures
         (global food price spike 2010). Still moderate and manageable. Pre-conflict
         economic stability. Moderate inflation.
       features:
-        - moderate_3_10pct
+      - moderate_3_10pct
       sources:
-        - citation: "World Bank. 'Syria inflation 2010.' data.worldbank.org."
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank. 'Syria inflation 2010.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "~4.4%; food price spike global; still moderate; pre-conflict"
   2011:
@@ -60,18 +68,22 @@ years:
         url: "https://data.worldbank.org"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation approximately 4.8%. Uprising disrupting supply chains. SYP beginning
         to depreciate. Sanctions starting. Moderate but rising inflation in conflict context.
         Supply disruptions in contested areas. Moderate and rising.
       features:
-        - moderate_3_10pct
+      - moderate_3_10pct
       sources:
-        - citation: "World Bank. 'Syria inflation 2011.' data.worldbank.org."
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank. 'Syria inflation 2011.' data.worldbank.org."
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "~4.8%; uprising supply disruptions; SYP depreciating; sanctions starting; moderate rising"
   2012:
@@ -84,18 +96,22 @@ years:
         url: "https://data.worldbank.org"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation accelerated dramatically with civil war. Estimated approximately 37%.
         SYP collapsed — lost approximately 50% of value in 2012. Sanctions blocking imports.
         Supply chains destroyed. Food and fuel shortages in conflict areas. Very high inflation.
       features:
-        - very_high_50_100pct
+      - very_high_50_100pct
       sources:
-        - citation: "IMF. 'Syria economic estimates 2012.' imf.org."
-          url: "https://www.imf.org"
-          type: official_statistics
-          reliability: low
+      - citation: "IMF. 'Syria economic estimates 2012.' imf.org."
+        url: "https://www.imf.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "~37% estimated; SYP 50% collapse; sanctions; supply chains destroyed; food/fuel shortages; very high"
   2013:
@@ -108,18 +124,22 @@ years:
         url: "https://www.imf.org"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation estimated approximately 89% in 2013 — near hyperinflation. SYP
         catastrophically weakening. Ghouta chemical attack compounded economic chaos.
         Food prices in besieged areas astronomical. Production collapsed. Near-hyperinflation.
       features:
-        - very_high_50_100pct
+      - very_high_50_100pct
       sources:
-        - citation: "UN OCHA. 'Syria economic deterioration.' 2014."
-          url: "https://www.unocha.org"
-          type: international_organization
-          reliability: low
+      - citation: "UN OCHA. 'Syria economic deterioration.' 2014."
+        url: "https://www.unocha.org"
+        type: international_organization
+        reliability: low
       confidence: low
       notes: "~89% estimated; near hyperinflation; SYP catastrophic; Ghouta; besieged areas food prices extreme"
   2014:
@@ -132,18 +152,22 @@ years:
         url: "https://www.imf.org"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation approximately 45% (unreliable estimate). ISIS controlling eastern territories
         with different price dynamics. Multiple governance zones made national inflation
         measurement impossible. SYP continued declining. Very high inflation nationally.
       features:
-        - very_high_50_100pct
+      - very_high_50_100pct
       sources:
-        - citation: "IMF. 'Syria inflation estimates 2014.' imf.org."
-          url: "https://www.imf.org"
-          type: official_statistics
-          reliability: low
+      - citation: "IMF. 'Syria inflation estimates 2014.' imf.org."
+        url: "https://www.imf.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "~45% estimated; multiple governance zones different inflation; ISIS areas separate; SYP declining; very high"
   2015:
@@ -156,18 +180,22 @@ years:
         url: "https://www.imf.org"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation approximately 38% in regime-controlled areas. Russian intervention
         September 2015 provided some economic stabilization to regime. Oil prices collapse
         hurt Russian support capacity. SYP continued weakening. Very high inflation.
       features:
-        - very_high_50_100pct
+      - very_high_50_100pct
       sources:
-        - citation: "IMF. 'Syria estimates 2015.' imf.org."
-          url: "https://www.imf.org"
-          type: official_statistics
-          reliability: low
+      - citation: "IMF. 'Syria estimates 2015.' imf.org."
+        url: "https://www.imf.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "~38% estimated; Russian intervention some stabilization; oil prices hurt Russian capacity; SYP weak; very high"
   2016:
@@ -180,18 +208,22 @@ years:
         url: "https://www.imf.org"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation approximately 43%. SYP approximately 500/USD (vs 47/USD in 2010 —
         90%+ depreciation). Aleppo reconquest did not reduce inflation. Sieges and
         blockades created extreme local price spikes. Very high national inflation.
       features:
-        - very_high_50_100pct
+      - very_high_50_100pct
       sources:
-        - citation: "IMF. 'Syria estimates 2016.' imf.org."
-          url: "https://www.imf.org"
-          type: official_statistics
-          reliability: low
+      - citation: "IMF. 'Syria estimates 2016.' imf.org."
+        url: "https://www.imf.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "~43%; SYP ~500/USD; Aleppo siege price spikes; 90%+ depreciation vs 2010; very high"
   2017:
@@ -204,18 +236,22 @@ years:
         url: "https://www.imf.org"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation approximately 29%. Some stabilization as regime controlled more territory.
         SYP settling at new lower level. Still high inflation but declining from peak.
         High inflation environment.
       features:
-        - high_25_50pct
+      - high_25_50pct
       sources:
-        - citation: "IMF. 'Syria estimates 2017.' imf.org."
-          url: "https://www.imf.org"
-          type: official_statistics
-          reliability: low
+      - citation: "IMF. 'Syria estimates 2017.' imf.org."
+        url: "https://www.imf.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "~29%; some stabilization; SYP settling; regime more territory; high declining"
   2018:
@@ -228,18 +264,22 @@ years:
         url: "https://www.imf.org"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation approximately 28%. Continued high inflation. SYP approximately 520/USD.
         Caesar Act pending increasing inflation expectations. No central bank independence.
         High inflation environment.
       features:
-        - high_25_50pct
+      - high_25_50pct
       sources:
-        - citation: "IMF. 'Syria estimates 2018.' imf.org."
-          url: "https://www.imf.org"
-          type: official_statistics
-          reliability: low
+      - citation: "IMF. 'Syria estimates 2018.' imf.org."
+        url: "https://www.imf.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "~28%; SYP ~520/USD; Caesar Act pending expectations; high inflation"
   2019:
@@ -252,6 +292,10 @@ years:
         url: "https://www.imf.org"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation approximately 29%. Frozen conflict inflation stabilizing somewhat but
@@ -259,12 +303,12 @@ years:
         Syria informally. Caesar Act signed December 2019 triggering expectation-driven
         depreciation. High inflation.
       features:
-        - high_25_50pct
+      - high_25_50pct
       sources:
-        - citation: "IMF. 'Syria estimates 2019.' imf.org."
-          url: "https://www.imf.org"
-          type: official_statistics
-          reliability: low
+      - citation: "IMF. 'Syria estimates 2019.' imf.org."
+        url: "https://www.imf.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "~29%; Lebanon crisis beginning; SYP ~580/USD; Caesar Act Dec expectations; high"
   2020:
@@ -277,6 +321,10 @@ years:
         url: "https://www.imf.org"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Hyperinflation in 2020. Estimated 141%+. Caesar Act June 2020 triggered SYP
@@ -284,12 +332,12 @@ years:
         informal financial channels. COVID-19. SYP lost 80%+ value in 2020. True
         hyperinflation.
       features:
-        - hyperinflation_gt_100pct
+      - hyperinflation_gt_100pct
       sources:
-        - citation: "IMF. 'Syria hyperinflation 2020.' imf.org."
-          url: "https://www.imf.org"
-          type: official_statistics
-          reliability: low
+      - citation: "IMF. 'Syria hyperinflation 2020.' imf.org."
+        url: "https://www.imf.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "~141%; Caesar Act SYP collapse; Lebanon banking crisis; COVID; SYP 700→3000+/USD; hyperinflation"
   2021:
@@ -302,18 +350,22 @@ years:
         url: "https://www.imf.org"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Continued hyperinflation approximately 139%. SYP approximately 3,500/USD.
         Economy in complete freefall. Real wages nearly worthless. Food insecurity
         extreme. Caesar Act sanctions continued. Hyperinflation.
       features:
-        - hyperinflation_gt_100pct
+      - hyperinflation_gt_100pct
       sources:
-        - citation: "IMF. 'Syria hyperinflation 2021.' imf.org."
-          url: "https://www.imf.org"
-          type: official_statistics
-          reliability: low
+      - citation: "IMF. 'Syria hyperinflation 2021.' imf.org."
+        url: "https://www.imf.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "~139%; SYP ~3,500/USD; real wages worthless; food insecurity extreme; hyperinflation"
   2022:
@@ -326,18 +378,22 @@ years:
         url: "https://www.imf.org"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation approximately 94% — very high but declining from hyperinflation peak.
         SYP stabilizing at extreme low level approximately 3,500-4,000/USD. Global food
         price spike (Russia-Ukraine war) added pressure. Very high inflation.
       features:
-        - very_high_50_100pct
+      - very_high_50_100pct
       sources:
-        - citation: "IMF. 'Syria inflation estimate 2022.' imf.org."
-          url: "https://www.imf.org"
-          type: official_statistics
-          reliability: low
+      - citation: "IMF. 'Syria inflation estimate 2022.' imf.org."
+        url: "https://www.imf.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "~94%; SYP stabilizing extreme low; Russia-Ukraine food spike; very high declining from hyper"
   2023:
@@ -350,30 +406,38 @@ years:
         url: "https://www.imf.org"
         access_date: "2026-03-01"
       reliability: low
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation approximately 80% — still very high. Earthquake February 2023 disrupted
         supply chains. Arab normalization not translating to economic improvement. SYP
         approximately 6,000-7,000/USD. Very high inflation.
       features:
-        - very_high_50_100pct
+      - very_high_50_100pct
       sources:
-        - citation: "IMF. 'Syria inflation estimate 2023.' imf.org."
-          url: "https://www.imf.org"
-          type: official_statistics
-          reliability: low
+      - citation: "IMF. 'Syria inflation estimate 2023.' imf.org."
+        url: "https://www.imf.org"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "~80%; earthquake supply disruption; SYP 6000-7000/USD; Arab normalization no improvement; very high"
   2024:
     data_status: partial
     quantitative:
-      value: null
+      value:
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation data unreliable for 2024. Assad collapse December 8 created monetary
@@ -381,24 +445,28 @@ years:
         currency signals. Post-collapse: SYP weakening further. Very high to hyperinflationary
         conditions in transition. No reliable data.
       features:
-        - very_high_50_100pct
+      - very_high_50_100pct
       sources:
-        - citation: "ICG. 'Syria: After Assad.' December 2024."
-          url: "https://www.crisisgroup.org"
-          type: think_tank_report
-          reliability: high
+      - citation: "ICG. 'Syria: After Assad.' December 2024."
+        url: "https://www.crisisgroup.org"
+        type: think_tank_report
+        reliability: high
       confidence: low
       notes: "Monetary chaos Dec 8; SYP uncertain; transitional currency questions; very high to hyperinflation"
   2025:
     data_status: partial
     quantitative:
-      value: null
+      value:
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Monetary stabilization efforts in post-Assad period. Sanctions relief reducing
@@ -407,11 +475,11 @@ years:
         likely still very high but potentially declining with international support.
         Very high but improving trajectory.
       features:
-        - very_high_50_100pct
+      - very_high_50_100pct
       sources:
-        - citation: "ICG. 'Syria Transition 2025.' crisisgroup.org."
-          url: "https://www.crisisgroup.org"
-          type: think_tank_report
-          reliability: high
+      - citation: "ICG. 'Syria Transition 2025.' crisisgroup.org."
+        url: "https://www.crisisgroup.org"
+        type: think_tank_report
+        reliability: high
       confidence: low
       notes: "Monetary institutions rebuilding; sanctions relief; Gulf support; SYP/new currency; very high declining"

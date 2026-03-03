@@ -1048,6 +1048,21 @@ body {
   vertical-align: top;
 }
 
+.dim-count {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+.ind-anchor-link {
+  color: var(--text);
+  text-decoration: none;
+}
+.ind-anchor-link:hover {
+  text-decoration: underline;
+  color: var(--accent);
+}
+
 /* ── Utility ───────────────────────────────────────────────────────────────── */
 .hidden { display: none !important; }
 
@@ -1243,6 +1258,23 @@ details[open] > .def-summary::before { content: "▼"; }
   font-size: 11px;
 }
 
+.score-formula {
+  margin: 4px 0 0 0;
+  padding: 8px 10px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow-x: auto;
+  line-height: 1.45;
+}
+
+.score-formula code {
+  font-family: 'Cascadia Code', 'Fira Code', 'Consolas', monospace;
+  font-size: 11px;
+  color: var(--text-muted);
+  white-space: pre;
+}
+
 .def-break-notice {
   background: #fef2f2;
   border-left: 3px solid var(--danger);
@@ -1266,6 +1298,18 @@ details[open] > .def-summary::before { content: "▼"; }
 .overlay-sub-row.visible { display: flex; }
 
 .radio-group-sm label { font-size: 10px; padding: 2px 7px; }
+
+/* ── Year range inputs ────────────────────────────────────────────────────── */
+.range-inputs { display: flex; align-items: center; gap: 4px; }
+.range-inputs input[type=number] {
+  width: 52px; padding: 2px 4px;
+  font-size: 11px; font-family: inherit;
+  border: 1px solid var(--border); border-radius: 4px;
+  background: var(--bg-card); color: var(--text);
+  text-align: center;
+}
+.range-inputs input[type=number]:focus { outline: 1px solid var(--accent); border-color: var(--accent); }
+.range-sep { font-size: 11px; color: var(--text-muted); }
 
 /* ── Sidebar color/dash indicators ─────────────────────────────────────────── */
 .country-color-dot {
@@ -1396,17 +1440,18 @@ details[open] > .def-summary::before { content: "▼"; }
 .metric-type-indicator { flex-wrap: wrap; }
 
 .metric-fold-toggle {
-  background: none;
-  border: none;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 3px;
   cursor: pointer;
   font-size: 9px;
   color: var(--text-muted);
-  padding: 1px 3px;
+  padding: 1px 5px;
   flex-shrink: 0;
-  opacity: 0.45;
-  line-height: 1;
+  line-height: 1.4;
+  white-space: nowrap;
 }
-.metric-fold-toggle:hover { opacity: 1; color: var(--accent); }
+.metric-fold-toggle:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-light); }
 
 .metric-fold-body {
   flex: 0 0 100%;
@@ -1436,6 +1481,67 @@ details[open] > .def-summary::before { content: "▼"; }
   font-weight: 600;
 }
 .metric-fold-radio { accent-color: var(--accent); }
+
+/* ── Dimension/composite formula editor ──────────────────────────────────────── */
+.metric-type-composite,
+.metric-type-dimension { flex-wrap: wrap; }
+
+.metric-formula-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+  color: var(--text-muted);
+  padding: 1px 3px;
+  flex-shrink: 0;
+  opacity: 0.45;
+  line-height: 1;
+  font-style: italic;
+}
+.metric-formula-toggle:hover { opacity: 1; color: var(--accent); }
+.metric-formula-toggle.has-custom { opacity: 1; color: var(--accent); }
+
+.metric-formula-panel {
+  flex: 0 0 100%;
+  padding: 4px 0 4px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.metric-formula-panel[hidden] { display: none !important; }
+
+.metric-formula-input {
+  width: 100%;
+  font-family: 'Cascadia Code', 'Fira Code', 'Consolas', monospace;
+  font-size: 10px;
+  line-height: 1.45;
+  padding: 5px 7px;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+.metric-formula-input:focus { outline: 1px solid var(--accent); border-color: var(--accent); }
+
+.metric-formula-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.metric-formula-apply,
+.metric-formula-reset {
+  font-size: 10px;
+  padding: 2px 9px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  background: var(--bg-card);
+  color: var(--text);
+}
+.metric-formula-apply:hover { border-color: var(--accent); color: var(--accent); }
+.metric-formula-reset:hover { border-color: var(--danger); color: var(--danger); }
 
 /* Scrollbar minimal */
 ::-webkit-scrollbar { width: 5px; height: 5px; }

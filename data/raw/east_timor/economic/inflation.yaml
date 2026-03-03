@@ -5,13 +5,17 @@ years:
   1999:
     data_status: partial
     quantitative:
-      value: null
+      value:
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         No reliable inflation data for 1999. Economy was effectively destroyed
@@ -19,24 +23,28 @@ years:
         used the Indonesian rupiah and then transitioned to US dollar as official
         currency under UNTAET from early 2000.
       features:
-        - elevated_10_25pct
+      - elevated_10_25pct
       sources:
-        - citation: "IMF East Timor Country Reports"
-          url: "https://www.imf.org/en/countries/TLS"
-          type: international_organization
-          reliability: low
+      - citation: "IMF East Timor Country Reports"
+        url: "https://www.imf.org/en/countries/TLS"
+        type: international_organization
+        reliability: low
       confidence: low
       notes: "No systematic price data; post-referendum destruction; currency transition to USD"
   2000:
     data_status: partial
     quantitative:
-      value: null
+      value:
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation data unreliable. USD adopted as official currency in early 2000
@@ -44,24 +52,28 @@ years:
         Reconstruction activities driving some price increases. No comprehensive
         price index yet established.
       features:
-        - moderate_3_10pct
+      - moderate_3_10pct
       sources:
-        - citation: "IMF East Timor Country Reports"
-          url: "https://www.imf.org/en/countries/TLS"
-          type: international_organization
-          reliability: low
+      - citation: "IMF East Timor Country Reports"
+        url: "https://www.imf.org/en/countries/TLS"
+        type: international_organization
+        reliability: low
       confidence: low
       notes: "USD adopted 2000; transitional period; price index not yet operational"
   2001:
     data_status: partial
     quantitative:
-      value: null
+      value:
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Early price data collection beginning under UNTAET. Inflation estimated
@@ -69,36 +81,40 @@ years:
         services inflation driven by UN mission spending. USD currency anchored
         prices. No official CPI established yet.
       features:
-        - moderate_3_10pct
+      - moderate_3_10pct
       sources:
-        - citation: "IMF East Timor Country Reports"
-          url: "https://www.imf.org/en/countries/TLS"
-          type: international_organization
-          reliability: low
+      - citation: "IMF East Timor Country Reports"
+        url: "https://www.imf.org/en/countries/TLS"
+        type: international_organization
+        reliability: low
       confidence: low
       notes: "Pre-independence; UNTAET period; formal CPI not established"
   2002:
     data_status: partial
     quantitative:
-      value: null
+      value:
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Post-independence inflation moderate. USD currency maintained price stability.
         UNTAET/UNMISET spending winding down could reduce some price pressures.
         Very early state of statistical systems — formal CPI just being established.
       features:
-        - moderate_3_10pct
+      - moderate_3_10pct
       sources:
-        - citation: "IMF East Timor Country Reports"
-          url: "https://www.imf.org/en/countries/TLS"
-          type: international_organization
-          reliability: low
+      - citation: "IMF East Timor Country Reports"
+        url: "https://www.imf.org/en/countries/TLS"
+        type: international_organization
+        reliability: low
       confidence: low
       notes: "Independence May 2002; CPI beginning to be established; moderate inflation"
   2003:
@@ -111,18 +127,22 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         CPI inflation 7.2% — elevated but not crisis level. USD currency limiting
         monetary inflation but food and fuel prices elevated. New state establishing
         statistical infrastructure including formal price indices.
       features:
-        - moderate_3_10pct
+      - moderate_3_10pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "First full year of formal CPI data; food and fuel price pressures"
   2004:
@@ -135,18 +155,22 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation moderated to 3.2%. USD currency providing stability. Economy
         stabilizing. Food prices more stable. Petroleum revenues beginning to flow
         into government budget.
       features:
-        - moderate_3_10pct
+      - moderate_3_10pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Inflation moderated; USD stability; petroleum revenues flowing"
   2005:
@@ -159,18 +183,22 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Very low inflation at 1.1%. USD currency maintaining price stability.
         Petroleum Fund established 2005 providing fiscal cushion. Economic conditions
         broadly stable.
       features:
-        - low_lt_3pct
+      - low_lt_3pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Very low inflation; USD providing stability; Petroleum Fund established"
   2006:
@@ -183,18 +211,22 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation rose to 3.9% as 2006 political/military crisis disrupted
         supply chains. Food prices increased with displacement of ~150,000 people
         in Dili. Security crisis adding cost pressures.
       features:
-        - moderate_3_10pct
+      - moderate_3_10pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "2006 crisis disrupted supply chains; food prices elevated with displacement"
   2007:
@@ -207,6 +239,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation jumped to 10.3% due to global food and fuel price spike plus
@@ -214,12 +250,12 @@ years:
         revenues increasing. Supply bottlenecks. Global commodity price boom
         2007-2008 significantly affecting this import-dependent economy.
       features:
-        - elevated_10_25pct
+      - elevated_10_25pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Global food/fuel price spike; reconstruction demand; government spending increasing"
   2008:
@@ -232,18 +268,22 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation 9.1% — still elevated from global commodity price pressures.
         Government spending from petroleum revenues strong. February 2008 assassination
         attempt on Ramos-Horta did not significantly impact price stability.
       features:
-        - moderate_3_10pct
+      - moderate_3_10pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Still elevated from commodity prices; Ramos-Horta assassination attempt Feb 2008"
   2009:
@@ -256,18 +296,22 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation collapsed to 0.7% as global commodity prices fell dramatically
         following 2008 financial crisis. USD currency absorbed global deflation.
         Food and fuel import prices fell sharply. Excellent price stability.
       features:
-        - low_lt_3pct
+      - low_lt_3pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Global commodity price collapse post-GFC; very low inflation"
   2010:
@@ -280,18 +324,22 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation returned to 6.8% as global commodity prices recovered and
         government spending from petroleum revenues increased strongly. Infrastructure
         investment creating demand-side pressures. Food prices rising globally.
       features:
-        - moderate_3_10pct
+      - moderate_3_10pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Government spending increase; commodity price recovery; infrastructure demand"
   2011:
@@ -304,6 +352,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation spiked to 13.5% — highest recorded. Combined effect of global
@@ -311,12 +363,12 @@ years:
         and supply-side constraints. Import-dependent economy vulnerable to global
         price shocks. USD providing no monetary policy tool to respond.
       features:
-        - elevated_10_25pct
+      - elevated_10_25pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Peak inflation; global food crisis 2011; strong government spending; USD limitation"
   2012:
@@ -329,18 +381,22 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation 11.8% — still elevated but declining from 2011 peak. Successful
         elections in 2012 maintaining stability. Government spending continued strong.
         Global food prices moderating somewhat. UNMIT mission completed December 2012.
       features:
-        - elevated_10_25pct
+      - elevated_10_25pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Still elevated; 2012 elections peaceful; UNMIT completed December 2012"
   2013:
@@ -353,6 +409,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation 11.1% — persistently elevated. Strong government spending maintained
@@ -360,12 +420,12 @@ years:
         dependent economy structurally exposed. Infrastructure investment contributing
         to sustained price pressure.
       features:
-        - elevated_10_25pct
+      - elevated_10_25pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Persistent elevated inflation; strong government spending; import-dependent exposure"
   2014:
@@ -378,6 +438,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation collapsed to 0.7% — dramatic decline from 2011-2013 elevated
@@ -385,12 +449,12 @@ years:
         transmitted global deflation. Oil price collapse from mid-2014 reduced
         import costs. Excellent price stability.
       features:
-        - low_lt_3pct
+      - low_lt_3pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Global commodity price decline; oil price collapse 2014; very low inflation"
   2015:
@@ -403,18 +467,22 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Very low inflation at 0.6%. Continued global commodity price weakness.
         Oil prices remained low. USD currency providing stability. Government
         spending from Petroleum Fund declining slightly.
       features:
-        - low_lt_3pct
+      - low_lt_3pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Very low inflation; oil price weakness continuing; USD stability"
   2016:
@@ -427,18 +495,22 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Deflation at -1.3% — prices actually falling. USD transmitted global
         deflationary pressures. Low oil and commodity prices persisting. Government
         spending from Petroleum Fund declining as revenues fell.
       features:
-        - low_lt_3pct
+      - low_lt_3pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Deflation — prices falling; low oil prices; reduced government spending"
   2017:
@@ -451,18 +523,22 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Very low inflation at 0.6%. Political crisis (two election rounds, budget
         impasse) reduced government spending and demand. USD stability maintained.
         Low global commodity prices continuing.
       features:
-        - low_lt_3pct
+      - low_lt_3pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Political crisis reduced government spending; very low inflation; budget impasse"
   2018:
@@ -475,18 +551,22 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation returned to 2.6% — moderate. New ANC government under Gusmao
         formed May 2018, government spending resumed more normally. Global oil
         prices recovering. Economy stabilizing.
       features:
-        - low_lt_3pct
+      - low_lt_3pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Government resumed normal spending; low-moderate inflation; recovering oil prices"
   2019:
@@ -499,18 +579,22 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Very low inflation at 1.0%. Global commodity prices stable. USD currency
         maintaining stability. Government spending constrained by fiscal sustainability
         concerns.
       features:
-        - low_lt_3pct
+      - low_lt_3pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Very low inflation; USD stability; fiscal concerns constraining spending"
   2020:
@@ -523,18 +607,22 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Near-zero inflation at 0.5%. COVID-19 pandemic suppressed demand. Global
         oil and commodity prices collapsed temporarily in 2020. USD transmitted
         deflationary global conditions.
       features:
-        - low_lt_3pct
+      - low_lt_3pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "COVID-19 demand suppression; near-zero inflation; global deflationary pressure"
   2021:
@@ -547,6 +635,10 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation rose to 3.7% as global supply chain disruptions post-COVID pushed
@@ -554,12 +646,12 @@ years:
         economy feeling global inflationary pressures transmitted through USD and
         import prices. Moderate but manageable.
       features:
-        - moderate_3_10pct
+      - moderate_3_10pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Post-COVID supply chain; global commodity price recovery; import-price inflation"
   2022:
@@ -572,18 +664,22 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation rose to 7.0% driven by Russia-Ukraine war food and energy price
         shock. Highly import-dependent economy exposed to global price increases.
         Food price inflation particularly significant for poor population.
       features:
-        - moderate_3_10pct
+      - moderate_3_10pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Russia-Ukraine war food/energy shock; import-dependent exposure; elevated but contained"
   2023:
@@ -596,18 +692,22 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation 8.4% — elevated. Continuing global inflationary spillover.
         East Timor's import dependence maintaining price pressure. Fiscal spending
         on infrastructure contributing to domestic demand. Food inflation significant.
       features:
-        - moderate_3_10pct
+      - moderate_3_10pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Elevated inflation from global spillover; import dependence; food prices"
   2024:
@@ -620,40 +720,48 @@ years:
         url: "https://api.worldbank.org/v2/country/TL/indicator/FP.CPI.TOTL.ZG"
         access_date: "2026-03-01"
       reliability: medium
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Inflation moderated significantly to 2.1% as global inflationary pressures
         eased. Global food and energy prices declining. USD providing stability.
         Price environment benign.
       features:
-        - low_lt_3pct
+      - low_lt_3pct
       sources:
-        - citation: "World Bank WDI FP.CPI.TOTL.ZG"
-          url: "https://data.worldbank.org"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI FP.CPI.TOTL.ZG"
+        url: "https://data.worldbank.org"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Inflation moderated; global price pressures easing; benign price environment"
   2025:
     data_status: partial
     quantitative:
-      value: null
+      value:
       unit: percent_annual
       source:
-        citation: null
-        url: null
-        access_date: null
-      reliability: null
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: |
         Low to moderate inflation expected continuing benign global price environment.
         Import-dependent economy sensitive to global commodity prices.
       features:
-        - low_lt_3pct
+      - low_lt_3pct
       sources:
-        - citation: "IMF East Timor Article IV estimates"
-          url: "https://www.imf.org/en/countries/TLS"
-          type: international_organization
-          reliability: low
+      - citation: "IMF East Timor Article IV estimates"
+        url: "https://www.imf.org/en/countries/TLS"
+        type: international_organization
+        reliability: low
       confidence: low
       notes: "Status as of early 2026; low inflation expected"

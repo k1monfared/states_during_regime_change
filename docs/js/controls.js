@@ -5,6 +5,7 @@
  */
 
 import { state } from "./state.js";
+import { pythonToJS } from "./data.js";
 
 // Mirror chart.js color/dash assignments for sidebar indicators
 const COUNTRY_COLORS = [
@@ -17,6 +18,7 @@ const METRIC_DASH = ["solid","dash","dot","dashdot","longdash"];
 let _collapsedMetricGroups = new Set();
 let _collapsedCountryGroups = new Set();
 let _expandedFolds = new Set(); // indicator IDs with fold open
+let _expandedDimFormulas = new Set(); // composite/dimension IDs with formula panel open
 
 let _allData = null;
 let _sortable = null;
@@ -431,6 +433,30 @@ function _regionLabel(id) {
   }[id] ?? id;
 }
 
+// ── Dimension formula helpers ─────────────────────────────────────────────────
+
+/**
+ * Build the default skip_and_renormalize formula for a composite or dimension metric.
+ * The formula uses the same variable names that evaluateDimensionFormula() receives.
+ */
+function _defaultDimFormula(metricId, indicators) {
+  let vars;
+  if (metricId === "composite") {
+    vars = ["political", "economic", "international", "transparency", "population_mobility", "social"];
+  } else {
+    vars = indicators
+      .filter((ind) => ind.type === "indicator" && ind.id.startsWith(metricId + "/"))
+      .map((ind) => ind.id.split("/")[1]);
+  }
+  const varList = "[" + vars.join(", ") + "]";
+  const lines = [
+    "# Default: skip_and_renormalize (equal weights, ignore nulls/NaN)",
+    `available = [v for v in ${varList} if v is not None and v == v]`,
+    "return sum(available) / len(available) if len(available) > 0 else None",
+  ];
+  return lines.join("\n");
+}
+
 // ── Metric list ───────────────────────────────────────────────────────────────
 
 function _renderMetricList() {
@@ -486,13 +512,13 @@ function _renderMetricList() {
           <input type="checkbox" class="metric-check" data-id="${ind.id}" ${checked ? "checked" : ""}>
           <span class="metric-dash-indicator">${_dashSvg(dash, checked)}</span>
           <span class="metric-label">${ind.label}</span>
-          ${hasRaw ? `<button class="metric-fold-toggle" data-fold="${ind.id}" title="Show raw value on y2 axis">${foldOpen ? "▾" : "▸"}</button>` : ""}
+          ${hasRaw ? `<button class="metric-fold-toggle" data-fold="${ind.id}" title="Show raw value on right y-axis">${foldOpen ? "raw ▾" : "raw ▸"}</button>` : ""}
           <a href="methodology.html#${_methodologyAnchor(ind)}" target="_blank" rel="noopener" class="info-link" title="View in methodology">ℹ</a>
           ${hasRaw ? `
           <div class="metric-fold-body" data-fold-id="${ind.id}" ${foldOpen ? "" : "hidden"}>
             <label class="metric-fold-row">
               <input type="checkbox" class="metric-fold-radio" data-metric="${ind.id}">
-              <span>${ind.id}</span>
+              <span>Show raw on right y-axis</span>
             </label>
           </div>` : ""}
         `;
@@ -504,11 +530,11 @@ function _renderMetricList() {
             e.stopPropagation();
             if (foldBody.hidden) {
               foldBody.hidden = false;
-              foldToggle.textContent = "▾";
+              foldToggle.textContent = "raw ▾";
               _expandedFolds.add(ind.id);
             } else {
               foldBody.hidden = true;
-              foldToggle.textContent = "▸";
+              foldToggle.textContent = "raw ▸";
               _expandedFolds.delete(ind.id);
             }
           });
@@ -520,12 +546,63 @@ function _renderMetricList() {
           });
         }
       } else {
+        // Composite or dimension — show formula fold toggle
+        const fmlaOpen = _expandedDimFormulas.has(ind.id);
+        const hasCustomFormula = !!s.dimensionFormulas?.[ind.id];
+        const fmlaBtnLabel = fmlaOpen ? "▾" : (hasCustomFormula ? "ƒ✎" : "ƒ");
         li.innerHTML = `
           <input type="checkbox" class="metric-check" data-id="${ind.id}" ${checked ? "checked" : ""}>
           <span class="metric-dash-indicator">${_dashSvg(dash, checked)}</span>
           <span class="metric-label">${ind.label}</span>
+          <button class="metric-formula-toggle${hasCustomFormula ? " has-custom" : ""}" data-fmla="${ind.id}" title="Edit aggregation formula">${fmlaBtnLabel}</button>
           <a href="methodology.html#${_methodologyAnchor(ind)}" target="_blank" rel="noopener" class="info-link" title="View in methodology">ℹ</a>
+          <div class="metric-formula-panel" data-fmla-id="${ind.id}" ${fmlaOpen ? "" : "hidden"}>
+            <textarea class="metric-formula-input" spellcheck="false" rows="4" data-fmla-metric="${ind.id}"></textarea>
+            <div class="metric-formula-actions">
+              <button class="metric-formula-apply" data-fmla-metric="${ind.id}">Apply</button>
+              <button class="metric-formula-reset" data-fmla-metric="${ind.id}">Reset</button>
+            </div>
+          </div>
         `;
+
+        const fmlaToggle = li.querySelector(".metric-formula-toggle");
+        const fmlaPanel = li.querySelector(".metric-formula-panel");
+        const fmlaTextarea = li.querySelector(".metric-formula-input");
+
+        // Pre-fill with custom formula or default
+        fmlaTextarea.value = s.dimensionFormulas?.[ind.id] ?? _defaultDimFormula(ind.id, indicators);
+
+        fmlaToggle.addEventListener("click", (e) => {
+          e.stopPropagation();
+          if (fmlaPanel.hidden) {
+            fmlaPanel.hidden = false;
+            fmlaToggle.textContent = "▾";
+            _expandedDimFormulas.add(ind.id);
+          } else {
+            fmlaPanel.hidden = true;
+            const custom = !!state.get().dimensionFormulas?.[ind.id];
+            fmlaToggle.textContent = custom ? "ƒ✎" : "ƒ";
+            fmlaToggle.classList.toggle("has-custom", custom);
+            _expandedDimFormulas.delete(ind.id);
+          }
+        });
+
+        li.querySelector(".metric-formula-apply").addEventListener("click", (e) => {
+          e.stopPropagation();
+          const formula = fmlaTextarea.value.trim();
+          state.setDimensionFormula(ind.id, formula || null);
+          const hasF = !!formula;
+          fmlaToggle.classList.toggle("has-custom", hasF);
+          fmlaToggle.textContent = "▾"; // panel stays open
+        });
+
+        li.querySelector(".metric-formula-reset").addEventListener("click", (e) => {
+          e.stopPropagation();
+          state.setDimensionFormula(ind.id, null);
+          fmlaTextarea.value = _defaultDimFormula(ind.id, indicators);
+          fmlaToggle.classList.remove("has-custom");
+          fmlaToggle.textContent = fmlaPanel.hidden ? "ƒ" : "▾";
+        });
       }
 
       li.querySelector(".metric-check").addEventListener("change", () => state.toggleMetric(ind.id));
@@ -713,23 +790,7 @@ function _validateFormula(formula, errorDiv) {
 }
 
 function _translateFormula(formula) {
-  // Python → JS compatibility layer
-  let code = formula
-    .replace(/\bmath\.(\w+)/g, "Math.$1")
-    .replace(/\bTrue\b/g, "true")
-    .replace(/\bFalse\b/g, "false")
-    .replace(/\bNone\b/g, "null");
-
-  // Strip # comments
-  const lines = code.split("\n").map((l) => l.replace(/#.*$/, ""));
-
-  // Auto-add return to last non-empty line if no explicit return
-  if (!lines.some((l) => /^\s*return\s/.test(l))) {
-    const lastIdx = [...lines.keys()].reverse().find((i) => lines[i].trim());
-    if (lastIdx !== undefined) lines[lastIdx] = "return (" + lines[lastIdx].trim() + ")";
-  }
-
-  return lines.join("\n");
+  return pythonToJS(formula);
 }
 
 function _doSave(addToLibrary) {
@@ -840,6 +901,20 @@ function _wireToolbar() {
   const search = document.getElementById("country-search");
   if (search) search.addEventListener("input", () => _renderCountryList(state.get()));
 
+  // Year range inputs
+  document.getElementById("range-min")?.addEventListener("change", (e) => {
+    const min = parseInt(e.target.value, 10);
+    const max = state.get().range[1];
+    if (!isNaN(min) && min < max) state.update({ range: [min, max] });
+    else e.target.value = state.get().range[0];
+  });
+  document.getElementById("range-max")?.addEventListener("change", (e) => {
+    const max = parseInt(e.target.value, 10);
+    const min = state.get().range[0];
+    if (!isNaN(max) && max > min) state.update({ range: [min, max] });
+    else e.target.value = state.get().range[1];
+  });
+
   // Overlay checkboxes
   document.getElementById("cb-overlay-bands")
     ?.addEventListener("change", (e) => state.update({ overlayBands: e.target.checked }));
@@ -871,6 +946,12 @@ function _updateToolbarFromState(s) {
   document.querySelectorAll("input[name=x-mode]").forEach((radio) => {
     radio.checked = radio.value === s.xMode;
   });
+
+  // Year range
+  const rangeMin = document.getElementById("range-min");
+  if (rangeMin) rangeMin.value = s.range?.[0] ?? 1990;
+  const rangeMax = document.getElementById("range-max");
+  if (rangeMax) rangeMax.value = s.range?.[1] ?? 2026;
 
   // Overlay checkboxes
   const cbBands = document.getElementById("cb-overlay-bands");

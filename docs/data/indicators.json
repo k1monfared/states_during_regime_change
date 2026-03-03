@@ -137,6 +137,54 @@
     "unit": "gini_0_to_100"
   },
   {
+    "id": "economic/neet_rate",
+    "label": "NEET Rate",
+    "type": "indicator",
+    "dimension": "economic",
+    "description": "Youth not in education, employment, or training as % of youth population (lower = better)",
+    "unit": "percent_youth_population"
+  },
+  {
+    "id": "economic/gini_adjusted_gdp_per_capita",
+    "label": "Adj. GDP/Capita (Gini)",
+    "type": "indicator",
+    "dimension": "economic",
+    "description": "GDP per capita adjusted for inequality: GDP_pc \u00d7 (1 \u2212 Gini/100); combines income level and distribution",
+    "unit": "usd_inequality_adjusted"
+  },
+  {
+    "id": "economic/poverty_rate",
+    "label": "Poverty Rate ($2.15/day)",
+    "type": "indicator",
+    "dimension": "economic",
+    "description": "Population below $2.15/day international poverty line (% of population; lower = better)",
+    "unit": "percent_population"
+  },
+  {
+    "id": "economic/gini_adjusted_gdp_per_capita_ppp",
+    "label": "Adj. GDP/Capita PPP (Gini)",
+    "type": "indicator",
+    "dimension": "economic",
+    "description": "PPP-adjusted GDP per capita corrected for inequality: GDP_pc_PPP \u00d7 (1 \u2212 Gini/100)",
+    "unit": "intl_dollar_inequality_adjusted"
+  },
+  {
+    "id": "economic/export_diversification",
+    "label": "Export Diversification",
+    "type": "indicator",
+    "dimension": "economic",
+    "description": "Herfindahl-Hirschman Index of export concentration by product (0\u20131; lower = more diversified = better)",
+    "unit": "hhi_0_to_1"
+  },
+  {
+    "id": "economic/non_resource_export_share",
+    "label": "Non-Resource Exports",
+    "type": "indicator",
+    "dimension": "economic",
+    "description": "Non-fuel, non-mineral exports as % of total merchandise exports (higher = less resource-dependent)",
+    "unit": "percent_total_exports"
+  },
+  {
     "id": "economic/fiscal_health",
     "label": "Fiscal Health",
     "type": "indicator",
@@ -311,5 +359,13 @@
     "dimension": "social",
     "description": "Government expenditure on education as % of GDP (higher = better)",
     "unit": "percent_gdp"
+  },
+  {
+    "id": "social/hdi",
+    "label": "Human Dev. Index (HDI)",
+    "type": "indicator",
+    "dimension": "social",
+    "description": "UNDP Human Development Index (0\u20131): geometric mean of life expectancy, education, and GNI per capita indices (higher = better)",
+    "unit": "hdi_0_to_1"
   }
 ]

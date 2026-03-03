@@ -15,20 +15,24 @@ years:
       reliability: high
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: current_usd
           role: numerator
           source:
             citation: "World Bank WDI, SH.XPD.CHEX.CD, Syria — indicator returned invalid value from API"
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
-          reliability: null
+          reliability:
           note: "SH.XPD.CHEX.CD returned Invalid value error from World Bank API; absolute USD amount not available"
+          series_id:
+          canonical_file:
         gdp_current_usd:
-          value: null
+          value:
           unit: current_usd
           role: denominator
           shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+          series_id:
+          canonical_file:
         public_health_expenditure_pct_gdp:
           value: 1.59
           unit: percent_of_gdp
@@ -39,16 +43,22 @@ years:
             access_date: "2026-03-02"
           reliability: high
           note: "Public (government) share of total health expenditure; private health (out-of-pocket and insurance) = 3.57 - 1.59 = 1.98% GDP"
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Syria spent 3.57% of GDP on health in 2009, placing it in the 'low' category (3-5% of GDP). Of this, 1.59% came from public sources and approximately 1.98% from private sources. This public share was modest by regional standards; Syria's healthcare system relied heavily on out-of-pocket payments alongside a public hospital network. Pre-war Syria had a reasonable primary healthcare infrastructure covering major cities and towns, with rural areas less well-served. The 3.57% total figure was close to the average for lower-middle income countries and reflected a functional, if underfunded, health system."
       features:
-        - low_3_5pct
+      - low_3_5pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2009"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2009"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2010:
     data_status: complete
     quantitative:
@@ -62,20 +72,24 @@ years:
       reliability: high
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: current_usd
           role: numerator
           source:
             citation: "World Bank WDI, SH.XPD.CHEX.CD, Syria — indicator returned invalid value from API"
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
-          reliability: null
+          reliability:
           note: "SH.XPD.CHEX.CD returned Invalid value error from World Bank API"
+          series_id:
+          canonical_file:
         gdp_current_usd:
-          value: null
+          value:
           unit: current_usd
           role: denominator
           shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+          series_id:
+          canonical_file:
         public_health_expenditure_pct_gdp:
           value: 1.45
           unit: percent_of_gdp
@@ -85,16 +99,22 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure as a percentage of GDP declined slightly to 3.35% in 2010 from 3.57% in 2009, reflecting either a nominal GDP growth that outpaced absolute health spending growth, or a modest reduction in health spending. The public component also fell slightly from 1.59% to 1.45% of GDP. This was the last pre-war year with reliable health expenditure data. Syria's economy was growing in 2010 and fiscal conditions were relatively stable; the decline is more likely a GDP denominator effect than an actual cut in health services."
       features:
-        - low_3_5pct
+      - low_3_5pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2010"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2010"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2011:
     data_status: complete
     quantitative:
@@ -108,20 +128,24 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: current_usd
           role: numerator
           source:
             citation: "World Bank WDI, SH.XPD.CHEX.CD, Syria — indicator returned invalid value from API"
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
-          reliability: null
+          reliability:
           note: "SH.XPD.CHEX.CD returned Invalid value error from World Bank API"
+          series_id:
+          canonical_file:
         gdp_current_usd:
-          value: null
+          value:
           unit: current_usd
           role: denominator
           shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+          series_id:
+          canonical_file:
         public_health_expenditure_pct_gdp:
           value: 1.14
           unit: percent_of_gdp
@@ -131,14 +155,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure dropped sharply to 2.66% of GDP in 2011, falling into the 'very_low' category. This is the first year of the civil war. The decline reflects both GDP denominator distortion (GDP fell sharply in 2011) and the beginning of healthcare system disruption. The public component dropped from 1.45% to 1.14%, suggesting fiscal resources were increasingly diverted to military spending. Hospital and clinic facilities in conflict areas began experiencing damage and population displacement. The World Health Organization documented early disruption to Syria's vaccination programs and pharmaceutical supply chains during this year."
       features:
-        - very_low_lt_3pct
+      - very_low_lt_3pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2011"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2011"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Civil war began 2011. Data reliability reduced; GDP denominator collapse inflates or deflates percentage measure. Public health share fell to 1.14%."
   2012:
@@ -154,20 +184,24 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: current_usd
           role: numerator
           source:
             citation: "World Bank WDI, SH.XPD.CHEX.CD, Syria — indicator returned invalid value from API"
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
-          reliability: null
+          reliability:
           note: "SH.XPD.CHEX.CD returned Invalid value error from World Bank API"
+          series_id:
+          canonical_file:
         gdp_current_usd:
-          value: null
+          value:
           unit: current_usd
           role: denominator
           shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+          series_id:
+          canonical_file:
         public_health_expenditure_pct_gdp:
           value: 1.38
           unit: percent_of_gdp
@@ -177,14 +211,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure as a share of GDP recovered to 3.22% in 2012, but this apparent rebound reflects the extreme volatility of the GDP denominator under conflict rather than genuine health system recovery. The GDP continued collapsing, meaning a smaller absolute economy makes health spending appear relatively larger. In real terms, health system capacity was severely degraded: attacks on healthcare facilities were documented, physicians and nurses fled, and pharmaceutical supply chains broke down in contested areas. The public component partially recovered to 1.38%, possibly reflecting emergency health interventions. All data from this year onward should be interpreted cautiously."
       features:
-        - low_3_5pct
+      - low_3_5pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2012"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2012"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "GDP denominator collapse during conflict makes % of GDP measure unreliable as a proxy for actual health system capacity. Attacks on health facilities documented. Data modeled, not directly measured."
   2013:
@@ -200,20 +240,24 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: current_usd
           role: numerator
           source:
             citation: "World Bank WDI, SH.XPD.CHEX.CD, Syria — indicator returned invalid value from API"
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
-          reliability: null
+          reliability:
           note: "SH.XPD.CHEX.CD returned Invalid value error from World Bank API"
+          series_id:
+          canonical_file:
         gdp_current_usd:
-          value: null
+          value:
           unit: current_usd
           role: denominator
           shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+          series_id:
+          canonical_file:
         public_health_expenditure_pct_gdp:
           value: 1.82
           unit: percent_of_gdp
@@ -223,14 +267,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Estimated health expenditure rose to 3.78% of GDP in 2013, the highest value since 2009. However, this is an artifact of the shrinking GDP denominator and possibly increased international humanitarian health spending flowing through Syria that gets captured in national health accounts. The public component rose to 1.82%, possibly reflecting externally financed emergency health operations. In reality, Syria's healthcare system was in profound crisis: Physicians for Human Rights documented 61 attacks on medical facilities in 2013 alone. The chemical weapons attack in Ghouta in August 2013 placed enormous additional burden on the health system."
       features:
-        - low_3_5pct
+      - low_3_5pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2013"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2013"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "GDP denominator collapse inflates percentage measure. Chemical weapons attack August 2013; 61 attacks on medical facilities documented. International humanitarian health spending may inflate numerator."
   2014:
@@ -246,20 +296,24 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: current_usd
           role: numerator
           source:
             citation: "World Bank WDI, SH.XPD.CHEX.CD, Syria — indicator returned invalid value from API"
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
-          reliability: null
+          reliability:
           note: "SH.XPD.CHEX.CD returned Invalid value error from World Bank API"
+          series_id:
+          canonical_file:
         gdp_current_usd:
-          value: null
+          value:
           unit: current_usd
           role: denominator
           shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+          series_id:
+          canonical_file:
         public_health_expenditure_pct_gdp:
           value: 1.98
           unit: percent_of_gdp
@@ -269,14 +323,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure reached 4.23% of GDP in 2014, the highest point in the entire series. This is paradoxical given the state of Syria's health infrastructure and reflects GDP denominator collapse rather than improved health investment. ISIL's expansion in 2014 further fragmented Syria into incompatible governance zones, each with its own quasi-health system. Humanitarian health organizations (WHO, ICRC, MSF, UN agencies) were increasingly the primary health providers in opposition-held areas, and their spending flows into Syria's national health accounts estimate. The public component of 1.98% was the highest recorded."
       features:
-        - low_3_5pct
+      - low_3_5pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2014"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2014"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Peak of percentage-of-GDP measure is an artifact of GDP collapse, not genuine health investment increase. ISIL expanded 2014; Syria fragmented into multiple governance zones each with separate health systems."
   2015:
@@ -292,20 +352,24 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: current_usd
           role: numerator
           source:
             citation: "World Bank WDI, SH.XPD.CHEX.CD, Syria — indicator returned invalid value from API"
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
-          reliability: null
+          reliability:
           note: "SH.XPD.CHEX.CD returned Invalid value error from World Bank API"
+          series_id:
+          canonical_file:
         gdp_current_usd:
-          value: null
+          value:
           unit: current_usd
           role: denominator
           shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+          series_id:
+          canonical_file:
         public_health_expenditure_pct_gdp:
           value: 1.76
           unit: percent_of_gdp
@@ -315,14 +379,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure as a share of GDP at 3.67% in 2015 as the conflict reached its most acute humanitarian phase. Life expectancy collapsed to its nadir of 63.3 years in this year, reflecting the catastrophic cumulative health impact. The WHO estimated approximately 750 health workers had been killed and 57% of public hospitals put out of service by 2015. Russian military intervention began in September 2015 and led to documented attacks on health facilities. Mass refugee exodus reached its peak. The percentage figure provides almost no indication of actual health capacity remaining."
       features:
-        - low_3_5pct
+      - low_3_5pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2015"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2015"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "2015: nadir of Syria's health crisis. WHO estimated 57% of public hospitals out of service. ~750 health workers killed by this point. Percentage metric deeply misleading about actual health capacity."
   2016:
@@ -338,20 +408,24 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: current_usd
           role: numerator
           source:
             citation: "World Bank WDI, SH.XPD.CHEX.CD, Syria — indicator returned invalid value from API"
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
-          reliability: null
+          reliability:
           note: "SH.XPD.CHEX.CD returned Invalid value error from World Bank API"
+          series_id:
+          canonical_file:
         gdp_current_usd:
-          value: null
+          value:
           unit: current_usd
           role: denominator
           shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+          series_id:
+          canonical_file:
         public_health_expenditure_pct_gdp:
           value: 1.83
           unit: percent_of_gdp
@@ -361,16 +435,22 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure estimated at 3.89% of GDP in 2016. Aleppo fell to government forces in December 2016 following a prolonged siege with severe humanitarian consequences including destruction of health facilities. By 2016, Syrian healthcare had fragmented into multiple parallel systems: Assad government facilities in regime-controlled areas, rebel-linked health boards in opposition zones, ISIL-controlled health provision in their territories, and a humanitarian NGO system spanning conflict lines. The GDP-percentage figure masks this fragmentation entirely."
       features:
-        - low_3_5pct
+      - low_3_5pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2016"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2016"
+        type: official_statistics
+        reliability: low
       confidence: low
-      notes: null
+      notes:
   2017:
     data_status: complete
     quantitative:
@@ -384,20 +464,24 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: current_usd
           role: numerator
           source:
             citation: "World Bank WDI, SH.XPD.CHEX.CD, Syria — indicator returned invalid value from API"
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
-          reliability: null
+          reliability:
           note: "SH.XPD.CHEX.CD returned Invalid value error from World Bank API"
+          series_id:
+          canonical_file:
         gdp_current_usd:
-          value: null
+          value:
           unit: current_usd
           role: denominator
           shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+          series_id:
+          canonical_file:
         public_health_expenditure_pct_gdp:
           value: 1.91
           unit: percent_of_gdp
@@ -407,16 +491,22 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure at 3.91% of GDP in 2017 remained in the 'low' band. ISIL was being defeated across Syria and Iraq during this period. The slight uptick in both total and public health percentages may reflect partial recovery in government-controlled areas and increased international humanitarian health funding. Life expectancy data shows modest recovery to 66.7 years (from 63.3 nadir in 2015), suggesting some health improvement in accessible areas. However, Idlib and northeast Syria remained outside central government control with separate health governance."
       features:
-        - low_3_5pct
+      - low_3_5pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2017"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2017"
+        type: official_statistics
+        reliability: low
       confidence: low
-      notes: null
+      notes:
   2018:
     data_status: complete
     quantitative:
@@ -430,20 +520,24 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: current_usd
           role: numerator
           source:
             citation: "World Bank WDI, SH.XPD.CHEX.CD, Syria — indicator returned invalid value from API"
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
-          reliability: null
+          reliability:
           note: "SH.XPD.CHEX.CD returned Invalid value error from World Bank API"
+          series_id:
+          canonical_file:
         gdp_current_usd:
-          value: null
+          value:
           unit: current_usd
           role: denominator
           shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+          series_id:
+          canonical_file:
         public_health_expenditure_pct_gdp:
           value: 1.88
           unit: percent_of_gdp
@@ -453,16 +547,22 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure of 3.94% of GDP in 2018 as government forces recaptured most of western Syria. The WHO noted partial recovery of health facility operations in formerly contested areas, but pharmaceutical shortages and health worker shortfalls remained severe. Syria's currency depreciation accelerated in 2018, severely reducing the real purchasing power of health budgets. The percentage-of-GDP figure masks that the denominator (GDP) had itself collapsed to a fraction of pre-war levels, meaning absolute health spending in real terms was far below 2009 levels."
       features:
-        - low_3_5pct
+      - low_3_5pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2018"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2018"
+        type: official_statistics
+        reliability: low
       confidence: low
-      notes: null
+      notes:
   2019:
     data_status: complete
     quantitative:
@@ -476,20 +576,24 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: current_usd
           role: numerator
           source:
             citation: "World Bank WDI, SH.XPD.CHEX.CD, Syria — indicator returned invalid value from API"
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
-          reliability: null
+          reliability:
           note: "SH.XPD.CHEX.CD returned Invalid value error from World Bank API"
+          series_id:
+          canonical_file:
         gdp_current_usd:
-          value: null
+          value:
           unit: current_usd
           role: denominator
           shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+          series_id:
+          canonical_file:
         public_health_expenditure_pct_gdp:
           value: 1.97
           unit: percent_of_gdp
@@ -499,14 +603,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure was estimated at 3.97% of GDP in 2019. This was the last year before Caesar Act sanctions would further constrain Syria's economy and international access. The near-2% public share of GDP in health was the highest since the pre-war period. However, large displacement camps in Idlib and northeast Syria remained outside the data collection scope, and the Syrian pound's rapid depreciation meant real health service capacity was far below nominal figures. Rebuilding of the pharmaceutical supply chain in government areas had made some progress but faced severe foreign exchange constraints."
       features:
-        - low_3_5pct
+      - low_3_5pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2019"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2019"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Last year before Caesar Act sanctions (June 2020). GDP in severe decline; real health capacity far below percentage-of-GDP metric suggests."
   2020:
@@ -522,20 +632,24 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: current_usd
           role: numerator
           source:
             citation: "World Bank WDI, SH.XPD.CHEX.CD, Syria — indicator returned invalid value from API"
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
-          reliability: null
+          reliability:
           note: "SH.XPD.CHEX.CD returned Invalid value error from World Bank API"
+          series_id:
+          canonical_file:
         gdp_current_usd:
-          value: null
+          value:
           unit: current_usd
           role: denominator
           shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+          series_id:
+          canonical_file:
         public_health_expenditure_pct_gdp:
           value: 1.49
           unit: percent_of_gdp
@@ -545,14 +659,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure fell to 3.67% of GDP in 2020 as the triple shock of Caesar Act sanctions (June 2020), COVID-19 pandemic, and continued economic collapse hit simultaneously. The public component dropped sharply from 1.97% to 1.49% of GDP, reflecting severe fiscal constraints. Syria's COVID-19 response capacity was extremely limited given the existing health system fragmentation; actual case counts were widely believed to be severely underreported. Syria's healthcare capacity was stretched beyond limits, with the northwest remaining outside government control under escalating Turkish-backed attacks."
       features:
-        - low_3_5pct
+      - low_3_5pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2020"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2020"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Caesar Act sanctions enacted June 2020. COVID-19 pandemic. Triple economic/health shock. Public health share dropped sharply."
   2021:
@@ -568,20 +688,24 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: current_usd
           role: numerator
           source:
             citation: "World Bank WDI, SH.XPD.CHEX.CD, Syria — indicator returned invalid value from API"
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
-          reliability: null
+          reliability:
           note: "SH.XPD.CHEX.CD returned Invalid value error from World Bank API"
+          series_id:
+          canonical_file:
         gdp_current_usd:
-          value: null
+          value:
           unit: current_usd
           role: denominator
           shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+          series_id:
+          canonical_file:
         public_health_expenditure_pct_gdp:
           value: 1.09
           unit: percent_of_gdp
@@ -591,14 +715,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure at 3.50% of GDP in 2021 with the public component collapsing to just 1.09% of GDP — the lowest since the onset of the war. The Syrian pound had collapsed catastrophically: official rate was roughly 3,500 SYP per USD (versus 47 SYP/USD pre-war). This meant real government health spending had fallen to a tiny fraction of pre-war absolute levels. Out-of-pocket spending as a share of total health spending rose as public capacity diminished. WHO and NGO health humanitarian funding became the primary source of health services for large portions of the population."
       features:
-        - low_3_5pct
+      - low_3_5pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2021"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2021"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Public health share 1.09% of GDP — near-lowest on record. SYP exchange rate catastrophic collapse. Real government health spending near zero in USD terms."
   2022:
@@ -614,20 +744,24 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: current_usd
           role: numerator
           source:
             citation: "World Bank WDI, SH.XPD.CHEX.CD, Syria — indicator returned invalid value from API"
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
-          reliability: null
+          reliability:
           note: "SH.XPD.CHEX.CD returned Invalid value error from World Bank API"
+          series_id:
+          canonical_file:
         gdp_current_usd:
-          value: null
+          value:
           unit: current_usd
           role: denominator
           shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+          series_id:
+          canonical_file:
         public_health_expenditure_pct_gdp:
           value: 0.83
           unit: percent_of_gdp
@@ -637,14 +771,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure was 3.38% of GDP in 2022, with the public component declining further to just 0.83% of GDP — a dramatic collapse from the pre-war 1.59%. The February 2023 earthquake (occurring in early 2023) was preceded by a health system already pushed to near-total inadequacy. Syria's government health budget was essentially a shell, with actual services dependent on international support. The total health percentage remaining above 3% reflects primarily out-of-pocket spending and international humanitarian health expenditure rather than a functional public health system."
       features:
-        - low_3_5pct
+      - low_3_5pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2022"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2022"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Public component 0.83% of GDP — less than half pre-war level. Reflects humanitarian and out-of-pocket dominance over public provision."
   2023:
@@ -660,20 +800,24 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: current_usd
           role: numerator
           source:
             citation: "World Bank WDI, SH.XPD.CHEX.CD, Syria — indicator returned invalid value from API"
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
-          reliability: null
+          reliability:
           note: "SH.XPD.CHEX.CD returned Invalid value error from World Bank API"
+          series_id:
+          canonical_file:
         gdp_current_usd:
-          value: null
+          value:
           unit: current_usd
           role: denominator
           shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+          series_id:
+          canonical_file:
         public_health_expenditure_pct_gdp:
           value: 0.40
           unit: percent_of_gdp
@@ -683,112 +827,148 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "The most recent data shows health expenditure falling to 2.71% of GDP in 2023, now in the 'very_low' category and the lowest since 2011. Critically, the public health component collapsed to just 0.40% of GDP — down from 1.59% in 2009 — representing a near-total collapse of government health provision. The catastrophic February 2023 earthquake (50,000+ deaths across Syria and Turkey) struck a health system already at minimum functionality. The earthquake required massive emergency health response from international actors. By the end of 2023, Syria's health system was almost entirely dependent on international humanitarian funding and out-of-pocket payments, with government provision nearly negligible."
       features:
-        - very_low_lt_3pct
+      - very_low_lt_3pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2023"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2023"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Last available data year. Public component 0.40% of GDP — crisis level. February 2023 earthquake compound emergency. Total health spending fell to very_low category. Assad regime fell December 2024; transitional period began."
   2024:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: percent_of_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
       source:
         citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2024 — no data available"
         url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
         access_date: "2026-03-02"
-      reliability: null
+      reliability:
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: current_usd
           role: numerator
-          shared_ref: null
+          shared_ref:
+          series_id:
+          canonical_file:
         gdp_current_usd:
-          value: null
+          value:
           unit: current_usd
           role: denominator
           shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+          series_id:
+          canonical_file:
         public_health_expenditure_pct_gdp:
-          value: null
+          value:
           unit: percent_of_gdp
           role: sub_component
-          shared_ref: null
+          shared_ref:
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features: []
       sources: []
-      confidence: null
+      confidence:
       notes: "No data available. Assad regime fell December 2024; transitional government established under HTS-led coalition. New health governance structure forming."
   2025:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: percent_of_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
       source:
         citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2025 — no data available"
         url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
         access_date: "2026-03-02"
-      reliability: null
+      reliability:
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: current_usd
           role: numerator
-          shared_ref: null
+          shared_ref:
+          series_id:
+          canonical_file:
         gdp_current_usd:
-          value: null
+          value:
           unit: current_usd
           role: denominator
           shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+          series_id:
+          canonical_file:
         public_health_expenditure_pct_gdp:
-          value: null
+          value:
           unit: percent_of_gdp
           role: sub_component
-          shared_ref: null
+          shared_ref:
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features: []
       sources: []
-      confidence: null
+      confidence:
       notes: "No data available. Post-regime change period; new government health policy formation ongoing."
   2026:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: percent_of_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
       source:
         citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Syria, 2026 — no data available"
         url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
         access_date: "2026-03-02"
-      reliability: null
+      reliability:
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: current_usd
           role: numerator
-          shared_ref: null
+          shared_ref:
+          series_id:
+          canonical_file:
         gdp_current_usd:
-          value: null
+          value:
           unit: current_usd
           role: denominator
           shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+          series_id:
+          canonical_file:
         public_health_expenditure_pct_gdp:
-          value: null
+          value:
           unit: percent_of_gdp
           role: sub_component
-          shared_ref: null
+          shared_ref:
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features: []
       sources: []
-      confidence: null
+      confidence:
       notes: "No data available. Year not yet complete at time of data collection (2026-03-02)."

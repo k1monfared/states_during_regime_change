@@ -1,0 +1,769 @@
+indicator: gini_adjusted_gdp_per_capita_ppp
+country: tunisia
+dimension: economic
+years:
+  1996:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  1997:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  1998:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  1999:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2000:
+    data_status: complete
+    quantitative:
+      value: 3717.16
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.PP.CD (6279 intl$) × (1 − SI.POV.GINI/40.8) = 3717 intl$, accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id:
+      calculated_value: 3717.16
+      discrepancy:
+      formula: gdp_pc_ppp * (1 - gini / 100)
+      components:
+        gdp_pc_ppp:
+          value: 6278.99
+          unit: intl_dollar_current
+          role: multiplicand
+          series_id: WB_NY.GDP.PCAP.PP.CD
+          canonical_file: data/canonical/world_bank/NY.GDP.PCAP.PP.CD.csv
+          source:
+            citation: World Bank NY.GDP.PCAP.PP.CD, 2000
+            url: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD
+            access_date: '2026-03-03'
+          reliability: high
+        gini_coefficient:
+          value: 40.8
+          unit: gini_0_to_100
+          role: inequality_adjustment
+          series_id: WB_SI.POV.GINI
+          canonical_file: data/canonical/world_bank/SI.POV.GINI.csv
+          source:
+            citation: World Bank SI.POV.GINI, 2000
+            url: https://data.worldbank.org/indicator/SI.POV.GINI
+            access_date: '2026-03-03'
+          reliability: medium
+    qualitative:
+      assessment: 'PPP-adjusted GDP per capita corrected for inequality: $6,279 PPP × (1−40.8/100) = $3,717 intl$. At 45.1% of series peak.'
+      features:
+      - significant_decline_50_70pct
+      sources:
+      - citation: World Bank WDI (NY.GDP.PCAP.PP.CD, SI.POV.GINI), accessed 2026-03-03
+        url: https://data.worldbank.org
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes:
+  2001:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2002:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2003:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2004:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2005:
+    data_status: complete
+    quantitative:
+      value: 5056.86
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.PP.CD (8117 intl$) × (1 − SI.POV.GINI/37.7) = 5057 intl$, accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id:
+      calculated_value: 5056.86
+      discrepancy:
+      formula: gdp_pc_ppp * (1 - gini / 100)
+      components:
+        gdp_pc_ppp:
+          value: 8116.95
+          unit: intl_dollar_current
+          role: multiplicand
+          series_id: WB_NY.GDP.PCAP.PP.CD
+          canonical_file: data/canonical/world_bank/NY.GDP.PCAP.PP.CD.csv
+          source:
+            citation: World Bank NY.GDP.PCAP.PP.CD, 2005
+            url: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD
+            access_date: '2026-03-03'
+          reliability: high
+        gini_coefficient:
+          value: 37.7
+          unit: gini_0_to_100
+          role: inequality_adjustment
+          series_id: WB_SI.POV.GINI
+          canonical_file: data/canonical/world_bank/SI.POV.GINI.csv
+          source:
+            citation: World Bank SI.POV.GINI, 2005
+            url: https://data.worldbank.org/indicator/SI.POV.GINI
+            access_date: '2026-03-03'
+          reliability: medium
+    qualitative:
+      assessment: 'PPP-adjusted GDP per capita corrected for inequality: $8,117 PPP × (1−37.7/100) = $5,057 intl$. At 61.3% of series peak.'
+      features:
+      - moderate_decline_70_90pct
+      sources:
+      - citation: World Bank WDI (NY.GDP.PCAP.PP.CD, SI.POV.GINI), accessed 2026-03-03
+        url: https://data.worldbank.org
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes:
+  2006:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2007:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2008:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2009:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2010:
+    data_status: complete
+    quantitative:
+      value: 6491.38
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.PP.CD (10555 intl$) × (1 − SI.POV.GINI/38.5) = 6491 intl$, accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id:
+      calculated_value: 6491.38
+      discrepancy:
+      formula: gdp_pc_ppp * (1 - gini / 100)
+      components:
+        gdp_pc_ppp:
+          value: 10555.09
+          unit: intl_dollar_current
+          role: multiplicand
+          series_id: WB_NY.GDP.PCAP.PP.CD
+          canonical_file: data/canonical/world_bank/NY.GDP.PCAP.PP.CD.csv
+          source:
+            citation: World Bank NY.GDP.PCAP.PP.CD, 2010
+            url: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD
+            access_date: '2026-03-03'
+          reliability: high
+        gini_coefficient:
+          value: 38.5
+          unit: gini_0_to_100
+          role: inequality_adjustment
+          series_id: WB_SI.POV.GINI
+          canonical_file: data/canonical/world_bank/SI.POV.GINI.csv
+          source:
+            citation: World Bank SI.POV.GINI, 2010
+            url: https://data.worldbank.org/indicator/SI.POV.GINI
+            access_date: '2026-03-03'
+          reliability: medium
+    qualitative:
+      assessment: 'PPP-adjusted GDP per capita corrected for inequality: $10,555 PPP × (1−38.5/100) = $6,491 intl$. At 78.7% of series peak.'
+      features:
+      - moderate_decline_70_90pct
+      sources:
+      - citation: World Bank WDI (NY.GDP.PCAP.PP.CD, SI.POV.GINI), accessed 2026-03-03
+        url: https://data.worldbank.org
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes:
+  2011:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2012:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2013:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2014:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2015:
+    data_status: complete
+    quantitative:
+      value: 7245.87
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.PP.CD (10783 intl$) × (1 − SI.POV.GINI/32.8) = 7246 intl$, accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id:
+      calculated_value: 7245.87
+      discrepancy:
+      formula: gdp_pc_ppp * (1 - gini / 100)
+      components:
+        gdp_pc_ppp:
+          value: 10782.54
+          unit: intl_dollar_current
+          role: multiplicand
+          series_id: WB_NY.GDP.PCAP.PP.CD
+          canonical_file: data/canonical/world_bank/NY.GDP.PCAP.PP.CD.csv
+          source:
+            citation: World Bank NY.GDP.PCAP.PP.CD, 2015
+            url: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD
+            access_date: '2026-03-03'
+          reliability: high
+        gini_coefficient:
+          value: 32.8
+          unit: gini_0_to_100
+          role: inequality_adjustment
+          series_id: WB_SI.POV.GINI
+          canonical_file: data/canonical/world_bank/SI.POV.GINI.csv
+          source:
+            citation: World Bank SI.POV.GINI, 2015
+            url: https://data.worldbank.org/indicator/SI.POV.GINI
+            access_date: '2026-03-03'
+          reliability: medium
+    qualitative:
+      assessment: 'PPP-adjusted GDP per capita corrected for inequality: $10,783 PPP × (1−32.8/100) = $7,246 intl$. At 87.8% of series peak.'
+      features:
+      - near_peak_90_100pct
+      sources:
+      - citation: World Bank WDI (NY.GDP.PCAP.PP.CD, SI.POV.GINI), accessed 2026-03-03
+        url: https://data.worldbank.org
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes:
+  2016:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2017:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2018:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2019:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2020:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2021:
+    data_status: complete
+    quantitative:
+      value: 8250.59
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.PP.CD (12444 intl$) × (1 − SI.POV.GINI/33.7) = 8251 intl$, accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id:
+      calculated_value: 8250.59
+      discrepancy:
+      formula: gdp_pc_ppp * (1 - gini / 100)
+      components:
+        gdp_pc_ppp:
+          value: 12444.33
+          unit: intl_dollar_current
+          role: multiplicand
+          series_id: WB_NY.GDP.PCAP.PP.CD
+          canonical_file: data/canonical/world_bank/NY.GDP.PCAP.PP.CD.csv
+          source:
+            citation: World Bank NY.GDP.PCAP.PP.CD, 2021
+            url: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD
+            access_date: '2026-03-03'
+          reliability: high
+        gini_coefficient:
+          value: 33.7
+          unit: gini_0_to_100
+          role: inequality_adjustment
+          series_id: WB_SI.POV.GINI
+          canonical_file: data/canonical/world_bank/SI.POV.GINI.csv
+          source:
+            citation: World Bank SI.POV.GINI, 2021
+            url: https://data.worldbank.org/indicator/SI.POV.GINI
+            access_date: '2026-03-03'
+          reliability: medium
+    qualitative:
+      assessment: 'PPP-adjusted GDP per capita corrected for inequality: $12,444 PPP × (1−33.7/100) = $8,251 intl$. At 100.0% of series peak.'
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI (NY.GDP.PCAP.PP.CD, SI.POV.GINI), accessed 2026-03-03
+        url: https://data.worldbank.org
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes:
+  2022:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2023:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2024:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2025:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:
+  2026:
+    data_status: missing
+    quantitative:
+      value:
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation:
+        url:
+        access_date:
+      reliability:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
+    qualitative:
+      assessment:
+      features: []
+      sources: []
+      confidence:
+      notes:

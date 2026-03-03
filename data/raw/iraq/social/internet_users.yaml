@@ -5,7 +5,7 @@ years:
   1988:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: percent_of_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -15,7 +15,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -23,22 +23,30 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features: []
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   1989:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: percent_of_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -48,7 +56,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -56,18 +64,26 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features: []
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   1990:
     data_status: complete
     quantitative:
@@ -81,7 +97,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -89,23 +105,31 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   1991:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: percent_of_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -115,7 +139,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -123,22 +147,30 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features: []
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   1992:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: percent_of_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -148,7 +180,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -156,22 +188,30 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features: []
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   1993:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: percent_of_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -181,7 +221,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -189,22 +229,30 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features: []
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   1994:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: percent_of_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -214,7 +262,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -222,22 +270,30 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features: []
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   1995:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: percent_of_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -247,7 +303,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -255,22 +311,30 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features: []
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   1996:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: percent_of_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -280,7 +344,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -288,22 +352,30 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features: []
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   1997:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: percent_of_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -313,7 +385,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -321,22 +393,30 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features: []
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   1998:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: percent_of_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -346,7 +426,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -354,22 +434,30 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features: []
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   1999:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: percent_of_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -379,7 +467,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -387,22 +475,30 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features: []
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2000:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: percent_of_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -412,7 +508,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -420,18 +516,26 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features: []
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2001:
     data_status: complete
     quantitative:
@@ -445,7 +549,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -453,19 +557,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2002:
     data_status: complete
     quantitative:
@@ -479,7 +591,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -487,19 +599,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2003:
     data_status: complete
     quantitative:
@@ -513,7 +633,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -521,19 +641,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2004:
     data_status: complete
     quantitative:
@@ -547,7 +675,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -555,19 +683,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2005:
     data_status: complete
     quantitative:
@@ -581,7 +717,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -589,19 +725,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2006:
     data_status: complete
     quantitative:
@@ -615,7 +759,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -623,19 +767,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2007:
     data_status: complete
     quantitative:
@@ -649,7 +801,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -657,19 +809,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2008:
     data_status: complete
     quantitative:
@@ -683,7 +843,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -691,19 +851,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2009:
     data_status: complete
     quantitative:
@@ -717,7 +885,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -725,19 +893,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2010:
     data_status: complete
     quantitative:
@@ -751,7 +927,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -759,19 +935,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2011:
     data_status: complete
     quantitative:
@@ -785,7 +969,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -793,19 +977,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - very_low_5_20pct
+      - very_low_5_20pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2012:
     data_status: complete
     quantitative:
@@ -819,7 +1011,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -827,19 +1019,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - very_low_5_20pct
+      - very_low_5_20pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2013:
     data_status: complete
     quantitative:
@@ -853,7 +1053,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -861,19 +1061,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - very_low_5_20pct
+      - very_low_5_20pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2014:
     data_status: complete
     quantitative:
@@ -887,7 +1095,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -895,19 +1103,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - very_low_5_20pct
+      - very_low_5_20pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2015:
     data_status: complete
     quantitative:
@@ -921,7 +1137,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -929,19 +1145,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - very_low_5_20pct
+      - very_low_5_20pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2016:
     data_status: complete
     quantitative:
@@ -955,7 +1179,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -963,19 +1187,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - very_low_5_20pct
+      - very_low_5_20pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2017:
     data_status: complete
     quantitative:
@@ -989,7 +1221,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -997,19 +1229,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - moderate_40_60pct
+      - moderate_40_60pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2018:
     data_status: complete
     quantitative:
@@ -1023,7 +1263,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1031,19 +1271,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - low_20_40pct
+      - low_20_40pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2019:
     data_status: complete
     quantitative:
@@ -1057,7 +1305,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1065,19 +1313,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - moderate_40_60pct
+      - moderate_40_60pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2020:
     data_status: complete
     quantitative:
@@ -1091,7 +1347,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1099,19 +1355,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - moderate_40_60pct
+      - moderate_40_60pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2021:
     data_status: complete
     quantitative:
@@ -1125,7 +1389,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1133,19 +1397,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - high_60_80pct
+      - high_60_80pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2022:
     data_status: complete
     quantitative:
@@ -1159,7 +1431,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1167,19 +1439,27 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - high_60_80pct
+      - high_60_80pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2023:
     data_status: complete
     quantitative:
@@ -1193,7 +1473,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1201,23 +1481,31 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features:
-        - very_high_gt_80pct
+      - very_high_gt_80pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2024:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: percent_of_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -1227,7 +1515,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1235,22 +1523,30 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features: []
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2025:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: percent_of_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -1260,7 +1556,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1268,22 +1564,30 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features: []
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2026:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: percent_of_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -1293,7 +1597,7 @@ years:
       reliability: high
       components:
         internet_users_count:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1301,15 +1605,23 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
-      assessment: null
+      assessment:
       features: []
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iraq"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:

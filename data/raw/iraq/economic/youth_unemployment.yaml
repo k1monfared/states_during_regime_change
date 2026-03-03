@@ -5,7 +5,7 @@ years:
   1988:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_labor_force_age_15_24
       formula: "(youth_unemployed / youth_labor_force) * 100"
       source:
@@ -15,7 +15,7 @@ years:
       reliability: low
       components:
         youth_labor_force_survey_modelled:
-          value: null
+          value:
           unit: pct_labor_force_age_15_24
           role: numerator
           source:
@@ -23,21 +23,27 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No ILO modelled estimate available for 1988. World Bank WDI series SL.UEM.1524.ZS has no value for Iraq in this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1988"
-          type: modelled_estimate
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1988"
+        type: modelled_estimate
+        reliability: low
       confidence: low
       notes: "No WB/ILO modelled estimate available; sanctions period disrupted statistical capacity"
 
   1989:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_labor_force_age_15_24
       formula: "(youth_unemployed / youth_labor_force) * 100"
       source:
@@ -47,7 +53,7 @@ years:
       reliability: low
       components:
         youth_labor_force_survey_modelled:
-          value: null
+          value:
           unit: pct_labor_force_age_15_24
           role: numerator
           source:
@@ -55,21 +61,27 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No ILO modelled estimate available for 1989. World Bank WDI series SL.UEM.1524.ZS has no value for Iraq in this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1989"
-          type: modelled_estimate
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1989"
+        type: modelled_estimate
+        reliability: low
       confidence: low
       notes: "No WB/ILO modelled estimate available; sanctions period disrupted statistical capacity"
 
   1990:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_labor_force_age_15_24
       formula: "(youth_unemployed / youth_labor_force) * 100"
       source:
@@ -79,7 +91,7 @@ years:
       reliability: low
       components:
         youth_labor_force_survey_modelled:
-          value: null
+          value:
           unit: pct_labor_force_age_15_24
           role: numerator
           source:
@@ -87,14 +99,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No ILO modelled estimate available for 1990. World Bank WDI series SL.UEM.1524.ZS has no value for Iraq in this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1990"
-          type: modelled_estimate
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1990"
+        type: modelled_estimate
+        reliability: low
       confidence: low
       notes: "No WB/ILO modelled estimate available; sanctions period disrupted statistical capacity"
 
@@ -119,14 +137,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 15.7% in 1991 (ILO modelled estimate via World Bank WDI). Under Saddam Hussein's Ba'athist state, the large public sector and military provided significant employment, but UN sanctions (1990–2003) constrained economic activity and job creation for youth."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1991"
-          type: modelled_estimate
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1991"
+        type: modelled_estimate
+        reliability: low
       confidence: low
       notes: "ILO modelled estimate; UN sanctions period limited survey capacity; Ba'athist state suppressed independent labor statistics"
 
@@ -151,14 +175,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 15.3% in 1992 (ILO modelled estimate via World Bank WDI). Under Saddam Hussein's Ba'athist state, the large public sector and military provided significant employment, but UN sanctions (1990–2003) constrained economic activity and job creation for youth."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1992"
-          type: modelled_estimate
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1992"
+        type: modelled_estimate
+        reliability: low
       confidence: low
       notes: "ILO modelled estimate; UN sanctions period limited survey capacity; Ba'athist state suppressed independent labor statistics"
 
@@ -183,14 +213,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 15.4% in 1993 (ILO modelled estimate via World Bank WDI). Under Saddam Hussein's Ba'athist state, the large public sector and military provided significant employment, but UN sanctions (1990–2003) constrained economic activity and job creation for youth."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1993"
-          type: modelled_estimate
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1993"
+        type: modelled_estimate
+        reliability: low
       confidence: low
       notes: "ILO modelled estimate; UN sanctions period limited survey capacity; Ba'athist state suppressed independent labor statistics"
 
@@ -215,14 +251,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 15.2% in 1994 (ILO modelled estimate via World Bank WDI). Under Saddam Hussein's Ba'athist state, the large public sector and military provided significant employment, but UN sanctions (1990–2003) constrained economic activity and job creation for youth."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1994"
-          type: modelled_estimate
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1994"
+        type: modelled_estimate
+        reliability: low
       confidence: low
       notes: "ILO modelled estimate; UN sanctions period limited survey capacity; Ba'athist state suppressed independent labor statistics"
 
@@ -247,14 +289,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 15.6% in 1995 (ILO modelled estimate via World Bank WDI). Under Saddam Hussein's Ba'athist state, the large public sector and military provided significant employment, but UN sanctions (1990–2003) constrained economic activity and job creation for youth."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1995"
-          type: modelled_estimate
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1995"
+        type: modelled_estimate
+        reliability: low
       confidence: low
       notes: "ILO modelled estimate; UN sanctions period limited survey capacity; Ba'athist state suppressed independent labor statistics"
 
@@ -279,14 +327,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 15.8% in 1996 (ILO modelled estimate via World Bank WDI). Under Saddam Hussein's Ba'athist state, the large public sector and military provided significant employment, but UN sanctions (1990–2003) constrained economic activity and job creation for youth."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1996"
-          type: modelled_estimate
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1996"
+        type: modelled_estimate
+        reliability: low
       confidence: low
       notes: "ILO modelled estimate; UN sanctions period limited survey capacity; Ba'athist state suppressed independent labor statistics"
 
@@ -311,14 +365,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 15.5% in 1997 (ILO modelled estimate via World Bank WDI). Under Saddam Hussein's Ba'athist state, the large public sector and military provided significant employment, but UN sanctions (1990–2003) constrained economic activity and job creation for youth."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1997"
-          type: modelled_estimate
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1997"
+        type: modelled_estimate
+        reliability: low
       confidence: low
       notes: "ILO modelled estimate; UN sanctions period limited survey capacity; Ba'athist state suppressed independent labor statistics"
 
@@ -343,14 +403,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 15.3% in 1998 (ILO modelled estimate via World Bank WDI). Under Saddam Hussein's Ba'athist state, the large public sector and military provided significant employment, but UN sanctions (1990–2003) constrained economic activity and job creation for youth."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1998"
-          type: modelled_estimate
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1998"
+        type: modelled_estimate
+        reliability: low
       confidence: low
       notes: "ILO modelled estimate; UN sanctions period limited survey capacity; Ba'athist state suppressed independent labor statistics"
 
@@ -375,14 +441,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 15.3% in 1999 (ILO modelled estimate via World Bank WDI). Under Saddam Hussein's Ba'athist state, the large public sector and military provided significant employment, but UN sanctions (1990–2003) constrained economic activity and job creation for youth."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1999"
-          type: modelled_estimate
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 1999"
+        type: modelled_estimate
+        reliability: low
       confidence: low
       notes: "ILO modelled estimate; UN sanctions period limited survey capacity; Ba'athist state suppressed independent labor statistics"
 
@@ -407,14 +479,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 15.5% in 2000 (ILO modelled estimate via World Bank WDI). Under Saddam Hussein's Ba'athist state, the large public sector and military provided significant employment, but UN sanctions (1990–2003) constrained economic activity and job creation for youth."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2000"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2000"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate; UN sanctions period limited survey capacity; Ba'athist state suppressed independent labor statistics"
 
@@ -439,14 +517,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 16.0% in 2001 (ILO modelled estimate via World Bank WDI). Under Saddam Hussein's Ba'athist state, the large public sector and military provided significant employment, but UN sanctions (1990–2003) constrained economic activity and job creation for youth."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2001"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2001"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate; UN sanctions period limited survey capacity; Ba'athist state suppressed independent labor statistics"
 
@@ -471,14 +555,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 16.6% in 2002 (ILO modelled estimate via World Bank WDI). Under Saddam Hussein's Ba'athist state, the large public sector and military provided significant employment, but UN sanctions (1990–2003) constrained economic activity and job creation for youth."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2002"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2002"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate; UN sanctions period limited survey capacity; Ba'athist state suppressed independent labor statistics"
 
@@ -503,14 +593,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 17.3% in 2003 (ILO modelled estimate via World Bank WDI). The US-led invasion collapsed the Ba'athist state apparatus, immediately destroying public sector employment for millions. Youth were disproportionately affected by the sudden institutional breakdown."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2003"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2003"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate; UN sanctions period limited survey capacity; Ba'athist state suppressed independent labor statistics"
 
@@ -535,14 +631,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 17.0% in 2004 (ILO modelled estimate via World Bank WDI). Post-invasion reconstruction and the emerging insurgency created a highly uncertain labor market. State sector payrolls resumed under the Coalition Provisional Authority but remained disrupted."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2004"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2004"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate; post-invasion conflict disrupted surveys; reliability lower than normal"
 
@@ -567,14 +669,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 16.9% in 2005 (ILO modelled estimate via World Bank WDI). Post-invasion reconstruction and the emerging insurgency created a highly uncertain labor market. State sector payrolls resumed under the Coalition Provisional Authority but remained disrupted."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2005"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2005"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate; post-invasion conflict disrupted surveys; reliability lower than normal"
 
@@ -599,14 +707,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 16.8% in 2006 (ILO modelled estimate via World Bank WDI). Post-invasion reconstruction and the emerging insurgency created a highly uncertain labor market. State sector payrolls resumed under the Coalition Provisional Authority but remained disrupted."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2006"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2006"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate; post-invasion conflict disrupted surveys; reliability lower than normal"
 
@@ -631,14 +745,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 17.2% in 2007 (ILO modelled estimate via World Bank WDI). Sectarian conflict (2006–2008) and subsequent stabilization shaped the labor market. Oil revenues began funding a recovering public sector, but youth unemployment remained elevated."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2007"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2007"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate; post-invasion conflict disrupted surveys; reliability lower than normal"
 
@@ -663,14 +783,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 16.9% in 2008 (ILO modelled estimate via World Bank WDI). Sectarian conflict (2006–2008) and subsequent stabilization shaped the labor market. Oil revenues began funding a recovering public sector, but youth unemployment remained elevated."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2008"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2008"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate; post-invasion conflict disrupted surveys; reliability lower than normal"
 
@@ -695,14 +821,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 16.8% in 2009 (ILO modelled estimate via World Bank WDI). Sectarian conflict (2006–2008) and subsequent stabilization shaped the labor market. Oil revenues began funding a recovering public sector, but youth unemployment remained elevated."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2009"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2009"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate; post-invasion conflict disrupted surveys; reliability lower than normal"
 
@@ -727,14 +859,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 16.6% in 2010 (ILO modelled estimate via World Bank WDI). Sectarian conflict (2006–2008) and subsequent stabilization shaped the labor market. Oil revenues began funding a recovering public sector, but youth unemployment remained elevated."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2010"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2010"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate; post-invasion conflict disrupted surveys; reliability lower than normal"
 
@@ -759,14 +897,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 16.5% in 2011 (ILO modelled estimate via World Bank WDI). Sectarian conflict (2006–2008) and subsequent stabilization shaped the labor market. Oil revenues began funding a recovering public sector, but youth unemployment remained elevated."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2011"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2011"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate via World Bank WDI SL.UEM.1524.ZS; Iraq has improved survey coverage post-2010 but model-based"
 
@@ -791,14 +935,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 16.1% in 2012 (ILO modelled estimate via World Bank WDI). Relative stability after US withdrawal (2011) enabled modest labor market recovery. However, private sector development lagged, leaving youth dependent on scarce public sector jobs."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2012"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2012"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate via World Bank WDI SL.UEM.1524.ZS; Iraq has improved survey coverage post-2010 but model-based"
 
@@ -823,14 +973,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 17.9% in 2013 (ILO modelled estimate via World Bank WDI). Relative stability after US withdrawal (2011) enabled modest labor market recovery. However, private sector development lagged, leaving youth dependent on scarce public sector jobs."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2013"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2013"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate via World Bank WDI SL.UEM.1524.ZS; Iraq has improved survey coverage post-2010 but model-based"
 
@@ -855,14 +1011,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 19.9% in 2014 (ILO modelled estimate via World Bank WDI). Relative stability after US withdrawal (2011) enabled modest labor market recovery. However, private sector development lagged, leaving youth dependent on scarce public sector jobs."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2014"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2014"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate via World Bank WDI SL.UEM.1524.ZS; Iraq has improved survey coverage post-2010 but model-based"
 
@@ -887,14 +1049,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 21.4% in 2015 (ILO modelled estimate via World Bank WDI). ISIS territorial control (2014–2017) over northern Iraq severely disrupted employment in Mosul, Tikrit, and Fallujah. Mass displacement raised youth unemployment substantially."
       features:
-        - elevated_20_30pct
+      - elevated_20_30pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2015"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2015"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate via World Bank WDI SL.UEM.1524.ZS; Iraq has improved survey coverage post-2010 but model-based"
 
@@ -919,14 +1087,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 22.4% in 2016 (ILO modelled estimate via World Bank WDI). ISIS territorial control (2014–2017) over northern Iraq severely disrupted employment in Mosul, Tikrit, and Fallujah. Mass displacement raised youth unemployment substantially."
       features:
-        - elevated_20_30pct
+      - elevated_20_30pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2016"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2016"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate via World Bank WDI SL.UEM.1524.ZS; Iraq has improved survey coverage post-2010 but model-based"
 
@@ -951,14 +1125,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 25.3% in 2017 (ILO modelled estimate via World Bank WDI). ISIS territorial control (2014–2017) over northern Iraq severely disrupted employment in Mosul, Tikrit, and Fallujah. Mass displacement raised youth unemployment substantially."
       features:
-        - elevated_20_30pct
+      - elevated_20_30pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2017"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2017"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate via World Bank WDI SL.UEM.1524.ZS; Iraq has improved survey coverage post-2010 but model-based"
 
@@ -983,14 +1163,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 27.3% in 2018 (ILO modelled estimate via World Bank WDI). Post-ISIS reconstruction began but youth unemployment continued rising as displaced populations returned to devastated cities. Protest movement (October 2019) reflected youth economic grievances."
       features:
-        - elevated_20_30pct
+      - elevated_20_30pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2018"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2018"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate via World Bank WDI SL.UEM.1524.ZS; Iraq has improved survey coverage post-2010 but model-based"
 
@@ -1015,14 +1201,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 29.8% in 2019 (ILO modelled estimate via World Bank WDI). Post-ISIS reconstruction began but youth unemployment continued rising as displaced populations returned to devastated cities. Protest movement (October 2019) reflected youth economic grievances."
       features:
-        - elevated_20_30pct
+      - elevated_20_30pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2019"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2019"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate via World Bank WDI SL.UEM.1524.ZS; Iraq has improved survey coverage post-2010 but model-based"
 
@@ -1047,14 +1239,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 34.5% in 2020 (ILO modelled estimate via World Bank WDI). COVID-19 pandemic and oil price crash combined to drive youth unemployment sharply higher. Iraq's oil-dependent economy provided few alternatives when oil revenues collapsed in 2020."
       features:
-        - high_30_40pct
+      - high_30_40pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2020"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2020"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate via World Bank WDI SL.UEM.1524.ZS; Iraq has improved survey coverage post-2010 but model-based"
 
@@ -1079,14 +1277,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 35.7% in 2021 (ILO modelled estimate via World Bank WDI). COVID-19 pandemic and oil price crash combined to drive youth unemployment sharply higher. Iraq's oil-dependent economy provided few alternatives when oil revenues collapsed in 2020."
       features:
-        - high_30_40pct
+      - high_30_40pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2021"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2021"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate via World Bank WDI SL.UEM.1524.ZS; Iraq has improved survey coverage post-2010 but model-based"
 
@@ -1111,14 +1315,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 31.8% in 2022 (ILO modelled estimate via World Bank WDI). Gradual recovery as oil revenues rebounded, but structural youth unemployment persisted. Iraq's economy remains heavily dependent on public sector hiring with limited private sector job creation."
       features:
-        - high_30_40pct
+      - high_30_40pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2022"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2022"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate via World Bank WDI SL.UEM.1524.ZS; Iraq has improved survey coverage post-2010 but model-based"
 
@@ -1143,14 +1353,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 31.5% in 2023 (ILO modelled estimate via World Bank WDI). Gradual recovery as oil revenues rebounded, but structural youth unemployment persisted. Iraq's economy remains heavily dependent on public sector hiring with limited private sector job creation."
       features:
-        - high_30_40pct
+      - high_30_40pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2023"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2023"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate via World Bank WDI SL.UEM.1524.ZS; Iraq has improved survey coverage post-2010 but model-based"
 
@@ -1175,14 +1391,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 31.7% in 2024 (ILO modelled estimate via World Bank WDI). Gradual recovery as oil revenues rebounded, but structural youth unemployment persisted. Iraq's economy remains heavily dependent on public sector hiring with limited private sector job creation."
       features:
-        - high_30_40pct
+      - high_30_40pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2024"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2024"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate via World Bank WDI SL.UEM.1524.ZS; Iraq has improved survey coverage post-2010 but model-based"
 
@@ -1207,21 +1429,27 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment (ages 15–24) was estimated at 32.0% in 2025 (ILO modelled estimate via World Bank WDI). Gradual recovery as oil revenues rebounded, but structural youth unemployment persisted. Iraq's economy remains heavily dependent on public sector hiring with limited private sector job creation."
       features:
-        - high_30_40pct
+      - high_30_40pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2025"
-          type: modelled_estimate
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2025"
+        type: modelled_estimate
+        reliability: medium
       confidence: medium
       notes: "ILO modelled estimate via World Bank WDI SL.UEM.1524.ZS; Iraq has improved survey coverage post-2010 but model-based"
 
   2026:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_labor_force_age_15_24
       formula: "(youth_unemployed / youth_labor_force) * 100"
       source:
@@ -1231,7 +1459,7 @@ years:
       reliability: low
       components:
         youth_labor_force_survey_modelled:
-          value: null
+          value:
           unit: pct_labor_force_age_15_24
           role: numerator
           source:
@@ -1239,13 +1467,19 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No ILO modelled estimate available for 2026. World Bank WDI series SL.UEM.1524.ZS has no value for Iraq in this year."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2026"
-          type: modelled_estimate
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS (ILO modelled), Iraq, 2026"
+        type: modelled_estimate
+        reliability: low
       confidence: low
       notes: "ILO modelled estimate via World Bank WDI SL.UEM.1524.ZS; Iraq has improved survey coverage post-2010 but model-based"

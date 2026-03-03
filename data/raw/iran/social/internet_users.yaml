@@ -5,7 +5,7 @@ years:
   1960:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -15,7 +15,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -23,24 +23,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1960"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1960"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1961:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -50,7 +58,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -58,24 +66,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1961"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1961"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1962:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -85,7 +101,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -93,24 +109,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1962"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1962"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1963:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -120,7 +144,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -128,24 +152,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1963"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1963"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1964:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -155,7 +187,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -163,24 +195,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1964"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1964"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1965:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -190,7 +230,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -198,24 +238,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1965"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1965"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1966:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -225,7 +273,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -233,24 +281,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1966"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1966"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1967:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -260,7 +316,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -268,24 +324,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1967"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1967"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1968:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -295,7 +359,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -303,24 +367,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1968"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1968"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1969:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -330,7 +402,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -338,24 +410,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1969"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1969"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1970:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -365,7 +445,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -373,24 +453,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1970"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1970"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1971:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -400,7 +488,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -408,24 +496,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1971"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1971"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1972:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -435,7 +531,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -443,24 +539,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1972"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1972"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1973:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -470,7 +574,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -478,24 +582,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1973"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1973"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1974:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -505,7 +617,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -513,24 +625,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1974"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1974"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1975:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -540,7 +660,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -548,24 +668,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1975"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1975"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1976:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -575,7 +703,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -583,24 +711,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1976"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1976"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1977:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -610,7 +746,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -618,24 +754,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1977"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1977"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1978:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -645,7 +789,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -653,24 +797,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1978"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1978"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1979:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -680,7 +832,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -688,24 +840,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1979"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1979"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1980:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -715,7 +875,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -723,24 +883,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1980"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1980"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1981:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -750,7 +918,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -758,24 +926,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1981"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1981"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1982:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -785,7 +961,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -793,24 +969,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1982"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1982"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1983:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -820,7 +1004,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -828,24 +1012,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1983"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1983"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1984:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -855,7 +1047,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -863,24 +1055,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1984"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1984"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1985:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -890,7 +1090,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -898,24 +1098,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1985"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1985"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1986:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -925,7 +1133,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -933,24 +1141,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1986"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1986"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1987:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -960,7 +1176,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -968,24 +1184,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1987"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1987"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1988:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -995,7 +1219,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1003,24 +1227,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1988"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1988"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1989:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -1030,7 +1262,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1038,17 +1270,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1989"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1989"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1073,24 +1313,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Minimal internet penetration."
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1990"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1990"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1991:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -1100,7 +1348,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1108,24 +1356,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1991"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1991"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1992:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -1135,7 +1391,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1143,24 +1399,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1992"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1992"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   1993:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -1170,7 +1434,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -1178,17 +1442,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1993"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1993"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1213,17 +1485,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Minimal internet penetration. Internet introduced to Iran; near-zero penetration."
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1994"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1994"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1248,17 +1528,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Minimal internet penetration."
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1995"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1995"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1283,17 +1571,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Minimal internet penetration."
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1996"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1996"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1318,17 +1614,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Minimal internet penetration."
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1997"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1997"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1353,17 +1657,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Minimal internet penetration."
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1998"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1998"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1388,17 +1700,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Minimal internet penetration."
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1999"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 1999"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1423,17 +1743,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Minimal internet penetration. Below 1%; internet available mainly to universities and state institutions."
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2000"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2000"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1458,17 +1786,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Minimal internet penetration."
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2001"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2001"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1493,17 +1829,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Minimal internet penetration."
       features:
-        - minimal_lt_5pct
+      - minimal_lt_5pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2002"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2002"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1528,17 +1872,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Very low internet penetration."
       features:
-        - very_low_5_20pct
+      - very_low_5_20pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2003"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2003"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1563,17 +1915,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Very low internet penetration."
       features:
-        - very_low_5_20pct
+      - very_low_5_20pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2004"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2004"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1598,17 +1958,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Very low internet penetration."
       features:
-        - very_low_5_20pct
+      - very_low_5_20pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2005"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2005"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1633,17 +2001,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Very low internet penetration."
       features:
-        - very_low_5_20pct
+      - very_low_5_20pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2006"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2006"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1668,17 +2044,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Very low internet penetration."
       features:
-        - very_low_5_20pct
+      - very_low_5_20pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2007"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2007"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1703,17 +2087,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Very low internet penetration."
       features:
-        - very_low_5_20pct
+      - very_low_5_20pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2008"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2008"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1738,17 +2130,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Very low internet penetration. 13.8%; Green Movement uses internet/social media for protest coordination."
       features:
-        - very_low_5_20pct
+      - very_low_5_20pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2009"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2009"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1773,17 +2173,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Very low internet penetration."
       features:
-        - very_low_5_20pct
+      - very_low_5_20pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2010"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2010"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1808,17 +2216,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Very low internet penetration."
       features:
-        - very_low_5_20pct
+      - very_low_5_20pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2011"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2011"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1843,17 +2259,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low internet penetration. 22.7%; state responds with VPN restrictions and content filtering."
       features:
-        - low_20_40pct
+      - low_20_40pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2012"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2012"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1878,17 +2302,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low internet penetration."
       features:
-        - low_20_40pct
+      - low_20_40pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2013"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2013"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1913,17 +2345,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Low internet penetration."
       features:
-        - low_20_40pct
+      - low_20_40pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2014"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2014"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1948,17 +2388,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Moderate internet penetration."
       features:
-        - moderate_40_60pct
+      - moderate_40_60pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2015"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2015"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -1983,17 +2431,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Moderate internet penetration."
       features:
-        - moderate_40_60pct
+      - moderate_40_60pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2016"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2016"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -2018,17 +2474,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "High internet penetration."
       features:
-        - high_60_80pct
+      - high_60_80pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2017"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2017"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -2053,17 +2517,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "High internet penetration."
       features:
-        - high_60_80pct
+      - high_60_80pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2018"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2018"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -2088,17 +2560,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "High internet penetration. November 2019 protests: government shuts down internet entirely for 5 days."
       features:
-        - high_60_80pct
+      - high_60_80pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2019"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2019"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -2123,17 +2603,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "High internet penetration."
       features:
-        - high_60_80pct
+      - high_60_80pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2020"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2020"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -2158,17 +2646,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "High internet penetration."
       features:
-        - high_60_80pct
+      - high_60_80pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2021"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2021"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -2193,17 +2689,25 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "High internet penetration. 79%; one of highest penetration rates in region but heavily filtered."
       features:
-        - high_60_80pct
+      - high_60_80pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2022"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2022"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
@@ -2228,24 +2732,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "High internet penetration. 79.6%; near saturation with heavy censorship of social media, VPNs widely used."
       features:
-        - high_60_80pct
+      - high_60_80pct
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2023"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2023"
+        type: official_statistics
+        reliability: high
       confidence: high
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   2024:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -2255,7 +2767,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -2263,24 +2775,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2024"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2024"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   2025:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -2290,7 +2810,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -2298,24 +2818,32 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2025"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2025"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"
 
   2026:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_population
       formula: "(internet_users_count / population) * 100"
       source:
@@ -2325,7 +2853,7 @@ years:
       reliability: low
       components:
         internet_users_count_estimated:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -2333,16 +2861,24 @@ years:
             url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         population:
           shared_ref: population
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No internet users data available."
       features:
-        - missing
+      - missing
       sources:
-        - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2026"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, IT.NET.USER.ZS, Iran, 2026"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "IT.NET.USER.NB (absolute count) not available via API; count estimated from percentage and population. Iran has high internet penetration but state filtering (NIN — National Information Network) and VPN use complicate figures; government has shut internet during protests (Nov 2019)"

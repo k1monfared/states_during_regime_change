@@ -5,41 +5,50 @@
 import { loadAll, loadCountryRaw, loadDefinitions } from "./data.js";
 import { encodeState } from "./state.js";
 
-const DIMENSION_ORDER = ["political", "economic", "international", "transparency"];
-const DIMENSION_LABELS = {
-  political: "Political",
-  economic: "Economic",
-  international: "International",
-  transparency: "Transparency",
+// Dimension order and labels derived from definitions.json at init time.
+// Fallback values used before definitions load (or if load fails).
+let DIMENSION_ORDER = ["political", "economic", "international", "transparency", "population_mobility", "social"];
+let DIMENSION_LABELS = {
+  political: "Political", economic: "Economic", international: "International",
+  transparency: "Transparency", population_mobility: "Population Mobility", social: "Social & Human Dev.",
 };
-const INDICATOR_LABELS = {
-  territorial_control: "Territorial Control",
-  political_violence: "Political Violence",
-  institutional_functioning: "Institutional Functioning",
-  civil_liberties: "Civil Liberties",
-  elite_cohesion: "Elite Cohesion",
-  gdp_per_capita: "GDP per Capita",
-  inflation: "Inflation",
-  unemployment: "Unemployment",
-  trade_openness: "Trade Openness",
-  fiscal_health: "Fiscal Health",
-  sanctions: "Sanctions",
-  diplomatic_integration: "Diplomatic Integration",
-  foreign_military: "Foreign Military",
-  fdi: "FDI",
-  refugee_flows: "Refugee Flows",
-  budget_transparency: "Budget Transparency",
-  press_freedom: "Press Freedom",
-  statistical_transparency: "Statistical Transparency",
-  legal_transparency: "Legal Transparency",
-  extractive_transparency: "Extractive Transparency",
-};
+let INDICATOR_LABELS = {}; // populated from definitions.json
+
+function _buildFromDefinitions(defs) {
+  const dimSet = new Set();
+  const dimLabels = {};
+  const indLabels = {};
+  for (const def of Object.values(defs)) {
+    const dim = def.dimension;
+    if (!dim) continue;
+    dimSet.add(dim);
+    // Dimension label: capitalise and replace underscores
+    if (!dimLabels[dim]) {
+      dimLabels[dim] = dim === "population_mobility" ? "Population Mobility"
+        : dim === "social" ? "Social & Human Dev."
+        : dim.charAt(0).toUpperCase() + dim.slice(1);
+    }
+    const slug = (def.id ?? "").split("/")[1];
+    if (slug) indLabels[slug] = def.label ?? slug.replace(/_/g, " ");
+  }
+  // Preserve preferred dimension order where possible
+  const preferred = ["political", "economic", "international", "transparency", "population_mobility", "social"];
+  const sorted = [...preferred.filter((d) => dimSet.has(d)), ...[...dimSet].filter((d) => !preferred.includes(d))];
+  DIMENSION_ORDER = sorted;
+  DIMENSION_LABELS = { ...dimLabels };
+  INDICATOR_LABELS = { ...indLabels };
+}
 
 let _allData = null;
 let _selectedCountry = null;
 
 export async function init() {
   _allData = await loadAll();
+  // Build dimension/indicator labels dynamically from definitions
+  try {
+    const defs = await loadDefinitions();
+    _buildFromDefinitions(defs);
+  } catch (_e) { /* fallback constants remain */ }
   _renderNav();
 
   // Select from URL hash ?country=iraq
@@ -235,11 +244,13 @@ async function selectCountry(id) {
           defBlock += `</div>`;
         }
 
+        const methAnchor = `ind-${dim}-${indId}`;
         html += `
           <div class="indicator-section">
             <button class="indicator-toggle" data-ind="${indId}">
               <span class="ind-name">${indLabel}</span>
               <span class="ind-coverage">${coverage}/${yearKeys.length} years</span>
+              <a href="methodology.html#${methAnchor}" target="_blank" rel="noopener" class="info-link" title="View in methodology" onclick="event.stopPropagation()">ℹ</a>
               <span class="toggle-icon">▶</span>
             </button>
             <div class="indicator-body" data-ind="${indId}">

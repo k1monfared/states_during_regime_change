@@ -15,7 +15,7 @@ years:
       reliability: medium
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -23,8 +23,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -32,14 +34,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment in Syria was 16.3% in 2009, relatively low by regional standards but elevated compared to advanced economies. This is an ILO modeled estimate; actual survey data for Syria is limited. The pre-conflict economy was growing under Assad's economic liberalization, but youth employment remained a structural challenge with significant informal employment and underemployment. Youth bulge demographics compounded pressure on the labor market."
       features:
-        - moderate_10_20pct
+      - moderate_10_20pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2009"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2009"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "ILO modeled estimate; actual household survey data limited for Syria."
   2010:
@@ -55,7 +63,7 @@ years:
       reliability: medium
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -63,8 +71,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -72,14 +82,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment rose to 20.5% in 2010, crossing into the elevated range. The 2007-2010 drought severely affected rural areas and pushed young people toward urban areas where formal employment opportunities were limited. Youth unemployment was a widely cited grievance feeding into the 2011 uprising. The ILO model captures structural unemployment trends but may understate informal sector exclusion."
       features:
-        - elevated_20_30pct
+      - elevated_20_30pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2010"
-          type: official_statistics
-          reliability: medium
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2010"
+        type: official_statistics
+        reliability: medium
       confidence: medium
       notes: "Drought-driven rural-urban migration increased urban youth unemployment."
   2011:
@@ -95,7 +111,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -103,8 +119,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -112,14 +130,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment edged slightly higher at 21.1% in the uprising year of 2011. The ILO modeled estimate likely does not capture the full employment shock of the civil war onset. Many youth joined armed factions — both pro-regime and opposition — which removes them from conventional labor force statistics. Conflict-driven displacement beginning to affect data reliability."
       features:
-        - elevated_20_30pct
+      - elevated_20_30pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2011"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2011"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "ILO model does not capture conflict-specific labor market disruptions; youth joining armed groups not reflected."
   2012:
@@ -135,7 +159,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -143,8 +167,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -152,14 +178,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment surged to 33.8% in 2012 as the civil war devastated the formal economy. Businesses closed, manufacturing halted, and tourism collapsed entirely. Young people faced a choice between flight, armed service, or destitution. The ILO modeled estimate likely understates the true employment crisis as it cannot account for the full collapse of the formal labor market."
       features:
-        - high_30_40pct
+      - high_30_40pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2012"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2012"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Formal economy largely collapsed; modeled estimate cannot fully capture wartime labor market."
   2013:
@@ -175,7 +207,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -183,8 +215,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -192,14 +226,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment at 35.4%; continued economic collapse and mass displacement. Large numbers of young Syrians have left the country as refugees, which paradoxically reduces the denominator in ILO estimates. The actual youth employment situation inside Syria is catastrophic and unmeasurable with conventional tools."
       features:
-        - high_30_40pct
+      - high_30_40pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2013"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2013"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Massive refugee outflows affect both numerator and denominator."
   2014:
@@ -215,7 +255,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -223,8 +263,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -232,14 +274,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment near peak at 36.0%; ISIS expansion captured large territories including cities with substantial youth populations. Education and labor market institutions effectively non-functional in conflict zones. Modeled estimate should be treated with significant caution."
       features:
-        - high_30_40pct
+      - high_30_40pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2014"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2014"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "ISIS territorial expansion disrupts labor market data across large territories."
   2015:
@@ -255,7 +303,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -263,8 +311,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -272,14 +322,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment modestly lower at 34.8% as massive refugee exodus removes unemployed youth from denominator population. Peak refugee crisis year with over a million Syrians (predominantly working-age) reaching Europe alone. The apparent stabilization of the modeled rate likely reflects compositional changes in the measured population rather than improved employment conditions."
       features:
-        - high_30_40pct
+      - high_30_40pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2015"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2015"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Refugee outflows may be suppressing measured rate; conditions inside Syria remain catastrophic."
   2016:
@@ -295,7 +351,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -303,8 +359,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -312,16 +370,22 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment at 33.6%; regime recaptures Aleppo in late 2016. Informal war economy — arms dealing, smuggling, day labor for armed groups — absorbs some youth but is not captured in formal unemployment statistics. True economic inclusion of youth remains negligible."
       features:
-        - high_30_40pct
+      - high_30_40pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2016"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2016"
+        type: official_statistics
+        reliability: low
       confidence: low
-      notes: null
+      notes:
   2017:
     data_status: complete
     quantitative:
@@ -335,7 +399,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -343,8 +407,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -352,16 +418,22 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment at 32.9%; some modest recovery in regime-controlled areas as security improves following Aleppo reconquest. However, structural economic devastation persists. ISIS losing territory reduces one dimension of conflict but labor markets remain severely disrupted throughout Syria."
       features:
-        - high_30_40pct
+      - high_30_40pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2017"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2017"
+        type: official_statistics
+        reliability: low
       confidence: low
-      notes: null
+      notes:
   2018:
     data_status: complete
     quantitative:
@@ -375,7 +447,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -383,8 +455,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -392,16 +466,22 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment edging lower at 32.4% as regime reconsolidates southern Syria and some reconstruction begins in Damascus and Aleppo. Informal employment expanding but formal sector remains devastated. ILO modeled estimates have large confidence intervals given absent survey data."
       features:
-        - high_30_40pct
+      - high_30_40pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2018"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2018"
+        type: official_statistics
+        reliability: low
       confidence: low
-      notes: null
+      notes:
   2019:
     data_status: complete
     quantitative:
@@ -415,7 +495,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -423,8 +503,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -432,16 +514,22 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment at 32.1%; regime controls most populated areas though Idlib remains contested. Economic activity remains severely depressed; Lebanese financial crisis in late 2019 adding pressure on cross-border economic activity. Caesar Act sanctions pending (effective June 2020) chilling any investment."
       features:
-        - high_30_40pct
+      - high_30_40pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2019"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2019"
+        type: official_statistics
+        reliability: low
       confidence: low
-      notes: null
+      notes:
   2020:
     data_status: complete
     quantitative:
@@ -455,7 +543,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -463,8 +551,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -472,14 +562,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment surged back to 36.3% in 2020. Caesar Act sanctions imposed June 2020 severely restricted economic activity. COVID-19 pandemic compounded the crisis. Currency collapse accelerated. Young Syrians face a dire situation with limited formal employment prospects and restricted emigration options compared to the 2015-2016 peak crisis."
       features:
-        - high_30_40pct
+      - high_30_40pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2020"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2020"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Caesar Act sanctions and COVID-19 compound employment crisis."
   2021:
@@ -495,7 +591,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -503,8 +599,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -512,16 +610,22 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment at 34.6%; continued economic stagnation under sanctions. Some normalization of economic activity compared to 2020 COVID shock. Lebanon's financial collapse severely impacted Syrian workers who had relied on cross-border employment."
       features:
-        - high_30_40pct
+      - high_30_40pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2021"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2021"
+        type: official_statistics
+        reliability: low
       confidence: low
-      notes: null
+      notes:
   2022:
     data_status: complete
     quantitative:
@@ -535,7 +639,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -543,8 +647,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -552,16 +658,22 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment at 32.0%; modest improvement per ILO model. Arab normalization process beginning; Syria readmitted to Arab League in May 2023. Very limited formal economy recovery. ILO model confidence very low given absence of survey data and ongoing displacement."
       features:
-        - high_30_40pct
+      - high_30_40pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2022"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2022"
+        type: official_statistics
+        reliability: low
       confidence: low
-      notes: null
+      notes:
   2023:
     data_status: complete
     quantitative:
@@ -575,7 +687,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -583,8 +695,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -592,14 +706,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment at 32.3%; earthquake in February 2023 caused massive damage in northwest Syria, further disrupting economic activity. ILO modeled estimate continues to carry very large uncertainty. Regime readmitted to Arab League; limited economic opening has minimal near-term impact on youth employment."
       features:
-        - high_30_40pct
+      - high_30_40pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2023"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2023"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Earthquake February 2023 adds additional employment shock."
   2024:
@@ -615,7 +735,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -623,8 +743,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -632,14 +754,20 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Youth unemployment at 32.8%; the Assad regime collapsed in December 2024 following the HTS-led offensive. The political transition creates extreme uncertainty about economic conditions. The ILO modeled estimate predates the regime change and should be treated with caution. Post-transition, youth employment will depend heavily on reconstruction financing and the lifting of sanctions."
       features:
-        - high_30_40pct
+      - high_30_40pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2024"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2024"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Estimate predates December 2024 regime change; post-transition economic disruption not captured."
   2025:
@@ -655,7 +783,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -663,8 +791,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -672,20 +802,26 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "ILO modeled estimate of 33.1% for 2025, but reliability is very low. Post-regime transition period; new governing authority attempting to establish economic governance. Sanction relief discussions ongoing; Gulf state pledges and international engagement may improve medium-term prospects but immediate youth employment impact is minimal."
       features:
-        - high_30_40pct
+      - high_30_40pct
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2025"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, ILO modeled estimate, Syria, 2025"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "ILO modeled projection; year not yet complete; post-transition conditions not fully incorporated."
   2026:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_youth_labor_force
       formula: "(youth_unemployed / youth_labor_force) * 100"
       source:
@@ -695,7 +831,7 @@ years:
       reliability: low
       components:
         youth_unemployed:
-          value: null
+          value:
           unit: persons
           role: numerator
           source:
@@ -703,8 +839,10 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         youth_labor_force:
-          value: null
+          value:
           unit: persons
           role: denominator
           source:
@@ -712,12 +850,18 @@ years:
             url: "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available; year not yet complete."
       features: []
       sources:
-        - citation: "World Bank WDI, SL.UEM.1524.ZS, Syria, 2026 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, SL.UEM.1524.ZS, Syria, 2026 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Year not yet complete."

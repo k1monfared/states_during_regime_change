@@ -5,7 +5,7 @@ years:
   1986:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -15,7 +15,7 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -23,11 +23,15 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
-          value: null
+          value:
           unit: pct_gdp
           role: sub_component
           source:
@@ -35,20 +39,25 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No health expenditure data for 1986."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Total includes NGO and donor spending; public component very small; Soviet occupation / civil war period"
   1987:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -58,7 +67,7 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -66,11 +75,15 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
-          value: null
+          value:
           unit: pct_gdp
           role: sub_component
           source:
@@ -78,20 +91,25 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No health expenditure data for 1987."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Total includes NGO and donor spending; public component very small; Soviet occupation / civil war period"
   1988:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -101,7 +119,7 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -109,11 +127,15 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
-          value: null
+          value:
           unit: pct_gdp
           role: sub_component
           source:
@@ -121,20 +143,25 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No health expenditure data for 1988."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Total includes NGO and donor spending; public component very small; Soviet occupation / civil war period"
   1989:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -144,7 +171,7 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -152,11 +179,15 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
-          value: null
+          value:
           unit: pct_gdp
           role: sub_component
           source:
@@ -164,20 +195,25 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No health expenditure data for 1989."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Total includes NGO and donor spending; public component very small; Soviet occupation / civil war period"
   1990:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -187,7 +223,7 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -195,11 +231,15 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
-          value: null
+          value:
           unit: pct_gdp
           role: sub_component
           source:
@@ -207,20 +247,25 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No health expenditure data for 1990."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Total includes NGO and donor spending; public component very small; Soviet occupation / civil war period"
   1991:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -230,7 +275,7 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -238,11 +283,15 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
-          value: null
+          value:
           unit: pct_gdp
           role: sub_component
           source:
@@ -250,20 +299,25 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No health expenditure data for 1991."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Total includes NGO and donor spending; public component very small; Soviet occupation / civil war period"
   1992:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -273,7 +327,7 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -281,11 +335,15 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
-          value: null
+          value:
           unit: pct_gdp
           role: sub_component
           source:
@@ -293,20 +351,25 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No health expenditure data for 1992."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Total includes NGO and donor spending; public component very small; Mujahideen civil war period"
   1993:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -316,7 +379,7 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -324,11 +387,15 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
-          value: null
+          value:
           unit: pct_gdp
           role: sub_component
           source:
@@ -336,20 +403,25 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No health expenditure data for 1993."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Total includes NGO and donor spending; public component very small; Mujahideen civil war period"
   1994:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -359,7 +431,7 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -367,11 +439,15 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
-          value: null
+          value:
           unit: pct_gdp
           role: sub_component
           source:
@@ -379,20 +455,25 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No health expenditure data for 1994."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Total includes NGO and donor spending; public component very small; Mujahideen civil war period"
   1995:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -402,7 +483,7 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -410,11 +491,15 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
-          value: null
+          value:
           unit: pct_gdp
           role: sub_component
           source:
@@ -422,20 +507,25 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No health expenditure data for 1995."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Total includes NGO and donor spending; public component very small; Mujahideen civil war period"
   1996:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -445,7 +535,7 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -453,11 +543,15 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
-          value: null
+          value:
           unit: pct_gdp
           role: sub_component
           source:
@@ -465,20 +559,25 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No health expenditure data for 1996."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Total includes NGO and donor spending; public component very small; Taliban first emirate (1996-2001)"
   1997:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -488,7 +587,7 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -496,11 +595,15 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
-          value: null
+          value:
           unit: pct_gdp
           role: sub_component
           source:
@@ -508,20 +611,25 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No health expenditure data for 1997."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Total includes NGO and donor spending; public component very small; Taliban first emirate (1996-2001)"
   1998:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -531,7 +639,7 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -539,11 +647,15 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
-          value: null
+          value:
           unit: pct_gdp
           role: sub_component
           source:
@@ -551,20 +663,25 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No health expenditure data for 1998."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Total includes NGO and donor spending; public component very small; Taliban first emirate (1996-2001)"
   1999:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -574,7 +691,7 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -582,11 +699,15 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
-          value: null
+          value:
           unit: pct_gdp
           role: sub_component
           source:
@@ -594,20 +715,25 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No health expenditure data for 1999."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Total includes NGO and donor spending; public component very small; Taliban first emirate (1996-2001)"
   2000:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -617,7 +743,7 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -625,11 +751,15 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
-          value: null
+          value:
           unit: pct_gdp
           role: sub_component
           source:
@@ -637,20 +767,25 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No health expenditure data for 2000."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Total includes NGO and donor spending; public component very small; Taliban first emirate (1996-2001)"
   2001:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -660,7 +795,7 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -668,11 +803,15 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
-          value: null
+          value:
           unit: pct_gdp
           role: sub_component
           source:
@@ -680,14 +819,19 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No health expenditure data for 2001."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Total includes NGO and donor spending; public component very small; Taliban first emirate (1996-2001)"
   2002:
@@ -703,7 +847,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -711,9 +855,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.0841806
           unit: pct_gdp
@@ -723,14 +871,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Current health expenditure was 9.4% of GDP in 2002. The high ratio partly reflects the very low GDP base and the large share of donor-funded health spending through NGOs and UN agencies, not government budget."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; Post-2001 reconstruction"
   2003:
@@ -746,7 +900,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -754,9 +908,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.650963
           unit: pct_gdp
@@ -766,14 +924,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Current health expenditure was 8.9% of GDP in 2003. The high ratio partly reflects the very low GDP base and the large share of donor-funded health spending through NGOs and UN agencies, not government budget."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; Post-2001 reconstruction"
   2004:
@@ -789,7 +953,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -797,9 +961,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.542926
           unit: pct_gdp
@@ -809,14 +977,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Current health expenditure was 9.8% of GDP in 2004. The high ratio partly reflects the very low GDP base and the large share of donor-funded health spending through NGOs and UN agencies, not government budget."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; US occupation / Islamic Republic period"
   2005:
@@ -832,7 +1006,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -840,9 +1014,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.529184
           unit: pct_gdp
@@ -852,14 +1030,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Current health expenditure was 9.9% of GDP in 2005. The high ratio partly reflects the very low GDP base and the large share of donor-funded health spending through NGOs and UN agencies, not government budget."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; US occupation / Islamic Republic period"
   2006:
@@ -875,7 +1059,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -883,9 +1067,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.49784
           unit: pct_gdp
@@ -895,14 +1083,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Current health expenditure was 10.6% of GDP in 2006. The high ratio partly reflects the very low GDP base and the large share of donor-funded health spending through NGOs and UN agencies, not government budget."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; US occupation / Islamic Republic period"
   2007:
@@ -918,7 +1112,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -926,9 +1120,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.559948
           unit: pct_gdp
@@ -938,14 +1136,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Current health expenditure was 9.9% of GDP in 2007. The high ratio partly reflects the very low GDP base and the large share of donor-funded health spending through NGOs and UN agencies, not government budget."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; US occupation / Islamic Republic period"
   2008:
@@ -961,7 +1165,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -969,9 +1173,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.6278
           unit: pct_gdp
@@ -981,14 +1189,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Current health expenditure was 10.3% of GDP in 2008. The high ratio partly reflects the very low GDP base and the large share of donor-funded health spending through NGOs and UN agencies, not government budget."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; US occupation / Islamic Republic period"
   2009:
@@ -1004,7 +1218,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -1012,9 +1226,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.531904
           unit: pct_gdp
@@ -1024,14 +1242,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Current health expenditure was 9.8% of GDP in 2009. The high ratio partly reflects the very low GDP base and the large share of donor-funded health spending through NGOs and UN agencies, not government budget."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; US occupation / Islamic Republic period"
   2010:
@@ -1047,7 +1271,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -1055,9 +1279,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.469157
           unit: pct_gdp
@@ -1067,14 +1295,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Current health expenditure was 8.6% of GDP in 2010. The high ratio partly reflects the very low GDP base and the large share of donor-funded health spending through NGOs and UN agencies, not government budget."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; US occupation / Islamic Republic period"
   2011:
@@ -1090,7 +1324,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -1098,9 +1332,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.48
           unit: pct_gdp
@@ -1110,14 +1348,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure was 8.6% of GDP in 2011. Afghanistan was heavily dependent on donor funding for health services; the public health component was less than 1% of GDP despite total health spending appearing high relative to GDP."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; US occupation / Islamic Republic period"
   2012:
@@ -1133,7 +1377,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -1141,9 +1385,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.342887
           unit: pct_gdp
@@ -1153,14 +1401,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure was 7.9% of GDP in 2012. Afghanistan was heavily dependent on donor funding for health services; the public health component was less than 1% of GDP despite total health spending appearing high relative to GDP."
       features:
-        - moderate_5_8pct
+      - moderate_5_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; US occupation / Islamic Republic period"
   2013:
@@ -1176,7 +1430,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -1184,9 +1438,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.443359
           unit: pct_gdp
@@ -1196,14 +1454,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure was 8.8% of GDP in 2013. Afghanistan was heavily dependent on donor funding for health services; the public health component was less than 1% of GDP despite total health spending appearing high relative to GDP."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; US occupation / Islamic Republic period"
   2014:
@@ -1219,7 +1483,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -1227,9 +1491,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.472657
           unit: pct_gdp
@@ -1239,14 +1507,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure was 9.5% of GDP in 2014. Afghanistan was heavily dependent on donor funding for health services; the public health component was less than 1% of GDP despite total health spending appearing high relative to GDP."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; US occupation / Islamic Republic period"
   2015:
@@ -1262,7 +1536,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -1270,9 +1544,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.522673
           unit: pct_gdp
@@ -1282,14 +1560,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure was 10.1% of GDP in 2015. Afghanistan was heavily dependent on donor funding for health services; the public health component was less than 1% of GDP despite total health spending appearing high relative to GDP."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; US occupation / Islamic Republic period"
   2016:
@@ -1305,7 +1589,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -1313,9 +1597,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.60013
           unit: pct_gdp
@@ -1325,14 +1613,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure was 11.8% of GDP in 2016. Afghanistan was heavily dependent on donor funding for health services; the public health component was less than 1% of GDP despite total health spending appearing high relative to GDP."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; US occupation / Islamic Republic period"
   2017:
@@ -1348,7 +1642,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -1356,9 +1650,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.643134
           unit: pct_gdp
@@ -1368,14 +1666,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure was 12.6% of GDP in 2017. Afghanistan was heavily dependent on donor funding for health services; the public health component was less than 1% of GDP despite total health spending appearing high relative to GDP."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; US occupation / Islamic Republic period"
   2018:
@@ -1391,7 +1695,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -1399,9 +1703,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.552396
           unit: pct_gdp
@@ -1411,14 +1719,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure was 14.2% of GDP in 2018. Afghanistan was heavily dependent on donor funding for health services; the public health component was less than 1% of GDP despite total health spending appearing high relative to GDP."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; US occupation / Islamic Republic period"
   2019:
@@ -1434,7 +1748,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -1442,9 +1756,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.497056
           unit: pct_gdp
@@ -1454,14 +1772,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure was 14.8% of GDP in 2019. Afghanistan was heavily dependent on donor funding for health services; the public health component was less than 1% of GDP despite total health spending appearing high relative to GDP."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; US occupation / Islamic Republic period"
   2020:
@@ -1477,7 +1801,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -1485,9 +1809,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 1.18621
           unit: pct_gdp
@@ -1497,14 +1825,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure was 15.5% of GDP in 2020. Afghanistan was heavily dependent on donor funding for health services; the public health component was less than 1% of GDP despite total health spending appearing high relative to GDP."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; US occupation / Islamic Republic period"
   2021:
@@ -1520,7 +1854,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -1528,9 +1862,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.710364
           unit: pct_gdp
@@ -1540,14 +1878,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure was 21.5% of GDP in 2021. Afghanistan was heavily dependent on donor funding for health services; the public health component was less than 1% of GDP despite total health spending appearing high relative to GDP."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; US occupation / Islamic Republic period"
   2022:
@@ -1563,7 +1907,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -1571,9 +1915,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.181471
           unit: pct_gdp
@@ -1583,14 +1931,20 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure data shows 23.1% in 2022, but interpretation is difficult post-Taliban. Formal health system collapsed significantly after donor withdrawal; the high ratio may reflect humanitarian emergency spending by NGOs."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; Second Taliban emirate (post-2021)"
   2023:
@@ -1606,7 +1960,7 @@ years:
       reliability: medium
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -1614,9 +1968,13 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
           value: 0.247749
           unit: pct_gdp
@@ -1626,20 +1984,26 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: medium
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Health expenditure data shows 15.0% in 2023, but interpretation is difficult post-Taliban. Formal health system collapsed significantly after donor withdrawal; the high ratio may reflect humanitarian emergency spending by NGOs."
       features:
-        - high_gt_8pct
+      - high_gt_8pct
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: medium
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: medium
       confidence: medium
       notes: "Total includes NGO and donor spending; public component very small; Second Taliban emirate (post-2021)"
   2024:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -1649,7 +2013,7 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -1657,11 +2021,15 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
-          value: null
+          value:
           unit: pct_gdp
           role: sub_component
           source:
@@ -1669,20 +2037,25 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No health expenditure data for 2024."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Total includes NGO and donor spending; public component very small; Second Taliban emirate (post-2021)"
   2025:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -1692,7 +2065,7 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -1700,11 +2073,15 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
-          value: null
+          value:
           unit: pct_gdp
           role: sub_component
           source:
@@ -1712,20 +2089,25 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No health expenditure data for 2025."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Total includes NGO and donor spending; public component very small; Second Taliban emirate (post-2021)"
   2026:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(health_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -1735,7 +2117,7 @@ years:
       reliability: low
       components:
         health_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -1743,11 +2125,15 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
         public_health_pct_gdp:
-          value: null
+          value:
           unit: pct_gdp
           role: sub_component
           source:
@@ -1755,13 +2141,18 @@ years:
             url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No health expenditure data for 2026."
-      features:
-        []
+      features: []
       sources:
-        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
-          type: statistical
-          reliability: low
+      - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, WHO Global Health Expenditure Database"
+        type: statistical
+        reliability: low
       confidence: low
       notes: "Total includes NGO and donor spending; public component very small; Second Taliban emirate (post-2021)"

@@ -145,25 +145,157 @@ function _buildVarMap(yearData, rawYearData = {}) {
   return vars;
 }
 
+/**
+ * _buildDimensionVars(yearData, metricId)
+ * Returns { indicatorSlug: score, ... } for one dimension or composite.
+ * For composite: keys are dimension ids (political, economic, ...).
+ * For dimension: keys are bare indicator slugs (territorial_control, ...).
+ */
+function _buildDimensionVars(yearData, metricId) {
+  if (!yearData) return {};
+  const vars = {};
+  if (metricId === "composite") {
+    for (const [dim, dimData] of Object.entries(yearData)) {
+      if (dim.startsWith("_") || typeof dimData !== "object" || dimData === null) continue;
+      vars[dim] = dimData._score != null ? dimData._score : NaN;
+    }
+  } else {
+    const dimData = yearData[metricId];
+    if (dimData && typeof dimData === "object") {
+      for (const [ind, val] of Object.entries(dimData)) {
+        if (ind.startsWith("_")) continue;
+        vars[ind] = val != null ? val : NaN;
+      }
+    }
+  }
+  return vars;
+}
+
+/**
+ * pythonToJS(formula)
+ * Translates Python-like formula syntax into JavaScript for use with new Function().
+ * Supports: None/True/False, is/is not None, and/or/not, abs/round/floor/ceil/sqrt/min/max,
+ *           sum(arr)/len(arr), list comprehensions [expr for v in [...] if cond],
+ *           Python ternary (val if cond else fallback), bare assignments → let,
+ *           if/elif/else blocks, # comments.
+ */
+export function pythonToJS(formula) {
+  let code = formula;
+
+  // is not None / is None  (before None→null replacement)
+  code = code
+    .replace(/\bis\s+not\s+None\b/g, "!== null")
+    .replace(/\bis\s+None\b/g, "=== null");
+
+  // Literals and math builtins
+  code = code
+    .replace(/\bNone\b/g, "null")
+    .replace(/\bTrue\b/g, "true")
+    .replace(/\bFalse\b/g, "false")
+    .replace(/\bmath\.(\w+)/g, "Math.$1")
+    .replace(/\babs\b(?=\s*\()/g, "Math.abs")
+    .replace(/\bround\b(?=\s*\()/g, "Math.round")
+    .replace(/\bfloor\b(?=\s*\()/g, "Math.floor")
+    .replace(/\bceil\b(?=\s*\()/g, "Math.ceil")
+    .replace(/\bsqrt\b(?=\s*\()/g, "Math.sqrt")
+    .replace(/\bmin\b(?=\s*\()/g, "Math.min")
+    .replace(/\bmax\b(?=\s*\()/g, "Math.max")
+    .replace(/\bpow\b(?=\s*\()/g, "Math.pow");
+
+  // Boolean operators
+  code = code
+    .replace(/\bnot\s+(?=[\w(])/g, "!")
+    .replace(/\band\b/g, "&&")
+    .replace(/\bor\b/g, "||");
+
+  // sum(arr) → arr.reduce(...)  and  len(arr) → (arr).length
+  code = code.replace(/\bsum\s*\(([^)]+)\)/g, "($1).reduce((a,b)=>a+b,0)");
+  code = code.replace(/\blen\s*\(([^)]+)\)/g, "($1).length");
+
+  // List comprehensions (loop handles multiple on the same line)
+  let prev;
+  do {
+    prev = code;
+    // [expr for v in [items] if cond]
+    code = code.replace(
+      /\[\s*([\w\s+\-*/().]+?)\s+for\s+(\w+)\s+in\s+(\[[^\]]*\])\s+if\s+([^\]]*?)\s*\]/g,
+      (_, expr, v, iter, cond) => {
+        expr = expr.trim();
+        return expr === v
+          ? `${iter}.filter(${v} => (${cond}))`
+          : `${iter}.filter(${v} => (${cond})).map(${v} => ${expr})`;
+      }
+    );
+    // [expr for v in [items]]
+    code = code.replace(
+      /\[\s*([\w\s+\-*/().]+?)\s+for\s+(\w+)\s+in\s+(\[[^\]]*\])\s*\]/g,
+      (_, expr, v, iter) => {
+        expr = expr.trim();
+        return expr === v ? iter : `${iter}.map(${v} => ${expr})`;
+      }
+    );
+  } while (code !== prev);
+
+  // Python ternary: "val if cond else fallback" (end-of-line; skip JS if-statements)
+  code = code.replace(
+    /^(\s*(?:return\s+)?)(.+?)\s+if\s+(.+?)\s+else\s+(.+?)\s*$/gm,
+    (m, prefix, val, cond, fallback) => {
+      if (/^\s*if\s*\(/.test(m)) return m; // already a JS if(...)
+      return `${prefix}(${cond}) ? (${val}) : ${fallback}`;
+    }
+  );
+
+  // Line-by-line transformations
+  const lines = code.split("\n").map((line) => {
+    line = line.replace(/#.*$/, ""); // strip # comments
+    // if/elif/else Python syntax → JS (add parens, strip colon)
+    line = line.replace(/^(\s*)elif\s+(.*?):\s*$/, "$1else if ($2)");
+    line = line.replace(/^(\s*)if\s+(.*?):\s*$/, "$1if ($2)");
+    line = line.replace(/^(\s*)else\s*:\s*$/, "$1else");
+    // bare assignments → let declarations
+    if (!/^\s*(let|const|var|return|if|else|for|while|\/\/)/.test(line)) {
+      line = line.replace(/^(\s*)(\w+)\s*=(?![=>])(.*)$/, "$1let $2 =$3");
+    }
+    return line;
+  });
+
+  // Auto-return last non-empty line if no explicit return
+  if (!lines.some((l) => /^\s*return\s/.test(l))) {
+    const lastIdx = [...lines.keys()].reverse().find((i) => lines[i].trim());
+    if (lastIdx !== undefined) lines[lastIdx] = "return (" + lines[lastIdx].trim() + ")";
+  }
+
+  return lines.join("\n");
+}
+
+/**
+ * evaluateDimensionFormula(vars, formula)
+ * Evaluates a user-supplied Python-like formula with dimension/indicator vars.
+ * Returns a score (0–100) or null on error.
+ */
+export function evaluateDimensionFormula(vars, formula) {
+  const names = Object.keys(vars);
+  const values = names.map((k) => vars[k]);
+  try {
+    const code = pythonToJS(formula);
+    const fn = new Function(...names, '"use strict";\n' + code);
+    const result = fn(...values);
+    if (typeof result === "number" && isFinite(result)) {
+      return Math.max(0, Math.min(100, result));
+    }
+    return null;
+  } catch {
+    return null;
+  }
+}
+
 export function evaluateFormulaScore(yearData, formula, rawYearData = {}) {
   const vars = _buildVarMap(yearData, rawYearData);
   const names = Object.keys(vars);
   const values = names.map((k) => vars[k]);
   try {
-    let code = formula
-      .replace(/\bmath\.(\w+)/g, "Math.$1")
-      .replace(/\bTrue\b/g, "true")
-      .replace(/\bFalse\b/g, "false")
-      .replace(/\bNone\b/g, "null");
-
-    const lines = code.split("\n").map((l) => l.replace(/#.*$/, ""));
-
-    if (!lines.some((l) => /^\s*return\s/.test(l))) {
-      const lastIdx = [...lines.keys()].reverse().find((i) => lines[i].trim());
-      if (lastIdx !== undefined) lines[lastIdx] = "return (" + lines[lastIdx].trim() + ")";
-    }
-
-    const fn = new Function(...names, '"use strict";\n' + lines.join("\n"));
+    const code = pythonToJS(formula);
+    const fn = new Function(...names, '"use strict";\n' + code);
     const result = fn(...values);
     if (typeof result === "number" && isFinite(result)) {
       return Math.max(0, Math.min(100, result));
@@ -219,7 +351,14 @@ export function getSeries(countryId, metricId, appState, allData) {
         score = computeCustomScore(yearData, customDef.weights ?? {});
       }
     } else {
-      score = getScoreForMetric(yearData, metricId, appState.custom);
+      // Check for custom dimension/composite formula
+      const dimFormula = appState.dimensionFormulas?.[metricId];
+      if (dimFormula && !metricId.includes("/")) {
+        const vars = _buildDimensionVars(yearData, metricId);
+        score = evaluateDimensionFormula(vars, dimFormula);
+      } else {
+        score = getScoreForMetric(yearData, metricId, appState.custom);
+      }
     }
 
     if (score == null) continue;

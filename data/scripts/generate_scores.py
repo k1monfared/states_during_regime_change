@@ -265,6 +265,22 @@ def score_indicator_year(year_data, rubric, peak_value=None):
     quant_data = year_data.get("quantitative", {})
     quant_value = quant_data.get("value") if quant_data else None
 
+    # Warn on significant/critical discrepancy between downloaded and calculated values
+    if quant_data:
+        discrepancy = quant_data.get("discrepancy")
+        if discrepancy and isinstance(discrepancy, dict):
+            flag = discrepancy.get("flag")
+            if flag in ("significant", "critical"):
+                note = discrepancy.get("note", "")
+                print(
+                    f"WARNING: discrepancy flag={flag} "
+                    f"downloaded={discrepancy.get('downloaded_value')} "
+                    f"calculated={discrepancy.get('calculated_value')} "
+                    f"({discrepancy.get('magnitude_pct', '?')}%) "
+                    f"note={note!r}",
+                    file=sys.stderr,
+                )
+
     # Get qualitative features
     qual_data = year_data.get("qualitative", {})
     features = qual_data.get("features", []) if qual_data else []

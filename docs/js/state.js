@@ -48,6 +48,7 @@ const DEFAULT_STATE = {
   overlaySourceMarkers: false,
   rawAxes: [],                        // metricId[] — right y-axis raw series (per-unit axes)
   tooltipDetail: false,               // show raw data detail in tooltip (indicator metrics only)
+  dimensionFormulas: {},              // { metricId: formulaString } — custom aggregation formulas
 };
 
 // ── Encode / Decode ────────────────────────────────────────────────────────────
@@ -179,6 +180,16 @@ class AppState {
 
   setCountryOrder(order) {
     this.update({ countryOrder: order });
+  }
+
+  setDimensionFormula(metricId, formula) {
+    const dimensionFormulas = { ...this._state.dimensionFormulas };
+    if (formula == null) {
+      delete dimensionFormulas[metricId];
+    } else {
+      dimensionFormulas[metricId] = formula;
+    }
+    this.update({ dimensionFormulas });
   }
 
   toggleRawAxis(metricId) {

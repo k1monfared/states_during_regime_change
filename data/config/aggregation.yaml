@@ -43,6 +43,10 @@ dimensions:
       - gini
       - neet_rate
       - gini_adjusted_gdp_per_capita
+      - poverty_rate
+      - gini_adjusted_gdp_per_capita_ppp
+      - export_diversification
+      - non_resource_export_share
     function: weighted_average
     weights:
       gdp_per_capita: 1.0
@@ -55,6 +59,10 @@ dimensions:
       gini: 1.0
       neet_rate: 1.0
       gini_adjusted_gdp_per_capita: 1.0
+      poverty_rate: 1.0
+      gini_adjusted_gdp_per_capita_ppp: 1.0
+      export_diversification: 1.0
+      non_resource_export_share: 1.0
     missing_data_handling: skip_and_renormalize
 
   international:
@@ -116,9 +124,9 @@ dimensions:
     missing_data_handling: skip_and_renormalize
 
   social:
-    sub_indicators: [life_expectancy, infant_mortality, internet_users, health_expenditure, education_expenditure]
+    sub_indicators: [life_expectancy, infant_mortality, internet_users, health_expenditure, education_expenditure, hdi]
     function: weighted_average
-    weights: {life_expectancy: 1.0, infant_mortality: 1.0, internet_users: 1.0, health_expenditure: 1.0, education_expenditure: 1.0}
+    weights: {life_expectancy: 1.0, infant_mortality: 1.0, internet_users: 1.0, health_expenditure: 1.0, education_expenditure: 1.0, hdi: 1.0}
     missing_data_handling: skip_and_renormalize
 
 # Composite score (dimensions -> single number)

@@ -23,19 +23,27 @@ years:
             url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Syria's military expenditure in 2009 stood at 4.03% of GDP, reflecting the elevated spending typical of an authoritarian security state. The Assad regime maintained a large conventional military force as a pillar of regime stability, with significant investment in ground forces and internal security apparatus. This level falls in the elevated spending category, consistent with regional neighbors facing security challenges. Pre-conflict data is considered reliable."
       features:
-        - elevated_4_7pct
+      - elevated_4_7pct
       sources:
-        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2009"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2009"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2010:
     data_status: complete
     quantitative:
@@ -57,23 +65,31 @@ years:
             url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
             access_date: "2026-03-02"
           reliability: high
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source: downloaded
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "Military expenditure remained stable at 4.06% of GDP in 2010, the last pre-uprising year. Total nominal spending rose to approximately $2.35 billion. The regime maintained its large conventional and security forces, which would be mobilized in early 2011 against protesters. Pre-uprising military spending was consistent across 2009-2010, reflecting the stable security apparatus of the Assad state."
       features:
-        - elevated_4_7pct
+      - elevated_4_7pct
       sources:
-        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2010"
-          type: official_statistics
-          reliability: high
+      - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2010"
+        type: official_statistics
+        reliability: high
       confidence: high
-      notes: null
+      notes:
   2011:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(military_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -91,23 +107,31 @@ years:
             url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "World Bank does not report a % of GDP figure for 2011 despite having a USD absolute figure. The civil war beginning in March 2011 fundamentally transformed the nature of military spending; official reported figures likely undercount irregular forces and security expenditures. Military spending almost certainly surged as the regime mobilized forces against the uprising. The absence of the GDP ratio reflects data quality concerns during the conflict onset year."
       features:
-        - elevated_4_7pct
+      - elevated_4_7pct
       sources:
-        - citation: "World Bank WDI, MS.MIL.XPND.CD, Syria, 2011"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, MS.MIL.XPND.CD, Syria, 2011"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "WB % of GDP figure absent; only absolute USD available. Conflict onset year; figures increasingly unreliable."
   2012:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(military_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -117,7 +141,7 @@ years:
       reliability: low
       components:
         military_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -125,23 +149,31 @@ years:
             url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No military expenditure data available from World Bank for 2012. The full-scale civil war rendered official budget reporting impossible. The regime was actively fighting on multiple fronts; military spending would have been extremely elevated but impossible to measure reliably. SIPRI and other sources also have major gaps for Syria from this point forward."
       features:
-        - war_economy_gt_15pct
+      - war_economy_gt_15pct
       sources:
-        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2012 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2012 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data from World Bank; civil war renders measurement impossible."
   2013:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(military_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -151,7 +183,7 @@ years:
       reliability: low
       components:
         military_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -159,23 +191,31 @@ years:
             url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Civil war at full scale; effective military spending well above peacetime levels but unmeasurable. Iranian and Russian military support supplements regime spending, making any dollar figure deeply misleading."
       features:
-        - war_economy_gt_15pct
+      - war_economy_gt_15pct
       sources:
-        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2013 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2013 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data; war economy conditions."
   2014:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(military_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -185,7 +225,7 @@ years:
       reliability: low
       components:
         military_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -193,23 +233,31 @@ years:
             url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. ISIS territorial expansion in 2014 created additional military fronts. The regime, Kurds, and various rebel factions all maintain armed forces; no unified national military budget exists."
       features:
-        - war_economy_gt_15pct
+      - war_economy_gt_15pct
       sources:
-        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2014 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2014 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data; multiple armed factions; war economy."
   2015:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(military_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -219,7 +267,7 @@ years:
       reliability: low
       components:
         military_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -227,23 +275,31 @@ years:
             url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Russian military intervention began September 2015. Military spending across all parties (regime, Russia, US-led coalition, various factions) was substantial but unquantifiable in official statistics."
       features:
-        - war_economy_gt_15pct
+      - war_economy_gt_15pct
       sources:
-        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2015 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2015 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data; Russian intervention year; war economy."
   2016:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(military_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -253,7 +309,7 @@ years:
       reliability: low
       components:
         military_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -261,23 +317,31 @@ years:
             url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Battle of Aleppo and continued multi-front war. Military spending deeply embedded in economy; no reliable official figures."
       features:
-        - war_economy_gt_15pct
+      - war_economy_gt_15pct
       sources:
-        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2016 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2016 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data; war economy."
   2017:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(military_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -287,7 +351,7 @@ years:
       reliability: low
       components:
         military_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -295,23 +359,31 @@ years:
             url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. ISIS territorial collapse underway; regime consolidating control with Russian and Iranian support. War economy conditions persist."
       features:
-        - war_economy_gt_15pct
+      - war_economy_gt_15pct
       sources:
-        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2017 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2017 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data; war economy."
   2018:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(military_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -321,7 +393,7 @@ years:
       reliability: low
       components:
         military_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -329,23 +401,31 @@ years:
             url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Regime reconsolidating territory; military operations in Eastern Ghouta and Southern Syria. War economy persists despite some territorial stabilization."
       features:
-        - war_economy_gt_15pct
+      - war_economy_gt_15pct
       sources:
-        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2018 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2018 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data; continued war economy."
   2019:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(military_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -355,7 +435,7 @@ years:
       reliability: low
       components:
         military_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -363,23 +443,31 @@ years:
             url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Regime controls majority of populated territory; low-intensity conflict continues in Idlib. Military operations ongoing against remaining opposition. Caesar Act sanctions imminent."
       features:
-        - war_economy_gt_15pct
+      - war_economy_gt_15pct
       sources:
-        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2019 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2019 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data."
   2020:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(military_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -389,7 +477,7 @@ years:
       reliability: low
       components:
         military_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -397,23 +485,31 @@ years:
             url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Caesar Act sanctions imposed June 2020 severely constrained the Syrian economy and state revenues. Military funding increasingly dependent on Iranian and Russian support. No reliable measurement possible."
       features:
-        - war_economy_gt_15pct
+      - war_economy_gt_15pct
       sources:
-        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2020 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2020 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data; Caesar Act sanctions year."
   2021:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(military_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -423,7 +519,7 @@ years:
       reliability: low
       components:
         military_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -431,23 +527,31 @@ years:
             url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Continued frozen conflict with Idlib. Economic conditions severely deteriorated under sanctions and currency collapse. Military spending not reportable."
       features:
-        - war_economy_gt_15pct
+      - war_economy_gt_15pct
       sources:
-        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2021 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2021 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data."
   2022:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(military_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -457,7 +561,7 @@ years:
       reliability: low
       components:
         military_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -465,23 +569,31 @@ years:
             url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Some Arab League normalization moves; regime maintained fragile territorial control. No military expenditure data reported."
       features:
-        - war_economy_gt_15pct
+      - war_economy_gt_15pct
       sources:
-        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2022 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2022 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data."
   2023:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(military_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -491,7 +603,7 @@ years:
       reliability: low
       components:
         military_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -499,23 +611,31 @@ years:
             url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Earthquake February 2023 caused massive casualties and infrastructure damage. Regime readmitted to Arab League. Military spending not reported."
       features:
-        - war_economy_gt_15pct
+      - war_economy_gt_15pct
       sources:
-        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2023 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2023 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data; earthquake year."
   2024:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(military_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -525,7 +645,7 @@ years:
       reliability: low
       components:
         military_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -533,23 +653,31 @@ years:
             url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Assad regime collapsed in December 2024 following HTS-led offensive; the old military largely dissolved. Post-regime military spending figures are entirely unavailable. The transition represents a complete structural break in the data series."
       features:
-        - war_economy_gt_15pct
+      - war_economy_gt_15pct
       sources:
-        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2024 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2024 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data; regime change year; military dissolved."
   2025:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(military_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -559,7 +687,7 @@ years:
       reliability: low
       components:
         military_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -567,22 +695,30 @@ years:
             url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available. Post-transition period; new governing authority (HTS-led administration) has not established national budget reporting. Military and security structures in formation."
       features: []
       sources:
-        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2025 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2025 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "No data; post-transition period."
   2026:
     data_status: missing
     quantitative:
-      value: null
+      value:
       unit: pct_gdp
       formula: "(military_expenditure_usd / gdp_current_usd) * 100"
       source:
@@ -592,7 +728,7 @@ years:
       reliability: low
       components:
         military_expenditure_usd:
-          value: null
+          value:
           unit: usd_current
           role: numerator
           source:
@@ -600,15 +736,23 @@ years:
             url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
             access_date: "2026-03-02"
           reliability: low
+          series_id:
+          canonical_file:
         gdp_current_usd:
           shared_ref: gdp_current_usd
           role: denominator
+          series_id:
+          canonical_file:
+      value_source:
+      series_id:
+      calculated_value:
+      discrepancy:
     qualitative:
       assessment: "No data available; year not yet complete."
       features: []
       sources:
-        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2026 — no data"
-          type: official_statistics
-          reliability: low
+      - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Syria, 2026 — no data"
+        type: official_statistics
+        reliability: low
       confidence: low
       notes: "Year not yet complete."
