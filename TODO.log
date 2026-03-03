@@ -1,0 +1,72 @@
+- TODO
+    - Last Updated: 2026-03-03
+
+    - Canonical Data — Remaining Downloads
+        - ACLED (2 series)
+            - [x] Automated downloader written (process_acled_csv)
+            - [] Download data
+                - Create free account at https://acleddata.com/data-export-tool/
+                - Export all events for the 40 project countries as CSV
+                - Run: python3 data/scripts/download_canonical.py --source acled --file <path/to/acled_export.csv>
+            - Series: ACLED_FATALITIES, ACLED_EVENTS
+
+        - V-Dem (2 series)
+            - [x] Automated processor written (process_vdem_csv)
+            - [] Download data
+                - Download "Country-Year: Full+Others" from https://www.v-dem.net/data/the-v-dem-dataset/
+                - No login required; free download
+                - Run: python3 data/scripts/download_canonical.py --source vdem --file <path/to/V-Dem-CY-Full-v14.csv>
+            - Series: VD_POLYARCHY (v2x_polyarchy), VD_LIBDEM (v2x_libdem)
+
+        - ILO — informal employment rate (1 series)
+            - [] ILO_EMP_2EMP_SEX_ECO_RT has no valid rplumber API endpoint
+            - Options
+                - [] Check ILOSTAT bulk download at https://ilostat.ilo.org/data/ for a manual CSV
+                - [] Or compute from EMP_2EMP_SEX_ECO_NB count ÷ labor force (EAP_TEAP_SEX_AGE_NB)
+
+        - IOM (1 series)
+            - [] No bulk download URL found — data is fragmented per country/report
+            - Series: IOM_ARRIVALS (tracked arrivals)
+            - Options
+                - [] Check https://dtm.iom.int/ for consolidated CSV
+                - [] Or skip — partially covered by UNHCR displacement data
+
+    - Coverage Gaps — World Bank (12 series at 0%)
+        - [] Run: python3 data/scripts/download_canonical.py --status
+        - [] Identify which 12 WB series have no data for our countries
+        - [] For series not in WB coverage for these countries, document alternatives
+
+    - Data Collection — Scored Indicators
+        - [] Fill remaining null values in data/raw/ YAML files for all 40 countries
+            - Use /collect-data skill for systematic country-by-country fill
+            - Priority: political_violence, territorial_control, institutional_functioning
+        - [] Run validation after each country: python3 data/scripts/validate.py --country <id>
+        - [] Run scoring: python3 data/scripts/generate_scores.py --country <id>
+
+    - Dashboard UI
+        - [] Fix stacked mode bug (metrics visible in Overlay missing in Stacked)
+            - Investigate docs/js/chart.js stacked rendering path
+        - [] Test fundamental series in dashboard (appear as "Fundamental Data" group in sidebar)
+        - [] Test country page "Fundamental Data" tab with downloaded canonical data
+
+    - Flask Audit UI
+        - [] Test: python3 app.py → /audit shows coverage matrix
+        - [] Verify click-to-verify POST /api/verify writes to data/verification.json
+
+    - Skills (semi-done, may need updates)
+        - [] Review .claude/skills/source-bulk-worldbank/SKILL.md for accuracy
+        - [] Review .claude/skills/source-bulk-ilo/SKILL.md — update with correct API codes
+        - [] Review .claude/skills/source-ucdp/SKILL.md — update with column name fixes
+        - [] Review .claude/skills/manage-coverage/SKILL.md
+
+    - Done (for reference)
+        - [x] fundamental_metrics.yaml catalog (114 series)
+        - [x] download_canonical.py — WB (76), ILO (6), UCDP (5), UNHCR (6), IMF (2), UNDP (1)
+        - [x] build_coverage.py → coverage.json, fundamental.json
+        - [x] compute_derived.py → fills calculated_value in YAML
+        - [x] export_web.py updated to emit fundamental.json + indicators.json with new types
+        - [x] controls.js recursive metric tree with fundamental series
+        - [x] data.js getSeries() handles fundamental/ lookups
+        - [x] countries.js Fundamental Data tab
+        - [x] app.py Flask audit UI (coverage matrix, verify endpoint)
+        - [x] Coverage: 96/114 series (84%), 126k/165k obs (76.3%)
