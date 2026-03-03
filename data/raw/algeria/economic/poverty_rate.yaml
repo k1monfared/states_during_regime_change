@@ -148,8 +148,8 @@ years:
       value: 0.0
       unit: percent_population
       source:
-        citation: World Bank WDI, SI.POV.DDAY, algeria, 2011, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/SI.POV.DDAY
+        citation: "World Bank WDI, SI.POV.DDAY, Algeria, accessed 2026-03-03"
+        url: "https://data.worldbank.org/indicator/SI.POV.DDAY"
         access_date: '2026-03-03'
       reliability: medium
       value_source: downloaded
@@ -157,14 +157,14 @@ years:
       calculated_value:
       discrepancy:
     qualitative:
-      assessment: 'World Bank PovcalNet estimate: 0.0% of population below $2.15/day international poverty line.'
+      assessment: 'Poverty headcount ratio at $3.00/day (2021 PPP) reported as 0% in 2011. Algeria had very low extreme poverty by international standards at this threshold.'
       features:
-      - very_low_lt_3pct
+        - very_low_lt_3pct
       sources:
-      - citation: World Bank WDI, SI.POV.DDAY, algeria, 2011, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/SI.POV.DDAY
-        type: official_statistics
-        reliability: medium
+        - citation: "World Bank WDI, SI.POV.DDAY, Algeria, accessed 2026-03-03"
+          url: "https://data.worldbank.org/indicator/SI.POV.DDAY"
+          type: official_statistics
+          reliability: medium
       confidence: medium
       notes:
   2012:

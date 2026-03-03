@@ -130,6 +130,8 @@ def apply_input_transform(value, transform_name, peak_value=None):
         return 100.0 - value
     elif transform_name == "wjp_multiply_100":
         return value * 100.0
+    elif transform_name == "wgi_to_100":
+        return (value + 3.0) / 6.0 * 100.0
     return value
 
 
@@ -148,6 +150,16 @@ def score_quantitative(value, rubric, peak_value=None):
     transform = scoring.get("input_transform")
     transformed = apply_input_transform(value, transform, peak_value=peak_value)
     if transformed is None:
+        return None, None
+
+    # Formula-based scoring
+    if scoring_type == "formula":
+        score_fn = scoring.get("score_fn")
+        if score_fn and transformed is not None:
+            import math
+            x = transformed
+            raw = eval(score_fn, {"math": math, "x": x, "max": max, "min": min})
+            return int(round(min(100.0, max(0.0, raw)))), "quantitative"
         return None, None
 
     thresholds = scoring.get("thresholds", [])
@@ -294,7 +306,7 @@ def score_indicator_year(year_data, rubric, peak_value=None):
     final_score, source_type = combine_scores(quant_score, qual_score, combination_rule)
 
     return {
-        "score": round(final_score, 1) if final_score is not None else None,
+        "score": int(round(final_score)) if final_score is not None else None,
         "source_type": source_type,
         "data_status": data_status,
     }
@@ -351,7 +363,7 @@ def aggregate_dimension(indicator_scores, dim_config, country_id):
         if total_weight == 0:
             return None
         weighted_sum = sum(score * weights.get(ind, 1.0) for ind, score in available.items())
-        return round(weighted_sum / total_weight, 1)
+        return int(round(weighted_sum / total_weight))
 
     elif function == "geometric_mean":
         scores = list(available.values())
@@ -362,16 +374,16 @@ def aggregate_dimension(indicator_scores, dim_config, country_id):
         product = 1.0
         for s in positive:
             product *= s
-        return round(product ** (1.0 / len(positive)), 1)
+        return int(round(product ** (1.0 / len(positive))))
 
     elif function == "minimum":
-        return round(min(available.values()), 1)
+        return int(round(min(available.values())))
 
     elif function == "harmonic_mean":
         scores = [s for s in available.values() if s > 0]
         if not scores:
             return 0.0
-        return round(len(scores) / sum(1.0 / s for s in scores), 1)
+        return int(round(len(scores) / sum(1.0 / s for s in scores)))
 
     return None
 
@@ -391,7 +403,7 @@ def aggregate_composite(dimension_scores, composite_config):
         if total_weight == 0:
             return None
         weighted_sum = sum(score * weights.get(dim, 1.0) for dim, score in available.items())
-        return round(weighted_sum / total_weight, 1)
+        return int(round(weighted_sum / total_weight))
 
     return None
 

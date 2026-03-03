@@ -467,6 +467,15 @@ function _renderMetricList() {
   const s = state.get();
   ul.innerHTML = "";
 
+  // Build reverse mapping: indicatorSlug -> [fundamentalEntry, ...]
+  const indicatorComponents = {};
+  for (const fund of indicators.filter(i => i.type === "fundamental")) {
+    for (const usedBySlug of (fund.used_by || [])) {
+      if (!indicatorComponents[usedBySlug]) indicatorComponents[usedBySlug] = [];
+      indicatorComponents[usedBySlug].push(fund);
+    }
+  }
+
   // Group definitions: name -> filter function
   const groupDefs = [
     { id: "overall",       label: "Overall",       filter: (ind) => ind.type === "composite" },
@@ -507,42 +516,64 @@ function _renderMetricList() {
 
       if (ind.type === "indicator") {
         const hasRaw = ind.unit && ind.unit !== "qualitative_scale";
-        const foldOpen = hasRaw && _expandedFolds.has(ind.id);
+        const indSlug = ind.id.split("/")[1];
+        const comps = indicatorComponents[indSlug] || [];
+        const hasFold = hasRaw || comps.length > 0;
+        const foldOpen = hasFold && _expandedFolds.has(ind.id);
+        const foldBtnLabel = foldOpen ? "data ▾" : "data ▸";
+
+        const compRowsHtml = comps.length > 0 ? `
+          <div class="metric-fold-section-label">Input series:</div>
+          ${comps.map(comp => `
+          <label class="metric-fold-row metric-fold-component">
+            <input type="checkbox" class="metric-check" data-id="${comp.id}" ${s.metrics.includes(comp.id) ? "checked" : ""}>
+            <span class="metric-fold-comp-label">${comp.label}</span>
+            ${comp.unit ? `<span class="metric-unit-tag">${comp.unit.replace(/_/g, " ")}</span>` : ""}
+          </label>`).join("")}` : "";
+
         li.innerHTML = `
           <input type="checkbox" class="metric-check" data-id="${ind.id}" ${checked ? "checked" : ""}>
           <span class="metric-dash-indicator">${_dashSvg(dash, checked)}</span>
           <span class="metric-label">${ind.label}</span>
-          ${hasRaw ? `<button class="metric-fold-toggle" data-fold="${ind.id}" title="Show raw value on right y-axis">${foldOpen ? "raw ▾" : "raw ▸"}</button>` : ""}
+          ${hasFold ? `<button class="metric-fold-toggle" data-fold="${ind.id}" title="Show raw/input data">${foldBtnLabel}</button>` : ""}
           <a href="methodology.html#${_methodologyAnchor(ind)}" target="_blank" rel="noopener" class="info-link" title="View in methodology">ℹ</a>
-          ${hasRaw ? `
+          ${hasFold ? `
           <div class="metric-fold-body" data-fold-id="${ind.id}" ${foldOpen ? "" : "hidden"}>
-            <label class="metric-fold-row">
+            ${hasRaw ? `<label class="metric-fold-row">
               <input type="checkbox" class="metric-fold-radio" data-metric="${ind.id}">
               <span>Show raw on right y-axis</span>
-            </label>
+            </label>` : ""}
+            ${compRowsHtml}
           </div>` : ""}
         `;
 
-        if (hasRaw) {
+        if (hasFold) {
           const foldToggle = li.querySelector(".metric-fold-toggle");
           const foldBody = li.querySelector(".metric-fold-body");
           foldToggle.addEventListener("click", (e) => {
             e.stopPropagation();
             if (foldBody.hidden) {
               foldBody.hidden = false;
-              foldToggle.textContent = "raw ▾";
+              foldToggle.textContent = "data ▾";
               _expandedFolds.add(ind.id);
             } else {
               foldBody.hidden = true;
-              foldToggle.textContent = "raw ▸";
+              foldToggle.textContent = "data ▸";
               _expandedFolds.delete(ind.id);
             }
           });
 
-          const radio = li.querySelector(".metric-fold-radio");
-          radio.checked = s.rawAxes?.includes(ind.id) ?? false;
-          radio.addEventListener("change", () => {
-            state.toggleRawAxis(ind.id);
+          if (hasRaw) {
+            const radio = li.querySelector(".metric-fold-radio");
+            radio.checked = s.rawAxes?.includes(ind.id) ?? false;
+            radio.addEventListener("change", () => {
+              state.toggleRawAxis(ind.id);
+            });
+          }
+
+          // Wire component metric checkboxes
+          li.querySelectorAll(".metric-fold-component .metric-check").forEach((cb) => {
+            cb.addEventListener("change", () => state.toggleMetric(cb.dataset.id));
           });
         }
       } else {
@@ -624,6 +655,99 @@ function _renderMetricList() {
     ul.appendChild(groupDiv);
   }
 
+  // -- Fundamental Metrics group ---------------------------------------------
+  const fundamentalGroup = document.createElement("div");
+  fundamentalGroup.className = "metric-group" + (_collapsedMetricGroups.has("fundamental") ? " collapsed" : "");
+  fundamentalGroup.dataset.group = "fundamental";
+
+  const fundHeader = document.createElement("div");
+  fundHeader.className = "metric-group-header";
+  fundHeader.dataset.group = "fundamental";
+  fundHeader.innerHTML = `<span class="metric-group-chevron">▾</span><span class="metric-group-name">Fundamental Metrics</span>`;
+
+  const fundBody = document.createElement("div");
+  fundBody.className = "metric-group-body";
+
+  // Get all fundamental entries from indicators
+  const fundamentalEntries = indicators.filter((ind) => ind.type === "fundamental");
+  const fundamentalCategories = indicators.filter((ind) => ind.type === "fundamental_category");
+
+  // Group fundamental entries by category
+  const fundByCategory = {};
+  for (const ind of fundamentalEntries) {
+    const cat = ind.category || "other";
+    if (!fundByCategory[cat]) fundByCategory[cat] = [];
+    fundByCategory[cat].push(ind);
+  }
+
+  for (const catEntry of fundamentalCategories) {
+    const catId = catEntry.category;
+    const catInds = fundByCategory[catId] || [];
+    if (catInds.length === 0) continue;
+
+    const catDiv = document.createElement("div");
+    catDiv.className = "metric-subgroup" + (_collapsedMetricGroups.has(`fundamental/${catId}`) ? " collapsed" : "");
+
+    const catHeader = document.createElement("div");
+    catHeader.className = "metric-subgroup-header";
+    catHeader.dataset.group = `fundamental/${catId}`;
+    catHeader.innerHTML = `<span class="metric-group-chevron">▾</span><span class="metric-subgroup-name">${catEntry.label}</span>`;
+
+    catHeader.addEventListener("click", () => {
+      const gid = `fundamental/${catId}`;
+      if (_collapsedMetricGroups.has(gid)) {
+        _collapsedMetricGroups.delete(gid);
+        catDiv.classList.remove("collapsed");
+      } else {
+        _collapsedMetricGroups.add(gid);
+        catDiv.classList.add("collapsed");
+      }
+    });
+
+    const catBody = document.createElement("div");
+    catBody.className = "metric-subgroup-body";
+
+    for (const ind of catInds) {
+      const checked = s.metrics.includes(ind.id);
+      const dashIdx = checked ? s.metrics.indexOf(ind.id) : -1;
+      const dash = dashIdx >= 0 ? METRIC_DASH[dashIdx % METRIC_DASH.length] : "solid";
+
+      const li = document.createElement("li");
+      li.className = "metric-item metric-type-fundamental";
+      li.dataset.id = ind.id;
+
+      li.innerHTML = `
+        <input type="checkbox" class="metric-check" data-id="${ind.id}" ${checked ? "checked" : ""}>
+        <span class="metric-dash-indicator">${_dashSvg(dash, checked)}</span>
+        <span class="metric-label">${ind.label}</span>
+        <span class="metric-unit-tag" title="${ind.unit || ''}">${(ind.unit || '').replace(/_/g, ' ')}</span>
+      `;
+
+      li.querySelector(".metric-check").addEventListener("change", () => state.toggleMetric(ind.id));
+      catBody.appendChild(li);
+    }
+
+    catDiv.appendChild(catHeader);
+    catDiv.appendChild(catBody);
+    fundBody.appendChild(catDiv);
+  }
+
+  fundHeader.addEventListener("click", () => {
+    if (_collapsedMetricGroups.has("fundamental")) {
+      _collapsedMetricGroups.delete("fundamental");
+      fundamentalGroup.classList.remove("collapsed");
+    } else {
+      _collapsedMetricGroups.add("fundamental");
+      fundamentalGroup.classList.add("collapsed");
+    }
+  });
+
+  if (fundamentalEntries.length > 0) {
+    fundamentalGroup.appendChild(fundHeader);
+    fundamentalGroup.appendChild(fundBody);
+    ul.appendChild(fundamentalGroup);
+  }
+
   // Custom group placeholder (populated by _syncCustomMetricCheckboxes)
   const customGroupDiv = document.createElement("div");
   customGroupDiv.id = "metric-group-custom";
@@ -636,10 +760,13 @@ function _renderMetricList() {
       const id = cb.dataset.id;
       const checked = s.metrics.includes(id);
       cb.checked = checked;
-      const dashIdx = checked ? s.metrics.indexOf(id) : -1;
-      const dash = dashIdx >= 0 ? METRIC_DASH[dashIdx % METRIC_DASH.length] : "solid";
-      const indicator = cb.closest(".metric-item")?.querySelector(".metric-dash-indicator");
-      if (indicator) indicator.innerHTML = _dashSvg(dash, checked);
+      // Skip dash update for component checkboxes inside fold bodies
+      if (!cb.closest(".metric-fold-body")) {
+        const dashIdx = checked ? s.metrics.indexOf(id) : -1;
+        const dash = dashIdx >= 0 ? METRIC_DASH[dashIdx % METRIC_DASH.length] : "solid";
+        const indicator = cb.closest(".metric-item")?.querySelector(".metric-dash-indicator");
+        if (indicator) indicator.innerHTML = _dashSvg(dash, checked);
+      }
     });
     // Sync raw axis checkbox states
     ul.querySelectorAll(".metric-fold-radio[data-metric]").forEach((radio) => {

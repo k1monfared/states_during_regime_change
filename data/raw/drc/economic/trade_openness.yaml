@@ -1,14 +1,13 @@
 indicator: trade_openness
 country: drc
 dimension: economic
-notes: >
-  DRC trade/GDP ratio: World Bank WDI (exports+imports)/GDP.
-  Mobutu era (1990-1996): declining trade as economy collapses; ~40-50% but falling.
-  Second Congo War (1998-2003): informal/illicit trade replaces formal; official figures ~50-70%.
-  Post-war recovery (2003-2010): formal trade recovering with mining boom; 50-80%.
-  Kabila era (2011-2018): mining exports dominant; cobalt/copper; trade ~50-70%.
-  Tshisekedi era (2019-2025): trade ~50-65% with eastern disruption depressing figures.
-  Note: DRC trade data is unreliable due to large informal and illicit trade in minerals.
+notes: 'DRC trade/GDP ratio: World Bank WDI (exports+imports)/GDP. Mobutu era (1990-1996): declining trade as economy collapses;
+  ~40-50% but falling. Second Congo War (1998-2003): informal/illicit trade replaces formal; official figures ~50-70%. Post-war
+  recovery (2003-2010): formal trade recovering with mining boom; 50-80%. Kabila era (2011-2018): mining exports dominant;
+  cobalt/copper; trade ~50-70%. Tshisekedi era (2019-2025): trade ~50-65% with eastern disruption depressing figures. Note:
+  DRC trade data is unreliable due to large informal and illicit trade in minerals.
+
+  '
 years:
   1990:
     data_status: partial
@@ -16,990 +15,1013 @@ years:
       value: 50.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: Zaïre trade/GDP 1990 — estimated"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: Zaïre trade/GDP 1990 — estimated'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: low
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Zaïre. Formal trade declining from Mobutu economic collapse. Copper/cobalt exports
+      assessment: 'Zaïre. Formal trade declining from Mobutu economic collapse. Copper/cobalt exports
+
         from Katanga still significant but declining. Estimated ~50% trade/GDP. Moderate.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: Zaïre 1990 — trade estimated"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: Zaïre 1990 — trade estimated'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Zaïre; Katanga mining exports; trade declining; moderate ~50%"
-
+      notes: Zaïre; Katanga mining exports; trade declining; moderate ~50%
   1991:
     data_status: partial
     quantitative:
       value: 45.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: Zaïre trade/GDP 1991"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: Zaïre trade/GDP 1991'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: low
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Hyperinflation and military looting disrupting trade. Formal trade declining.
+      assessment: 'Hyperinflation and military looting disrupting trade. Formal trade declining.
+
         Estimated ~45%. Moderate to restricted.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: Zaïre 1991"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: Zaïre 1991'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Hyperinflation; military looting; trade declining ~45%"
-
+      notes: Hyperinflation; military looting; trade declining ~45%
   1992:
     data_status: partial
     quantitative:
       value: 35.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: Zaïre trade/GDP 1992"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: Zaïre trade/GDP 1992'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: low
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Hyperinflation, ethnic violence. Formal trade ~35% of collapsing GDP.
+      assessment: 'Hyperinflation, ethnic violence. Formal trade ~35% of collapsing GDP.
+
         Restricted trade. Economic chaos.
+
+        '
       features:
       - restricted_20_40pct
       sources:
-      - citation: "World Bank WDI: Zaïre 1992 — trade ~35%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: Zaïre 1992 — trade ~35%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Hyperinflation; ethnic violence; restricted trade ~35%"
-
+      notes: Hyperinflation; ethnic violence; restricted trade ~35%
   1993:
     data_status: partial
     quantitative:
       value: 35.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: Zaïre trade/GDP 1993"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: Zaïre trade/GDP 1993'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: low
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Continued economic collapse. Formal trade ~35%. Currency devaluation inflates
+      assessment: 'Continued economic collapse. Formal trade ~35%. Currency devaluation inflates
+
         nominal trade ratios. Restricted formal trade.
+
+        '
       features:
       - restricted_20_40pct
       sources:
-      - citation: "World Bank WDI: Zaïre 1993 — restricted trade"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: Zaïre 1993 — restricted trade'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Economic collapse; currency devaluation; restricted trade ~35%"
-
+      notes: Economic collapse; currency devaluation; restricted trade ~35%
   1994:
     data_status: partial
     quantitative:
       value: 40.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: Zaïre trade/GDP 1994"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: Zaïre trade/GDP 1994'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: low
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 42.516722
+      discrepancy: null
     qualitative:
-      assessment: |
-        Peak hyperinflation year. Formal trade ratios distorted. Barter and informal
+      assessment: 'Peak hyperinflation year. Formal trade ratios distorted. Barter and informal
+
         trade replacing formal. Estimated ~40% but highly unreliable. Restricted-moderate.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: Zaïre 1994 — distorted trade ratio"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: Zaïre 1994 — distorted trade ratio'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Peak hyperinflation; distorted ratio; barter economy; moderate/restricted"
-
+      notes: Peak hyperinflation; distorted ratio; barter economy; moderate/restricted
   1995:
     data_status: partial
     quantitative:
       value: 38.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: Zaïre trade/GDP 1995"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: Zaïre trade/GDP 1995'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: low
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 52.208531
+      discrepancy: null
     qualitative:
-      assessment: |
-        Hyperinflation declining. Economy very weak. Formal trade ~38%. Restricted.
+      assessment: 'Hyperinflation declining. Economy very weak. Formal trade ~38%. Restricted.
+
+        '
       features:
       - restricted_20_40pct
       sources:
-      - citation: "World Bank WDI: Zaïre 1995"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: Zaïre 1995'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Hyperinflation declining; formal trade ~38%; restricted"
-
+      notes: Hyperinflation declining; formal trade ~38%; restricted
   1996:
     data_status: partial
     quantitative:
       value: 45.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: Zaïre trade/GDP 1996 — First Congo War"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: Zaïre trade/GDP 1996 — First Congo War'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: low
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 60.316257
+      discrepancy: null
     qualitative:
-      assessment: |
-        First Congo War. War-related imports inflate trade ratios. Illicit mineral exports
+      assessment: 'First Congo War. War-related imports inflate trade ratios. Illicit mineral exports
+
         through Rwanda/Uganda beginning. Formal trade moderate, actual informal higher.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: Zaïre 1996 — First Congo War"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: Zaïre 1996 — First Congo War'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "First Congo War; war imports; illicit minerals; moderate ~45%"
-
+      notes: First Congo War; war imports; illicit minerals; moderate ~45%
   1997:
     data_status: partial
     quantitative:
       value: 55.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 1997"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 1997'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: low
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 33.75
+      discrepancy: null
     qualitative:
-      assessment: |
-        Kabila takes power. Some formal trade normalization. Mining exports begin
+      assessment: 'Kabila takes power. Some formal trade normalization. Mining exports begin
+
         recovering. Franc Congolais introduced. Moderate trade ~55%.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 1997 — Kabila; trade ~55%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 1997 — Kabila; trade ~55%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Kabila; mining exports; moderate ~55%"
-
+      notes: Kabila; mining exports; moderate ~55%
   1998:
     data_status: partial
     quantitative:
       value: 60.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 1998 — Second Congo War"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 1998 — Second Congo War'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: low
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 62.679307
+      discrepancy: null
     qualitative:
-      assessment: |
-        Second Congo War begins. Formal trade disrupted. However large illicit mineral
+      assessment: 'Second Congo War begins. Formal trade disrupted. However large illicit mineral
+
         flows (coltan, gold, diamonds) through Rwanda/Uganda inflate effective trade.
+
         Official ~60% including war-related flows.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 1998 — war economy trade"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 1998 — war economy trade'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Second Congo War; illicit mineral flows Rwanda/Uganda; official ~60%"
-
+      notes: Second Congo War; illicit mineral flows Rwanda/Uganda; official ~60%
   1999:
     data_status: partial
     quantitative:
       value: 55.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 1999"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 1999'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: low
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 41.177661
+      discrepancy: null
     qualitative:
-      assessment: |
-        Second Congo War continues. Three separate economic zones. Illicit trade dominant.
+      assessment: 'Second Congo War continues. Three separate economic zones. Illicit trade dominant.
+
         Official trade statistics unreliable. Moderate officially, restricted in reality.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 1999 — war zones trade"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 1999 — war zones trade'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "War zones; illicit trade dominant; official ~55%"
-
+      notes: War zones; illicit trade dominant; official ~55%
   2000:
     data_status: partial
     quantitative:
       value: 50.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2000"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2000'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: low
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 27.014403
+      discrepancy: null
     qualitative:
-      assessment: |
-        Second Congo War stalemate. War economy continues. Illicit minerals. Official trade
+      assessment: 'Second Congo War stalemate. War economy continues. Illicit minerals. Official trade
+
         ~50%. Moderate officially.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2000"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2000'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "War stalemate; war economy; official ~50%"
-
+      notes: War stalemate; war economy; official ~50%
   2001:
     data_status: partial
     quantitative:
       value: 50.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2001"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2001'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: low
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 25.041938
+      discrepancy: null
     qualitative:
-      assessment: |
-        J Kabila; peace process. Trade ~50%. Some formal trade recovering. War economy
+      assessment: 'J Kabila; peace process. Trade ~50%. Some formal trade recovering. War economy
+
         persists. Moderate trade openness.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2001"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2001'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "J Kabila; peace process; trade ~50%; moderate"
-
+      notes: J Kabila; peace process; trade ~50%; moderate
   2002:
     data_status: partial
     quantitative:
       value: 53.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2002 — peace agreements"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2002 — peace agreements'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 29.316846
+      discrepancy: null
     qualitative:
-      assessment: |
-        Peace agreements. Trade normalizing somewhat. Mining sector exports formalizing.
+      assessment: 'Peace agreements. Trade normalizing somewhat. Mining sector exports formalizing.
+
         Trade ~53%. Moderate.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2002 — peace; trade ~53%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2002 — peace; trade ~53%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: medium
       confidence: medium
-      notes: "Peace agreements; trade normalizing; ~53%"
-
+      notes: Peace agreements; trade normalizing; ~53%
   2003:
     data_status: partial
     quantitative:
       value: 60.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2003"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2003'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 54.031356
+      discrepancy: null
     qualitative:
-      assessment: |
-        Transitional government. International aid flowing. Mining sector recovering.
+      assessment: 'Transitional government. International aid flowing. Mining sector recovering.
+
         Trade ~60%. Moderate.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2003 — transitional; trade ~60%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2003 — transitional; trade ~60%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: medium
       confidence: medium
-      notes: "Transitional government; aid; mining recovery; trade ~60%"
-
+      notes: Transitional government; aid; mining recovery; trade ~60%
   2004:
     data_status: partial
     quantitative:
       value: 64.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2004"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2004'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 49.336415
+      discrepancy: null
     qualitative:
-      assessment: |
-        Mining sector recovering. International investment. Trade ~64%. Moderate.
+      assessment: 'Mining sector recovering. International investment. Trade ~64%. Moderate.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2004 — mining recovery; ~64%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2004 — mining recovery; ~64%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: medium
       confidence: medium
-      notes: "Mining recovery; international investment; ~64%"
-
+      notes: Mining recovery; international investment; ~64%
   2005:
     data_status: complete
     quantitative:
       value: 66.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2005"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2005'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 51.027675
+      discrepancy: null
     qualitative:
-      assessment: |
-        Mining boom. Elections. Trade ~66%. Moderate. Copper/cobalt exports growing.
+      assessment: 'Mining boom. Elections. Trade ~66%. Moderate. Copper/cobalt exports growing.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2005 — mining boom; ~66%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2005 — mining boom; ~66%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: medium
       confidence: medium
-      notes: "Mining boom; trade ~66%"
-
+      notes: Mining boom; trade ~66%
   2006:
     data_status: complete
     quantitative:
       value: 64.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2006"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2006'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: high
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 44.766709
+      discrepancy: null
     qualitative:
-      assessment: |
-        First elections. Mining sector growing. Trade ~64%. Moderate.
+      assessment: 'First elections. Mining sector growing. Trade ~64%. Moderate.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2006 — elections; ~64%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2006 — elections; ~64%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: high
       confidence: high
-      notes: "Elections; mining; trade ~64%"
-
+      notes: Elections; mining; trade ~64%
   2007:
     data_status: complete
     quantitative:
       value: 66.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2007"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2007'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: high
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 72.998303
+      discrepancy: null
     qualitative:
-      assessment: |
-        Post-election. Commodity boom. Mining exports. Trade ~66%. Moderate.
+      assessment: 'Post-election. Commodity boom. Mining exports. Trade ~66%. Moderate.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2007 — commodity boom; ~66%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2007 — commodity boom; ~66%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: high
       confidence: high
-      notes: "Commodity boom; mining exports; ~66%"
-
+      notes: Commodity boom; mining exports; ~66%
   2008:
     data_status: complete
     quantitative:
       value: 71.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2008"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2008'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: high
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 72.952709
+      discrepancy: null
     qualitative:
-      assessment: |
-        Commodity boom peak. Mining exports high. Trade ~71% — borderline open.
+      assessment: 'Commodity boom peak. Mining exports high. Trade ~71% — borderline open.
+
         CNDP crisis in east but national trade strong.
+
+        '
       features:
       - open_70_100pct
       sources:
-      - citation: "World Bank WDI: DRC 2008 — commodity peak; ~71%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2008 — commodity peak; ~71%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: high
       confidence: high
-      notes: "Commodity peak; mining exports; ~71%; open"
-
+      notes: Commodity peak; mining exports; ~71%; open
   2009:
     data_status: complete
     quantitative:
       value: 62.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2009 — commodity crash"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2009 — commodity crash'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: high
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 63.086005
+      discrepancy: null
     qualitative:
-      assessment: |
-        Global commodity crash. Mining exports drop. Trade falls to ~62%. Moderate.
+      assessment: 'Global commodity crash. Mining exports drop. Trade falls to ~62%. Moderate.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2009 — commodity crash; ~62%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2009 — commodity crash; ~62%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: high
       confidence: high
-      notes: "Commodity crash; mining exports drop; ~62%"
-
+      notes: Commodity crash; mining exports drop; ~62%
   2010:
     data_status: complete
     quantitative:
       value: 70.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2010 — HIPC; recovery"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2010 — HIPC; recovery'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: high
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 80.997515
+      discrepancy: null
     qualitative:
-      assessment: |
-        HIPC completion. Mining recovery. Trade ~70%. Moderate to open.
+      assessment: 'HIPC completion. Mining recovery. Trade ~70%. Moderate to open.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2010 — HIPC; ~70%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2010 — HIPC; ~70%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: high
       confidence: high
-      notes: "HIPC completion; mining recovery; ~70%"
-
+      notes: HIPC completion; mining recovery; ~70%
   2011:
     data_status: complete
     quantitative:
       value: 73.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2011"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2011'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: high
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 83.413364
+      discrepancy: null
     qualitative:
-      assessment: |
-        Mining boom. Trade ~73%. Open range. Copper/cobalt/coltan exports strong.
+      assessment: 'Mining boom. Trade ~73%. Open range. Copper/cobalt/coltan exports strong.
+
+        '
       features:
       - open_70_100pct
       sources:
-      - citation: "World Bank WDI: DRC 2011 — mining boom; ~73%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2011 — mining boom; ~73%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: high
       confidence: high
-      notes: "Mining boom; ~73%; open"
-
+      notes: Mining boom; ~73%; open
   2012:
     data_status: complete
     quantitative:
       value: 68.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2012 — M23 rebellion"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2012 — M23 rebellion'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: high
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 66.705675
+      discrepancy: null
     qualitative:
-      assessment: |
-        M23 rebellion disrupts North Kivu trade. Overall ~68%. Moderate range.
+      assessment: 'M23 rebellion disrupts North Kivu trade. Overall ~68%. Moderate range.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2012 — M23; ~68%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2012 — M23; ~68%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: high
       confidence: high
-      notes: "M23 disrupts North Kivu; ~68%"
-
+      notes: M23 disrupts North Kivu; ~68%
   2013:
     data_status: complete
     quantitative:
       value: 64.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2013"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2013'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: high
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 72.555755
+      discrepancy: null
     qualitative:
-      assessment: |
-        M23 defeated. Trade ~64%. Moderate. Mining recovering post-M23.
+      assessment: 'M23 defeated. Trade ~64%. Moderate. Mining recovering post-M23.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2013 — M23 defeat; ~64%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2013 — M23 defeat; ~64%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: high
       confidence: high
-      notes: "M23 defeated; trade ~64%"
-
+      notes: M23 defeated; trade ~64%
   2014:
     data_status: complete
     quantitative:
       value: 60.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2014"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2014'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: high
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 74.113173
+      discrepancy: null
     qualitative:
-      assessment: |
-        Mining sector growing strongly. Trade ~60%. Moderate.
+      assessment: 'Mining sector growing strongly. Trade ~60%. Moderate.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2014 — ~60%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2014 — ~60%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: high
       confidence: high
-      notes: "Mining strong; trade ~60%"
-
+      notes: Mining strong; trade ~60%
   2015:
     data_status: complete
     quantitative:
       value: 56.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2015 — commodity decline"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2015 — commodity decline'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: high
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 57.753924
+      discrepancy: null
     qualitative:
-      assessment: |
-        Commodity prices declining. Trade ~56%. Moderate. Cobalt boom beginning.
+      assessment: 'Commodity prices declining. Trade ~56%. Moderate. Cobalt boom beginning.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2015 — commodity decline; ~56%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2015 — commodity decline; ~56%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: high
       confidence: high
-      notes: "Commodity decline; ~56%"
-
+      notes: Commodity decline; ~56%
   2016:
     data_status: complete
     quantitative:
       value: 51.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2016 — constitutional crisis"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2016 — constitutional crisis'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: high
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 68.008334
+      discrepancy: null
     qualitative:
-      assessment: |
-        Constitutional crisis. Kasai begins. Capital flight. Trade ~51%. Moderate but
+      assessment: 'Constitutional crisis. Kasai begins. Capital flight. Trade ~51%. Moderate but
+
         declining from capital flight and political uncertainty.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2016 — constitutional crisis; ~51%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2016 — constitutional crisis; ~51%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: high
       confidence: high
-      notes: "Constitutional crisis; capital flight; ~51%"
-
+      notes: Constitutional crisis; capital flight; ~51%
   2017:
     data_status: complete
     quantitative:
       value: 50.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2017 — Kasai crisis"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2017 — Kasai crisis'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: high
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 65.918453
+      discrepancy: null
     qualitative:
-      assessment: |
-        Kasai crisis. Cobalt boom starting. Trade ~50%. Moderate despite crisis because
+      assessment: 'Kasai crisis. Cobalt boom starting. Trade ~50%. Moderate despite crisis because
+
         cobalt exports offsetting Kasai disruption.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2017 — Kasai; cobalt boom; ~50%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2017 — Kasai; cobalt boom; ~50%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: high
       confidence: high
-      notes: "Kasai crisis; cobalt boom; ~50%"
-
+      notes: Kasai crisis; cobalt boom; ~50%
   2018:
     data_status: complete
     quantitative:
       value: 55.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2018"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2018'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: high
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 72.559174
+      discrepancy: null
     qualitative:
-      assessment: |
-        Cobalt boom. Elections. Trade ~55%. Moderate. Mineral exports strong.
+      assessment: 'Cobalt boom. Elections. Trade ~55%. Moderate. Mineral exports strong.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2018 — cobalt boom; ~55%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2018 — cobalt boom; ~55%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: high
       confidence: high
-      notes: "Cobalt boom; elections; trade ~55%"
-
+      notes: Cobalt boom; elections; trade ~55%
   2019:
     data_status: complete
     quantitative:
       value: 52.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2019 — Tshisekedi"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2019 — Tshisekedi'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: high
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 60.914352
+      discrepancy: null
     qualitative:
-      assessment: |
-        Tshisekedi takes power. Some cobalt price decline. Trade ~52%. Moderate.
+      assessment: 'Tshisekedi takes power. Some cobalt price decline. Trade ~52%. Moderate.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2019 — Tshisekedi; ~52%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2019 — Tshisekedi; ~52%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: high
       confidence: high
-      notes: "Tshisekedi; cobalt decline; trade ~52%"
-
+      notes: Tshisekedi; cobalt decline; trade ~52%
   2020:
     data_status: complete
     quantitative:
       value: 46.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2020 — COVID"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2020 — COVID'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: high
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 61.028471
+      discrepancy: null
     qualitative:
-      assessment: |
-        COVID-19 disrupts global trade. DRC trade ~46%. Moderate range but declining.
+      assessment: 'COVID-19 disrupts global trade. DRC trade ~46%. Moderate range but declining.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2020 — COVID; ~46%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2020 — COVID; ~46%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: high
       confidence: high
-      notes: "COVID; trade disruption; ~46%"
-
+      notes: COVID; trade disruption; ~46%
   2021:
     data_status: complete
     quantitative:
       value: 54.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2021 — recovery"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2021 — recovery'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: high
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 75.387052
+      discrepancy: null
     qualitative:
-      assessment: |
-        Post-COVID recovery. Mining exports recovering. Trade ~54%. M23 resurges but east
+      assessment: 'Post-COVID recovery. Mining exports recovering. Trade ~54%. M23 resurges but east
+
         trade disruption limited nationally. Moderate.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2021 — recovery; ~54%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2021 — recovery; ~54%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: high
       confidence: high
-      notes: "Post-COVID; M23; trade ~54%"
-
+      notes: Post-COVID; M23; trade ~54%
   2022:
     data_status: complete
     quantitative:
       value: 58.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2022 — M23/Rwanda"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
+        citation: 'World Bank WDI: DRC trade/GDP 2022 — M23/Rwanda'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
       reliability: high
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 85.822169
+      discrepancy: null
     qualitative:
-      assessment: |
-        M23/Rwanda advance. Rutshuru captured. North Kivu mining disrupted. National
+      assessment: 'M23/Rwanda advance. Rutshuru captured. North Kivu mining disrupted. National
+
         trade ~58% due to western/southern mining. Moderate.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2022 — M23/Rwanda; ~58%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2022 — M23/Rwanda; ~58%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: high
       confidence: medium
-      notes: "M23/Rwanda; North Kivu disrupted; national ~58%"
-
+      notes: M23/Rwanda; North Kivu disrupted; national ~58%
   2023:
     data_status: partial
     quantitative:
-      value:
+      value: 86.740058
       unit: percent_gdp
       source:
-        citation: "World Bank WDI: DRC trade/GDP 2023 — estimated"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'World Bank WDI: DRC trade/GDP 2023 — estimated'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: calculated
+      series_id: null
+      calculated_value: 86.740058
+      discrepancy: null
     qualitative:
-      assessment: |
-        M23/Rwanda controls North Kivu. Elections. Trade estimated ~55-60%. Eastern mining
+      assessment: 'M23/Rwanda controls North Kivu. Elections. Trade estimated ~55-60%. Eastern mining
+
         revenues going through Rwanda channels. Moderate nationally but distorted.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI: DRC 2023 — M23; estimated ~55-60%"
-        url: "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD"
+      - citation: 'World Bank WDI: DRC 2023 — M23; estimated ~55-60%'
+        url: https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "M23 controls North Kivu; eastern trade through Rwanda; estimated ~55-60%"
-
+      notes: M23 controls North Kivu; eastern trade through Rwanda; estimated ~55-60%
   2024:
     data_status: partial
     quantitative:
-      value:
+      value: 100.554088
       unit: percent_gdp
       source:
-        citation: "IMF/World Bank: DRC trade 2024 — estimated; AFC/M23 impact"
-        url: "https://www.imf.org/en/countries/COD"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'IMF/World Bank: DRC trade 2024 — estimated; AFC/M23 impact'
+        url: https://www.imf.org/en/countries/COD
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: calculated
+      series_id: null
+      calculated_value: 100.554088
+      discrepancy: null
     qualitative:
-      assessment: |
-        AFC/M23 captures Goma/Bukavu. Eastern mining largely outside DRC government hands.
+      assessment: 'AFC/M23 captures Goma/Bukavu. Eastern mining largely outside DRC government hands.
+
         Official DRC trade depressed. Restricted to moderate range estimated.
+
+        '
       features:
       - restricted_20_40pct
       sources:
-      - citation: "IMF: DRC 2024 — AFC/M23 trade disruption"
-        url: "https://www.imf.org/en/countries/COD"
+      - citation: 'IMF: DRC 2024 — AFC/M23 trade disruption'
+        url: https://www.imf.org/en/countries/COD
         type: multilateral_report
         reliability: low
       confidence: low
-      notes: "AFC/M23 Goma/Bukavu; eastern mining outside government; restricted-moderate trade"
-
+      notes: AFC/M23 Goma/Bukavu; eastern mining outside government; restricted-moderate trade
   2025:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_gdp
       source:
-        citation: "IMF: DRC trade 2025 — estimated"
-        url: "https://www.imf.org/en/countries/COD"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'IMF: DRC trade 2025 — estimated'
+        url: https://www.imf.org/en/countries/COD
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        AFC/M23 holds east. Ceasefire talks. Eastern mining revenues going through AFC/M23
+      assessment: 'AFC/M23 holds east. Ceasefire talks. Eastern mining revenues going through AFC/M23
+
         channels. DRC government official trade restricted. Restricted to moderate.
+
+        '
       features:
       - restricted_20_40pct
       sources:
-      - citation: "IMF: DRC 2025 — restricted trade"
-        url: "https://www.imf.org/en/countries/COD"
+      - citation: 'IMF: DRC 2025 — restricted trade'
+        url: https://www.imf.org/en/countries/COD
         type: multilateral_report
         reliability: low
       confidence: low
-      notes: "AFC/M23 holds east; eastern revenues through AFC; restricted trade"
+      notes: AFC/M23 holds east; eastern revenues through AFC; restricted trade

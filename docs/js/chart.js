@@ -43,6 +43,154 @@ function getMetricDash(metricId, metricsOrder) {
   return METRIC_DASH[idx >= 0 ? idx % METRIC_DASH.length : 0];
 }
 
+// ── Plot context ───────────────────────────────────────────────────────────────
+
+/**
+ * _buildPlotContext(seriesList, rawSeriesList, appState)
+ *
+ * Resolves all visual decisions (colors, dashes, axis assignments, legend
+ * behaviour) before any trace is built.  Both _renderOverlay and
+ * _renderStacked call this once at the top of their bodies.
+ */
+function _buildPlotContext(seriesList, rawSeriesList, appState) {
+  const chartMode = appState.chartMode;
+  const countriesInOrder = appState.countryOrder.filter(c => appState.countries.includes(c));
+  const N = chartMode === "stacked" ? countriesInOrder.length : 0;
+
+  const scoreCountries = [...new Set(seriesList.map(s => s.countryId))];
+  const scoreMetrics   = [...new Set(seriesList.map(s => s.metricId))];
+  const allCountries   = [...new Set([
+    ...scoreCountries,
+    ...rawSeriesList.map(rs => rs.countryId),
+  ])];
+  const allMetrics = [...new Set([
+    ...scoreMetrics,
+    ...rawSeriesList.map(rs => rs.metricId),
+  ])];
+
+  // ── Color scheme ──────────────────────────────────────────────────────────
+  let colorScheme;
+  if (chartMode === "stacked") {
+    colorScheme = "by-metric";
+  } else if (scoreMetrics.length <= 1 && scoreCountries.length !== 1) {
+    colorScheme = "by-country";
+  } else if (scoreCountries.length === 1) {
+    colorScheme = "by-metric";
+  } else {
+    colorScheme = "by-country"; // multi-metric + multi-country
+  }
+
+  // Build color lookups (deterministic from current series, not global map)
+  const countryColorIdx = {};
+  allCountries.forEach((c, i) => { countryColorIdx[c] = i % COUNTRY_COLORS.length; });
+  const metricColorIdx = {};
+  allMetrics.forEach((m, i) => { metricColorIdx[m] = i % COUNTRY_COLORS.length; });
+
+  function ctxGetColor(countryId, metricId) {
+    if (colorScheme === "by-metric") return COUNTRY_COLORS[metricColorIdx[metricId] ?? 0];
+    return COUNTRY_COLORS[countryColorIdx[countryId] ?? 0];
+  }
+
+  function getDash(metricId) {
+    if (scoreMetrics.length <= 1) return "solid";
+    return getMetricDash(metricId, appState.metrics);
+  }
+
+  // ── Legend ────────────────────────────────────────────────────────────────
+  const splitLegend = colorScheme === "by-country"
+    && scoreMetrics.length > 1 && scoreCountries.length > 1;
+
+  function legendLabel(s) {
+    if (splitLegend) return `${s.countryLabel} — ${s.metricLabel}`;
+    if (colorScheme === "by-metric") return s.metricLabel;
+    return s.countryLabel;
+  }
+  function rawLegendLabel(rs) {
+    return `${rs.countryLabel} — ${rs.metricLabel} (raw)`;
+  }
+
+  // ── Score axis lookups ────────────────────────────────────────────────────
+  function getScoreYAxis(countryId) {
+    if (chartMode !== "stacked") return "y";
+    const row = countriesInOrder.indexOf(countryId);
+    return row === 0 ? "y" : `y${row + 1}`;
+  }
+  function getScoreXAxis(countryId) {
+    if (chartMode !== "stacked") return undefined;
+    const row = countriesInOrder.indexOf(countryId);
+    return row === 0 ? "x" : `x${row + 1}`;
+  }
+
+  // ── Raw axis assignments ──────────────────────────────────────────────────
+  const rawAxisEntries = []; // [{axisKey, unit, overlayAxis, xaxisKey, ...}]
+  const _rawAxisLookup = new Map(); // "cId:unit" → axisKey
+
+  if (chartMode !== "stacked") {
+    // Overlay: one axis per unit, shared across all countries
+    const units = [...new Set(rawSeriesList.map(rs => rs.unit ?? ""))];
+    units.forEach((unit, i) => {
+      const axisKey = `y${i + 2}`;
+      rawAxisEntries.push({ axisKey, unit, overlayAxis: "y", xaxisKey: undefined });
+      _rawAxisLookup.set(`:${unit}`, axisKey);
+    });
+  } else {
+    // Stacked: one axis per (country, unit) combination
+    let secIdx = N + 1;
+    const uniqueUnits = [...new Set(rawSeriesList.map(rs => rs.unit ?? ""))];
+    for (let row = 0; row < countriesInOrder.length; row++) {
+      const countryId = countriesInOrder[row];
+      const primaryNum = row === 0 ? "" : String(row + 1);
+      const overlayAxis = `y${primaryNum}`;
+      const xaxisKey = row === 0 ? "x" : `x${row + 1}`;
+      const countryUnits = uniqueUnits.filter(u =>
+        rawSeriesList.some(rs => rs.countryId === countryId && (rs.unit ?? "") === u)
+      );
+      countryUnits.forEach((unit, unitIdx) => {
+        const axisKey = `y${secIdx}`;
+        rawAxisEntries.push({ axisKey, unit, overlayAxis, xaxisKey, countryId, unitIdx });
+        _rawAxisLookup.set(`${countryId}:${unit}`, axisKey);
+        secIdx++;
+      });
+    }
+  }
+
+  function getRawYAxis(countryId, unit) {
+    const key = chartMode === "stacked"
+      ? `${countryId}:${unit ?? ""}`
+      : `:${unit ?? ""}`;
+    return _rawAxisLookup.get(key) ?? null;
+  }
+  function getRawXAxis(countryId) {
+    if (chartMode !== "stacked") return undefined;
+    const row = countriesInOrder.indexOf(countryId);
+    return row === 0 ? "x" : `x${row + 1}`;
+  }
+
+  // Max distinct units in any single row (drives right margin)
+  let maxRawUnitsPerRow = 0;
+  if (chartMode !== "stacked") {
+    maxRawUnitsPerRow = rawAxisEntries.length; // overlay: all on same chart
+  } else {
+    for (const countryId of countriesInOrder) {
+      const n = rawAxisEntries.filter(e => e.countryId === countryId).length;
+      if (n > maxRawUnitsPerRow) maxRawUnitsPerRow = n;
+    }
+  }
+
+  return {
+    chartMode, countriesInOrder, N,
+    scoreCountries, scoreMetrics, allCountries, allMetrics,
+    colorScheme,
+    getColor: ctxGetColor,
+    getDash,
+    splitLegend, legendLabel, rawLegendLabel,
+    getScoreYAxis, getScoreXAxis,
+    getRawYAxis, getRawXAxis,
+    rawAxisEntries, numExtraAxes: rawAxisEntries.length,
+    maxRawUnitsPerRow,
+  };
+}
+
 // ── Build Plotly traces & layout ───────────────────────────────────────────────
 
 // HTML-escape helper for values embedded inside hovertemplate strings
@@ -108,7 +256,7 @@ function buildHoverText(points, pivotYear, pointDetails, sourceTransitions) {
 }
 
 function buildHoverTemplate(countryLabel, metricLabel) {
-  return `<b>${countryLabel}</b><br>${metricLabel}: %{y:.1f}<br>%{text}<extra></extra>`;
+  return `<b>${countryLabel}</b><br>${metricLabel}: %{y:.0f}<br>%{text}<extra></extra>`;
 }
 
 /**
@@ -124,7 +272,7 @@ export function render(seriesList, rawSeriesList, appState, allData) {
 
   if (!el) return;
 
-  if (seriesList.length === 0) {
+  if (seriesList.length === 0 && (rawSeriesList ?? []).length === 0) {
     if (emptyEl) emptyEl.style.display = "flex";
     Plotly.purge(el);
     return;
@@ -133,7 +281,7 @@ export function render(seriesList, rawSeriesList, appState, allData) {
   if (emptyEl) emptyEl.style.display = "none";
 
   if (appState.chartMode === "stacked") {
-    _renderStacked(el, seriesList, appState, allData);
+    _renderStacked(el, seriesList, rawSeriesList ?? [], appState, allData);
   } else {
     _renderOverlay(el, seriesList, rawSeriesList ?? [], appState, allData);
   }
@@ -248,6 +396,7 @@ function _buildOverlayTraces(s, appState, allData, axisConfig) {
 /**
  * _buildTrendAnnotations(seriesList, appState, yref?)
  * Returns array of Plotly layout.annotations for trend indicators.
+ * Uses global _colorMap for color consistency with the sidebar.
  */
 function _buildTrendAnnotations(seriesList, appState, yrefFn) {
   if (!appState.overlayTrend) return [];
@@ -291,13 +440,11 @@ function _renderOverlay(el, seriesList, rawSeriesList, appState, allData) {
   const shapes = [];
   const seenRC = new Set();
 
-  const multiMetric = appState.metrics.length > 1;
-  const multiCountry = appState.countries.length > 1;
-  const splitLegend = multiMetric && multiCountry;
+  const ctx = _buildPlotContext(seriesList, rawSeriesList, appState);
 
   // In multi-country + multi-metric mode, add legend-only dummy traces so the
   // legend shows colors → countries and line styles → metrics separately.
-  if (splitLegend) {
+  if (ctx.splitLegend) {
     const seenCountries = new Set();
     const seenMetrics = new Set();
     for (const s of seriesList) {
@@ -306,7 +453,7 @@ function _renderOverlay(el, seriesList, rawSeriesList, appState, allData) {
         legendTraces.push({
           x: [], y: [], type: "scatter", mode: "lines",
           name: s.countryLabel,
-          line: { color: getColor(s.countryId, _colorMap), dash: "solid", width: 2 },
+          line: { color: ctx.getColor(s.countryId, s.metricId), dash: "solid", width: 2 },
           showlegend: true,
           hoverinfo: "skip",
         });
@@ -316,7 +463,7 @@ function _renderOverlay(el, seriesList, rawSeriesList, appState, allData) {
         legendTraces.push({
           x: [], y: [], type: "scatter", mode: "lines",
           name: s.metricLabel,
-          line: { color: "#888", dash: getMetricDash(s.metricId, appState.metrics), width: 2 },
+          line: { color: "#888", dash: ctx.getDash(s.metricId), width: 2 },
           showlegend: true,
           hoverinfo: "skip",
         });
@@ -325,17 +472,9 @@ function _renderOverlay(el, seriesList, rawSeriesList, appState, allData) {
   }
 
   for (const s of seriesList) {
-    const color = getColor(s.countryId, _colorMap);
-    const dash = multiMetric ? getMetricDash(s.metricId, appState.metrics) : "solid";
-
-    let name;
-    if (multiMetric && multiCountry) {
-      name = `${s.countryLabel} — ${s.metricLabel}`;
-    } else if (multiMetric) {
-      name = s.metricLabel;
-    } else {
-      name = s.countryLabel;
-    }
+    const color = ctx.getColor(s.countryId, s.metricId);
+    const dash = ctx.getDash(s.metricId);
+    const name = ctx.legendLabel(s);
 
     // Build overlay traces (render behind main lines)
     const axisConfig = { xAxis: undefined, yAxis: undefined, color };
@@ -348,7 +487,7 @@ function _renderOverlay(el, seriesList, rawSeriesList, appState, allData) {
       type: "scatter",
       mode: "lines",
       name,
-      showlegend: !splitLegend,
+      showlegend: !ctx.splitLegend,
       line: { color, dash, width: 1.8 },
       hovertemplate: buildHoverTemplate(s.countryLabel, s.metricLabel),
     });
@@ -383,6 +522,7 @@ function _renderOverlay(el, seriesList, rawSeriesList, appState, allData) {
   }
 
   // Regime change vertical lines (overlay: one shape set)
+  // Use global _colorMap for color consistency with the sidebar.
   if (appState.xMode !== "absolute") {
     for (const s of seriesList) {
       for (const x of s.regimeChangeXs) {
@@ -407,45 +547,30 @@ function _renderOverlay(el, seriesList, rawSeriesList, appState, allData) {
     }
   }
 
-  // Raw axis traces (right y-axes, overlay mode only) — group by unit
+  // Raw traces — iterate rawSeriesList directly using ctx axis assignments
   const rawTraces = [];
-  const rawByUnit = new Map(); // unit → [rs, ...]
   for (const rs of rawSeriesList) {
+    const color = ctx.getColor(rs.countryId, rs.metricId);
+    const axisKey = ctx.getRawYAxis(rs.countryId, rs.unit);
+    if (!axisKey) continue;
+    const rawLabel = rs.metricLabel ?? rs.metricId;
     const unit = rs.unit ?? "";
-    if (!rawByUnit.has(unit)) rawByUnit.set(unit, []);
-    rawByUnit.get(unit).push(rs);
+    const unitStr = unit ? ` (${unit.replace(/_/g, " ")})` : "";
+    rawTraces.push({
+      x: rs.points.map((p) => p.x),
+      y: rs.points.map((p) => p.y),
+      text: buildHoverText(rs.points, null),
+      type: "scatter",
+      mode: "lines",
+      name: ctx.rawLegendLabel(rs),
+      showlegend: true,
+      line: { color, dash: "dot", width: 1.5 },
+      yaxis: axisKey,
+      hovertemplate: `<b>${_htesc(rs.countryLabel)}</b><br>${_htesc(rawLabel)} (raw): %{y:.4g}${unitStr ? " " + _htesc(unitStr) : ""}<br>%{text}<extra></extra>`,
+    });
   }
 
-  // Assign yaxis key per unit group (y2, y3, y4...)
-  const unitAxisMap = new Map(); // unit → "y2"|"y3"|...
-  let axisIdx = 2;
-  for (const unit of rawByUnit.keys()) {
-    unitAxisMap.set(unit, `y${axisIdx}`);
-    axisIdx++;
-  }
-
-  for (const [unit, seriesList_] of rawByUnit) {
-    const yaxisKey = unitAxisMap.get(unit);
-    for (const rs of seriesList_) {
-      const color = getColor(rs.countryId, _colorMap);
-      const rawLabel = rs.metricLabel ?? rs.metricId;
-      const unitStr = unit ? ` (${unit.replace(/_/g, " ")})` : "";
-      rawTraces.push({
-        x: rs.points.map((p) => p.x),
-        y: rs.points.map((p) => p.y),
-        text: buildHoverText(rs.points, null),
-        type: "scatter",
-        mode: "lines",
-        name: `${rs.countryLabel} — ${rawLabel} (raw)`,
-        showlegend: true,
-        line: { color, dash: "dot", width: 1.5 },
-        yaxis: yaxisKey,
-        hovertemplate: `<b>${_htesc(rs.countryLabel)}</b><br>${_htesc(rawLabel)} (raw): %{y:.4g}${unitStr ? " " + _htesc(unitStr) : ""}<br>%{text}<extra></extra>`,
-      });
-    }
-  }
-
-  const layout = _baseLayout(appState, unitAxisMap);
+  const layout = _baseLayout(appState, ctx.rawAxisEntries);
   layout.shapes = shapes;
   layout.legend = { orientation: "h", y: -0.12, font: { size: 11 } };
   layout.annotations = _buildTrendAnnotations(seriesList, appState);
@@ -456,25 +581,17 @@ function _renderOverlay(el, seriesList, rawSeriesList, appState, allData) {
 
 // ── Stacked mode ───────────────────────────────────────────────────────────────
 
-function _renderStacked(el, seriesList, appState, allData) {
-  const countriesInOrder = appState.countryOrder.filter((c) =>
-    appState.countries.includes(c)
-  );
+function _renderStacked(el, seriesList, rawSeriesList, appState, allData) {
+  const ctx = _buildPlotContext(seriesList, rawSeriesList, appState);
+  const { countriesInOrder, N } = ctx;
 
   if (countriesInOrder.length === 0) {
     Plotly.purge(el);
     return;
   }
 
-  const N = countriesInOrder.length;
   const traces = [];
   const shapes = [];
-
-  // Color by metric so the same metric has the same color across all subplots
-  const metricColorMap = {};
-  for (let i = 0; i < appState.metrics.length; i++) {
-    metricColorMap[appState.metrics[i]] = COUNTRY_COLORS[i % COUNTRY_COLORS.length];
-  }
 
   // Compute per-subplot vertical domains manually.
   // yaxis.domain = [bottom, top] in paper coordinates (0 = bottom, 1 = top).
@@ -491,15 +608,14 @@ function _renderStacked(el, seriesList, appState, allData) {
   const allAnnotations = [];
   for (let row = 0; row < N; row++) {
     const countryId = countriesInOrder[row];
-    const axisNum = row === 0 ? "" : String(row + 1);
-    const xAxis = `x${axisNum}`;
-    const yAxis = `y${axisNum}`;
+    const xAxis = ctx.getScoreXAxis(countryId);
+    const yAxis = ctx.getScoreYAxis(countryId);
 
     const countrySeries = seriesList.filter((s) => s.countryId === countryId);
 
     for (const s of countrySeries) {
-      const color = metricColorMap[s.metricId] ?? COUNTRY_COLORS[0];
-      const dash = appState.metrics.length > 1 ? getMetricDash(s.metricId, appState.metrics) : "solid";
+      const color = ctx.getColor(s.countryId, s.metricId);
+      const dash = ctx.getDash(s.metricId);
 
       // Overlay traces for this row (behind main line)
       const rowOverlays = _buildOverlayTraces(s, appState, allData, { xAxis, yAxis, color });
@@ -542,6 +658,30 @@ function _renderStacked(el, seriesList, appState, allData) {
     }
   }
 
+  // Raw traces — each country row gets its own secondary axis per unit
+  for (const rs of rawSeriesList) {
+    const xaxisKey = ctx.getRawXAxis(rs.countryId);
+    const yaxisKey = ctx.getRawYAxis(rs.countryId, rs.unit);
+    if (!yaxisKey) continue;
+    const color = ctx.getColor(rs.countryId, rs.metricId);
+    const rawLabel = rs.metricLabel ?? rs.metricId;
+    const unit = rs.unit ?? "";
+    const unitStr = unit ? ` (${unit.replace(/_/g, " ")})` : "";
+    traces.push({
+      x: rs.points.map((p) => p.x),
+      y: rs.points.map((p) => p.y),
+      text: buildHoverText(rs.points, null),
+      type: "scatter",
+      mode: "lines",
+      name: ctx.rawLegendLabel(rs),
+      xaxis: xaxisKey,
+      yaxis: yaxisKey,
+      line: { color, dash: "dot", width: 1.5 },
+      showlegend: true,
+      hovertemplate: `<b>${_htesc(rs.countryLabel)}</b><br>${_htesc(rawLabel)} (raw): %{y:.4g}${unitStr ? " " + _htesc(unitStr) : ""}<br>%{text}<extra></extra>`,
+    });
+  }
+
   // Build layout with explicit axis domains — no layout.grid
   const xTitle =
     appState.xMode === "absolute"
@@ -551,7 +691,7 @@ function _renderStacked(el, seriesList, appState, allData) {
       : "Years relative to pivot year (t=0)";
 
   const layout = {
-    margin: { t: 16, r: 16, b: 50, l: 72 },
+    margin: { t: 16, r: 16 + ctx.maxRawUnitsPerRow * 60, b: 50, l: 72 },
     paper_bgcolor: "#ffffff",
     plot_bgcolor: "#ffffff",
     font: { family: "-apple-system, 'Inter', system-ui, sans-serif", size: 12 },
@@ -571,7 +711,9 @@ function _renderStacked(el, seriesList, appState, allData) {
     const isBottom = row === N - 1;
 
     layout[`xaxis${axisNum}`] = {
-      domain: [0, 1],
+      domain: ctx.maxRawUnitsPerRow > 1
+        ? [0, Math.max(0.5, 1 - ctx.maxRawUnitsPerRow * 0.10)]
+        : [0, 1],
       anchor: `y${axisNum}`,
       showgrid: true,
       gridcolor: "#f0f0f0",
@@ -594,6 +736,27 @@ function _renderStacked(el, seriesList, appState, allData) {
     };
   }
 
+  // Secondary y-axes for raw traces: one per (country, unit), overlaying that row's primary axis
+  for (const entry of ctx.rawAxisEntries) {
+    const { axisKey, unit, overlayAxis, unitIdx } = entry;
+    const axisNum = axisKey.slice(1);
+    const unitLabel = unit ? unit.replace(/_/g, " ") : "Raw value";
+    const spec = {
+      title: { text: unitLabel, font: { size: 11 }, standoff: 6 },
+      overlaying: overlayAxis,
+      side: "right",
+      showgrid: false,
+      zeroline: false,
+      tickfont: { size: 10 },
+      autorange: true,
+    };
+    if (unitIdx > 0) {
+      spec.anchor = "free";
+      spec.position = 1.0 + unitIdx * 0.08; // slight offset for 2nd+ unit per row
+    }
+    layout[`yaxis${axisNum}`] = spec;
+  }
+
   Plotly.react(el, traces, layout, _config());
 }
 
@@ -605,7 +768,12 @@ export function setCountriesMeta(meta) {
 
 // ── Shared layout ──────────────────────────────────────────────────────────────
 
-function _baseLayout(appState, unitAxisMap = new Map()) {
+/**
+ * _baseLayout(appState, rawAxisEntries = [])
+ * Builds the base Plotly layout for overlay mode.
+ * rawAxisEntries: array from _buildPlotContext.rawAxisEntries (overlay entries only).
+ */
+function _baseLayout(appState, rawAxisEntries = []) {
   const xTitle =
     appState.xMode === "absolute"
       ? "Year"
@@ -613,7 +781,7 @@ function _baseLayout(appState, unitAxisMap = new Map()) {
       ? "Years relative to regime change (t=0)"
       : "Years relative to pivot year (t=0)";
 
-  const numExtraAxes = unitAxisMap.size;
+  const numExtraAxes = rawAxisEntries.length;
 
   const layout = {
     margin: { t: 16, r: 16 + numExtraAxes * 60, b: 60, l: 56 },
@@ -646,24 +814,27 @@ function _baseLayout(appState, unitAxisMap = new Map()) {
     autosize: true,
   };
 
-  // Add one right y-axis per unit group
-  let axisPos = 1.0;
-  const axisStep = numExtraAxes > 1 ? 0.10 : 0.0;
-  for (const [unit, axisKey] of unitAxisMap) {
-    const axisNum = axisKey.slice(1); // "2" | "3" | ...
+  // Add one right y-axis per unit group.
+  // For a single extra axis: standard side:right anchored to the plot.
+  // For 2+ axes: free positioning with xaxis domain shrunk to make room.
+  for (let i = 0; i < rawAxisEntries.length; i++) {
+    const { axisKey, unit } = rawAxisEntries[i];
+    const axisNum = axisKey.slice(1);
     const unitLabel = unit ? unit.replace(/_/g, " ") : "Raw value";
-    layout[`yaxis${axisNum}`] = {
+    const spec = {
       title: { text: unitLabel, font: { size: 11 }, standoff: 6 },
       overlaying: "y",
       side: "right",
-      anchor: "free",
-      position: axisPos,
       showgrid: false,
       zeroline: false,
       tickfont: { size: 10 },
       autorange: true,
     };
-    axisPos += axisStep;
+    if (rawAxisEntries.length > 1) {
+      spec.anchor = "free";
+      spec.position = 1.0 + i * 0.10;
+    }
+    layout[`yaxis${axisNum}`] = spec;
   }
 
   return layout;

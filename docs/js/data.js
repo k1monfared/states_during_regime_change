@@ -10,6 +10,7 @@ const _cache = {
   indicators: null,
   definitions: null,
   raw: {},
+  fundamental: null,
 };
 
 // Resolve base URL relative to this file's location (works on any path prefix)
@@ -30,6 +31,7 @@ export async function loadAll() {
       combined: _cache.combined,
       countries: _cache.countries,
       indicators: _cache.indicators,
+      fundamental: _cache.fundamental,
     };
   }
   const [combined, countries, indicators] = await Promise.all([
@@ -40,7 +42,30 @@ export async function loadAll() {
   _cache.combined = combined;
   _cache.countries = countries;
   _cache.indicators = indicators;
-  return { combined, countries, indicators };
+
+  // Load fundamental.json silently (may not exist yet)
+  try {
+    const fundamental = await fetchJSON("data/fundamental.json");
+    _cache.fundamental = fundamental;
+  } catch {
+    _cache.fundamental = {};
+  }
+
+  return {
+    combined,
+    countries,
+    indicators,
+    fundamental: _cache.fundamental,
+  };
+}
+
+/**
+ * getFundamentalValue(countryId, seriesId, yearStr)
+ * Returns the raw numeric value from the fundamental cache, or null.
+ */
+export function getFundamentalValue(countryId, seriesId, yearStr) {
+  if (!_cache.fundamental) return null;
+  return _cache.fundamental[countryId]?.[seriesId]?.[yearStr] ?? null;
 }
 
 export async function loadCountryRaw(countryId) {
@@ -335,6 +360,24 @@ export function getSeries(countryId, metricId, appState, allData) {
     pivotYear = appState.pivots[countryId] ?? rcYears[0] ?? null;
   }
 
+  // Handle fundamental series (from fundamental.json, not combined.json)
+  if (metricId.startsWith("fundamental/series/")) {
+    const seriesId = metricId.replace("fundamental/series/", "");
+    const fundCountryData = _cache.fundamental?.[countryId];
+    if (!fundCountryData || !fundCountryData[seriesId]) return [];
+
+    const points = [];
+    for (const [yearStr, value] of Object.entries(fundCountryData[seriesId])) {
+      const year = parseInt(yearStr, 10);
+      if (year < rangeMin || year > rangeMax) continue;
+      if (value == null) continue;
+      const x = pivotYear != null ? year - pivotYear : year;
+      points.push({ x, y: value, year });
+    }
+    points.sort((a, b) => a.x - b.x);
+    return points;
+  }
+
   const rawCountryData = _cache.raw[countryId] ?? null;
   const points = [];
 
@@ -595,10 +638,11 @@ export function getCachedRaw(countryId) {
  * Uses cached raw data — caller must ensure loadCountryRaw() has been called first.
  */
 export function getAllRawSeries(appState, allData) {
-  if (!appState.rawAxes?.length) return [];
   const { countries } = allData;
   const result = [];
-  for (const metricId of appState.rawAxes) {
+
+  // Standard raw-axis series (user-toggled via rawAxes)
+  for (const metricId of (appState.rawAxes ?? [])) {
     for (const countryId of appState.countryOrder) {
       if (!appState.countries.includes(countryId)) continue;
       const rawCountryData = _cache.raw[countryId] ?? null;
@@ -611,6 +655,22 @@ export function getAllRawSeries(appState, allData) {
       result.push({ countryId, countryLabel: displayName, points, unit, metricId, metricLabel });
     }
   }
+
+  // Fundamental metrics selected in appState.metrics — raw by nature, always right axis
+  for (const metricId of (appState.metrics ?? [])) {
+    if (!metricId.startsWith("fundamental/series/")) continue;
+    for (const countryId of appState.countryOrder) {
+      if (!appState.countries.includes(countryId)) continue;
+      const points = getSeries(countryId, metricId, appState, allData);
+      if (points.length === 0) continue;
+      const displayName = countries[countryId]?.display_name ?? countryId;
+      const indEntry = allData.indicators?.find((i) => i.id === metricId);
+      const metricLabel = indEntry?.label ?? metricId;
+      const unit = indEntry?.unit ?? "";
+      result.push({ countryId, countryLabel: displayName, points, unit, metricId, metricLabel });
+    }
+  }
+
   return result;
 }
 
@@ -661,6 +721,10 @@ export function getAllCountrySeries(appState, allData) {
     }
 
     for (const metricId of appState.metrics) {
+      // Skip fundamental series — they carry raw values (not 0–100 scores)
+      // and are rendered on the right y-axis via getAllRawSeries().
+      if (metricId.startsWith("fundamental/series/")) continue;
+
       const points = getSeries(countryId, metricId, appState, allData);
       if (points.length === 0) continue;
 

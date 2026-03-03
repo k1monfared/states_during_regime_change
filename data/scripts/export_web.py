@@ -22,6 +22,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[2]
 DATA_RAW = ROOT / "data" / "raw"
 DATA_CONFIG = ROOT / "data" / "config"
+DATA_CANONICAL = ROOT / "data" / "canonical"
 DATA_DERIVED = ROOT / "data" / "derived"
 DOCS_DATA = ROOT / "docs" / "data"
 DOCS_DATA_RAW = DOCS_DATA / "raw"
@@ -193,9 +194,10 @@ INDICATOR_LABELS = {
 }
 
 
-def build_indicators():
+def build_indicators(series_info=None):
     """
-    Build flat ordered list: composite → dimension scores → individual indicators.
+    Build flat ordered list: composite -> dimension scores -> individual indicators
+    -> indicator_groups with variants -> fundamental metrics.
     """
     indicators_yaml_path = DATA_CONFIG / "indicators.yaml"
     with open(indicators_yaml_path, encoding="utf-8") as f:
@@ -226,6 +228,66 @@ def build_indicators():
                 }
                 entries.append(entry)
 
+    # Add fundamental metrics section if series_info is available
+    if series_info:
+        entries.append({
+            "id": "fundamental",
+            "label": "Fundamental Metrics",
+            "type": "fundamental_group",
+        })
+
+        # Group by category
+        by_category = {}
+        for sid, sinfo in series_info.items():
+            cat = sinfo.get("category", "other")
+            if cat not in by_category:
+                by_category[cat] = []
+            by_category[cat].append((sid, sinfo))
+
+        CATEGORY_ORDER = [
+            "demographics", "labor_wb", "labor_ilo", "education", "health",
+            "economy", "poverty_inequality", "conflict", "migration_displacement",
+            "governance", "technology",
+        ]
+        CATEGORY_LABELS = {
+            "demographics": "Demographics",
+            "labor_wb": "Labor (World Bank)",
+            "labor_ilo": "Labor (ILO)",
+            "education": "Education",
+            "health": "Health",
+            "economy": "Economy",
+            "poverty_inequality": "Poverty & Inequality",
+            "conflict": "Conflict & Violence",
+            "migration_displacement": "Migration & Displacement",
+            "governance": "Governance",
+            "technology": "Technology",
+        }
+
+        all_cats = [c for c in CATEGORY_ORDER if c in by_category]
+        # Add any extra categories not in CATEGORY_ORDER
+        all_cats += [c for c in by_category if c not in CATEGORY_ORDER]
+
+        for cat in all_cats:
+            cat_label = CATEGORY_LABELS.get(cat, cat.replace("_", " ").title())
+            entries.append({
+                "id": f"fundamental/{cat}",
+                "label": cat_label,
+                "type": "fundamental_category",
+                "category": cat,
+            })
+
+            for sid, sinfo in sorted(by_category[cat], key=lambda x: x[1].get("priority", 3)):
+                entries.append({
+                    "id": f"fundamental/series/{sid}",
+                    "label": sinfo.get("name", sid),
+                    "type": "fundamental",
+                    "category": cat,
+                    "series_id": sid,
+                    "unit": sinfo.get("unit", ""),
+                    "priority": sinfo.get("priority", 3),
+                    "used_by": sinfo.get("used_by", []),
+                })
+
     return entries
 
 
@@ -250,6 +312,75 @@ def build_definitions():
             result[key] = entry
 
     return result
+
+
+# ── 6. fundamental.json ────────────────────────────────────────────────────────────
+
+def build_fundamental_json():
+    """
+    Read all canonical CSVs and produce a flat value lookup:
+      { country_id: { series_id: { year: value } } }
+    Only includes 'available' status rows with non-null values.
+    Also returns series_info dict for use in indicators.json.
+    """
+    import csv as csv_module
+
+    registry_path = DATA_CANONICAL / "registry.yaml"
+    if not registry_path.exists():
+        print("  WARNING: data/canonical/registry.yaml not found, skipping fundamental.json", file=sys.stderr)
+        return {}, {}
+
+    with open(registry_path, encoding="utf-8") as f:
+        registry = yaml.safe_load(f)
+
+    # Load fundamental_metrics.yaml for series metadata
+    metrics_path = DATA_CONFIG / "fundamental_metrics.yaml"
+    series_info = {}
+    if metrics_path.exists():
+        with open(metrics_path, encoding="utf-8") as f:
+            metrics_raw = yaml.safe_load(f)
+        for cat_id, cat in metrics_raw.get("categories", {}).items():
+            for sid, smeta in cat.get("series", {}).items():
+                series_info[sid] = {
+                    "name": smeta.get("name", sid),
+                    "category": cat_id,
+                    "unit": smeta.get("unit", ""),
+                    "priority": smeta.get("priority", 3),
+                    "used_by": smeta.get("used_by", []),
+                }
+
+    result = {}
+
+    for series_id, reg_meta in registry.get("series", {}).items():
+        canonical_file = reg_meta.get("canonical_file", "")
+        if not canonical_file:
+            continue
+        csv_path = ROOT / canonical_file
+        if not csv_path.exists():
+            continue
+
+        with open(csv_path, newline="", encoding="utf-8") as f:
+            reader = csv_module.DictReader(f)
+            for row in reader:
+                cid = row.get("country_id", "")
+                year = row.get("year", "")
+                status = row.get("status", "")
+                val_str = row.get("value", "")
+
+                if status != "available" or not val_str:
+                    continue
+                try:
+                    value = float(val_str)
+                except ValueError:
+                    continue
+
+                if cid not in result:
+                    result[cid] = {}
+                if series_id not in result[cid]:
+                    result[cid][series_id] = {}
+                result[cid][series_id][year] = value
+
+    return result, series_info
 
 
 # ── 5. raw/<country>.json ──────────────────────────────────────────────────────
@@ -349,8 +480,18 @@ def main():
         json.dump(countries, f, indent=2, ensure_ascii=False)
     print(f"  → {out_path}")
 
+    print("Building fundamental.json and series_info...")
+    fundamental, series_info = build_fundamental_json()
+    out_path = DOCS_DATA / "fundamental.json"
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(fundamental, f, separators=(",", ":"), ensure_ascii=False)
+    size_kb = out_path.stat().st_size / 1024
+    country_count = sum(1 for v in fundamental.values() if v)
+    series_count = len(series_info)
+    print(f"  → {out_path} ({size_kb:.0f} KB, {country_count} countries, {series_count} series)")
+
     print("Building indicators.json...")
-    indicators = build_indicators()
+    indicators = build_indicators(series_info=series_info)
     out_path = DOCS_DATA / "indicators.json"
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(indicators, f, indent=2)

@@ -1,5 +1,428 @@
 indicator: gini_adjusted_gdp_per_capita
 country: syria
 dimension: economic
-notes: "Pre-computed derived value: GDP_pc × (1 − Gini/100). No Gini survey data available for Syria; all years missing."
-years: {}
+notes: 'Pre-computed derived value: GDP_pc (constant 2015 USD) × (1 − Gini/100). Gini data available only for 2009 (40.4)
+  and 2022 (26.6) from World Bank. No Gini data for conflict years 2011–2021.'
+years:
+  2009:
+    data_status: complete
+    quantitative:
+      value: 884.71
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD (1484.41 USD 2015) × (1 − SI.POV.GINI/40.4) = 884.71 USD, accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: null
+      calculated_value: 1467.472354
+      discrepancy: null
+      formula: gdp_pc * (1 - gini / 100)
+      components:
+        gdp_pc:
+          value: 1484.41
+          unit: usd_constant_2015
+          role: multiplicand
+          series_id: WB_NY.GDP.PCAP.KD
+          canonical_file: data/canonical/world_bank/NY.GDP.PCAP.KD.csv
+          source:
+            citation: World Bank NY.GDP.PCAP.KD, Syria, 2009
+            url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+            access_date: '2026-03-03'
+          reliability: medium
+        gini_coefficient:
+          value: 40.4
+          unit: gini_0_to_100
+          role: inequality_adjustment
+          series_id: WB_SI.POV.GINI
+          canonical_file: data/canonical/world_bank/SI.POV.GINI.csv
+          source:
+            citation: World Bank SI.POV.GINI, Syria, 2009
+            url: https://data.worldbank.org/indicator/SI.POV.GINI
+            access_date: '2026-03-03'
+          reliability: medium
+    qualitative:
+      assessment: 'Inequality-adjusted GDP per capita: $1,484 × (1−40.4/100) = $885 constant 2015 USD. This is the series
+        peak (highest gini-adjusted value within 2009–2026 range). Pre-war Syria had moderate inequality.'
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI (NY.GDP.PCAP.KD, SI.POV.GINI), Syria, accessed 2026-03-03
+        url: https://data.worldbank.org
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: 2009 is the series peak within Syria's 2009–2026 time range.
+  2010:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: usd_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: GDP data available but no Gini survey for 2010; cannot compute gini-adjusted value.
+  2011:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: usd_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Civil war began; no Gini survey data available. GDP data exists but inequality adjustment cannot be applied.
+  2012:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: usd_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Active conflict; no Gini survey data available. GDP data exists but inequality adjustment cannot be applied.
+  2013:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: usd_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Active conflict; no Gini survey data available.
+  2014:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: usd_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Active conflict; no Gini survey data available.
+  2015:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: usd_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Active conflict; no Gini survey data available.
+  2016:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: usd_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Active conflict; no Gini survey data available.
+  2017:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: usd_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Active conflict; no Gini survey data available.
+  2018:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: usd_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Active conflict; no Gini survey data available.
+  2019:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: usd_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Ongoing conflict; no Gini survey data available.
+  2020:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: usd_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Ongoing conflict; no Gini survey data available.
+  2021:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: usd_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Ongoing conflict; no Gini survey data available.
+  2022:
+    data_status: complete
+    quantitative:
+      value: 522.83
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD (712.27 USD 2015) × (1 − SI.POV.GINI/26.6) = 522.83 USD, accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: null
+      calculated_value: 771.926878
+      discrepancy: null
+      formula: gdp_pc * (1 - gini / 100)
+      components:
+        gdp_pc:
+          value: 712.27
+          unit: usd_constant_2015
+          role: multiplicand
+          series_id: WB_NY.GDP.PCAP.KD
+          canonical_file: data/canonical/world_bank/NY.GDP.PCAP.KD.csv
+          source:
+            citation: World Bank NY.GDP.PCAP.KD, Syria, 2022
+            url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+            access_date: '2026-03-03'
+          reliability: medium
+        gini_coefficient:
+          value: 26.6
+          unit: gini_0_to_100
+          role: inequality_adjustment
+          series_id: WB_SI.POV.GINI
+          canonical_file: data/canonical/world_bank/SI.POV.GINI.csv
+          source:
+            citation: World Bank SI.POV.GINI, Syria, 2022
+            url: https://data.worldbank.org/indicator/SI.POV.GINI
+            access_date: '2026-03-03'
+          reliability: medium
+    qualitative:
+      assessment: 'Inequality-adjusted GDP per capita: $712 × (1−26.6/100) = $523 constant 2015 USD. At 59.1% of series peak
+        ($885 in 2009), reflecting devastating war-driven economic collapse. Lower Gini in 2022 may reflect extreme destitution
+        erasing upper incomes.'
+      features:
+      - significant_decline_50_70pct
+      sources:
+      - citation: World Bank WDI (NY.GDP.PCAP.KD, SI.POV.GINI), Syria, accessed 2026-03-03
+        url: https://data.worldbank.org
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: 522.83 / 884.71 = 59.1% of 2009 peak. Gini drop from 40.4 to 26.6 may reflect conflict-driven compression at
+        the expense of everyone becoming poorer.
+  2023:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: usd_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: No Gini data for 2023; cannot compute gini-adjusted value.
+  2024:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: usd_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Regime collapse late 2024; no data available.
+  2025:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: usd_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Post-regime change transition; no data available.
+  2026:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: usd_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: null

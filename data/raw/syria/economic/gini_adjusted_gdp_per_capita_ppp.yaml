@@ -1,294 +1,328 @@
 indicator: gini_adjusted_gdp_per_capita_ppp
 country: syria
 dimension: economic
+notes: 'Pre-computed derived value: GDP_pc_PPP (constant 2021 intl$) × (1 − Gini/100). Gini data available only for 2009 (40.4)
+  and 2022 (26.6). No PPP data available from World Bank for conflict years.'
 years:
   2009:
-    data_status: missing
-    quantitative:
-      value:
-      unit: intl_dollar_inequality_adjusted
-      source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
-    qualitative:
-      assessment:
-      features: []
-      sources: []
-      confidence:
-      notes:
-  2010:
-    data_status: missing
-    quantitative:
-      value:
-      unit: intl_dollar_inequality_adjusted
-      source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
-    qualitative:
-      assessment:
-      features: []
-      sources: []
-      confidence:
-      notes:
-  2011:
-    data_status: missing
-    quantitative:
-      value:
-      unit: intl_dollar_inequality_adjusted
-      source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
-    qualitative:
-      assessment:
-      features: []
-      sources: []
-      confidence:
-      notes:
-  2012:
-    data_status: missing
-    quantitative:
-      value:
-      unit: intl_dollar_inequality_adjusted
-      source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
-    qualitative:
-      assessment:
-      features: []
-      sources: []
-      confidence:
-      notes:
-  2013:
-    data_status: missing
-    quantitative:
-      value:
-      unit: intl_dollar_inequality_adjusted
-      source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
-    qualitative:
-      assessment:
-      features: []
-      sources: []
-      confidence:
-      notes:
-  2014:
-    data_status: missing
-    quantitative:
-      value:
-      unit: intl_dollar_inequality_adjusted
-      source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
-    qualitative:
-      assessment:
-      features: []
-      sources: []
-      confidence:
-      notes:
-  2015:
-    data_status: missing
-    quantitative:
-      value:
-      unit: intl_dollar_inequality_adjusted
-      source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
-    qualitative:
-      assessment:
-      features: []
-      sources: []
-      confidence:
-      notes:
-  2016:
-    data_status: missing
-    quantitative:
-      value:
-      unit: intl_dollar_inequality_adjusted
-      source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
-    qualitative:
-      assessment:
-      features: []
-      sources: []
-      confidence:
-      notes:
-  2017:
-    data_status: missing
-    quantitative:
-      value:
-      unit: intl_dollar_inequality_adjusted
-      source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
-    qualitative:
-      assessment:
-      features: []
-      sources: []
-      confidence:
-      notes:
-  2018:
-    data_status: missing
-    quantitative:
-      value:
-      unit: intl_dollar_inequality_adjusted
-      source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
-    qualitative:
-      assessment:
-      features: []
-      sources: []
-      confidence:
-      notes:
-  2019:
-    data_status: missing
-    quantitative:
-      value:
-      unit: intl_dollar_inequality_adjusted
-      source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
-    qualitative:
-      assessment:
-      features: []
-      sources: []
-      confidence:
-      notes:
-  2020:
-    data_status: missing
-    quantitative:
-      value:
-      unit: intl_dollar_inequality_adjusted
-      source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
-    qualitative:
-      assessment:
-      features: []
-      sources: []
-      confidence:
-      notes:
-  2021:
-    data_status: missing
-    quantitative:
-      value:
-      unit: intl_dollar_inequality_adjusted
-      source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
-    qualitative:
-      assessment:
-      features: []
-      sources: []
-      confidence:
-      notes:
-  2022:
     data_status: complete
     quantitative:
-      value: 3502.99
+      value: 5533.32
       unit: intl_dollar_inequality_adjusted
       source:
-        citation: 'Derived: World Bank NY.GDP.PCAP.PP.CD (4772 intl$) × (1 − SI.POV.GINI/26.6) = 3503 intl$, accessed 2026-03-03'
-        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD
+        citation: 'Derived: World Bank NY.GDP.PCAP.PP.KD (9284.10 intl$ 2021) × (1 − SI.POV.GINI/40.4) = 5533.32 intl$, accessed
+          2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD
         access_date: '2026-03-03'
       reliability: medium
       value_source: calculated
-      series_id:
-      calculated_value: 3502.99
-      discrepancy:
+      series_id: null
+      calculated_value: 5533.32
+      discrepancy: null
       formula: gdp_pc_ppp * (1 - gini / 100)
       components:
         gdp_pc_ppp:
-          value: 4772.46
-          unit: intl_dollar_current
+          value: 9284.1
+          unit: intl_dollar_constant_2021
           role: multiplicand
-          series_id: WB_NY.GDP.PCAP.PP.CD
-          canonical_file: data/canonical/world_bank/NY.GDP.PCAP.PP.CD.csv
+          series_id: WB_NY.GDP.PCAP.PP.KD
+          canonical_file: data/canonical/world_bank/NY.GDP.PCAP.PP.KD.csv
           source:
-            citation: World Bank NY.GDP.PCAP.PP.CD, 2022
-            url: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD
+            citation: World Bank NY.GDP.PCAP.PP.KD, Syria, 2009
+            url: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD
             access_date: '2026-03-03'
-          reliability: high
+          reliability: medium
+        gini_coefficient:
+          value: 40.4
+          unit: gini_0_to_100
+          role: inequality_adjustment
+          series_id: WB_SI.POV.GINI
+          canonical_file: data/canonical/world_bank/SI.POV.GINI.csv
+          source:
+            citation: World Bank SI.POV.GINI, Syria, 2009
+            url: https://data.worldbank.org/indicator/SI.POV.GINI
+            access_date: '2026-03-03'
+          reliability: medium
+    qualitative:
+      assessment: 'PPP-adjusted inequality-adjusted GDP per capita: $9,284 PPP × (1−40.4/100) = $5,533 intl$. This is the
+        series peak within 2009–2026 range.'
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI (NY.GDP.PCAP.PP.KD, SI.POV.GINI), Syria, accessed 2026-03-03
+        url: https://data.worldbank.org
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: 2009 is the series peak within Syria's 2009–2026 time range.
+  2010:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: PPP GDP data available but no Gini survey for 2010; cannot compute gini-adjusted value.
+  2011:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Civil war began; no Gini survey available. PPP GDP data exists but inequality adjustment cannot be applied.
+  2012:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Active conflict; no Gini survey available.
+  2013:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Active conflict; no Gini survey available.
+  2014:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Active conflict; no Gini survey available.
+  2015:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Active conflict; no Gini survey available.
+  2016:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Active conflict; no Gini survey available.
+  2017:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Active conflict; no Gini survey available.
+  2018:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Active conflict; no Gini survey available.
+  2019:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Ongoing conflict; no Gini survey available.
+  2020:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Ongoing conflict; no Gini survey available.
+  2021:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: Ongoing conflict; no Gini survey available.
+  2022:
+    data_status: complete
+    quantitative:
+      value: 3265.86
+      unit: intl_dollar_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.PP.KD (4454.85 intl$ 2021 constant) × (1 − SI.POV.GINI/26.6) = 3265.86
+          intl$, accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: null
+      calculated_value: 3502.986871
+      discrepancy: null
+      formula: gdp_pc_ppp * (1 - gini / 100)
+      components:
+        gdp_pc_ppp:
+          value: 4454.85
+          unit: intl_dollar_constant_2021
+          role: multiplicand
+          series_id: WB_NY.GDP.PCAP.PP.KD
+          canonical_file: data/canonical/world_bank/NY.GDP.PCAP.PP.KD.csv
+          source:
+            citation: World Bank NY.GDP.PCAP.PP.KD, Syria, 2022
+            url: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD
+            access_date: '2026-03-03'
+          reliability: medium
         gini_coefficient:
           value: 26.6
           unit: gini_0_to_100
@@ -296,98 +330,100 @@ years:
           series_id: WB_SI.POV.GINI
           canonical_file: data/canonical/world_bank/SI.POV.GINI.csv
           source:
-            citation: World Bank SI.POV.GINI, 2022
+            citation: World Bank SI.POV.GINI, Syria, 2022
             url: https://data.worldbank.org/indicator/SI.POV.GINI
             access_date: '2026-03-03'
           reliability: medium
     qualitative:
-      assessment: 'PPP-adjusted GDP per capita corrected for inequality: $4,772 PPP × (1−26.6/100) = $3,503 intl$. At 100.0% of series peak.'
+      assessment: 'PPP-adjusted inequality-adjusted GDP per capita: $4,455 PPP (2021 constant) × (1−26.6/100) = $3,266 intl$.
+        At 59.0% of series peak ($5,533 in 2009), reflecting devastating war-driven economic collapse.'
       features:
-      - above_peak
+      - significant_decline_50_70pct
       sources:
-      - citation: World Bank WDI (NY.GDP.PCAP.PP.CD, SI.POV.GINI), accessed 2026-03-03
+      - citation: World Bank WDI (NY.GDP.PCAP.PP.KD, SI.POV.GINI), Syria, accessed 2026-03-03
         url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 3265.86 / 5533.32 = 59.0% of 2009 peak. Updated to use constant PPP series (NY.GDP.PCAP.PP.KD) for comparability
+        with 2009 entry.
   2023:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: intl_dollar_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: null
   2024:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: intl_dollar_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: null
   2025:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: intl_dollar_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: null
   2026:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: intl_dollar_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: null

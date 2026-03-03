@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% block title %}{{ country_meta.display_name }} — Country Coverage{% endblock %}
+
+{% block content %}
+<a href="/audit" class="back-link">← Back to Coverage Matrix</a>
+
+<h1>{{ country_meta.display_name }}</h1>
+<p style="color:#64748b;margin-bottom:12px">
+  {{ country_meta.region | replace('_', ' ') }} ·
+  Regime change: {{ country_meta.regime_change_years | join(', ') }}
+</p>
+
+{% set CATEGORY_ORDER = ['demographics', 'labor_wb', 'labor_ilo', 'education', 'health',
+   'economy', 'poverty_inequality', 'conflict', 'migration_displacement', 'governance', 'technology'] %}
+
+{% for cat in CATEGORY_ORDER %}
+  {% if by_category.get(cat) %}
+  <h2>{{ cat.replace('_', ' ').title() }}</h2>
+  <table>
+    <thead><tr><th>Series</th><th>Name</th><th>Years Covered</th><th>Available</th><th>Verified</th><th>Status</th></tr></thead>
+    <tbody>
+    {% for sid, sdata in by_category[cat] %}
+      <tr>
+        <td><a href="/audit/series/{{ sid }}" style="font-size:11px;font-family:monospace">{{ sid }}</a></td>
+        <td>{{ sdata.info.get('name', sid) }}</td>
+        <td>{{ sdata.coverage_years }}</td>
+        <td>{{ sdata.available }}</td>
+        <td>
+          {{ sdata.verified_count }}
+          {% if sdata.available > 0 and sdata.verified_count < sdata.available %}
+          <button class="btn btn-verify" onclick="bulkVerify('{{ sid }}', '{{ country_id }}', this)">Verify all</button>
+          {% endif %}
+        </td>
+        <td>
+          {% if sdata.downloaded %}
+            {% if sdata.available > 0 %}
+              <span class="badge badge-available">{{ sdata.available }} available</span>
+            {% else %}
+              <span class="badge badge-gap">no data</span>
+            {% endif %}
+          {% else %}
+            <span class="badge badge-not-downloaded">not downloaded</span>
+          {% endif %}
+        </td>
+      </tr>
+      {% if sdata.rows %}
+      <tr>
+        <td colspan="6" style="padding:0">
+          <details style="padding:4px 8px">
+            <summary style="cursor:pointer;font-size:11px;color:#64748b">Show {{ sdata.rows | length }} year rows</summary>
+            <table style="margin:4px 0;font-size:11px;border:none">
+              <thead><tr><th style="background:none">Year</th><th style="background:none">Value</th><th style="background:none">Status</th><th style="background:none">Verified</th></tr></thead>
+              <tbody>
+              {% for row in sdata.rows %}
+                {% set vkey = sid + '/' + country_id + '/' + row.year %}
+                <tr>
+                  <td>{{ row.year }}</td>
+                  <td>{{ row.value if row.value else '—' }}</td>
+                  <td><span class="badge badge-{{ 'available' if row.status == 'available' else 'gap' }}">{{ row.status }}</span></td>
+                  <td>
+                    {% if verification.get(vkey, {}).get('verified') %}
+                      <span class="verified-check">✓</span>
+                    {% elif row.status == 'available' %}
+                      <button class="btn btn-verify" onclick="verifyObservation('{{ sid }}', '{{ country_id }}', '{{ row.year }}', this)">Verify</button>
+                    {% else %}—{% endif %}
+                  </td>
+                </tr>
+              {% endfor %}
+              </tbody>
+            </table>
+          </details>
+        </td>
+      </tr>
+      {% endif %}
+    {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+{% endfor %}
+
+<script>
+function bulkVerify(seriesId, countryId, btn) {
+  const rows = btn.closest('tr').querySelectorAll ? [] : [];
+  // Find all unverified rows in the detail table and verify them
+  const table = btn.closest('table');
+  // Simple approach: send a bulk verify request
+  fetch('/api/verify', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({series_id: seriesId, country_id: countryId, year: 'ALL', bulk: true})
+  }).then(r => r.json()).then(data => {
+    btn.textContent = '✓ Done';
+    btn.disabled = true;
+  });
+}
+</script>
+{% endblock %}

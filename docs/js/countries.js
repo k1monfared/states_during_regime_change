@@ -189,6 +189,11 @@ async function selectCountry(id) {
       ${meta?.notes ? `<div class="country-notes">${meta.notes}</div>` : ""}
       <a href="${dashUrl}" class="btn-open-dashboard">Open in Dashboard →</a>
     </div>
+    <div class="country-tabs">
+      <button class="country-tab active" data-tab="indicators">Indicators</button>
+      <button class="country-tab" data-tab="fundamental">Fundamental Data</button>
+    </div>
+    <div class="country-tab-pane" data-pane="indicators">
   `;
 
   // Render dimensions
@@ -309,7 +314,7 @@ async function selectCountry(id) {
             ? `${entry.raw_value}${entry.unit ? ` <small class="raw-unit">${_esc(entry.unit.replace(/_/g, " "))}</small>` : ""}`
             : "—";
           const combinedScore = _allData.combined?.[id]?.[year]?.[dim]?.[indId];
-          const scoreCell = combinedScore != null ? combinedScore.toFixed(1) : "—";
+          const scoreCell = combinedScore != null ? String(Math.round(combinedScore)) : "—";
 
           // Source type + transition detection
           const st = stMap[year];
@@ -341,6 +346,12 @@ async function selectCountry(id) {
     html += `</div></div>`;
   }
 
+  html += `</div>`; // close indicators tab pane
+
+  // Fundamental Metrics tab
+  const fundData = _allData.fundamental?.[id] ?? {};
+  html += _buildFundamentalPane(id, fundData);
+
   main.innerHTML = html;
 
   // Wire toggle buttons
@@ -367,6 +378,112 @@ async function selectCountry(id) {
       }
     });
   });
+
+  // Tab switcher
+  main.querySelectorAll(".country-tab").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      main.querySelectorAll(".country-tab").forEach((b) => b.classList.remove("active"));
+      main.querySelectorAll(".country-tab-pane").forEach((p) => { p.style.display = "none"; });
+      btn.classList.add("active");
+      const target = main.querySelector(`.country-tab-pane[data-pane="${btn.dataset.tab}"]`);
+      if (target) target.style.display = "block";
+    });
+  });
+}
+
+/**
+ * _buildFundamentalPane(countryId, fundData)
+ * Builds HTML for the "Fundamental Data" tab.
+ * fundData: { seriesId: { year: value } } — from fundamental.json for this country.
+ */
+function _buildFundamentalPane(countryId, fundData) {
+  const seriesIds = Object.keys(fundData);
+
+  // Build a lookup from series_id → indicator definition
+  const indBySeriesId = {};
+  for (const ind of (_allData?.indicators ?? [])) {
+    if (ind.type === "fundamental" && ind.series_id) {
+      indBySeriesId[ind.series_id] = ind;
+    }
+  }
+
+  let html = `<div class="country-tab-pane" data-pane="fundamental" style="display:none">`;
+
+  if (seriesIds.length === 0) {
+    html += `
+      <div class="fundamental-empty">
+        <p>No fundamental data available for this country yet.</p>
+        <p>Run these commands to download and build the data:</p>
+        <pre>python3 data/scripts/download_canonical.py --source worldbank --priority 1
+python3 data/scripts/build_coverage.py
+python3 data/scripts/export_web.py</pre>
+      </div>
+    `;
+  } else {
+    // Group by category
+    const byCategory = {};
+    for (const seriesId of seriesIds) {
+      const ind = indBySeriesId[seriesId];
+      const cat = ind?.category ?? "other";
+      if (!byCategory[cat]) byCategory[cat] = [];
+      byCategory[cat].push(seriesId);
+    }
+
+    html += `<div class="fundamental-count">${seriesIds.length} series with data</div>`;
+
+    for (const [cat, ids] of Object.entries(byCategory)) {
+      const catLabel = cat.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+      html += `
+        <div class="fundamental-category">
+          <div class="fundamental-cat-title">${_esc(catLabel)}</div>
+          <table class="fundamental-table">
+            <thead>
+              <tr>
+                <th>Series</th>
+                <th>Unit</th>
+                <th>Years</th>
+                <th>Latest value</th>
+                <th>Latest year</th>
+              </tr>
+            </thead>
+            <tbody>
+      `;
+      for (const seriesId of ids) {
+        const ind = indBySeriesId[seriesId];
+        const label = ind?.label ?? seriesId;
+        const unit = ind?.unit ?? "";
+        const yearValues = fundData[seriesId] ?? {};
+        const years = Object.keys(yearValues).map(Number).sort((a, b) => a - b);
+        const yearRange = years.length > 0 ? `${years[0]}–${years[years.length - 1]}` : "—";
+        const latestYear = years.length > 0 ? years[years.length - 1] : null;
+        const latestValue = latestYear != null ? yearValues[String(latestYear)] : null;
+        const fmtVal = latestValue != null
+          ? latestValue >= 1e9
+            ? (latestValue / 1e9).toFixed(2) + "B"
+            : latestValue >= 1e6
+            ? (latestValue / 1e6).toFixed(2) + "M"
+            : latestValue >= 1e3
+            ? (latestValue / 1e3).toFixed(1) + "K"
+            : Number.isInteger(latestValue)
+            ? String(latestValue)
+            : latestValue.toFixed(2)
+          : "—";
+        html += `
+          <tr>
+            <td class="fund-series-name">${_esc(label)}<br><span class="fund-series-id">${_esc(seriesId)}</span></td>
+            <td class="fund-unit">${unit ? _esc(unit.replace(/_/g, " ")) : "—"}</td>
+            <td class="fund-years">${yearRange}</td>
+            <td class="fund-value">${fmtVal}</td>
+            <td class="fund-year">${latestYear ?? "—"}</td>
+          </tr>
+        `;
+      }
+      html += `</tbody></table></div>`;
+    }
+  }
+
+  html += `</div>`;
+  return html;
 }
 
 function _esc(str) {

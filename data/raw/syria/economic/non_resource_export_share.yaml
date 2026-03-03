@@ -5,53 +5,53 @@ years:
   2009:
     data_status: complete
     quantitative:
-      value: 31.03
+      value: 62.18
       unit: percent_total_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), syria, 2009, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: "World Bank WDI, TX.VAL.FUEL.ZS.UN (fuel exports % merchandise), Syria, 2009, accessed 2026-03-03; non-resource share = 100 - 37.82"
+        url: "https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN"
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 62.18
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 31.0% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-resource export share calculated as 100 minus fuel exports (37.82%): 62.18% of merchandise exports were non-fuel. Pre-war Syria had significant agricultural, textile, chemical, and manufactured goods exports alongside oil.'
       features:
-      - low_20_40pct
+        - moderate_high_60_80pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), syria, 2009, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
-        type: official_statistics
-        reliability: medium
+        - citation: "World Bank WDI, TX.VAL.FUEL.ZS.UN, Syria, 2009, accessed 2026-03-03"
+          url: "https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN"
+          type: official_statistics
+          reliability: medium
       confidence: medium
-      notes:
+      notes: Calculated as 100 - fuel_exports_pct (37.82). Previously used manufactures proxy; updated to fuel-based formula per project methodology.
   2010:
     data_status: complete
     quantitative:
-      value: 24.72
+      value: 50.11
       unit: percent_total_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), syria, 2010, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: "World Bank WDI, TX.VAL.FUEL.ZS.UN (fuel exports % merchandise), Syria, 2010, accessed 2026-03-03; non-resource share = 100 - 49.89"
+        url: "https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN"
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 50.11
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 24.7% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-resource export share calculated as 100 minus fuel exports (49.89%): 50.11% of merchandise exports were non-fuel. Oil share had grown significantly by 2010.'
       features:
-      - low_20_40pct
+        - moderate_40_60pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), syria, 2010, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
-        type: official_statistics
-        reliability: medium
+        - citation: "World Bank WDI, TX.VAL.FUEL.ZS.UN, Syria, 2010, accessed 2026-03-03"
+          url: "https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN"
+          type: official_statistics
+          reliability: medium
       confidence: medium
-      notes:
+      notes: Calculated as 100 - fuel_exports_pct (49.89). Updated to fuel-based formula per project methodology.
   2011:
     data_status: missing
     quantitative:
@@ -71,7 +71,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Civil war began; World Bank fuel export series has no data from 2011 onward. Non-resource share cannot be computed.
   2012:
     data_status: missing
     quantitative:
@@ -91,7 +91,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Active conflict; trade statistics suspended. Non-resource share cannot be computed.
   2013:
     data_status: missing
     quantitative:
@@ -111,7 +111,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Active conflict; trade statistics suspended. Non-resource share cannot be computed.
   2014:
     data_status: missing
     quantitative:
@@ -131,7 +131,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Active conflict; trade statistics suspended. Non-resource share cannot be computed.
   2015:
     data_status: missing
     quantitative:
@@ -151,7 +151,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Active conflict; trade statistics suspended. Non-resource share cannot be computed.
   2016:
     data_status: missing
     quantitative:
@@ -171,7 +171,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Active conflict; trade statistics suspended. Non-resource share cannot be computed.
   2017:
     data_status: missing
     quantitative:
@@ -191,7 +191,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Active conflict; trade statistics suspended. Non-resource share cannot be computed.
   2018:
     data_status: missing
     quantitative:
@@ -211,7 +211,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Active conflict; trade statistics suspended. Non-resource share cannot be computed.
   2019:
     data_status: missing
     quantitative:
@@ -231,7 +231,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Ongoing conflict and information blackout; non-resource share cannot be computed.
   2020:
     data_status: missing
     quantitative:
@@ -251,7 +251,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Ongoing conflict and information blackout; non-resource share cannot be computed.
   2021:
     data_status: missing
     quantitative:
@@ -271,7 +271,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Ongoing conflict and information blackout; non-resource share cannot be computed.
   2022:
     data_status: missing
     quantitative:
@@ -291,7 +291,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Ongoing conflict and information blackout; non-resource share cannot be computed.
   2023:
     data_status: missing
     quantitative:
@@ -311,7 +311,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Ongoing conflict and information blackout; non-resource share cannot be computed.
   2024:
     data_status: missing
     quantitative:
@@ -331,7 +331,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Regime collapse late 2024; no trade data available.
   2025:
     data_status: missing
     quantitative:
@@ -351,7 +351,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Post-regime change transition; no trade data available.
   2026:
     data_status: missing
     quantitative:

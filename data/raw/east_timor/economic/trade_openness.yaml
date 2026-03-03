@@ -5,769 +5,863 @@ years:
   1999:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_gdp
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        No trade data for 1999. Post-referendum destruction effectively ended all
+      assessment: 'No trade data for 1999. Post-referendum destruction effectively ended all
+
         formal trade. Economy collapsed with infrastructure destroyed. Any remaining
+
         trade was informal or aid-related. No systematic trade statistics.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: low
       confidence: low
-      notes: "Post-referendum destruction; formal trade effectively zero; no statistics"
+      notes: Post-referendum destruction; formal trade effectively zero; no statistics
   2000:
     data_status: complete
     quantitative:
       value: 175.65
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 175.64846
+      discrepancy: null
     qualitative:
-      assessment: |
-        Extraordinary trade openness at 176% of GDP — massively inflated by
+      assessment: 'Extraordinary trade openness at 176% of GDP — massively inflated by
+
         UN/donor aid flows treated as imports. UNTAET bringing in massive amounts
+
         of goods, food, equipment, and services. GDP denominator extremely small
+
         making ratio very high. Not representative of normal economic integration.
+
         Economy entirely dependent on foreign inputs.
+
+        '
       features:
       - highly_open_gt_100pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "Extreme ratio due to UN aid/imports with tiny GDP; not representative of normal trade"
+      notes: Extreme ratio due to UN aid/imports with tiny GDP; not representative of normal trade
   2001:
     data_status: complete
     quantitative:
       value: 166.74
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 166.743432
+      discrepancy: null
     qualitative:
-      assessment: |
-        Very high trade ratio 167% — still dominated by UN mission-related imports.
+      assessment: 'Very high trade ratio 167% — still dominated by UN mission-related imports.
+
         Exports minimal (coffee main export). Economy heavily import-dependent.
+
         Constitutional Assembly established in August 2001. International aid
+
         flows continuing at high level through UNTAET.
+
+        '
       features:
       - highly_open_gt_100pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "Still UN mission-dominated imports; coffee primary export; aid flows high"
+      notes: Still UN mission-dominated imports; coffee primary export; aid flows high
   2002:
     data_status: complete
     quantitative:
-      value: 180.40
+      value: 180.4
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 180.403747
+      discrepancy: null
     qualitative:
-      assessment: |
-        Peak trade ratio 180% — formal independence May 2002 with high aid/import
+      assessment: 'Peak trade ratio 180% — formal independence May 2002 with high aid/import
+
         flows. GDP denominator still very small. UNTAET transitioned to UNMISET.
+
         Exports extremely limited: primarily coffee and some petroleum products.
+
         Economy completely import-dependent.
+
+        '
       features:
       - highly_open_gt_100pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "Peak ratio from independence period aid; formal independence May 2002"
+      notes: Peak ratio from independence period aid; formal independence May 2002
   2003:
     data_status: complete
     quantitative:
-      value: 133.50
+      value: 133.5
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 122.311961
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio declining to 134% as UN mission presence stabilized and
+      assessment: 'Trade ratio declining to 134% as UN mission presence stabilized and
+
         GDP grew. Still very high from import dependence. Petroleum revenues
+
         beginning to flow. Coffee exports resuming. Aid still a major component
+
         of imports. Economy developing slowly.
+
+        '
       features:
       - highly_open_gt_100pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "UN mission stabilizing; GDP growing; petroleum revenues beginning"
+      notes: UN mission stabilizing; GDP growing; petroleum revenues beginning
   2004:
     data_status: complete
     quantitative:
       value: 112.17
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 107.330836
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio 112% — still highly open. Imports declining as UN mission
+      assessment: 'Trade ratio 112% — still highly open. Imports declining as UN mission
+
         footprint reduces. GDP growing modestly. Export base still very narrow
+
         (coffee, petroleum). Import dependence structural for this small island
+
         economy.
+
+        '
       features:
       - highly_open_gt_100pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "UN mission reducing; still highly import-dependent; narrow export base"
+      notes: UN mission reducing; still highly import-dependent; narrow export base
   2005:
     data_status: complete
     quantitative:
       value: 99.43
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 74.671269
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio fell below 100% to 99%. Petroleum Fund established 2005.
+      assessment: 'Trade ratio fell below 100% to 99%. Petroleum Fund established 2005.
+
         GDP growing as petroleum revenues included. Imports/exports more balanced
+
         in ratio terms as GDP denominator grows. Economy still highly import-dependent
+
         but normalizing.
+
+        '
       features:
       - open_70_100pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "Petroleum Fund established; first year below 100%; GDP growing from petroleum"
+      notes: Petroleum Fund established; first year below 100%; GDP growing from petroleum
   2006:
     data_status: complete
     quantitative:
       value: 76.81
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 98.875719
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio 77%. 2006 political/military crisis reduced formal trade
+      assessment: 'Trade ratio 77%. 2006 political/military crisis reduced formal trade
+
         activity. Investment declined during crisis. GDP denominator growing.
+
         Economy still open but less than previous years due to crisis disruption.
+
+        '
       features:
       - open_70_100pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "2006 crisis reduced formal trade; GDP growing; ratio normalizing"
+      notes: 2006 crisis reduced formal trade; GDP growing; ratio normalizing
   2007:
     data_status: complete
     quantitative:
       value: 72.94
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 128.760893
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio 73%. Post-2006 recovery. Elections in 2007 restored stability.
+      assessment: 'Trade ratio 73%. Post-2006 recovery. Elections in 2007 restored stability.
+
         Government spending increased. Import activity recovering. Economy open
+
         by regional standards for small developing country.
+
+        '
       features:
       - open_70_100pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "Post-2006 recovery; 2007 elections; government spending increased"
+      notes: Post-2006 recovery; 2007 elections; government spending increased
   2008:
     data_status: complete
     quantitative:
       value: 77.68
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 135.250769
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio 78%. Government spending driving imports. Construction and
+      assessment: 'Trade ratio 78%. Government spending driving imports. Construction and
+
         infrastructure imports increasing. Coffee exports performing well at high
+
         global prices. Economy growing strongly. Assassination attempt on President
+
         Ramos-Horta in February 2008 contained.
+
+        '
       features:
       - open_70_100pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "Government-driven imports; infrastructure investment; economy growing strongly"
+      notes: Government-driven imports; infrastructure investment; economy growing strongly
   2009:
     data_status: complete
     quantitative:
       value: 84.61
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 157.68644
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio 85%. Strong government spending maintained imports. Global
+      assessment: 'Trade ratio 85%. Strong government spending maintained imports. Global
+
         financial crisis not significantly impacting East Timor due to petroleum
+
         revenue insulation. Construction and services imports growing with
+
         infrastructure investment.
+
+        '
       features:
       - open_70_100pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "GFC limited impact; petroleum insulation; strong government imports"
+      notes: GFC limited impact; petroleum insulation; strong government imports
   2010:
     data_status: complete
     quantitative:
       value: 97.81
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 134.40051
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio back near 100% at 98%. Strong government expenditure driving
+      assessment: 'Trade ratio back near 100% at 98%. Strong government expenditure driving
+
         large import volumes. Infrastructure investment at peak. GDP growing but
+
         imports growing faster. Economy very open and import-dependent.
+
+        '
       features:
       - open_70_100pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "Peak infrastructure investment; very high import levels; strong petroleum revenues"
+      notes: Peak infrastructure investment; very high import levels; strong petroleum revenues
   2011:
     data_status: complete
     quantitative:
       value: 87.27
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 140.766344
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio 87%. GDP growing rapidly with strong petroleum revenues. Import
+      assessment: 'Trade ratio 87%. GDP growing rapidly with strong petroleum revenues. Import
+
         levels high from government spending. Non-oil exports limited. Economy
+
         open. UNMIT mission completing. Infrastructure investment continuing.
+
+        '
       features:
       - open_70_100pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "GDP growing; high imports from government spending; UNMIT completing"
+      notes: GDP growing; high imports from government spending; UNMIT completing
   2012:
     data_status: complete
     quantitative:
       value: 76.96
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 128.500489
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio 77%. Successful 2012 elections and political stability. UNMIT
+      assessment: 'Trade ratio 77%. Successful 2012 elections and political stability. UNMIT
+
         completed December 2012. Economy normalizing. GDP growing. Trade ratio
+
         stabilizing at moderate-open level. Economy open for small developing country.
+
+        '
       features:
       - open_70_100pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "2012 elections; UNMIT completed; trade ratio stabilizing"
+      notes: 2012 elections; UNMIT completed; trade ratio stabilizing
   2013:
     data_status: complete
     quantitative:
       value: 65.96
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 79.634122
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio declined to 66% as GDP grew faster than imports. Post-UNMIT
+      assessment: 'Trade ratio declined to 66% as GDP grew faster than imports. Post-UNMIT
+
         period with normalizing aid flows. Government spending from Petroleum Fund
+
         still high. Non-oil exports (coffee, some petroleum) limited. Economy
+
         moderately open.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "GDP growing faster than imports; UNMIT completed; Petroleum Fund spending"
+      notes: GDP growing faster than imports; UNMIT completed; Petroleum Fund spending
   2014:
     data_status: complete
     quantitative:
       value: 61.09
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 82.735777
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio 61%. Oil price collapse from mid-2014 beginning to affect
+      assessment: 'Trade ratio 61%. Oil price collapse from mid-2014 beginning to affect
+
         import capacity. GDP still growing. Non-oil exports limited. Economy
+
         moderately open. Greater Sunrise negotiation a key issue.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "Oil price collapse; GDP still growing; Greater Sunrise negotiation"
+      notes: Oil price collapse; GDP still growing; Greater Sunrise negotiation
   2015:
     data_status: complete
     quantitative:
       value: 58.72
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 60.076923
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio 59%. Low oil prices reducing government revenues and capacity
+      assessment: 'Trade ratio 59%. Low oil prices reducing government revenues and capacity
+
         for import-intensive investments. GDP still moderate. Trade at moderate
+
         level typical for small Pacific-adjacent economy.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "Low oil prices; reduced government import capacity; moderate trade ratio"
+      notes: Low oil prices; reduced government import capacity; moderate trade ratio
   2016:
     data_status: complete
     quantitative:
       value: 66.43
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 60.310624
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio 66%. Economy stable. Low oil prices continued. Government
+      assessment: 'Trade ratio 66%. Economy stable. Low oil prices continued. Government
+
         seeking to diversify. ASEAN membership application active (applied 2011).
+
         Trade moderately open by regional standards.
+
+        '
       features:
       - moderate_40_70pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "Stable economy; low oil prices; ASEAN membership application ongoing"
+      notes: Stable economy; low oil prices; ASEAN membership application ongoing
   2017:
     data_status: complete
     quantitative:
       value: 72.49
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 58.634753
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio 72%. Political crisis — two election rounds and budget impasse.
+      assessment: 'Trade ratio 72%. Political crisis — two election rounds and budget impasse.
+
         Despite political uncertainty, trade flows relatively maintained. Import-
+
         dependence structural. Economy open by regional LDC standards.
+
+        '
       features:
       - open_70_100pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "Political crisis; budget impasse; trade maintained despite uncertainty"
+      notes: Political crisis; budget impasse; trade maintained despite uncertainty
   2018:
     data_status: complete
     quantitative:
       value: 76.35
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 64.81918
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio 76%. New ANC government formed May 2018, government spending
+      assessment: 'Trade ratio 76%. New ANC government formed May 2018, government spending
+
         resumed. Maritime boundary treaty with Australia signed enabling Greater
+
         Sunrise development. Import activity recovering with government budget
+
         normalization.
+
+        '
       features:
       - open_70_100pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "Government resumed; maritime boundary treaty; budget normalization"
+      notes: Government resumed; maritime boundary treaty; budget normalization
   2019:
     data_status: complete
     quantitative:
       value: 90.43
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 70.614243
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio jumped to 90% — significant increase in trade activity.
+      assessment: 'Trade ratio jumped to 90% — significant increase in trade activity.
+
         Government infrastructure spending resumed fully. Import-intensive investment
+
         projects. FDI strongly negative (oil sector exit by ConocoPhillips). GDP
+
         also larger from statistical revisions. Economy open.
+
+        '
       features:
       - open_70_100pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "Infrastructure imports; statistical revision; ConocoPhillips exit (FDI negative)"
+      notes: Infrastructure imports; statistical revision; ConocoPhillips exit (FDI negative)
   2020:
     data_status: complete
     quantitative:
       value: 85.33
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 84.75031
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio 85%. COVID-19 pandemic slightly reduced trade activity but
+      assessment: 'Trade ratio 85%. COVID-19 pandemic slightly reduced trade activity but
+
         government spending from Petroleum Fund maintained imports. Tourism (small)
+
         collapsed. Trade with Indonesia (dominant trading partner) somewhat disrupted.
+
+        '
       features:
       - open_70_100pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "COVID-19 modest impact; government spending maintained; Indonesia trade partner"
+      notes: COVID-19 modest impact; government spending maintained; Indonesia trade partner
   2021:
     data_status: complete
     quantitative:
       value: 79.55
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 99.859999
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio 80%. Post-COVID recovery. Large statistical revision inflated
+      assessment: 'Trade ratio 80%. Post-COVID recovery. Large statistical revision inflated
+
         GDP denominator, reducing ratio somewhat. Government spending maintained.
+
         ASEAN accession progress. Economy rebuilding trade relations.
+
+        '
       features:
       - open_70_100pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "Post-COVID recovery; GDP revision effect on ratio; ASEAN progress"
+      notes: Post-COVID recovery; GDP revision effect on ratio; ASEAN progress
   2022:
     data_status: complete
     quantitative:
       value: 85.24
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 97.62111
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio 85%. Economy open. Russia-Ukraine global price shock increasing
+      assessment: 'Trade ratio 85%. Economy open. Russia-Ukraine global price shock increasing
+
         import bill. Government spending from Petroleum Fund. Gusmao returning as PM.
+
         Economy continuing to be import-dominated with limited export diversification.
+
+        '
       features:
       - open_70_100pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "Import costs elevated from global price shock; government spending maintained"
+      notes: Import costs elevated from global price shock; government spending maintained
   2023:
     data_status: complete
     quantitative:
       value: 95.15
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://api.worldbank.org/v2/country/TL/indicator/NE.TRD.GNFS.ZS
+        access_date: '2026-03-01'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 89.304653
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio 95% — approaching highly open. GDP declining from petroleum
+      assessment: 'Trade ratio 95% — approaching highly open. GDP declining from petroleum
+
         revenue fall while imports maintained from Petroleum Fund drawdowns.
+
         Import-dependent economy fully exposed to external market. ASEAN accession
+
         would improve trade access. FDI recovering.
+
+        '
       features:
       - open_70_100pct
       sources:
-      - citation: "World Bank WDI NE.TRD.GNFS.ZS"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI NE.TRD.GNFS.ZS
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes: "GDP declining; imports maintained from Petroleum Fund; ASEAN accession"
+      notes: GDP declining; imports maintained from Petroleum Fund; ASEAN accession
   2024:
     data_status: complete
     quantitative:
-      value: 99.00
+      value: 99.0
       unit: percent_gdp
       source:
-        citation: "World Bank WDI NE.TRD.GNFS.ZS (estimated)"
-        url: "https://data.worldbank.org"
-        access_date: "2026-03-01"
+        citation: World Bank WDI NE.TRD.GNFS.ZS (estimated)
+        url: https://data.worldbank.org
+        access_date: '2026-03-01'
       reliability: low
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 95.448502
+      discrepancy: null
     qualitative:
-      assessment: |
-        Trade ratio estimated near 100% as GDP declined further with petroleum
+      assessment: 'Trade ratio estimated near 100% as GDP declined further with petroleum
+
         revenues falling while import levels maintained from Petroleum Fund. Highly
+
         import-dependent economy. ASEAN accession formally accepted in principle 2023.
+
         Long-term trade diversification needed.
+
+        '
       features:
       - open_70_100pct
       sources:
-      - citation: "World Bank WDI estimates"
-        url: "https://data.worldbank.org"
+      - citation: World Bank WDI estimates
+        url: https://data.worldbank.org
         type: official_statistics
         reliability: low
       confidence: low
-      notes: "GDP declining from petroleum fall; imports maintained; ratio rising"
+      notes: GDP declining from petroleum fall; imports maintained; ratio rising
   2025:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_gdp
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Economy continues to be highly import-dependent. ASEAN accession would
+      assessment: 'Economy continues to be highly import-dependent. ASEAN accession would
+
         improve trade integration. Long-term trade diversification a priority.
+
+        '
       features:
       - open_70_100pct
       sources:
-      - citation: "IMF East Timor Article IV estimates"
-        url: "https://www.imf.org/en/countries/TLS"
+      - citation: IMF East Timor Article IV estimates
+        url: https://www.imf.org/en/countries/TLS
         type: international_organization
         reliability: low
       confidence: low
-      notes: "Status as of early 2026; ASEAN accession pending"
+      notes: Status as of early 2026; ASEAN accession pending

@@ -367,5 +367,1366 @@
     "dimension": "social",
     "description": "UNDP Human Development Index (0\u20131): geometric mean of life expectancy, education, and GNI per capita indices (higher = better)",
     "unit": "hdi_0_to_1"
+  },
+  {
+    "id": "fundamental",
+    "label": "Fundamental Metrics",
+    "type": "fundamental_group"
+  },
+  {
+    "id": "fundamental/demographics",
+    "label": "Demographics",
+    "type": "fundamental_category",
+    "category": "demographics"
+  },
+  {
+    "id": "fundamental/series/WB_SP.POP.TOTL",
+    "label": "Population, total",
+    "type": "fundamental",
+    "category": "demographics",
+    "series_id": "WB_SP.POP.TOTL",
+    "unit": "persons",
+    "priority": 1,
+    "used_by": [
+      "gdp_per_capita",
+      "refugee_flows",
+      "political_violence"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_SP.DYN.LE00.IN",
+    "label": "Life expectancy at birth, total (years)",
+    "type": "fundamental",
+    "category": "demographics",
+    "series_id": "WB_SP.DYN.LE00.IN",
+    "unit": "years",
+    "priority": 1,
+    "used_by": [
+      "life_expectancy",
+      "hdi"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_SP.DYN.IMRT.IN",
+    "label": "Mortality rate, infant (per 1,000 live births)",
+    "type": "fundamental",
+    "category": "demographics",
+    "series_id": "WB_SP.DYN.IMRT.IN",
+    "unit": "per_1000_live_births",
+    "priority": 1,
+    "used_by": [
+      "infant_mortality"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_SP.POP.TOTL.FE.IN",
+    "label": "Population, female",
+    "type": "fundamental",
+    "category": "demographics",
+    "series_id": "WB_SP.POP.TOTL.FE.IN",
+    "unit": "persons",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SP.POP.TOTL.MA.IN",
+    "label": "Population, male",
+    "type": "fundamental",
+    "category": "demographics",
+    "series_id": "WB_SP.POP.TOTL.MA.IN",
+    "unit": "persons",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SP.POP.0014.TO",
+    "label": "Population ages 0-14 (% of total)",
+    "type": "fundamental",
+    "category": "demographics",
+    "series_id": "WB_SP.POP.0014.TO",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SP.POP.1564.TO",
+    "label": "Working-age population (15-64, % of total)",
+    "type": "fundamental",
+    "category": "demographics",
+    "series_id": "WB_SP.POP.1564.TO",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": [
+      "unemployment",
+      "neet_rate"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_SP.URB.TOTL",
+    "label": "Urban population (% of total)",
+    "type": "fundamental",
+    "category": "demographics",
+    "series_id": "WB_SP.URB.TOTL",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SP.DYN.TO08.IN",
+    "label": "Mortality rate, under-5 (per 1,000 live births)",
+    "type": "fundamental",
+    "category": "demographics",
+    "series_id": "WB_SP.DYN.TO08.IN",
+    "unit": "per_1000_live_births",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SP.POP.GROW",
+    "label": "Population growth (annual %)",
+    "type": "fundamental",
+    "category": "demographics",
+    "series_id": "WB_SP.POP.GROW",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SP.POP.65UP.TO",
+    "label": "Population ages 65+ (% of total)",
+    "type": "fundamental",
+    "category": "demographics",
+    "series_id": "WB_SP.POP.65UP.TO",
+    "unit": "percent",
+    "priority": 3,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SP.RUR.TOTL",
+    "label": "Rural population (% of total)",
+    "type": "fundamental",
+    "category": "demographics",
+    "series_id": "WB_SP.RUR.TOTL",
+    "unit": "percent",
+    "priority": 3,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SP.DYN.CBRT.IN",
+    "label": "Birth rate, crude (per 1,000 people)",
+    "type": "fundamental",
+    "category": "demographics",
+    "series_id": "WB_SP.DYN.CBRT.IN",
+    "unit": "per_1000",
+    "priority": 3,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SP.DYN.CDRT.IN",
+    "label": "Death rate, crude (per 1,000 people)",
+    "type": "fundamental",
+    "category": "demographics",
+    "series_id": "WB_SP.DYN.CDRT.IN",
+    "unit": "per_1000",
+    "priority": 3,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/labor_wb",
+    "label": "Labor (World Bank)",
+    "type": "fundamental_category",
+    "category": "labor_wb"
+  },
+  {
+    "id": "fundamental/series/WB_SL.TLF.TOTL.IN",
+    "label": "Labor force, total",
+    "type": "fundamental",
+    "category": "labor_wb",
+    "series_id": "WB_SL.TLF.TOTL.IN",
+    "unit": "persons",
+    "priority": 1,
+    "used_by": [
+      "unemployment",
+      "youth_unemployment"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_SL.TLF.CACT.ZS",
+    "label": "Labor force participation rate, total (% of total population 15+)",
+    "type": "fundamental",
+    "category": "labor_wb",
+    "series_id": "WB_SL.TLF.CACT.ZS",
+    "unit": "percent",
+    "priority": 1,
+    "used_by": [
+      "unemployment"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_SL.UEM.TOTL.ZS",
+    "label": "Unemployment, total (% of total labor force, WB modeled)",
+    "type": "fundamental",
+    "category": "labor_wb",
+    "series_id": "WB_SL.UEM.TOTL.ZS",
+    "unit": "percent_labor_force",
+    "priority": 1,
+    "used_by": [
+      "unemployment"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_SL.UEM.1524.ZS",
+    "label": "Unemployment, youth total (% of total labor force ages 15-24, WB modeled)",
+    "type": "fundamental",
+    "category": "labor_wb",
+    "series_id": "WB_SL.UEM.1524.ZS",
+    "unit": "percent_labor_force",
+    "priority": 1,
+    "used_by": [
+      "youth_unemployment"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_SL.UEM.NEET.ZS",
+    "label": "Share of youth not in education, employment or training, total (% of youth population)",
+    "type": "fundamental",
+    "category": "labor_wb",
+    "series_id": "WB_SL.UEM.NEET.ZS",
+    "unit": "percent",
+    "priority": 1,
+    "used_by": [
+      "neet_rate"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_SL.TLF.CACT.FE.ZS",
+    "label": "Labor force participation rate, female (% of female population 15+)",
+    "type": "fundamental",
+    "category": "labor_wb",
+    "series_id": "WB_SL.TLF.CACT.FE.ZS",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SL.TLF.CACT.MA.ZS",
+    "label": "Labor force participation rate, male (% of male population 15+)",
+    "type": "fundamental",
+    "category": "labor_wb",
+    "series_id": "WB_SL.TLF.CACT.MA.ZS",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SL.EMP.TOTL.SP.ZS",
+    "label": "Employment to population ratio (% ages 15+)",
+    "type": "fundamental",
+    "category": "labor_wb",
+    "series_id": "WB_SL.EMP.TOTL.SP.ZS",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SL.UEM.TOTL.NE.ZS",
+    "label": "Unemployment, total (% of total labor force, national estimate)",
+    "type": "fundamental",
+    "category": "labor_wb",
+    "series_id": "WB_SL.UEM.TOTL.NE.ZS",
+    "unit": "percent_labor_force",
+    "priority": 2,
+    "used_by": [
+      "unemployment"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_SL.EMP.SELF.ZS",
+    "label": "Self-employed, total (% of total employment)",
+    "type": "fundamental",
+    "category": "labor_wb",
+    "series_id": "WB_SL.EMP.SELF.ZS",
+    "unit": "percent",
+    "priority": 3,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/labor_ilo",
+    "label": "Labor (ILO)",
+    "type": "fundamental_category",
+    "category": "labor_ilo"
+  },
+  {
+    "id": "fundamental/series/ILO_EAP_TEAP_SEX_AGE_NB",
+    "label": "Labour force by sex and age (count)",
+    "type": "fundamental",
+    "category": "labor_ilo",
+    "series_id": "ILO_EAP_TEAP_SEX_AGE_NB",
+    "unit": "persons",
+    "priority": 1,
+    "used_by": [
+      "unemployment"
+    ]
+  },
+  {
+    "id": "fundamental/series/ILO_UNE_TUNE_SEX_AGE_NB",
+    "label": "Unemployment by sex and age (count)",
+    "type": "fundamental",
+    "category": "labor_ilo",
+    "series_id": "ILO_UNE_TUNE_SEX_AGE_NB",
+    "unit": "persons",
+    "priority": 1,
+    "used_by": [
+      "unemployment"
+    ]
+  },
+  {
+    "id": "fundamental/series/ILO_UNE_TUNE_SEX_AGE_RT",
+    "label": "Unemployment rate by sex and age (ILO definition)",
+    "type": "fundamental",
+    "category": "labor_ilo",
+    "series_id": "ILO_UNE_TUNE_SEX_AGE_RT",
+    "unit": "percent_labor_force",
+    "priority": 1,
+    "used_by": [
+      "unemployment"
+    ]
+  },
+  {
+    "id": "fundamental/series/ILO_SDG_0851_SEX_AGE_RT",
+    "label": "NEET rate - youth not in education, employment or training (ILO)",
+    "type": "fundamental",
+    "category": "labor_ilo",
+    "series_id": "ILO_SDG_0851_SEX_AGE_RT",
+    "unit": "percent",
+    "priority": 1,
+    "used_by": [
+      "neet_rate"
+    ]
+  },
+  {
+    "id": "fundamental/series/ILO_EMP_TEMP_SEX_AGE_NB",
+    "label": "Employment by sex and age (count)",
+    "type": "fundamental",
+    "category": "labor_ilo",
+    "series_id": "ILO_EMP_TEMP_SEX_AGE_NB",
+    "unit": "persons",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/ILO_EAP_TEAP_SEX_AGE_RT",
+    "label": "Labour force participation rate by sex and age (ILO)",
+    "type": "fundamental",
+    "category": "labor_ilo",
+    "series_id": "ILO_EAP_TEAP_SEX_AGE_RT",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/ILO_EMP_2EMP_SEX_ECO_RT",
+    "label": "Informal employment rate by sex and economic activity",
+    "type": "fundamental",
+    "category": "labor_ilo",
+    "series_id": "ILO_EMP_2EMP_SEX_ECO_RT",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/education",
+    "label": "Education",
+    "type": "fundamental_category",
+    "category": "education"
+  },
+  {
+    "id": "fundamental/series/WB_SE.XPD.TOTL.GD.ZS",
+    "label": "Government expenditure on education, total (% of GDP)",
+    "type": "fundamental",
+    "category": "education",
+    "series_id": "WB_SE.XPD.TOTL.GD.ZS",
+    "unit": "percent_gdp",
+    "priority": 1,
+    "used_by": [
+      "education_expenditure"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_SE.PRM.ENRR",
+    "label": "School enrollment, primary (% gross)",
+    "type": "fundamental",
+    "category": "education",
+    "series_id": "WB_SE.PRM.ENRR",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SE.SEC.ENRR",
+    "label": "School enrollment, secondary (% gross)",
+    "type": "fundamental",
+    "category": "education",
+    "series_id": "WB_SE.SEC.ENRR",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SE.TER.ENRR",
+    "label": "School enrollment, tertiary (% gross)",
+    "type": "fundamental",
+    "category": "education",
+    "series_id": "WB_SE.TER.ENRR",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SE.PRM.NENR",
+    "label": "School enrollment, primary (% net)",
+    "type": "fundamental",
+    "category": "education",
+    "series_id": "WB_SE.PRM.NENR",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SE.SEC.NENR",
+    "label": "School enrollment, secondary (% net)",
+    "type": "fundamental",
+    "category": "education",
+    "series_id": "WB_SE.SEC.NENR",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SE.ADT.LITR.ZS",
+    "label": "Literacy rate, adult total (% of people ages 15 and above)",
+    "type": "fundamental",
+    "category": "education",
+    "series_id": "WB_SE.ADT.LITR.ZS",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": [
+      "hdi"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_SE.ADT.1524.LT.ZS",
+    "label": "Literacy rate, youth total (% of people ages 15-24)",
+    "type": "fundamental",
+    "category": "education",
+    "series_id": "WB_SE.ADT.1524.LT.ZS",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SE.PRM.CMPT.ZS",
+    "label": "Primary completion rate, total (% of relevant age group)",
+    "type": "fundamental",
+    "category": "education",
+    "series_id": "WB_SE.PRM.CMPT.ZS",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SE.XPD.TOTL.GB.ZS",
+    "label": "Government expenditure on education (% of government expenditure)",
+    "type": "fundamental",
+    "category": "education",
+    "series_id": "WB_SE.XPD.TOTL.GB.ZS",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SE.PRE.ENRR",
+    "label": "School enrollment, preprimary (% gross)",
+    "type": "fundamental",
+    "category": "education",
+    "series_id": "WB_SE.PRE.ENRR",
+    "unit": "percent",
+    "priority": 3,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/health",
+    "label": "Health",
+    "type": "fundamental_category",
+    "category": "health"
+  },
+  {
+    "id": "fundamental/series/WB_SH.DYN.MORT",
+    "label": "Mortality rate, under-5 (per 1,000 live births)",
+    "type": "fundamental",
+    "category": "health",
+    "series_id": "WB_SH.DYN.MORT",
+    "unit": "per_1000_live_births",
+    "priority": 1,
+    "used_by": [
+      "infant_mortality"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_SH.XPD.CHEX.GD.ZS",
+    "label": "Current health expenditure (% of GDP)",
+    "type": "fundamental",
+    "category": "health",
+    "series_id": "WB_SH.XPD.CHEX.GD.ZS",
+    "unit": "percent_gdp",
+    "priority": 1,
+    "used_by": [
+      "health_expenditure"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_SH.STA.MMRT",
+    "label": "Maternal mortality ratio (modeled estimate, per 100,000 live births)",
+    "type": "fundamental",
+    "category": "health",
+    "series_id": "WB_SH.STA.MMRT",
+    "unit": "per_100000_live_births",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SH.XPD.CHEX.PC.CD",
+    "label": "Current health expenditure per capita (current US$)",
+    "type": "fundamental",
+    "category": "health",
+    "series_id": "WB_SH.XPD.CHEX.PC.CD",
+    "unit": "usd_per_capita",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SH.MED.PHYS.ZS",
+    "label": "Physicians (per 1,000 people)",
+    "type": "fundamental",
+    "category": "health",
+    "series_id": "WB_SH.MED.PHYS.ZS",
+    "unit": "per_1000",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SH.MED.BEDS.ZS",
+    "label": "Hospital beds (per 1,000 people)",
+    "type": "fundamental",
+    "category": "health",
+    "series_id": "WB_SH.MED.BEDS.ZS",
+    "unit": "per_1000",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SH.H2O.BASW.ZS",
+    "label": "People using at least basic drinking water services (% of population)",
+    "type": "fundamental",
+    "category": "health",
+    "series_id": "WB_SH.H2O.BASW.ZS",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SH.STA.BASS.ZS",
+    "label": "People using at least basic sanitation services (% of population)",
+    "type": "fundamental",
+    "category": "health",
+    "series_id": "WB_SH.STA.BASS.ZS",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SH.HIV.INCD",
+    "label": "Incidence of HIV (per 1,000 uninfected population)",
+    "type": "fundamental",
+    "category": "health",
+    "series_id": "WB_SH.HIV.INCD",
+    "unit": "per_1000",
+    "priority": 3,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_SH.TBS.INCD",
+    "label": "Incidence of tuberculosis (per 100,000 people)",
+    "type": "fundamental",
+    "category": "health",
+    "series_id": "WB_SH.TBS.INCD",
+    "unit": "per_100000",
+    "priority": 3,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/economy",
+    "label": "Economy",
+    "type": "fundamental_category",
+    "category": "economy"
+  },
+  {
+    "id": "fundamental/series/WB_NY.GDP.MKTP.CD",
+    "label": "GDP (current US$)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_NY.GDP.MKTP.CD",
+    "unit": "usd",
+    "priority": 1,
+    "used_by": [
+      "gdp_per_capita",
+      "trade_openness",
+      "fiscal_health"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_NY.GDP.MKTP.KD",
+    "label": "GDP (constant 2015 US$)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_NY.GDP.MKTP.KD",
+    "unit": "usd_2015",
+    "priority": 1,
+    "used_by": [
+      "gdp_per_capita"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_NY.GDP.PCAP.CD",
+    "label": "GDP per capita (current US$)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_NY.GDP.PCAP.CD",
+    "unit": "usd_per_capita",
+    "priority": 1,
+    "used_by": [
+      "gdp_per_capita",
+      "gini_adjusted_gdp_per_capita"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_NY.GDP.PCAP.KD",
+    "label": "GDP per capita (constant 2015 US$)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_NY.GDP.PCAP.KD",
+    "unit": "usd_per_capita_2015",
+    "priority": 1,
+    "used_by": [
+      "gdp_per_capita"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_NY.GDP.PCAP.PP.CD",
+    "label": "GDP per capita, PPP (current international $)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_NY.GDP.PCAP.PP.CD",
+    "unit": "intl_dollar_per_capita",
+    "priority": 1,
+    "used_by": [
+      "gini_adjusted_gdp_per_capita_ppp",
+      "hdi"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_FP.CPI.TOTL",
+    "label": "Consumer price index (2010 = 100)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_FP.CPI.TOTL",
+    "unit": "index_2010",
+    "priority": 1,
+    "used_by": [
+      "inflation"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_FP.CPI.TOTL.ZG",
+    "label": "Inflation, consumer prices (annual %)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_FP.CPI.TOTL.ZG",
+    "unit": "percent",
+    "priority": 1,
+    "used_by": [
+      "inflation"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_NE.EXP.GNFS.CD",
+    "label": "Exports of goods and services (current US$)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_NE.EXP.GNFS.CD",
+    "unit": "usd",
+    "priority": 1,
+    "used_by": [
+      "trade_openness",
+      "export_diversification"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_NE.IMP.GNFS.CD",
+    "label": "Imports of goods and services (current US$)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_NE.IMP.GNFS.CD",
+    "unit": "usd",
+    "priority": 1,
+    "used_by": [
+      "trade_openness"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_NE.TRD.GNFS.ZS",
+    "label": "Trade (% of GDP)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_NE.TRD.GNFS.ZS",
+    "unit": "percent_gdp",
+    "priority": 1,
+    "used_by": [
+      "trade_openness"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_GC.DOD.TOTL.GD.ZS",
+    "label": "Central government debt, total (% of GDP)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_GC.DOD.TOTL.GD.ZS",
+    "unit": "percent_gdp",
+    "priority": 1,
+    "used_by": [
+      "fiscal_health"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_BX.KLT.DINV.CD.WD",
+    "label": "Foreign direct investment, net inflows (BoP, current US$)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_BX.KLT.DINV.CD.WD",
+    "unit": "usd",
+    "priority": 1,
+    "used_by": [
+      "fdi"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_BX.TRF.PWKR.CD.DT",
+    "label": "Personal remittances, received (current US$)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_BX.TRF.PWKR.CD.DT",
+    "unit": "usd",
+    "priority": 1,
+    "used_by": [
+      "remittances"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_NY.GDP.TOTL.RT.ZS",
+    "label": "Total natural resources rents (% of GDP)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_NY.GDP.TOTL.RT.ZS",
+    "unit": "percent_gdp",
+    "priority": 1,
+    "used_by": [
+      "natural_resource_rents"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_NY.GDP.PETR.RT.ZS",
+    "label": "Oil rents (% of GDP)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_NY.GDP.PETR.RT.ZS",
+    "unit": "percent_gdp",
+    "priority": 1,
+    "used_by": [
+      "natural_resource_rents"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_NY.GDP.NGAS.RT.ZS",
+    "label": "Natural gas rents (% of GDP)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_NY.GDP.NGAS.RT.ZS",
+    "unit": "percent_gdp",
+    "priority": 1,
+    "used_by": [
+      "natural_resource_rents"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_TX.VAL.MANF.ZS.UN",
+    "label": "Manufactures exports (% of merchandise exports)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_TX.VAL.MANF.ZS.UN",
+    "unit": "percent",
+    "priority": 1,
+    "used_by": [
+      "export_diversification",
+      "non_resource_export_share"
+    ]
+  },
+  {
+    "id": "fundamental/series/IMF_GGXWDG_NGDP",
+    "label": "General government gross debt (% of GDP) \u2014 IMF WEO",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "IMF_GGXWDG_NGDP",
+    "unit": "percent_gdp",
+    "priority": 1,
+    "used_by": [
+      "fiscal_health"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_NY.GNP.PCAP.CD",
+    "label": "GNI per capita, Atlas method (current US$)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_NY.GNP.PCAP.CD",
+    "unit": "usd_per_capita",
+    "priority": 2,
+    "used_by": [
+      "hdi"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_BN.CAB.XOKA.GD.ZS",
+    "label": "Current account balance (% of GDP)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_BN.CAB.XOKA.GD.ZS",
+    "unit": "percent_gdp",
+    "priority": 2,
+    "used_by": [
+      "fiscal_health"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_GC.REV.XGRT.GD.ZS",
+    "label": "Revenue, excluding grants (% of GDP)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_GC.REV.XGRT.GD.ZS",
+    "unit": "percent_gdp",
+    "priority": 2,
+    "used_by": [
+      "fiscal_health"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_GC.XPN.TOTL.GD.ZS",
+    "label": "Expense (% of GDP)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_GC.XPN.TOTL.GD.ZS",
+    "unit": "percent_gdp",
+    "priority": 2,
+    "used_by": [
+      "fiscal_health"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_NY.GDP.COAL.RT.ZS",
+    "label": "Coal rents (% of GDP)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_NY.GDP.COAL.RT.ZS",
+    "unit": "percent_gdp",
+    "priority": 2,
+    "used_by": [
+      "natural_resource_rents"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_NY.GDP.MINR.RT.ZS",
+    "label": "Mineral rents (% of GDP)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_NY.GDP.MINR.RT.ZS",
+    "unit": "percent_gdp",
+    "priority": 2,
+    "used_by": [
+      "natural_resource_rents"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_NY.GDP.FRST.RT.ZS",
+    "label": "Forest rents (% of GDP)",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "WB_NY.GDP.FRST.RT.ZS",
+    "unit": "percent_gdp",
+    "priority": 2,
+    "used_by": [
+      "natural_resource_rents"
+    ]
+  },
+  {
+    "id": "fundamental/series/IMF_NGDPDPC",
+    "label": "GDP per capita, current prices (US$) \u2014 IMF WEO",
+    "type": "fundamental",
+    "category": "economy",
+    "series_id": "IMF_NGDPDPC",
+    "unit": "usd_per_capita",
+    "priority": 2,
+    "used_by": [
+      "gdp_per_capita"
+    ]
+  },
+  {
+    "id": "fundamental/poverty_inequality",
+    "label": "Poverty & Inequality",
+    "type": "fundamental_category",
+    "category": "poverty_inequality"
+  },
+  {
+    "id": "fundamental/series/WB_SI.POV.DDAY",
+    "label": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)",
+    "type": "fundamental",
+    "category": "poverty_inequality",
+    "series_id": "WB_SI.POV.DDAY",
+    "unit": "percent",
+    "priority": 1,
+    "used_by": [
+      "poverty_rate"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_SI.POV.GINI",
+    "label": "Gini index (World Bank estimate)",
+    "type": "fundamental",
+    "category": "poverty_inequality",
+    "series_id": "WB_SI.POV.GINI",
+    "unit": "gini_index",
+    "priority": 1,
+    "used_by": [
+      "gini",
+      "gini_adjusted_gdp_per_capita",
+      "gini_adjusted_gdp_per_capita_ppp"
+    ]
+  },
+  {
+    "id": "fundamental/series/UNDP_HDI",
+    "label": "Human Development Index",
+    "type": "fundamental",
+    "category": "poverty_inequality",
+    "series_id": "UNDP_HDI",
+    "unit": "index_0_to_1",
+    "priority": 1,
+    "used_by": [
+      "hdi"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_SI.POV.LMIC",
+    "label": "Poverty headcount ratio at $3.65 a day (2017 PPP) (% of population)",
+    "type": "fundamental",
+    "category": "poverty_inequality",
+    "series_id": "WB_SI.POV.LMIC",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": [
+      "poverty_rate"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_SI.POV.UMIC",
+    "label": "Poverty headcount ratio at $6.85 a day (2017 PPP) (% of population)",
+    "type": "fundamental",
+    "category": "poverty_inequality",
+    "series_id": "WB_SI.POV.UMIC",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/conflict",
+    "label": "Conflict & Violence",
+    "type": "fundamental_category",
+    "category": "conflict"
+  },
+  {
+    "id": "fundamental/series/UCDP_BDEATHS_INTERNAL",
+    "label": "Battle deaths \u2014 intrastate and internationalized conflicts (deaths INSIDE country)",
+    "type": "fundamental",
+    "category": "conflict",
+    "series_id": "UCDP_BDEATHS_INTERNAL",
+    "unit": "persons",
+    "priority": 1,
+    "used_by": [
+      "political_violence"
+    ]
+  },
+  {
+    "id": "fundamental/series/UCDP_BDEATHS_INTERSTATE",
+    "label": "Battle deaths \u2014 interstate conflicts (nationals killed ABROAD)",
+    "type": "fundamental",
+    "category": "conflict",
+    "series_id": "UCDP_BDEATHS_INTERSTATE",
+    "unit": "persons",
+    "priority": 1,
+    "used_by": [
+      "political_violence"
+    ]
+  },
+  {
+    "id": "fundamental/series/UCDP_OSV_GOVT",
+    "label": "One-sided violence deaths by government actors",
+    "type": "fundamental",
+    "category": "conflict",
+    "series_id": "UCDP_OSV_GOVT",
+    "unit": "persons",
+    "priority": 1,
+    "used_by": [
+      "political_violence"
+    ]
+  },
+  {
+    "id": "fundamental/series/UCDP_OSV_REBEL",
+    "label": "One-sided violence deaths by rebel/non-state actors",
+    "type": "fundamental",
+    "category": "conflict",
+    "series_id": "UCDP_OSV_REBEL",
+    "unit": "persons",
+    "priority": 1,
+    "used_by": [
+      "political_violence"
+    ]
+  },
+  {
+    "id": "fundamental/series/ACLED_FATALITIES",
+    "label": "Total fatalities from political violence events (ACLED)",
+    "type": "fundamental",
+    "category": "conflict",
+    "series_id": "ACLED_FATALITIES",
+    "unit": "persons",
+    "priority": 1,
+    "used_by": [
+      "political_violence"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_VC.BTL.DETH",
+    "label": "Battle-related deaths (number of people) \u2014 World Bank",
+    "type": "fundamental",
+    "category": "conflict",
+    "series_id": "WB_VC.BTL.DETH",
+    "unit": "persons",
+    "priority": 1,
+    "used_by": [
+      "political_violence"
+    ]
+  },
+  {
+    "id": "fundamental/series/UCDP_NSA",
+    "label": "Non-state actor conflict deaths",
+    "type": "fundamental",
+    "category": "conflict",
+    "series_id": "UCDP_NSA",
+    "unit": "persons",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/ACLED_EVENTS",
+    "label": "Total political violence events (ACLED)",
+    "type": "fundamental",
+    "category": "conflict",
+    "series_id": "ACLED_EVENTS",
+    "unit": "count",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/migration_displacement",
+    "label": "Migration & Displacement",
+    "type": "fundamental_category",
+    "category": "migration_displacement"
+  },
+  {
+    "id": "fundamental/series/WB_SM.POP.NETM",
+    "label": "Net migration (count)",
+    "type": "fundamental",
+    "category": "migration_displacement",
+    "series_id": "WB_SM.POP.NETM",
+    "unit": "persons",
+    "priority": 1,
+    "used_by": [
+      "net_migration"
+    ]
+  },
+  {
+    "id": "fundamental/series/UNHCR_REF_ORIGIN",
+    "label": "Refugees by country of origin (forced emigration outflow)",
+    "type": "fundamental",
+    "category": "migration_displacement",
+    "series_id": "UNHCR_REF_ORIGIN",
+    "unit": "persons",
+    "priority": 1,
+    "used_by": [
+      "refugee_flows"
+    ]
+  },
+  {
+    "id": "fundamental/series/UNHCR_REF_ASYLUM",
+    "label": "Refugees by country of asylum (forced immigration inflow)",
+    "type": "fundamental",
+    "category": "migration_displacement",
+    "series_id": "UNHCR_REF_ASYLUM",
+    "unit": "persons",
+    "priority": 1,
+    "used_by": [
+      "refugee_flows"
+    ]
+  },
+  {
+    "id": "fundamental/series/UNHCR_IDP_TOTAL",
+    "label": "Internally displaced persons (IDPs), total",
+    "type": "fundamental",
+    "category": "migration_displacement",
+    "series_id": "UNHCR_IDP_TOTAL",
+    "unit": "persons",
+    "priority": 1,
+    "used_by": [
+      "refugee_flows"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_SM.POP.REFG.OR",
+    "label": "Refugee population by country or territory of origin",
+    "type": "fundamental",
+    "category": "migration_displacement",
+    "series_id": "WB_SM.POP.REFG.OR",
+    "unit": "persons",
+    "priority": 1,
+    "used_by": [
+      "refugee_flows"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_SM.POP.TOTL",
+    "label": "International migrant stock, total",
+    "type": "fundamental",
+    "category": "migration_displacement",
+    "series_id": "WB_SM.POP.TOTL",
+    "unit": "persons",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/UNHCR_RETURNEES_INT",
+    "label": "International returnees (refugees returning to country of origin)",
+    "type": "fundamental",
+    "category": "migration_displacement",
+    "series_id": "UNHCR_RETURNEES_INT",
+    "unit": "persons",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/UNHCR_RETURNEES_IDP",
+    "label": "IDP returnees",
+    "type": "fundamental",
+    "category": "migration_displacement",
+    "series_id": "UNHCR_RETURNEES_IDP",
+    "unit": "persons",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/UNHCR_ASYLUM_SEEKERS_ORIGIN",
+    "label": "Asylum seekers originating from this country (abroad)",
+    "type": "fundamental",
+    "category": "migration_displacement",
+    "series_id": "UNHCR_ASYLUM_SEEKERS_ORIGIN",
+    "unit": "persons",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/IOM_ARRIVALS",
+    "label": "Tracked arrivals (IOM DTM)",
+    "type": "fundamental",
+    "category": "migration_displacement",
+    "series_id": "IOM_ARRIVALS",
+    "unit": "persons",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/governance",
+    "label": "Governance",
+    "type": "fundamental_category",
+    "category": "governance"
+  },
+  {
+    "id": "fundamental/series/WGI_CC",
+    "label": "Control of Corruption (WGI estimate)",
+    "type": "fundamental",
+    "category": "governance",
+    "series_id": "WGI_CC",
+    "unit": "wgi_estimate",
+    "priority": 1,
+    "used_by": [
+      "control_of_corruption"
+    ]
+  },
+  {
+    "id": "fundamental/series/WGI_GE",
+    "label": "Government Effectiveness (WGI estimate)",
+    "type": "fundamental",
+    "category": "governance",
+    "series_id": "WGI_GE",
+    "unit": "wgi_estimate",
+    "priority": 1,
+    "used_by": [
+      "government_effectiveness"
+    ]
+  },
+  {
+    "id": "fundamental/series/WGI_PS",
+    "label": "Political Stability and Absence of Violence (WGI estimate)",
+    "type": "fundamental",
+    "category": "governance",
+    "series_id": "WGI_PS",
+    "unit": "wgi_estimate",
+    "priority": 1,
+    "used_by": [
+      "political_stability"
+    ]
+  },
+  {
+    "id": "fundamental/series/WGI_RL",
+    "label": "Rule of Law (WGI estimate)",
+    "type": "fundamental",
+    "category": "governance",
+    "series_id": "WGI_RL",
+    "unit": "wgi_estimate",
+    "priority": 1,
+    "used_by": [
+      "institutional_functioning",
+      "legal_transparency"
+    ]
+  },
+  {
+    "id": "fundamental/series/WGI_VA",
+    "label": "Voice and Accountability (WGI estimate)",
+    "type": "fundamental",
+    "category": "governance",
+    "series_id": "WGI_VA",
+    "unit": "wgi_estimate",
+    "priority": 1,
+    "used_by": [
+      "civil_liberties"
+    ]
+  },
+  {
+    "id": "fundamental/series/VD_POLYARCHY",
+    "label": "Electoral Democracy Index (V-Dem polyarchy)",
+    "type": "fundamental",
+    "category": "governance",
+    "series_id": "VD_POLYARCHY",
+    "unit": "index_0_to_1",
+    "priority": 1,
+    "used_by": [
+      "civil_liberties",
+      "political_stability"
+    ]
+  },
+  {
+    "id": "fundamental/series/VD_LIBDEM",
+    "label": "Liberal Democracy Index (V-Dem libdem)",
+    "type": "fundamental",
+    "category": "governance",
+    "series_id": "VD_LIBDEM",
+    "unit": "index_0_to_1",
+    "priority": 1,
+    "used_by": [
+      "civil_liberties",
+      "political_stability"
+    ]
+  },
+  {
+    "id": "fundamental/series/WGI_RQ",
+    "label": "Regulatory Quality (WGI estimate)",
+    "type": "fundamental",
+    "category": "governance",
+    "series_id": "WGI_RQ",
+    "unit": "wgi_estimate",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/technology",
+    "label": "Technology",
+    "type": "fundamental_category",
+    "category": "technology"
+  },
+  {
+    "id": "fundamental/series/WB_IT.NET.USER.ZS",
+    "label": "Individuals using the Internet (% of population)",
+    "type": "fundamental",
+    "category": "technology",
+    "series_id": "WB_IT.NET.USER.ZS",
+    "unit": "percent",
+    "priority": 1,
+    "used_by": [
+      "internet_users"
+    ]
+  },
+  {
+    "id": "fundamental/series/WB_IT.CEL.SETS.P2",
+    "label": "Mobile cellular subscriptions (per 100 people)",
+    "type": "fundamental",
+    "category": "technology",
+    "series_id": "WB_IT.CEL.SETS.P2",
+    "unit": "per_100",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_EG.ELC.ACCS.ZS",
+    "label": "Access to electricity (% of population)",
+    "type": "fundamental",
+    "category": "technology",
+    "series_id": "WB_EG.ELC.ACCS.ZS",
+    "unit": "percent",
+    "priority": 2,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_EG.USE.PCAP.KG.OE",
+    "label": "Energy use (kg of oil equivalent per capita)",
+    "type": "fundamental",
+    "category": "technology",
+    "series_id": "WB_EG.USE.PCAP.KG.OE",
+    "unit": "kg_oil_equiv_per_capita",
+    "priority": 3,
+    "used_by": []
+  },
+  {
+    "id": "fundamental/series/WB_IS.ROD.PAVE.ZS",
+    "label": "Roads, paved (% of total roads)",
+    "type": "fundamental",
+    "category": "technology",
+    "series_id": "WB_IS.ROD.PAVE.ZS",
+    "unit": "percent",
+    "priority": 3,
+    "used_by": []
   }
 ]

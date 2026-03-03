@@ -66,6 +66,49 @@ years:
       notes: <string | null>      # caveats, data gaps, context
 ```
 
+## Schema v2 — quantitative block extensions (adopted 2026-03-02)
+
+Three new fields under `quantitative:`:
+
+```yaml
+  <YYYY>:
+    data_status: complete
+    quantitative:
+      value: 614.32             # primary value used for scoring
+      value_source: downloaded  # "downloaded" | "calculated" — how value was obtained
+      series_id: WB_NY.GDP.PCAP.CD   # canonical series reference (format: SOURCE_CODE)
+      calculated_value: 614.18  # from compute_derived.py; null if not computable
+      discrepancy:              # present only when both downloaded and calculated exist
+        downloaded: 614.32
+        calculated: 614.18
+        diff: 0.14
+        note: "Rounding difference; both agree within 0.1%"
+      unit: USD_current
+      formula: "(gdp_current_usd / population)"
+      ...
+```
+
+### value_source rules
+
+| Scenario | value_source | value | calculated_value |
+|----------|-------------|-------|-----------------|
+| Downloaded from API | `downloaded` | from API | null (or computed) |
+| Computed from formula, no download | `calculated` | from formula | same as value |
+| Both exist, downloaded wins | `downloaded` | from API | from formula |
+| Manual entry (qualitative indicator) | omit | from human research | null |
+
+### series_id format
+
+`<SOURCE>_<CODE>` — e.g. `WB_NY.GDP.PCAP.CD`, `ILO_UNE_TUNE_SEX_AGE_NB`, `WGI_CC`
+
+Leave null for qualitative indicators or indicators without a canonical series.
+
+### When compute_derived.py runs
+
+`compute_derived.py` reads canonical CSVs → writes `calculated_value` into YAML files.
+If `value` is null (never filled manually or downloaded), it also sets `value` and `value_source: calculated`.
+Does NOT overwrite an existing downloaded `value`.
+
 ## Data Status Values
 
 | Value | Meaning |

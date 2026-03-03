@@ -48,8 +48,9 @@ political:
 
   political_violence:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "100 * math.exp(-0.00015 * max(0, x))"
       thresholds:
         - score_range: [90, 100]
           condition: "< 100"
@@ -129,8 +130,9 @@ political:
 
   civil_liberties:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: "freedom_house_invert"
+      score_fn: "x"
       # Freedom House CL score 1-7 inverted: (8 - score) / 7 * 100
       thresholds:
         - score_range: [90, 100]
@@ -197,8 +199,9 @@ political:
 
   military_expenditure:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "100 * math.exp(-0.15 * max(0, x))"
       # % GDP; higher spend = lower score (inverted)
       thresholds:
         - score_range: [90, 100]
@@ -250,8 +253,9 @@ political:
 
   political_stability:
     quantitative_scoring:
-      type: threshold
-      input_transform: null
+      type: formula
+      input_transform: "wgi_to_100"
+      score_fn: "x"
       # WGI PV.EST: higher = more stable
       thresholds:
         - score_range: [90, 100]
@@ -291,8 +295,9 @@ political:
 
   government_effectiveness:
     quantitative_scoring:
-      type: threshold
-      input_transform: null
+      type: formula
+      input_transform: "wgi_to_100"
+      score_fn: "x"
       # WGI GE.EST: higher = better
       thresholds:
         - score_range: [85, 100]
@@ -328,8 +333,9 @@ political:
 economic:
   gdp_per_capita:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: "percent_of_peak"
+      score_fn: "x"
       # Score = (current / peak in series) * 100
       thresholds:
         - score_range: [90, 100]
@@ -369,8 +375,9 @@ economic:
 
   inflation:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "100 * math.exp(-0.025 * max(0, x))"
       # Lower inflation = higher score (inverse relationship)
       thresholds:
         - score_range: [90, 100]
@@ -410,8 +417,9 @@ economic:
 
   unemployment:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "100 * math.exp(-0.07 * max(0, x))"
       # Lower unemployment = higher score
       thresholds:
         - score_range: [90, 100]
@@ -451,8 +459,9 @@ economic:
 
   trade_openness:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "x"
       # (Exports + Imports) / GDP as percentage
       thresholds:
         - score_range: [90, 100]
@@ -492,8 +501,9 @@ economic:
 
   fiscal_health:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "max(0, 100 - 0.6 * max(0, x))"
       # Debt-to-GDP ratio — lower is better
       thresholds:
         - score_range: [90, 100]
@@ -533,8 +543,9 @@ economic:
 
   natural_resource_rents:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "min(84, max(0, 84 * (1 - x / 65)))"
       # % GDP; higher rents = lower score (resource-curse framing)
       thresholds:
         - score_range: [70, 84]
@@ -592,8 +603,9 @@ economic:
 
   youth_unemployment:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "100 * math.exp(-0.05 * max(0, x))"
       # % youth labor force; lower = better
       thresholds:
         - score_range: [80, 100]
@@ -628,8 +640,9 @@ economic:
 
   gini:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "max(0, 100 * (1 - (x - 20) / 60))"
       # 0-100 scale; lower inequality = better
       thresholds:
         - score_range: [75, 100]
@@ -659,8 +672,9 @@ economic:
 
   neet_rate:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "max(0, 100 - 2 * x)"
       # % youth population; lower = better
       thresholds:
         - score_range: [80, 100]
@@ -695,8 +709,9 @@ economic:
 
   gini_adjusted_gdp_per_capita:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: "percent_of_peak"
+      score_fn: "x"
       # Pre-computed: GDP_pc × (1 − Gini/100); scored as percent of series peak
       thresholds:
         - score_range: [90, 100]
@@ -736,8 +751,9 @@ economic:
 
   poverty_rate:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "100 * math.exp(-0.04 * max(0, x))"
       # % population below $2.15/day; lower = better
       thresholds:
         - score_range: [85, 100]
@@ -772,8 +788,9 @@ economic:
 
   gini_adjusted_gdp_per_capita_ppp:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: "percent_of_peak"
+      score_fn: "x"
       # PPP-adjusted: GDP_pc_PPP × (1 − Gini/100); scored as percent of series peak
       thresholds:
         - score_range: [90, 100]
@@ -813,8 +830,9 @@ economic:
 
   export_diversification:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "(1 - x) * 100"
       # HHI 0-1; lower = more diversified = better
       thresholds:
         - score_range: [85, 100]
@@ -849,8 +867,9 @@ economic:
 
   non_resource_export_share:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "x"
       # % total merchandise exports; higher = less resource-dependent = better
       thresholds:
         - score_range: [85, 100]
@@ -964,8 +983,9 @@ international:
 
   fdi:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "max(0, 40 + 10 * x)"
       # FDI as % of GDP
       thresholds:
         - score_range: [90, 100]
@@ -1005,8 +1025,9 @@ international:
 
   refugee_flows:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "100 * math.exp(-3 * max(0, x))"
       # Displacement as % of population per year — lower is better
       thresholds:
         - score_range: [90, 100]
@@ -1047,9 +1068,10 @@ international:
 transparency:
   budget_transparency:
     quantitative_scoring:
-      type: direct
+      type: formula
       # Open Budget Index already 0-100, use directly
       input_transform: null
+      score_fn: "x"
       thresholds:
         - score_range: [80, 100]
           condition: ">= 80"
@@ -1088,8 +1110,9 @@ transparency:
 
   press_freedom:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: "rsf_invert"
+      score_fn: "x"
       # RSF score inverted: 100 - RSF_Score
       thresholds:
         - score_range: [85, 100]
@@ -1129,9 +1152,10 @@ transparency:
 
   statistical_transparency:
     quantitative_scoring:
-      type: direct
+      type: formula
       # World Bank SCI already 0-100
       input_transform: null
+      score_fn: "x"
       thresholds:
         - score_range: [80, 100]
           condition: ">= 80"
@@ -1170,8 +1194,9 @@ transparency:
 
   legal_transparency:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: "wjp_multiply_100"
+      score_fn: "x"
       # WJP 0-1 scale multiplied by 100
       thresholds:
         - score_range: [90, 100]
@@ -1237,8 +1262,9 @@ transparency:
 
   control_of_corruption:
     quantitative_scoring:
-      type: threshold
-      input_transform: null
+      type: formula
+      input_transform: "wgi_to_100"
+      score_fn: "x"
       # WGI CC.EST: higher = less corrupt = better
       thresholds:
         - score_range: [90, 100]
@@ -1351,8 +1377,9 @@ population_mobility:
 social:
   life_expectancy:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "(x - 40) / 0.5"
       # Years; higher = better
       thresholds:
         - score_range: [85, 100]
@@ -1387,8 +1414,9 @@ social:
 
   infant_mortality:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "100 * math.exp(-0.03 * max(0, x))"
       # Per 1000 live births; lower = better
       thresholds:
         - score_range: [80, 100]
@@ -1423,8 +1451,9 @@ social:
 
   internet_users:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "x"
       # % population; higher = better
       thresholds:
         - score_range: [85, 100]
@@ -1464,8 +1493,9 @@ social:
 
   health_expenditure:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "x * 10"
       # % GDP; higher = better
       thresholds:
         - score_range: [75, 100]
@@ -1495,8 +1525,9 @@ social:
 
   education_expenditure:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "x * 12"
       # % GDP; higher = better
       thresholds:
         - score_range: [70, 100]
@@ -1526,8 +1557,9 @@ social:
 
   hdi:
     quantitative_scoring:
-      type: threshold
+      type: formula
       input_transform: null
+      score_fn: "x * 100"
       # UNDP HDI 0-1; higher = better
       thresholds:
         - score_range: [85, 100]

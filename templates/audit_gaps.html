@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}Data Gaps{% endblock %}
+
+{% block content %}
+<h1>Data Collection Gaps</h1>
+<p style="color:#64748b;margin-bottom:16px">Series not yet downloaded. Sorted by priority, then source.</p>
+
+<table>
+  <thead><tr><th>Series ID</th><th>Name</th><th>Source</th><th>Priority</th><th>Category</th><th>Plan</th><th>Action</th></tr></thead>
+  <tbody>
+  {% for gap in gaps %}
+    <tr>
+      <td><a href="/audit/series/{{ gap.series_id }}" style="font-size:11px;font-family:monospace">{{ gap.series_id }}</a></td>
+      <td>{{ gap.name }}</td>
+      <td><span class="source-tag">{{ gap.source }}</span></td>
+      <td class="priority-{{ gap.priority }}">P{{ gap.priority }}</td>
+      <td>{{ gap.category | replace('_', ' ') }}</td>
+      <td style="max-width:200px;font-size:11px">
+        {% if gap.plan %}
+          {% for country, plan_text in gap.plan.items() %}
+            <div><em>{{ country }}</em>: {{ plan_text[:80] }}{% if plan_text | length > 80 %}…{% endif %}</div>
+          {% endfor %}
+        {% elif gap.errors %}
+          <span style="color:#ef4444">{{ gap.errors[0][:60] }}</span>
+        {% else %}—{% endif %}
+      </td>
+      <td>
+        <button class="btn" onclick="showPlanEditor('{{ gap.series_id }}', this)">Add plan</button>
+      </td>
+    </tr>
+    <tr id="plan-editor-{{ gap.series_id }}" style="display:none">
+      <td colspan="7" style="padding:8px">
+        <textarea id="plan-text-{{ gap.series_id }}" rows="2" style="width:100%;font-size:12px;padding:4px" placeholder="Describe how to collect this series..."></textarea>
+        <button class="btn btn-primary" style="margin-top:4px" onclick="savePlan('{{ gap.series_id }}')">Save plan</button>
+        <button class="btn" style="margin-top:4px;margin-left:4px" onclick="document.getElementById('plan-editor-{{ gap.series_id }}').style.display='none'">Cancel</button>
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<script>
+function showPlanEditor(seriesId, btn) {
+  const row = document.getElementById('plan-editor-' + seriesId);
+  row.style.display = row.style.display === 'none' ? '' : 'none';
+}
+function savePlan(seriesId) {
+  const text = document.getElementById('plan-text-' + seriesId).value;
+  fetch('/api/plan', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({series_id: seriesId, plan: text, country_id: 'all'})
+  }).then(r => r.json()).then(data => {
+    document.getElementById('plan-editor-' + seriesId).style.display = 'none';
+    location.reload();
+  });
+}
+</script>
+{% endblock %}

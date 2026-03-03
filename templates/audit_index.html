@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% block title %}Coverage Matrix{% endblock %}
+
+{% block content %}
+<h1>Data Coverage Matrix</h1>
+
+<div class="stats-bar">
+  <div class="stat">
+    <span class="stat-value">{{ stats.total_series }}</span>
+    <span class="stat-label">Series defined</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">{{ stats.downloaded_series }}</span>
+    <span class="stat-label">Downloaded</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">{{ stats.total_avail }}</span>
+    <span class="stat-label">Obs. available</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value {% if stats.coverage_pct >= 80 %}coverage-high{% elif stats.coverage_pct >= 30 %}coverage-mid{% else %}coverage-low{% endif %}">{{ stats.coverage_pct }}%</span>
+    <span class="stat-label">Coverage</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">{{ stats.total_verified }}</span>
+    <span class="stat-label">Verified obs.</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">{{ stats.verified_pct }}%</span>
+    <span class="stat-label">Verified rate</span>
+  </div>
+</div>
+
+<h2>By Source Category</h2>
+<table>
+  <thead><tr><th>Category</th><th>Series Defined</th><th>Downloaded</th><th>Progress</th></tr></thead>
+  <tbody>
+  {% for cat, counts in categories.items() | sort %}
+    <tr>
+      <td>{{ cat.replace('_', ' ').title() }}</td>
+      <td>{{ counts.total }}</td>
+      <td>{{ counts.downloaded }}</td>
+      <td>
+        {% set pct = (counts.downloaded / counts.total * 100) | int if counts.total else 0 %}
+        <div style="width:120px;height:8px;background:#f1f5f9;border-radius:4px;overflow:hidden;display:inline-block">
+          <div style="width:{{ pct }}%;height:100%;background:{% if pct >= 80 %}#10b981{% elif pct >= 30 %}#f59e0b{% else %}#ef4444{% endif %}"></div>
+        </div>
+        <span style="font-size:11px;margin-left:4px">{{ pct }}%</span>
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<h2>Country Coverage Summary</h2>
+<table>
+  <thead><tr><th>Country</th><th>Region</th><th>Obs. Available</th><th>Total Obs.</th><th>Coverage</th><th>Verified</th><th>Detail</th></tr></thead>
+  <tbody>
+  {% for cid, s in country_summary.items() | sort(attribute='1.coverage_pct', reverse=True) %}
+    {% set meta = countries[cid] %}
+    <tr>
+      <td><strong>{{ meta.display_name }}</strong></td>
+      <td>{{ meta.region | replace('_', ' ') }}</td>
+      <td>{{ s.available }}</td>
+      <td>{{ s.total_obs }}</td>
+      <td class="{% if s.coverage_pct >= 80 %}coverage-high{% elif s.coverage_pct >= 30 %}coverage-mid{% else %}coverage-low{% endif %}">
+        {{ s.coverage_pct }}%
+      </td>
+      <td>{{ s.verified }}</td>
+      <td><a href="/audit/country/{{ cid }}" class="btn">Detail →</a></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<h2>Series Download Status</h2>
+<table>
+  <thead><tr><th>Series ID</th><th>Name</th><th>Source</th><th>Priority</th><th>Status</th><th>Available Obs.</th><th>Detail</th></tr></thead>
+  <tbody>
+  {% for sid, info in series_info.items() | sort(attribute='1.priority') %}
+    {% set reg = registry.get(sid, {}) %}
+    {% set ss = series_summary.get(sid, {}) %}
+    <tr>
+      <td><code style="font-size:11px">{{ sid }}</code></td>
+      <td>{{ info.name }}</td>
+      <td><span class="source-tag">{{ info.source }}</span></td>
+      <td class="priority-{{ info.priority }}">P{{ info.priority }}</td>
+      <td>
+        {% if reg.get('downloaded') %}
+          <span class="badge badge-available">downloaded</span>
+        {% else %}
+          <span class="badge badge-not-downloaded">not downloaded</span>
+        {% endif %}
+      </td>
+      <td>{{ ss.get('available', 0) }}</td>
+      <td><a href="/audit/series/{{ sid }}" class="btn">Detail →</a></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

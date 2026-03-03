@@ -1,77 +1,1001 @@
 indicator: gini_adjusted_gdp_per_capita
 country: iraq
 dimension: economic
-notes: "Pre-computed derived value: GDP_pc × (1 − Gini/100). Iraq has only 3 Gini survey years (2006, 2012, 2023); all other years are missing."
+notes: 'Pre-computed derived value: GDP_pc × (1 − Gini/100). Iraq has only 3 Gini survey years (2006, 2012, 2023); all other
+  years are missing.'
 years:
   2006:
     data_status: complete
     quantitative:
       value: 1173.82
       unit: usd_inequality_adjusted
-      formula: "GDP_pc × (1 − Gini/100) = 1644 × (1 − 28.6/100) = 1644 × 0.714"
+      formula: GDP_pc × (1 − Gini/100) = 1644 × (1 − 28.6/100) = 1644 × 0.714
       source:
-        citation: "Derived from World Bank NY.GDP.PCAP.CD (Iraq 2006) × (1 − SI.POV.GINI/100)"
+        citation: Derived from World Bank NY.GDP.PCAP.CD (Iraq 2006) × (1 − SI.POV.GINI/100)
         url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=IQ
         access_date: '2026-03-02'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 1625.459811
+      discrepancy: null
     qualitative:
-      assessment: "Gini-adjusted GDP per capita for Iraq in 2006 (civil war year). GDP_pc = 1644 USD, Gini = 28.6. Adjusted value = 1173.82 USD. Low absolute level reflects sectarian violence period; relatively low Gini reflects Iraq's state-compressed inequality."
+      assessment: Gini-adjusted GDP per capita for Iraq in 2006 (civil war year). GDP_pc = 1644 USD, Gini = 28.6. Adjusted
+        value = 1173.82 USD. Low absolute level reflects sectarian violence period; relatively low Gini reflects Iraq's state-compressed
+        inequality.
       features: []
       sources:
-      - citation: "World Bank WDI, Iraq, NY.GDP.PCAP.CD and SI.POV.GINI, 2006"
+      - citation: World Bank WDI, Iraq, NY.GDP.PCAP.CD and SI.POV.GINI, 2006
         type: dataset
         reliability: medium
       confidence: medium
-      notes: "Only 3 Gini data points available for Iraq; 2006 is IHSES household survey year"
+      notes: Only 3 Gini data points available for Iraq; 2006 is IHSES household survey year
   2012:
     data_status: complete
     quantitative:
       value: 3152.06
       unit: usd_inequality_adjusted
-      formula: "GDP_pc × (1 − Gini/100) = 4471 × (1 − 29.5/100) = 4471 × 0.705"
+      formula: GDP_pc × (1 − Gini/100) = 4471 × (1 − 29.5/100) = 4471 × 0.705
       source:
-        citation: "Derived from World Bank NY.GDP.PCAP.CD (Iraq 2012) × (1 − SI.POV.GINI/100)"
+        citation: Derived from World Bank NY.GDP.PCAP.CD (Iraq 2012) × (1 − SI.POV.GINI/100)
         url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=IQ
         access_date: '2026-03-02'
       reliability: high
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 4566.70531
+      discrepancy: null
     qualitative:
-      assessment: "Gini-adjusted GDP per capita for Iraq in 2012 (post-surge recovery, strong oil revenues). GDP_pc = 4471 USD, Gini = 29.5. Adjusted value = 3152.06 USD. Strong economic period; moderate Gini reflects continued public sector wage compression."
+      assessment: Gini-adjusted GDP per capita for Iraq in 2012 (post-surge recovery, strong oil revenues). GDP_pc = 4471
+        USD, Gini = 29.5. Adjusted value = 3152.06 USD. Strong economic period; moderate Gini reflects continued public sector
+        wage compression.
       features: []
       sources:
-      - citation: "World Bank WDI, Iraq, NY.GDP.PCAP.CD and SI.POV.GINI, 2012"
+      - citation: World Bank WDI, Iraq, NY.GDP.PCAP.CD and SI.POV.GINI, 2012
         type: dataset
         reliability: high
       confidence: high
-      notes: "Only 3 Gini data points available for Iraq; 2012 is IHSES household survey year"
+      notes: Only 3 Gini data points available for Iraq; 2012 is IHSES household survey year
   2023:
     data_status: complete
     quantitative:
-      value: 3615.30
+      value: 3615.3
       unit: usd_inequality_adjusted
-      formula: "GDP_pc × (1 − Gini/100) = 5150 × (1 − 29.8/100) = 5150 × 0.702"
+      formula: GDP_pc × (1 − Gini/100) = 5150 × (1 − 29.8/100) = 5150 × 0.702
       source:
-        citation: "Derived from World Bank NY.GDP.PCAP.CD (Iraq 2023) × (1 − SI.POV.GINI/100)"
+        citation: Derived from World Bank NY.GDP.PCAP.CD (Iraq 2023) × (1 − SI.POV.GINI/100)
         url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=IQ
         access_date: '2026-03-02'
       reliability: medium
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 4187.653482
+      discrepancy: null
     qualitative:
-      assessment: "Gini-adjusted GDP per capita for Iraq in 2023 (post-ISIS recovery, Sudani government). GDP_pc = 5150 USD, Gini = 29.8. Adjusted value = 3615.30 USD. Series peak for adjusted measure; Gini stable at low levels."
+      assessment: Gini-adjusted GDP per capita for Iraq in 2023 (post-ISIS recovery, Sudani government). GDP_pc = 5150 USD,
+        Gini = 29.8. Adjusted value = 3615.30 USD. Series peak for adjusted measure; Gini stable at low levels.
       features: []
       sources:
-      - citation: "World Bank WDI, Iraq, NY.GDP.PCAP.CD and SI.POV.GINI, 2023"
+      - citation: World Bank WDI, Iraq, NY.GDP.PCAP.CD and SI.POV.GINI, 2023
         type: dataset
         reliability: medium
       confidence: medium
-      notes: "Only 3 Gini data points available for Iraq; 2023 is IHSES household survey year"
+      notes: Only 3 Gini data points available for Iraq; 2023 is IHSES household survey year
+  1988:
+    data_status: complete
+    quantitative:
+      value: 1712.34
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=2398.24 USD, Gini=28.60 (extrapolated from 2006
+          survey), accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 1712.34
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 2398.24 × (1−28.6/100) = 1712.34. At 49.3% of series
+        peak (2016). Pre-Gulf War level; Gini extrapolated from 2006 survey as no earlier data exists.'
+      features:
+      - severe_decline_30_50pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Gini extrapolated from nearest survey year (2006=28.6); no Iraq Gini data available before 2006
+  1989:
+    data_status: complete
+    quantitative:
+      value: 1615.4
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=2262.47 USD, Gini=28.60 (extrapolated from 2006
+          survey), accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 1615.4
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 2262.47 × (1−28.6/100) = 1615.40. At 46.5% of series
+        peak. Declining pre-war level; Gini extrapolated from 2006 survey.'
+      features:
+      - severe_decline_30_50pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Gini extrapolated from nearest survey year (2006=28.6); no Iraq Gini data available before 2006
+  1990:
+    data_status: complete
+    quantitative:
+      value: 2517.98
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=3526.58 USD, Gini=28.60 (extrapolated from 2006
+          survey), accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 2517.98
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 3526.58 × (1−28.6/100) = 2517.98. At 72.5% of series
+        peak. Last pre-Gulf War year showing elevated GDP; sharp collapse follows in 1991.'
+      features:
+      - moderate_decline_70_90pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Gini extrapolated from nearest survey year (2006=28.6)
+  1991:
+    data_status: complete
+    quantitative:
+      value: 895.81
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=1254.63 USD, Gini=28.60 (extrapolated from 2006
+          survey), accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 895.81
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 1254.63 × (1−28.6/100) = 895.81. At 25.8% of series peak.
+        Gulf War collapse — catastrophic economic disruption from conflict and sanctions.'
+      features:
+      - collapse_below_30pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Gini extrapolated from nearest survey year (2006=28.6)
+  1992:
+    data_status: complete
+    quantitative:
+      value: 1153.14
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=1615.04 USD, Gini=28.60 (extrapolated from 2006
+          survey), accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 1153.14
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 1615.04 × (1−28.6/100) = 1153.14. At 33.2% of series
+        peak. Partial recovery from 1991 collapse but still severely depressed under sanctions.'
+      features:
+      - severe_decline_30_50pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Gini extrapolated from nearest survey year (2006=28.6)
+  1993:
+    data_status: complete
+    quantitative:
+      value: 1431.97
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=2005.56 USD, Gini=28.60 (extrapolated from 2006
+          survey), accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 1431.97
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 2005.56 × (1−28.6/100) = 1431.97. At 41.2% of series
+        peak. Continued slow recovery under UN sanctions regime.'
+      features:
+      - severe_decline_30_50pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Gini extrapolated from nearest survey year (2006=28.6)
+  1994:
+    data_status: complete
+    quantitative:
+      value: 1417.86
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=1985.80 USD, Gini=28.60 (extrapolated from 2006
+          survey), accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 1417.86
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 1985.80 × (1−28.6/100) = 1417.86. At 40.8% of series
+        peak. Stagnation under continuing sanctions.'
+      features:
+      - severe_decline_30_50pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Gini extrapolated from nearest survey year (2006=28.6)
+  1995:
+    data_status: complete
+    quantitative:
+      value: 1400.22
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=1961.09 USD, Gini=28.60 (extrapolated from 2006
+          survey), accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 1400.22
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 1961.09 × (1−28.6/100) = 1400.22. At 40.3% of series
+        peak. Continued stagnation under UN sanctions.'
+      features:
+      - severe_decline_30_50pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Gini extrapolated from nearest survey year (2006=28.6)
+  1996:
+    data_status: complete
+    quantitative:
+      value: 1505.7
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=2108.82 USD, Gini=28.60 (extrapolated from 2006
+          survey), accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 1505.7
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 2108.82 × (1−28.6/100) = 1505.70. At 43.4% of series
+        peak. Modest recovery as Oil-for-Food program begins.'
+      features:
+      - severe_decline_30_50pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Gini extrapolated from nearest survey year (2006=28.6)
+  1997:
+    data_status: complete
+    quantitative:
+      value: 1769.89
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=2478.84 USD, Gini=28.60 (extrapolated from 2006
+          survey), accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 1769.89
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 2478.84 × (1−28.6/100) = 1769.89. At 51.0% of series
+        peak. Recovery driven by Oil-for-Food exports resuming.'
+      features:
+      - significant_decline_50_70pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Gini extrapolated from nearest survey year (2006=28.6)
+  1998:
+    data_status: complete
+    quantitative:
+      value: 2315.47
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=3242.96 USD, Gini=28.60 (extrapolated from 2006
+          survey), accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 2315.47
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 3242.96 × (1−28.6/100) = 2315.47. At 66.7% of series
+        peak. Continued recovery under Oil-for-Food; approaching pre-sanction levels.'
+      features:
+      - significant_decline_50_70pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Gini extrapolated from nearest survey year (2006=28.6)
+  1999:
+    data_status: complete
+    quantitative:
+      value: 2635.9
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=3691.74 USD, Gini=28.60 (extrapolated from 2006
+          survey), accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 2635.9
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 3691.74 × (1−28.6/100) = 2635.90. At 75.9% of series
+        peak. Strong Oil-for-Food driven growth continuing.'
+      features:
+      - moderate_decline_70_90pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Gini extrapolated from nearest survey year (2006=28.6)
+  2000:
+    data_status: complete
+    quantitative:
+      value: 2979.36
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=4172.78 USD, Gini=28.60 (extrapolated from 2006
+          survey), accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 2979.36
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 4172.78 × (1−28.6/100) = 2979.36. At 85.8% of series
+        peak. Near-restoration of pre-sanctions GDP as oil exports expand under Oil-for-Food.'
+      features:
+      - moderate_decline_70_90pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Gini extrapolated from nearest survey year (2006=28.6)
+  2001:
+    data_status: complete
+    quantitative:
+      value: 2938.89
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=4116.09 USD, Gini=28.60 (extrapolated from 2006
+          survey), accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 2938.89
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 4116.09 × (1−28.6/100) = 2938.89. At 84.6% of series
+        peak. Slight decline from 2000 peak; Oil-for-Food era ending.'
+      features:
+      - moderate_decline_70_90pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Gini extrapolated from nearest survey year (2006=28.6)
+  2002:
+    data_status: complete
+    quantitative:
+      value: 2613.9
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=3660.93 USD, Gini=28.60 (extrapolated from 2006
+          survey), accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 2613.9
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 3660.93 × (1−28.6/100) = 2613.90. At 75.3% of series
+        peak. Pre-invasion decline as uncertainty rises ahead of 2003 conflict.'
+      features:
+      - moderate_decline_70_90pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: low
+      notes: Gini extrapolated from nearest survey year (2006=28.6)
+  2003:
+    data_status: complete
+    quantitative:
+      value: 1606.55
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=2250.07 USD, Gini=28.60 (extrapolated from 2006
+          survey), accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 1606.55
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 2250.07 × (1−28.6/100) = 1606.55. At 46.3% of series
+        peak. Regime change year — US invasion collapse of GDP by 38% from 2002.'
+      features:
+      - severe_decline_30_50pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Gini extrapolated from nearest survey year (2006=28.6); regime change year with significant measurement uncertainty
+  2004:
+    data_status: complete
+    quantitative:
+      value: 2394.95
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=3354.27 USD, Gini=28.60 (extrapolated from 2006
+          survey), accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 2394.95
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 3354.27 × (1−28.6/100) = 2394.95. At 69.0% of series
+        peak. Post-invasion rebound as oil production restarts under CPA.'
+      features:
+      - significant_decline_50_70pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Gini extrapolated from nearest survey year (2006=28.6)
+  2005:
+    data_status: complete
+    quantitative:
+      value: 2363.95
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=3310.86 USD, Gini=28.60 (extrapolated from 2006
+          survey), accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 2363.95
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 3310.86 × (1−28.6/100) = 2363.95. At 68.1% of series
+        peak. Slight decline from 2004 as security deteriorates ahead of peak sectarian conflict.'
+      features:
+      - significant_decline_50_70pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Gini extrapolated from nearest survey year (2006=28.6)
+  2007:
+    data_status: complete
+    quantitative:
+      value: 2540.48
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=3565.58 USD, Gini=28.75 (interpolated 2006-2012),
+          accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 2540.48
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 3565.58 × (1−28.75/100) = 2540.48. At 73.2% of series
+        peak. Continued growth despite sectarian violence; oil revenues sustaining macro economy.'
+      features:
+      - moderate_decline_70_90pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Gini interpolated between 2006 (28.6) and 2012 (29.5) survey years
+  2008:
+    data_status: complete
+    quantitative:
+      value: 2688.85
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=3781.78 USD, Gini=28.90 (interpolated 2006-2012),
+          accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 2688.85
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 3781.78 × (1−28.90/100) = 2688.85. At 77.4% of series
+        peak. Oil price boom driving strong GDP growth as security improves with surge.'
+      features:
+      - moderate_decline_70_90pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Gini interpolated between 2006 (28.6) and 2012 (29.5) survey years
+  2009:
+    data_status: complete
+    quantitative:
+      value: 2673.52
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=3768.17 USD, Gini=29.05 (interpolated 2006-2012),
+          accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 2673.52
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 3768.17 × (1−29.05/100) = 2673.52. At 77.0% of series
+        peak. Oil price drop from 2008 peak dampens growth slightly.'
+      features:
+      - moderate_decline_70_90pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Gini interpolated between 2006 (28.6) and 2012 (29.5) survey years
+  2010:
+    data_status: complete
+    quantitative:
+      value: 2748.41
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=3881.94 USD, Gini=29.20 (interpolated 2006-2012),
+          accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 2748.41
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 3881.94 × (1−29.20/100) = 2748.41. At 79.2% of series
+        peak. Strong recovery; oil output rising rapidly with new field development.'
+      features:
+      - moderate_decline_70_90pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Gini interpolated between 2006 (28.6) and 2012 (29.5) survey years
+  2011:
+    data_status: complete
+    quantitative:
+      value: 2847.21
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=4030.02 USD, Gini=29.35 (interpolated 2006-2012),
+          accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 2847.21
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 4030.02 × (1−29.35/100) = 2847.21. At 82.0% of series
+        peak. US troop withdrawal year; economy strengthening on high oil revenues.'
+      features:
+      - moderate_decline_70_90pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Gini interpolated between 2006 (28.6) and 2012 (29.5) survey years
+  2013:
+    data_status: complete
+    quantitative:
+      value: 3174.68
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=4504.83 USD, Gini=29.53 (interpolated 2012-2023),
+          accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 3174.68
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 4504.83 × (1−29.53/100) = 3174.68. At 91.4% of series
+        peak. Strong oil revenue period; near historical high for adjusted measure.'
+      features:
+      - near_peak_90_100pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Gini interpolated between 2012 (29.5) and 2023 (29.8) survey years
+  2014:
+    data_status: complete
+    quantitative:
+      value: 3132.69
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=4446.97 USD, Gini=29.55 (interpolated 2012-2023),
+          accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 3132.69
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 4446.97 × (1−29.55/100) = 3132.69. At 90.2% of series
+        peak. ISIS takeover of Mosul depresses economy despite sustained oil revenues.'
+      features:
+      - near_peak_90_100pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Gini interpolated between 2012 (29.5) and 2023 (29.8) survey years
+  2015:
+    data_status: complete
+    quantitative:
+      value: 3126.67
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=4440.14 USD, Gini=29.58 (interpolated 2012-2023),
+          accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 3126.67
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 4440.14 × (1−29.58/100) = 3126.67. At 90.0% of series
+        peak. Oil price crash and ISIS conflict keeping economy below potential.'
+      features:
+      - near_peak_90_100pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Gini interpolated between 2012 (29.5) and 2023 (29.8) survey years
+  2016:
+    data_status: complete
+    quantitative:
+      value: 3472.33
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=4932.93 USD, Gini=29.61 (interpolated 2012-2023),
+          accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 3472.33
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 4932.93 × (1−29.61/100) = 3472.33. At 100.0% of series
+        peak — the highest Gini-adjusted value in the series. Strong GDP buoyed by oil despite fiscal pressures.'
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Gini interpolated between 2012 (29.5) and 2023 (29.8) survey years; series peak year
+  2017:
+    data_status: complete
+    quantitative:
+      value: 3332.65
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=4736.33 USD, Gini=29.64 (interpolated 2012-2023),
+          accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 3332.65
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 4736.33 × (1−29.64/100) = 3332.65. At 96.0% of series
+        peak. ISIS defeated in Mosul; economy recovering but below 2016 peak.'
+      features:
+      - near_peak_90_100pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Gini interpolated between 2012 (29.5) and 2023 (29.8) survey years
+  2018:
+    data_status: complete
+    quantitative:
+      value: 3340.28
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=4749.01 USD, Gini=29.66 (interpolated 2012-2023),
+          accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 3340.28
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 4749.01 × (1−29.66/100) = 3340.28. At 96.2% of series
+        peak. Post-ISIS reconstruction period with stabilizing economy.'
+      features:
+      - near_peak_90_100pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Gini interpolated between 2012 (29.5) and 2023 (29.8) survey years
+  2019:
+    data_status: complete
+    quantitative:
+      value: 3443.84
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=4898.15 USD, Gini=29.69 (interpolated 2012-2023),
+          accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 3443.84
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 4898.15 × (1−29.69/100) = 3443.84. At 99.2% of series
+        peak. Near-peak level; strong oil revenues before COVID shock.'
+      features:
+      - near_peak_90_100pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Gini interpolated between 2012 (29.5) and 2023 (29.8) survey years
+  2020:
+    data_status: complete
+    quantitative:
+      value: 2961.68
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=4214.00 USD, Gini=29.72 (interpolated 2012-2023),
+          accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 2961.68
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 4214.00 × (1−29.72/100) = 2961.68. At 85.3% of series
+        peak. COVID-19 and oil price collapse drives sharp contraction.'
+      features:
+      - moderate_decline_70_90pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Gini interpolated between 2012 (29.5) and 2023 (29.8) survey years
+  2021:
+    data_status: complete
+    quantitative:
+      value: 2938.4
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=4182.50 USD, Gini=29.75 (interpolated 2012-2023),
+          accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 2938.4
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 4182.50 × (1−29.75/100) = 2938.40. At 84.6% of series
+        peak. Slow post-COVID recovery as oil prices begin rising.'
+      features:
+      - moderate_decline_70_90pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Gini interpolated between 2012 (29.5) and 2023 (29.8) survey years
+  2022:
+    data_status: complete
+    quantitative:
+      value: 3099.13
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=4413.00 USD, Gini=29.77 (interpolated 2012-2023),
+          accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 3099.13
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 4413.00 × (1−29.77/100) = 3099.13. At 89.3% of series
+        peak. Strong oil revenue year driven by post-Ukraine war price surge.'
+      features:
+      - moderate_decline_70_90pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Gini interpolated between 2012 (29.5) and 2023 (29.8) survey years
+  2024:
+    data_status: complete
+    quantitative:
+      value: 2934.57
+      unit: usd_inequality_adjusted
+      source:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD × (1 − Gini/100); GDP=4180.30 USD, Gini=29.80 (extrapolated from 2023
+          survey), accessed 2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: WB_NY.GDP.PCAP.KD
+      calculated_value: 2934.57
+      discrepancy: null
+    qualitative:
+      assessment: 'Gini-adjusted GDP per capita (constant 2015 USD): 4180.30 × (1−29.80/100) = 2934.57. At 84.5% of series
+        peak. Declining from 2022-2023 oil revenue peak; moderate GDP contraction.'
+      features:
+      - moderate_decline_70_90pct
+      sources:
+      - citation: World Bank WDI, NY.GDP.PCAP.KD, Iraq, accessed 2026-03-03
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: Gini extrapolated from latest survey year (2023=29.8)

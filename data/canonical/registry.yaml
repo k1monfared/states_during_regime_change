@@ -1,18 +1,802 @@
 meta:
-  last_updated: 2026-03-02
-  description: "Canonical series registry. Update when a new bulk download is added."
-
-# Series ID format: <SOURCE>_<CODE>
-# Sources:
-#   WB_    = World Bank WDI
-#   ILO_   = ILO ILOSTAT
-#   IMF_   = IMF WEO
-#   UNDP_  = UNDP HDR
-#   UNHCR_ = UNHCR
-#   RSF_   = Reporters Without Borders
-#   WJP_   = World Justice Project
-#   OBI_   = Open Budget Index
-#   EITI_  = EITI status
-#   COMTRADE_ = UN Comtrade product-level data
-
-series: {}
+  last_updated: '2026-03-03'
+  description: Canonical series registry. Update when a new bulk download is added.
+series:
+  WB_SP.POP.TOTL:
+    name: Population, total
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SP.POP.TOTL.csv
+    status_file: data/canonical/status/WB_SP.POP.TOTL.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SP.POP.TOTL.FE.IN:
+    name: Population, female
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SP.POP.TOTL.FE.IN.csv
+    status_file: data/canonical/status/WB_SP.POP.TOTL.FE.IN.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SP.POP.TOTL.MA.IN:
+    name: Population, male
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SP.POP.TOTL.MA.IN.csv
+    status_file: data/canonical/status/WB_SP.POP.TOTL.MA.IN.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SP.POP.0014.TO:
+    name: Population ages 0-14 (% of total)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SP.POP.0014.TO.ZS.csv
+    status_file: data/canonical/status/WB_SP.POP.0014.TO.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SP.POP.1564.TO:
+    name: Working-age population (15-64, % of total)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SP.POP.1564.TO.ZS.csv
+    status_file: data/canonical/status/WB_SP.POP.1564.TO.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SP.POP.65UP.TO:
+    name: Population ages 65+ (% of total)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SP.POP.65UP.TO.ZS.csv
+    status_file: data/canonical/status/WB_SP.POP.65UP.TO.yaml
+    downloaded: false
+    last_download: null
+  WB_SP.URB.TOTL:
+    name: Urban population (% of total)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SP.URB.TOTL.IN.ZS.csv
+    status_file: data/canonical/status/WB_SP.URB.TOTL.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SP.RUR.TOTL:
+    name: Rural population (% of total)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SP.RUR.TOTL.ZS.csv
+    status_file: data/canonical/status/WB_SP.RUR.TOTL.yaml
+    downloaded: false
+    last_download: null
+  WB_SP.DYN.CBRT.IN:
+    name: Birth rate, crude (per 1,000 people)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SP.DYN.CBRT.IN.csv
+    status_file: data/canonical/status/WB_SP.DYN.CBRT.IN.yaml
+    downloaded: false
+    last_download: null
+  WB_SP.DYN.CDRT.IN:
+    name: Death rate, crude (per 1,000 people)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SP.DYN.CDRT.IN.csv
+    status_file: data/canonical/status/WB_SP.DYN.CDRT.IN.yaml
+    downloaded: false
+    last_download: null
+  WB_SP.DYN.LE00.IN:
+    name: Life expectancy at birth (years)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SP.DYN.LE00.IN.csv
+    status_file: data/canonical/status/WB_SP.DYN.LE00.IN.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SP.DYN.IMRT.IN:
+    name: Mortality rate, infant (per 1,000 live births)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SP.DYN.IMRT.IN.csv
+    status_file: data/canonical/status/WB_SP.DYN.IMRT.IN.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SP.DYN.TO08.IN:
+    name: Mortality rate, under-5 (per 1,000 live births)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SH.DYN.MORT.csv
+    status_file: data/canonical/status/WB_SP.DYN.TO08.IN.yaml
+    downloaded: false
+    last_download: null
+  WB_SP.POP.GROW:
+    name: Population growth (annual %)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SP.POP.GROW.csv
+    status_file: data/canonical/status/WB_SP.POP.GROW.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SL.TLF.TOTL.IN:
+    name: Labor force, total
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SL.TLF.TOTL.IN.csv
+    status_file: data/canonical/status/WB_SL.TLF.TOTL.IN.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SL.TLF.CACT.ZS:
+    name: Labor force participation rate, total (%)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SL.TLF.CACT.ZS.csv
+    status_file: data/canonical/status/WB_SL.TLF.CACT.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SL.TLF.CACT.FE.ZS:
+    name: Labor force participation rate, female (%)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SL.TLF.CACT.FE.ZS.csv
+    status_file: data/canonical/status/WB_SL.TLF.CACT.FE.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SL.TLF.CACT.MA.ZS:
+    name: Labor force participation rate, male (%)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SL.TLF.CACT.MA.ZS.csv
+    status_file: data/canonical/status/WB_SL.TLF.CACT.MA.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SL.EMP.TOTL.SP.ZS:
+    name: Employment to population ratio (%)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SL.EMP.TOTL.SP.ZS.csv
+    status_file: data/canonical/status/WB_SL.EMP.TOTL.SP.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SL.UEM.TOTL.ZS:
+    name: Unemployment, total (% labor force, WB modeled)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SL.UEM.TOTL.ZS.csv
+    status_file: data/canonical/status/WB_SL.UEM.TOTL.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SL.UEM.TOTL.NE.ZS:
+    name: Unemployment, total (% labor force, national estimate)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SL.UEM.TOTL.NE.ZS.csv
+    status_file: data/canonical/status/WB_SL.UEM.TOTL.NE.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SL.UEM.1524.ZS:
+    name: Youth unemployment (% labor force ages 15-24)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SL.UEM.1524.ZS.csv
+    status_file: data/canonical/status/WB_SL.UEM.1524.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SL.UEM.NEET.ZS:
+    name: NEET rate - youth not in education/employment/training (%)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SL.UEM.NEET.ZS.csv
+    status_file: data/canonical/status/WB_SL.UEM.NEET.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SL.EMP.SELF.ZS:
+    name: Self-employed, total (% of total employment)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SL.EMP.SELF.ZS.csv
+    status_file: data/canonical/status/WB_SL.EMP.SELF.ZS.yaml
+    downloaded: false
+    last_download: null
+  ILO_EAP_TEAP_SEX_AGE_NB:
+    name: Labour force by sex and age (count) — ILO
+    source: ilo
+    canonical_file: data/canonical/ilo/EAP_TEAP_SEX_AGE_NB.csv
+    status_file: data/canonical/status/ILO_EAP_TEAP_SEX_AGE_NB.yaml
+    downloaded: false
+    last_download: null
+  ILO_UNE_TUNE_SEX_AGE_NB:
+    name: Unemployment by sex and age (count) — ILO
+    source: ilo
+    canonical_file: data/canonical/ilo/UNE_TUNE_SEX_AGE_NB.csv
+    status_file: data/canonical/status/ILO_UNE_TUNE_SEX_AGE_NB.yaml
+    downloaded: false
+    last_download: null
+  ILO_EMP_TEMP_SEX_AGE_NB:
+    name: Employment by sex and age (count) — ILO
+    source: ilo
+    canonical_file: data/canonical/ilo/EMP_TEMP_SEX_AGE_NB.csv
+    status_file: data/canonical/status/ILO_EMP_TEMP_SEX_AGE_NB.yaml
+    downloaded: false
+    last_download: null
+  ILO_UNE_TUNE_SEX_AGE_RT:
+    name: Unemployment rate (ILO definition)
+    source: ilo
+    canonical_file: data/canonical/ilo/UNE_TUNE_SEX_AGE_RT.csv
+    status_file: data/canonical/status/ILO_UNE_TUNE_SEX_AGE_RT.yaml
+    downloaded: false
+    last_download: null
+  ILO_EAP_TEAP_SEX_AGE_RT:
+    name: Labour force participation rate (ILO)
+    source: ilo
+    canonical_file: data/canonical/ilo/EAP_TEAP_SEX_AGE_RT.csv
+    status_file: data/canonical/status/ILO_EAP_TEAP_SEX_AGE_RT.yaml
+    downloaded: false
+    last_download: null
+  ILO_EMP_2EMP_SEX_ECO_RT:
+    name: Informal employment rate (ILO)
+    source: ilo
+    canonical_file: data/canonical/ilo/EMP_2EMP_SEX_ECO_RT.csv
+    status_file: data/canonical/status/ILO_EMP_2EMP_SEX_ECO_RT.yaml
+    downloaded: false
+    last_download: null
+  ILO_SDG_0851_SEX_AGE_RT:
+    name: NEET rate (ILO)
+    source: ilo
+    canonical_file: data/canonical/ilo/SDG_0851_SEX_AGE_RT.csv
+    status_file: data/canonical/status/ILO_SDG_0851_SEX_AGE_RT.yaml
+    downloaded: false
+    last_download: null
+  WB_SE.PRM.ENRR:
+    name: School enrollment, primary (% gross)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SE.PRM.ENRR.csv
+    status_file: data/canonical/status/WB_SE.PRM.ENRR.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SE.SEC.ENRR:
+    name: School enrollment, secondary (% gross)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SE.SEC.ENRR.csv
+    status_file: data/canonical/status/WB_SE.SEC.ENRR.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SE.TER.ENRR:
+    name: School enrollment, tertiary (% gross)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SE.TER.ENRR.csv
+    status_file: data/canonical/status/WB_SE.TER.ENRR.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SE.PRM.NENR:
+    name: School enrollment, primary (% net)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SE.PRM.NENR.csv
+    status_file: data/canonical/status/WB_SE.PRM.NENR.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SE.SEC.NENR:
+    name: School enrollment, secondary (% net)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SE.SEC.NENR.csv
+    status_file: data/canonical/status/WB_SE.SEC.NENR.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SE.ADT.LITR.ZS:
+    name: Literacy rate, adult total (%)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SE.ADT.LITR.ZS.csv
+    status_file: data/canonical/status/WB_SE.ADT.LITR.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SE.ADT.1524.LT.ZS:
+    name: Literacy rate, youth total (%)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SE.ADT.1524.LT.ZS.csv
+    status_file: data/canonical/status/WB_SE.ADT.1524.LT.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SE.PRE.ENRR:
+    name: School enrollment, preprimary (% gross)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SE.PRE.ENRR.csv
+    status_file: data/canonical/status/WB_SE.PRE.ENRR.yaml
+    downloaded: false
+    last_download: null
+  WB_SE.PRM.CMPT.ZS:
+    name: Primary completion rate, total (%)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SE.PRM.CMPT.ZS.csv
+    status_file: data/canonical/status/WB_SE.PRM.CMPT.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SE.XPD.TOTL.GD.ZS:
+    name: Government expenditure on education (% of GDP)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SE.XPD.TOTL.GD.ZS.csv
+    status_file: data/canonical/status/WB_SE.XPD.TOTL.GD.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SE.XPD.TOTL.GB.ZS:
+    name: Government expenditure on education (% of govt exp)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SE.XPD.TOTL.GB.ZS.csv
+    status_file: data/canonical/status/WB_SE.XPD.TOTL.GB.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SH.DYN.MORT:
+    name: Mortality rate, under-5 (per 1,000 live births)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SH.DYN.MORT.csv
+    status_file: data/canonical/status/WB_SH.DYN.MORT.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SH.STA.MMRT:
+    name: Maternal mortality ratio (per 100,000 live births)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SH.STA.MMRT.csv
+    status_file: data/canonical/status/WB_SH.STA.MMRT.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SH.XPD.CHEX.GD.ZS:
+    name: Current health expenditure (% of GDP)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SH.XPD.CHEX.GD.ZS.csv
+    status_file: data/canonical/status/WB_SH.XPD.CHEX.GD.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SH.XPD.CHEX.PC.CD:
+    name: Current health expenditure per capita (current US$)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SH.XPD.CHEX.PC.CD.csv
+    status_file: data/canonical/status/WB_SH.XPD.CHEX.PC.CD.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SH.MED.PHYS.ZS:
+    name: Physicians (per 1,000 people)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SH.MED.PHYS.ZS.csv
+    status_file: data/canonical/status/WB_SH.MED.PHYS.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SH.MED.BEDS.ZS:
+    name: Hospital beds (per 1,000 people)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SH.MED.BEDS.ZS.csv
+    status_file: data/canonical/status/WB_SH.MED.BEDS.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SH.H2O.BASW.ZS:
+    name: Access to basic drinking water (%)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SH.H2O.BASW.ZS.csv
+    status_file: data/canonical/status/WB_SH.H2O.BASW.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SH.STA.BASS.ZS:
+    name: Access to basic sanitation services (%)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SH.STA.BASS.ZS.csv
+    status_file: data/canonical/status/WB_SH.STA.BASS.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SH.HIV.INCD:
+    name: Incidence of HIV (per 1,000 uninfected)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SH.HIV.INCD.csv
+    status_file: data/canonical/status/WB_SH.HIV.INCD.yaml
+    downloaded: false
+    last_download: null
+  WB_SH.TBS.INCD:
+    name: Incidence of tuberculosis (per 100,000)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SH.TBS.INCD.csv
+    status_file: data/canonical/status/WB_SH.TBS.INCD.yaml
+    downloaded: false
+    last_download: null
+  WB_NY.GDP.MKTP.CD:
+    name: GDP (current US$)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/NY.GDP.MKTP.CD.csv
+    status_file: data/canonical/status/WB_NY.GDP.MKTP.CD.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_NY.GDP.MKTP.KD:
+    name: GDP (constant 2015 US$)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/NY.GDP.MKTP.KD.csv
+    status_file: data/canonical/status/WB_NY.GDP.MKTP.KD.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_NY.GDP.PCAP.CD:
+    name: GDP per capita (current US$)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/NY.GDP.PCAP.CD.csv
+    status_file: data/canonical/status/WB_NY.GDP.PCAP.CD.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_NY.GDP.PCAP.KD:
+    name: GDP per capita (constant 2015 US$)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/NY.GDP.PCAP.KD.csv
+    status_file: data/canonical/status/WB_NY.GDP.PCAP.KD.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_NY.GDP.PCAP.PP.CD:
+    name: GDP per capita, PPP (current international $)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/NY.GDP.PCAP.PP.CD.csv
+    status_file: data/canonical/status/WB_NY.GDP.PCAP.PP.CD.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_NY.GNP.PCAP.CD:
+    name: GNI per capita, Atlas method (current US$)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/NY.GNP.PCAP.CD.csv
+    status_file: data/canonical/status/WB_NY.GNP.PCAP.CD.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_FP.CPI.TOTL:
+    name: Consumer price index (2010 = 100)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/FP.CPI.TOTL.csv
+    status_file: data/canonical/status/WB_FP.CPI.TOTL.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_FP.CPI.TOTL.ZG:
+    name: Inflation, consumer prices (annual %)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/FP.CPI.TOTL.ZG.csv
+    status_file: data/canonical/status/WB_FP.CPI.TOTL.ZG.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_NE.EXP.GNFS.CD:
+    name: Exports of goods and services (current US$)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/NE.EXP.GNFS.CD.csv
+    status_file: data/canonical/status/WB_NE.EXP.GNFS.CD.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_NE.IMP.GNFS.CD:
+    name: Imports of goods and services (current US$)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/NE.IMP.GNFS.CD.csv
+    status_file: data/canonical/status/WB_NE.IMP.GNFS.CD.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_NE.TRD.GNFS.ZS:
+    name: Trade (% of GDP)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/NE.TRD.GNFS.ZS.csv
+    status_file: data/canonical/status/WB_NE.TRD.GNFS.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_BN.CAB.XOKA.GD.ZS:
+    name: Current account balance (% of GDP)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/BN.CAB.XOKA.GD.ZS.csv
+    status_file: data/canonical/status/WB_BN.CAB.XOKA.GD.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_GC.DOD.TOTL.GD.ZS:
+    name: Central government debt (% of GDP)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/GC.DOD.TOTL.GD.ZS.csv
+    status_file: data/canonical/status/WB_GC.DOD.TOTL.GD.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_GC.REV.XGRT.GD.ZS:
+    name: Revenue, excluding grants (% of GDP)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/GC.REV.XGRT.GD.ZS.csv
+    status_file: data/canonical/status/WB_GC.REV.XGRT.GD.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_GC.XPN.TOTL.GD.ZS:
+    name: Expense (% of GDP)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/GC.XPN.TOTL.GD.ZS.csv
+    status_file: data/canonical/status/WB_GC.XPN.TOTL.GD.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_BX.KLT.DINV.CD.WD:
+    name: FDI, net inflows (BoP, current US$)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/BX.KLT.DINV.CD.WD.csv
+    status_file: data/canonical/status/WB_BX.KLT.DINV.CD.WD.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_BX.TRF.PWKR.CD.DT:
+    name: Personal remittances, received (current US$)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/BX.TRF.PWKR.CD.DT.csv
+    status_file: data/canonical/status/WB_BX.TRF.PWKR.CD.DT.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_NY.GDP.TOTL.RT.ZS:
+    name: Total natural resources rents (% of GDP)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/NY.GDP.TOTL.RT.ZS.csv
+    status_file: data/canonical/status/WB_NY.GDP.TOTL.RT.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_NY.GDP.PETR.RT.ZS:
+    name: Oil rents (% of GDP)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/NY.GDP.PETR.RT.ZS.csv
+    status_file: data/canonical/status/WB_NY.GDP.PETR.RT.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_NY.GDP.NGAS.RT.ZS:
+    name: Natural gas rents (% of GDP)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/NY.GDP.NGAS.RT.ZS.csv
+    status_file: data/canonical/status/WB_NY.GDP.NGAS.RT.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_NY.GDP.COAL.RT.ZS:
+    name: Coal rents (% of GDP)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/NY.GDP.COAL.RT.ZS.csv
+    status_file: data/canonical/status/WB_NY.GDP.COAL.RT.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_NY.GDP.MINR.RT.ZS:
+    name: Mineral rents (% of GDP)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/NY.GDP.MINR.RT.ZS.csv
+    status_file: data/canonical/status/WB_NY.GDP.MINR.RT.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_NY.GDP.FRST.RT.ZS:
+    name: Forest rents (% of GDP)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/NY.GDP.FRST.RT.ZS.csv
+    status_file: data/canonical/status/WB_NY.GDP.FRST.RT.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_TX.VAL.MANF.ZS.UN:
+    name: Manufactures exports (% of merchandise exports)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/TX.VAL.MANF.ZS.UN.csv
+    status_file: data/canonical/status/WB_TX.VAL.MANF.ZS.UN.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  IMF_GGXWDG_NGDP:
+    name: General govt gross debt (% of GDP) — IMF WEO
+    source: imf
+    canonical_file: data/canonical/imf/GGXWDG_NGDP.csv
+    status_file: data/canonical/status/IMF_GGXWDG_NGDP.yaml
+    downloaded: false
+    last_download: null
+  IMF_NGDPDPC:
+    name: GDP per capita (US$) — IMF WEO
+    source: imf
+    canonical_file: data/canonical/imf/NGDPDPC.csv
+    status_file: data/canonical/status/IMF_NGDPDPC.yaml
+    downloaded: false
+    last_download: null
+  WB_SI.POV.DDAY:
+    name: Poverty headcount ratio at $2.15/day (%)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SI.POV.DDAY.csv
+    status_file: data/canonical/status/WB_SI.POV.DDAY.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SI.POV.LMIC:
+    name: Poverty headcount ratio at $3.65/day (%)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SI.POV.LMIC.csv
+    status_file: data/canonical/status/WB_SI.POV.LMIC.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SI.POV.UMIC:
+    name: Poverty headcount ratio at $6.85/day (%)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SI.POV.UMIC.csv
+    status_file: data/canonical/status/WB_SI.POV.UMIC.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SI.POV.GINI:
+    name: Gini index (World Bank estimate)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SI.POV.GINI.csv
+    status_file: data/canonical/status/WB_SI.POV.GINI.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  UNDP_HDI:
+    name: Human Development Index
+    source: undp
+    canonical_file: data/canonical/undp/HDI.csv
+    status_file: data/canonical/status/UNDP_HDI.yaml
+    downloaded: false
+    last_download: null
+  UCDP_BDEATHS_INTERNAL:
+    name: Battle deaths — intrastate/internationalized (deaths inside country)
+    source: ucdp
+    canonical_file: data/canonical/ucdp/BDEATHS_INTERNAL.csv
+    status_file: data/canonical/status/UCDP_BDEATHS_INTERNAL.yaml
+    downloaded: false
+    last_download: null
+  UCDP_BDEATHS_INTERSTATE:
+    name: Battle deaths — interstate conflicts (nationals killed abroad)
+    source: ucdp
+    canonical_file: data/canonical/ucdp/BDEATHS_INTERSTATE.csv
+    status_file: data/canonical/status/UCDP_BDEATHS_INTERSTATE.yaml
+    downloaded: false
+    last_download: null
+  UCDP_OSV_GOVT:
+    name: One-sided violence deaths by government
+    source: ucdp
+    canonical_file: data/canonical/ucdp/OSV_GOVT.csv
+    status_file: data/canonical/status/UCDP_OSV_GOVT.yaml
+    downloaded: false
+    last_download: null
+  UCDP_OSV_REBEL:
+    name: One-sided violence deaths by rebel actors
+    source: ucdp
+    canonical_file: data/canonical/ucdp/OSV_REBEL.csv
+    status_file: data/canonical/status/UCDP_OSV_REBEL.yaml
+    downloaded: false
+    last_download: null
+  UCDP_NSA:
+    name: Non-state actor conflict deaths
+    source: ucdp
+    canonical_file: data/canonical/ucdp/NSA.csv
+    status_file: data/canonical/status/UCDP_NSA.yaml
+    downloaded: false
+    last_download: null
+  ACLED_FATALITIES:
+    name: Total fatalities (ACLED)
+    source: acled
+    canonical_file: data/canonical/acled/FATALITIES.csv
+    status_file: data/canonical/status/ACLED_FATALITIES.yaml
+    downloaded: false
+    last_download: null
+  ACLED_EVENTS:
+    name: Total political violence events (ACLED)
+    source: acled
+    canonical_file: data/canonical/acled/EVENTS.csv
+    status_file: data/canonical/status/ACLED_EVENTS.yaml
+    downloaded: false
+    last_download: null
+  WB_VC.BTL.DETH:
+    name: Battle-related deaths (World Bank)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/VC.BTL.DETH.csv
+    status_file: data/canonical/status/WB_VC.BTL.DETH.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SM.POP.NETM:
+    name: Net migration (count)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SM.POP.NETM.csv
+    status_file: data/canonical/status/WB_SM.POP.NETM.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_SM.POP.TOTL:
+    name: International migrant stock, total
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SM.POP.TOTL.csv
+    status_file: data/canonical/status/WB_SM.POP.TOTL.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  UNHCR_REF_ORIGIN:
+    name: Refugees by country of origin
+    source: unhcr
+    canonical_file: data/canonical/unhcr/REF_ORIGIN.csv
+    status_file: data/canonical/status/UNHCR_REF_ORIGIN.yaml
+    downloaded: false
+    last_download: null
+  UNHCR_REF_ASYLUM:
+    name: Refugees by country of asylum
+    source: unhcr
+    canonical_file: data/canonical/unhcr/REF_ASYLUM.csv
+    status_file: data/canonical/status/UNHCR_REF_ASYLUM.yaml
+    downloaded: false
+    last_download: null
+  UNHCR_IDP_TOTAL:
+    name: Internally displaced persons (IDPs), total
+    source: unhcr
+    canonical_file: data/canonical/unhcr/IDP_TOTAL.csv
+    status_file: data/canonical/status/UNHCR_IDP_TOTAL.yaml
+    downloaded: false
+    last_download: null
+  UNHCR_RETURNEES_INT:
+    name: International returnees
+    source: unhcr
+    canonical_file: data/canonical/unhcr/RETURNEES_INT.csv
+    status_file: data/canonical/status/UNHCR_RETURNEES_INT.yaml
+    downloaded: false
+    last_download: null
+  UNHCR_RETURNEES_IDP:
+    name: IDP returnees
+    source: unhcr
+    canonical_file: data/canonical/unhcr/RETURNEES_IDP.csv
+    status_file: data/canonical/status/UNHCR_RETURNEES_IDP.yaml
+    downloaded: false
+    last_download: null
+  UNHCR_ASYLUM_SEEKERS_ORIGIN:
+    name: Asylum seekers originating from this country
+    source: unhcr
+    canonical_file: data/canonical/unhcr/ASYLUM_SEEKERS_ORIGIN.csv
+    status_file: data/canonical/status/UNHCR_ASYLUM_SEEKERS_ORIGIN.yaml
+    downloaded: false
+    last_download: null
+  IOM_ARRIVALS:
+    name: Tracked arrivals (IOM DTM)
+    source: iom
+    canonical_file: data/canonical/iom/DTM_ARRIVALS.csv
+    status_file: data/canonical/status/IOM_ARRIVALS.yaml
+    downloaded: false
+    last_download: null
+  WB_SM.POP.REFG.OR:
+    name: Refugee population by country of origin
+    source: world_bank
+    canonical_file: data/canonical/world_bank/SM.POP.REFG.OR.csv
+    status_file: data/canonical/status/WB_SM.POP.REFG.OR.yaml
+    downloaded: false
+    last_download: null
+  WGI_CC:
+    name: Control of Corruption (WGI)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/CC.EST.csv
+    status_file: data/canonical/status/WGI_CC.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WGI_GE:
+    name: Government Effectiveness (WGI)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/GE.EST.csv
+    status_file: data/canonical/status/WGI_GE.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WGI_PS:
+    name: Political Stability (WGI)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/PV.EST.csv
+    status_file: data/canonical/status/WGI_PS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WGI_RL:
+    name: Rule of Law (WGI)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/RL.EST.csv
+    status_file: data/canonical/status/WGI_RL.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WGI_RQ:
+    name: Regulatory Quality (WGI)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/RQ.EST.csv
+    status_file: data/canonical/status/WGI_RQ.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WGI_VA:
+    name: Voice and Accountability (WGI)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/VA.EST.csv
+    status_file: data/canonical/status/WGI_VA.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  VD_POLYARCHY:
+    name: Electoral Democracy Index (V-Dem polyarchy)
+    source: vdem
+    canonical_file: data/canonical/vdem/v2x_polyarchy.csv
+    status_file: data/canonical/status/VD_POLYARCHY.yaml
+    downloaded: false
+    last_download: null
+  VD_LIBDEM:
+    name: Liberal Democracy Index (V-Dem libdem)
+    source: vdem
+    canonical_file: data/canonical/vdem/v2x_libdem.csv
+    status_file: data/canonical/status/VD_LIBDEM.yaml
+    downloaded: false
+    last_download: null
+  WB_IT.NET.USER.ZS:
+    name: Individuals using the Internet (%)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/IT.NET.USER.ZS.csv
+    status_file: data/canonical/status/WB_IT.NET.USER.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_IT.CEL.SETS.P2:
+    name: Mobile cellular subscriptions (per 100 people)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/IT.CEL.SETS.P2.csv
+    status_file: data/canonical/status/WB_IT.CEL.SETS.P2.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_EG.ELC.ACCS.ZS:
+    name: Access to electricity (%)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/EG.ELC.ACCS.ZS.csv
+    status_file: data/canonical/status/WB_EG.ELC.ACCS.ZS.yaml
+    downloaded: true
+    last_download: '2026-03-03'
+  WB_EG.USE.PCAP.KG.OE:
+    name: Energy use (kg of oil equivalent per capita)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/EG.USE.PCAP.KG.OE.csv
+    status_file: data/canonical/status/WB_EG.USE.PCAP.KG.OE.yaml
+    downloaded: false
+    last_download: null
+  WB_IS.ROD.PAVE.ZS:
+    name: Roads, paved (% of total roads)
+    source: world_bank
+    canonical_file: data/canonical/world_bank/IS.ROD.PAVE.ZS.csv
+    status_file: data/canonical/status/WB_IS.ROD.PAVE.ZS.yaml
+    downloaded: false
+    last_download: null

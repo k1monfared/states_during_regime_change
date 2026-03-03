@@ -1,624 +1,720 @@
 indicator: gini_adjusted_gdp_per_capita
 country: yemen
 dimension: economic
+notes: 'Pre-computed derived value: GDP_pc (constant 2015 USD) × (1 − Gini/100). Gini data available only for 1998 (35.0),
+  2005 (34.7), and 2014 (36.7) from World Bank. No Gini data for conflict years 2015+.'
 years:
   1996:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: GDP data available but no Gini survey for 1996; cannot compute gini-adjusted value.
   1997:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: GDP data available but no Gini survey for 1997; cannot compute gini-adjusted value.
   1998:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value:
+      value: 1327.12
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD (2041.67 USD 2015) × (1 − SI.POV.GINI/35.0) = 1327.12 USD, accessed
+          2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: null
+      calculated_value: 222.780615
+      discrepancy: null
+      formula: gdp_pc * (1 - gini / 100)
+      components:
+        gdp_pc:
+          value: 2041.67
+          unit: usd_constant_2015
+          role: multiplicand
+          series_id: WB_NY.GDP.PCAP.KD
+          canonical_file: data/canonical/world_bank/NY.GDP.PCAP.KD.csv
+          source:
+            citation: World Bank NY.GDP.PCAP.KD, Yemen, 1998
+            url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+            access_date: '2026-03-03'
+          reliability: medium
+        gini_coefficient:
+          value: 35.0
+          unit: gini_0_to_100
+          role: inequality_adjustment
+          series_id: WB_SI.POV.GINI
+          canonical_file: data/canonical/world_bank/SI.POV.GINI.csv
+          source:
+            citation: World Bank SI.POV.GINI, Yemen, 1998
+            url: https://data.worldbank.org/indicator/SI.POV.GINI
+            access_date: '2026-03-03'
+          reliability: medium
     qualitative:
-      assessment:
-      features: []
-      sources: []
-      confidence:
-      notes:
+      assessment: 'Inequality-adjusted GDP per capita: $2,042 × (1−35.0/100) = $1,327 constant 2015 USD. At 90.8% of series
+        peak ($1,461 in 2005).'
+      features:
+      - near_peak_90_100pct
+      sources:
+      - citation: World Bank WDI (NY.GDP.PCAP.KD, SI.POV.GINI), Yemen, accessed 2026-03-03
+        url: https://data.worldbank.org
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: 1327.12 / 1461.12 = 90.8% of 2005 peak.
   1999:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: GDP data available but no Gini survey for 1999; cannot compute gini-adjusted value.
   2000:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: GDP data available but no Gini survey for 2000; cannot compute gini-adjusted value.
   2001:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: GDP data available but no Gini survey for 2001; cannot compute gini-adjusted value.
   2002:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: GDP data available but no Gini survey for 2002; cannot compute gini-adjusted value.
   2003:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: GDP data available but no Gini survey for 2003; cannot compute gini-adjusted value.
   2004:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: GDP data available but no Gini survey for 2004; cannot compute gini-adjusted value.
   2005:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value:
+      value: 1461.12
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD (2237.64 USD 2015) × (1 − SI.POV.GINI/34.7) = 1461.12 USD, accessed
+          2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: null
+      calculated_value: 479.40642
+      discrepancy: null
+      formula: gdp_pc * (1 - gini / 100)
+      components:
+        gdp_pc:
+          value: 2237.64
+          unit: usd_constant_2015
+          role: multiplicand
+          series_id: WB_NY.GDP.PCAP.KD
+          canonical_file: data/canonical/world_bank/NY.GDP.PCAP.KD.csv
+          source:
+            citation: World Bank NY.GDP.PCAP.KD, Yemen, 2005
+            url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+            access_date: '2026-03-03'
+          reliability: medium
+        gini_coefficient:
+          value: 34.7
+          unit: gini_0_to_100
+          role: inequality_adjustment
+          series_id: WB_SI.POV.GINI
+          canonical_file: data/canonical/world_bank/SI.POV.GINI.csv
+          source:
+            citation: World Bank SI.POV.GINI, Yemen, 2005
+            url: https://data.worldbank.org/indicator/SI.POV.GINI
+            access_date: '2026-03-03'
+          reliability: medium
     qualitative:
-      assessment:
-      features: []
-      sources: []
-      confidence:
-      notes:
+      assessment: 'Inequality-adjusted GDP per capita: $2,238 × (1−34.7/100) = $1,461 constant 2015 USD. Series peak within
+        1996–2026 range — highest gini-adjusted welfare level before conflict-driven decline.'
+      features:
+      - above_peak
+      sources:
+      - citation: World Bank WDI (NY.GDP.PCAP.KD, SI.POV.GINI), Yemen, accessed 2026-03-03
+        url: https://data.worldbank.org
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: 2005 is the series peak within Yemen's 1996–2026 time range.
   2006:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: GDP data available but no Gini survey for 2006; cannot compute gini-adjusted value.
   2007:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: GDP data available but no Gini survey for 2007; cannot compute gini-adjusted value.
   2008:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: GDP data available but no Gini survey for 2008; cannot compute gini-adjusted value.
   2009:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: GDP data available but no Gini survey for 2009; cannot compute gini-adjusted value.
   2010:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: GDP data available but no Gini survey for 2010; cannot compute gini-adjusted value.
   2011:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: Arab Spring year; GDP data available but no Gini survey; cannot compute gini-adjusted value.
   2012:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: GDP data available but no Gini survey for 2012; cannot compute gini-adjusted value.
   2013:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: GDP data available but no Gini survey for 2013; cannot compute gini-adjusted value.
   2014:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value:
+      value: 1234.48
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'Derived: World Bank NY.GDP.PCAP.KD (1950.16 USD 2015) × (1 − SI.POV.GINI/36.7) = 1234.48 USD, accessed
+          2026-03-03'
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: calculated
+      series_id: null
+      calculated_value: 905.293945
+      discrepancy: null
+      formula: gdp_pc * (1 - gini / 100)
+      components:
+        gdp_pc:
+          value: 1950.16
+          unit: usd_constant_2015
+          role: multiplicand
+          series_id: WB_NY.GDP.PCAP.KD
+          canonical_file: data/canonical/world_bank/NY.GDP.PCAP.KD.csv
+          source:
+            citation: World Bank NY.GDP.PCAP.KD, Yemen, 2014
+            url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+            access_date: '2026-03-03'
+          reliability: medium
+        gini_coefficient:
+          value: 36.7
+          unit: gini_0_to_100
+          role: inequality_adjustment
+          series_id: WB_SI.POV.GINI
+          canonical_file: data/canonical/world_bank/SI.POV.GINI.csv
+          source:
+            citation: World Bank SI.POV.GINI, Yemen, 2014
+            url: https://data.worldbank.org/indicator/SI.POV.GINI
+            access_date: '2026-03-03'
+          reliability: medium
     qualitative:
-      assessment:
-      features: []
-      sources: []
-      confidence:
-      notes:
+      assessment: 'Inequality-adjusted GDP per capita: $1,950 × (1−36.7/100) = $1,234 constant 2015 USD. At 84.5% of series
+        peak ($1,461 in 2005), reflecting pre-war economic deterioration and falling oil revenues.'
+      features:
+      - moderate_decline_70_90pct
+      sources:
+      - citation: World Bank WDI (NY.GDP.PCAP.KD, SI.POV.GINI), Yemen, accessed 2026-03-03
+        url: https://data.worldbank.org
+        type: official_statistics
+        reliability: medium
+      confidence: medium
+      notes: 1234.48 / 1461.12 = 84.5% of 2005 peak.
   2015:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: Saudi-led coalition intervention; GDP data available (World Bank estimates) but no Gini survey in conflict conditions;
+        cannot compute gini-adjusted value.
   2016:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: Active conflict; no Gini survey available.
   2017:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: Active conflict; no Gini survey available.
   2018:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: Active conflict; no Gini survey available.
   2019:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: Ongoing conflict; no Gini survey available.
   2020:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: Ongoing conflict; no Gini survey available. World Bank GDP data ends at 2018.
   2021:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: Ongoing conflict; no Gini survey or GDP data available.
   2022:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: Ongoing conflict; no Gini survey or GDP data available.
   2023:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: Ongoing conflict; no Gini survey or GDP data available.
   2024:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: Ongoing conflict; no Gini survey or GDP data available.
   2025:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: Ongoing conflict; no Gini survey or GDP data available.
   2026:
     data_status: missing
     quantitative:
-      value:
+      value: null
       unit: usd_inequality_adjusted
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: null
+        url: null
+        access_date: null
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes:
+      confidence: null
+      notes: null

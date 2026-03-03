@@ -488,24 +488,29 @@ years:
       confidence:
       notes:
   2012:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value:
+      value: 40.65
       unit: percent_youth_population
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
+        citation: "World Bank WDI, SL.UEM.NEET.ZS, Iraq, accessed 2026-03-03"
+        url: "https://data.worldbank.org/indicator/SL.UEM.NEET.ZS"
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: downloaded
+      series_id: WB_SL.UEM.NEET.ZS
       calculated_value:
       discrepancy:
     qualitative:
-      assessment:
-      features: []
-      sources: []
-      confidence:
+      assessment: '40.6% of youth not in education, employment or training — high NEET rate; some improvement from 2007 but still very elevated, reflecting continued structural labor market weaknesses.'
+      features:
+        - high_35_50pct
+      sources:
+        - citation: "World Bank WDI, SL.UEM.NEET.ZS, Iraq, accessed 2026-03-03"
+          url: "https://data.worldbank.org/indicator/SL.UEM.NEET.ZS"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes:
   2013:
     data_status: missing
@@ -668,24 +673,29 @@ years:
       confidence:
       notes:
   2021:
-    data_status: missing
+    data_status: complete
     quantitative:
-      value:
+      value: 36.93
       unit: percent_youth_population
       source:
-        citation:
-        url:
-        access_date:
-      reliability:
-      value_source:
-      series_id:
+        citation: "World Bank WDI, SL.UEM.NEET.ZS, Iraq, accessed 2026-03-03"
+        url: "https://data.worldbank.org/indicator/SL.UEM.NEET.ZS"
+        access_date: '2026-03-03'
+      reliability: medium
+      value_source: downloaded
+      series_id: WB_SL.UEM.NEET.ZS
       calculated_value:
       discrepancy:
     qualitative:
-      assessment:
-      features: []
-      sources: []
-      confidence:
+      assessment: '36.9% of youth not in education, employment or training — high NEET rate; gradual improvement over 14 years but still reflects deep structural barriers to youth employment in Iraq.'
+      features:
+        - high_35_50pct
+      sources:
+        - citation: "World Bank WDI, SL.UEM.NEET.ZS, Iraq, accessed 2026-03-03"
+          url: "https://data.worldbank.org/indicator/SL.UEM.NEET.ZS"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
       notes:
   2022:
     data_status: missing

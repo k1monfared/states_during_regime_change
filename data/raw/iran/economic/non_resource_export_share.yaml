@@ -6,7 +6,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -26,7 +26,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -46,7 +46,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -65,383 +65,383 @@ years:
   1963:
     data_status: complete
     quantitative:
-      value: 3.62
-      unit: percent_total_exports
+      value: 13.41
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1963, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 13.41
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 3.6% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 13.41% of merchandise exports (fuel exports: 86.59%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1963, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (86.59%). Post-2018 sanctions caused major shift in reported export composition.'
   1964:
     data_status: complete
     quantitative:
-      value: 3.54
-      unit: percent_total_exports
+      value: 12.01
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1964, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 12.01
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 3.5% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 12.01% of merchandise exports (fuel exports: 87.99%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1964, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (87.99%). Post-2018 sanctions caused major shift in reported export composition.'
   1965:
     data_status: complete
     quantitative:
-      value: 4.41
-      unit: percent_total_exports
+      value: 13.28
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1965, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 13.28
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 4.4% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 13.28% of merchandise exports (fuel exports: 86.72%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1965, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (86.72%). Post-2018 sanctions caused major shift in reported export composition.'
   1966:
     data_status: complete
     quantitative:
-      value: 3.66
-      unit: percent_total_exports
+      value: 12.73
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1966, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 12.73
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 3.7% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 12.73% of merchandise exports (fuel exports: 87.27%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1966, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (87.27%). Post-2018 sanctions caused major shift in reported export composition.'
   1967:
     data_status: complete
     quantitative:
-      value: 3.22
-      unit: percent_total_exports
+      value: 9.63
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1967, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 9.63
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 3.2% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 9.63% of merchandise exports (fuel exports: 90.37%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1967, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (90.37%). Post-2018 sanctions caused major shift in reported export composition.'
   1968:
     data_status: complete
     quantitative:
-      value: 3.82
-      unit: percent_total_exports
+      value: 10.75
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1968, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 10.75
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 3.8% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 10.75% of merchandise exports (fuel exports: 89.25%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1968, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (89.25%). Post-2018 sanctions caused major shift in reported export composition.'
   1969:
     data_status: complete
     quantitative:
-      value: 3.95
-      unit: percent_total_exports
+      value: 11.1
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1969, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 11.1
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 4.0% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 11.1% of merchandise exports (fuel exports: 88.9%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1969, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (88.9%). Post-2018 sanctions caused major shift in reported export composition.'
   1970:
     data_status: complete
     quantitative:
-      value: 4.04
-      unit: percent_total_exports
+      value: 11.38
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1970, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 11.38
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 4.0% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 11.38% of merchandise exports (fuel exports: 88.62%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1970, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (88.62%). Post-2018 sanctions caused major shift in reported export composition.'
   1971:
     data_status: complete
     quantitative:
-      value: 5.22
-      unit: percent_total_exports
+      value: 12.69
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1971, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 12.69
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 5.2% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 12.69% of merchandise exports (fuel exports: 87.31%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1971, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (87.31%). Post-2018 sanctions caused major shift in reported export composition.'
   1972:
     data_status: complete
     quantitative:
-      value: 5.0
-      unit: percent_total_exports
+      value: 11.74
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1972, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 11.74
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 5.0% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 11.74% of merchandise exports (fuel exports: 88.26%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1972, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (88.26%). Post-2018 sanctions caused major shift in reported export composition.'
   1973:
     data_status: complete
     quantitative:
-      value: 3.63
-      unit: percent_total_exports
+      value: 10.23
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1973, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 10.23
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 3.6% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 10.23% of merchandise exports (fuel exports: 89.77%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1973, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (89.77%). Post-2018 sanctions caused major shift in reported export composition.'
   1974:
     data_status: complete
     quantitative:
-      value: 1.26
-      unit: percent_total_exports
+      value: 2.67
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1974, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 2.67
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 1.3% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 2.67% of merchandise exports (fuel exports: 97.33%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1974, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (97.33%). Post-2018 sanctions caused major shift in reported export composition.'
   1975:
     data_status: complete
     quantitative:
-      value: 1.19
-      unit: percent_total_exports
+      value: 2.96
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1975, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 2.96
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 1.2% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 2.96% of merchandise exports (fuel exports: 97.04%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1975, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (97.04%). Post-2018 sanctions caused major shift in reported export composition.'
   1976:
     data_status: complete
     quantitative:
-      value: 1.08
-      unit: percent_total_exports
+      value: 2.39
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1976, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 2.39
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 1.1% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 2.39% of merchandise exports (fuel exports: 97.61%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1976, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (97.61%). Post-2018 sanctions caused major shift in reported export composition.'
   1977:
     data_status: complete
     quantitative:
-      value: 0.29
-      unit: percent_total_exports
+      value: 0.85
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1977, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 0.85
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 0.3% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 0.85% of merchandise exports (fuel exports: 99.15%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1977, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (99.15%). Post-2018 sanctions caused major shift in reported export composition.'
   1978:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -461,7 +461,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -481,7 +481,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -501,7 +501,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -521,7 +521,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -541,7 +541,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -561,7 +561,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -581,7 +581,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -601,7 +601,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -621,7 +621,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -641,7 +641,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -661,7 +661,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -681,7 +681,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -701,7 +701,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -721,7 +721,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -741,7 +741,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -761,7 +761,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -781,7 +781,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -801,7 +801,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -820,258 +820,258 @@ years:
   1997:
     data_status: complete
     quantitative:
-      value: 9.06
-      unit: percent_total_exports
+      value: 14.2
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1997, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 14.2
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 9.1% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 14.2% of merchandise exports (fuel exports: 85.8%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1997, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (85.8%). Post-2018 sanctions caused major shift in reported export composition.'
   1998:
     data_status: complete
     quantitative:
-      value: 10.64
-      unit: percent_total_exports
+      value: 18.7
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1998, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 18.7
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 10.6% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 18.7% of merchandise exports (fuel exports: 81.3%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1998, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (81.3%). Post-2018 sanctions caused major shift in reported export composition.'
   1999:
     data_status: complete
     quantitative:
-      value: 8.33
-      unit: percent_total_exports
+      value: 13.93
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1999, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 13.93
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 8.3% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 13.93% of merchandise exports (fuel exports: 86.07%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 1999, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (86.07%). Post-2018 sanctions caused major shift in reported export composition.'
   2000:
     data_status: complete
     quantitative:
-      value: 7.07
-      unit: percent_total_exports
+      value: 11.13
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2000, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 11.13
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 7.1% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 11.13% of merchandise exports (fuel exports: 88.87%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2000, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (88.87%). Post-2018 sanctions caused major shift in reported export composition.'
   2001:
     data_status: complete
     quantitative:
-      value: 9.43
-      unit: percent_total_exports
+      value: 14.79
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2001, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 14.79
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 9.4% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 14.79% of merchandise exports (fuel exports: 85.21%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2001, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (85.21%). Post-2018 sanctions caused major shift in reported export composition.'
   2002:
     data_status: complete
     quantitative:
-      value: 8.65
-      unit: percent_total_exports
+      value: 29.69
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2002, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 29.69
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 8.7% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 29.69% of merchandise exports (fuel exports: 70.31%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
-      - very_low_lt_20pct
+      - low_20_40pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2002, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (70.31%). Post-2018 sanctions caused major shift in reported export composition.'
   2003:
     data_status: complete
     quantitative:
-      value: 8.61
-      unit: percent_total_exports
+      value: 20.52
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2003, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 20.52
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 8.6% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 20.52% of merchandise exports (fuel exports: 79.48%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
-      - very_low_lt_20pct
+      - low_20_40pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2003, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (79.48%). Post-2018 sanctions caused major shift in reported export composition.'
   2004:
     data_status: complete
     quantitative:
-      value: 8.16
-      unit: percent_total_exports
+      value: 21.04
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2004, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 21.04
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 8.2% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 21.04% of merchandise exports (fuel exports: 78.96%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
-      - very_low_lt_20pct
+      - low_20_40pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2004, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (78.96%). Post-2018 sanctions caused major shift in reported export composition.'
   2005:
     data_status: complete
     quantitative:
-      value: 8.34
-      unit: percent_total_exports
+      value: 16.92
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2005, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 16.92
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 8.3% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 16.92% of merchandise exports (fuel exports: 83.08%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2005, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (83.08%). Post-2018 sanctions caused major shift in reported export composition.'
   2006:
     data_status: complete
     quantitative:
-      value: 9.6
-      unit: percent_total_exports
+      value: 16.72
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2006, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 16.72
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 9.6% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 16.72% of merchandise exports (fuel exports: 83.28%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - very_low_lt_20pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2006, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (83.28%). Post-2018 sanctions caused major shift in reported export composition.'
   2007:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -1091,7 +1091,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -1111,7 +1111,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -1130,58 +1130,58 @@ years:
   2010:
     data_status: complete
     quantitative:
-      value: 15.6
-      unit: percent_total_exports
+      value: 29.2
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2010, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 29.2
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 15.6% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 29.2% of merchandise exports (fuel exports: 70.8%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
-      - very_low_lt_20pct
+      - low_20_40pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2010, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (70.8%). Post-2018 sanctions caused major shift in reported export composition.'
   2011:
     data_status: complete
     quantitative:
-      value: 12.11
-      unit: percent_total_exports
+      value: 29.5
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2011, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 29.5
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 12.1% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 29.5% of merchandise exports (fuel exports: 70.5%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
-      - very_low_lt_20pct
+      - low_20_40pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2011, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (70.5%). Post-2018 sanctions caused major shift in reported export composition.'
   2012:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -1200,258 +1200,258 @@ years:
   2013:
     data_status: complete
     quantitative:
-      value: 18.97
-      unit: percent_total_exports
+      value: 28.28
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2013, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 28.28
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 19.0% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 28.28% of merchandise exports (fuel exports: 71.72%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
-      - very_low_lt_20pct
+      - low_20_40pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2013, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (71.72%). Post-2018 sanctions caused major shift in reported export composition.'
   2014:
     data_status: complete
     quantitative:
-      value: 21.43
-      unit: percent_total_exports
+      value: 32.2
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2014, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 32.2
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 21.4% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 32.2% of merchandise exports (fuel exports: 67.8%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - low_20_40pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2014, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (67.8%). Post-2018 sanctions caused major shift in reported export composition.'
   2015:
     data_status: complete
     quantitative:
-      value: 28.9
-      unit: percent_total_exports
+      value: 42.21
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2015, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 42.21
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 28.9% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 42.21% of merchandise exports (fuel exports: 57.79%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
-      - low_20_40pct
+      - moderate_40_60pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2015, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (57.79%). Post-2018 sanctions caused major shift in reported export composition.'
   2016:
     data_status: complete
     quantitative:
-      value: 21.43
-      unit: percent_total_exports
+      value: 32.41
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2016, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 32.41
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 21.4% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 32.41% of merchandise exports (fuel exports: 67.59%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - low_20_40pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2016, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (67.59%). Post-2018 sanctions caused major shift in reported export composition.'
   2017:
     data_status: complete
     quantitative:
-      value: 19.33
-      unit: percent_total_exports
+      value: 28.94
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2017, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 28.94
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 19.3% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 28.94% of merchandise exports (fuel exports: 71.06%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
-      - very_low_lt_20pct
+      - low_20_40pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2017, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (71.06%). Post-2018 sanctions caused major shift in reported export composition.'
   2018:
     data_status: complete
     quantitative:
-      value: 21.87
-      unit: percent_total_exports
+      value: 31.32
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2018, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 31.32
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 21.9% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 31.32% of merchandise exports (fuel exports: 68.68%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
       - low_20_40pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2018, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (68.68%). Post-2018 sanctions caused major shift in reported export composition.'
   2019:
     data_status: complete
     quantitative:
-      value: 40.64
-      unit: percent_total_exports
+      value: 61.47
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2019, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 61.47
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 40.6% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 61.47% of merchandise exports (fuel exports: 38.53%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
-      - moderate_40_60pct
+      - moderate_high_60_80pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2019, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (38.53%). Post-2018 sanctions caused major shift in reported export composition.'
   2020:
     data_status: complete
     quantitative:
-      value: 46.66
-      unit: percent_total_exports
+      value: 70.84
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2020, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 70.84
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 46.7% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 70.84% of merchandise exports (fuel exports: 29.16%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
-      - moderate_40_60pct
+      - moderate_high_60_80pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2020, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (29.16%). Post-2018 sanctions caused major shift in reported export composition.'
   2021:
     data_status: complete
     quantitative:
-      value: 37.54
-      unit: percent_total_exports
+      value: 52.09
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2021, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 52.09
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 37.5% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 52.09% of merchandise exports (fuel exports: 47.91%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
-      - low_20_40pct
+      - moderate_40_60pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2021, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (47.91%). Post-2018 sanctions caused major shift in reported export composition.'
   2022:
     data_status: complete
     quantitative:
-      value: 31.32
-      unit: percent_total_exports
+      value: 43.64
+      unit: percent_merchandise_exports
       source:
-        citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2022, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+        citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         access_date: '2026-03-03'
       reliability: medium
-      value_source: downloaded
-      series_id: WB_TX.VAL.MANF.ZS.UN
-      calculated_value:
+      value_source: calculated
+      series_id: WB_TX.VAL.FUEL.ZS.UN
+      calculated_value: 43.64
       discrepancy:
     qualitative:
-      assessment: Manufactures exports as 31.3% of merchandise exports (World Bank TX.VAL.MANF.ZS.UN; used as proxy for non-fuel, non-mineral export share).
+      assessment: 'Non-fuel exports: 43.64% of merchandise exports (fuel exports: 56.36%). Iran is a major oil exporter; sanctions affect the composition of reported exports.'
       features:
-      - low_20_40pct
+      - moderate_40_60pct
       sources:
-      - citation: World Bank WDI, TX.VAL.MANF.ZS.UN (manufactures exports % merchandise), iran, 2022, accessed 2026-03-03
-        url: https://data.worldbank.org/indicator/TX.VAL.MANF.ZS.UN
+      - citation: 'World Bank WDI, TX.VAL.FUEL.ZS.UN, Iran, accessed 2026-03-03'
+        url: 'https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN'
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: 'Calculated as 100 minus fuel exports share (56.36%). Post-2018 sanctions caused major shift in reported export composition.'
   2023:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -1471,7 +1471,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -1491,7 +1491,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:
@@ -1511,7 +1511,7 @@ years:
     data_status: missing
     quantitative:
       value:
-      unit: percent_total_exports
+      unit: percent_merchandise_exports
       source:
         citation:
         url:

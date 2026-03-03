@@ -3,7 +3,7 @@ country: syria
 dimension: economic
 years:
   2009:
-    data_status: missing
+    data_status: complete
     quantitative:
       value:
       unit: hhi_0_to_1
@@ -17,13 +17,18 @@ years:
       calculated_value:
       discrepancy:
     qualitative:
-      assessment:
-      features: []
-      sources: []
-      confidence:
-      notes:
+      assessment: 'Pre-war Syria had moderately concentrated exports: petroleum products were ~38% of merchandise exports (WB TX.VAL.FUEL.ZS.UN 2009=37.82), with the remainder spread across agricultural goods, textiles, chemicals, and manufactures. Export base more diverse than Gulf oil states but petroleum still dominant.'
+      features:
+        - moderate_concentration_0_20_0_35
+      sources:
+        - citation: "World Bank WDI, TX.VAL.FUEL.ZS.UN, Syria, 2009, accessed 2026-03-03"
+          url: "https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN"
+          type: official_statistics
+          reliability: medium
+      confidence: low
+      notes: No direct HHI data available; feature assessment based on fuel share (37.82%) as proxy for concentration with qualitative judgment about non-fuel export spread.
   2010:
-    data_status: missing
+    data_status: complete
     quantitative:
       value:
       unit: hhi_0_to_1
@@ -37,11 +42,16 @@ years:
       calculated_value:
       discrepancy:
     qualitative:
-      assessment:
-      features: []
-      sources: []
-      confidence:
-      notes:
+      assessment: 'Pre-war Syria: petroleum products were ~50% of merchandise exports (WB TX.VAL.FUEL.ZS.UN 2010=49.89), with remainder spread across agricultural goods, textiles, and manufactures. Increasing oil share pushed toward concentrated export structure.'
+      features:
+        - concentrated_0_35_0_55
+      sources:
+        - citation: "World Bank WDI, TX.VAL.FUEL.ZS.UN, Syria, 2010, accessed 2026-03-03"
+          url: "https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN"
+          type: official_statistics
+          reliability: medium
+      confidence: low
+      notes: No direct HHI data available; feature assessment based on fuel share (49.89%) as proxy for concentration.
   2011:
     data_status: missing
     quantitative:
@@ -61,7 +71,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Civil war began; World Bank fuel export series has no data from 2011 onward. Export composition data unavailable.
   2012:
     data_status: missing
     quantitative:
@@ -81,7 +91,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Active conflict; trade statistics suspended. Export composition data unavailable.
   2013:
     data_status: missing
     quantitative:
@@ -101,7 +111,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Active conflict; trade statistics suspended. Export composition data unavailable.
   2014:
     data_status: missing
     quantitative:
@@ -121,7 +131,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Active conflict; trade statistics suspended. Export composition data unavailable.
   2015:
     data_status: missing
     quantitative:
@@ -141,7 +151,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Active conflict; trade statistics suspended. Export composition data unavailable.
   2016:
     data_status: missing
     quantitative:
@@ -161,7 +171,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Active conflict; trade statistics suspended. Export composition data unavailable.
   2017:
     data_status: missing
     quantitative:
@@ -181,7 +191,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Active conflict; trade statistics suspended. Export composition data unavailable.
   2018:
     data_status: missing
     quantitative:
@@ -201,7 +211,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Active conflict; trade statistics suspended. Export composition data unavailable.
   2019:
     data_status: missing
     quantitative:
@@ -221,7 +231,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Ongoing conflict and information blackout; export composition data unavailable.
   2020:
     data_status: missing
     quantitative:
@@ -241,7 +251,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Ongoing conflict and information blackout; export composition data unavailable.
   2021:
     data_status: missing
     quantitative:
@@ -261,7 +271,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Ongoing conflict and information blackout; export composition data unavailable.
   2022:
     data_status: missing
     quantitative:
@@ -281,7 +291,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Ongoing conflict and information blackout; export composition data unavailable.
   2023:
     data_status: missing
     quantitative:
@@ -301,7 +311,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Ongoing conflict and information blackout; export composition data unavailable.
   2024:
     data_status: missing
     quantitative:
@@ -321,7 +331,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Regime collapse late 2024; no export composition data available.
   2025:
     data_status: missing
     quantitative:
@@ -341,7 +351,7 @@ years:
       features: []
       sources: []
       confidence:
-      notes:
+      notes: Post-regime change transition; no export composition data available.
   2026:
     data_status: missing
     quantitative:

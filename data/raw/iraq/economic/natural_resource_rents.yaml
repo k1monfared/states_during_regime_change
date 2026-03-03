@@ -7,11 +7,11 @@ years:
     quantitative:
       value: 19.72
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1988, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1988, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -19,81 +19,83 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1988, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1988, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.24
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1988, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1988, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1988, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1988, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1988, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1988, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00298
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1988, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1988, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 19.716857
+      discrepancy: null
     qualitative:
-      assessment: |
-        Natural resource rents totaled 19.7% of GDP in 1988, overwhelmingly driven by oil rents. Iraq remains one of the most resource-rent-dependent economies globally.
+      assessment: 'Natural resource rents totaled 19.7% of GDP in 1988, overwhelmingly driven by oil rents. Iraq remains one
+        of the most resource-rent-dependent economies globally.
+
+        '
       features:
       - moderate_10_20pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1988"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1988
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   1989:
     data_status: complete
     quantitative:
       value: 28.37
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1989, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1989, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -101,81 +103,83 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1989, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1989, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.26
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1989, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1989, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1989, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1989, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1989, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1989, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00301
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1989, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1989, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 28.365768
+      discrepancy: null
     qualitative:
-      assessment: |
-        Natural resource rents totaled 28.4% of GDP in 1989, overwhelmingly driven by oil rents. Iraq remains one of the most resource-rent-dependent economies globally.
+      assessment: 'Natural resource rents totaled 28.4% of GDP in 1989, overwhelmingly driven by oil rents. Iraq remains one
+        of the most resource-rent-dependent economies globally.
+
+        '
       features:
       - high_20_40pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1989"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1989
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   1990:
     data_status: complete
     quantitative:
       value: 9.5
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1990, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1990, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -183,312 +187,315 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1990, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1990, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.07
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1990, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1990, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1990, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1990, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1990, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1990, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00108
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1990, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1990, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 9.499349
+      discrepancy: null
     qualitative:
-      assessment: |
-        Iraq's natural resource rents were 9.5% of GDP in 1990, heavily compressed by the Gulf War invasion of Kuwait in August and subsequent international response. Oil production disruption drove down the rent capture compared to pre-war levels.
+      assessment: 'Iraq''s natural resource rents were 9.5% of GDP in 1990, heavily compressed by the Gulf War invasion of
+        Kuwait in August and subsequent international response. Oil production disruption drove down the rent capture compared
+        to pre-war levels.
+
+        '
       features:
       - low_lt_10pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1990"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1990
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   1991:
     data_status: missing
     quantitative:
       value: None
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1991, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
-      reliability:
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1991, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
+      reliability: null
       components:
         oil_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1991, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1991, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1991, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1991, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1991, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1991, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1991, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1991, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.618
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1991, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1991, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 0.617727
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes: "Gulf War period 1991-1993; GDP data unavailable; resource rents cannot be calculated."
+      confidence: null
+      notes: Gulf War period 1991-1993; GDP data unavailable; resource rents cannot be calculated.
   1992:
     data_status: missing
     quantitative:
       value: None
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1992, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
-      reliability:
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1992, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
+      reliability: null
       components:
         oil_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1992, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1992, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1992, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1992, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1992, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1992, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1992, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1992, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.401
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1992, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1992, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 0.40079
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes: "Gulf War period 1991-1993; GDP data unavailable; resource rents cannot be calculated."
+      confidence: null
+      notes: Gulf War period 1991-1993; GDP data unavailable; resource rents cannot be calculated.
   1993:
     data_status: missing
     quantitative:
       value: None
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1993, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
-      reliability:
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1993, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
+      reliability: null
       components:
         oil_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1993, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1993, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1993, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1993, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1993, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1993, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1993, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1993, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.279
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1993, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1993, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 0.278546
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes: "Gulf War period 1991-1993; GDP data unavailable; resource rents cannot be calculated."
+      confidence: null
+      notes: Gulf War period 1991-1993; GDP data unavailable; resource rents cannot be calculated.
   1994:
     data_status: complete
     quantitative:
       value: 67.44
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1994, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1994, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -496,81 +503,84 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1994, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1994, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 2.36
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1994, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1994, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1994, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1994, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1994, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1994, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.02858
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1994, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1994, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 67.443001
+      discrepancy: null
     qualitative:
-      assessment: |
-        Oil rents constituted 67.4% of GDP in 1994 as Iraq operated under UN sanctions with limited oil exports through the Oil-for-Food program beginning 1996. The high rent percentage relative to GDP reflects the severely contracted economy rather than increased production.
+      assessment: 'Oil rents constituted 67.4% of GDP in 1994 as Iraq operated under UN sanctions with limited oil exports
+        through the Oil-for-Food program beginning 1996. The high rent percentage relative to GDP reflects the severely contracted
+        economy rather than increased production.
+
+        '
       features:
       - extremely_high_gt_60pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1994"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1994
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   1995:
     data_status: complete
     quantitative:
       value: 23.08
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1995, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1995, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -578,81 +588,84 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1995, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1995, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.79
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1995, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1995, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1995, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1995, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1995, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1995, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.01478
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1995, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1995, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 23.081221
+      discrepancy: null
     qualitative:
-      assessment: |
-        Oil rents constituted 23.1% of GDP in 1995 as Iraq operated under UN sanctions with limited oil exports through the Oil-for-Food program beginning 1996. The high rent percentage relative to GDP reflects the severely contracted economy rather than increased production.
+      assessment: 'Oil rents constituted 23.1% of GDP in 1995 as Iraq operated under UN sanctions with limited oil exports
+        through the Oil-for-Food program beginning 1996. The high rent percentage relative to GDP reflects the severely contracted
+        economy rather than increased production.
+
+        '
       features:
       - high_20_40pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1995"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1995
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   1996:
     data_status: complete
     quantitative:
       value: 36.48
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1996, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1996, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -660,81 +673,84 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1996, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1996, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 1.09
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1996, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1996, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1996, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1996, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1996, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1996, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.02223
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1996, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1996, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 36.478166
+      discrepancy: null
     qualitative:
-      assessment: |
-        Oil rents constituted 36.5% of GDP in 1996 as Iraq operated under UN sanctions with limited oil exports through the Oil-for-Food program beginning 1996. The high rent percentage relative to GDP reflects the severely contracted economy rather than increased production.
+      assessment: 'Oil rents constituted 36.5% of GDP in 1996 as Iraq operated under UN sanctions with limited oil exports
+        through the Oil-for-Food program beginning 1996. The high rent percentage relative to GDP reflects the severely contracted
+        economy rather than increased production.
+
+        '
       features:
       - high_20_40pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1996"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1996
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   1997:
     data_status: complete
     quantitative:
       value: 32.14
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1997, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1997, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -742,81 +758,83 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1997, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1997, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.55
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1997, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1997, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1997, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1997, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1997, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1997, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.01542
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1997, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1997, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 32.144168
+      discrepancy: null
     qualitative:
-      assessment: |
-        Natural resource rents totaled 32.1% of GDP in 1997, overwhelmingly driven by oil rents. Iraq remains one of the most resource-rent-dependent economies globally.
+      assessment: 'Natural resource rents totaled 32.1% of GDP in 1997, overwhelmingly driven by oil rents. Iraq remains one
+        of the most resource-rent-dependent economies globally.
+
+        '
       features:
       - high_20_40pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1997"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1997
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   1998:
     data_status: complete
     quantitative:
       value: 37.13
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1998, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1998, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -824,81 +842,83 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1998, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1998, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.5
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1998, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1998, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1998, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1998, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1998, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1998, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.02007
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1998, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1998, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 37.125811
+      discrepancy: null
     qualitative:
-      assessment: |
-        Natural resource rents totaled 37.1% of GDP in 1998, overwhelmingly driven by oil rents. Iraq remains one of the most resource-rent-dependent economies globally.
+      assessment: 'Natural resource rents totaled 37.1% of GDP in 1998, overwhelmingly driven by oil rents. Iraq remains one
+        of the most resource-rent-dependent economies globally.
+
+        '
       features:
       - high_20_40pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1998"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1998
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   1999:
     data_status: complete
     quantitative:
       value: 37.02
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1999, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1999, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -906,81 +926,83 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1999, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 1999, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.28
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1999, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 1999, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1999, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 1999, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1999, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 1999, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.01517
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1999, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 1999, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 37.01792
+      discrepancy: null
     qualitative:
-      assessment: |
-        Natural resource rents totaled 37.0% of GDP in 1999, overwhelmingly driven by oil rents. Iraq remains one of the most resource-rent-dependent economies globally.
+      assessment: 'Natural resource rents totaled 37.0% of GDP in 1999, overwhelmingly driven by oil rents. Iraq remains one
+        of the most resource-rent-dependent economies globally.
+
+        '
       features:
       - high_20_40pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1999"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 1999
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2000:
     data_status: complete
     quantitative:
       value: 48.86
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2000, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2000, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -988,81 +1010,83 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2000, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2000, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.27
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2000, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2000, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2000, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2000, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2000, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2000, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00535
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2000, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2000, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 48.858783
+      discrepancy: null
     qualitative:
-      assessment: |
-        Natural resource rents totaled 48.9% of GDP in 2000, overwhelmingly driven by oil rents. Iraq remains one of the most resource-rent-dependent economies globally.
+      assessment: 'Natural resource rents totaled 48.9% of GDP in 2000, overwhelmingly driven by oil rents. Iraq remains one
+        of the most resource-rent-dependent economies globally.
+
+        '
       features:
       - very_high_40_60pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2000"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2000
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2001:
     data_status: complete
     quantitative:
       value: 49.57
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2001, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2001, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -1070,81 +1094,83 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2001, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2001, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.36
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2001, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2001, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2001, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2001, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2001, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2001, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.01081
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2001, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2001, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 49.565302
+      discrepancy: null
     qualitative:
-      assessment: |
-        Natural resource rents totaled 49.6% of GDP in 2001, overwhelmingly driven by oil rents. Iraq remains one of the most resource-rent-dependent economies globally.
+      assessment: 'Natural resource rents totaled 49.6% of GDP in 2001, overwhelmingly driven by oil rents. Iraq remains one
+        of the most resource-rent-dependent economies globally.
+
+        '
       features:
       - very_high_40_60pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2001"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2001
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2002:
     data_status: complete
     quantitative:
       value: 46.97
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2002, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2002, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -1152,81 +1178,83 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2002, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2002, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.29
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2002, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2002, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2002, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2002, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2002, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2002, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.01131
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2002, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2002, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 46.972106
+      discrepancy: null
     qualitative:
-      assessment: |
-        Natural resource rents totaled 47.0% of GDP in 2002, overwhelmingly driven by oil rents. Iraq remains one of the most resource-rent-dependent economies globally.
+      assessment: 'Natural resource rents totaled 47.0% of GDP in 2002, overwhelmingly driven by oil rents. Iraq remains one
+        of the most resource-rent-dependent economies globally.
+
+        '
       features:
       - very_high_40_60pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2002"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2002
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2003:
     data_status: complete
     quantitative:
       value: 53.3
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2003, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2003, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -1234,81 +1262,84 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2003, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2003, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.28
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2003, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2003, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2003, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2003, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2003, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2003, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.01797
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2003, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2003, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 53.298092
+      discrepancy: null
     qualitative:
-      assessment: |
-        Post-invasion Iraq shows resource rents at 53.3% of GDP in 2003. Oil sector recovery was rapid but GDP reconstruction was slow, keeping the rent share high. Oil exports restarted quickly under Coalition Provisional Authority oversight.
+      assessment: 'Post-invasion Iraq shows resource rents at 53.3% of GDP in 2003. Oil sector recovery was rapid but GDP
+        reconstruction was slow, keeping the rent share high. Oil exports restarted quickly under Coalition Provisional Authority
+        oversight.
+
+        '
       features:
       - very_high_40_60pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2003"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2003
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2004:
     data_status: complete
     quantitative:
       value: 64.78
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2004, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2004, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -1316,81 +1347,84 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2004, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2004, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.11
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2004, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2004, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2004, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2004, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2004, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2004, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00763
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2004, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2004, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 64.775753
+      discrepancy: null
     qualitative:
-      assessment: |
-        Post-invasion Iraq shows resource rents at 64.8% of GDP in 2004. Oil sector recovery was rapid but GDP reconstruction was slow, keeping the rent share high. Oil exports restarted quickly under Coalition Provisional Authority oversight.
+      assessment: 'Post-invasion Iraq shows resource rents at 64.8% of GDP in 2004. Oil sector recovery was rapid but GDP
+        reconstruction was slow, keeping the rent share high. Oil exports restarted quickly under Coalition Provisional Authority
+        oversight.
+
+        '
       features:
       - extremely_high_gt_60pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2004"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2004
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2005:
     data_status: complete
     quantitative:
       value: 65.32
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2005, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2005, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -1398,81 +1432,84 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2005, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2005, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.16
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2005, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2005, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2005, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2005, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2005, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2005, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00554
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2005, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2005, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 65.318497
+      discrepancy: null
     qualitative:
-      assessment: |
-        Post-invasion Iraq shows resource rents at 65.3% of GDP in 2005. Oil sector recovery was rapid but GDP reconstruction was slow, keeping the rent share high. Oil exports restarted quickly under Coalition Provisional Authority oversight.
+      assessment: 'Post-invasion Iraq shows resource rents at 65.3% of GDP in 2005. Oil sector recovery was rapid but GDP
+        reconstruction was slow, keeping the rent share high. Oil exports restarted quickly under Coalition Provisional Authority
+        oversight.
+
+        '
       features:
       - extremely_high_gt_60pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2005"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2005
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2006:
     data_status: complete
     quantitative:
       value: 63.73
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2006, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2006, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -1480,81 +1517,84 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2006, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2006, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.17
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2006, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2006, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2006, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2006, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2006, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2006, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00537
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2006, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2006, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 63.726953
+      discrepancy: null
     qualitative:
-      assessment: |
-        Post-invasion Iraq shows resource rents at 63.7% of GDP in 2006. Oil sector recovery was rapid but GDP reconstruction was slow, keeping the rent share high. Oil exports restarted quickly under Coalition Provisional Authority oversight.
+      assessment: 'Post-invasion Iraq shows resource rents at 63.7% of GDP in 2006. Oil sector recovery was rapid but GDP
+        reconstruction was slow, keeping the rent share high. Oil exports restarted quickly under Coalition Provisional Authority
+        oversight.
+
+        '
       features:
       - extremely_high_gt_60pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2006"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2006
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2007:
     data_status: complete
     quantitative:
       value: 53.22
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2007, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2007, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -1562,81 +1602,83 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2007, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2007, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.28
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2007, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2007, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2007, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2007, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0.00313
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2007, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2007, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00395
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2007, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2007, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 53.216691
+      discrepancy: null
     qualitative:
-      assessment: |
-        Natural resource rents totaled 53.2% of GDP in 2007, overwhelmingly driven by oil rents. Iraq remains one of the most resource-rent-dependent economies globally.
+      assessment: 'Natural resource rents totaled 53.2% of GDP in 2007, overwhelmingly driven by oil rents. Iraq remains one
+        of the most resource-rent-dependent economies globally.
+
+        '
       features:
       - very_high_40_60pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2007"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2007
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2008:
     data_status: complete
     quantitative:
       value: 55.69
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2008, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2008, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -1644,81 +1686,83 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2008, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2008, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.3
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2008, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2008, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2008, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2008, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0.00163
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2008, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2008, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00476
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2008, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2008, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 55.685729
+      discrepancy: null
     qualitative:
-      assessment: |
-        Natural resource rents totaled 55.7% of GDP in 2008, overwhelmingly driven by oil rents. Iraq remains one of the most resource-rent-dependent economies globally.
+      assessment: 'Natural resource rents totaled 55.7% of GDP in 2008, overwhelmingly driven by oil rents. Iraq remains one
+        of the most resource-rent-dependent economies globally.
+
+        '
       features:
       - very_high_40_60pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2008"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2008
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2009:
     data_status: complete
     quantitative:
       value: 39.51
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2009, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2009, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -1726,81 +1770,83 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2009, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2009, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.39
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2009, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2009, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2009, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2009, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0.00406
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2009, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2009, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00566
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2009, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2009, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 39.512663
+      discrepancy: null
     qualitative:
-      assessment: |
-        Natural resource rents totaled 39.5% of GDP in 2009, overwhelmingly driven by oil rents. Iraq remains one of the most resource-rent-dependent economies globally.
+      assessment: 'Natural resource rents totaled 39.5% of GDP in 2009, overwhelmingly driven by oil rents. Iraq remains one
+        of the most resource-rent-dependent economies globally.
+
+        '
       features:
       - high_20_40pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2009"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2009
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2010:
     data_status: complete
     quantitative:
       value: 43.57
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2010, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2010, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -1808,81 +1854,83 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2010, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2010, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.3
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2010, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2010, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2010, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2010, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0.00464
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2010, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2010, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00561
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2010, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2010, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 43.56829
+      discrepancy: null
     qualitative:
-      assessment: |
-        Natural resource rents totaled 43.6% of GDP in 2010, overwhelmingly driven by oil rents. Iraq remains one of the most resource-rent-dependent economies globally.
+      assessment: 'Natural resource rents totaled 43.6% of GDP in 2010, overwhelmingly driven by oil rents. Iraq remains one
+        of the most resource-rent-dependent economies globally.
+
+        '
       features:
       - very_high_40_60pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2010"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2010
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2011:
     data_status: complete
     quantitative:
       value: 51.19
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2011, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2011, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -1890,81 +1938,83 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2011, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2011, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.25
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2011, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2011, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2011, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2011, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0.01209
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2011, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2011, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00429
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2011, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2011, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 51.19454
+      discrepancy: null
     qualitative:
-      assessment: |
-        Natural resource rents totaled 51.2% of GDP in 2011, overwhelmingly driven by oil rents. Iraq remains one of the most resource-rent-dependent economies globally.
+      assessment: 'Natural resource rents totaled 51.2% of GDP in 2011, overwhelmingly driven by oil rents. Iraq remains one
+        of the most resource-rent-dependent economies globally.
+
+        '
       features:
       - very_high_40_60pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2011"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2011
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2012:
     data_status: complete
     quantitative:
       value: 49.85
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2012, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2012, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -1972,81 +2022,83 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2012, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2012, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.22
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2012, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2012, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2012, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2012, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0.01343
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2012, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2012, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00413
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2012, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2012, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 49.851018
+      discrepancy: null
     qualitative:
-      assessment: |
-        Natural resource rents totaled 49.9% of GDP in 2012, overwhelmingly driven by oil rents. Iraq remains one of the most resource-rent-dependent economies globally.
+      assessment: 'Natural resource rents totaled 49.9% of GDP in 2012, overwhelmingly driven by oil rents. Iraq remains one
+        of the most resource-rent-dependent economies globally.
+
+        '
       features:
       - very_high_40_60pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2012"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2012
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2013:
     data_status: complete
     quantitative:
       value: 45.58
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2013, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2013, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -2054,81 +2106,83 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2013, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2013, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.24
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2013, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2013, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2013, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2013, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0.00777
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2013, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2013, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00364
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2013, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2013, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 45.579367
+      discrepancy: null
     qualitative:
-      assessment: |
-        Natural resource rents totaled 45.6% of GDP in 2013, overwhelmingly driven by oil rents. Iraq remains one of the most resource-rent-dependent economies globally.
+      assessment: 'Natural resource rents totaled 45.6% of GDP in 2013, overwhelmingly driven by oil rents. Iraq remains one
+        of the most resource-rent-dependent economies globally.
+
+        '
       features:
       - very_high_40_60pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2013"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2013
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2014:
     data_status: complete
     quantitative:
       value: 46.85
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2014, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2014, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -2136,81 +2190,84 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2014, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2014, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.25
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2014, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2014, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2014, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2014, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0.000456
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2014, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2014, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00467
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2014, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2014, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 46.854396
+      discrepancy: null
     qualitative:
-      assessment: |
-        Resource rents at 46.9% of GDP in 2014 during the ISIS crisis period. Budget crisis intensified as oil price collapse coincided with ISIS territorial control over some oil infrastructure and massive military spending requirements.
+      assessment: 'Resource rents at 46.9% of GDP in 2014 during the ISIS crisis period. Budget crisis intensified as oil
+        price collapse coincided with ISIS territorial control over some oil infrastructure and massive military spending
+        requirements.
+
+        '
       features:
       - very_high_40_60pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2014"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2014
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2015:
     data_status: complete
     quantitative:
       value: 37.5
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2015, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2015, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -2218,81 +2275,84 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2015, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2015, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.24
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2015, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2015, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2015, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2015, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2015, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2015, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00537
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2015, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2015, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 37.503717
+      discrepancy: null
     qualitative:
-      assessment: |
-        Resource rents at 37.5% of GDP in 2015 during the ISIS crisis period. Budget crisis intensified as oil price collapse coincided with ISIS territorial control over some oil infrastructure and massive military spending requirements.
+      assessment: 'Resource rents at 37.5% of GDP in 2015 during the ISIS crisis period. Budget crisis intensified as oil
+        price collapse coincided with ISIS territorial control over some oil infrastructure and massive military spending
+        requirements.
+
+        '
       features:
       - high_20_40pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2015"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2015
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2016:
     data_status: complete
     quantitative:
       value: 33.22
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2016, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2016, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -2300,81 +2360,84 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2016, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2016, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.25
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2016, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2016, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2016, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2016, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2016, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2016, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00373
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2016, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2016, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 33.218922
+      discrepancy: null
     qualitative:
-      assessment: |
-        Resource rents at 33.2% of GDP in 2016 during the ISIS crisis period. Budget crisis intensified as oil price collapse coincided with ISIS territorial control over some oil infrastructure and massive military spending requirements.
+      assessment: 'Resource rents at 33.2% of GDP in 2016 during the ISIS crisis period. Budget crisis intensified as oil
+        price collapse coincided with ISIS territorial control over some oil infrastructure and massive military spending
+        requirements.
+
+        '
       features:
       - high_20_40pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2016"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2016
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2017:
     data_status: complete
     quantitative:
       value: 39.2
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2017, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2017, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -2382,81 +2445,83 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2017, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2017, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.28
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2017, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2017, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2017, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2017, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2017, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2017, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00473
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2017, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2017, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 39.200554
+      discrepancy: null
     qualitative:
-      assessment: |
-        Natural resource rents totaled 39.2% of GDP in 2017, overwhelmingly driven by oil rents. Iraq remains one of the most resource-rent-dependent economies globally.
+      assessment: 'Natural resource rents totaled 39.2% of GDP in 2017, overwhelmingly driven by oil rents. Iraq remains one
+        of the most resource-rent-dependent economies globally.
+
+        '
       features:
       - high_20_40pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2017"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2017
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2018:
     data_status: complete
     quantitative:
       value: 46.15
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2018, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2018, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -2464,81 +2529,83 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2018, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2018, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.38
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2018, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2018, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2018, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2018, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2018, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2018, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00339
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2018, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2018, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 46.147787
+      discrepancy: null
     qualitative:
-      assessment: |
-        Natural resource rents totaled 46.1% of GDP in 2018, overwhelmingly driven by oil rents. Iraq remains one of the most resource-rent-dependent economies globally.
+      assessment: 'Natural resource rents totaled 46.1% of GDP in 2018, overwhelmingly driven by oil rents. Iraq remains one
+        of the most resource-rent-dependent economies globally.
+
+        '
       features:
       - very_high_40_60pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2018"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2018
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2019:
     data_status: complete
     quantitative:
       value: 40.61
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2019, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2019, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -2546,81 +2613,83 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2019, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2019, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.37
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2019, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2019, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2019, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2019, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2019, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2019, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.004
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2019, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2019, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 40.609902
+      discrepancy: null
     qualitative:
-      assessment: |
-        Natural resource rents totaled 40.6% of GDP in 2019, overwhelmingly driven by oil rents. Iraq remains one of the most resource-rent-dependent economies globally.
+      assessment: 'Natural resource rents totaled 40.6% of GDP in 2019, overwhelmingly driven by oil rents. Iraq remains one
+        of the most resource-rent-dependent economies globally.
+
+        '
       features:
       - very_high_40_60pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2019"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2019
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2020:
     data_status: complete
     quantitative:
       value: 27.42
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2020, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2020, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -2628,81 +2697,83 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2020, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2020, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.38
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2020, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2020, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2020, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2020, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2020, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2020, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00382
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2020, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2020, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 27.417013
+      discrepancy: null
     qualitative:
-      assessment: |
-        Natural resource rents totaled 27.4% of GDP in 2020, overwhelmingly driven by oil rents. Iraq remains one of the most resource-rent-dependent economies globally.
+      assessment: 'Natural resource rents totaled 27.4% of GDP in 2020, overwhelmingly driven by oil rents. Iraq remains one
+        of the most resource-rent-dependent economies globally.
+
+        '
       features:
       - high_20_40pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2020"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2020
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2021:
     data_status: complete
     quantitative:
       value: 43.45
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2021, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2021, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
       reliability: medium
       components:
         oil_rents_pct_gdp:
@@ -2710,453 +2781,455 @@ years:
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2021, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2021, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: 0.66
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2021, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2021, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2021, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2021, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: 0
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2021, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2021, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: 0.00324
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2021, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2021, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
           reliability: medium
-          series_id:
-          canonical_file:
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: 43.445858
+      discrepancy: null
     qualitative:
-      assessment: |
-        Natural resource rents totaled 43.5% of GDP in 2021, overwhelmingly driven by oil rents. Iraq remains one of the most resource-rent-dependent economies globally.
+      assessment: 'Natural resource rents totaled 43.5% of GDP in 2021, overwhelmingly driven by oil rents. Iraq remains one
+        of the most resource-rent-dependent economies globally.
+
+        '
       features:
       - very_high_40_60pct
       sources:
-      - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2021"
+      - citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2021
         type: official_statistics
         reliability: medium
       confidence: medium
-      notes:
+      notes: null
   2022:
     data_status: missing
     quantitative:
       value: None
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2022, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
-      reliability:
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2022, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
+      reliability: null
       components:
         oil_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2022, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2022, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2022, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2022, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2022, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2022, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2022, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2022, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2022, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2022, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes: "World Bank WDI data not yet available for 2022."
+      confidence: null
+      notes: World Bank WDI data not yet available for 2022.
   2023:
     data_status: missing
     quantitative:
       value: None
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2023, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
-      reliability:
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2023, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
+      reliability: null
       components:
         oil_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2023, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2023, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2023, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2023, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2023, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2023, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2023, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2023, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2023, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2023, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes: "World Bank WDI data not yet available for 2023."
+      confidence: null
+      notes: World Bank WDI data not yet available for 2023.
   2024:
     data_status: missing
     quantitative:
       value: None
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2024, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
-      reliability:
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2024, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
+      reliability: null
       components:
         oil_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2024, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2024, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2024, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2024, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2024, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2024, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2024, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2024, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2024, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2024, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes: "World Bank WDI data not yet available for 2024."
+      confidence: null
+      notes: World Bank WDI data not yet available for 2024.
   2025:
     data_status: missing
     quantitative:
       value: None
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2025, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
-      reliability:
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2025, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
+      reliability: null
       components:
         oil_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2025, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2025, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2025, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2025, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2025, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2025, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2025, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2025, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2025, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2025, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes: "World Bank WDI data not yet available for 2025."
+      confidence: null
+      notes: World Bank WDI data not yet available for 2025.
   2026:
     data_status: missing
     quantitative:
       value: None
       unit: pct_gdp
-      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      formula: oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp
       source:
-        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2026, accessed 2026-03-02"
-        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
-        access_date: "2026-03-02"
-      reliability:
+        citation: World Bank WDI, NY.GDP.TOTL.RT.ZS, Iraq, 2026, accessed 2026-03-02
+        url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+        access_date: '2026-03-02'
+      reliability: null
       components:
         oil_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2026, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.PETR.RT.ZS, Iraq, 2026, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         gas_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2026, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.NGAS.RT.ZS, Iraq, 2026, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         coal_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2026, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.COAL.RT.ZS, Iraq, 2026, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         mineral_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2026, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.MINR.RT.ZS, Iraq, 2026, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
         forest_rents_pct_gdp:
           value: None
           unit: pct_gdp
           role: addend
           source:
-            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2026, accessed 2026-03-02"
-            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
-            access_date: "2026-03-02"
-          reliability:
-          series_id:
-          canonical_file:
+            citation: World Bank WDI, NY.GDP.FRST.RT.ZS, Iraq, 2026, accessed 2026-03-02
+            url: https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS
+            access_date: '2026-03-02'
+          reliability: null
+          series_id: null
+          canonical_file: null
       value_source: downloaded
-      series_id:
-      calculated_value:
-      discrepancy:
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment:
+      assessment: null
       features: []
       sources: []
-      confidence:
-      notes: "World Bank WDI data not yet available for 2026."
+      confidence: null
+      notes: World Bank WDI data not yet available for 2026.

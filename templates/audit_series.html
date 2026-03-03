@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block title %}{{ series_id }} — Series Coverage{% endblock %}
+
+{% block content %}
+<a href="/audit" class="back-link">← Back to Coverage Matrix</a>
+
+<h1>{{ series_info.get('name', series_id) }}</h1>
+<p style="color:#64748b;margin-bottom:12px">
+  <code>{{ series_id }}</code> ·
+  <span class="source-tag">{{ series_info.get('source', '') }}</span> ·
+  {{ series_info.get('unit', '') | replace('_', ' ') }} ·
+  Priority: {{ series_info.get('priority', '?') }}
+</p>
+
+{% if reg_meta.get('downloaded') %}
+  <p><span class="badge badge-available">Downloaded</span>
+  Last download: {{ reg_meta.get('last_download', 'unknown') }}</p>
+{% else %}
+  <p><span class="badge badge-not-downloaded">Not downloaded</span>
+  <a href="{{ series_info.get('url', '#') }}" target="_blank" rel="noopener" class="btn" style="margin-left:8px">Source URL →</a></p>
+{% endif %}
+
+{% if status_data.get('plan') %}
+<div style="background:#eff6ff;border:1px solid #bfdbfe;border-radius:6px;padding:10px 14px;margin:10px 0">
+  <strong>Collection plan:</strong>
+  {% for country, plan in status_data.plan.items() %}
+    <div><em>{{ country }}</em>: {{ plan }}</div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<h2>Coverage by Country</h2>
+<table>
+  <thead><tr><th>Country</th><th>Years Available</th><th>Year Range</th><th>Gaps</th><th>Verified</th></tr></thead>
+  <tbody>
+  {% for cid, meta in countries.items() | sort(attribute='1.display_name') %}
+    {% set rows = by_country.get(cid, []) %}
+    {% set avail_rows = rows | selectattr('status', 'equalto', 'available') | list %}
+    {% set years = avail_rows | map(attribute='year') | list %}
+    {% set verified_count = 0 %}
+    {% for r in avail_rows %}
+      {% set vkey = series_id + '/' + cid + '/' + r.year %}
+      {% if verification.get(vkey, {}).get('verified') %}{% set verified_count = verified_count + 1 %}{% endif %}
+    {% endfor %}
+    <tr>
+      <td><a href="/audit/country/{{ cid }}">{{ meta.display_name }}</a></td>
+      <td>
+        {% if avail_rows %}
+          <span class="badge badge-available">{{ avail_rows | length }}</span>
+        {% elif rows %}
+          <span class="badge badge-gap">gaps only</span>
+        {% else %}
+          <span class="badge badge-not-downloaded">no data</span>
+        {% endif %}
+      </td>
+      <td>
+        {% if years %}{{ years | min }}–{{ years | max }}{% else %}—{% endif %}
+      </td>
+      <td>{{ (rows | length) - (avail_rows | length) }}</td>
+      <td>{{ verified_count }} / {{ avail_rows | length }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
