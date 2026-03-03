@@ -31,6 +31,7 @@
         <div class="sidebar-section-title sidebar-toggle">Countries <span class="section-chevron">▾</span></div>
         <div class="sidebar-section-body">
           <input type="text" id="country-search" placeholder="Search..." autocomplete="off">
+          <div id="selected-reorder-header" class="country-section-label" style="display:none">↕ Selected — drag to reorder:</div>
           <ul id="country-list"></ul>
           <div id="country-groups"></div>
           <div class="group-buttons" id="group-buttons"></div>
@@ -101,6 +102,10 @@
 
           <label class="overlay-toggle-label">
             <input type="checkbox" id="cb-overlay-source-markers"><span>Sources ◇</span>
+          </label>
+
+          <label class="overlay-toggle-label">
+            <input type="checkbox" id="cb-tooltip-detail"><span>Detail ℹ</span>
           </label>
 
         </div>
@@ -182,7 +187,7 @@ return 0.5 * gov + 0.5 * econ"></textarea>
 
 <script type="module">
   import { state } from "./js/state.js";
-  import { loadAll, getAllCountrySeries } from "./js/data.js";
+  import { loadAll, loadCountryRaw, getAllCountrySeries, getAllRawSeries } from "./js/data.js";
   import { render, setCountriesMeta } from "./js/chart.js";
   import { init as initControls } from "./js/controls.js";
 
@@ -207,15 +212,23 @@ return 0.5 * gov + 0.5 * econ"></textarea>
     initControls(allData);
 
     // Subscribe to state changes → re-render chart
-    state.subscribe((s) => {
+    state.subscribe(async (s) => {
+      if (s.rawAxis || s.tooltipDetail) {
+        await Promise.all(s.countries.map((c) => loadCountryRaw(c).catch(() => {})));
+      }
       const seriesList = getAllCountrySeries(s, allData);
-      render(seriesList, s, allData);
+      const rawSeriesList = getAllRawSeries(s, allData);
+      render(seriesList, rawSeriesList, s, allData);
     });
 
     // Initial chart render
     const s = state.get();
+    if (s.rawAxis || s.tooltipDetail) {
+      await Promise.all(s.countries.map((c) => loadCountryRaw(c).catch(() => {})));
+    }
     const seriesList = getAllCountrySeries(s, allData);
-    render(seriesList, s, allData);
+    const rawSeriesList = getAllRawSeries(s, allData);
+    render(seriesList, rawSeriesList, s, allData);
   }
 
   main().catch(console.error);

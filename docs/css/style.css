@@ -163,14 +163,22 @@ body {
 .country-item:hover { background: var(--surface); }
 
 .drag-handle {
-  color: var(--border);
+  color: #aaa;
   cursor: grab;
-  font-size: 12px;
-  padding: 2px 2px;
+  font-size: 14px;
+  padding: 1px 4px;
   line-height: 1;
   flex-shrink: 0;
   user-select: none;
-  margin-top: 2px;
+  border-radius: 3px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  transition: color 0.1s, background 0.1s, border-color 0.1s;
+}
+.drag-handle:hover {
+  color: #555;
+  background: #e4e4e4;
+  border-color: #bbb;
 }
 .drag-handle:active { cursor: grabbing; }
 
@@ -903,6 +911,9 @@ body {
 .confidence-medium { color: #854d0e; }
 .confidence-low { color: var(--danger); }
 
+.raw-unit { color: var(--text-muted); font-size: 10px; }
+.score-cell { font-variant-numeric: tabular-nums; }
+
 .assessment-text {
   font-size: 11px;
   color: var(--text-muted);
@@ -1244,6 +1255,16 @@ details[open] > .def-summary::before { content: "▼"; }
 .metric-group.collapsed .metric-group-chevron { transform: rotate(-90deg); }
 .metric-group.collapsed .metric-group-body { display: none; }
 
+/* ── Country section label ─────────────────────────────────────────────────── */
+.country-section-label {
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  padding: 6px 2px 2px;
+}
+
 /* ── Country groups ────────────────────────────────────────────────────────── */
 #country-groups {
   margin-top: 4px;
@@ -1281,6 +1302,15 @@ details[open] > .def-summary::before { content: "▼"; }
 
 .country-group-name { flex: 1; }
 
+/* Selected countries within group body get a subtle tint */
+.country-group-body .country-item.is-selected {
+  background: color-mix(in srgb, var(--accent) 7%, transparent);
+  border-radius: var(--radius);
+}
+.country-group-body .country-item.is-selected:hover {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+}
+
 .country-group-count {
   font-size: 9px;
   color: var(--text-muted);
@@ -1299,6 +1329,51 @@ details[open] > .def-summary::before { content: "▼"; }
   font-family: var(--font);
 }
 .btn-select-group:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ── Metric fold (raw value toggle) ─────────────────────────────────────────── */
+.metric-type-indicator { flex-wrap: wrap; }
+
+.metric-fold-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 9px;
+  color: var(--text-muted);
+  padding: 1px 3px;
+  flex-shrink: 0;
+  opacity: 0.45;
+  line-height: 1;
+}
+.metric-fold-toggle:hover { opacity: 1; color: var(--accent); }
+
+.metric-fold-body {
+  flex: 0 0 100%;
+  padding: 3px 0 3px 28px;
+  display: flex;
+  gap: 5px;
+}
+.metric-fold-body[hidden] { display: none !important; }
+
+.metric-fold-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 2px 7px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  user-select: none;
+}
+.metric-fold-row:hover { border-color: var(--accent); color: var(--accent); }
+.metric-fold-row:has(input:checked) {
+  background: var(--accent-light);
+  border-color: var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+}
+.metric-fold-radio { accent-color: var(--accent); }
 
 /* Scrollbar minimal */
 ::-webkit-scrollbar { width: 5px; height: 5px; }

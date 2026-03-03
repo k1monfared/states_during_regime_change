@@ -249,7 +249,8 @@ async function selectCountry(id) {
                   <tr>
                     <th>Year</th>
                     <th>Status</th>
-                    <th>Score</th>
+                    <th>Raw Value</th>
+                    <th>Score (0–100)</th>
                     <th>Confidence</th>
                     <th>Assessment</th>
                     <th>Sources</th>
@@ -284,13 +285,18 @@ async function selectCountry(id) {
           const sources = (entry?.sources ?? [])
             .map((s) => `<span title="${s.citation}">${s.type ?? "source"}</span>`)
             .join(", ");
-          const scoreVal = entry?.raw_value != null ? entry.raw_value : "—";
+          const rawVal = entry?.raw_value != null
+            ? `${entry.raw_value}${entry.unit ? ` <small class="raw-unit">${_esc(entry.unit.replace(/_/g, " "))}</small>` : ""}`
+            : "—";
+          const combinedScore = _allData.combined?.[id]?.[year]?.[dim]?.[indId];
+          const scoreCell = combinedScore != null ? combinedScore.toFixed(1) : "—";
 
           html += `
             <tr>
               <td>${year}</td>
               <td><span class="status-badge ${statusClass}">${status}</span></td>
-              <td>${scoreVal}</td>
+              <td>${rawVal}</td>
+              <td class="score-cell">${scoreCell}</td>
               <td class="confidence-badge ${confClass}">${confidence || "—"}</td>
               <td>${assessmentCell}</td>
               <td>${sources || "—"}</td>

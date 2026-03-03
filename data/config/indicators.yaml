@@ -33,6 +33,17 @@ political:
       - "UCDP/PRIO Armed Conflict Dataset"
       - "ACLED"
       - "Uppsala Conflict Data Program"
+    components:
+      conflict_deaths:
+        description: "Total direct conflict-related deaths per year (battle deaths + one-sided violence + non-state conflict; best estimate)"
+        unit: persons_per_year
+        source_code: "UCDP GED: sum of 'best' field by country-year"
+        fallback: "ACLED fatalities field by country-year"
+      population:
+        description: "Total population (used for optional per-100k normalization only; not used in main value)"
+        unit: persons
+        source_code: "World Bank SP.POP.TOTL"
+        fallback: "UN World Population Prospects"
 
   institutional_functioning:
     description: "Do state institutions (courts, legislature, bureaucracy, elections) operate?"
@@ -93,6 +104,17 @@ economic:
     primary_sources:
       - "World Bank"
       - "IMF"
+    components:
+      gdp_total:
+        description: "Gross Domestic Product at current market prices"
+        unit: usd_current
+        source_code: "World Bank NY.GDP.MKTP.CD"
+        fallback: "IMF WEO series NGDPD (current USD billions)"
+      population:
+        description: "Total mid-year population (all residents)"
+        unit: persons
+        source_code: "World Bank SP.POP.TOTL"
+        fallback: "UN World Population Prospects"
 
   inflation:
     description: "Price stability (annual consumer price inflation rate)"
@@ -108,6 +130,17 @@ economic:
       - "World Bank"
       - "IMF"
       - "Central bank data"
+    components:
+      cpi_current_year:
+        description: "Consumer Price Index for the current year (base year = 100)"
+        unit: index_number
+        source_code: "World Bank FP.CPI.TOTL (2010=100)"
+        fallback: "IMF IFS CPI series"
+      cpi_prior_year:
+        description: "Consumer Price Index for the prior year (same series); used to derive the annual rate when direct rate series is unavailable"
+        unit: index_number
+        source_code: "World Bank FP.CPI.TOTL (prior year row)"
+        fallback: "IMF IFS CPI series"
 
   unemployment:
     description: "Labor market health (official unemployment rate)"
@@ -122,6 +155,17 @@ economic:
     primary_sources:
       - "World Bank"
       - "ILO"
+    components:
+      unemployed_persons:
+        description: "Number of unemployed persons (ILO definition: without work, available, seeking)"
+        unit: persons
+        source_code: "ILO ILOSTAT: UNE_TUNE_SEX_AGE_NB"
+        fallback: "World Bank SL.UEM.TOTL.NE.ZS numerator"
+      labor_force:
+        description: "Total labor force (employed + unemployed)"
+        unit: persons
+        source_code: "World Bank SL.TLF.TOTL.IN"
+        fallback: "ILO ILOSTAT: EAP_TEAP_SEX_AGE_NB"
 
   trade_openness:
     description: "Economic integration with world ((Exports + Imports) / GDP)"
@@ -135,6 +179,22 @@ economic:
       - autarky_or_blockade
     primary_sources:
       - "World Bank"
+    components:
+      exports:
+        description: "Exports of goods and services, current USD"
+        unit: usd_current
+        source_code: "World Bank NE.EXP.GNFS.CD"
+        fallback: "IMF Direction of Trade Statistics (DOTS)"
+      imports:
+        description: "Imports of goods and services, current USD"
+        unit: usd_current
+        source_code: "World Bank NE.IMP.GNFS.CD"
+        fallback: "IMF Direction of Trade Statistics (DOTS)"
+      gdp:
+        description: "GDP at current market prices, current USD (denominator)"
+        unit: usd_current
+        source_code: "World Bank NY.GDP.MKTP.CD"
+        fallback: "IMF WEO series NGDPD"
 
   fiscal_health:
     description: "Government debt sustainability, budget balance"
@@ -150,6 +210,17 @@ economic:
       - "IMF"
       - "World Bank"
       - "Ministry of Finance reports"
+    components:
+      gross_debt_pct_gdp:
+        description: "General government gross debt as % of GDP (stock measure)"
+        unit: percent_gdp
+        source_code: "IMF WEO: GGXWDG_NGDP"
+        fallback: "IMF Article IV consultation documents"
+      budget_balance_pct_gdp:
+        description: "General government net lending/borrowing as % of GDP (flow measure; surplus positive, deficit negative)"
+        unit: percent_gdp
+        source_code: "IMF WEO: GGXCNL_NGDP"
+        fallback: "IMF Article IV consultation documents"
 
 international:
   sanctions:
@@ -208,6 +279,17 @@ international:
     primary_sources:
       - "UNCTAD"
       - "World Bank"
+    components:
+      fdi_net_inflows:
+        description: "FDI net inflows in absolute terms (can be negative)"
+        unit: usd_millions_current
+        source_code: "World Bank BX.KLT.DINV.CD.WD"
+        fallback: "UNCTAD FDI statistics (inward flows table)"
+      gdp:
+        description: "GDP at current market prices, current USD (denominator)"
+        unit: usd_current
+        source_code: "World Bank NY.GDP.MKTP.CD"
+        fallback: "IMF WEO series NGDPD"
 
   refugee_flows:
     description: "Population displacement as indicator of crisis severity"
@@ -221,6 +303,22 @@ international:
       - catastrophic_gt_10pct
     primary_sources:
       - "UNHCR"
+    components:
+      refugees:
+        description: "Refugees by country of origin (persons outside their country of origin, end-of-year stock)"
+        unit: persons
+        source_code: "UNHCR Refugee Statistics portal (country of origin filter)"
+        fallback: "UNHCR Global Trends annual report"
+      idps:
+        description: "Internally displaced persons (conflict-driven, end-of-year stock)"
+        unit: persons
+        source_code: "IDMC Global Internal Displacement Database"
+        fallback: "UNHCR IDP figures"
+      population:
+        description: "Total country population (denominator)"
+        unit: persons
+        source_code: "World Bank SP.POP.TOTL"
+        fallback: "UN World Population Prospects"
 
 transparency:
   budget_transparency:

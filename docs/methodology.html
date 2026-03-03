@@ -31,6 +31,7 @@
       <a href="#sources">Source Tiers</a>
       <a href="#definitions">Source Definitions</a>
       <a href="#dashboard">Dashboard</a>
+      <a href="#analysis">Analysis Tools</a>
       <a href="#limitations">Limitations</a>
     </aside>
 
@@ -195,6 +196,40 @@
         <li><strong>Custom metrics</strong> — weighted combinations of any indicators, computed on the fly</li>
         <li><strong>Shareable URLs</strong> — full dashboard state (countries, metrics, mode, time range) encoded in URL hash</li>
       </ul>
+
+      <h2 id="analysis">Analysis Overlays</h2>
+      <p>Four optional overlays are available from the toolbar. All default to off.
+         All computations are client-side from the underlying score data.</p>
+
+      <h3>A. Confidence Bands</h3>
+      <p>Shaded regions showing per-year scoring uncertainty. Two methods:</p>
+      <ul>
+        <li><strong>Data quality</strong> — band width from source_type + data_status:
+          quantitative+complete → ±5 pts; qualitative+complete → ±10 pts; partial → ±18 pts; unavailable → no band.</li>
+        <li><strong>Score variance</strong> — ±1σ of a 3-point centered window:
+          <code>σ = std({y[i−1], y[i], y[i+1]})</code>. Requires ≥2 neighbors.</li>
+      </ul>
+
+      <h3>B. Volatility Layer</h3>
+      <p>Trailing rolling standard deviation over a 3- or 5-year window:
+      <code>σ_t = std(y[t−w+1], …, y[t])</code>.
+      Wide bands = noisy series; narrow bands = stable or trending series.</p>
+
+      <h3>C. Trend Indicators</h3>
+      <p>Arrow annotation at end of each series. Two methods, over last 5 years:</p>
+      <ul>
+        <li><strong>Linear slope</strong> — OLS regression β (pts/yr).
+          ↑ if β ≥ +0.5, ↓ if β ≤ −0.5, → otherwise.</li>
+        <li><strong>Mann-Kendall τ</strong> — non-parametric monotone trend:
+          <code>τ = (P−Q) / (n(n−1)/2)</code> where P/Q = concordant/discordant pairs.
+          ↑ if τ &gt; 0.3, ↓ if τ &lt; −0.3, → otherwise. Robust to outliers.</li>
+      </ul>
+
+      <h3>D. Source-change Markers</h3>
+      <p>Diamond markers (◇) at years where source_type transitions between
+      qualitative and quantitative. A score change coinciding with a source-type
+      change may reflect a measurement artifact, not a real-world change.
+      Only meaningful for single atomic indicators (not composite/dimension metrics).</p>
 
       <h2 id="limitations">Limitations</h2>
       <ul>

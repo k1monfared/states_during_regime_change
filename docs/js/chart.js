@@ -46,15 +46,41 @@ function getDash(id) {
 
 // ── Build Plotly traces & layout ───────────────────────────────────────────────
 
+// HTML-escape helper for values embedded inside hovertemplate strings
+function _htesc(str) {
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
 /**
- * Pre-build hover text per point (year + t= offset) as a plain string.
- * Using `text` attribute instead of `customdata` for reliable Plotly.js support.
+ * Pre-build hover text per point (year + t= offset, plus optional detail).
+ * pointDetails: array of {confidence, assessment, rawValue, rawUnit} | null,
+ *   parallel to points — populated when appState.tooltipDetail is true.
  */
-function buildHoverText(points, pivotYear) {
-  return points.map((p) => {
+function buildHoverText(points, pivotYear, pointDetails) {
+  return points.map((p, i) => {
     let s = `Year: ${p.year}`;
     if (pivotYear != null) {
       s += `<br>t = ${p.year - pivotYear} (from ${pivotYear})`;
+    }
+    const detail = pointDetails?.[i];
+    if (detail) {
+      if (detail.rawValue != null) {
+        const u = detail.rawUnit
+          ? ` ${_htesc(detail.rawUnit.replace(/_/g, " "))}`
+          : "";
+        s += `<br>Raw: ${_htesc(String(detail.rawValue))}${u}`;
+      }
+      if (detail.confidence) {
+        s += `<br>Confidence: ${_htesc(detail.confidence)}`;
+      }
+      if (detail.assessment) {
+        const full = detail.assessment.replace(/\s+/g, " ").trim();
+        const snippet = full.length > 150 ? full.slice(0, 150).trimEnd() + "…" : full;
+        s += `<br><i>${_htesc(snippet)}</i>`;
+      }
     }
     return s;
   });
@@ -65,12 +91,13 @@ function buildHoverTemplate(countryLabel, metricLabel) {
 }
 
 /**
- * render(seriesList, appState, allData)
+ * render(seriesList, rawSeriesList, appState, allData)
  * seriesList: output of getAllCountrySeries()
+ * rawSeriesList: output of getAllRawSeries() — right y-axis raw series
  * appState: current state snapshot
  * allData: {combined, countries, indicators} for overlay computations
  */
-export function render(seriesList, appState, allData) {
+export function render(seriesList, rawSeriesList, appState, allData) {
   const el = document.getElementById("chart");
   const emptyEl = document.getElementById("chart-empty");
 
@@ -87,7 +114,7 @@ export function render(seriesList, appState, allData) {
   if (appState.chartMode === "stacked") {
     _renderStacked(el, seriesList, appState, allData);
   } else {
-    _renderOverlay(el, seriesList, appState, allData);
+    _renderOverlay(el, seriesList, rawSeriesList ?? [], appState, allData);
   }
 }
 
@@ -236,7 +263,7 @@ function _buildTrendAnnotations(seriesList, appState, yrefFn) {
 
 // ── Overlay mode ───────────────────────────────────────────────────────────────
 
-function _renderOverlay(el, seriesList, appState, allData) {
+function _renderOverlay(el, seriesList, rawSeriesList, appState, allData) {
   const mainTraces = [];
   const overlayTraces = [];
   const legendTraces = [];
@@ -296,7 +323,7 @@ function _renderOverlay(el, seriesList, appState, allData) {
     mainTraces.push({
       x: s.points.map((p) => p.x),
       y: s.points.map((p) => p.y),
-      text: buildHoverText(s.points, s.pivotYear),
+      text: buildHoverText(s.points, s.pivotYear, s.pointDetails),
       type: "scatter",
       mode: "lines",
       name,
@@ -310,10 +337,15 @@ function _renderOverlay(el, seriesList, appState, allData) {
       const rcSet = new Set(s.regimeChangeXs);
       const rcPoints = s.points.filter((p) => rcSet.has(p.x));
       if (rcPoints.length > 0) {
+        // Map rcPoints back to their indices in s.points for correct detail lookup
+        const rcDetails = rcPoints.map((rp) => {
+          const idx = s.points.findIndex((p) => p.x === rp.x && p.year === rp.year);
+          return s.pointDetails?.[idx] ?? null;
+        });
         mainTraces.push({
           x: rcPoints.map((p) => p.x),
           y: rcPoints.map((p) => p.y),
-          text: buildHoverText(rcPoints, s.pivotYear),
+          text: buildHoverText(rcPoints, s.pivotYear, rcDetails),
           type: "scatter",
           mode: "markers",
           name,
@@ -350,13 +382,35 @@ function _renderOverlay(el, seriesList, appState, allData) {
     }
   }
 
-  const layout = _baseLayout(appState);
+  // Raw axis traces (right y-axis, overlay mode only)
+  const rawTraces = [];
+  let rawUnit = "";
+  if (rawSeriesList.length > 0) {
+    rawUnit = rawSeriesList[0]?.unit ?? "";
+    for (const rs of rawSeriesList) {
+      const color = getColor(rs.countryId, _colorMap);
+      rawTraces.push({
+        x: rs.points.map((p) => p.x),
+        y: rs.points.map((p) => p.y),
+        text: buildHoverText(rs.points, null),
+        type: "scatter",
+        mode: "lines",
+        name: `${rs.countryLabel} (raw)`,
+        showlegend: true,
+        line: { color, dash: "dot", width: 1.5 },
+        yaxis: "y2",
+        hovertemplate: `<b>${rs.countryLabel}</b><br>Raw: %{y:.4g}${rawUnit ? " " + rawUnit : ""}<br>%{text}<extra></extra>`,
+      });
+    }
+  }
+
+  const layout = _baseLayout(appState, rawUnit);
   layout.shapes = shapes;
   layout.legend = { orientation: "h", y: -0.12, font: { size: 11 } };
   layout.annotations = _buildTrendAnnotations(seriesList, appState);
 
-  // legendTraces first (so they anchor the legend order), then overlays, then main lines
-  Plotly.react(el, [...legendTraces, ...overlayTraces, ...mainTraces], layout, _config());
+  // legendTraces first (so they anchor the legend order), then overlays, then main lines, then raw
+  Plotly.react(el, [...legendTraces, ...overlayTraces, ...mainTraces, ...rawTraces], layout, _config());
 }
 
 // ── Stacked mode ───────────────────────────────────────────────────────────────
@@ -413,7 +467,7 @@ function _renderStacked(el, seriesList, appState, allData) {
       traces.push({
         x: s.points.map((p) => p.x),
         y: s.points.map((p) => p.y),
-        text: buildHoverText(s.points, s.pivotYear),
+        text: buildHoverText(s.points, s.pivotYear, s.pointDetails),
         type: "scatter",
         mode: "lines",
         name: s.metricLabel,
@@ -461,7 +515,7 @@ function _renderStacked(el, seriesList, appState, allData) {
     plot_bgcolor: "#ffffff",
     font: { family: "-apple-system, 'Inter', system-ui, sans-serif", size: 12 },
     hovermode: "closest",
-    hoverlabel: { bordercolor: "transparent", font: { size: 12 } },
+    hoverlabel: { bordercolor: "transparent", font: { size: 12, color: "rgba(255,255,255,0.95)" } },
     shapes,
     annotations: allAnnotations,
     legend: { orientation: "h", y: -0.06, font: { size: 11 } },
@@ -509,7 +563,7 @@ export function setCountriesMeta(meta) {
 
 // ── Shared layout ──────────────────────────────────────────────────────────────
 
-function _baseLayout(appState) {
+function _baseLayout(appState, rawUnit) {
   const xTitle =
     appState.xMode === "absolute"
       ? "Year"
@@ -517,13 +571,15 @@ function _baseLayout(appState) {
       ? "Years relative to regime change (t=0)"
       : "Years relative to pivot year (t=0)";
 
-  return {
-    margin: { t: 16, r: 16, b: 60, l: 56 },
+  const hasRaw = rawUnit !== undefined && rawUnit !== null;
+
+  const layout = {
+    margin: { t: 16, r: hasRaw ? 72 : 16, b: 60, l: 56 },
     paper_bgcolor: "#ffffff",
     plot_bgcolor: "#ffffff",
     font: { family: "-apple-system, 'Inter', system-ui, sans-serif", size: 12 },
     hovermode: "closest",
-    hoverlabel: { bordercolor: "transparent", font: { size: 12 } },
+    hoverlabel: { bordercolor: "transparent", font: { size: 12, color: "rgba(255,255,255,0.95)" } },
     xaxis: {
       title: { text: xTitle, font: { size: 11 }, standoff: 8 },
       showgrid: true,
@@ -542,6 +598,20 @@ function _baseLayout(appState) {
     shapes: [],
     autosize: true,
   };
+
+  if (hasRaw) {
+    layout.yaxis2 = {
+      title: { text: rawUnit || "Raw value", font: { size: 11 }, standoff: 6 },
+      overlaying: "y",
+      side: "right",
+      showgrid: false,
+      zeroline: false,
+      tickfont: { size: 10 },
+      autorange: true,
+    };
+  }
+
+  return layout;
 }
 
 function _config() {

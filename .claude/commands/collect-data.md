@@ -34,6 +34,29 @@ For each indicator, consult the listed source skill for data sourcing guidance:
 | foreign_military | `source-qualitative` | — |
 | fdi | `source-worldbank` | — |
 | refugee_flows | `source-unhcr` | — |
+| net_migration | `source-iom` | `source-worldbank` |
+| emigration_rate | `source-iom` | — |
+| immigration_rate | `source-iom` | — |
+| remittances | `source-worldbank` | — |
+| brain_drain | `source-oecd-migration` | `source-worldbank` |
+| total_population | `source-worldbank` | — |
+| working_age_population | `source-worldbank` | `source-ilo` |
+| labor_force_participation | `source-ilo` | `source-worldbank` |
+| employment | `source-ilo` | `source-worldbank` |
+| youth_unemployment | `source-worldbank` | `source-ilo` |
+| informal_economy | `source-ilo` | — |
+| political_stability | `source-wgi` | — |
+| government_effectiveness | `source-wgi` | — |
+| control_of_corruption | `source-wgi` | — |
+| military_expenditure | `source-sipri` | `source-worldbank` |
+| natural_resource_rents | `source-worldbank` | — |
+| gini | `source-worldbank` | — |
+| life_expectancy | `source-worldbank` | — |
+| infant_mortality | `source-worldbank` | — |
+| internet_users | `source-worldbank` | — |
+| mobile_subscriptions | `source-worldbank` | — |
+| health_expenditure | `source-worldbank` | — |
+| education_expenditure | `source-worldbank` | — |
 | budget_transparency | `source-openbudget` | — |
 | press_freedom | `source-rsf` | `source-freedomhouse` |
 | statistical_transparency | `source-worldbank` | — |
@@ -46,6 +69,16 @@ Source skill files live at `.claude/skills/source-<name>/SKILL.md`. Each covers:
 
 ## Process
 
+0. **Collect shared base variables first** — before collecting any indicator, populate
+   `data/raw/<country>/shared/base_variables.yaml` for the entire time range with:
+   - `population` (World Bank SP.POP.TOTL)
+   - `gdp_current_usd` (World Bank NY.GDP.MKTP.CD)
+   - `cpi` (World Bank FP.CPI.TOTL)
+   - `working_age_population` (World Bank SP.POP.1564.TO)
+
+   These are denominators for many indicators. Collecting them once avoids redundant lookups.
+   See `source-components` SKILL.md for the `shared/base_variables.yaml` schema.
+
 1. **Read the config files** to understand the indicator definitions and valid features:
    - `data/config/indicators.yaml` — valid features vocabulary, units, descriptions
    - `data/config/scoring_rubrics.yaml` — understand what score ranges the features map to
@@ -54,13 +87,15 @@ Source skill files live at `.claude/skills/source-<name>/SKILL.md`. Each covers:
 2. **For each indicator-year combination**, research and fill in:
    - `data_status`: Set to `complete` if you have solid data, `partial` if incomplete, leave as `missing` if you find nothing
    - `quantitative.value`: The numeric value (GDP per capita in USD, inflation %, conflict deaths count, etc.) — only if you have a concrete number
+   - `quantitative.formula`: The expression that produces the value from its components (e.g., `"(exports_usd + imports_usd) / gdp_current_usd * 100"`). Required for all ratio/derived indicators.
    - `quantitative.source`: Citation, URL (if known), access date
    - `quantitative.reliability`: `high` (official statistics), `medium` (estimates), `low` (rough guesses)
+   - `quantitative.components`: **Required** for all indicators with a formula. See `source-components` SKILL.md for per-indicator component lists, formulas, and roles. For components that are shared base variables (population, GDP, CPI, working_age_population), write `shared_ref: <variable_name>` instead of re-entering the value.
    - `qualitative.assessment`: 2-4 sentence description of the situation that year
    - `qualitative.features`: Pick from the EXACT valid_features list in indicators.yaml — these are the controlled vocabulary tags that drive scoring
    - `qualitative.sources`: At least one source with citation, type, and reliability
    - `qualitative.confidence`: `high`, `medium`, or `low`
-   - `qualitative.notes`: Any caveats or context
+   - `qualitative.notes`: Any caveats or context; include World Bank footnotes if applicable
 
 3. **Edit the existing YAML file** — the file already exists from scaffolding. Only modify the year entries you're filling in. Never touch other years.
 
@@ -83,11 +118,13 @@ For Iraq 2003, territorial_control, the filled entry looks like:
     quantitative:
       value: null
       unit: percent_territory_controlled
+      formula: null                  # null for qualitative/ordinal indicators with no formula
       source:
         citation: null
         url: null
         access_date: null
       reliability: null
+      components: {}                 # empty for qualitative indicators
     qualitative:
       assessment: |
         Following the 2003 invasion, central government controlled
@@ -147,6 +184,128 @@ If a year is genuinely unknowable (e.g., active conflict zone, information black
 - In `qualitative.notes`: explain *why* it's unknowable (e.g., "No reliable data available; conflict destroyed statistical infrastructure")
 - Set `qualitative.confidence: null`
 - Do NOT set `data_status: partial` unless you have at least some data
+
+## Collecting Component Data (Required)
+
+Component data records the underlying inputs for every indicator that has a formula.
+Collect components **during the same pass** as the main value — not as a separate enrichment step.
+See `source-components` SKILL.md for the complete per-indicator component reference, the shared
+variable architecture, and YAML examples.
+
+### Which indicators have components
+
+All quantitative indicators derived via a formula require component collection.
+See `source-components` SKILL.md for the complete per-indicator reference. Summary:
+
+**Existing:** `gdp_per_capita`, `inflation`, `unemployment`, `trade_openness`, `fiscal_health`,
+`fdi`, `refugee_flows`, `political_violence`
+
+**Population mobility (new):** `net_migration`, `emigration_rate`, `immigration_rate`,
+`remittances`, `brain_drain`
+
+**Labor / demographic (new):** `total_population`, `working_age_population`,
+`labor_force_participation`, `employment`, `informal_economy`
+
+**Social / human development (new):** `life_expectancy`, `infant_mortality`, `internet_users`,
+`mobile_subscriptions`, `health_expenditure`, `education_expenditure`, `gini`, `youth_unemployment`
+
+**Economic (new):** `natural_resource_rents` (5 sub-rents), `military_expenditure`
+
+**Governance (new):** `political_stability`, `government_effectiveness`, `control_of_corruption`
+(WGI metadata components)
+
+For guidance on which source to use for each component, read:
+`.claude/skills/source-components/SKILL.md`
+
+### When to collect components
+
+- **Second-pass enrichment**: After completing a primary data collection session, return to
+  filled indicators and add component values for any year where you can source them.
+- **Gap-filling derivation**: If the direct rate/ratio series has a gap for a year, collect
+  numerator and denominator separately, compute the rate manually, enter it as
+  `quantitative.value`, and store the raw components under `quantitative.components`.
+- **Cross-validation**: Collecting components lets you verify the main value is internally
+  consistent (e.g., unemployed/labor_force should approximately equal the unemployment rate).
+
+Do not collect components for indicators not listed in `indicators.yaml`'s `components` section.
+
+### YAML schema for components
+
+Components live under `quantitative.components` in the raw YAML file. Each component has:
+`value`, `unit`, `source` (same structure as the main source block), and `reliability`.
+
+```yaml
+  <year>:
+    data_status: complete
+    quantitative:
+      value: <main_rate_or_ratio>
+      unit: <main_unit>
+      source:
+        citation: "..."
+        url: "..."
+        access_date: "YYYY-MM-DD"
+      reliability: <high|medium|low>
+      components:
+        <component_name>:
+          value: <number>
+          unit: <unit_string>
+          source:
+            citation: "..."
+            url: "..."
+            access_date: "YYYY-MM-DD"
+          reliability: <high|medium|low>
+        <component_name_2>:
+          value: <number>
+          unit: <unit_string>
+          source:
+            citation: "..."
+            url: "..."
+            access_date: "YYYY-MM-DD"
+          reliability: <high|medium|low>
+```
+
+Example for `unemployment` Iraq 2014:
+
+```yaml
+  2014:
+    data_status: complete
+    quantitative:
+      value: 16.0
+      unit: percent_labor_force
+      source:
+        citation: "World Bank WDI, SL.UEM.TOTL.ZS, accessed 2026-03-01"
+        url: "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS"
+        access_date: "2026-03-01"
+      reliability: medium
+      components:
+        unemployed_persons:
+          value: 1350000
+          unit: persons
+          source:
+            citation: "ILO ILOSTAT, UNE_TUNE_SEX_AGE_NB, Iraq, 2014, accessed 2026-03-01"
+            url: "https://ilostat.ilo.org/data/"
+            access_date: "2026-03-01"
+          reliability: medium
+        labor_force:
+          value: 8440000
+          unit: persons
+          source:
+            citation: "World Bank WDI, SL.TLF.TOTL.IN, accessed 2026-03-01"
+            url: "https://data.worldbank.org/indicator/SL.TLF.TOTL.IN"
+            access_date: "2026-03-01"
+          reliability: medium
+```
+
+### Rules for component collection
+
+- **Never invent component values.** Same rule as main values — only enter numbers you can cite.
+- **Components are independent of `data_status`.** Adding components to a year that is already
+  `complete` does not change its `data_status`. Do not downgrade a complete year's status when
+  adding components.
+- **Null is acceptable.** If you can source one component but not the other, enter what you have
+  and leave the other as `null`. Include a note in `qualitative.notes` explaining which component
+  is missing.
+- **Do not add `components` to indicators not in `indicators.yaml`'s `components` section.**
 
 ## After Collection
 

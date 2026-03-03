@@ -73,6 +73,13 @@ def build_combined():
                 if dimension not in result[country][year]:
                     result[country][year][dimension] = {}
                 result[country][year][dimension][indicator] = score
+                # Store metadata for overlay computations
+                if "_meta" not in result[country][year][dimension]:
+                    result[country][year][dimension]["_meta"] = {}
+                result[country][year][dimension]["_meta"][indicator] = {
+                    "st": row["source_type"],   # "qualitative" | "quantitative" | ""
+                    "ds": row["data_status"],   # "complete" | "partial" | "unavailable" | "missing"
+                }
 
     return result
 

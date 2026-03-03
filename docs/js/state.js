@@ -12,7 +12,17 @@
  *   xMode: "absolute",                     // "absolute" | "aligned" | "pivot"
  *   pivots: {"iraq": 2003},                // per-country pivot year (pivot mode)
  *   alignYears: {"afghanistan": 2001},     // per-country chosen alignment year (aligned mode)
- *   range: [1990, 2025],                   // time range [min, max]
+ *   range: [1990, 2026],                   // time range [min, max]
+ *   overlayBands: false,                   // confidence band overlay
+ *   overlayBandsMethod: "quality",         // "quality" | "variance"
+ *   overlayVolatility: false,              // rolling std dev overlay
+ *   overlayVolatilityWindow: 3,            // 3 | 5
+ *   overlayTrend: false,                   // trend indicator overlay
+ *   overlayTrendMethod: "slope",           // "slope" | "mannkendall"
+ *   overlayTrendWindow: 5,                 // years used for regression
+ *   overlaySourceMarkers: false,           // source-change diamond markers
+ *   rawAxis: null,                         // { metricId, component } | null — right y-axis raw series
+ *   tooltipDetail: false,                // show confidence/assessment/raw value in tooltip (indicator metrics only)
  * }
  */
 
@@ -27,6 +37,17 @@ const DEFAULT_STATE = {
   pivots: {},
   alignYears: {},
   range: [1990, 2026],
+  // Overlays (all default OFF)
+  overlayBands: false,
+  overlayBandsMethod: "quality",      // "quality" | "variance"
+  overlayVolatility: false,
+  overlayVolatilityWindow: 3,         // 3 | 5
+  overlayTrend: false,
+  overlayTrendMethod: "slope",        // "slope" | "mannkendall"
+  overlayTrendWindow: 5,              // years used for regression
+  overlaySourceMarkers: false,
+  rawAxis: null,                      // { metricId, component } | null
+  tooltipDetail: false,               // show raw data detail in tooltip (indicator metrics only)
 };
 
 // ── Encode / Decode ────────────────────────────────────────────────────────────
@@ -147,6 +168,16 @@ class AppState {
 
   setCountryOrder(order) {
     this.update({ countryOrder: order });
+  }
+
+  setRawAxis(metricId, component) {
+    const cur = this._state.rawAxis;
+    // Toggle off if same selection clicked again
+    if (cur && cur.metricId === metricId && cur.component === component) {
+      this.update({ rawAxis: null });
+    } else {
+      this.update({ rawAxis: metricId ? { metricId, component } : null });
+    }
   }
 
   selectGroup(countryIds) {
