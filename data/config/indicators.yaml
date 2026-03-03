@@ -284,6 +284,33 @@ economic:
       - "SWIID"
       - "UNDP HDR"
 
+  neet_rate:
+    description: "Youth not in education, employment, or training as % of youth population (lower = better)"
+    unit: percent_youth_population
+    valid_features:
+      - low_lt_15pct
+      - moderate_15_25pct
+      - elevated_25_35pct
+      - high_35_50pct
+      - very_high_gt_50pct
+    primary_sources:
+      - "ILO ILOSTAT (EAP_YNEET_SEX_RT)"
+      - "World Bank SL.UEM.NEET.ZS"
+
+  gini_adjusted_gdp_per_capita:
+    description: "GDP per capita adjusted for inequality: GDP_pc × (1 − Gini/100); combines income level and distribution"
+    unit: usd_inequality_adjusted
+    quantitative_transform: "stored as pre-computed value"
+    valid_features:
+      - above_peak
+      - near_peak_90_100pct
+      - moderate_decline_70_90pct
+      - significant_decline_50_70pct
+      - severe_decline_30_50pct
+      - collapse_below_30pct
+    primary_sources:
+      - "Derived: World Bank NY.GDP.PCAP.CD × (1 − SI.POV.GINI/100)"
+
   fiscal_health:
     description: "Government debt sustainability, budget balance"
     unit: debt_percent_gdp

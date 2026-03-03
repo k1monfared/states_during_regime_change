@@ -21,7 +21,7 @@
  *   overlayTrendMethod: "slope",           // "slope" | "mannkendall"
  *   overlayTrendWindow: 5,                 // years used for regression
  *   overlaySourceMarkers: false,           // source-change diamond markers
- *   rawAxis: null,                         // { metricId, component } | null — right y-axis raw series
+ *   rawAxes: [],                           // metricId[] — right y-axis raw series (one axis per distinct unit)
  *   tooltipDetail: false,                // show confidence/assessment/raw value in tooltip (indicator metrics only)
  * }
  */
@@ -46,7 +46,7 @@ const DEFAULT_STATE = {
   overlayTrendMethod: "slope",        // "slope" | "mannkendall"
   overlayTrendWindow: 5,              // years used for regression
   overlaySourceMarkers: false,
-  rawAxis: null,                      // { metricId, component } | null
+  rawAxes: [],                        // metricId[] — right y-axis raw series (per-unit axes)
   tooltipDetail: false,               // show raw data detail in tooltip (indicator metrics only)
 };
 
@@ -86,12 +86,23 @@ class AppState {
   init() {
     const fromHash = decodeState(window.location.hash);
     if (fromHash) {
-      this._state = { ...DEFAULT_STATE, ...fromHash };
+      const merged = { ...DEFAULT_STATE, ...fromHash };
+      // Backward compat: old state had rawAxis: {metricId, component}
+      if (!merged.rawAxes?.length && merged.rawAxis) {
+        merged.rawAxes = [merged.rawAxis.metricId];
+      }
+      delete merged.rawAxis;
+      this._state = merged;
     }
     window.addEventListener("hashchange", () => {
       const fromHash = decodeState(window.location.hash);
       if (fromHash) {
-        this._state = { ...DEFAULT_STATE, ...fromHash };
+        const merged = { ...DEFAULT_STATE, ...fromHash };
+        if (!merged.rawAxes?.length && merged.rawAxis) {
+          merged.rawAxes = [merged.rawAxis.metricId];
+        }
+        delete merged.rawAxis;
+        this._state = merged;
         this._notify();
       }
     });
@@ -170,14 +181,12 @@ class AppState {
     this.update({ countryOrder: order });
   }
 
-  setRawAxis(metricId, component) {
-    const cur = this._state.rawAxis;
-    // Toggle off if same selection clicked again
-    if (cur && cur.metricId === metricId && cur.component === component) {
-      this.update({ rawAxis: null });
-    } else {
-      this.update({ rawAxis: metricId ? { metricId, component } : null });
-    }
+  toggleRawAxis(metricId) {
+    const rawAxes = [...this._state.rawAxes];
+    const idx = rawAxes.indexOf(metricId);
+    if (idx >= 0) rawAxes.splice(idx, 1);
+    else rawAxes.push(metricId);
+    this.update({ rawAxes });
   }
 
   selectGroup(countryIds) {

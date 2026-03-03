@@ -451,24 +451,26 @@ export function getCachedRaw(countryId) {
 
 /**
  * getAllRawSeries(appState, allData)
- * Returns [{countryId, countryLabel, points, unit}] for the active rawAxis metric.
+ * Returns [{countryId, countryLabel, points, unit, metricId, metricLabel}] for all active
+ * rawAxes metrics across all selected countries.
  * Uses cached raw data — caller must ensure loadCountryRaw() has been called first.
  */
 export function getAllRawSeries(appState, allData) {
-  if (!appState.rawAxis) return [];
-  const { metricId } = appState.rawAxis;
+  if (!appState.rawAxes?.length) return [];
   const { countries } = allData;
   const result = [];
-  for (const countryId of appState.countryOrder) {
-    if (!appState.countries.includes(countryId)) continue;
-    const rawCountryData = _cache.raw[countryId] ?? null;
-    if (!rawCountryData) continue;
-    const { points, unit } = getRawSeries(countryId, metricId, appState, allData, rawCountryData);
-    if (points.length === 0) continue;
-    const displayName = countries[countryId]?.display_name ?? countryId;
-    const indEntry = allData.indicators?.find((i) => i.id === metricId);
-    const metricLabel = indEntry?.label ?? metricId;
-    result.push({ countryId, countryLabel: displayName, points, unit, metricId, metricLabel });
+  for (const metricId of appState.rawAxes) {
+    for (const countryId of appState.countryOrder) {
+      if (!appState.countries.includes(countryId)) continue;
+      const rawCountryData = _cache.raw[countryId] ?? null;
+      if (!rawCountryData) continue;
+      const { points, unit } = getRawSeries(countryId, metricId, appState, allData, rawCountryData);
+      if (points.length === 0) continue;
+      const displayName = countries[countryId]?.display_name ?? countryId;
+      const indEntry = allData.indicators?.find((i) => i.id === metricId);
+      const metricLabel = indEntry?.label ?? metricId;
+      result.push({ countryId, countryLabel: displayName, points, unit, metricId, metricLabel });
+    }
   }
   return result;
 }

@@ -51,6 +51,30 @@
     "unit": "qualitative_scale"
   },
   {
+    "id": "political/military_expenditure",
+    "label": "Military Expenditure",
+    "type": "indicator",
+    "dimension": "political",
+    "description": "Military spending as a share of GDP (higher spending = lower state health score)",
+    "unit": "percent_gdp"
+  },
+  {
+    "id": "political/political_stability",
+    "label": "Political Stability",
+    "type": "indicator",
+    "dimension": "political",
+    "description": "Perceptions of likelihood of political instability and politically motivated violence (WGI PV.EST; higher = more stable)",
+    "unit": "wgi_estimate_minus3_to_plus3"
+  },
+  {
+    "id": "political/government_effectiveness",
+    "label": "Gov't Effectiveness",
+    "type": "indicator",
+    "dimension": "political",
+    "description": "Perceptions of quality of public services, civil service, and policy formulation (WGI GE.EST; higher = better)",
+    "unit": "wgi_estimate_minus3_to_plus3"
+  },
+  {
     "id": "economic",
     "label": "Economic",
     "type": "dimension",
@@ -87,6 +111,30 @@
     "dimension": "economic",
     "description": "Economic integration with world ((Exports + Imports) / GDP)",
     "unit": "percent_gdp"
+  },
+  {
+    "id": "economic/natural_resource_rents",
+    "label": "Resource Rents",
+    "type": "indicator",
+    "dimension": "economic",
+    "description": "Total natural resource rents as % of GDP (resource-curse framing: high rents = structural vulnerability)",
+    "unit": "percent_gdp"
+  },
+  {
+    "id": "economic/youth_unemployment",
+    "label": "Youth Unemployment",
+    "type": "indicator",
+    "dimension": "economic",
+    "description": "Unemployment rate among 15-24 year olds (% of youth labor force)",
+    "unit": "percent_youth_labor_force"
+  },
+  {
+    "id": "economic/gini",
+    "label": "Inequality (Gini)",
+    "type": "indicator",
+    "dimension": "economic",
+    "description": "Gini coefficient measuring income inequality (0 = perfect equality, 100 = perfect inequality)",
+    "unit": "gini_0_to_100"
   },
   {
     "id": "economic/fiscal_health",
@@ -187,5 +235,81 @@
     "dimension": "transparency",
     "description": "For oil/gas states, are revenues from natural resources disclosed?",
     "unit": "eiti_compliance_scale"
+  },
+  {
+    "id": "transparency/control_of_corruption",
+    "label": "Control of Corruption",
+    "type": "indicator",
+    "dimension": "transparency",
+    "description": "Perceptions of the extent to which public power is exercised for private gain (WGI CC.EST; higher = less corrupt = better)",
+    "unit": "wgi_estimate_minus3_to_plus3"
+  },
+  {
+    "id": "population_mobility",
+    "label": "Population Mobility",
+    "type": "dimension",
+    "dimension": "population_mobility"
+  },
+  {
+    "id": "population_mobility/net_migration",
+    "label": "Net Migration",
+    "type": "indicator",
+    "dimension": "population_mobility",
+    "description": "Net migration rate per 1,000 population per year (positive = inflow, negative = outflow)",
+    "unit": "per_1000_per_year"
+  },
+  {
+    "id": "population_mobility/remittances",
+    "label": "Remittances",
+    "type": "indicator",
+    "dimension": "population_mobility",
+    "description": "Personal remittances received as % of GDP (supplementary economic resilience indicator)",
+    "unit": "percent_gdp"
+  },
+  {
+    "id": "social",
+    "label": "Social & Human Dev.",
+    "type": "dimension",
+    "dimension": "social"
+  },
+  {
+    "id": "social/life_expectancy",
+    "label": "Life Expectancy",
+    "type": "indicator",
+    "dimension": "social",
+    "description": "Life expectancy at birth in years (higher = better)",
+    "unit": "years"
+  },
+  {
+    "id": "social/infant_mortality",
+    "label": "Infant Mortality",
+    "type": "indicator",
+    "dimension": "social",
+    "description": "Infant mortality rate per 1,000 live births (lower = better)",
+    "unit": "per_1000_live_births"
+  },
+  {
+    "id": "social/internet_users",
+    "label": "Internet Users",
+    "type": "indicator",
+    "dimension": "social",
+    "description": "Individuals using the Internet as % of population (higher = better)",
+    "unit": "percent_population"
+  },
+  {
+    "id": "social/health_expenditure",
+    "label": "Health Expenditure",
+    "type": "indicator",
+    "dimension": "social",
+    "description": "Current health expenditure as % of GDP (higher = better)",
+    "unit": "percent_gdp"
+  },
+  {
+    "id": "social/education_expenditure",
+    "label": "Education Expenditure",
+    "type": "indicator",
+    "dimension": "social",
+    "description": "Government expenditure on education as % of GDP (higher = better)",
+    "unit": "percent_gdp"
   }
 ]

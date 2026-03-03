@@ -139,12 +139,14 @@ def build_countries(combined):
 
 # ── 3. indicators.json ─────────────────────────────────────────────────────────
 
-DIMENSION_ORDER = ["political", "economic", "international", "transparency"]
+DIMENSION_ORDER = ["political", "economic", "international", "transparency", "population_mobility", "social"]
 DIMENSION_LABELS = {
     "political": "Political",
     "economic": "Economic",
     "international": "International",
     "transparency": "Transparency",
+    "population_mobility": "Population Mobility",
+    "social": "Social & Human Dev.",
 }
 INDICATOR_LABELS = {
     "territorial_control": "Territorial Control",
@@ -152,11 +154,19 @@ INDICATOR_LABELS = {
     "institutional_functioning": "Institutional Functioning",
     "civil_liberties": "Civil Liberties",
     "elite_cohesion": "Elite Cohesion",
+    "military_expenditure": "Military Expenditure",
+    "political_stability": "Political Stability",
+    "government_effectiveness": "Gov't Effectiveness",
     "gdp_per_capita": "GDP per Capita",
     "inflation": "Inflation",
     "unemployment": "Unemployment",
     "trade_openness": "Trade Openness",
     "fiscal_health": "Fiscal Health",
+    "natural_resource_rents": "Resource Rents",
+    "youth_unemployment": "Youth Unemployment",
+    "gini": "Inequality (Gini)",
+    "neet_rate": "NEET Rate",
+    "gini_adjusted_gdp_per_capita": "Adj. GDP/Capita (Gini)",
     "sanctions": "Sanctions",
     "diplomatic_integration": "Diplomatic Integration",
     "foreign_military": "Foreign Military",
@@ -167,6 +177,14 @@ INDICATOR_LABELS = {
     "statistical_transparency": "Statistical Transparency",
     "legal_transparency": "Legal Transparency",
     "extractive_transparency": "Extractive Transparency",
+    "control_of_corruption": "Control of Corruption",
+    "net_migration": "Net Migration",
+    "remittances": "Remittances",
+    "life_expectancy": "Life Expectancy",
+    "infant_mortality": "Infant Mortality",
+    "internet_users": "Internet Users",
+    "health_expenditure": "Health Expenditure",
+    "education_expenditure": "Education Expenditure",
 }
 
 

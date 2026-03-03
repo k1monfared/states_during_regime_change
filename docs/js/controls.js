@@ -77,7 +77,8 @@ function _methodologyAnchor(ind) {
 }
 
 function _buildVarNames() {
-  const scores = ["composite", "political", "economic", "international", "transparency"];
+  const scores = ["composite", "political", "economic", "international", "transparency",
+                   "population_mobility", "social"];
   const rawVars = [];
   for (const ind of _allData.indicators) {
     if (ind.type === "indicator") {
@@ -447,6 +448,10 @@ function _renderMetricList() {
     { id: "economic",      label: "Economic",      filter: (ind) => ind.id === "economic" || ind.id.startsWith("economic/") },
     { id: "international", label: "International", filter: (ind) => ind.id === "international" || ind.id.startsWith("international/") },
     { id: "transparency",  label: "Transparency",  filter: (ind) => ind.id === "transparency" || ind.id.startsWith("transparency/") },
+    { id: "population_mobility", label: "Population Mobility",
+      filter: (ind) => ind.id === "population_mobility" || ind.id.startsWith("population_mobility/") },
+    { id: "social", label: "Social & Human Dev.",
+      filter: (ind) => ind.id === "social" || ind.id.startsWith("social/") },
   ];
 
   for (const grp of groupDefs) {
@@ -486,7 +491,7 @@ function _renderMetricList() {
           ${hasRaw ? `
           <div class="metric-fold-body" data-fold-id="${ind.id}" ${foldOpen ? "" : "hidden"}>
             <label class="metric-fold-row">
-              <input type="radio" name="raw-axis" class="metric-fold-radio" data-metric="${ind.id}">
+              <input type="checkbox" class="metric-fold-radio" data-metric="${ind.id}">
               <span>${ind.id}</span>
             </label>
           </div>` : ""}
@@ -509,15 +514,9 @@ function _renderMetricList() {
           });
 
           const radio = li.querySelector(".metric-fold-radio");
-          radio.checked = s.rawAxis?.metricId === ind.id;
-          radio.addEventListener("click", (e) => {
-            e.preventDefault();
-            const cur = state.get();
-            if (cur.rawAxis?.metricId === ind.id) {
-              state.update({ rawAxis: null });
-            } else {
-              state.setRawAxis(ind.id, "raw_value");
-            }
+          radio.checked = s.rawAxes?.includes(ind.id) ?? false;
+          radio.addEventListener("change", () => {
+            state.toggleRawAxis(ind.id);
           });
         }
       } else {
@@ -565,9 +564,9 @@ function _renderMetricList() {
       const indicator = cb.closest(".metric-item")?.querySelector(".metric-dash-indicator");
       if (indicator) indicator.innerHTML = _dashSvg(dash, checked);
     });
-    // Sync raw axis radio states
+    // Sync raw axis checkbox states
     ul.querySelectorAll(".metric-fold-radio[data-metric]").forEach((radio) => {
-      radio.checked = s.rawAxis?.metricId === radio.dataset.metric;
+      radio.checked = s.rawAxes?.includes(radio.dataset.metric) ?? false;
     });
     _syncCustomMetricCheckboxes(s);
   });

@@ -26,7 +26,6 @@ const COUNTRY_COLORS = [
 const METRIC_DASH = ["solid", "dash", "dot", "dashdot", "longdash"];
 
 let _colorMap = {}; // countryId → color index
-let _dashMap = {}; // metricId → dash index
 
 function getColor(id, map) {
   if (!(id in map)) {
@@ -36,12 +35,12 @@ function getColor(id, map) {
   return COUNTRY_COLORS[map[id]];
 }
 
-function getDash(id) {
-  if (!(id in _dashMap)) {
-    const idx = Object.keys(_dashMap).length % METRIC_DASH.length;
-    _dashMap[id] = idx;
-  }
-  return METRIC_DASH[_dashMap[id]];
+// Derive dash from the metric's current position in the metrics array.
+// This mirrors controls.js so the sidebar and chart always agree,
+// and avoids stale assignments when metrics are added/removed.
+function getMetricDash(metricId, metricsOrder) {
+  const idx = metricsOrder.indexOf(metricId);
+  return METRIC_DASH[idx >= 0 ? idx % METRIC_DASH.length : 0];
 }
 
 // ── Build Plotly traces & layout ───────────────────────────────────────────────
@@ -317,7 +316,7 @@ function _renderOverlay(el, seriesList, rawSeriesList, appState, allData) {
         legendTraces.push({
           x: [], y: [], type: "scatter", mode: "lines",
           name: s.metricLabel,
-          line: { color: "#888", dash: getDash(s.metricId), width: 2 },
+          line: { color: "#888", dash: getMetricDash(s.metricId, appState.metrics), width: 2 },
           showlegend: true,
           hoverinfo: "skip",
         });
@@ -327,7 +326,7 @@ function _renderOverlay(el, seriesList, rawSeriesList, appState, allData) {
 
   for (const s of seriesList) {
     const color = getColor(s.countryId, _colorMap);
-    const dash = multiMetric ? getDash(s.metricId) : "solid";
+    const dash = multiMetric ? getMetricDash(s.metricId, appState.metrics) : "solid";
 
     let name;
     if (multiMetric && multiCountry) {
@@ -408,17 +407,29 @@ function _renderOverlay(el, seriesList, rawSeriesList, appState, allData) {
     }
   }
 
-  // Raw axis traces (right y-axis, overlay mode only)
+  // Raw axis traces (right y-axes, overlay mode only) — group by unit
   const rawTraces = [];
-  let rawUnit = "";
-  let rawMetricLabel = "";
-  if (rawSeriesList.length > 0) {
-    rawUnit = rawSeriesList[0]?.unit ?? "";
-    rawMetricLabel = rawSeriesList[0]?.metricLabel ?? rawSeriesList[0]?.metricId ?? "";
-    for (const rs of rawSeriesList) {
+  const rawByUnit = new Map(); // unit → [rs, ...]
+  for (const rs of rawSeriesList) {
+    const unit = rs.unit ?? "";
+    if (!rawByUnit.has(unit)) rawByUnit.set(unit, []);
+    rawByUnit.get(unit).push(rs);
+  }
+
+  // Assign yaxis key per unit group (y2, y3, y4...)
+  const unitAxisMap = new Map(); // unit → "y2"|"y3"|...
+  let axisIdx = 2;
+  for (const unit of rawByUnit.keys()) {
+    unitAxisMap.set(unit, `y${axisIdx}`);
+    axisIdx++;
+  }
+
+  for (const [unit, seriesList_] of rawByUnit) {
+    const yaxisKey = unitAxisMap.get(unit);
+    for (const rs of seriesList_) {
       const color = getColor(rs.countryId, _colorMap);
       const rawLabel = rs.metricLabel ?? rs.metricId;
-      const unitStr = rawUnit ? ` (${rawUnit.replace(/_/g, " ")})` : "";
+      const unitStr = unit ? ` (${unit.replace(/_/g, " ")})` : "";
       rawTraces.push({
         x: rs.points.map((p) => p.x),
         y: rs.points.map((p) => p.y),
@@ -428,13 +439,13 @@ function _renderOverlay(el, seriesList, rawSeriesList, appState, allData) {
         name: `${rs.countryLabel} — ${rawLabel} (raw)`,
         showlegend: true,
         line: { color, dash: "dot", width: 1.5 },
-        yaxis: "y2",
+        yaxis: yaxisKey,
         hovertemplate: `<b>${_htesc(rs.countryLabel)}</b><br>${_htesc(rawLabel)} (raw): %{y:.4g}${unitStr ? " " + _htesc(unitStr) : ""}<br>%{text}<extra></extra>`,
       });
     }
   }
 
-  const layout = _baseLayout(appState, rawUnit, rawMetricLabel);
+  const layout = _baseLayout(appState, unitAxisMap);
   layout.shapes = shapes;
   layout.legend = { orientation: "h", y: -0.12, font: { size: 11 } };
   layout.annotations = _buildTrendAnnotations(seriesList, appState);
@@ -488,7 +499,7 @@ function _renderStacked(el, seriesList, appState, allData) {
 
     for (const s of countrySeries) {
       const color = metricColorMap[s.metricId] ?? COUNTRY_COLORS[0];
-      const dash = appState.metrics.length > 1 ? getDash(s.metricId) : "solid";
+      const dash = appState.metrics.length > 1 ? getMetricDash(s.metricId, appState.metrics) : "solid";
 
       // Overlay traces for this row (behind main line)
       const rowOverlays = _buildOverlayTraces(s, appState, allData, { xAxis, yAxis, color });
@@ -593,7 +604,7 @@ export function setCountriesMeta(meta) {
 
 // ── Shared layout ──────────────────────────────────────────────────────────────
 
-function _baseLayout(appState, rawUnit, rawMetricLabel = "") {
+function _baseLayout(appState, unitAxisMap = new Map()) {
   const xTitle =
     appState.xMode === "absolute"
       ? "Year"
@@ -601,10 +612,10 @@ function _baseLayout(appState, rawUnit, rawMetricLabel = "") {
       ? "Years relative to regime change (t=0)"
       : "Years relative to pivot year (t=0)";
 
-  const hasRaw = rawUnit !== undefined && rawUnit !== null;
+  const numExtraAxes = unitAxisMap.size;
 
   const layout = {
-    margin: { t: 16, r: hasRaw ? 72 : 16, b: 60, l: 56 },
+    margin: { t: 16, r: 16 + numExtraAxes * 60, b: 60, l: 56 },
     paper_bgcolor: "#ffffff",
     plot_bgcolor: "#ffffff",
     font: { family: "-apple-system, 'Inter', system-ui, sans-serif", size: 12 },
@@ -616,6 +627,8 @@ function _baseLayout(appState, rawUnit, rawMetricLabel = "") {
       gridcolor: "#f0f0f0",
       zeroline: false,
       tickfont: { size: 10 },
+      // Shrink domain to make room for stacked right axes when there are multiple
+      domain: numExtraAxes > 1 ? [0, Math.max(0.5, 1 - numExtraAxes * 0.10)] : [0, 1],
     },
     yaxis: {
       title: { text: "Score (0–100)", font: { size: 11 }, standoff: 6 },
@@ -629,19 +642,24 @@ function _baseLayout(appState, rawUnit, rawMetricLabel = "") {
     autosize: true,
   };
 
-  if (hasRaw) {
-    const y2Title = rawMetricLabel
-      ? `${rawMetricLabel}${rawUnit ? ` (${rawUnit.replace(/_/g, " ")})` : ""}`
-      : rawUnit || "Raw value";
-    layout.yaxis2 = {
-      title: { text: y2Title, font: { size: 11 }, standoff: 6 },
+  // Add one right y-axis per unit group
+  let axisPos = 1.0;
+  const axisStep = numExtraAxes > 1 ? 0.10 : 0.0;
+  for (const [unit, axisKey] of unitAxisMap) {
+    const axisNum = axisKey.slice(1); // "2" | "3" | ...
+    const unitLabel = unit ? unit.replace(/_/g, " ") : "Raw value";
+    layout[`yaxis${axisNum}`] = {
+      title: { text: unitLabel, font: { size: 11 }, standoff: 6 },
       overlaying: "y",
       side: "right",
+      anchor: "free",
+      position: axisPos,
       showgrid: false,
       zeroline: false,
       tickfont: { size: 10 },
       autorange: true,
     };
+    axisPos += axisStep;
   }
 
   return layout;
@@ -656,8 +674,7 @@ function _config() {
   };
 }
 
-// ── Reset color/dash maps (call when state changes significantly) ───────────────
+// ── Reset color map (call when state changes significantly) ────────────────────
 export function resetColorMap() {
   _colorMap = {};
-  _dashMap = {};
 }

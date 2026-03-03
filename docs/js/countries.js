@@ -226,7 +226,7 @@ async function selectCountry(id) {
           if (def.numerator) defBlock += `<div class="ind-def-row"><span class="ind-def-label">Numerator</span><span class="ind-def-value">${_esc(def.numerator)}</span></div>`;
           if (def.denominator) defBlock += `<div class="ind-def-row"><span class="ind-def-label">Denominator</span><span class="ind-def-value">${_esc(def.denominator)}</span></div>`;
           if (def.native_unit) defBlock += `<div class="ind-def-row"><span class="ind-def-label">Native unit</span><span class="ind-def-value">${_esc(def.native_unit)}</span></div>`;
-          if (transform) defBlock += `<div class="ind-def-row"><span class="ind-def-label">Transform</span><span class="ind-def-value">${_esc(transform)}</span></div>`;
+          if (transform) defBlock += `<div class="ind-def-row"><span class="ind-def-label">Transform</span><span class="ind-def-value">${_formatTransform(transform)}</span></div>`;
           if (coverageStr) defBlock += `<div class="ind-def-row"><span class="ind-def-label">Coverage</span><span class="ind-def-value">${_esc(coverageStr)}</span></div>`;
           if (breakText) defBlock += `<div class="methodology-break-notice">${_esc(breakText)}</div>`;
           if (caveats.length) {
@@ -364,4 +364,106 @@ function _esc(str) {
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
+}
+
+/**
+ * _scoreRangeBadge(text)
+ * Returns HTML for a score range like "90–100" with color, or plain escaped text.
+ */
+function _scoreRangeBadge(text) {
+  const clean = text.trim();
+  // Match leading "NN–NN" (en-dash or regular hyphen)
+  const match = clean.match(/^(\d+)[–\-](\d+)(.*)$/);
+  if (!match) return `<span class="tc-score-other">${_esc(clean)}</span>`;
+
+  const lo = parseInt(match[1], 10);
+  const range = `${match[1]}–${match[2]}`;
+  const rest = match[3].trim();
+
+  const cls = lo >= 80 ? "sr-high"
+    : lo >= 60 ? "sr-med-high"
+    : lo >= 40 ? "sr-mid"
+    : lo >= 20 ? "sr-med-low"
+    : "sr-low";
+
+  return `<span class="tc-score-range ${cls}">${_esc(range)}</span>${rest ? ` <span class="tc-score-note">${_esc(rest)}</span>` : ""}`;
+}
+
+/**
+ * _formatTransform(raw)
+ * Parses structured transform text into a readable mini-table.
+ * Handles: "Description: cond → score; cond → score. Notes."
+ * and plain formulas/text.
+ */
+function _formatTransform(raw) {
+  if (!raw) return "";
+  const text = raw.trim();
+  if (!text) return "";
+
+  // No arrow → just plain text (formula or description)
+  if (!text.includes("→")) {
+    return `<span class="transform-plain">${_esc(text)}</span>`;
+  }
+
+  // Extract optional preamble before ": " that precedes the first rule
+  let preamble = "";
+  let rulesText = text;
+  const colonIdx = text.indexOf(": ");
+  const firstArrowIdx = text.indexOf("→");
+  if (colonIdx > 0 && colonIdx < firstArrowIdx) {
+    preamble = text.slice(0, colonIdx);
+    rulesText = text.slice(colonIdx + 2);
+  }
+
+  // Split rules by semicolon
+  const parts = rulesText.split(/;\s*/);
+  const rows = [];
+  const trailingNotes = [];
+
+  for (const part of parts) {
+    const p = part.trim();
+    if (!p) continue;
+
+    const arrowIdx = p.indexOf("→");
+    if (arrowIdx < 0) {
+      // No arrow — trailing note (strip leading period)
+      const note = p.replace(/^\.\s*/, "").trim();
+      if (note) trailingNotes.push(note);
+      continue;
+    }
+
+    const condition = p.slice(0, arrowIdx).trim().replace(/_/g, " ");
+    let scoreText = p.slice(arrowIdx + 1).trim();
+
+    // Detect embedded trailing note: "0–9. Modifiers: ..."
+    const dotNote = scoreText.match(/^(\d+[–\-]\d+)\.\s+(.+)$/);
+    if (dotNote) {
+      scoreText = dotNote[1];
+      trailingNotes.push(dotNote[2]);
+    } else {
+      // Strip trailing period (end of sentence)
+      scoreText = scoreText.replace(/\.\s*$/, "").trim();
+    }
+
+    rows.push({ condition, scoreText });
+  }
+
+  if (rows.length === 0) {
+    return `<span class="transform-plain">${_esc(text)}</span>`;
+  }
+
+  let html = '<div class="transform-block">';
+  if (preamble) {
+    html += `<div class="transform-preamble">${_esc(preamble)}</div>`;
+  }
+  html += '<table class="transform-table">';
+  for (const { condition, scoreText } of rows) {
+    html += `<tr><td class="tc-cond">${_esc(condition)}</td><td class="tc-arrow">→</td><td class="tc-score">${_scoreRangeBadge(scoreText)}</td></tr>`;
+  }
+  html += "</table>";
+  if (trailingNotes.length > 0) {
+    html += `<div class="transform-notes">${trailingNotes.map(_esc).join(" &middot; ")}</div>`;
+  }
+  html += "</div>";
+  return html;
 }

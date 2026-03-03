@@ -387,7 +387,7 @@ def compute_series_peaks(country_id, rubrics, aggregation, raw_dir):
     Only populates entries where input_transform == "percent_of_peak" and data exists.
     """
     peaks = {}
-    for dimension in ["political", "economic", "international", "transparency"]:
+    for dimension in aggregation["dimensions"].keys():
         dim_rubrics = rubrics.get(dimension, {})
         dim_agg = aggregation["dimensions"].get(dimension, {})
         for indicator in dim_agg.get("sub_indicators", []):
@@ -434,7 +434,7 @@ def process_country(country_id, country_config, configs, raw_dir, verbose=False)
     for year in range(start_year, end_year + 1):
         dimension_scores = {}
 
-        for dimension in ["political", "economic", "international", "transparency"]:
+        for dimension in aggregation["dimensions"].keys():
             dim_rubrics = rubrics.get(dimension, {})
             dim_agg = aggregation["dimensions"].get(dimension, {})
             indicator_scores = {}

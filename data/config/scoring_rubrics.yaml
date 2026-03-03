@@ -195,6 +195,136 @@ political:
       multi_feature_rule: minimum
     combination_rule: qualitative_only
 
+  military_expenditure:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # % GDP; higher spend = lower score (inverted)
+      thresholds:
+        - score_range: [90, 100]
+          condition: "< 1"
+        - score_range: [70, 89]
+          condition: "< 2"
+        - score_range: [50, 69]
+          condition: "< 4"
+        - score_range: [30, 49]
+          condition: "< 7"
+        - score_range: [10, 29]
+          condition: "< 15"
+        - score_range: [0, 9]
+          condition: ">= 15"
+    qualitative_scoring:
+      features:
+        minimal_military_spending_lt_1pct:
+          score_range: [90, 100]
+          default_score: 95
+        low_1_2pct:
+          score_range: [70, 89]
+          default_score: 80
+        low_(1-2%):
+          score_range: [70, 89]
+          default_score: 80
+        moderate_2_4pct:
+          score_range: [50, 69]
+          default_score: 60
+        moderate_(2-4%):
+          score_range: [50, 69]
+          default_score: 60
+        elevated_4_7pct:
+          score_range: [30, 49]
+          default_score: 40
+        elevated_(4-7%):
+          score_range: [30, 49]
+          default_score: 40
+        high_7_15pct:
+          score_range: [10, 29]
+          default_score: 20
+        high_(7-15%):
+          score_range: [10, 29]
+          default_score: 20
+        war_economy_gt_15pct:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  political_stability:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # WGI PV.EST: higher = more stable
+      thresholds:
+        - score_range: [90, 100]
+          condition: ">= 1.5"
+        - score_range: [75, 89]
+          condition: ">= 0.5"
+        - score_range: [55, 74]
+          condition: ">= -0.5"
+        - score_range: [35, 54]
+          condition: ">= -1.5"
+        - score_range: [15, 34]
+          condition: ">= -2.0"
+        - score_range: [0, 14]
+          condition: "< -2.0"
+    qualitative_scoring:
+      features:
+        very_stable:
+          score_range: [90, 100]
+          default_score: 95
+        stable:
+          score_range: [75, 89]
+          default_score: 82
+        mild_instability:
+          score_range: [55, 74]
+          default_score: 65
+        significant_instability:
+          score_range: [35, 54]
+          default_score: 45
+        high_instability:
+          score_range: [15, 34]
+          default_score: 25
+        extreme_instability_conflict:
+          score_range: [0, 14]
+          default_score: 7
+      multi_feature_rule: minimum
+    combination_rule: qualitative_preferred
+
+  government_effectiveness:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # WGI GE.EST: higher = better
+      thresholds:
+        - score_range: [85, 100]
+          condition: ">= 1.5"
+        - score_range: [70, 84]
+          condition: ">= 0.5"
+        - score_range: [50, 69]
+          condition: ">= -0.5"
+        - score_range: [25, 49]
+          condition: ">= -1.5"
+        - score_range: [0, 24]
+          condition: "< -1.5"
+    qualitative_scoring:
+      features:
+        very_effective:
+          score_range: [85, 100]
+          default_score: 92
+        effective:
+          score_range: [70, 84]
+          default_score: 77
+        partially_effective:
+          score_range: [50, 69]
+          default_score: 60
+        low_effectiveness:
+          score_range: [25, 49]
+          default_score: 37
+        ineffective_or_captured:
+          score_range: [0, 24]
+          default_score: 12
+      multi_feature_rule: minimum
+    combination_rule: qualitative_preferred
+
 economic:
   gdp_per_capita:
     quantitative_scoring:
@@ -396,6 +526,209 @@ economic:
           score_range: [10, 29]
           default_score: 20
         fiscal_collapse:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  natural_resource_rents:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # % GDP; higher rents = lower score (resource-curse framing)
+      thresholds:
+        - score_range: [70, 84]
+          condition: "< 5"
+        - score_range: [50, 64]
+          condition: "< 15"
+        - score_range: [30, 49]
+          condition: "< 30"
+        - score_range: [15, 29]
+          condition: "< 50"
+        - score_range: [5, 14]
+          condition: "< 65"
+        - score_range: [0, 9]
+          condition: ">= 65"
+    qualitative_scoring:
+      features:
+        minimal_lt_5pct:
+          score_range: [70, 84]
+          default_score: 77
+        low_lt_10pct:
+          score_range: [60, 74]
+          default_score: 67
+        moderate_5_15pct:
+          score_range: [50, 64]
+          default_score: 57
+        moderate_(5-15%):
+          score_range: [50, 64]
+          default_score: 57
+        moderate_10_20pct:
+          score_range: [50, 64]
+          default_score: 57
+        significant_15_30pct:
+          score_range: [30, 49]
+          default_score: 40
+        significant_(15-30%):
+          score_range: [30, 49]
+          default_score: 40
+        high_20_40pct:
+          score_range: [15, 29]
+          default_score: 22
+        high_(30-50%):
+          score_range: [15, 29]
+          default_score: 22
+        high_30_50pct:
+          score_range: [15, 29]
+          default_score: 22
+        very_high_40_60pct:
+          score_range: [5, 14]
+          default_score: 10
+        extremely_high_gt_60pct:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  youth_unemployment:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # % youth labor force; lower = better
+      thresholds:
+        - score_range: [80, 100]
+          condition: "< 10"
+        - score_range: [55, 79]
+          condition: "< 20"
+        - score_range: [30, 54]
+          condition: "< 30"
+        - score_range: [10, 29]
+          condition: "< 40"
+        - score_range: [0, 9]
+          condition: ">= 40"
+    qualitative_scoring:
+      features:
+        low_lt_10pct:
+          score_range: [80, 100]
+          default_score: 90
+        moderate_10_20pct:
+          score_range: [55, 79]
+          default_score: 67
+        elevated_20_30pct:
+          score_range: [30, 54]
+          default_score: 42
+        high_30_40pct:
+          score_range: [10, 29]
+          default_score: 20
+        very_high_gt_40pct:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  gini:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # 0-100 scale; lower inequality = better
+      thresholds:
+        - score_range: [75, 100]
+          condition: "< 30"
+        - score_range: [50, 74]
+          condition: "< 40"
+        - score_range: [25, 49]
+          condition: "< 50"
+        - score_range: [0, 24]
+          condition: ">= 50"
+    qualitative_scoring:
+      features:
+        low_lt_30:
+          score_range: [75, 100]
+          default_score: 87
+        moderate_30_40:
+          score_range: [50, 74]
+          default_score: 62
+        elevated_40_50:
+          score_range: [25, 49]
+          default_score: 37
+        high_gt_50:
+          score_range: [0, 24]
+          default_score: 12
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  neet_rate:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # % youth population; lower = better
+      thresholds:
+        - score_range: [80, 100]
+          condition: "< 15"
+        - score_range: [55, 79]
+          condition: "< 25"
+        - score_range: [30, 54]
+          condition: "< 35"
+        - score_range: [10, 29]
+          condition: "< 50"
+        - score_range: [0, 9]
+          condition: ">= 50"
+    qualitative_scoring:
+      features:
+        low_lt_15pct:
+          score_range: [80, 100]
+          default_score: 90
+        moderate_15_25pct:
+          score_range: [55, 79]
+          default_score: 67
+        elevated_25_35pct:
+          score_range: [30, 54]
+          default_score: 42
+        high_35_50pct:
+          score_range: [10, 29]
+          default_score: 20
+        very_high_gt_50pct:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  gini_adjusted_gdp_per_capita:
+    quantitative_scoring:
+      type: threshold
+      input_transform: "percent_of_peak"
+      # Pre-computed: GDP_pc × (1 − Gini/100); scored as percent of series peak
+      thresholds:
+        - score_range: [90, 100]
+          condition: ">= 95"
+        - score_range: [70, 89]
+          condition: ">= 80"
+        - score_range: [50, 69]
+          condition: ">= 60"
+        - score_range: [30, 49]
+          condition: ">= 40"
+        - score_range: [10, 29]
+          condition: ">= 20"
+        - score_range: [0, 9]
+          condition: "< 20"
+    qualitative_scoring:
+      features:
+        above_peak:
+          score_range: [90, 100]
+          default_score: 95
+        near_peak_90_100pct:
+          score_range: [70, 89]
+          default_score: 85
+        moderate_decline_70_90pct:
+          score_range: [50, 69]
+          default_score: 65
+        significant_decline_50_70pct:
+          score_range: [30, 49]
+          default_score: 45
+        severe_decline_30_50pct:
+          score_range: [10, 29]
+          default_score: 25
+        collapse_below_30pct:
           score_range: [0, 9]
           default_score: 5
       multi_feature_rule: minimum
@@ -752,3 +1085,292 @@ transparency:
           default_score: 5
       multi_feature_rule: minimum
     combination_rule: qualitative_only
+
+  control_of_corruption:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # WGI CC.EST: higher = less corrupt = better
+      thresholds:
+        - score_range: [90, 100]
+          condition: ">= 1.5"
+        - score_range: [70, 89]
+          condition: ">= 0.5"
+        - score_range: [50, 69]
+          condition: ">= -0.5"
+        - score_range: [30, 49]
+          condition: ">= -1.5"
+        - score_range: [15, 29]
+          condition: ">= -2.0"
+        - score_range: [0, 14]
+          condition: "< -2.0"
+    qualitative_scoring:
+      features:
+        minimal_corruption:
+          score_range: [90, 100]
+          default_score: 95
+        low_corruption:
+          score_range: [70, 89]
+          default_score: 80
+        moderate_corruption:
+          score_range: [50, 69]
+          default_score: 60
+        elevated_corruption:
+          score_range: [30, 49]
+          default_score: 40
+        high_corruption:
+          score_range: [15, 29]
+          default_score: 22
+        pervasive_corruption:
+          score_range: [0, 14]
+          default_score: 7
+      multi_feature_rule: minimum
+    combination_rule: qualitative_preferred
+
+population_mobility:
+  net_migration:
+    quantitative_scoring:
+      type: none
+      # Qualitative-only; rate data unreliable cross-country
+    qualitative_scoring:
+      features:
+        strong_net_inflow:
+          score_range: [80, 100]
+          default_score: 90
+        strong_net_inflow_(>+5):
+          score_range: [80, 100]
+          default_score: 90
+        mild_net_inflow:
+          score_range: [60, 79]
+          default_score: 70
+        mild_net_inflow_(+1_to_+5):
+          score_range: [60, 79]
+          default_score: 70
+        return_migration:
+          score_range: [65, 79]
+          default_score: 72
+        roughly_stable:
+          score_range: [45, 59]
+          default_score: 52
+        roughly_stable_(-1_to_+1):
+          score_range: [45, 59]
+          default_score: 52
+        mild_net_outflow:
+          score_range: [25, 44]
+          default_score: 35
+        mild_net_outflow_(-5_to_-1):
+          score_range: [25, 44]
+          default_score: 35
+        significant_net_outflow:
+          score_range: [10, 24]
+          default_score: 17
+        significant_net_outflow_(-15_to_-5):
+          score_range: [10, 24]
+          default_score: 17
+        severe_net_outflow:
+          score_range: [0, 9]
+          default_score: 5
+        severe_net_outflow_(<-15):
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: qualitative_only
+
+  remittances:
+    quantitative_scoring:
+      type: none
+    qualitative_scoring:
+      features:
+        minimal_lt_1pct:
+          score_range: [45, 60]
+          default_score: 52
+        low_1_2pct:
+          score_range: [50, 65]
+          default_score: 57
+        moderate_2_5pct:
+          score_range: [55, 70]
+          default_score: 62
+        high_5_10pct:
+          score_range: [40, 55]
+          default_score: 47
+        very_high_gt_10pct:
+          score_range: [20, 35]
+          default_score: 27
+      multi_feature_rule: minimum
+    combination_rule: qualitative_only
+
+social:
+  life_expectancy:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # Years; higher = better
+      thresholds:
+        - score_range: [85, 100]
+          condition: ">= 75"
+        - score_range: [70, 84]
+          condition: ">= 70"
+        - score_range: [50, 69]
+          condition: ">= 65"
+        - score_range: [30, 49]
+          condition: ">= 60"
+        - score_range: [0, 29]
+          condition: "< 60"
+    qualitative_scoring:
+      features:
+        high_gt_75:
+          score_range: [85, 100]
+          default_score: 92
+        good_70_75:
+          score_range: [70, 84]
+          default_score: 77
+        moderate_65_70:
+          score_range: [50, 69]
+          default_score: 60
+        low_60_65:
+          score_range: [30, 49]
+          default_score: 40
+        very_low_lt_60:
+          score_range: [0, 29]
+          default_score: 15
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  infant_mortality:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # Per 1000 live births; lower = better
+      thresholds:
+        - score_range: [80, 100]
+          condition: "< 10"
+        - score_range: [55, 79]
+          condition: "< 25"
+        - score_range: [30, 54]
+          condition: "< 50"
+        - score_range: [10, 29]
+          condition: "< 80"
+        - score_range: [0, 9]
+          condition: ">= 80"
+    qualitative_scoring:
+      features:
+        low_lt_10:
+          score_range: [80, 100]
+          default_score: 90
+        moderate_10_25:
+          score_range: [55, 79]
+          default_score: 67
+        elevated_25_50:
+          score_range: [30, 54]
+          default_score: 42
+        high_50_80:
+          score_range: [10, 29]
+          default_score: 20
+        very_high_gt_80:
+          score_range: [0, 9]
+          default_score: 5
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  internet_users:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # % population; higher = better
+      thresholds:
+        - score_range: [85, 100]
+          condition: ">= 80"
+        - score_range: [70, 84]
+          condition: ">= 60"
+        - score_range: [55, 69]
+          condition: ">= 40"
+        - score_range: [35, 54]
+          condition: ">= 20"
+        - score_range: [15, 34]
+          condition: ">= 5"
+        - score_range: [0, 14]
+          condition: "< 5"
+    qualitative_scoring:
+      features:
+        very_high_gt_80pct:
+          score_range: [85, 100]
+          default_score: 92
+        high_60_80pct:
+          score_range: [70, 84]
+          default_score: 77
+        moderate_40_60pct:
+          score_range: [55, 69]
+          default_score: 62
+        low_20_40pct:
+          score_range: [35, 54]
+          default_score: 45
+        very_low_5_20pct:
+          score_range: [15, 34]
+          default_score: 25
+        minimal_lt_5pct:
+          score_range: [0, 14]
+          default_score: 7
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  health_expenditure:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # % GDP; higher = better
+      thresholds:
+        - score_range: [75, 100]
+          condition: ">= 8"
+        - score_range: [50, 74]
+          condition: ">= 5"
+        - score_range: [25, 49]
+          condition: ">= 3"
+        - score_range: [0, 24]
+          condition: "< 3"
+    qualitative_scoring:
+      features:
+        high_gt_8pct:
+          score_range: [75, 100]
+          default_score: 87
+        moderate_5_8pct:
+          score_range: [50, 74]
+          default_score: 62
+        low_3_5pct:
+          score_range: [25, 49]
+          default_score: 37
+        very_low_lt_3pct:
+          score_range: [0, 24]
+          default_score: 12
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred
+
+  education_expenditure:
+    quantitative_scoring:
+      type: threshold
+      input_transform: null
+      # % GDP; higher = better
+      thresholds:
+        - score_range: [70, 100]
+          condition: ">= 6"
+        - score_range: [45, 69]
+          condition: ">= 4"
+        - score_range: [20, 44]
+          condition: ">= 2"
+        - score_range: [0, 19]
+          condition: "< 2"
+    qualitative_scoring:
+      features:
+        high_gt_6pct:
+          score_range: [70, 100]
+          default_score: 85
+        moderate_4_6pct:
+          score_range: [45, 69]
+          default_score: 57
+        low_2_4pct:
+          score_range: [20, 44]
+          default_score: 32
+        very_low_lt_2pct:
+          score_range: [0, 19]
+          default_score: 10
+      multi_feature_rule: minimum
+    combination_rule: quantitative_preferred

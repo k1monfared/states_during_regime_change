@@ -10,6 +10,9 @@ dimensions:
       - institutional_functioning
       - civil_liberties
       - elite_cohesion
+      - military_expenditure
+      - political_stability
+      - government_effectiveness
     function: weighted_average    # weighted_average | geometric_mean | minimum | harmonic_mean
     weights:
       territorial_control: 1.0
@@ -17,6 +20,9 @@ dimensions:
       institutional_functioning: 1.0
       civil_liberties: 1.0
       elite_cohesion: 1.0
+      military_expenditure: 1.0
+      political_stability: 1.0
+      government_effectiveness: 1.0
     missing_data_handling: skip_and_renormalize
     # Options:
     #   skip_and_renormalize  - average only available indicators, adjust weights
@@ -32,6 +38,11 @@ dimensions:
       - unemployment
       - trade_openness
       - fiscal_health
+      - natural_resource_rents
+      - youth_unemployment
+      - gini
+      - neet_rate
+      - gini_adjusted_gdp_per_capita
     function: weighted_average
     weights:
       gdp_per_capita: 1.0
@@ -39,6 +50,11 @@ dimensions:
       unemployment: 1.0
       trade_openness: 1.0
       fiscal_health: 1.0
+      natural_resource_rents: 1.0
+      youth_unemployment: 1.0
+      gini: 1.0
+      neet_rate: 1.0
+      gini_adjusted_gdp_per_capita: 1.0
     missing_data_handling: skip_and_renormalize
 
   international:
@@ -64,6 +80,7 @@ dimensions:
       - statistical_transparency
       - legal_transparency
       - extractive_transparency
+      - control_of_corruption
     function: weighted_average
     weights:
       budget_transparency: 1.0
@@ -71,6 +88,7 @@ dimensions:
       statistical_transparency: 1.0
       legal_transparency: 1.0
       extractive_transparency: 1.0
+      control_of_corruption: 1.0
     missing_data_handling: skip_and_renormalize
     not_applicable_indicators:
       # Some countries don't have extractive industries
@@ -91,6 +109,18 @@ dimensions:
           - armenia
         handling: exclude  # exclude from average for these countries
 
+  population_mobility:
+    sub_indicators: [net_migration, remittances]
+    function: weighted_average
+    weights: {net_migration: 1.0, remittances: 1.0}
+    missing_data_handling: skip_and_renormalize
+
+  social:
+    sub_indicators: [life_expectancy, infant_mortality, internet_users, health_expenditure, education_expenditure]
+    function: weighted_average
+    weights: {life_expectancy: 1.0, infant_mortality: 1.0, internet_users: 1.0, health_expenditure: 1.0, education_expenditure: 1.0}
+    missing_data_handling: skip_and_renormalize
+
 # Composite score (dimensions -> single number)
 composite:
   function: weighted_average
@@ -99,4 +129,6 @@ composite:
     economic: 1.0
     international: 1.0
     transparency: 1.0
+    population_mobility: 1.0
+    social: 1.0
   missing_data_handling: skip_and_renormalize

@@ -1110,6 +1110,65 @@ body {
   border-radius: 0 var(--radius) var(--radius) 0;
 }
 
+/* ── Transform display (countries page) ────────────────────────────────────── */
+.transform-block { display: block; }
+
+.transform-preamble {
+  font-style: italic;
+  color: var(--text-muted);
+  margin-bottom: 3px;
+}
+
+.transform-table {
+  border-collapse: collapse;
+  font-size: 10.5px;
+  margin: 0;
+}
+
+.transform-table td {
+  padding: 1px 0;
+  vertical-align: baseline;
+}
+
+.tc-cond {
+  color: var(--text);
+  padding-right: 4px;
+}
+
+.tc-arrow {
+  color: var(--text-muted);
+  padding: 0 5px;
+  user-select: none;
+}
+
+.tc-score { white-space: nowrap; }
+
+.tc-score-range {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  display: inline-block;
+  min-width: 3.8em;
+  text-align: right;
+}
+
+.sr-high     { color: #16a34a; }
+.sr-med-high { color: #65a30d; }
+.sr-mid      { color: #d97706; }
+.sr-med-low  { color: #ea580c; }
+.sr-low      { color: #dc2626; }
+
+.tc-score-note { color: var(--text-muted); }
+.tc-score-other { color: var(--text); }
+
+.transform-plain { color: var(--text); }
+
+.transform-notes {
+  margin-top: 3px;
+  font-style: italic;
+  color: var(--text-muted);
+  font-size: 10px;
+}
+
 /* ── Source Definitions (methodology page) ─────────────────────────────────── */
 .def-details {
   border: 1px solid var(--border);

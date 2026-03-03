@@ -1,0 +1,65 @@
+indicator: gini_adjusted_gdp_per_capita
+country: iraq
+dimension: economic
+notes: "Pre-computed derived value: GDP_pc × (1 − Gini/100). Iraq has only 3 Gini survey years (2006, 2012, 2023); all other years are missing."
+years:
+  2006:
+    data_status: complete
+    quantitative:
+      value: 1173.82
+      unit: usd_inequality_adjusted
+      formula: "GDP_pc × (1 − Gini/100) = 1644 × (1 − 28.6/100) = 1644 × 0.714"
+      source:
+        citation: "Derived from World Bank NY.GDP.PCAP.CD (Iraq 2006) × (1 − SI.POV.GINI/100)"
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=IQ
+        access_date: '2026-03-02'
+      reliability: medium
+    qualitative:
+      assessment: "Gini-adjusted GDP per capita for Iraq in 2006 (civil war year). GDP_pc = 1644 USD, Gini = 28.6. Adjusted value = 1173.82 USD. Low absolute level reflects sectarian violence period; relatively low Gini reflects Iraq's state-compressed inequality."
+      features: []
+      sources:
+        - citation: "World Bank WDI, Iraq, NY.GDP.PCAP.CD and SI.POV.GINI, 2006"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Only 3 Gini data points available for Iraq; 2006 is IHSES household survey year"
+  2012:
+    data_status: complete
+    quantitative:
+      value: 3152.06
+      unit: usd_inequality_adjusted
+      formula: "GDP_pc × (1 − Gini/100) = 4471 × (1 − 29.5/100) = 4471 × 0.705"
+      source:
+        citation: "Derived from World Bank NY.GDP.PCAP.CD (Iraq 2012) × (1 − SI.POV.GINI/100)"
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=IQ
+        access_date: '2026-03-02'
+      reliability: high
+    qualitative:
+      assessment: "Gini-adjusted GDP per capita for Iraq in 2012 (post-surge recovery, strong oil revenues). GDP_pc = 4471 USD, Gini = 29.5. Adjusted value = 3152.06 USD. Strong economic period; moderate Gini reflects continued public sector wage compression."
+      features: []
+      sources:
+        - citation: "World Bank WDI, Iraq, NY.GDP.PCAP.CD and SI.POV.GINI, 2012"
+          type: dataset
+          reliability: high
+      confidence: high
+      notes: "Only 3 Gini data points available for Iraq; 2012 is IHSES household survey year"
+  2023:
+    data_status: complete
+    quantitative:
+      value: 3615.30
+      unit: usd_inequality_adjusted
+      formula: "GDP_pc × (1 − Gini/100) = 5150 × (1 − 29.8/100) = 5150 × 0.702"
+      source:
+        citation: "Derived from World Bank NY.GDP.PCAP.CD (Iraq 2023) × (1 − SI.POV.GINI/100)"
+        url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=IQ
+        access_date: '2026-03-02'
+      reliability: medium
+    qualitative:
+      assessment: "Gini-adjusted GDP per capita for Iraq in 2023 (post-ISIS recovery, Sudani government). GDP_pc = 5150 USD, Gini = 29.8. Adjusted value = 3615.30 USD. Series peak for adjusted measure; Gini stable at low levels."
+      features: []
+      sources:
+        - citation: "World Bank WDI, Iraq, NY.GDP.PCAP.CD and SI.POV.GINI, 2023"
+          type: dataset
+          reliability: medium
+      confidence: medium
+      notes: "Only 3 Gini data points available for Iraq; 2023 is IHSES household survey year"

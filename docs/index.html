@@ -213,7 +213,7 @@ return 0.5 * gov + 0.5 * econ"></textarea>
 
     // Subscribe to state changes → re-render chart
     state.subscribe(async (s) => {
-      if (s.rawAxis || s.tooltipDetail) {
+      if (s.rawAxes?.length > 0 || s.tooltipDetail) {
         await Promise.all(s.countries.map((c) => loadCountryRaw(c).catch(() => {})));
       }
       const seriesList = getAllCountrySeries(s, allData);
@@ -223,7 +223,7 @@ return 0.5 * gov + 0.5 * econ"></textarea>
 
     // Initial chart render
     const s = state.get();
-    if (s.rawAxis || s.tooltipDetail) {
+    if (s.rawAxes?.length > 0 || s.tooltipDetail) {
       await Promise.all(s.countries.map((c) => loadCountryRaw(c).catch(() => {})));
     }
     const seriesList = getAllCountrySeries(s, allData);
