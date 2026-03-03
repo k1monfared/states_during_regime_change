@@ -1,1022 +1,1055 @@
 indicator: unemployment
 country: drc
 dimension: economic
-notes: >
-  DRC unemployment: no meaningful official ILO unemployment data for most of the period.
-  The economy is overwhelmingly subsistence/informal — official unemployment statistics
-  capture only a tiny formal sector. During conflict years, formal sector employment
-  collapses entirely. All quantitative values null.
-  Qualitative features based on well-documented conflict/economic collapse patterns:
-  - Second Congo War years (1998-2003): crisis_gt_40pct (formal sector collapse)
-  - Transition/recovery (2003-2010): very_high_25_40pct (formal sector rebuilding slowly)
-  - Relative stability (2011-2015): very_high_25_40pct
-  - Constitutional crisis/Kasai (2016-2018): crisis_gt_40pct
-  - Tshisekedi era (2019-2023): very_high_25_40pct
-  - AFC/M23 crisis (2024-2025): crisis_gt_40pct
+notes: 'DRC unemployment: no meaningful official ILO unemployment data for most of the period. The economy is overwhelmingly
+  subsistence/informal — official unemployment statistics capture only a tiny formal sector. During conflict years, formal
+  sector employment collapses entirely. All quantitative values null. Qualitative features based on well-documented conflict/economic
+  collapse patterns: - Second Congo War years (1998-2003): crisis_gt_40pct (formal sector collapse) - Transition/recovery
+  (2003-2010): very_high_25_40pct (formal sector rebuilding slowly) - Relative stability (2011-2015): very_high_25_40pct -
+  Constitutional crisis/Kasai (2016-2018): crisis_gt_40pct - Tshisekedi era (2019-2023): very_high_25_40pct - AFC/M23 crisis
+  (2024-2025): crisis_gt_40pct
+
+  '
 years:
   1990:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment data — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment data — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Mobutu era. Formal sector minimal. Subsistence agriculture dominant (80%+
+      assessment: 'Mobutu era. Formal sector minimal. Subsistence agriculture dominant (80%+
+
         of population). No meaningful unemployment statistics. Formal employment
+
         largely state-owned enterprises, many non-functional. Crisis-level effective
+
         unemployment in formal sector terms.
+
+        '
       features:
       - crisis_gt_40pct
       sources:
-      - citation: "World Bank: DRC labor market — predominantly informal"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC labor market — predominantly informal'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Mobutu era; formal sector minimal; subsistence dominant; crisis-level effective unemployment"
-
+      notes: Mobutu era; formal sector minimal; subsistence dominant; crisis-level effective unemployment
   1991:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Military looting destroys businesses. Formal sector contracting. Crisis-level
+      assessment: 'Military looting destroys businesses. Formal sector contracting. Crisis-level
+
         unemployment in formal/informal terms.
+
+        '
       features:
       - crisis_gt_40pct
       sources:
-      - citation: "World Bank: Zaïre 1991 — economic collapse"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: Zaïre 1991 — economic collapse'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Military looting; formal sector contracts; crisis-level"
-
+      notes: Military looting; formal sector contracts; crisis-level
   1992:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Hyperinflation destroys remaining formal employment. Crisis-level unemployment.
+      assessment: 'Hyperinflation destroys remaining formal employment. Crisis-level unemployment.
+
         Subsistence survival economy.
+
+        '
       features:
       - crisis_gt_40pct
       sources:
-      - citation: "World Bank: Zaïre 1992 — hyperinflation; formal collapse"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: Zaïre 1992 — hyperinflation; formal collapse'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Hyperinflation; formal employment collapse; crisis-level"
-
+      notes: Hyperinflation; formal employment collapse; crisis-level
   1993:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Hyperinflation, ethnic violence. Formal sector non-functional. Crisis-level
+      assessment: 'Hyperinflation, ethnic violence. Formal sector non-functional. Crisis-level
+
         unemployment. Survival economy predominant.
+
+        '
       features:
       - crisis_gt_40pct
       sources:
-      - citation: "World Bank: Zaïre 1993"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: Zaïre 1993'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Hyperinflation; ethnic violence; crisis-level"
-
+      notes: Hyperinflation; ethnic violence; crisis-level
   1994:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Peak hyperinflation year. Formal sector destroyed. Rwanda refugee influx adds
+      assessment: 'Peak hyperinflation year. Formal sector destroyed. Rwanda refugee influx adds
+
         pressure. Crisis-level unemployment. Survival economy only.
+
+        '
       features:
       - crisis_gt_40pct
       sources:
-      - citation: "World Bank: Zaïre 1994 — peak hyperinflation"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: Zaïre 1994 — peak hyperinflation'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Peak hyperinflation; formal sector destroyed; crisis-level"
-
+      notes: Peak hyperinflation; formal sector destroyed; crisis-level
   1995:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Mobutu final years. Economy in complete collapse. Crisis-level unemployment.
+      assessment: 'Mobutu final years. Economy in complete collapse. Crisis-level unemployment.
+
         Formal sector non-existent.
+
+        '
       features:
       - crisis_gt_40pct
       sources:
-      - citation: "World Bank: Zaïre 1995 — economic collapse"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: Zaïre 1995 — economic collapse'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Mobutu collapse; crisis-level"
-
+      notes: Mobutu collapse; crisis-level
   1996:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        First Congo War. Economic activity collapses under war. Crisis-level unemployment.
+      assessment: 'First Congo War. Economic activity collapses under war. Crisis-level unemployment.
+
+        '
       features:
       - crisis_gt_40pct
       sources:
-      - citation: "World Bank: Zaïre 1996 — First Congo War"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: Zaïre 1996 — First Congo War'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "First Congo War; economic collapse; crisis-level"
-
+      notes: First Congo War; economic collapse; crisis-level
   1997:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Kabila takes power. Some stabilization hopes but economy devastated. Crisis-level
+      assessment: 'Kabila takes power. Some stabilization hopes but economy devastated. Crisis-level
+
         unemployment from Mobutu era collapse.
+
+        '
       features:
       - crisis_gt_40pct
       sources:
-      - citation: "World Bank: DRC 1997 — economy devastated"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 1997 — economy devastated'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Kabila takes over; economy devastated; crisis-level"
-
+      notes: Kabila takes over; economy devastated; crisis-level
   1998:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Second Congo War begins. Economy collapses further. Any formal employment
+      assessment: 'Second Congo War begins. Economy collapses further. Any formal employment
+
         destroyed by war. Crisis-level unemployment.
+
+        '
       features:
       - crisis_gt_40pct
       sources:
-      - citation: "World Bank: DRC 1998 — Second Congo War"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 1998 — Second Congo War'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Second Congo War; formal employment destroyed; crisis-level"
-
+      notes: Second Congo War; formal employment destroyed; crisis-level
   1999:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Second Congo War peak. Country split, economy destroyed. Crisis-level unemployment.
+      assessment: 'Second Congo War peak. Country split, economy destroyed. Crisis-level unemployment.
+
+        '
       features:
       - crisis_gt_40pct
       sources:
-      - citation: "World Bank: DRC 1999 — war economy"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 1999 — war economy'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Second Congo War peak; economy destroyed; crisis-level"
-
+      notes: Second Congo War peak; economy destroyed; crisis-level
   2000:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Second Congo War stalemate. Formal economy non-existent in most of country.
+      assessment: 'Second Congo War stalemate. Formal economy non-existent in most of country.
+
         Crisis-level unemployment. Survival/war economy.
+
+        '
       features:
       - crisis_gt_40pct
       sources:
-      - citation: "World Bank: DRC 2000 — war economy"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2000 — war economy'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Second Congo War; formal economy non-existent; crisis-level"
-
+      notes: Second Congo War; formal economy non-existent; crisis-level
   2001:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        J Kabila; peace process. War continues. Crisis-level unemployment.
+      assessment: 'J Kabila; peace process. War continues. Crisis-level unemployment.
+
         Some recovery beginning but very minimal.
+
+        '
       features:
       - crisis_gt_40pct
       sources:
-      - citation: "World Bank: DRC 2001"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2001'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "J Kabila; peace process; war continues; crisis-level"
-
+      notes: J Kabila; peace process; war continues; crisis-level
   2002:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Peace agreements. War winding down. Very slight formal employment recovery.
+      assessment: 'Peace agreements. War winding down. Very slight formal employment recovery.
+
         Still crisis-level given the scale of destruction.
+
+        '
       features:
       - crisis_gt_40pct
       sources:
-      - citation: "World Bank: DRC 2002 — peace; minimal recovery"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2002 — peace; minimal recovery'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Peace agreements; minimal recovery; crisis-level"
-
+      notes: Peace agreements; minimal recovery; crisis-level
   2003:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Transitional government. Post-war economy rebuilding very slowly. Formal sector
+      assessment: 'Transitional government. Post-war economy rebuilding very slowly. Formal sector
+
         emerging but minimal. Very high unemployment in any formal sense.
+
+        '
       features:
       - very_high_25_40pct
       sources:
-      - citation: "World Bank: DRC 2003 — transitional; minimal formal sector"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2003 — transitional; minimal formal sector'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Transitional government; formal sector emerging; very high unemployment"
-
+      notes: Transitional government; formal sector emerging; very high unemployment
   2004:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Post-war recovery. Mining sector creating some employment. Formal sector still
+      assessment: 'Post-war recovery. Mining sector creating some employment. Formal sector still
+
         minimal. Very high unemployment overall.
+
+        '
       features:
       - very_high_25_40pct
       sources:
-      - citation: "World Bank: DRC 2004 — recovery; mining employment"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2004 — recovery; mining employment'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Post-war recovery; mining employment emerging; very high"
-
+      notes: Post-war recovery; mining employment emerging; very high
   2005:
     data_status: partial
     quantitative:
-      value:
+      value: 2.947739
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: calculated
+      series_id: null
+      calculated_value: 2.947739
+      discrepancy: null
     qualitative:
-      assessment: |
-        Pre-election. Mining boom creates some formal employment. Overall very high
+      assessment: 'Pre-election. Mining boom creates some formal employment. Overall very high
+
         unemployment given informal/subsistence dominance.
+
+        '
       features:
       - very_high_25_40pct
       sources:
-      - citation: "World Bank: DRC 2005 — mining boom; very high unemployment"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2005 — mining boom; very high unemployment'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Mining boom; some formal employment; very high overall"
-
+      notes: Mining boom; some formal employment; very high overall
   2006:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        First elections. Post-war economy recovering. Mining employment. Very high
+      assessment: 'First elections. Post-war economy recovering. Mining employment. Very high
+
         unemployment in formal terms but informal economy active.
+
+        '
       features:
       - very_high_25_40pct
       sources:
-      - citation: "World Bank: DRC 2006 — elections; economy recovering"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2006 — elections; economy recovering'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Elections; post-war recovery; very high unemployment"
-
+      notes: Elections; post-war recovery; very high unemployment
   2007:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Post-election. CNDP rebellion but economy growing. Mining employment. Very high
+      assessment: 'Post-election. CNDP rebellion but economy growing. Mining employment. Very high
+
         overall unemployment in formal sector terms.
+
+        '
       features:
       - very_high_25_40pct
       sources:
-      - citation: "World Bank: DRC 2007"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2007'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "CNDP rebellion; mining growing; very high formal unemployment"
-
+      notes: CNDP rebellion; mining growing; very high formal unemployment
   2008:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        CNDP advance toward Goma. Disrupts North Kivu employment. Global financial crisis
+      assessment: 'CNDP advance toward Goma. Disrupts North Kivu employment. Global financial crisis
+
         hits mining. Very high unemployment.
+
+        '
       features:
       - very_high_25_40pct
       sources:
-      - citation: "World Bank: DRC 2008 — CNDP; financial crisis"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2008 — CNDP; financial crisis'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "CNDP disrupts North Kivu; financial crisis; very high"
-
+      notes: CNDP disrupts North Kivu; financial crisis; very high
   2009:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        CNDP integration. Mining sector slow from commodity crash. Very high unemployment
+      assessment: 'CNDP integration. Mining sector slow from commodity crash. Very high unemployment
+
         in formal terms.
+
+        '
       features:
       - very_high_25_40pct
       sources:
-      - citation: "World Bank: DRC 2009 — CNDP integration; commodity crash"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2009 — CNDP integration; commodity crash'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "CNDP integration; commodity crash; very high"
-
+      notes: CNDP integration; commodity crash; very high
   2010:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        HIPC completion. Post-commodity crash recovery. Mining employment recovering.
+      assessment: 'HIPC completion. Post-commodity crash recovery. Mining employment recovering.
+
         Very high unemployment overall.
+
+        '
       features:
       - very_high_25_40pct
       sources:
-      - citation: "World Bank: DRC 2010 — HIPC; recovery"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2010 — HIPC; recovery'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "HIPC; mining recovery; very high unemployment"
-
+      notes: HIPC; mining recovery; very high unemployment
   2011:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Disputed elections. Mining sector growing. Some formal employment. Very high
+      assessment: 'Disputed elections. Mining sector growing. Some formal employment. Very high
+
         overall unemployment.
+
+        '
       features:
       - very_high_25_40pct
       sources:
-      - citation: "World Bank: DRC 2011 — elections; mining growth"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2011 — elections; mining growth'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Elections; mining growing; very high"
-
+      notes: Elections; mining growing; very high
   2012:
     data_status: partial
     quantitative:
-      value:
+      value: 4.48523
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: calculated
+      series_id: null
+      calculated_value: 4.48523
+      discrepancy: null
     qualitative:
-      assessment: |
-        M23 rebellion. North Kivu employment disrupted. Western/southern mining growing.
+      assessment: 'M23 rebellion. North Kivu employment disrupted. Western/southern mining growing.
+
         Very high overall unemployment.
+
+        '
       features:
       - very_high_25_40pct
       sources:
-      - citation: "World Bank: DRC 2012 — M23; very high"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2012 — M23; very high'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "M23 disrupts North Kivu; very high overall"
-
+      notes: M23 disrupts North Kivu; very high overall
   2013:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        M23 defeated. Mining sector growing. Very high unemployment overall given
+      assessment: 'M23 defeated. Mining sector growing. Very high unemployment overall given
+
         informal economy dominance.
+
+        '
       features:
       - very_high_25_40pct
       sources:
-      - citation: "World Bank: DRC 2013 — M23 defeat; very high"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2013 — M23 defeat; very high'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "M23 defeated; mining growing; very high"
-
+      notes: M23 defeated; mining growing; very high
   2014:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        ADF Beni. Economy growing 7-9%. Some formal employment growth. Very high
+      assessment: 'ADF Beni. Economy growing 7-9%. Some formal employment growth. Very high
+
         overall unemployment in formal terms.
+
+        '
       features:
       - very_high_25_40pct
       sources:
-      - citation: "World Bank: DRC 2014 — strong growth; very high"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2014 — strong growth; very high'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "ADF Beni; strong GDP growth; very high formal unemployment"
-
+      notes: ADF Beni; strong GDP growth; very high formal unemployment
   2015:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Commodity decline. Mining employment softens. Term limit crisis building. Very high
+      assessment: 'Commodity decline. Mining employment softens. Term limit crisis building. Very high
+
         overall unemployment.
+
+        '
       features:
       - very_high_25_40pct
       sources:
-      - citation: "World Bank: DRC 2015"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2015'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Commodity decline; term limit; very high"
-
+      notes: Commodity decline; term limit; very high
   2016:
     data_status: partial
     quantitative:
-      value:
+      value: 5.005876
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: calculated
+      series_id: null
+      calculated_value: 5.005876
+      discrepancy: null
     qualitative:
-      assessment: |
-        Constitutional crisis. Kasai conflict begins. Capital flight. Formal employment
+      assessment: 'Constitutional crisis. Kasai conflict begins. Capital flight. Formal employment
+
         declining from constitutional and security crises. Very high to crisis level.
+
+        '
       features:
       - crisis_gt_40pct
       sources:
-      - citation: "World Bank: DRC 2016 — constitutional crisis; Kasai"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2016 — constitutional crisis; Kasai'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Constitutional crisis; Kasai; capital flight; crisis-level"
-
+      notes: Constitutional crisis; Kasai; capital flight; crisis-level
   2017:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Kasai crisis peak. Multiple conflicts. Formal employment collapses in affected areas.
+      assessment: 'Kasai crisis peak. Multiple conflicts. Formal employment collapses in affected areas.
+
         Crisis-level unemployment in Kasai and east. National crisis-level.
+
+        '
       features:
       - crisis_gt_40pct
       sources:
-      - citation: "World Bank: DRC 2017 — Kasai crisis; crisis-level"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2017 — Kasai crisis; crisis-level'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Kasai crisis; multiple conflicts; crisis-level"
-
+      notes: Kasai crisis; multiple conflicts; crisis-level
   2018:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Elections delayed. Ebola outbreak. Uncertainty dampens formal employment. Crisis-level
+      assessment: 'Elections delayed. Ebola outbreak. Uncertainty dampens formal employment. Crisis-level
+
         given multiple simultaneous crises.
+
+        '
       features:
       - crisis_gt_40pct
       sources:
-      - citation: "World Bank: DRC 2018 — elections; Ebola; crisis-level"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2018 — elections; Ebola; crisis-level'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Elections delayed; Ebola; crisis-level"
-
+      notes: Elections delayed; Ebola; crisis-level
   2019:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Tshisekedi takes power. Some stabilization. Economy improving. Very high unemployment
+      assessment: 'Tshisekedi takes power. Some stabilization. Economy improving. Very high unemployment
+
         in formal terms but improvement trajectory from crisis years.
+
+        '
       features:
       - very_high_25_40pct
       sources:
-      - citation: "World Bank: DRC 2019 — Tshisekedi; stabilization"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2019 — Tshisekedi; stabilization'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "Tshisekedi; stabilization; very high"
-
+      notes: Tshisekedi; stabilization; very high
   2020:
     data_status: partial
     quantitative:
-      value:
+      value: 1.466245
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: calculated
+      series_id: null
+      calculated_value: 1.466245
+      discrepancy: null
     qualitative:
-      assessment: |
-        COVID-19. Mining disruptions. Very high unemployment. COVID adds pressure to
+      assessment: 'COVID-19. Mining disruptions. Very high unemployment. COVID adds pressure to
+
         already very high informal unemployment.
+
+        '
       features:
       - very_high_25_40pct
       sources:
-      - citation: "World Bank: DRC 2020 — COVID"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2020 — COVID'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "COVID; mining disruptions; very high"
-
+      notes: COVID; mining disruptions; very high
   2021:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        Post-COVID recovery. M23 resurges. State of siege in North Kivu/Ituri.
+      assessment: 'Post-COVID recovery. M23 resurges. State of siege in North Kivu/Ituri.
+
         Very high unemployment overall.
+
+        '
       features:
       - very_high_25_40pct
       sources:
-      - citation: "World Bank: DRC 2021 — M23; state of siege"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2021 — M23; state of siege'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "M23; state of siege; very high"
-
+      notes: M23; state of siege; very high
   2022:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        M23/Rwanda advance. North Kivu employment disrupted. Overall very high unemployment.
+      assessment: 'M23/Rwanda advance. North Kivu employment disrupted. Overall very high unemployment.
+
+        '
       features:
       - very_high_25_40pct
       sources:
-      - citation: "World Bank: DRC 2022 — M23/Rwanda"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2022 — M23/Rwanda'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "M23/Rwanda; North Kivu disrupted; very high"
-
+      notes: M23/Rwanda; North Kivu disrupted; very high
   2023:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        M23/Rwanda controls North Kivu. Elections. Very high unemployment. Eastern
+      assessment: 'M23/Rwanda controls North Kivu. Elections. Very high unemployment. Eastern
+
         employment largely disrupted.
+
+        '
       features:
       - very_high_25_40pct
       sources:
-      - citation: "World Bank: DRC 2023"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2023'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "M23 controls North Kivu; elections; very high"
-
+      notes: M23 controls North Kivu; elections; very high
   2024:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        AFC/M23 captures Goma/Bukavu. Eastern DRC employment completely disrupted.
+      assessment: 'AFC/M23 captures Goma/Bukavu. Eastern DRC employment completely disrupted.
+
         Crisis-level unemployment in eastern provinces. National crisis-level.
+
+        '
       features:
       - crisis_gt_40pct
       sources:
-      - citation: "World Bank: DRC 2024 — AFC/M23 Goma/Bukavu"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2024 — AFC/M23 Goma/Bukavu'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "AFC/M23 Goma/Bukavu; eastern employment collapsed; crisis-level"
-
+      notes: AFC/M23 Goma/Bukavu; eastern employment collapsed; crisis-level
   2025:
     data_status: partial
     quantitative:
-      value:
+      value: null
       unit: percent_labor_force
       source:
-        citation: "ILO: DRC unemployment — unavailable"
-        url: "https://ilostat.ilo.org/data/"
-        access_date: "2026-03-01"
-      reliability:
-      value_source:
-      series_id:
-      calculated_value:
-      discrepancy:
+        citation: 'ILO: DRC unemployment — unavailable'
+        url: https://ilostat.ilo.org/data/
+        access_date: '2026-03-01'
+      reliability: null
+      value_source: null
+      series_id: null
+      calculated_value: null
+      discrepancy: null
     qualitative:
-      assessment: |
-        AFC/M23 holds east. Ceasefire talks. Eastern economy destroyed. Crisis-level
+      assessment: 'AFC/M23 holds east. Ceasefire talks. Eastern economy destroyed. Crisis-level
+
         unemployment nationally given eastern collapse.
+
+        '
       features:
       - crisis_gt_40pct
       sources:
-      - citation: "World Bank: DRC 2025 — AFC/M23 holds east"
-        url: "https://data.worldbank.org/country/CD"
+      - citation: 'World Bank: DRC 2025 — AFC/M23 holds east'
+        url: https://data.worldbank.org/country/CD
         type: government_report
         reliability: low
       confidence: low
-      notes: "AFC/M23 holds east; eastern economy destroyed; crisis-level"
+      notes: AFC/M23 holds east; eastern economy destroyed; crisis-level

@@ -175,36 +175,36 @@ series:
     source: ilo
     canonical_file: data/canonical/ilo/EAP_TEAP_SEX_AGE_NB.csv
     status_file: data/canonical/status/ILO_EAP_TEAP_SEX_AGE_NB.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-03'
   ILO_UNE_TUNE_SEX_AGE_NB:
     name: Unemployment by sex and age (count) — ILO
     source: ilo
     canonical_file: data/canonical/ilo/UNE_TUNE_SEX_AGE_NB.csv
     status_file: data/canonical/status/ILO_UNE_TUNE_SEX_AGE_NB.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-03'
   ILO_EMP_TEMP_SEX_AGE_NB:
     name: Employment by sex and age (count) — ILO
     source: ilo
     canonical_file: data/canonical/ilo/EMP_TEMP_SEX_AGE_NB.csv
     status_file: data/canonical/status/ILO_EMP_TEMP_SEX_AGE_NB.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-03'
   ILO_UNE_TUNE_SEX_AGE_RT:
     name: Unemployment rate (ILO definition)
     source: ilo
     canonical_file: data/canonical/ilo/UNE_TUNE_SEX_AGE_RT.csv
     status_file: data/canonical/status/ILO_UNE_TUNE_SEX_AGE_RT.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-03'
   ILO_EAP_TEAP_SEX_AGE_RT:
     name: Labour force participation rate (ILO)
     source: ilo
     canonical_file: data/canonical/ilo/EAP_TEAP_SEX_AGE_RT.csv
     status_file: data/canonical/status/ILO_EAP_TEAP_SEX_AGE_RT.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-03'
   ILO_EMP_2EMP_SEX_ECO_RT:
     name: Informal employment rate (ILO)
     source: ilo
@@ -217,8 +217,8 @@ series:
     source: ilo
     canonical_file: data/canonical/ilo/SDG_0851_SEX_AGE_RT.csv
     status_file: data/canonical/status/ILO_SDG_0851_SEX_AGE_RT.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-03'
   WB_SE.PRM.ENRR:
     name: School enrollment, primary (% gross)
     source: world_bank
@@ -539,15 +539,15 @@ series:
     source: imf
     canonical_file: data/canonical/imf/GGXWDG_NGDP.csv
     status_file: data/canonical/status/IMF_GGXWDG_NGDP.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-03'
   IMF_NGDPDPC:
     name: GDP per capita (US$) — IMF WEO
     source: imf
     canonical_file: data/canonical/imf/NGDPDPC.csv
     status_file: data/canonical/status/IMF_NGDPDPC.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-03'
   WB_SI.POV.DDAY:
     name: Poverty headcount ratio at $2.15/day (%)
     source: world_bank
@@ -581,43 +581,43 @@ series:
     source: undp
     canonical_file: data/canonical/undp/HDI.csv
     status_file: data/canonical/status/UNDP_HDI.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-03'
   UCDP_BDEATHS_INTERNAL:
     name: Battle deaths — intrastate/internationalized (deaths inside country)
     source: ucdp
     canonical_file: data/canonical/ucdp/BDEATHS_INTERNAL.csv
     status_file: data/canonical/status/UCDP_BDEATHS_INTERNAL.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-03'
   UCDP_BDEATHS_INTERSTATE:
     name: Battle deaths — interstate conflicts (nationals killed abroad)
     source: ucdp
     canonical_file: data/canonical/ucdp/BDEATHS_INTERSTATE.csv
     status_file: data/canonical/status/UCDP_BDEATHS_INTERSTATE.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-03'
   UCDP_OSV_GOVT:
     name: One-sided violence deaths by government
     source: ucdp
     canonical_file: data/canonical/ucdp/OSV_GOVT.csv
     status_file: data/canonical/status/UCDP_OSV_GOVT.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-03'
   UCDP_OSV_REBEL:
     name: One-sided violence deaths by rebel actors
     source: ucdp
     canonical_file: data/canonical/ucdp/OSV_REBEL.csv
     status_file: data/canonical/status/UCDP_OSV_REBEL.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-03'
   UCDP_NSA:
     name: Non-state actor conflict deaths
     source: ucdp
     canonical_file: data/canonical/ucdp/NSA.csv
     status_file: data/canonical/status/UCDP_NSA.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-03'
   ACLED_FATALITIES:
     name: Total fatalities (ACLED)
     source: acled
@@ -658,43 +658,43 @@ series:
     source: unhcr
     canonical_file: data/canonical/unhcr/REF_ORIGIN.csv
     status_file: data/canonical/status/UNHCR_REF_ORIGIN.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-03'
   UNHCR_REF_ASYLUM:
     name: Refugees by country of asylum
     source: unhcr
     canonical_file: data/canonical/unhcr/REF_ASYLUM.csv
     status_file: data/canonical/status/UNHCR_REF_ASYLUM.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-03'
   UNHCR_IDP_TOTAL:
     name: Internally displaced persons (IDPs), total
     source: unhcr
     canonical_file: data/canonical/unhcr/IDP_TOTAL.csv
     status_file: data/canonical/status/UNHCR_IDP_TOTAL.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-03'
   UNHCR_RETURNEES_INT:
     name: International returnees
     source: unhcr
     canonical_file: data/canonical/unhcr/RETURNEES_INT.csv
     status_file: data/canonical/status/UNHCR_RETURNEES_INT.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-03'
   UNHCR_RETURNEES_IDP:
     name: IDP returnees
     source: unhcr
     canonical_file: data/canonical/unhcr/RETURNEES_IDP.csv
     status_file: data/canonical/status/UNHCR_RETURNEES_IDP.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-03'
   UNHCR_ASYLUM_SEEKERS_ORIGIN:
     name: Asylum seekers originating from this country
     source: unhcr
     canonical_file: data/canonical/unhcr/ASYLUM_SEEKERS_ORIGIN.csv
     status_file: data/canonical/status/UNHCR_ASYLUM_SEEKERS_ORIGIN.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-03'
   IOM_ARRIVALS:
     name: Tracked arrivals (IOM DTM)
     source: iom

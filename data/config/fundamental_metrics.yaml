@@ -266,7 +266,7 @@ categories:
       ILO_UNE_TUNE_SEX_AGE_RT:
         name: "Unemployment rate by sex and age (ILO definition)"
         source: ilo
-        source_code: UNE_TUNE_SEX_AGE_RT
+        source_code: UNE_DEAP_SEX_AGE_RT
         unit: percent_labor_force
         url: "https://ilostat.ilo.org/data/"
         coverage: "1991-present"
@@ -275,7 +275,7 @@ categories:
       ILO_EAP_TEAP_SEX_AGE_RT:
         name: "Labour force participation rate by sex and age (ILO)"
         source: ilo
-        source_code: EAP_TEAP_SEX_AGE_RT
+        source_code: EAP_DWAP_SEX_AGE_RT
         unit: percent
         url: "https://ilostat.ilo.org/data/"
         coverage: "1991-present"
@@ -290,10 +290,11 @@ categories:
         coverage: "2000-present"
         priority: 2
         used_by: []
+        notes: "No valid rplumber endpoint found; rate series unavailable via API"
       ILO_SDG_0851_SEX_AGE_RT:
         name: "NEET rate - youth not in education, employment or training (ILO)"
         source: ilo
-        source_code: SDG_0851_SEX_AGE_RT
+        source_code: EIP_NEET_SEX_AGE_RT
         unit: percent
         url: "https://ilostat.ilo.org/data/"
         coverage: "2000-present"
@@ -790,7 +791,7 @@ categories:
       UCDP_BDEATHS_INTERNAL:
         name: "Battle deaths — intrastate and internationalized conflicts (deaths INSIDE country)"
         source: ucdp
-        source_code: GED_BDEATHS_INTERNAL
+        source_code: BDEATHS_INTERNAL
         unit: persons
         url: "https://ucdp.uu.se/downloads/"
         coverage: "1989-present"
@@ -803,7 +804,7 @@ categories:
       UCDP_BDEATHS_INTERSTATE:
         name: "Battle deaths — interstate conflicts (nationals killed ABROAD)"
         source: ucdp
-        source_code: GED_BDEATHS_INTERSTATE
+        source_code: BDEATHS_INTERSTATE
         unit: persons
         url: "https://ucdp.uu.se/downloads/"
         coverage: "1989-present"
@@ -815,7 +816,7 @@ categories:
       UCDP_OSV_GOVT:
         name: "One-sided violence deaths by government actors"
         source: ucdp
-        source_code: GED_OSV_GOVT
+        source_code: OSV_GOVT
         unit: persons
         url: "https://ucdp.uu.se/downloads/"
         coverage: "1989-present"
@@ -824,7 +825,7 @@ categories:
       UCDP_OSV_REBEL:
         name: "One-sided violence deaths by rebel/non-state actors"
         source: ucdp
-        source_code: GED_OSV_REBEL
+        source_code: OSV_REBEL
         unit: persons
         url: "https://ucdp.uu.se/downloads/"
         coverage: "1989-present"
@@ -833,7 +834,7 @@ categories:
       UCDP_NSA:
         name: "Non-state actor conflict deaths"
         source: ucdp
-        source_code: GED_NSA
+        source_code: NSA
         unit: persons
         url: "https://ucdp.uu.se/downloads/"
         coverage: "1989-present"
