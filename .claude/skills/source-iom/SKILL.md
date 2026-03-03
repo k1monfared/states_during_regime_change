@@ -144,6 +144,8 @@ type: international_organization
 reliability: medium
 ```
 
+> **URL is mandatory.** Use the specific dataset page for each source listed above. Never leave `url: null`.
+
 ## Quick Lookup Steps
 
 ### For net_migration (World Bank):

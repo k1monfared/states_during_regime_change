@@ -69,6 +69,8 @@ type: international_organization
 reliability: high
 ```
 
+> **URL is mandatory.** For WEO data use `https://www.imf.org/en/Publications/WEO/weo-database`; for Article IV reports use the specific report URL from `https://www.imf.org/en/Publications/CR`. Never leave `url: null`.
+
 ## Hyperinflation Cases
 
 For years with hyperinflation (>100%/year — Venezuela 2016+, Zimbabwe, South Sudan):

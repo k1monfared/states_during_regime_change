@@ -78,11 +78,13 @@ reliability: high
 
 # ACLED:
 citation: "ACLED Data for <country>, <year>, accessed <YYYY-MM-DD>"
-url: "https://acleddata.com"
+url: "https://acleddata.com/data-export-tool/"
 access_date: "<YYYY-MM-DD>"
 type: index_dataset
 reliability: high
 ```
+
+> **URL is mandatory.** Use `https://ucdp.uu.se/downloads` for UCDP and `https://acleddata.com/data-export-tool/` for ACLED. Never leave `url: null`.
 
 ## Reliability Notes
 

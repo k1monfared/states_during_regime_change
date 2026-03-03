@@ -129,6 +129,24 @@ Cite sources in the format: `"Author/Organization, Title, Year"` or for database
 
 For URLs: include the direct link if possible; use the data landing page if direct links expire.
 
+## URL Requirement — MANDATORY
+
+**Every source entry MUST include a `url`.** Full traceability is a core requirement of this project.
+
+| Source type | URL guidance |
+|-------------|-------------|
+| `official_statistics` | Direct indicator page (e.g. `https://data.worldbank.org/indicator/NY.GDP.PCAP.CD`) |
+| `international_organization` | Report or dataset page (e.g. `https://www.unhcr.org/refugee-statistics/`) |
+| `think_tank_report` | Report permalink on issuing organization's website |
+| `academic_paper` | DOI URL (e.g. `https://doi.org/10.1016/...`) or journal permalink |
+| `news_report` | Original article URL; if unavailable use Wayback Machine archived version (`https://web.archive.org/web/<timestamp>/<url>`) or Google News (`https://news.google.com/`) |
+| `government_document` | Official government or legislative portal link |
+| `ngo_report` | Report page on issuing organization's website |
+| `index_dataset` | Dataset download or documentation page |
+| `inferred` | `url: null` is acceptable **only** for `inferred` type — no other type may use null |
+
+**Never leave `url: null`** for any source except `type: inferred`. If a URL is temporarily unavailable, search for an archived copy at `https://web.archive.org/`. If no URL can be found at all, change the source type to `inferred` and note the original citation in the `citation` field.
+
 ## Null vs. Empty String
 
 - Use `null` for unknown/missing values (not `""` or `"N/A"`)

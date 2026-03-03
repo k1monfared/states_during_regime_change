@@ -90,6 +90,8 @@ type: international_organization
 reliability: high
 ```
 
+> **URL is mandatory.** Use `https://data.unhcr.org` for UNHCR and `https://www.internal-displacement.org` for IDMC. Never leave `url: null`.
+
 ## Reliability Notes
 
 - UNHCR data: **high** for international refugees (registered with UNHCR or partner agencies)

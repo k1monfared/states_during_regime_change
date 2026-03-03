@@ -76,6 +76,8 @@ type: ngo_report
 reliability: medium
 ```
 
+> **URL is mandatory.** Use the country-year permalink: `https://freedomhouse.org/country/<country>/freedom-world/<year>`. Never leave `url: null`.
+
 ## Reliability Notes
 
 - FH scores are based on expert coding with editorial oversight; widely cited but subjective

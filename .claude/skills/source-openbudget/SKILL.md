@@ -82,6 +82,8 @@ type: ngo_report
 reliability: medium
 ```
 
+> **URL is mandatory.** Use the country page `https://internationalbudget.org/open-budget-survey/results-by-country` or survey landing page. Never leave `url: null`.
+
 ## Reliability Notes
 
 - OBI scores: **medium** — based on independent researcher questionnaires reviewed by IBP; credible but subjective

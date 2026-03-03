@@ -164,6 +164,8 @@ type: official_statistics
 reliability: high
 ```
 
+> **URL is mandatory.** Always use the direct indicator page URL: `https://data.worldbank.org/indicator/<Series Code>`. Never leave `url: null`.
+
 If a footnote applies:
 ```yaml
 citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Tunisia, 2011, accessed 2026-03-02"

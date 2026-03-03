@@ -70,6 +70,8 @@ type: international_organization
 reliability: high
 ```
 
+> **URL is mandatory.** Use the country page `https://eiti.org/countries/<country-name>`. Never leave `url: null`.
+
 ## Reliability Notes
 
 - EITI status: **high** reliability — externally validated by independent EITI Secretariat

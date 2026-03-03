@@ -105,6 +105,7 @@ Source skill files live at `.claude/skills/source-<name>/SKILL.md`. Each covers:
 - **NEVER guess quantitative values.** Only use numbers you can cite.
 - **Features MUST be from the valid vocabulary** defined in `data/config/indicators.yaml`. Do not create new feature names.
 - **Always provide sources.** Even for qualitative assessments, cite where the information comes from.
+- **URL is mandatory for every source.** `url: null` is never acceptable except for `type: inferred`. For news articles that are no longer live, find the archived version at `https://web.archive.org/web/<timestamp>/<original-url>`. If truly no URL can be found, change the type to `inferred` and note the original citation.
 - **Be conservative with confidence.** Use `high` only when you have multiple corroborating sources. Use `medium` for single reliable sources. Use `low` for inferred or indirect evidence.
 - **Preserve existing data.** If a year already has data filled in, do not overwrite it unless the user explicitly asks.
 

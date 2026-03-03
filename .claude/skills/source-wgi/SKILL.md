@@ -143,6 +143,8 @@ type: composite_index
 reliability: medium
 ```
 
+> **URL is mandatory.** Always use `https://info.worldbank.org/governance/wgi/` as the URL. Never leave `url: null`.
+
 Example:
 ```yaml
 citation: "World Bank WGI, PV.EST, Iraq, 2005, accessed 2026-03-02"

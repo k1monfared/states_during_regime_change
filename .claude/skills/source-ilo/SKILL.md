@@ -193,6 +193,8 @@ type: academic_estimate
 reliability: medium
 ```
 
+> **URL is mandatory.** Use `https://ilostat.ilo.org/data/` for ILO data. For academic sources, use the DOI or publication URL. Never leave `url: null`.
+
 ---
 
 ## Quick Lookup Steps

@@ -3,7 +3,7 @@
     "label": "Territorial Control",
     "concept": "The percentage of national territory over which the central government exercises effective control — meaning it can enforce laws, collect taxes, and maintain order without significant armed challenge from rival groups or foreign forces.\n",
     "primary_source": "Qualitative assessment (ICG, ACLED, academic literature)",
-    "primary_source_url": null,
+    "primary_source_url": "https://acleddata.com",
     "series_id": null,
     "numerator": "Territory under central government control",
     "denominator": "Total national territory",
@@ -22,10 +22,22 @@
       "Precision implied by percent scores exceeds actual data quality; treat categories as ranges, not exact values"
     ],
     "secondary_sources": [
-      "ACLED georeferenced conflict event data",
-      "UCDP Georeferenced Event Dataset (GED)",
-      "International Crisis Group (ICG) reports",
-      "UN Security Council reports and OCHA situation reports"
+      {
+        "name": "ACLED Georeferenced Conflict Event Data",
+        "url": "https://acleddata.com/data-export-tool/"
+      },
+      {
+        "name": "UCDP Georeferenced Event Dataset (GED)",
+        "url": "https://ucdp.uu.se/downloads/"
+      },
+      {
+        "name": "International Crisis Group (ICG) Crisis Watch",
+        "url": "https://www.crisisgroup.org/crisiswatch"
+      },
+      {
+        "name": "UN Security Council reports and OCHA situation reports",
+        "url": "https://www.unocha.org/publications"
+      }
     ],
     "id": "political/territorial_control",
     "dimension": "political"
@@ -54,9 +66,18 @@
       "One-sided state violence (extrajudicial killings, disappearances) is tracked separately in UCDP's one-sided violence dataset and may be undercounted due to information suppression"
     ],
     "secondary_sources": [
-      "ACLED (Armed Conflict Location and Event Data Project) — acleddata.com",
-      "Uppsala Conflict Data Program ACD (Armed Conflict Dataset)",
-      "UNHCR and OCHA reports for conflict intensity"
+      {
+        "name": "ACLED (Armed Conflict Location and Event Data Project)",
+        "url": "https://acleddata.com/data-export-tool/"
+      },
+      {
+        "name": "UCDP Armed Conflict Dataset (ACD)",
+        "url": "https://ucdp.uu.se/downloads/"
+      },
+      {
+        "name": "UNHCR and OCHA Humanitarian Reports",
+        "url": "https://www.unocha.org/publications"
+      }
     ],
     "id": "political/political_violence",
     "dimension": "political"
@@ -84,9 +105,18 @@
       "Coup periods and transitional governments create ambiguity about which institution is the 'legitimate' one to assess"
     ],
     "secondary_sources": [
-      "Freedom House Freedom in the World — Political Rights subcategories",
-      "Bertelsmann Transformation Index (BTI) for state quality",
-      "Qualitative assessment from ICG, news analysis"
+      {
+        "name": "Freedom House Freedom in the World — Political Rights subcategories",
+        "url": "https://freedomhouse.org/report/freedom-world"
+      },
+      {
+        "name": "Bertelsmann Transformation Index (BTI)",
+        "url": "https://bti-project.org/en/index"
+      },
+      {
+        "name": "International Crisis Group (ICG) reports",
+        "url": "https://www.crisisgroup.org"
+      }
     ],
     "id": "political/institutional_functioning",
     "dimension": "political"
@@ -114,8 +144,14 @@
       "No retroactive corrections — methodology changes affect forward comparability, not historical records"
     ],
     "secondary_sources": [
-      "V-Dem civil liberties index (v2x_civlib)",
-      "US State Department Country Reports on Human Rights Practices"
+      {
+        "name": "V-Dem Civil Liberties Index (v2x_civlib)",
+        "url": "https://www.v-dem.net/data/"
+      },
+      {
+        "name": "US State Department Country Reports on Human Rights Practices",
+        "url": "https://www.state.gov/reports-bureau-of-democracy-human-rights-and-labor/country-reports-on-human-rights-practices/"
+      }
     ],
     "id": "political/civil_liberties",
     "dimension": "political"
@@ -124,7 +160,7 @@
     "label": "Elite Cohesion",
     "concept": "Whether the ruling coalition is stable and internally cohesive, or whether it is fragmenting through defections, factional conflict, or coup attempts. Assesses the distribution of power among elites and the risk of leadership instability.\n",
     "primary_source": "Qualitative assessment (ICG reports, academic literature, news analysis)",
-    "primary_source_url": null,
+    "primary_source_url": "https://www.crisisgroup.org",
     "series_id": null,
     "numerator": null,
     "denominator": null,
@@ -142,10 +178,22 @@
       "Sources often only reveal elite fractures after the fact (coups, defections), creating a recency bias in assessments"
     ],
     "secondary_sources": [
-      "V-Dem party institutionalization and executive constraints indices",
-      "Archigos leadership dataset (for coup events)",
-      "International Crisis Group reports on elite politics",
-      "Academic literature on selectorate theory and elite bargaining"
+      {
+        "name": "V-Dem Party Institutionalization and Executive Constraints Indices",
+        "url": "https://www.v-dem.net/data/"
+      },
+      {
+        "name": "Archigos Leadership Dataset (coup events and leadership changes)",
+        "url": "https://binghamton.edu/political-science/research/archigos.html"
+      },
+      {
+        "name": "International Crisis Group — Elite Politics Reports",
+        "url": "https://www.crisisgroup.org"
+      },
+      {
+        "name": "Coup d'État Project (Powell & Thyne)",
+        "url": "https://www.uky.edu/~clthyn2/coup_data/home.htm"
+      }
     ],
     "id": "political/elite_cohesion",
     "dimension": "political"
@@ -173,8 +221,18 @@
       "Informal economy activity (significant in conflict-affected states) is often underestimated in national accounts"
     ],
     "secondary_sources": [
-      "IMF World Economic Outlook database — NGDPDPC (current USD) and PPPPC (PPP)",
-      "UN Statistics Division national accounts data"
+      {
+        "name": "IMF World Economic Outlook — NGDPDPC and PPPPC series",
+        "url": "https://imf.org/en/Publications/WEO"
+      },
+      {
+        "name": "UN Statistics Division National Accounts Data",
+        "url": "https://unstats.un.org/unsd/nationalaccount/"
+      },
+      {
+        "name": "Maddison Project Database (historical GDP back to 1820)",
+        "url": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023"
+      }
     ],
     "id": "economic/gdp_per_capita",
     "dimension": "economic"
@@ -202,9 +260,18 @@
       "IMF data is used as fallback when World Bank is absent; the two series can diverge for crisis years due to different estimation methods"
     ],
     "secondary_sources": [
-      "IMF International Financial Statistics — CPI (IFS line 64..ZF)",
-      "IMF World Economic Outlook — PCPIPCH (inflation, average consumer prices, % change)",
-      "Central bank publications for country-specific series"
+      {
+        "name": "IMF International Financial Statistics — CPI (IFS line 64)",
+        "url": "https://data.imf.org/?sk=4c514d48-b6ba-49ed-8ab9-52b0c1a0179b"
+      },
+      {
+        "name": "IMF World Economic Outlook — PCPIPCH series",
+        "url": "https://imf.org/en/Publications/WEO"
+      },
+      {
+        "name": "World Bank Global Economic Monitor (GEM) commodity prices",
+        "url": "https://datatopics.worldbank.org/world-development-indicators/"
+      }
     ],
     "id": "economic/inflation",
     "dimension": "economic"
@@ -233,8 +300,14 @@
       "Youth unemployment often runs 2–3× the overall rate; the aggregate figure can mask severe youth labor market stress"
     ],
     "secondary_sources": [
-      "ILO ILOSTAT — UR_LFP_SEX_AGE_RT (unemployment rate by sex and age)",
-      "IMF World Economic Outlook — LUR (unemployment rate)"
+      {
+        "name": "ILO ILOSTAT — Unemployment Rate by Sex and Age",
+        "url": "https://ilostat.ilo.org/data/"
+      },
+      {
+        "name": "IMF World Economic Outlook — LUR (unemployment rate)",
+        "url": "https://imf.org/en/Publications/WEO"
+      }
     ],
     "id": "economic/unemployment",
     "dimension": "economic"
@@ -262,8 +335,18 @@
       "Does not distinguish between voluntary trade policy openness and exogenous trade collapse due to conflict or sanctions"
     ],
     "secondary_sources": [
-      "IMF Direction of Trade Statistics (DOTS)",
-      "UNCTAD Trade Statistics"
+      {
+        "name": "IMF Direction of Trade Statistics (DOTS)",
+        "url": "https://data.imf.org/?sk=9d6028d4-f14a-464c-a2f2-59b2cd424b85"
+      },
+      {
+        "name": "UNCTAD Trade Statistics",
+        "url": "https://unctad.org/statistics"
+      },
+      {
+        "name": "WTO Statistics Portal",
+        "url": "https://www.wto.org/english/res_e/statis_e/statis_e.htm"
+      }
     ],
     "id": "economic/trade_openness",
     "dimension": "economic"
@@ -291,8 +374,18 @@
       "High debt in a country with its own currency and central bank differs fundamentally from high debt in a dollarized economy — the score does not distinguish these"
     ],
     "secondary_sources": [
-      "World Bank global debt database",
-      "Ministry of Finance reports for country-specific data"
+      {
+        "name": "World Bank Global Debt Database",
+        "url": "https://www.worldbank.org/en/programs/debt-statistics"
+      },
+      {
+        "name": "IMF Fiscal Monitor",
+        "url": "https://www.imf.org/en/Publications/FM"
+      },
+      {
+        "name": "IMF Article IV Staff Reports (country-specific)",
+        "url": "https://www.imf.org/en/Publications/CR"
+      }
     ],
     "id": "economic/fiscal_health",
     "dimension": "economic"
@@ -323,10 +416,26 @@
       "Sanctions evasion via shadow fleets (Russia, Iran), front companies, and third-country procurement networks means actual economic restriction is often lower than the legal framework implies"
     ],
     "secondary_sources": [
-      "EU External Action Service — EU Restrictive Measures (sanctions)",
-      "EU Sanctions Map — sanctionsmap.eu",
-      "UN Security Council sanctions committees — undocs.org",
-      "SIPRI Arms Embargo database"
+      {
+        "name": "EU Restrictive Measures (EU Sanctions Map)",
+        "url": "https://www.sanctionsmap.eu"
+      },
+      {
+        "name": "UN Security Council Sanctions Committees",
+        "url": "https://www.un.org/securitycouncil/sanctions/information"
+      },
+      {
+        "name": "OFAC Sanctions Programs and Country Information",
+        "url": "https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information"
+      },
+      {
+        "name": "SIPRI Arms Embargo Database",
+        "url": "https://www.sipri.org/databases/embargoes"
+      },
+      {
+        "name": "Global Sanctions Database (GSDB)",
+        "url": "https://www.globalsanctionsdatabase.com"
+      }
     ],
     "id": "international/sanctions",
     "dimension": "international"
@@ -335,7 +444,7 @@
     "label": "Diplomatic Integration",
     "concept": "The extent to which a country is recognized internationally, maintains active diplomatic relations, and participates in multilateral bodies. Assesses both formal recognition and substantive engagement in the international community.\n",
     "primary_source": "News analysis, foreign ministry announcements, UN treaty body records",
-    "primary_source_url": null,
+    "primary_source_url": "https://www.un.org/en/about-us/member-states",
     "series_id": "Qualitative assessment (no standardized index)",
     "numerator": null,
     "denominator": null,
@@ -353,9 +462,22 @@
       "Regional blocs (AU, EU, ASEAN) may suspend or readmit members independently of universal recognition"
     ],
     "secondary_sources": [
-      "UN General Assembly records (membership and voting)",
-      "State Department diplomatic relations list",
-      "European External Action Service diplomatic database"
+      {
+        "name": "UN General Assembly — Member States and Voting Records",
+        "url": "https://www.un.org/en/about-us/member-states"
+      },
+      {
+        "name": "US State Department — Bilateral Relations Fact Sheets",
+        "url": "https://www.state.gov/countries-areas/"
+      },
+      {
+        "name": "European External Action Service (EEAS)",
+        "url": "https://www.eeas.europa.eu/eeas/countries-and-regions_en"
+      },
+      {
+        "name": "CIA World Factbook — Government section (diplomatic relations)",
+        "url": "https://www.cia.gov/the-world-factbook/"
+      }
     ],
     "id": "international/diplomatic_integration",
     "dimension": "international"
@@ -382,9 +504,18 @@
       "Air operations and drone strikes may constitute foreign military activity without formal troop presence"
     ],
     "secondary_sources": [
-      "Stockholm International Peace Research Institute (SIPRI) Multilateral Peace Operations database",
-      "UN Department of Peace Operations troop contributions data",
-      "News analysis for bilateral deployments not in IISS"
+      {
+        "name": "SIPRI Multilateral Peace Operations Database",
+        "url": "https://www.sipri.org/databases/pko"
+      },
+      {
+        "name": "UN Peacekeeping — Troop and Police Contributors",
+        "url": "https://peacekeeping.un.org/en/troop-and-police-contributors"
+      },
+      {
+        "name": "IISS Armed Conflict Database",
+        "url": "https://www.iiss.org/online-analysis/armed-conflict-database/"
+      }
     ],
     "id": "international/foreign_military",
     "dimension": "international"
@@ -412,7 +543,18 @@
       "Negative FDI (disinvestment exceeding new investment) appropriately scores near zero as it signals capital flight"
     ],
     "secondary_sources": [
-      "UNCTAD World Investment Report — bilateral FDI statistics"
+      {
+        "name": "UNCTAD World Investment Report — Bilateral FDI Statistics",
+        "url": "https://unctad.org/topic/investment/world-investment-report"
+      },
+      {
+        "name": "UNCTAD FDI/MNE Database",
+        "url": "https://unctad.org/topic/investment/investment-statistics-and-trends"
+      },
+      {
+        "name": "IMF Balance of Payments Statistics",
+        "url": "https://data.imf.org/?sk=7a51304b-6426-40c0-83dd-ca473ca1fd52"
+      }
     ],
     "id": "international/fdi",
     "dimension": "international"
@@ -441,9 +583,22 @@
       "Palestinian refugees are tracked under UNRWA, not UNHCR; covered if relevant countries are in scope"
     ],
     "secondary_sources": [
-      "IDMC — Internal Displacement Monitoring Centre: internal-displacement.org",
-      "World Bank SP.POP.TOTL for population denominator",
-      "OCHA Humanitarian Needs Overviews for conflict-affected states"
+      {
+        "name": "IDMC — Internal Displacement Monitoring Centre",
+        "url": "https://www.internal-displacement.org/database/displacement-data"
+      },
+      {
+        "name": "UNHCR Refugee Data Finder",
+        "url": "https://www.unhcr.org/refugee-statistics/"
+      },
+      {
+        "name": "World Bank SP.POP.TOTL (Population Denominator)",
+        "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+      },
+      {
+        "name": "OCHA Humanitarian Needs Overviews",
+        "url": "https://www.unocha.org/publications"
+      }
     ],
     "id": "international/refugee_flows",
     "dimension": "international"
@@ -471,8 +626,18 @@
       "Not all 39 project countries are in every round; countries added later lack historical baselines"
     ],
     "secondary_sources": [
-      "IMF Fiscal Transparency Evaluations",
-      "PEFA (Public Expenditure and Financial Accountability) assessments"
+      {
+        "name": "IMF Fiscal Transparency Evaluations",
+        "url": "https://www.imf.org/en/Topics/fiscal-policies/Fiscal-Transparency"
+      },
+      {
+        "name": "PEFA (Public Expenditure and Financial Accountability) Assessments",
+        "url": "https://www.pefa.org/assessments"
+      },
+      {
+        "name": "IBP Open Budget Survey Data Portal",
+        "url": "https://www.internationalbudget.org/open-budget-survey/open-budget-survey-data/"
+      }
     ],
     "id": "transparency/budget_transparency",
     "dimension": "transparency"
@@ -500,8 +665,18 @@
       "Countries with limited international media coverage may have fewer RSF specialists, increasing per-respondent weight"
     ],
     "secondary_sources": [
-      "Freedom House — Freedom of the Press (discontinued 2017 as standalone; now integrated into FIW)",
-      "Committee to Protect Journalists (CPJ) imprisoned and killed journalists database"
+      {
+        "name": "Committee to Protect Journalists (CPJ) — Imprisoned and Killed Database",
+        "url": "https://cpj.org/data/"
+      },
+      {
+        "name": "Freedom House — Freedom of the Press (archived 1980–2017)",
+        "url": "https://freedomhouse.org/report/freedom-press"
+      },
+      {
+        "name": "IREX Media Sustainability Index",
+        "url": "https://www.irex.org/project/media-sustainability-index-msi"
+      }
     ],
     "id": "transparency/press_freedom",
     "dimension": "transparency"
@@ -530,9 +705,22 @@
       "For post-2021 years, ODIN biennial data must be interpolated; ODIN survey rounds do not align with OBI rounds"
     ],
     "secondary_sources": [
-      "World Bank Statistical Performance Indicators (SPI) — new framework from 2021",
-      "UN Statistics Division country profiles",
-      "PARIS21 (Partnership in Statistics for Development in the 21st Century) assessments"
+      {
+        "name": "World Bank Statistical Performance Indicators (SPI, from 2021)",
+        "url": "https://www.worldbank.org/en/programs/statistical-performance-indicators"
+      },
+      {
+        "name": "Open Data Inventory (ODIN)",
+        "url": "https://odin.opendatawatch.com"
+      },
+      {
+        "name": "UN Statistics Division — National Statistical Systems",
+        "url": "https://unstats.un.org/unsd/dnss/"
+      },
+      {
+        "name": "PARIS21 — Partnership in Statistics for Development",
+        "url": "https://paris21.org/sites/default/files/inline-files/PRESS_RELEASE_PARIS21_ANNUAL_REPORT.pdf"
+      }
     ],
     "id": "transparency/statistical_transparency",
     "dimension": "transparency"
@@ -562,9 +750,18 @@
       "Urban bias: the GPP polls only the three largest cities, systematically over-weighting urban populations; for predominantly rural countries this creates an upward bias"
     ],
     "secondary_sources": [
-      "V-Dem transparency indices (v2clacjstm, v2lgoppart)",
-      "US State Department Country Reports on Human Rights Practices — access to information section",
-      "Qualitative assessment from constitutional text analysis and freedom of information legislation review"
+      {
+        "name": "V-Dem Transparency Indices (v2clacjstm, v2lgoppart)",
+        "url": "https://www.v-dem.net/data/"
+      },
+      {
+        "name": "US State Department Human Rights Reports — Access to Information",
+        "url": "https://www.state.gov/reports-bureau-of-democracy-human-rights-and-labor/country-reports-on-human-rights-practices/"
+      },
+      {
+        "name": "WJP Open Government Data Download",
+        "url": "https://worldjusticeproject.org/rule-of-law-index/downloads"
+      }
     ],
     "id": "transparency/legal_transparency",
     "dimension": "transparency"
@@ -593,8 +790,18 @@
       "Compliant status sub-categories (satisfactory, meaningful, corrective actions required) reflect depth of implementation beyond basic compliance"
     ],
     "secondary_sources": [
-      "Natural Resource Governance Institute (NRGI) Resource Governance Index",
-      "Publish What You Pay coalition country reports"
+      {
+        "name": "Natural Resource Governance Institute (NRGI) Resource Governance Index",
+        "url": "https://resourcegovernance.org/analysis-tools/publications/2021-resource-governance-index"
+      },
+      {
+        "name": "Publish What You Pay Coalition",
+        "url": "https://www.publishwhatyoupay.org"
+      },
+      {
+        "name": "EITI Data Download Portal",
+        "url": "https://eiti.org/data-library"
+      }
     ],
     "id": "transparency/extractive_transparency",
     "dimension": "transparency"

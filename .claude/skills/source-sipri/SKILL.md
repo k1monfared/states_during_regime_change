@@ -116,6 +116,8 @@ type: official_statistics
 reliability: high
 ```
 
+> **URL is mandatory.** Use `https://www.sipri.org/databases/milex` for SIPRI data. Never leave `url: null`.
+
 ## YAML Components Schema
 
 ```yaml

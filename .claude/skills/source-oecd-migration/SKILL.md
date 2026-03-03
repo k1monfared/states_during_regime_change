@@ -110,6 +110,8 @@ type: survey_index
 reliability: low
 ```
 
+> **URL is mandatory.** Use the specific dataset or publication URL for each source listed above. Never leave `url: null`.
+
 ## Quick Lookup Steps
 
 ### Primary (World Bank SM.EMI.TERT.ZS):

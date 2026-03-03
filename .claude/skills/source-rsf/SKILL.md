@@ -61,6 +61,8 @@ type: ngo_report
 reliability: medium
 ```
 
+> **URL is mandatory.** Use the country page `https://rsf.org/en/<country-name>` or the index page `https://rsf.org/en/index`. Never leave `url: null`.
+
 ## Reliability Notes
 
 - RSF scores: **medium** — based on expert questionnaires; widely used but reflects journalist networks' access and priorities

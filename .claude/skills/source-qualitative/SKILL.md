@@ -125,10 +125,15 @@ sources:
     type: think_tank_report
     reliability: high
   - citation: "Reuters, '<Headline>', <Date>"
-    url: "<article URL if archived>"
+    url: "<article URL>"
     type: news_report
     reliability: medium
 ```
+
+> **URL is mandatory for every source.** `url: null` is never acceptable except for `type: inferred`.
+> - For think tank / NGO reports: use the report permalink on the issuing organization's website.
+> - For news articles: use the original article URL. If the page is no longer live, find the archived version at `https://web.archive.org/web/<timestamp>/<original-url>` or search Google News (`https://news.google.com/`) for the story.
+> - If no URL can be found at all: change the source type to `inferred` and note the original citation.
 
 ## Learning Entry Seed
 

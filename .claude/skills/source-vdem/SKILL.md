@@ -70,6 +70,8 @@ type: index_dataset
 reliability: high
 ```
 
+> **URL is mandatory.** Always use `https://v-dem.net/data/the-v-dem-dataset` as the URL. Never leave `url: null`.
+
 The V-Dem team asks for citation of their working paper:
 > Coppedge, Michael et al. 2024. V-Dem Codebook v14. Varieties of Democracy (V-Dem) Project.
 

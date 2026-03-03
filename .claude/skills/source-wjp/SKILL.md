@@ -86,6 +86,8 @@ type: index_dataset
 reliability: medium
 ```
 
+> **URL is mandatory.** Use `https://worldjusticeproject.org/rule-of-law-index` or the country-specific page. Never leave `url: null`.
+
 ## Reliability Notes
 
 - WJP uses expert surveys and household surveys; broadly credible
