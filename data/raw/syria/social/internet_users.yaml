@@ -1,0 +1,607 @@
+indicator: internet_users
+country: syria
+dimension: social
+years:
+  2009:
+    data_status: complete
+    quantitative:
+      value: 17.3
+      unit: percent_of_population
+      formula: "(internet_users_count / population) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2009, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.NB, Syria — indicator returned invalid value from API"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
+            access_date: "2026-03-02"
+          reliability: null
+          note: "IT.NET.USER.NB returned Invalid value error from World Bank API; absolute count not available"
+        population:
+          value: null
+          unit: persons
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#population"
+    qualitative:
+      assessment: "In 2009, approximately 17.3% of Syria's population used the internet, placing it in the 'very_low' category (5-20%). This was slightly below average for lower-middle income countries at that time. Urban areas, particularly Damascus and Aleppo, had significantly higher penetration than rural areas. Mobile internet was limited; most access was via fixed broadband or internet cafes. Syria had begun significant infrastructure investment to expand connectivity but remained well behind regional peers such as Jordan and Lebanon."
+      features:
+        - very_low_5_20pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2009"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "ITU data collected via national telecommunications survey; pre-war period has reasonable data quality but Syria's internet census methods were not highly rigorous."
+  2010:
+    data_status: complete
+    quantitative:
+      value: 20.7
+      unit: percent_of_population
+      formula: "(internet_users_count / population) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2010, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.NB, Syria — indicator returned invalid value from API"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
+            access_date: "2026-03-02"
+          reliability: null
+          note: "IT.NET.USER.NB returned Invalid value error from World Bank API"
+        population:
+          value: null
+          unit: persons
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#population"
+    qualitative:
+      assessment: "Internet penetration crossed the 20% threshold in 2010, reaching 20.7%. Growth was driven by expanding mobile infrastructure and falling device costs. The year 2010 was the last full year before the civil war. Social media platforms including Facebook and YouTube were growing rapidly; this internet access would shortly be used to organize protests in the Arab Spring. Syria's government had restricted and periodically blocked some internet services while allowing general access."
+      features:
+        - low_20_40pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2010"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: null
+  2011:
+    data_status: complete
+    quantitative:
+      value: 22.5
+      unit: percent_of_population
+      formula: "(internet_users_count / population) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2011, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.NB, Syria — indicator returned invalid value from API"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
+            access_date: "2026-03-02"
+          reliability: null
+          note: "IT.NET.USER.NB returned Invalid value error from World Bank API"
+        population:
+          value: null
+          unit: persons
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#population"
+    qualitative:
+      assessment: "Internet users rose to an estimated 22.5% in 2011, the year the civil war began. The value is an ITU estimate and should be treated cautiously given the onset of conflict and the Syrian government's documented internet shutdowns during protest periods. The regime repeatedly interrupted internet and mobile communications in areas of unrest. Growth trajectory suggests continued urban adoption, but actual access during the uprising was highly disrupted by government blocking of social media and internet outages."
+      features:
+        - low_20_40pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2011"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Civil war began in 2011; Syrian government implemented documented internet shutdowns. ITU estimates extrapolated; actual access severely disrupted in conflict zones."
+  2012:
+    data_status: complete
+    quantitative:
+      value: 24.3
+      unit: percent_of_population
+      formula: "(internet_users_count / population) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2012, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.NB, Syria — indicator returned invalid value from API"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
+            access_date: "2026-03-02"
+          reliability: null
+          note: "IT.NET.USER.NB returned Invalid value error from World Bank API"
+        population:
+          value: null
+          unit: persons
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#population"
+    qualitative:
+      assessment: "The ITU estimate shows internet usage continuing to rise to 24.3% in 2012, but this figure must be interpreted with extreme caution. Active conflict was underway across Syria in 2012, with major battles in Aleppo and widespread fighting in rural areas. Government-controlled areas likely maintained internet access while opposition-held areas experienced repeated shutdowns. The nationwide estimate masks profound geographic fragmentation of internet access. A November 2012 near-complete nationwide internet blackout lasting approximately 3 days was documented by network monitoring firms."
+      features:
+        - low_20_40pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2012"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Syria experienced documented near-total internet blackout in November 2012. ITU model likely not capturing actual access under conflict conditions."
+  2013:
+    data_status: complete
+    quantitative:
+      value: 26.2
+      unit: percent_of_population
+      formula: "(internet_users_count / population) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2013, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.NB, Syria — indicator returned invalid value from API"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
+            access_date: "2026-03-02"
+          reliability: null
+          note: "IT.NET.USER.NB returned Invalid value error from World Bank API"
+        population:
+          value: null
+          unit: persons
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#population"
+    qualitative:
+      assessment: "Estimated internet penetration of 26.2% in 2013 remains an ITU model estimate rather than a census-based measurement. The Syrian conflict had expanded with ISIL consolidating control over northeastern Syria including Raqqa, and government forces conducting sieges across the country. Internet access was increasingly fragmented by control zones. Mobile data networks provided spotty connectivity even in government areas due to infrastructure damage. The estimate likely reflects pre-conflict device ownership patterns extrapolated forward rather than actual measured access."
+      features:
+        - low_20_40pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2013"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Highly fragmented access by control zone; ISIL-controlled areas had no formal ISP infrastructure."
+  2014:
+    data_status: complete
+    quantitative:
+      value: 28.09
+      unit: percent_of_population
+      formula: "(internet_users_count / population) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2014, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.NB, Syria — indicator returned invalid value from API"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
+            access_date: "2026-03-02"
+          reliability: null
+          note: "IT.NET.USER.NB returned Invalid value error from World Bank API"
+        population:
+          value: null
+          unit: persons
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#population"
+    qualitative:
+      assessment: "The ITU model estimates 28.1% of Syria's population as internet users in 2014. Actual access conditions remained severely fragmented. Government-controlled areas around Damascus, Latakia, and parts of Aleppo maintained functioning internet; approximately 30-40% of Syria's territory under ISIL or other opposition control had little or no formal ISP access. Satellite internet provided some connectivity to refugee camps near borders. The continued rising estimate is primarily a modeling artifact reflecting pre-war adoption curves, not real measurement of access during an active war."
+      features:
+        - low_20_40pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2014"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: null
+  2015:
+    data_status: complete
+    quantitative:
+      value: 29.98
+      unit: percent_of_population
+      formula: "(internet_users_count / population) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2015, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.NB, Syria — indicator returned invalid value from API"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
+            access_date: "2026-03-02"
+          reliability: null
+          note: "IT.NET.USER.NB returned Invalid value error from World Bank API"
+        population:
+          value: null
+          unit: persons
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#population"
+    qualitative:
+      assessment: "Estimated internet penetration of approximately 30% in 2015 reflects ongoing ITU modeling during the war's most intense phase. The year 2015 saw the largest single-year refugee exodus in Syria's conflict — over 1 million Syrians fled to Europe alone. Russian military intervention began in September 2015. Telecom infrastructure was heavily damaged in contested cities. Syrian refugees in Turkey, Lebanon, and Jordan increasingly used smartphones for communication and information, partially inflating diaspora-linked access figures. Access within Syria itself was severely constrained."
+      features:
+        - low_20_40pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2015"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "2015 peak refugee crisis year; largest displacement wave. ITU estimate during active heavy conflict."
+  2016:
+    data_status: complete
+    quantitative:
+      value: 31.87
+      unit: percent_of_population
+      formula: "(internet_users_count / population) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2016, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.NB, Syria — indicator returned invalid value from API"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
+            access_date: "2026-03-02"
+          reliability: null
+          note: "IT.NET.USER.NB returned Invalid value error from World Bank API"
+        population:
+          value: null
+          unit: persons
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#population"
+    qualitative:
+      assessment: "In 2016, government forces recaptured Aleppo in December after a prolonged siege, with telecom infrastructure heavily damaged. ITU estimate of 31.9% continues the extrapolated upward trend. Government-controlled western Syria maintained functional internet in major cities; SyriaTel and MTN Syria continued operations. Opposition and ISIL-held areas remained without formal ISP coverage. The disparity between modeled national penetration and functional access for much of the population remained stark."
+      features:
+        - low_20_40pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2016"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: null
+  2017:
+    data_status: complete
+    quantitative:
+      value: 32.7
+      unit: percent_of_population
+      formula: "(internet_users_count / population) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2017, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.NB, Syria — indicator returned invalid value from API"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
+            access_date: "2026-03-02"
+          reliability: null
+          note: "IT.NET.USER.NB returned Invalid value error from World Bank API"
+        population:
+          value: null
+          unit: persons
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#population"
+    qualitative:
+      assessment: "Estimated 32.7% internet penetration in 2017 as ISIL territorial collapse accelerated. US-backed SDF forces liberated Raqqa in October 2017, partially restoring civilian communication infrastructure in northeastern Syria. The slowing growth rate compared to 2014-2016 may reflect the exhaustion of the ITU model's pre-war growth extrapolation. In practice, conflict-era Syria saw a bifurcated internet landscape: functional 3G/4G in government-held cities versus sporadic satellite and mobile access in other areas."
+      features:
+        - low_20_40pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2017"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: null
+  2018:
+    data_status: complete
+    quantitative:
+      value: 33.77
+      unit: percent_of_population
+      formula: "(internet_users_count / population) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2018, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.NB, Syria — indicator returned invalid value from API"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
+            access_date: "2026-03-02"
+          reliability: null
+          note: "IT.NET.USER.NB returned Invalid value error from World Bank API"
+        population:
+          value: null
+          unit: persons
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#population"
+    qualitative:
+      assessment: "Internet penetration estimated at 33.8% in 2018. Government forces recaptured most of western Syria by mid-2018, which would have partially restored access in formerly contested areas such as eastern Ghouta. Telecom reconstruction proceeded in recaptured areas, though at limited pace given economic conditions. ISIL defeat in most of Syria was near-complete. SyriaTel and MTN Syria expanded mobile internet coverage in recaptured zones. The overall trend reflects partial restoration of connectivity alongside continued growth in government-held areas."
+      features:
+        - low_20_40pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2018"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: null
+  2019:
+    data_status: complete
+    quantitative:
+      value: 34.65
+      unit: percent_of_population
+      formula: "(internet_users_count / population) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2019, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.NB, Syria — indicator returned invalid value from API"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.NB"
+            access_date: "2026-03-02"
+          reliability: null
+          note: "IT.NET.USER.NB returned Invalid value error from World Bank API"
+        population:
+          value: null
+          unit: persons
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#population"
+    qualitative:
+      assessment: "The last available World Bank data point shows 34.65% internet penetration in 2019. This was the final year before the Caesar Act sanctions (June 2020) would further constrain Syria's telecom sector and make data collection even more difficult. While the estimate places Syria at roughly one-third of population with internet access, actual access in the remaining 30% conflict-affected territories (Idlib, parts of northeast) remained far lower. The figure represents the peak of ITU-modeled penetration for Syria before the data series ends."
+      features:
+        - low_20_40pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2019"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Last available data point before series terminates. Caesar Act sanctions implemented June 2020 further complicated telecom sector operations."
+  2020:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_population
+      formula: "(internet_users_count / population) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2020 — no data available"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          shared_ref: null
+        population:
+          value: null
+          unit: persons
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#population"
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available from World Bank WDI for 2020. Caesar Act sanctions enacted June 2020; ITU collection disrupted."
+  2021:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_population
+      formula: "(internet_users_count / population) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2021 — no data available"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          shared_ref: null
+        population:
+          value: null
+          unit: persons
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#population"
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available from World Bank WDI for 2021."
+  2022:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_population
+      formula: "(internet_users_count / population) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2022 — no data available"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          shared_ref: null
+        population:
+          value: null
+          unit: persons
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#population"
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available from World Bank WDI for 2022."
+  2023:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_population
+      formula: "(internet_users_count / population) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2023 — no data available"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          shared_ref: null
+        population:
+          value: null
+          unit: persons
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#population"
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available from World Bank WDI for 2023."
+  2024:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_population
+      formula: "(internet_users_count / population) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2024 — no data available"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          shared_ref: null
+        population:
+          value: null
+          unit: persons
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#population"
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available from World Bank WDI for 2024. Assad regime fell December 2024; new transitional government established."
+  2025:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_population
+      formula: "(internet_users_count / population) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2025 — no data available"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          shared_ref: null
+        population:
+          value: null
+          unit: persons
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#population"
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available from World Bank WDI for 2025."
+  2026:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_population
+      formula: "(internet_users_count / population) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Syria, 2026 — no data available"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          shared_ref: null
+        population:
+          value: null
+          unit: persons
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#population"
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available. Year not yet complete at time of data collection (2026-03-02)."

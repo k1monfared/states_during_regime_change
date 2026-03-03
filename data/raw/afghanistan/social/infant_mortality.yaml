@@ -1,0 +1,1644 @@
+indicator: infant_mortality
+country: afghanistan
+dimension: social
+years:
+  1986:
+    data_status: complete
+    quantitative:
+      value: 181.1
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 1986, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: null
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 1986, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: low
+        under5_mortality_rate:
+          value: 253.1
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 1986, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality was 181.1 per 1000 live births in 1986, one of the highest rates globally. Conflict destroyed healthcare infrastructure, clean water systems, and maternal health services. Malnutrition compounded mortality risk for newborns."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Soviet occupation / civil war period"
+  1987:
+    data_status: complete
+    quantitative:
+      value: 176.9
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 1987, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 80.9
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 1987, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 247.2
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 1987, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality was 176.9 per 1000 live births in 1987, one of the highest rates globally. Conflict destroyed healthcare infrastructure, clean water systems, and maternal health services. Malnutrition compounded mortality risk for newborns."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Soviet occupation / civil war period"
+  1988:
+    data_status: complete
+    quantitative:
+      value: 163.4
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 1988, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 79
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 1988, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 218.4
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 1988, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality was 163.4 per 1000 live births in 1988, one of the highest rates globally. Conflict destroyed healthcare infrastructure, clean water systems, and maternal health services. Malnutrition compounded mortality risk for newborns."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Soviet occupation / civil war period"
+  1989:
+    data_status: complete
+    quantitative:
+      value: 149
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 1989, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 77
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 1989, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 187.1
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 1989, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality was 149.0 per 1000 live births in 1989, one of the highest rates globally. Conflict destroyed healthcare infrastructure, clean water systems, and maternal health services. Malnutrition compounded mortality risk for newborns."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Soviet occupation / civil war period"
+  1990:
+    data_status: complete
+    quantitative:
+      value: 144.5
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 1990, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 75.5
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 1990, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 180.7
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 1990, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality was 144.5 per 1000 live births in 1990, one of the highest rates globally. Conflict destroyed healthcare infrastructure, clean water systems, and maternal health services. Malnutrition compounded mortality risk for newborns."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Soviet occupation / civil war period"
+  1991:
+    data_status: complete
+    quantitative:
+      value: 140.1
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 1991, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 74
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 1991, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 174.4
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 1991, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality was 140.1 per 1000 live births in 1991, one of the highest rates globally. Conflict destroyed healthcare infrastructure, clean water systems, and maternal health services. Malnutrition compounded mortality risk for newborns."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Soviet occupation / civil war period"
+  1992:
+    data_status: complete
+    quantitative:
+      value: 135.9
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 1992, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 72.5
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 1992, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 168.5
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 1992, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality was 135.9 per 1000 live births in 1992, one of the highest rates globally. Conflict destroyed healthcare infrastructure, clean water systems, and maternal health services. Malnutrition compounded mortality risk for newborns."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Mujahideen civil war period"
+  1993:
+    data_status: complete
+    quantitative:
+      value: 132
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 1993, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 71
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 1993, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 163
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 1993, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality was 132.0 per 1000 live births in 1993, one of the highest rates globally. Conflict destroyed healthcare infrastructure, clean water systems, and maternal health services. Malnutrition compounded mortality risk for newborns."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Mujahideen civil war period"
+  1994:
+    data_status: complete
+    quantitative:
+      value: 128.3
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 1994, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 69.6
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 1994, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 157.7
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 1994, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality was 128.3 per 1000 live births in 1994, one of the highest rates globally. Conflict destroyed healthcare infrastructure, clean water systems, and maternal health services. Malnutrition compounded mortality risk for newborns."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Mujahideen civil war period"
+  1995:
+    data_status: complete
+    quantitative:
+      value: 124.8
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 1995, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 68.2
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 1995, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 152.8
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 1995, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality was 124.8 per 1000 live births in 1995, one of the highest rates globally. Conflict destroyed healthcare infrastructure, clean water systems, and maternal health services. Malnutrition compounded mortality risk for newborns."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Mujahideen civil war period"
+  1996:
+    data_status: complete
+    quantitative:
+      value: 121.7
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 1996, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 67
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 1996, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 148.3
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 1996, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality was 121.7 per 1000 live births in 1996, one of the highest rates globally. Conflict destroyed healthcare infrastructure, clean water systems, and maternal health services. Malnutrition compounded mortality risk for newborns."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Taliban first emirate (1996-2001)"
+  1997:
+    data_status: complete
+    quantitative:
+      value: 118.8
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 1997, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 65.7
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 1997, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 144.1
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 1997, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality was 118.8 per 1000 live births in 1997, one of the highest rates globally. Conflict destroyed healthcare infrastructure, clean water systems, and maternal health services. Malnutrition compounded mortality risk for newborns."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Taliban first emirate (1996-2001)"
+  1998:
+    data_status: complete
+    quantitative:
+      value: 115.9
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 1998, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 64.5
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 1998, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 139.9
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 1998, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality was 115.9 per 1000 live births in 1998, one of the highest rates globally. Conflict destroyed healthcare infrastructure, clean water systems, and maternal health services. Malnutrition compounded mortality risk for newborns."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Taliban first emirate (1996-2001)"
+  1999:
+    data_status: complete
+    quantitative:
+      value: 113
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 1999, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 63.4
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 1999, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 135.8
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 1999, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality was 113.0 per 1000 live births in 1999, one of the highest rates globally. Conflict destroyed healthcare infrastructure, clean water systems, and maternal health services. Malnutrition compounded mortality risk for newborns."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Taliban first emirate (1996-2001)"
+  2000:
+    data_status: complete
+    quantitative:
+      value: 110.1
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2000, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 62.2
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2000, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 131.7
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2000, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality was 110.1 per 1000 live births in 2000, one of the highest rates globally. Conflict destroyed healthcare infrastructure, clean water systems, and maternal health services. Malnutrition compounded mortality risk for newborns."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Taliban first emirate (1996-2001)"
+  2001:
+    data_status: complete
+    quantitative:
+      value: 107
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2001, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 61
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2001, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 127.4
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2001, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality was 107.0 per 1000 live births in 2001, one of the highest rates globally. Conflict destroyed healthcare infrastructure, clean water systems, and maternal health services. Malnutrition compounded mortality risk for newborns."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Taliban first emirate (1996-2001)"
+  2002:
+    data_status: complete
+    quantitative:
+      value: 103.8
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2002, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 59.7
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2002, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 123.1
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2002, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality improved to 103.8 per 1000 live births in 2002, reflecting the significant expansion of healthcare access under the post-2001 Basic Package of Health Services. Afghanistan achieved real gains in child survival, though rates remained far above global averages."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Post-2001 reconstruction"
+  2003:
+    data_status: complete
+    quantitative:
+      value: 100.6
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2003, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 58.3
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2003, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 118.7
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2003, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality improved to 100.6 per 1000 live births in 2003, reflecting the significant expansion of healthcare access under the post-2001 Basic Package of Health Services. Afghanistan achieved real gains in child survival, though rates remained far above global averages."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Post-2001 reconstruction"
+  2004:
+    data_status: complete
+    quantitative:
+      value: 97.2
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2004, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 57
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2004, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 114.2
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2004, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality improved to 97.2 per 1000 live births in 2004, reflecting the significant expansion of healthcare access under the post-2001 Basic Package of Health Services. Afghanistan achieved real gains in child survival, though rates remained far above global averages."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2005:
+    data_status: complete
+    quantitative:
+      value: 93.7
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2005, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 55.5
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2005, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 109.7
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2005, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality improved to 93.7 per 1000 live births in 2005, reflecting the significant expansion of healthcare access under the post-2001 Basic Package of Health Services. Afghanistan achieved real gains in child survival, though rates remained far above global averages."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2006:
+    data_status: complete
+    quantitative:
+      value: 90.1
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2006, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 54
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2006, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 105.1
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2006, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality improved to 90.1 per 1000 live births in 2006, reflecting the significant expansion of healthcare access under the post-2001 Basic Package of Health Services. Afghanistan achieved real gains in child survival, though rates remained far above global averages."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2007:
+    data_status: complete
+    quantitative:
+      value: 86.7
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2007, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 52.6
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2007, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 100.7
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2007, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality improved to 86.7 per 1000 live births in 2007, reflecting the significant expansion of healthcare access under the post-2001 Basic Package of Health Services. Afghanistan achieved real gains in child survival, though rates remained far above global averages."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2008:
+    data_status: complete
+    quantitative:
+      value: 83.3
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2008, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 51.1
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2008, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 96.3
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2008, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality improved to 83.3 per 1000 live births in 2008, reflecting the significant expansion of healthcare access under the post-2001 Basic Package of Health Services. Afghanistan achieved real gains in child survival, though rates remained far above global averages."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2009:
+    data_status: complete
+    quantitative:
+      value: 80
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2009, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 49.6
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 92.2
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality improved to 80.0 per 1000 live births in 2009, reflecting the significant expansion of healthcare access under the post-2001 Basic Package of Health Services. Afghanistan achieved real gains in child survival, though rates remained far above global averages."
+      features:
+        - very_high_gt_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2010:
+    data_status: complete
+    quantitative:
+      value: 76.9
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2010, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 48.2
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 88.3
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality improved to 76.9 per 1000 live births in 2010, reflecting the significant expansion of healthcare access under the post-2001 Basic Package of Health Services. Afghanistan achieved real gains in child survival, though rates remained far above global averages."
+      features:
+        - high_50_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2011:
+    data_status: complete
+    quantitative:
+      value: 74
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2011, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 46.8
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 84.6
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality improved to 74.0 per 1000 live births in 2011, reflecting the significant expansion of healthcare access under the post-2001 Basic Package of Health Services. Afghanistan achieved real gains in child survival, though rates remained far above global averages."
+      features:
+        - high_50_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2012:
+    data_status: complete
+    quantitative:
+      value: 71.3
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2012, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 45.5
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 81.2
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality improved to 71.3 per 1000 live births in 2012, reflecting the significant expansion of healthcare access under the post-2001 Basic Package of Health Services. Afghanistan achieved real gains in child survival, though rates remained far above global averages."
+      features:
+        - high_50_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2013:
+    data_status: complete
+    quantitative:
+      value: 68.7
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2013, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 44.2
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 78
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality improved to 68.7 per 1000 live births in 2013, reflecting the significant expansion of healthcare access under the post-2001 Basic Package of Health Services. Afghanistan achieved real gains in child survival, though rates remained far above global averages."
+      features:
+        - high_50_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2014:
+    data_status: complete
+    quantitative:
+      value: 66.4
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2014, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 42.9
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 75.1
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality improved to 66.4 per 1000 live births in 2014, reflecting the significant expansion of healthcare access under the post-2001 Basic Package of Health Services. Afghanistan achieved real gains in child survival, though rates remained far above global averages."
+      features:
+        - high_50_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2015:
+    data_status: complete
+    quantitative:
+      value: 64.2
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2015, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 41.8
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 72.4
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality improved to 64.2 per 1000 live births in 2015, reflecting the significant expansion of healthcare access under the post-2001 Basic Package of Health Services. Afghanistan achieved real gains in child survival, though rates remained far above global averages."
+      features:
+        - high_50_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2016:
+    data_status: complete
+    quantitative:
+      value: 62.3
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2016, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 40.8
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 70
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality improved to 62.3 per 1000 live births in 2016, reflecting the significant expansion of healthcare access under the post-2001 Basic Package of Health Services. Afghanistan achieved real gains in child survival, though rates remained far above global averages."
+      features:
+        - high_50_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2017:
+    data_status: complete
+    quantitative:
+      value: 60.4
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2017, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 39.7
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 67.6
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality improved to 60.4 per 1000 live births in 2017, reflecting the significant expansion of healthcare access under the post-2001 Basic Package of Health Services. Afghanistan achieved real gains in child survival, though rates remained far above global averages."
+      features:
+        - high_50_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2018:
+    data_status: complete
+    quantitative:
+      value: 58.6
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2018, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 38.7
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 65.4
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality improved to 58.6 per 1000 live births in 2018, reflecting the significant expansion of healthcare access under the post-2001 Basic Package of Health Services. Afghanistan achieved real gains in child survival, though rates remained far above global averages."
+      features:
+        - high_50_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2019:
+    data_status: complete
+    quantitative:
+      value: 56.9
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2019, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 37.8
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 63.3
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality improved to 56.9 per 1000 live births in 2019, reflecting the significant expansion of healthcare access under the post-2001 Basic Package of Health Services. Afghanistan achieved real gains in child survival, though rates remained far above global averages."
+      features:
+        - high_50_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2020:
+    data_status: complete
+    quantitative:
+      value: 55.3
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2020, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 36.9
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 61.3
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality improved to 55.3 per 1000 live births in 2020, reflecting the significant expansion of healthcare access under the post-2001 Basic Package of Health Services. Afghanistan achieved real gains in child survival, though rates remained far above global averages."
+      features:
+        - high_50_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2021:
+    data_status: complete
+    quantitative:
+      value: 53.6
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2021, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 36
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 59.3
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality improved to 53.6 per 1000 live births in 2021, reflecting the significant expansion of healthcare access under the post-2001 Basic Package of Health Services. Afghanistan achieved real gains in child survival, though rates remained far above global averages."
+      features:
+        - high_50_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2022:
+    data_status: complete
+    quantitative:
+      value: 52
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2022, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 35.2
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 57.4
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality was 52.0 per 1000 live births in 2022. Healthcare system disruption after Taliban takeover and aid suspension threatened the gains made 2001-2021. Malnutrition crisis deepened significantly after 2021."
+      features:
+        - high_50_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Second Taliban emirate (post-2021)"
+  2023:
+    data_status: complete
+    quantitative:
+      value: 50.4
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2023, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        neonatal_mortality_rate:
+          value: 34.3
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: medium
+        under5_mortality_rate:
+          value: 55.5
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Infant mortality was 50.4 per 1000 live births in 2023. Healthcare system disruption after Taliban takeover and aid suspension threatened the gains made 2001-2021. Malnutrition crisis deepened significantly after 2021."
+      features:
+        - high_50_80
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Second Taliban emirate (post-2021)"
+  2024:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2024, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        neonatal_mortality_rate:
+          value: null
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: low
+        under5_mortality_rate:
+          value: null
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No infant mortality data for 2024."
+      features:
+        []
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: low
+      notes: "Second Taliban emirate (post-2021)"
+  2025:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2025, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        neonatal_mortality_rate:
+          value: null
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: low
+        under5_mortality_rate:
+          value: null
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No infant mortality data for 2025."
+      features:
+        []
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: low
+      notes: "Second Taliban emirate (post-2021)"
+  2026:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 -- WB provides directly as SP.DYN.IMRT.IN"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Afghanistan, 2026, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        neonatal_mortality_rate:
+          value: null
+          unit: per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Afghanistan, 2026, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: low
+        under5_mortality_rate:
+          value: null
+          unit: per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Afghanistan, 2026, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No infant mortality data for 2026."
+      features:
+        []
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, IGME estimates"
+          type: statistical
+          reliability: medium
+      confidence: low
+      notes: "Second Taliban emirate (post-2021)"

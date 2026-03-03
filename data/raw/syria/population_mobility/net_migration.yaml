@@ -1,0 +1,636 @@
+indicator: net_migration
+country: syria
+dimension: population_mobility
+years:
+  2009:
+    data_status: complete
+    quantitative:
+      value: -2.40
+      unit: per_thousand_population
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Syria, 2009 (5-year period), accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: -52703
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Syria, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Syria had modest net emigration of approximately -52,700 over the 5-year period centered on 2009, yielding roughly -2.4 per thousand annually. This reflects typical labor emigration to Gulf states and other regional destinations. Syria also hosted substantial Iraqi refugee populations post-2003 which are partially captured in these figures. Pre-conflict migration patterns were relatively stable; the country was neither a major emigration nor immigration destination. WB's 5-year aggregate is divided by 5 here for a per-year estimate; actual annual variation is undetectable from this source."
+      features:
+        - mild_net_outflow
+      sources:
+        - citation: "World Bank WDI, SM.POP.NETM, Syria, 2009 (5-year aggregate)"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "World Bank net migration is a 5-year aggregate; value divided by 5 for annual rate. UNHCR reports Syria also hosted ~1M Iraqi refugees at this time not fully captured here."
+  2010:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: per_thousand_population
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Syria, 2010, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM — not a reporting year for 5-yr aggregate"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "World Bank SM.POP.NETM is reported in 5-year aggregates only; 2010 is not a reporting year. Migration patterns likely similar to 2009 (modest net emigration) in the pre-uprising year. Arab Spring protests in Tunisia and Egypt beginning in late 2010 beginning to generate regional instability awareness."
+      features:
+        - mild_net_outflow
+      sources:
+        - citation: "World Bank WDI, SM.POP.NETM — 5-year aggregate, not annual"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WB SM.POP.NETM only provides 5-year aggregates; interpolation/extrapolation not possible without additional sources."
+  2011:
+    data_status: complete
+    quantitative:
+      value: -11.23
+      unit: per_thousand_population
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Syria, 2011 (5-year period), accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        net_migration_5yr_sum:
+          value: -256888
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Syria, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Net migration 5-year aggregate of -256,888 centered on 2011 reflects the beginning of the exodus, averaging approximately -11.2 per thousand annually. The WB figure captures the onset of refugee flows but substantially understates the scale that would develop in subsequent years. By end 2011 UNHCR registered nearly 20,000 Syrian refugees; the actual initial flight was much larger. This 5-year period spans both pre- and post-uprising conditions and should be interpreted cautiously as an onset indicator only."
+      features:
+        - significant_net_outflow
+      sources:
+        - citation: "World Bank WDI, SM.POP.NETM, Syria, 2011"
+          type: official_statistics
+          reliability: low
+        - citation: "UNHCR Syria Regional Refugee Response"
+          type: ngo
+          reliability: medium
+      confidence: low
+      notes: "5-year aggregate centered on 2011; the crisis was accelerating sharply during this period. WB figure likely understates actual outflow scale."
+  2012:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: per_thousand_population
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Syria, 2012, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        net_migration_5yr_sum:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM — not a reporting year"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Not a WB reporting year. UNHCR data indicates 728,000 Syrian refugees registered by end 2012 — a massive acceleration. Internal displacement (IDPs) also reached millions by end 2012. The actual per-thousand emigration rate in 2012 alone was likely in the significant-to-severe range, far beyond the WB 5-year aggregate can capture."
+      features:
+        - significant_net_outflow
+      sources:
+        - citation: "UNHCR Syria Situation, 2012 figures"
+          type: ngo
+          reliability: medium
+      confidence: low
+      notes: "UNHCR: 728,000 registered refugees end-2012. WB 5-year aggregate not available for this year."
+  2013:
+    data_status: complete
+    quantitative:
+      value: -96.07
+      unit: per_thousand_population
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Syria, 2013 (5-year period), accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        net_migration_5yr_sum:
+          value: -2081303
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Syria, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "The 2013 WB 5-year aggregate of -2,081,303 net migrants is the peak outflow year in the series, yielding a staggering -96 per thousand per year annualized equivalent. This 5-year period centered on 2013 captured the mass exodus peak. By end 2013, UNHCR had registered over 2.3 million Syrian refugees, with UNHCR estimating actual refugee numbers at 3.5 million+. This is one of the largest refugee crises measured in WB migration data for any country. The per-thousand figure should be interpreted with extreme caution — the 5-year aggregate spans a period of extremely concentrated outflows."
+      features:
+        - severe_net_outflow
+      sources:
+        - citation: "World Bank WDI, SM.POP.NETM, Syria, 2013"
+          type: official_statistics
+          reliability: low
+        - citation: "UNHCR Syria Situation, 2013 figures"
+          type: ngo
+          reliability: medium
+      confidence: low
+      notes: "UNHCR: 2.3M+ registered refugees end-2013; actual total estimated 3.5M+. WB 5yr aggregate likely understates true scale. -96 per thousand annualized is an arithmetic calculation from a concentrated outflow; not interpretable as a stable annual rate."
+  2014:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: per_thousand_population
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Syria, 2014, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        net_migration_5yr_sum:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM — not a reporting year"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Not a WB reporting year. Refugee crisis continued to expand; UNHCR registered 3.88M Syrian refugees by end 2014. ISIS expansion dramatically accelerated internal displacement, particularly in northern and eastern Syria. Total displacement (refugees + IDPs) exceeded 10 million."
+      features:
+        - severe_net_outflow
+      sources:
+        - citation: "UNHCR Syria Situation, 2014 figures"
+          type: ngo
+          reliability: medium
+      confidence: low
+      notes: "UNHCR: 3.88M registered refugees end-2014. ISIS expansion creates massive new IDP flows."
+  2015:
+    data_status: complete
+    quantitative:
+      value: -42.55
+      unit: per_thousand_population
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Syria, 2015 (5-year period), accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        net_migration_5yr_sum:
+          value: -827496
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Syria, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "The 2015 WB aggregate of -827,496 net migrants (annualized -42.5 per thousand) is lower than the 2013 peak figure despite 2015 being the peak European refugee crisis year. This paradox reflects how the WB's 5-year aggregates are centered, not annual figures. UNHCR reported over 4.8 million Syrian refugees by end 2015. Over 1 million Syrians crossed to Europe in 2015 alone. The WB aggregate likely reflects a different measurement period that combines earlier and later outflow rates."
+      features:
+        - severe_net_outflow
+      sources:
+        - citation: "World Bank WDI, SM.POP.NETM, Syria, 2015"
+          type: official_statistics
+          reliability: low
+        - citation: "UNHCR Syria Situation, 2015 figures"
+          type: ngo
+          reliability: medium
+      confidence: low
+      notes: "UNHCR: 4.8M+ registered refugees end-2015; 1M+ reached Europe in 2015. WB 5-yr aggregate timing explains apparent paradox vs 2013 figure."
+  2016:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: per_thousand_population
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Syria, 2016, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        net_migration_5yr_sum:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM — not a reporting year"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Not a WB reporting year. EU-Turkey deal (March 2016) substantially reduced Mediterranean crossings. Refugee numbers outside Syria stabilized somewhat. Battle of Aleppo created new IDP flows within Syria. Some returns to recaptured areas."
+      features:
+        - severe_net_outflow
+      sources:
+        - citation: "UNHCR Syria Situation, 2016 figures"
+          type: ngo
+          reliability: medium
+      confidence: low
+      notes: "EU-Turkey deal reduces European crossings; overall displacement still massive."
+  2017:
+    data_status: complete
+    quantitative:
+      value: -14.94
+      unit: per_thousand_population
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Syria, 2017 (5-year period), accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        net_migration_5yr_sum:
+          value: -287501
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Syria, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Net migration reduced to -287,501 over the 5-year period centered on 2017, annualized -14.9 per thousand. The reduction from 2013/2015 peaks reflects a combination of: fewer new refugees reaching registered status, some return movements to stable regime-controlled areas, and the mathematical effect of the 5-year window moving past the peak crisis years. Still significant net outflow by global standards."
+      features:
+        - significant_net_outflow
+      sources:
+        - citation: "World Bank WDI, SM.POP.NETM, Syria, 2017"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Declining from peak; reflects period average including early partial stabilization."
+  2018:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: per_thousand_population
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Syria, 2018, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        net_migration_5yr_sum:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM — not a reporting year"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Not a WB reporting year. Regime reconquering more territory; modest voluntary return movements beginning in some areas. Operations in Eastern Ghouta and Southern Syria generate new IDPs offsetting some returns."
+      features:
+        - significant_net_outflow
+      sources:
+        - citation: "UNHCR Syria Situation, 2018"
+          type: ngo
+          reliability: medium
+      confidence: low
+      notes: "Modest return movements beginning; new displacements from military operations continue."
+  2019:
+    data_status: complete
+    quantitative:
+      value: 24.60
+      unit: per_thousand_population
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Syria, 2019 (5-year period), accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        net_migration_5yr_sum:
+          value: 500985
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Syria, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "The 2019 WB figure shows a positive 5-year net migration total of 500,985 — a reversal to net inflow. This reflects the mathematical averaging of the 5-year window now capturing the decline in outflows from 2015-2016 peaks plus some return movements. The positive sign should not be interpreted as a genuine return migration wave; UNHCR still records over 6.6 million Syrian refugees and 6 million IDPs in 2019. The WB figure is sensitive to the specific 5-year window and averaging methodology."
+      features:
+        - mild_net_inflow
+      sources:
+        - citation: "World Bank WDI, SM.POP.NETM, Syria, 2019"
+          type: official_statistics
+          reliability: low
+        - citation: "UNHCR Syria Situation, 2019 — 6.6M refugees"
+          type: ngo
+          reliability: medium
+      confidence: low
+      notes: "Positive WB figure reflects 5-yr window effect, NOT a genuine return wave. UNHCR: 6.6M refugees still abroad in 2019."
+  2020:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: per_thousand_population
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Syria, 2020, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        net_migration_5yr_sum:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM — not a reporting year"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Not a WB reporting year. Caesar Act sanctions from June 2020 effectively freeze reconstruction, discouraging returns. Lebanon's financial collapse threatens Syrian refugees there. COVID-19 borders closed reducing movement. Net position likely near flat or slightly positive in WB measurement terms as gross outflow slows."
+      features:
+        - roughly_stable
+      sources:
+        - citation: "UNHCR Syria Situation, 2020"
+          type: ngo
+          reliability: medium
+      confidence: low
+      notes: "Not a WB reporting year. Caesar Act and COVID suppress mobility."
+  2021:
+    data_status: complete
+    quantitative:
+      value: 9.77
+      unit: per_thousand_population
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Syria, 2021 (5-year period), accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        net_migration_5yr_sum:
+          value: 211220
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Syria, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "WB 5-year aggregate shows positive net migration of 211,220, annualized +9.8 per thousand. This continues to reflect the 5-year window moving past the 2013-2015 peak outflow years more than actual return movements. UNHCR still records ~5.8 million registered Syrian refugees in 2021. Some modest returns are occurring but the vast majority of displaced Syrians remain outside the country or internally displaced."
+      features:
+        - mild_net_inflow
+      sources:
+        - citation: "World Bank WDI, SM.POP.NETM, Syria, 2021"
+          type: official_statistics
+          reliability: low
+        - citation: "UNHCR Syria Situation, 2021 — 5.8M refugees"
+          type: ngo
+          reliability: medium
+      confidence: low
+      notes: "Positive WB figure reflects 5-yr window effect; UNHCR 5.8M refugees still abroad."
+  2022:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: per_thousand_population
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Syria, 2022, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        net_migration_5yr_sum:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM — not a reporting year"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Not a WB reporting year. Arab normalization process beginning; Gulf states resuming relations with Assad government. No major return movements yet; conditions in Syria remain unsafe for most refugees."
+      features:
+        - roughly_stable
+      sources:
+        - citation: "UNHCR Syria Situation, 2022"
+          type: ngo
+          reliability: medium
+      confidence: low
+      notes: "Not a WB reporting year."
+  2023:
+    data_status: complete
+    quantitative:
+      value: 35.05
+      unit: per_thousand_population
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Syria, 2023 (5-year period), accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        net_migration_5yr_sum:
+          value: 757309
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Syria, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "WB 5-year aggregate of +757,309 net migrants, annualized +35.1 per thousand. The WB measurement now captures a 5-year window (2019-2023) entirely after the peak outflows. However, the positive figure does not represent genuine mass return; UNHCR still records 5.5 million registered refugees in 2023. The earthquake in February 2023 actually displaced additional hundreds of thousands in northwest Syria. The positive WB figure primarily reflects the 5-year averaging window now excluding peak-crisis outflow years."
+      features:
+        - mild_net_inflow
+      sources:
+        - citation: "World Bank WDI, SM.POP.NETM, Syria, 2023"
+          type: official_statistics
+          reliability: low
+        - citation: "UNHCR Syria Situation, 2023"
+          type: ngo
+          reliability: medium
+      confidence: low
+      notes: "Positive WB figure reflects 5-yr window excluding peak outflow years. UNHCR: 5.5M refugees still abroad. Earthquake February 2023 displaced hundreds of thousands additionally."
+  2024:
+    data_status: complete
+    quantitative:
+      value: 22.17
+      unit: per_thousand_population
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Syria, 2024 (5-year period), accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        net_migration_5yr_sum:
+          value: 546494
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Syria, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "WB 5-year aggregate of +546,494 net migrants, annualized +22.2 per thousand. The December 2024 regime change (Assad government fell) has triggered a wave of anticipated returns by Syrian diaspora and refugees. However, actual large-scale returns had not materialized by early 2025 due to ongoing security uncertainties and economic conditions. This WB figure (reflecting 2020-2024 window) predates the regime change impact. Post-regime change return movements are beginning but are nascent as of March 2026."
+      features:
+        - mild_net_inflow
+      sources:
+        - citation: "World Bank WDI, SM.POP.NETM, Syria, 2024"
+          type: official_statistics
+          reliability: low
+        - citation: "UNHCR Syria Post-Transition Situation"
+          type: ngo
+          reliability: medium
+      confidence: low
+      notes: "WB 5-yr aggregate predates December 2024 regime change. Actual large-scale returns not yet materialized as of early 2026."
+  2025:
+    data_status: complete
+    quantitative:
+      value: 17.09
+      unit: per_thousand_population
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Syria, 2025 (5-year period), accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        net_migration_5yr_sum:
+          value: 421693
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Syria, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "WB 5-year aggregate of +421,693 net migrants, annualized +17.1 per thousand. This figure reflects the 2021-2025 window and therefore partially captures the early post-transition period. The regime change in December 2024 has created strong incentives for diaspora return; some Gulf-based and European-based Syrians began making preliminary return trips in early 2025. However, formal large-scale returns await security stabilization, economic recovery, and housing reconstruction. The WB figure likely underestimates returns occurring post-December 2024."
+      features:
+        - mild_net_inflow
+      sources:
+        - citation: "World Bank WDI, SM.POP.NETM, Syria, 2025"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Post-transition return incentives high; actual returns beginning but not yet large-scale. WB 5-yr estimate partially captures early transition."
+  2026:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: per_thousand_population
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Syria, 2026, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        net_migration_5yr_sum:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Syria, 2026 — no data"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "No data available; year not yet complete."
+      features: []
+      sources:
+        - citation: "World Bank WDI, SM.POP.NETM, Syria, 2026 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Year not yet complete."

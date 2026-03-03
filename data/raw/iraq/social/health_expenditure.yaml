@@ -1,0 +1,1663 @@
+indicator: health_expenditure
+country: iraq
+dimension: social
+years:
+  1988:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 1988, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 1988, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: null
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 1988, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1989:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 1989, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 1989, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: null
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 1989, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1990:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 1990, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 1990, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: null
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 1990, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1991:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 1991, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 1991, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: null
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 1991, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1992:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 1992, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 1992, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: null
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 1992, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1993:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 1993, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 1993, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: null
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 1993, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1994:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 1994, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 1994, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: null
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 1994, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1995:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 1995, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 1995, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: null
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 1995, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1996:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 1996, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 1996, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: null
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 1996, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1997:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 1997, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 1997, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: null
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 1997, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1998:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 1998, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 1998, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: null
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 1998, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1999:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 1999, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 1999, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: null
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 1999, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2000:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2000, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2000, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: null
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2000, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2001:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2001, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2001, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: null
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2001, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2002:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2002, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2002, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: null
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2002, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2003:
+    data_status: complete
+    quantitative:
+      value: 3.00
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2003, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2003, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 1.36
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2003, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_3_5pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2004:
+    data_status: complete
+    quantitative:
+      value: 3.90
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2004, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2004, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 2.73
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2004, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_3_5pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2005:
+    data_status: complete
+    quantitative:
+      value: 3.02
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2005, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2005, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 2.02
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2005, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_3_5pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2006:
+    data_status: complete
+    quantitative:
+      value: 2.49
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2006, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2006, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 1.53
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2006, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - very_low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2007:
+    data_status: complete
+    quantitative:
+      value: 3.21
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2007, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2007, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 2.04
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2007, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_3_5pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2008:
+    data_status: complete
+    quantitative:
+      value: 3.07
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2008, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2008, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 2.37
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2008, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_3_5pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2009:
+    data_status: complete
+    quantitative:
+      value: 3.77
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2009, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 2.89
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_3_5pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2010:
+    data_status: complete
+    quantitative:
+      value: 3.24
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2010, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 2.38
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_3_5pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2011:
+    data_status: complete
+    quantitative:
+      value: 2.80
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2011, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 2.08
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - very_low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2012:
+    data_status: complete
+    quantitative:
+      value: 2.69
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2012, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 1.01
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - very_low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2013:
+    data_status: complete
+    quantitative:
+      value: 2.81
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2013, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 1.15
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - very_low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2014:
+    data_status: complete
+    quantitative:
+      value: 2.79
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2014, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 1.04
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - very_low_lt_3pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2015:
+    data_status: complete
+    quantitative:
+      value: 3.16
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2015, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 0.73
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_3_5pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2016:
+    data_status: complete
+    quantitative:
+      value: 4.57
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2016, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 2.54
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_3_5pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2017:
+    data_status: complete
+    quantitative:
+      value: 4.09
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2017, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 1.69
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_3_5pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2018:
+    data_status: complete
+    quantitative:
+      value: 4.08
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2018, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 2.00
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_3_5pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2019:
+    data_status: complete
+    quantitative:
+      value: 4.21
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2019, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 2.08
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_3_5pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2020:
+    data_status: complete
+    quantitative:
+      value: 5.73
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2020, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 2.58
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - moderate_5_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2021:
+    data_status: complete
+    quantitative:
+      value: 5.14
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2021, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 2.54
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - moderate_5_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2022:
+    data_status: complete
+    quantitative:
+      value: 4.33
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2022, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 1.98
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_3_5pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2023:
+    data_status: complete
+    quantitative:
+      value: 5.53
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2023, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: 2.55
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - moderate_5_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2024:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2024, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: null
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2025:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2025, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: null
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2026:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq, 2026, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        health_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, SH.XPD.CHEX.CD, Iraq, 2026, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+        public_health_pct_gdp:
+          value: null
+          unit: percent_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iraq, 2026, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null

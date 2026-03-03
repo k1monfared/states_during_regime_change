@@ -1,0 +1,1393 @@
+indicator: military_expenditure
+country: afghanistan
+dimension: political
+years:
+  1986:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 1986, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 1986, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No data available for Afghanistan's military expenditure during the Soviet occupation period. Soviet forces provided extensive military hardware and funding to the Afghan army, but formal national accounts were not maintained. The actual defense burden was extreme given the ongoing civil war."
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "No formal data available for this period"
+          type: institutional
+          reliability: low
+      confidence: low
+      notes: "Soviet occupation period; no reliable GDP or military spending data"
+  1987:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 1987, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 1987, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No data available."
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "No formal data available for this period"
+          type: institutional
+          reliability: low
+      confidence: low
+      notes: "Soviet occupation period"
+  1988:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 1988, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 1988, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No data available. Soviet withdrawal began in 1988 following the Geneva Accords, but the civil war continued."
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "No formal data available for this period"
+          type: institutional
+          reliability: low
+      confidence: low
+      notes: "Soviet withdrawal year"
+  1989:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 1989, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 1989, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No data available. Soviet forces completed withdrawal in February 1989; the Najibullah government continued fighting mujahideen with Soviet-supplied weapons."
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "No formal data available for this period"
+          type: institutional
+          reliability: low
+      confidence: low
+      notes: "Post-Soviet withdrawal; civil war ongoing"
+  1990:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 1990, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 1990, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No data available."
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "No formal data available for this period"
+          type: institutional
+          reliability: low
+      confidence: low
+      notes: "Civil war period"
+  1991:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 1991, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 1991, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No data available. Soviet Union collapsed in 1991; Soviet aid to Najibullah government ended, accelerating its eventual fall."
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "No formal data available for this period"
+          type: institutional
+          reliability: low
+      confidence: low
+      notes: "Soviet Union collapse year; aid to Kabul cut"
+  1992:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 1992, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 1992, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No data available. Najibullah government fell in April 1992; mujahideen factions took Kabul. The subsequent civil war between factions meant no functional central state budget existed."
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "No formal data available for this period"
+          type: institutional
+          reliability: low
+      confidence: low
+      notes: "Najibullah government fell; mujahideen civil war begins"
+  1993:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 1993, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 1993, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No data available. Inter-factional civil war among mujahideen groups; no reliable national accounts."
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "No formal data available for this period"
+          type: institutional
+          reliability: low
+      confidence: low
+      notes: "Mujahideen civil war period"
+  1994:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 1994, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 1994, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No data available. The Taliban movement emerged in 1994 in Kandahar amid the civil war's chaos."
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "No formal data available for this period"
+          type: institutional
+          reliability: low
+      confidence: low
+      notes: "Taliban movement emerged"
+  1995:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 1995, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 1995, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No data available. Taliban continued rapid territorial expansion."
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "No formal data available for this period"
+          type: institutional
+          reliability: low
+      confidence: low
+      notes: "Taliban expansion"
+  1996:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 1996, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 1996, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No data available. Taliban captured Kabul in September 1996 and established the Islamic Emirate. No formal national accounts were maintained under Taliban rule, and international organizations were largely expelled or withdrew."
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "No formal data available for this period; Taliban era"
+          type: institutional
+          reliability: low
+      confidence: low
+      notes: "Taliban captured Kabul; first Taliban regime begins"
+  1997:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 1997, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 1997, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No data available. Taliban-era data gap."
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "No formal data available for this period; Taliban era"
+          type: institutional
+          reliability: low
+      confidence: low
+      notes: "Taliban era; no formal data"
+  1998:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 1998, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 1998, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No data available. Taliban era."
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "No formal data available for this period; Taliban era"
+          type: institutional
+          reliability: low
+      confidence: low
+      notes: "Taliban era; no formal data"
+  1999:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 1999, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 1999, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No data available. Taliban era."
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "No formal data available for this period; Taliban era"
+          type: institutional
+          reliability: low
+      confidence: low
+      notes: "Taliban era; no formal data"
+  2000:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2000, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2000, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No data available. Taliban era; GDP estimate available but no formal military budget."
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "No formal data available for this period; Taliban era"
+          type: institutional
+          reliability: low
+      confidence: low
+      notes: "Taliban era; no formal data"
+  2001:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2001, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2001, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No formal data. US-led invasion began in October 2001 following 9/11; Taliban regime collapsed by December 2001. US military spending in Afghanistan was not counted in Afghan national accounts."
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "No formal data available for transition year"
+          type: institutional
+          reliability: low
+      confidence: low
+      notes: "Regime change year: Taliban fell, US-led invasion"
+  2002:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2002, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2002, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No formal WB data for this year. The new Karzai government was establishing its institutions; Afghan National Army was being formed with US support. The vast majority of military spending was by US-led coalition forces and not recorded in Afghan national accounts."
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2002"
+          type: statistical
+          reliability: low
+      confidence: low
+      notes: "Data gap; US/NATO military operations dominant"
+  2003:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2003, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2003, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No formal WB data for this year."
+      features:
+        - elevated_4_7pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2003"
+          type: statistical
+          reliability: low
+      confidence: low
+      notes: "Data gap"
+  2004:
+    data_status: complete
+    quantitative:
+      value: 2.43
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2004, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 125111557.46
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2004, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Afghan government military expenditure was approximately 2.4% of GDP in 2004. This figure captures only the nascent Afghan National Army and police budgets, not the enormous US-led coalition military presence which was the dominant security force. Presidential elections were held in October 2004."
+      features:
+        - moderate_2_4pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2004"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Captures Afghan government military budget only; US/NATO operations excluded"
+  2005:
+    data_status: complete
+    quantitative:
+      value: 1.99
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2005, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 122727193.13
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2005, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Afghan government military spending was approximately 2.0% of GDP. The ratio declined slightly as GDP grew faster than the domestic military budget. Parliamentary elections held in 2005 reinforced constitutional governance, but security remained dependent on international forces."
+      features:
+        - low_1_2pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2005"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Captures Afghan government military budget only; US/NATO operations excluded"
+  2006:
+    data_status: complete
+    quantitative:
+      value: 1.90
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2006, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 131346231.27
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2006, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Afghan government military spending was approximately 1.9% of GDP. Taliban insurgency intensified in 2006, but the formal Afghan security budget remained modest relative to GDP as US/NATO bore the primary security burden."
+      features:
+        - low_1_2pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2006"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Captures Afghan government military budget only; US/NATO operations excluded"
+  2007:
+    data_status: complete
+    quantitative:
+      value: 2.57
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2007, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 219580214.30
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2007, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Afghan government military spending rose to 2.6% of GDP as the insurgency intensified and the Afghan National Army expanded. Absolute spending increased 67% from 2006 as NATO surged forces and the Afghan security forces grew."
+      features:
+        - moderate_2_4pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2007"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Captures Afghan government military budget only; US/NATO operations excluded"
+  2008:
+    data_status: complete
+    quantitative:
+      value: 2.34
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2008, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 240532594.62
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2008, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Afghan government military spending was 2.3% of GDP. US President Obama's election signaled an imminent surge; Taliban continued expanding operations across the south and east. The Afghan government's own security expenditure remained a fraction of the true security cost."
+      features:
+        - moderate_2_4pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2008"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Captures Afghan government military budget only; US/NATO operations excluded"
+  2009:
+    data_status: complete
+    quantitative:
+      value: 2.09
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2009, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 251869514.82
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Afghan government military expenditure at 2.1% of GDP. The US Obama surge saw 30,000 additional troops deployed; total international military presence reached ~140,000. Afghan security forces were rapidly expanded under ISAF training programs."
+      features:
+        - moderate_2_4pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2009"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US troop surge year"
+  2010:
+    data_status: complete
+    quantitative:
+      value: 1.95
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2010, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 298147102.83
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Afghan government military expenditure at 1.9% of GDP. Despite the surge in total international security spending, the formal Afghan government military budget remained modest. GDP growth diluted the ratio even as absolute spending rose."
+      features:
+        - low_1_2pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2010"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Peak US troop presence"
+  2011:
+    data_status: complete
+    quantitative:
+      value: 1.82
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2011, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 325806949.72
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Afghan government military spending at 1.8% of GDP. US began drawdown timeline; NATO transition to Afghan lead security began. Osama bin Laden killed in Pakistan in May 2011."
+      features:
+        - low_1_2pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2011"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US drawdown timeline announced"
+  2012:
+    data_status: complete
+    quantitative:
+      value: 1.18
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2012, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 238583385.37
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Afghan government military expenditure fell to 1.2% of GDP as US began drawing down troops. Absolute spending declined from 2011 peak. The Afghan government was formally assigned lead security responsibility in transition provinces."
+      features:
+        - low_1_2pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2012"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US drawdown began; Afghan forces taking security lead"
+  2013:
+    data_status: complete
+    quantitative:
+      value: 1.08
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2013, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 217194107.11
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Afghan government military spending at 1.1% of GDP, continuing to decline. Afghan forces officially took over full security responsibility across the country in June 2013, though heavily reliant on US/NATO funding and logistical support."
+      features:
+        - low_1_2pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2013"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Afghan forces took formal security lead"
+  2014:
+    data_status: complete
+    quantitative:
+      value: 1.30
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2014, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 268238787.72
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Afghan government military expenditure rose to 1.3% of GDP as NATO combat mission ended in December 2014. The Ghani-Abdullah National Unity Government formed after disputed elections; security demands increased as Taliban gained ground."
+      features:
+        - low_1_2pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2014"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "NATO combat mission ended; Afghan forces assumed primary responsibility"
+  2015:
+    data_status: complete
+    quantitative:
+      value: 0.99
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2015, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 199517108.76
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Afghan government military spending dropped below 1% of GDP in 2015 as fiscal constraints tightened. The Taliban captured Kunduz briefly in September-October 2015, the first provincial capital taken since 2001, demonstrating the deteriorating security situation despite the military spending data."
+      features:
+        - minimal_military_spending_lt_1pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2015"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Taliban captured Kunduz briefly; formal Afghan defense budget below 1% of GDP"
+  2016:
+    data_status: complete
+    quantitative:
+      value: 0.96
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2016, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 185878310.06
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Afghan government military spending remained below 1% of GDP. Taliban launched major offensives across multiple provinces. The formal Afghan military budget severely understated the security burden, as US-funded ANA Trust Fund and bilateral assistance provided the bulk of ANA operational funding."
+      features:
+        - minimal_military_spending_lt_1pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2016"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Afghan government budget only; ANA Trust Fund external to these figures"
+  2017:
+    data_status: complete
+    quantitative:
+      value: 0.95
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2017, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 191407113.24
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Afghan government military spending at 0.95% of GDP. US announced new South Asia strategy in August 2017; about 3,000 additional US troops deployed. Taliban controlled or contested around 40% of Afghan territory by year end."
+      features:
+        - minimal_military_spending_lt_1pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2017"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US South Asia strategy announced; troop levels increased slightly"
+  2018:
+    data_status: complete
+    quantitative:
+      value: 1.01
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2018, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 198074728.57
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Afghan government military spending marginally crossed 1% of GDP. US-Taliban peace talks began in Qatar. Civilian casualties reached record highs according to UNAMA. Government forces suffered severe casualties."
+      features:
+        - low_1_2pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2018"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US-Taliban negotiations began"
+  2019:
+    data_status: complete
+    quantitative:
+      value: 1.17
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2019, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 226306243.73
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Afghan government military expenditure at 1.2% of GDP. US-Taliban deal nearly finalized then briefly collapsed in September 2019. Presidential elections marred by fraud allegations. Security conditions continued to deteriorate with Taliban controlling more territory."
+      features:
+        - low_1_2pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2019"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Doha negotiations; Taliban territorial gains"
+  2020:
+    data_status: complete
+    quantitative:
+      value: 1.36
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2020, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 279576954.93
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Afghan government military spending rose to 1.4% of GDP in 2020. The US-Taliban Doha Agreement was signed in February 2020 committing US forces to withdrawal. Intra-Afghan negotiations stalled. Taliban attacks on Afghan security forces continued despite a brief reduction in violence."
+      features:
+        - low_1_2pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2020"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Doha Agreement signed; US withdrawal timeline set"
+  2021:
+    data_status: complete
+    quantitative:
+      value: 1.83
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2021, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 278250788.01
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Afghan government military expenditure appears at 1.8% of GDP for 2021, but this captures only the January-August period before Taliban takeover in August. The collapse of the Afghan National Defense and Security Forces was swift and total; the figure reflects spending by a government that ceased to exist."
+      features:
+        - low_1_2pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2021"
+          type: statistical
+          reliability: low
+      confidence: low
+      notes: "Partial year; Taliban takeover August 2021; ANDSF collapsed; data covers Republic government period only"
+  2022:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2022, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No data available. Taliban Islamic Emirate does not publish formal national accounts or defense budgets. International sanctions and aid suspension mean no standard reporting mechanisms exist."
+      features: []
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS; no data for post-2021 Taliban period"
+          type: statistical
+          reliability: low
+      confidence: low
+      notes: "Taliban era; no formal defense budget reported"
+  2023:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2023, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No data available. Taliban Islamic Emirate continues without formal defense budget publication."
+      features: []
+      sources:
+        - citation: "No formal data available; Taliban era"
+          type: institutional
+          reliability: low
+      confidence: low
+      notes: "Taliban era; no formal defense budget reported"
+  2024:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2024, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No data available."
+      features: []
+      sources:
+        - citation: "No formal data available; Taliban era"
+          type: institutional
+          reliability: low
+      confidence: low
+      notes: "Taliban era"
+  2025:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2025, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No data available."
+      features: []
+      sources:
+        - citation: "No formal data available"
+          type: institutional
+          reliability: low
+      confidence: low
+      notes: "No data"
+  2026:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Afghanistan, 2026, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Afghanistan, 2026, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No data available."
+      features: []
+      sources:
+        - citation: "No formal data available"
+          type: institutional
+          reliability: low
+      confidence: low
+      notes: "No data"

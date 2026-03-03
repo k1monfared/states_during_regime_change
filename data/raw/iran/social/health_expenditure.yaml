@@ -1,0 +1,2348 @@
+indicator: health_expenditure
+country: iran
+dimension: social
+years:
+  1960:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1960, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1960, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1960"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1961:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1961, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1961, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1961"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1962:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1962, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1962, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1962"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1963:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1963, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1963, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1963"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1964:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1964, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1964, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1964"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1965:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1965, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1965, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1965"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1966:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1966, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1966, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1966"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1967:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1967, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1967, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1967"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1968:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1968, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1968, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1968"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1969:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1969, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1969, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1969"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1970:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1970, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1970, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1970"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1971:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1971, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1971, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1971"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1972:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1972, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1972, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1972"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1973:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1973, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1973, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1973"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1974:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1974, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1974, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1974"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1975:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1975, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1975, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1975"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1976:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1976, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1976, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1976"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1977:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1977, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1977, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1977"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1978:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1978, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1978, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1978"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1979:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1979, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1979, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1979"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1980:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1980, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1980, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1980"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1981:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1981, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1981, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1981"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1982:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1982, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1982, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1982"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1983:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1983, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1983, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1983"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1984:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1984, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1984, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1984"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1985:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1985, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1985, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1985"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1986:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1986, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1986, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1986"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1987:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1987, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1987, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1987"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1988:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1988, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1988, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1988"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1989:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1989, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1989, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1989"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1990:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1990, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1990, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1990"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1991:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1991, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1991, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1991"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1992:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1992, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1992, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1992"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1993:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1993, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1993, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1993"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1994:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1994, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1994, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1994"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1995:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1995, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1995, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1995"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1996:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1996, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1996, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1996"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1997:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1997, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1997, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1997"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1998:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1998, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1998, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1998"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  1999:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1999, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 1999, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 1999"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2000:
+    data_status: complete
+    quantitative:
+      value: 4.72
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2000, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 1.78
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2000, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Low health expenditure. First available year; 4.7% comparable to regional peers."
+      features:
+        - low_3_5pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2000"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2001:
+    data_status: complete
+    quantitative:
+      value: 5.16
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2001, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 1.97
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2001, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate health expenditure."
+      features:
+        - moderate_5_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2001"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2002:
+    data_status: complete
+    quantitative:
+      value: 4.65
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2002, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 1.83
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2002, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Low health expenditure."
+      features:
+        - low_3_5pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2002"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2003:
+    data_status: complete
+    quantitative:
+      value: 4.96
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2003, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 1.95
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2003, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Low health expenditure."
+      features:
+        - low_3_5pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2003"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2004:
+    data_status: complete
+    quantitative:
+      value: 5.13
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2004, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 1.87
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2004, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate health expenditure."
+      features:
+        - moderate_5_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2004"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2005:
+    data_status: complete
+    quantitative:
+      value: 5.3
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2005, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 1.95
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2005, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate health expenditure."
+      features:
+        - moderate_5_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2005"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2006:
+    data_status: complete
+    quantitative:
+      value: 5.16
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2006, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 2.15
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2006, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate health expenditure."
+      features:
+        - moderate_5_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2006"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2007:
+    data_status: complete
+    quantitative:
+      value: 4.91
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2007, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 1.96
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2007, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Low health expenditure."
+      features:
+        - low_3_5pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2007"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2008:
+    data_status: complete
+    quantitative:
+      value: 5.04
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2008, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 1.87
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2008, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate health expenditure."
+      features:
+        - moderate_5_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2008"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2009:
+    data_status: complete
+    quantitative:
+      value: 6.11
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2009, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 2.24
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate health expenditure."
+      features:
+        - moderate_5_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2009"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2010:
+    data_status: complete
+    quantitative:
+      value: 6.29
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2010, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 2.04
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate health expenditure."
+      features:
+        - moderate_5_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2010"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2011:
+    data_status: complete
+    quantitative:
+      value: 6.1
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2011, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 2.03
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate health expenditure."
+      features:
+        - moderate_5_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2011"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2012:
+    data_status: complete
+    quantitative:
+      value: 6.12
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2012, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 2.05
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate health expenditure."
+      features:
+        - moderate_5_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2012"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2013:
+    data_status: complete
+    quantitative:
+      value: 5.74
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2013, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 2.17
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate health expenditure."
+      features:
+        - moderate_5_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2013"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2014:
+    data_status: complete
+    quantitative:
+      value: 6.82
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2014, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 3.28
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate health expenditure. Jump to 6.8%; Rouhani health reform (universal health insurance) implementation."
+      features:
+        - moderate_5_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2014"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2015:
+    data_status: complete
+    quantitative:
+      value: 8.38
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2015, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 4.22
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "High health expenditure. Peak at 8.4%; health reform driving public spending surge."
+      features:
+        - high_gt_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2015"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2016:
+    data_status: complete
+    quantitative:
+      value: 7.8
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2016, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 4.13
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate health expenditure."
+      features:
+        - moderate_5_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2016"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2017:
+    data_status: complete
+    quantitative:
+      value: 7.72
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2017, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 4.19
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate health expenditure."
+      features:
+        - moderate_5_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2017"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2018:
+    data_status: complete
+    quantitative:
+      value: 6.64
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2018, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 3.17
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate health expenditure. Decline to 6.6%; US maximum pressure sanctions squeeze health imports."
+      features:
+        - moderate_5_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2018"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2019:
+    data_status: complete
+    quantitative:
+      value: 6.23
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2019, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 2.75
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate health expenditure."
+      features:
+        - moderate_5_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2019"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2020:
+    data_status: complete
+    quantitative:
+      value: 4.96
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2020, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 2.48
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Low health expenditure. Sharp drop to 5.0%; COVID-19 hits under-resourced system; sanctions restrict medicine."
+      features:
+        - low_3_5pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2020"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2021:
+    data_status: complete
+    quantitative:
+      value: 4.86
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2021, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 2.28
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Low health expenditure. Continued decline 4.9%; economic collapse constrains health spending."
+      features:
+        - low_3_5pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2021"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2022:
+    data_status: complete
+    quantitative:
+      value: 5.63
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2022, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 2.63
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate health expenditure."
+      features:
+        - moderate_5_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2022"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2023:
+    data_status: complete
+    quantitative:
+      value: 6.03
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2023, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        public_health_pct_gdp:
+          value: 2.82
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate health expenditure."
+      features:
+        - moderate_5_8pct
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2023"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2024:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2024, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2024"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2025:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2025, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2025"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"
+
+  2026:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(health_expenditure_usd / gdp_current_usd) * 100; World Bank provides directly"
+      source:
+        citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2026, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        public_health_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.XPD.GHED.GD.ZS, Iran, 2026, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Data not available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SH.XPD.CHEX.GD.ZS, Iran, 2026"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WHO Global Health Expenditure Database via World Bank; data only available from 2000; SH.XPD.CHEX.CD (absolute USD) not available via API; Rouhani 2014 health reform (tarh-e tahavol salamat) visible as sharp increase 2014-2015"

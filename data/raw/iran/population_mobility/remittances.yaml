@@ -1,0 +1,2348 @@
+indicator: remittances
+country: iran
+dimension: population_mobility
+years:
+  1960:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1960, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1960, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1960"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1961:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1961, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1961, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1961"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1962:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1962, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1962, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1962"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1963:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1963, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1963, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1963"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1964:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1964, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1964, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1964"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1965:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1965, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1965, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1965"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1966:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1966, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1966, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1966"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1967:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1967, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1967, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1967"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1968:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1968, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1968, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1968"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1969:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1969, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1969, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1969"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1970:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1970, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1970, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1970"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1971:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1971, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1971, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1971"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1972:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1972, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1972, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1972"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1973:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1973, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1973, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1973"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1974:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1974, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1974, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1974"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1975:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1975, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1975, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1975"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1976:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1976, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1976, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1976"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1977:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1977, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1977, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1977"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1978:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1978, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1978, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1978"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1979:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1979, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1979, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1979"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1980:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1980, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1980, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1980"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1981:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1981, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1981, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1981"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1982:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1982, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1982, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1982"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1983:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1983, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1983, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1983"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1984:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1984, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1984, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1984"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1985:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1985, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1985, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1985"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1986:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1986, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1986, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1986"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1987:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1987, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1987, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1987"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1988:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1988, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1988, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1988"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1989:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1989, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1989, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1989"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1990:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1990, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1990, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1990"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1991:
+    data_status: complete
+    quantitative:
+      value: 0.91
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1991, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        remittances_received_usd:
+          value: 1200000000
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1991, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Minimal remittances; Iran is primarily an oil economy with low diaspora remittance flows. First available year; remittances appear with post-war diaspora returning capital."
+      features:
+        - minimal_lt_1pct
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1991"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1992:
+    data_status: complete
+    quantitative:
+      value: 1.0
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1992, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        remittances_received_usd:
+          value: 1196000000
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1992, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Minimal remittances; Iran is primarily an oil economy with low diaspora remittance flows."
+      features:
+        - minimal_lt_1pct
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1992"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1993:
+    data_status: complete
+    quantitative:
+      value: 2.35
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1993, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        remittances_received_usd:
+          value: 1500000000
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1993, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate remittances. Peak at 2.35%; currency devaluation of rial inflates USD denominator making this appear high."
+      features:
+        - moderate_2_5pct
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1993"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1994:
+    data_status: complete
+    quantitative:
+      value: 1.67
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1994, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        remittances_received_usd:
+          value: 1200000000
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1994, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Low remittances."
+      features:
+        - low_1_2pct
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1994"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1995:
+    data_status: complete
+    quantitative:
+      value: 1.66
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1995, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        remittances_received_usd:
+          value: 1600000000
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1995, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Low remittances."
+      features:
+        - low_1_2pct
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1995"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1996:
+    data_status: complete
+    quantitative:
+      value: 0.55
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1996, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        remittances_received_usd:
+          value: 658000000
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1996, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Minimal remittances; Iran is primarily an oil economy with low diaspora remittance flows."
+      features:
+        - minimal_lt_1pct
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1996"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1997:
+    data_status: complete
+    quantitative:
+      value: 0.35
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1997, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        remittances_received_usd:
+          value: 400000000
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1997, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Minimal remittances; Iran is primarily an oil economy with low diaspora remittance flows."
+      features:
+        - minimal_lt_1pct
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1997"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1998:
+    data_status: complete
+    quantitative:
+      value: 0.62
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1998, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        remittances_received_usd:
+          value: 680000000
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1998, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Minimal remittances; Iran is primarily an oil economy with low diaspora remittance flows."
+      features:
+        - minimal_lt_1pct
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1998"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  1999:
+    data_status: complete
+    quantitative:
+      value: 0.45
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1999, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        remittances_received_usd:
+          value: 508000000
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 1999, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Minimal remittances; Iran is primarily an oil economy with low diaspora remittance flows."
+      features:
+        - minimal_lt_1pct
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 1999"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2000:
+    data_status: complete
+    quantitative:
+      value: 0.49
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2000, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        remittances_received_usd:
+          value: 536000000
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2000, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Minimal remittances; Iran is primarily an oil economy with low diaspora remittance flows."
+      features:
+        - minimal_lt_1pct
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2000"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2001:
+    data_status: complete
+    quantitative:
+      value: 0.54
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2001, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        remittances_received_usd:
+          value: 682000000
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2001, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Minimal remittances; Iran is primarily an oil economy with low diaspora remittance flows."
+      features:
+        - minimal_lt_1pct
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2001"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2002:
+    data_status: complete
+    quantitative:
+      value: 0.66
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2002, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        remittances_received_usd:
+          value: 851000000
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2002, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Minimal remittances; Iran is primarily an oil economy with low diaspora remittance flows."
+      features:
+        - minimal_lt_1pct
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2002"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2003:
+    data_status: complete
+    quantitative:
+      value: 0.78
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2003, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        remittances_received_usd:
+          value: 1178000000
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2003, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Minimal remittances; Iran is primarily an oil economy with low diaspora remittance flows."
+      features:
+        - minimal_lt_1pct
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2003"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2004:
+    data_status: complete
+    quantitative:
+      value: 0.55
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2004, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        remittances_received_usd:
+          value: 1032000000
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2004, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Minimal remittances; Iran is primarily an oil economy with low diaspora remittance flows. Last year of available WB data; series discontinued."
+      features:
+        - minimal_lt_1pct
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2004"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2005:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2005, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2005, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2005"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2006:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2006, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2006, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2006"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2007:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2007, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2007, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2007"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2008:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2008, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2008, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2008"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2009:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2009, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2009"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2010:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2010, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2010"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2011:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2011, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2011"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2012:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2012, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2012"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2013:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2013, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2013"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2014:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2014, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2014"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2015:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2015, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2015"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2016:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2016, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2016"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2017:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2017, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2017"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2018:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2018, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2018"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2019:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2019, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2019"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2020:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2020, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2020"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2021:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2021, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2021"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2022:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2022, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2022"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2023:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2023, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2023"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2024:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2024, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2024"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2025:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2025, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2025"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"
+
+  2026:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(remittances_received_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2026, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        remittances_received_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, BX.TRF.PWKR.CD.DT, Iran, 2026, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "No World Bank remittance data available for this year."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, BX.TRF.PWKR.DT.GD.ZS, Iran, 2026"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "World Bank remittance data available only 1991-2004; Iran as oil economy has historically low formal remittances; informal hawala transfers not captured; diaspora estimated at 4-5 million"

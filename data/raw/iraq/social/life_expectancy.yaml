@@ -1,0 +1,1561 @@
+indicator: life_expectancy
+country: iraq
+dimension: social
+years:
+  1988:
+    data_status: complete
+    quantitative:
+      value: 56.692
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 1988, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 49.426
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 1988, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 65.419
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 1988, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1989:
+    data_status: complete
+    quantitative:
+      value: 57.501
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 1989, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 52.237
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 1989, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 63.260
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 1989, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1990:
+    data_status: complete
+    quantitative:
+      value: 57.587
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 1990, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 52.294
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 1990, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 63.373
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 1990, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1991:
+    data_status: complete
+    quantitative:
+      value: 61.338
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 1991, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 56.627
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 1991, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 66.267
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 1991, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1992:
+    data_status: complete
+    quantitative:
+      value: 65.344
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 1992, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 61.730
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 1992, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 68.902
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 1992, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1993:
+    data_status: complete
+    quantitative:
+      value: 65.310
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 1993, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 61.792
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 1993, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 68.765
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 1993, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1994:
+    data_status: complete
+    quantitative:
+      value: 65.027
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 1994, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 61.630
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 1994, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 68.356
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 1994, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1995:
+    data_status: complete
+    quantitative:
+      value: 64.761
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 1995, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 61.538
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 1995, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 67.905
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 1995, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1996:
+    data_status: complete
+    quantitative:
+      value: 64.618
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 1996, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 61.618
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 1996, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 67.522
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 1996, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1997:
+    data_status: complete
+    quantitative:
+      value: 64.241
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 1997, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 61.427
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 1997, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 66.954
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 1997, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1998:
+    data_status: complete
+    quantitative:
+      value: 64.405
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 1998, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 61.807
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 1998, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 66.886
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 1998, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1999:
+    data_status: complete
+    quantitative:
+      value: 64.532
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 1999, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 61.962
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 1999, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 66.986
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 1999, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2000:
+    data_status: complete
+    quantitative:
+      value: 64.860
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2000, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 62.275
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2000, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 67.334
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2000, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2001:
+    data_status: complete
+    quantitative:
+      value: 65.292
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2001, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 62.664
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2001, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 67.811
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2001, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2002:
+    data_status: complete
+    quantitative:
+      value: 65.724
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2002, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 63.114
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2002, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 68.224
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2002, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2003:
+    data_status: complete
+    quantitative:
+      value: 64.834
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2003, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 61.266
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2003, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 68.445
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2003, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2004:
+    data_status: complete
+    quantitative:
+      value: 64.634
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2004, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 60.666
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2004, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 68.729
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2004, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2005:
+    data_status: complete
+    quantitative:
+      value: 64.899
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2005, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 60.919
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2005, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 69.005
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2005, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2006:
+    data_status: complete
+    quantitative:
+      value: 64.029
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2006, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 59.259
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2006, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 69.133
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2006, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2007:
+    data_status: complete
+    quantitative:
+      value: 64.428
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2007, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 59.770
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2007, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 69.377
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2007, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2008:
+    data_status: complete
+    quantitative:
+      value: 66.465
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2008, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 63.147
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2008, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 69.767
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2008, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2009:
+    data_status: complete
+    quantitative:
+      value: 67.834
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2009, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 65.477
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 70.051
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2010:
+    data_status: complete
+    quantitative:
+      value: 68.092
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2010, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 65.796
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 70.248
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2011:
+    data_status: complete
+    quantitative:
+      value: 68.435
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2011, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 66.182
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 70.547
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2012:
+    data_status: complete
+    quantitative:
+      value: 68.827
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2012, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 66.591
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 70.920
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2013:
+    data_status: complete
+    quantitative:
+      value: 69.047
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2013, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 66.726
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 71.234
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2014:
+    data_status: complete
+    quantitative:
+      value: 69.679
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2014, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 67.439
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 71.776
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2015:
+    data_status: complete
+    quantitative:
+      value: 69.977
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2015, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 67.771
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 72.040
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2016:
+    data_status: complete
+    quantitative:
+      value: 68.683
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2016, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 65.264
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 72.145
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2017:
+    data_status: complete
+    quantitative:
+      value: 69.788
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2017, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 67.037
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 72.475
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2018:
+    data_status: complete
+    quantitative:
+      value: 71.116
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2018, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 69.229
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 72.842
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - good_70_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2019:
+    data_status: complete
+    quantitative:
+      value: 71.245
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2019, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 69.328
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 73.010
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - good_70_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2020:
+    data_status: complete
+    quantitative:
+      value: 69.651
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2020, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 66.974
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 72.294
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2021:
+    data_status: complete
+    quantitative:
+      value: 70.704
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2021, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 68.845
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 72.415
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - good_70_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2022:
+    data_status: complete
+    quantitative:
+      value: 72.037
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2022, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 70.109
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 73.798
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - good_70_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2023:
+    data_status: complete
+    quantitative:
+      value: 72.324
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2023, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 70.426
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 74.055
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - good_70_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2024:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2024, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: null
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: null
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2025:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2025, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: null
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: null
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2026:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: years_at_birth
+      formula: "weighted_avg(life_expectancy_male, life_expectancy_female) by sex ratio — World Bank provides combined directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq, 2026, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: null
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iraq, 2026, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: null
+          unit: years_at_birth
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iraq, 2026, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null

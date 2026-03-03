@@ -1,0 +1,1398 @@
+indicator: internet_users
+country: afghanistan
+dimension: social
+years:
+  1986:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 1986, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 1986, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "No internet user data for 1986."
+      features:
+        []
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: low
+      notes: "Soviet occupation / civil war period"
+  1987:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 1987, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 1987, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "No internet user data for 1987."
+      features:
+        []
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: low
+      notes: "Soviet occupation / civil war period"
+  1988:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 1988, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 1988, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "No internet user data for 1988."
+      features:
+        []
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: low
+      notes: "Soviet occupation / civil war period"
+  1989:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 1989, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 1989, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "No internet user data for 1989."
+      features:
+        []
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: low
+      notes: "Soviet occupation / civil war period"
+  1990:
+    data_status: complete
+    quantitative:
+      value: 0
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 1990, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 0
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 1990, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Essentially zero internet penetration in 1990. Afghanistan had no internet infrastructure."
+      features:
+        - minimal_lt_5pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Soviet occupation / civil war period"
+  1991:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 1991, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 1991, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "No internet user data for 1991."
+      features:
+        []
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: low
+      notes: "Soviet occupation / civil war period"
+  1992:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 1992, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 1992, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "No internet user data for 1992."
+      features:
+        []
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: low
+      notes: "Mujahideen civil war period"
+  1993:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 1993, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 1993, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "No internet user data for 1993."
+      features:
+        []
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: low
+      notes: "Mujahideen civil war period"
+  1994:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 1994, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 1994, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "No internet user data for 1994."
+      features:
+        []
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: low
+      notes: "Mujahideen civil war period"
+  1995:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 1995, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 1995, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "No internet user data for 1995."
+      features:
+        []
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: low
+      notes: "Mujahideen civil war period"
+  1996:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 1996, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 1996, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "No internet user data for 1996."
+      features:
+        []
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: low
+      notes: "Taliban first emirate (1996-2001)"
+  1997:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 1997, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 1997, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "No internet user data for 1997."
+      features:
+        []
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: low
+      notes: "Taliban first emirate (1996-2001)"
+  1998:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 1998, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 1998, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "No internet user data for 1998."
+      features:
+        []
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: low
+      notes: "Taliban first emirate (1996-2001)"
+  1999:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 1999, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 1999, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "No internet user data for 1999."
+      features:
+        []
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: low
+      notes: "Taliban first emirate (1996-2001)"
+  2000:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2000, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2000, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "No internet user data for 2000."
+      features:
+        []
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: low
+      notes: "Taliban first emirate (1996-2001)"
+  2001:
+    data_status: complete
+    quantitative:
+      value: 0.00472257
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2001, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 958
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2001, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet access was negligible at 0.0% of population in 2001. The post-2001 period saw the first mobile and internet infrastructure deployed, but coverage was extremely limited to Kabul and a few cities."
+      features:
+        - minimal_lt_5pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Taliban first emirate (1996-2001)"
+  2002:
+    data_status: complete
+    quantitative:
+      value: 0.0045614
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2002, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 975
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2002, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet access was negligible at 0.0% of population in 2002. The post-2001 period saw the first mobile and internet infrastructure deployed, but coverage was extremely limited to Kabul and a few cities."
+      features:
+        - minimal_lt_5pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Post-2001 reconstruction"
+  2003:
+    data_status: complete
+    quantitative:
+      value: 0.0878913
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2003, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 19980
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2003, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet access was negligible at 0.1% of population in 2003. The post-2001 period saw the first mobile and internet infrastructure deployed, but coverage was extremely limited to Kabul and a few cities."
+      features:
+        - minimal_lt_5pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Post-2001 reconstruction"
+  2004:
+    data_status: complete
+    quantitative:
+      value: 0.105809
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2004, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 24929
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2004, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet access was negligible at 0.1% of population in 2004. The post-2001 period saw the first mobile and internet infrastructure deployed, but coverage was extremely limited to Kabul and a few cities."
+      features:
+        - minimal_lt_5pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2005:
+    data_status: complete
+    quantitative:
+      value: 1.22415
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2005, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 298749
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2005, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet access was negligible at 1.2% of population in 2005. The post-2001 period saw the first mobile and internet infrastructure deployed, but coverage was extremely limited to Kabul and a few cities."
+      features:
+        - minimal_lt_5pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2006:
+    data_status: complete
+    quantitative:
+      value: 2.10712
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2006, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 535716
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2006, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet penetration was 2.1% in 2006. Mobile internet expanded rapidly with several telecom operators entering the market, though access remained concentrated in urban areas and among male users."
+      features:
+        - minimal_lt_5pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2007:
+    data_status: complete
+    quantitative:
+      value: 1.9
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2007, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 492287
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2007, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet penetration was 1.9% in 2007. Mobile internet expanded rapidly with several telecom operators entering the market, though access remained concentrated in urban areas and among male users."
+      features:
+        - minimal_lt_5pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2008:
+    data_status: complete
+    quantitative:
+      value: 1.84
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2008, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 487280
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2008, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet penetration was 1.8% in 2008. Mobile internet expanded rapidly with several telecom operators entering the market, though access remained concentrated in urban areas and among male users."
+      features:
+        - minimal_lt_5pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2009:
+    data_status: complete
+    quantitative:
+      value: 3.55
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2009, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 975047
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet penetration was 3.5% in 2009. Mobile internet expanded rapidly with several telecom operators entering the market, though access remained concentrated in urban areas and among male users."
+      features:
+        - minimal_lt_5pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2010:
+    data_status: complete
+    quantitative:
+      value: 4
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2010, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 1131364
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet penetration was 4.0% in 2010. Mobile internet expanded rapidly with several telecom operators entering the market, though access remained concentrated in urban areas and among male users."
+      features:
+        - minimal_lt_5pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2011:
+    data_status: complete
+    quantitative:
+      value: 5
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2011, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 1467385
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet penetration was 5.0% in 2011. Mobile internet expanded rapidly with several telecom operators entering the market, though access remained concentrated in urban areas and among male users."
+      features:
+        - minimal_lt_5pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2012:
+    data_status: complete
+    quantitative:
+      value: 5.45455
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2012, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 1666912
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet penetration was 5.5% in 2012. Mobile internet expanded rapidly with several telecom operators entering the market, though access remained concentrated in urban areas and among male users."
+      features:
+        - very_low_5_20pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2013:
+    data_status: complete
+    quantitative:
+      value: 5.9
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2013, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 1865740
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet penetration was 5.9% in 2013. Mobile internet expanded rapidly with several telecom operators entering the market, though access remained concentrated in urban areas and among male users."
+      features:
+        - very_low_5_20pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2014:
+    data_status: complete
+    quantitative:
+      value: 7
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2014, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 2295477
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet penetration was 7.0% in 2014. Mobile internet expanded rapidly with several telecom operators entering the market, though access remained concentrated in urban areas and among male users."
+      features:
+        - very_low_5_20pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2015:
+    data_status: complete
+    quantitative:
+      value: 8.26
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2015, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 2794504
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet penetration was 8.3% in 2015. Mobile internet expanded rapidly with several telecom operators entering the market, though access remained concentrated in urban areas and among male users."
+      features:
+        - very_low_5_20pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2016:
+    data_status: complete
+    quantitative:
+      value: 11
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2016, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 3817067
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet users reached 11.0% of the population in 2016. Mobile internet drove growth; Afghanistan had several competing mobile networks by this period. Taliban restrictions on women's internet access began before the formal takeover."
+      features:
+        - very_low_5_20pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2017:
+    data_status: complete
+    quantitative:
+      value: 13.5
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2017, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 4818006
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet users reached 13.5% of the population in 2017. Mobile internet drove growth; Afghanistan had several competing mobile networks by this period. Taliban restrictions on women's internet access began before the formal takeover."
+      features:
+        - very_low_5_20pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2018:
+    data_status: complete
+    quantitative:
+      value: 16.8
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2018, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 6172831
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet users reached 16.8% of the population in 2018. Mobile internet drove growth; Afghanistan had several competing mobile networks by this period. Taliban restrictions on women's internet access began before the formal takeover."
+      features:
+        - very_low_5_20pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2019:
+    data_status: complete
+    quantitative:
+      value: 17.6
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2019, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 6662677
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet users reached 17.6% of the population in 2019. Mobile internet drove growth; Afghanistan had several competing mobile networks by this period. Taliban restrictions on women's internet access began before the formal takeover."
+      features:
+        - very_low_5_20pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2020:
+    data_status: complete
+    quantitative:
+      value: 17.0485
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2020, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 6660675
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet users reached 17.0% of the population in 2020. Mobile internet drove growth; Afghanistan had several competing mobile networks by this period. Taliban restrictions on women's internet access began before the formal takeover."
+      features:
+        - very_low_5_20pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2021:
+    data_status: complete
+    quantitative:
+      value: 16.5143
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2021, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 6605788
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet users reached 16.5% of the population in 2021. Mobile internet drove growth; Afghanistan had several competing mobile networks by this period. Taliban restrictions on women's internet access began before the formal takeover."
+      features:
+        - very_low_5_20pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "US occupation / Islamic Republic period"
+  2022:
+    data_status: complete
+    quantitative:
+      value: 17.1917
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2022, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 6976193
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet usage at 17.2% in 2022 under Taliban rule. Taliban imposed restrictions on internet use and content, particularly for women. Mobile network coverage partly maintained for economic reasons."
+      features:
+        - very_low_5_20pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Second Taliban emirate (post-2021)"
+  2023:
+    data_status: complete
+    quantitative:
+      value: 17.7089
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2023, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        internet_users_count:
+          value: 7341182
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "Internet usage at 17.7% in 2023 under Taliban rule. Taliban imposed restrictions on internet use and content, particularly for women. Mobile network coverage partly maintained for economic reasons."
+      features:
+        - very_low_5_20pct
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: medium
+      notes: "Second Taliban emirate (post-2021)"
+  2024:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2024, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "No internet user data for 2024."
+      features:
+        []
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: low
+      notes: "Second Taliban emirate (post-2021)"
+  2025:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2025, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "No internet user data for 2025."
+      features:
+        []
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: low
+      notes: "Second Taliban emirate (post-2021)"
+  2026:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_population
+      formula: "(internet_users_count / population) * 100"
+      source:
+        citation: "World Bank WDI, IT.NET.USER.ZS, Afghanistan, 2026, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        internet_users_count:
+          value: null
+          unit: persons
+          role: numerator
+          source:
+            citation: "World Bank WDI, IT.NET.USER.ZS x population, Afghanistan, 2026, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      assessment: "No internet user data for 2026."
+      features:
+        []
+      sources:
+        - citation: "World Bank WDI, IT.NET.USER.ZS, ITU estimates"
+          type: statistical
+          reliability: medium
+      confidence: low
+      notes: "Second Taliban emirate (post-2021)"

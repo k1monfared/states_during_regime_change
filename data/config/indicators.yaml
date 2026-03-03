@@ -89,6 +89,49 @@ political:
       - "ICG reports"
       - "News analysis"
 
+  military_expenditure:
+    description: "Military spending as a share of GDP (higher spending = lower state health score)"
+    unit: percent_gdp
+    valid_features:
+      - minimal_military_spending_lt_1pct
+      - low_1_2pct
+      - low_(1-2%)
+      - moderate_2_4pct
+      - moderate_(2-4%)
+      - elevated_4_7pct
+      - elevated_(4-7%)
+      - high_7_15pct
+      - high_(7-15%)
+      - war_economy_gt_15pct
+    primary_sources:
+      - "World Bank MS.MIL.XPND.GD.ZS"
+      - "SIPRI Military Expenditure Database"
+
+  political_stability:
+    description: "Perceptions of likelihood of political instability and politically motivated violence (WGI PV.EST; higher = more stable)"
+    unit: wgi_estimate_minus3_to_plus3
+    valid_features:
+      - very_stable
+      - stable
+      - mild_instability
+      - significant_instability
+      - high_instability
+      - extreme_instability_conflict
+    primary_sources:
+      - "World Bank Worldwide Governance Indicators (PV.EST)"
+
+  government_effectiveness:
+    description: "Perceptions of quality of public services, civil service, and policy formulation (WGI GE.EST; higher = better)"
+    unit: wgi_estimate_minus3_to_plus3
+    valid_features:
+      - very_effective
+      - effective
+      - partially_effective
+      - low_effectiveness
+      - ineffective_or_captured
+    primary_sources:
+      - "World Bank Worldwide Governance Indicators (GE.EST)"
+
 economic:
   gdp_per_capita:
     description: "Living standards relative to baseline (indexed to peak)"
@@ -195,6 +238,51 @@ economic:
         unit: usd_current
         source_code: "World Bank NY.GDP.MKTP.CD"
         fallback: "IMF WEO series NGDPD"
+
+  natural_resource_rents:
+    description: "Total natural resource rents as % of GDP (resource-curse framing: high rents = structural vulnerability)"
+    unit: percent_gdp
+    valid_features:
+      - minimal_lt_5pct
+      - low_lt_10pct
+      - moderate_5_15pct
+      - moderate_(5-15%)
+      - moderate_10_20pct
+      - significant_15_30pct
+      - significant_(15-30%)
+      - high_20_40pct
+      - high_(30-50%)
+      - high_30_50pct
+      - very_high_40_60pct
+      - extremely_high_gt_60pct
+    primary_sources:
+      - "World Bank NY.GDP.TOTL.RT.ZS"
+
+  youth_unemployment:
+    description: "Unemployment rate among 15-24 year olds (% of youth labor force)"
+    unit: percent_youth_labor_force
+    valid_features:
+      - low_lt_10pct
+      - moderate_10_20pct
+      - elevated_20_30pct
+      - high_30_40pct
+      - very_high_gt_40pct
+    primary_sources:
+      - "World Bank SL.UEM.1524.ZS"
+      - "ILO ILOSTAT"
+
+  gini:
+    description: "Gini coefficient measuring income inequality (0 = perfect equality, 100 = perfect inequality)"
+    unit: gini_0_to_100
+    valid_features:
+      - low_lt_30
+      - moderate_30_40
+      - elevated_40_50
+      - high_gt_50
+    primary_sources:
+      - "World Bank SI.POV.GINI"
+      - "SWIID"
+      - "UNDP HDR"
 
   fiscal_health:
     description: "Government debt sustainability, budget balance"
@@ -403,3 +491,115 @@ transparency:
       - armenia
     primary_sources:
       - "EITI"
+
+  control_of_corruption:
+    description: "Perceptions of the extent to which public power is exercised for private gain (WGI CC.EST; higher = less corrupt = better)"
+    unit: wgi_estimate_minus3_to_plus3
+    valid_features:
+      - minimal_corruption
+      - low_corruption
+      - moderate_corruption
+      - elevated_corruption
+      - high_corruption
+      - pervasive_corruption
+    primary_sources:
+      - "World Bank Worldwide Governance Indicators (CC.EST)"
+
+population_mobility:
+  net_migration:
+    description: "Net migration rate per 1,000 population per year (positive = inflow, negative = outflow)"
+    unit: per_1000_per_year
+    valid_features:
+      - strong_net_inflow
+      - strong_net_inflow_(>+5)
+      - mild_net_inflow
+      - mild_net_inflow_(+1_to_+5)
+      - roughly_stable
+      - roughly_stable_(-1_to_+1)
+      - mild_net_outflow
+      - mild_net_outflow_(-5_to_-1)
+      - significant_net_outflow
+      - significant_net_outflow_(-15_to_-5)
+      - severe_net_outflow
+      - severe_net_outflow_(<-15)
+      - return_migration
+    primary_sources:
+      - "World Bank SM.POP.NETM"
+      - "UN DESA International Migration"
+
+  remittances:
+    description: "Personal remittances received as % of GDP (supplementary economic resilience indicator)"
+    unit: percent_gdp
+    valid_features:
+      - minimal_lt_1pct
+      - low_1_2pct
+      - moderate_2_5pct
+      - high_5_10pct
+      - very_high_gt_10pct
+    primary_sources:
+      - "World Bank BX.TRF.PWKR.DT.GD.ZS"
+
+social:
+  life_expectancy:
+    description: "Life expectancy at birth in years (higher = better)"
+    unit: years
+    valid_features:
+      - very_low_lt_60
+      - low_60_65
+      - moderate_65_70
+      - good_70_75
+      - high_gt_75
+    primary_sources:
+      - "World Bank SP.DYN.LE00.IN"
+      - "UN World Population Prospects"
+
+  infant_mortality:
+    description: "Infant mortality rate per 1,000 live births (lower = better)"
+    unit: per_1000_live_births
+    valid_features:
+      - very_high_gt_80
+      - high_50_80
+      - elevated_25_50
+      - moderate_10_25
+      - low_lt_10
+    primary_sources:
+      - "World Bank SP.DYN.IMRT.IN"
+      - "UNICEF"
+
+  internet_users:
+    description: "Individuals using the Internet as % of population (higher = better)"
+    unit: percent_population
+    valid_features:
+      - minimal_lt_5pct
+      - very_low_5_20pct
+      - low_20_40pct
+      - moderate_40_60pct
+      - high_60_80pct
+      - very_high_gt_80pct
+    primary_sources:
+      - "World Bank IT.NET.USER.ZS"
+      - "ITU"
+
+  health_expenditure:
+    description: "Current health expenditure as % of GDP (higher = better)"
+    unit: percent_gdp
+    valid_features:
+      - very_low_lt_3pct
+      - low_3_5pct
+      - moderate_5_8pct
+      - high_gt_8pct
+    primary_sources:
+      - "World Bank SH.XPD.CHEX.GD.ZS"
+      - "WHO Global Health Observatory"
+
+  education_expenditure:
+    description: "Government expenditure on education as % of GDP (higher = better)"
+    unit: percent_gdp
+    valid_features:
+      - very_low_lt_2pct
+      - low_2_4pct
+      - moderate_4_6pct
+      - high_gt_6pct
+    primary_sources:
+      - "World Bank SE.XPD.TOTL.GD.ZS"
+      - "UNESCO"

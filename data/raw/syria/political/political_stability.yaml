@@ -1,0 +1,1045 @@
+indicator: political_stability
+country: syria
+dimension: political
+years:
+  2009:
+    data_status: complete
+    quantitative:
+      value: -0.509100556373596
+      unit: wgi_estimate_z_score
+      formula: "UCM weighted average of governance surveys"
+      source:
+        citation: "World Bank WGI, PV.EST, Syria, 2009, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/PV.EST"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        percentile_rank:
+          value: 27.488151550293
+          unit: percentile_0_100
+          role: cross_country_context
+          source:
+            citation: "World Bank WGI, PV.PER.RNK, Syria, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK"
+            access_date: "2026-03-02"
+          reliability: medium
+        number_of_sources:
+          value: 7
+          unit: count
+          role: methodology_metadata
+          source:
+            citation: "World Bank WGI, PV.NO.SRC, Syria, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.NO.SRC"
+            access_date: "2026-03-02"
+          reliability: high
+        percentile_rank_lower_ci:
+          value: 18.9573459625244
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.LOWER, Syria, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.LOWER"
+            access_date: "2026-03-02"
+          reliability: medium
+        percentile_rank_upper_ci:
+          value: 41.2322273254395
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.UPPER, Syria, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.UPPER"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Syria's political stability score in 2009 was -0.51, placing it at the 27th percentile — relatively moderate given the region. The Assad regime maintained internal stability through repression rather than legitimate governance, but had avoided large-scale internal conflict. The country faced concerns related to cross-border spillovers from Iraq and relations with Israel/Lebanon, as well as underlying social tensions from drought and unemployment. The 27th percentile reflects a fragile but functioning authoritarian state prior to the Arab Spring."
+      features:
+        - mild_instability
+      sources:
+        - citation: "World Bank WGI, PV.EST, Syria, 2009"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-uprising period; surface stability maintained through authoritarian repression."
+  2010:
+    data_status: complete
+    quantitative:
+      value: -0.805789709091187
+      unit: wgi_estimate_z_score
+      formula: "UCM weighted average of governance surveys"
+      source:
+        citation: "World Bank WGI, PV.EST, Syria, 2010, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/PV.EST"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        percentile_rank:
+          value: 22.274881362915
+          unit: percentile_0_100
+          role: cross_country_context
+          source:
+            citation: "World Bank WGI, PV.PER.RNK, Syria, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK"
+            access_date: "2026-03-02"
+          reliability: medium
+        number_of_sources:
+          value: 7
+          unit: count
+          role: methodology_metadata
+          source:
+            citation: "World Bank WGI, PV.NO.SRC, Syria, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.NO.SRC"
+            access_date: "2026-03-02"
+          reliability: high
+        percentile_rank_lower_ci:
+          value: 12.3222751617432
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.LOWER, Syria, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.LOWER"
+            access_date: "2026-03-02"
+          reliability: medium
+        percentile_rank_upper_ci:
+          value: 32.2274894714355
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.UPPER, Syria, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.UPPER"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Political stability deteriorated to -0.81, 22nd percentile, in 2010 — the year before the uprising but as the Arab Spring was taking shape elsewhere. The prolonged drought (2006-2010) had generated massive rural displacement and economic stress, and governance surveys were detecting rising instability risk. Tunisia's revolution began in December 2010. Syria's WGI score reflects pre-existing vulnerability that would erupt the following year."
+      features:
+        - significant_instability
+      sources:
+        - citation: "World Bank WGI, PV.EST, Syria, 2010"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Drought impacts and Arab Spring regional context; score reflects pre-uprising vulnerability."
+  2011:
+    data_status: complete
+    quantitative:
+      value: -2.01210689544678
+      unit: wgi_estimate_z_score
+      formula: "UCM weighted average of governance surveys"
+      source:
+        citation: "World Bank WGI, PV.EST, Syria, 2011, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/PV.EST"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        percentile_rank:
+          value: 2.84360194206238
+          unit: percentile_0_100
+          role: cross_country_context
+          source:
+            citation: "World Bank WGI, PV.PER.RNK, Syria, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK"
+            access_date: "2026-03-02"
+          reliability: low
+        number_of_sources:
+          value: 7
+          unit: count
+          role: methodology_metadata
+          source:
+            citation: "World Bank WGI, PV.NO.SRC, Syria, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.NO.SRC"
+            access_date: "2026-03-02"
+          reliability: medium
+        percentile_rank_lower_ci:
+          value: 1.89573454856873
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.LOWER, Syria, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.LOWER"
+            access_date: "2026-03-02"
+          reliability: low
+        percentile_rank_upper_ci:
+          value: 5.21327018737793
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.UPPER, Syria, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.UPPER"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Catastrophic deterioration in 2011: score collapsed from -0.81 to -2.01, dropping Syria from the 22nd to the 2.8th percentile in a single year. The civil uprising beginning in March 2011 rapidly escalated to armed conflict as the regime responded with lethal force. This represents one of the largest single-year WGI political stability declines on record. The score reflects the full eruption of mass violence and conflict."
+      features:
+        - extreme_instability_conflict
+      sources:
+        - citation: "World Bank WGI, PV.EST, Syria, 2011"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "One of the largest single-year WGI political stability collapses on record. Civil war onset."
+  2012:
+    data_status: complete
+    quantitative:
+      value: -2.68227386474609
+      unit: wgi_estimate_z_score
+      formula: "UCM weighted average of governance surveys"
+      source:
+        citation: "World Bank WGI, PV.EST, Syria, 2012, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/PV.EST"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        percentile_rank:
+          value: 0.473933637142181
+          unit: percentile_0_100
+          role: cross_country_context
+          source:
+            citation: "World Bank WGI, PV.PER.RNK, Syria, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK"
+            access_date: "2026-03-02"
+          reliability: low
+        number_of_sources:
+          value: 6
+          unit: count
+          role: methodology_metadata
+          source:
+            citation: "World Bank WGI, PV.NO.SRC, Syria, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.NO.SRC"
+            access_date: "2026-03-02"
+          reliability: medium
+        percentile_rank_lower_ci:
+          value: 0.0
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.LOWER, Syria, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.LOWER"
+            access_date: "2026-03-02"
+          reliability: low
+        percentile_rank_upper_ci:
+          value: 1.89573454856873
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.UPPER, Syria, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.UPPER"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Score -2.68, 0.5th percentile — effectively at the global floor. Full-scale civil war; Syria among the world's 2-3 least stable countries. Entire upper confidence interval barely reaches 2nd percentile. Mass atrocities, multi-actor conflict, chemical weapons use. Score is essentially a floor estimate as methodology cannot distinguish between gradations of extreme conflict."
+      features:
+        - extreme_instability_conflict
+      sources:
+        - citation: "World Bank WGI, PV.EST, Syria, 2012"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Near global floor; full-scale civil war. Upper CI barely reaches 2nd percentile."
+  2013:
+    data_status: complete
+    quantitative:
+      value: -2.68114280700684
+      unit: wgi_estimate_z_score
+      formula: "UCM weighted average of governance surveys"
+      source:
+        citation: "World Bank WGI, PV.EST, Syria, 2013, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/PV.EST"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        percentile_rank:
+          value: 0.473933637142181
+          unit: percentile_0_100
+          role: cross_country_context
+          source:
+            citation: "World Bank WGI, PV.PER.RNK, Syria, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK"
+            access_date: "2026-03-02"
+          reliability: low
+        number_of_sources:
+          value: 6
+          unit: count
+          role: methodology_metadata
+          source:
+            citation: "World Bank WGI, PV.NO.SRC, Syria, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.NO.SRC"
+            access_date: "2026-03-02"
+          reliability: medium
+        percentile_rank_lower_ci:
+          value: 0.0
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.LOWER, Syria, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.LOWER"
+            access_date: "2026-03-02"
+          reliability: low
+        percentile_rank_upper_ci:
+          value: 1.89573454856873
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.UPPER, Syria, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.UPPER"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Score -2.68, 0.5th percentile; essentially unchanged from 2012. Full-scale multi-actor civil war; chemical weapons attack in Ghouta (August 2013); near-constant violence across most of Syria. Score is at the practical floor of the WGI measurement range."
+      features:
+        - extreme_instability_conflict
+      sources:
+        - citation: "World Bank WGI, PV.EST, Syria, 2013"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Chemical weapons attack August 2013; score at practical floor."
+  2014:
+    data_status: complete
+    quantitative:
+      value: -2.74882411956787
+      unit: wgi_estimate_z_score
+      formula: "UCM weighted average of governance surveys"
+      source:
+        citation: "World Bank WGI, PV.EST, Syria, 2014, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/PV.EST"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        percentile_rank:
+          value: 0.0
+          unit: percentile_0_100
+          role: cross_country_context
+          source:
+            citation: "World Bank WGI, PV.PER.RNK, Syria, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK"
+            access_date: "2026-03-02"
+          reliability: low
+        number_of_sources:
+          value: 6
+          unit: count
+          role: methodology_metadata
+          source:
+            citation: "World Bank WGI, PV.NO.SRC, Syria, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.NO.SRC"
+            access_date: "2026-03-02"
+          reliability: medium
+        percentile_rank_lower_ci:
+          value: 0.0
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.LOWER, Syria, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.LOWER"
+            access_date: "2026-03-02"
+          reliability: low
+        percentile_rank_upper_ci:
+          value: 2.38095235824585
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.UPPER, Syria, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.UPPER"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Score -2.75, percentile rank at absolute zero — the worst possible measured value. ISIS declared caliphate (June 2014) and captured vast territories. Syria became the world's most severe active conflict zone, with no stability signal detectable above the measurement floor."
+      features:
+        - extreme_instability_conflict
+      sources:
+        - citation: "World Bank WGI, PV.EST, Syria, 2014"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Percentile rank 0; absolute floor. ISIS caliphate declared June 2014."
+  2015:
+    data_status: complete
+    quantitative:
+      value: -2.965176820755
+      unit: wgi_estimate_z_score
+      formula: "UCM weighted average of governance surveys"
+      source:
+        citation: "World Bank WGI, PV.EST, Syria, 2015, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/PV.EST"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        percentile_rank:
+          value: 0.0
+          unit: percentile_0_100
+          role: cross_country_context
+          source:
+            citation: "World Bank WGI, PV.PER.RNK, Syria, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK"
+            access_date: "2026-03-02"
+          reliability: low
+        number_of_sources:
+          value: 6
+          unit: count
+          role: methodology_metadata
+          source:
+            citation: "World Bank WGI, PV.NO.SRC, Syria, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.NO.SRC"
+            access_date: "2026-03-02"
+          reliability: medium
+        percentile_rank_lower_ci:
+          value: 0.0
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.LOWER, Syria, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.LOWER"
+            access_date: "2026-03-02"
+          reliability: low
+        percentile_rank_upper_ci:
+          value: 0.476190477609634
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.UPPER, Syria, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.UPPER"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Score -2.97, the worst recorded value in the Syria series. Percentile rank 0 with upper CI barely above 0. Russian military intervention (September 2015) added another major armed actor. Peak refugee crisis year; Syrian conflict widely described as the world's worst humanitarian disaster. The score effectively represents the extreme terminus of the measurable scale."
+      features:
+        - extreme_instability_conflict
+      sources:
+        - citation: "World Bank WGI, PV.EST, Syria, 2015"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Worst recorded value in Syria's WGI history; near measurement minimum."
+  2016:
+    data_status: complete
+    quantitative:
+      value: -2.90603613853455
+      unit: wgi_estimate_z_score
+      formula: "UCM weighted average of governance surveys"
+      source:
+        citation: "World Bank WGI, PV.EST, Syria, 2016, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/PV.EST"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        percentile_rank:
+          value: 0.0
+          unit: percentile_0_100
+          role: cross_country_context
+          source:
+            citation: "World Bank WGI, PV.PER.RNK, Syria, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK"
+            access_date: "2026-03-02"
+          reliability: low
+        number_of_sources:
+          value: 5
+          unit: count
+          role: methodology_metadata
+          source:
+            citation: "World Bank WGI, PV.NO.SRC, Syria, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.NO.SRC"
+            access_date: "2026-03-02"
+          reliability: medium
+        percentile_rank_lower_ci:
+          value: 0.0
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.LOWER, Syria, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.LOWER"
+            access_date: "2026-03-02"
+          reliability: low
+        percentile_rank_upper_ci:
+          value: 0.952380955219269
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.UPPER, Syria, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.UPPER"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Score -2.91, percentile rank 0; Battle of Aleppo culminated in regime recapture (December 2016). Marginal score improvement over 2015 reflects no genuine stability improvement — the conflict continued at scale. 5 sources only; confidence interval barely above zero."
+      features:
+        - extreme_instability_conflict
+      sources:
+        - citation: "World Bank WGI, PV.EST, Syria, 2016"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Battle of Aleppo; score at practical floor."
+  2017:
+    data_status: complete
+    quantitative:
+      value: -2.61291933059692
+      unit: wgi_estimate_z_score
+      formula: "UCM weighted average of governance surveys"
+      source:
+        citation: "World Bank WGI, PV.EST, Syria, 2017, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/PV.EST"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        percentile_rank:
+          value: 0.952380955219269
+          unit: percentile_0_100
+          role: cross_country_context
+          source:
+            citation: "World Bank WGI, PV.PER.RNK, Syria, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK"
+            access_date: "2026-03-02"
+          reliability: low
+        number_of_sources:
+          value: 5
+          unit: count
+          role: methodology_metadata
+          source:
+            citation: "World Bank WGI, PV.NO.SRC, Syria, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.NO.SRC"
+            access_date: "2026-03-02"
+          reliability: medium
+        percentile_rank_lower_ci:
+          value: 0.0
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.LOWER, Syria, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.LOWER"
+            access_date: "2026-03-02"
+          reliability: low
+        percentile_rank_upper_ci:
+          value: 3.80952382087708
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.UPPER, Syria, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.UPPER"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Score -2.61, 0.95th percentile; marginal improvement from the 2015-2016 floor as ISIS territorial collapse reduces the number of armed actors somewhat. Low-level conflict and frozen zones replace full-scale battles in most areas except Idlib. Still extreme instability by global standards."
+      features:
+        - extreme_instability_conflict
+      sources:
+        - citation: "World Bank WGI, PV.EST, Syria, 2017"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "ISIS collapse reduces active front count; marginal score improvement but still extreme."
+  2018:
+    data_status: complete
+    quantitative:
+      value: -2.7364559173584
+      unit: wgi_estimate_z_score
+      formula: "UCM weighted average of governance surveys"
+      source:
+        citation: "World Bank WGI, PV.EST, Syria, 2018, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/PV.EST"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        percentile_rank:
+          value: 0.943396210670471
+          unit: percentile_0_100
+          role: cross_country_context
+          source:
+            citation: "World Bank WGI, PV.PER.RNK, Syria, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK"
+            access_date: "2026-03-02"
+          reliability: low
+        number_of_sources:
+          value: 5
+          unit: count
+          role: methodology_metadata
+          source:
+            citation: "World Bank WGI, PV.NO.SRC, Syria, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.NO.SRC"
+            access_date: "2026-03-02"
+          reliability: medium
+        percentile_rank_lower_ci:
+          value: 0.0
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.LOWER, Syria, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.LOWER"
+            access_date: "2026-03-02"
+          reliability: low
+        percentile_rank_upper_ci:
+          value: 2.35849046707153
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.UPPER, Syria, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.UPPER"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Score -2.74, essentially back near the floor. Regime's military operations in Eastern Ghouta and Southern Syria in 2018 involved heavy bombardment. Turkish military operation in Afrin. Score reflects continued extreme instability despite territorial reconsolidation by regime."
+      features:
+        - extreme_instability_conflict
+      sources:
+        - citation: "World Bank WGI, PV.EST, Syria, 2018"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Eastern Ghouta offensive; Turkish operation in Afrin; score near floor."
+  2019:
+    data_status: complete
+    quantitative:
+      value: -2.73046922683716
+      unit: wgi_estimate_z_score
+      formula: "UCM weighted average of governance surveys"
+      source:
+        citation: "World Bank WGI, PV.EST, Syria, 2019, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/PV.EST"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        percentile_rank:
+          value: 0.471698105335236
+          unit: percentile_0_100
+          role: cross_country_context
+          source:
+            citation: "World Bank WGI, PV.PER.RNK, Syria, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK"
+            access_date: "2026-03-02"
+          reliability: low
+        number_of_sources:
+          value: 5
+          unit: count
+          role: methodology_metadata
+          source:
+            citation: "World Bank WGI, PV.NO.SRC, Syria, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.NO.SRC"
+            access_date: "2026-03-02"
+          reliability: medium
+        percentile_rank_lower_ci:
+          value: 0.0
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.LOWER, Syria, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.LOWER"
+            access_date: "2026-03-02"
+          reliability: low
+        percentile_rank_upper_ci:
+          value: 2.8301887512207
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.UPPER, Syria, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.UPPER"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Score -2.73, 0.5th percentile. Idlib conflict continues; US withdrawal from northeast Syria followed by Turkish operation (October 2019) added new instability vectors. Regime controls most populated areas but conflict frozen rather than resolved. Score at near-floor level."
+      features:
+        - extreme_instability_conflict
+      sources:
+        - citation: "World Bank WGI, PV.EST, Syria, 2019"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Turkish operation northeast Syria October 2019; conflict frozen not resolved."
+  2020:
+    data_status: complete
+    quantitative:
+      value: -2.71184778213501
+      unit: wgi_estimate_z_score
+      formula: "UCM weighted average of governance surveys"
+      source:
+        citation: "World Bank WGI, PV.EST, Syria, 2020, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/PV.EST"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        percentile_rank:
+          value: 0.0
+          unit: percentile_0_100
+          role: cross_country_context
+          source:
+            citation: "World Bank WGI, PV.PER.RNK, Syria, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK"
+            access_date: "2026-03-02"
+          reliability: low
+        number_of_sources:
+          value: 5
+          unit: count
+          role: methodology_metadata
+          source:
+            citation: "World Bank WGI, PV.NO.SRC, Syria, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.NO.SRC"
+            access_date: "2026-03-02"
+          reliability: medium
+        percentile_rank_lower_ci:
+          value: 0.0
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.LOWER, Syria, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.LOWER"
+            access_date: "2026-03-02"
+          reliability: low
+        percentile_rank_upper_ci:
+          value: 2.35849046707153
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.UPPER, Syria, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.UPPER"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Score -2.71, 0th percentile. Frozen conflict persists; Idlib March 2020 ceasefire holds tenuously. Caesar Act sanctions add economic instability. COVID-19 pandemic strains a collapsed health system. Score reflects continued extreme instability."
+      features:
+        - extreme_instability_conflict
+      sources:
+        - citation: "World Bank WGI, PV.EST, Syria, 2020"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Idlib ceasefire March 2020; COVID-19; Caesar Act sanctions."
+  2021:
+    data_status: complete
+    quantitative:
+      value: -2.65965008735657
+      unit: wgi_estimate_z_score
+      formula: "UCM weighted average of governance surveys"
+      source:
+        citation: "World Bank WGI, PV.EST, Syria, 2021, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/PV.EST"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        percentile_rank:
+          value: 0.471698105335236
+          unit: percentile_0_100
+          role: cross_country_context
+          source:
+            citation: "World Bank WGI, PV.PER.RNK, Syria, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK"
+            access_date: "2026-03-02"
+          reliability: low
+        number_of_sources:
+          value: 5
+          unit: count
+          role: methodology_metadata
+          source:
+            citation: "World Bank WGI, PV.NO.SRC, Syria, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.NO.SRC"
+            access_date: "2026-03-02"
+          reliability: medium
+        percentile_rank_lower_ci:
+          value: 0.0
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.LOWER, Syria, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.LOWER"
+            access_date: "2026-03-02"
+          reliability: low
+        percentile_rank_upper_ci:
+          value: 3.30188679695129
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.UPPER, Syria, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.UPPER"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Score -2.66, 0.5th percentile. Frozen conflict; some improvement from the 2015-2016 nadir but still extreme instability globally. Multiple external military presences (Russia, Iran, Turkey, US) operating within Syria. No political settlement in sight."
+      features:
+        - extreme_instability_conflict
+      sources:
+        - citation: "World Bank WGI, PV.EST, Syria, 2021"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: null
+  2022:
+    data_status: complete
+    quantitative:
+      value: -2.77689838409424
+      unit: wgi_estimate_z_score
+      formula: "UCM weighted average of governance surveys"
+      source:
+        citation: "World Bank WGI, PV.EST, Syria, 2022, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/PV.EST"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        percentile_rank:
+          value: 0.0
+          unit: percentile_0_100
+          role: cross_country_context
+          source:
+            citation: "World Bank WGI, PV.PER.RNK, Syria, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK"
+            access_date: "2026-03-02"
+          reliability: low
+        number_of_sources:
+          value: 5
+          unit: count
+          role: methodology_metadata
+          source:
+            citation: "World Bank WGI, PV.NO.SRC, Syria, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.NO.SRC"
+            access_date: "2026-03-02"
+          reliability: medium
+        percentile_rank_lower_ci:
+          value: 0.0
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.LOWER, Syria, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.LOWER"
+            access_date: "2026-03-02"
+          reliability: low
+        percentile_rank_upper_ci:
+          value: 2.35849046707153
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.UPPER, Syria, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.UPPER"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Score -2.78, 0th percentile; deteriorated from 2021. Score reflects continued frozen multi-front conflict, Israeli airstrikes on Iranian positions within Syria, and ongoing instability in northeast and northwest. Arab normalization process beginning but no stability improvement."
+      features:
+        - extreme_instability_conflict
+      sources:
+        - citation: "World Bank WGI, PV.EST, Syria, 2022"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: null
+  2023:
+    data_status: complete
+    quantitative:
+      value: -2.75060677528381
+      unit: wgi_estimate_z_score
+      formula: "UCM weighted average of governance surveys"
+      source:
+        citation: "World Bank WGI, PV.EST, Syria, 2023, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/PV.EST"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        percentile_rank:
+          value: 0.0
+          unit: percentile_0_100
+          role: cross_country_context
+          source:
+            citation: "World Bank WGI, PV.PER.RNK, Syria, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK"
+            access_date: "2026-03-02"
+          reliability: low
+        number_of_sources:
+          value: 5
+          unit: count
+          role: methodology_metadata
+          source:
+            citation: "World Bank WGI, PV.NO.SRC, Syria, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.NO.SRC"
+            access_date: "2026-03-02"
+          reliability: medium
+        percentile_rank_lower_ci:
+          value: 0.0
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.LOWER, Syria, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.LOWER"
+            access_date: "2026-03-02"
+          reliability: low
+        percentile_rank_upper_ci:
+          value: 2.84360194206238
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.UPPER, Syria, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.UPPER"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Last WGI political stability measurement; score -2.75, 0th percentile. Earthquake February 2023 compounded humanitarian crisis. The Assad regime fell in December 2024 following an HTS-led offensive that started in late November 2024; however this 2023 WGI measurement predates that collapse. Syria was still at near-minimum global stability during this measurement period."
+      features:
+        - extreme_instability_conflict
+      sources:
+        - citation: "World Bank WGI, PV.EST, Syria, 2023"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Last WGI measurement before December 2024 regime change. Earthquake February 2023."
+  2024:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: wgi_estimate_z_score
+      formula: "UCM weighted average of governance surveys"
+      source:
+        citation: "World Bank WGI, PV.EST, Syria, 2024, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/PV.EST"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        percentile_rank:
+          value: null
+          unit: percentile_0_100
+          role: cross_country_context
+          source:
+            citation: "World Bank WGI, PV.PER.RNK, Syria, 2024 — no data"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK"
+            access_date: "2026-03-02"
+          reliability: low
+        number_of_sources:
+          value: null
+          unit: count
+          role: methodology_metadata
+          source:
+            citation: "World Bank WGI, PV.NO.SRC, Syria, 2024 — no data"
+            url: "https://data.worldbank.org/indicator/PV.NO.SRC"
+            access_date: "2026-03-02"
+          reliability: low
+        percentile_rank_lower_ci:
+          value: null
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.LOWER, Syria, 2024 — no data"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.LOWER"
+            access_date: "2026-03-02"
+          reliability: low
+        percentile_rank_upper_ci:
+          value: null
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.UPPER, Syria, 2024 — no data"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.UPPER"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No WGI data available for 2024. The Assad regime fell in December 2024 following the HTS-led offensive. The 2024 WGI will represent the regime change year; when released it will capture both the final Assad period and the transition. Expected to remain at extreme instability levels given the armed nature of the transition."
+      features: []
+      sources:
+        - citation: "World Bank WGI, PV.EST, Syria, 2024 — not yet released"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "WGI 2024 not yet released; regime change December 2024 creates structural break."
+  2025:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: wgi_estimate_z_score
+      formula: "UCM weighted average of governance surveys"
+      source:
+        citation: "World Bank WGI, PV.EST, Syria, 2025, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/PV.EST"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        percentile_rank:
+          value: null
+          unit: percentile_0_100
+          role: cross_country_context
+          source:
+            citation: "World Bank WGI, PV.PER.RNK, Syria, 2025 — no data"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK"
+            access_date: "2026-03-02"
+          reliability: low
+        number_of_sources:
+          value: null
+          unit: count
+          role: methodology_metadata
+          source:
+            citation: "World Bank WGI, PV.NO.SRC, Syria, 2025 — no data"
+            url: "https://data.worldbank.org/indicator/PV.NO.SRC"
+            access_date: "2026-03-02"
+          reliability: low
+        percentile_rank_lower_ci:
+          value: null
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.LOWER, Syria, 2025 — no data"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.LOWER"
+            access_date: "2026-03-02"
+          reliability: low
+        percentile_rank_upper_ci:
+          value: null
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.UPPER, Syria, 2025 — no data"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.UPPER"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data available. Post-transition period; new governance being established under HTS-led authority."
+      features: []
+      sources:
+        - citation: "World Bank WGI, PV.EST, Syria, 2025 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No data."
+  2026:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: wgi_estimate_z_score
+      formula: "UCM weighted average of governance surveys"
+      source:
+        citation: "World Bank WGI, PV.EST, Syria, 2026, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/PV.EST"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        percentile_rank:
+          value: null
+          unit: percentile_0_100
+          role: cross_country_context
+          source:
+            citation: "World Bank WGI, PV.PER.RNK, Syria, 2026 — no data"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK"
+            access_date: "2026-03-02"
+          reliability: low
+        number_of_sources:
+          value: null
+          unit: count
+          role: methodology_metadata
+          source:
+            citation: "World Bank WGI, PV.NO.SRC, Syria, 2026 — no data"
+            url: "https://data.worldbank.org/indicator/PV.NO.SRC"
+            access_date: "2026-03-02"
+          reliability: low
+        percentile_rank_lower_ci:
+          value: null
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.LOWER, Syria, 2026 — no data"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.LOWER"
+            access_date: "2026-03-02"
+          reliability: low
+        percentile_rank_upper_ci:
+          value: null
+          unit: percentile_0_100
+          role: confidence_bound
+          source:
+            citation: "World Bank WGI, PV.PER.RNK.UPPER, Syria, 2026 — no data"
+            url: "https://data.worldbank.org/indicator/PV.PER.RNK.UPPER"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data available; year not yet complete."
+      features: []
+      sources:
+        - citation: "World Bank WGI, PV.EST, Syria, 2026 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Year not yet complete."

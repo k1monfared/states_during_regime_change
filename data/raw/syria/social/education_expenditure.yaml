@@ -1,0 +1,680 @@
+indicator: education_expenditure
+country: syria
+dimension: social
+years:
+  2009:
+    data_status: complete
+    quantitative:
+      value: 5.13
+      unit: percent_of_gdp
+      formula: "(education_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Syria, 2009, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        education_expenditure_usd:
+          value: null
+          unit: current_usd
+          role: numerator
+          source:
+            citation: "World Bank WDI — absolute USD figure not directly available; percentage provided"
+            url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+            access_date: "2026-03-02"
+          reliability: null
+          note: "Absolute education expenditure in USD derived as: 5.13% * GDP (approx. $54B) ≈ $2.77B"
+        gdp_current_usd:
+          value: null
+          unit: current_usd
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+        education_pct_govt_expenditure:
+          value: 19.18
+          unit: percent_of_government_expenditure
+          role: context
+          source:
+            citation: "World Bank WDI, SE.XPD.TOTL.GB.ZS, Syria, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+          note: "Education represented 19.18% of total government expenditure in 2009, reflecting a significant Ba'athist state commitment to education"
+    qualitative:
+      assessment: "Syria allocated 5.13% of GDP to education in 2009, placing it in the 'moderate' category (4-6% of GDP) and notably above the average for lower-middle income countries. This reflected decades of Ba'athist state investment in public education as a foundation of social policy and regime legitimacy. Education consumed 19.18% of total government expenditure — nearly one-fifth of the budget. Syria had achieved relatively high literacy rates (approximately 84% adult literacy) and near-universal primary school enrollment. The free public education system extended from primary through university level. This strong education investment was a structural feature of the Syrian developmental state model."
+      features:
+        - moderate_4_6pct
+      sources:
+        - citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Syria, 2009"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Only pre-war data point available; all subsequent years have no World Bank data. Education % of government expenditure at 19.18% — highest level before series ends."
+  2010:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_gdp
+      formula: "(education_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Syria, 2010 — no data available"
+        url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        education_expenditure_usd:
+          value: null
+          unit: current_usd
+          role: numerator
+          shared_ref: null
+        gdp_current_usd:
+          value: null
+          unit: current_usd
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+        education_pct_govt_expenditure:
+          value: null
+          unit: percent_of_government_expenditure
+          role: context
+          source:
+            citation: "World Bank WDI, SE.XPD.TOTL.GB.ZS, Syria, 2010 — no data available"
+            url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
+            access_date: "2026-03-02"
+          reliability: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available from World Bank WDI for 2010. Pre-civil war period; education system still functional."
+  2011:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_gdp
+      formula: "(education_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Syria, 2011 — no data available"
+        url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        education_expenditure_usd:
+          value: null
+          unit: current_usd
+          role: numerator
+          shared_ref: null
+        gdp_current_usd:
+          value: null
+          unit: current_usd
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+        education_pct_govt_expenditure:
+          value: null
+          unit: percent_of_government_expenditure
+          role: context
+          source:
+            citation: "World Bank WDI, SE.XPD.TOTL.GB.ZS, Syria, 2011 — no data available"
+            url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
+            access_date: "2026-03-02"
+          reliability: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available. Civil war began 2011. School closures began in conflict zones; UNESCO estimated 2.1M Syrian children out of school by end of 2011."
+  2012:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_gdp
+      formula: "(education_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Syria, 2012 — no data available"
+        url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        education_expenditure_usd:
+          value: null
+          unit: current_usd
+          role: numerator
+          shared_ref: null
+        gdp_current_usd:
+          value: null
+          unit: current_usd
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+        education_pct_govt_expenditure:
+          value: null
+          unit: percent_of_government_expenditure
+          role: context
+          source:
+            citation: "World Bank WDI, SE.XPD.TOTL.GB.ZS, Syria, 2012 — no data available"
+            url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
+            access_date: "2026-03-02"
+          reliability: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available. Active heavy conflict; many schools damaged, destroyed, or repurposed as shelters or military positions."
+  2013:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_gdp
+      formula: "(education_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Syria, 2013 — no data available"
+        url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        education_expenditure_usd:
+          value: null
+          unit: current_usd
+          role: numerator
+          shared_ref: null
+        gdp_current_usd:
+          value: null
+          unit: current_usd
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+        education_pct_govt_expenditure:
+          value: null
+          unit: percent_of_government_expenditure
+          role: context
+          source:
+            citation: "World Bank WDI, SE.XPD.TOTL.GB.ZS, Syria, 2013 — no data available"
+            url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
+            access_date: "2026-03-02"
+          reliability: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available. ISIL established control over Raqqa; parallel education system imposed including ban on secular curriculum. UNESCO estimated 50%+ of schools damaged or destroyed by this period."
+  2014:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_gdp
+      formula: "(education_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Syria, 2014 — no data available"
+        url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        education_expenditure_usd:
+          value: null
+          unit: current_usd
+          role: numerator
+          shared_ref: null
+        gdp_current_usd:
+          value: null
+          unit: current_usd
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+        education_pct_govt_expenditure:
+          value: null
+          unit: percent_of_government_expenditure
+          role: context
+          source:
+            citation: "World Bank WDI, SE.XPD.TOTL.GB.ZS, Syria, 2014 — no data available"
+            url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
+            access_date: "2026-03-02"
+          reliability: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available. ISIL at peak territorial control; imposed entirely separate religious curriculum across large areas. UNICEF estimated 2.8M Syrian children out of school by 2014."
+  2015:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_gdp
+      formula: "(education_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Syria, 2015 — no data available"
+        url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        education_expenditure_usd:
+          value: null
+          unit: current_usd
+          role: numerator
+          shared_ref: null
+        gdp_current_usd:
+          value: null
+          unit: current_usd
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+        education_pct_govt_expenditure:
+          value: null
+          unit: percent_of_government_expenditure
+          role: context
+          source:
+            citation: "World Bank WDI, SE.XPD.TOTL.GB.ZS, Syria, 2015 — no data available"
+            url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
+            access_date: "2026-03-02"
+          reliability: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available. Peak refugee crisis year; massive displacement severely disrupted schooling. Syrian refugees in neighboring countries partially covered by UNHCR and host-country education systems."
+  2016:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_gdp
+      formula: "(education_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Syria, 2016 — no data available"
+        url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        education_expenditure_usd:
+          value: null
+          unit: current_usd
+          role: numerator
+          shared_ref: null
+        gdp_current_usd:
+          value: null
+          unit: current_usd
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+        education_pct_govt_expenditure:
+          value: null
+          unit: percent_of_government_expenditure
+          role: context
+          source:
+            citation: "World Bank WDI, SE.XPD.TOTL.GB.ZS, Syria, 2016 — no data available"
+            url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
+            access_date: "2026-03-02"
+          reliability: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available. Aleppo recaptured by government forces December 2016. Education infrastructure severely damaged in formerly contested cities."
+  2017:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_gdp
+      formula: "(education_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Syria, 2017 — no data available"
+        url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        education_expenditure_usd:
+          value: null
+          unit: current_usd
+          role: numerator
+          shared_ref: null
+        gdp_current_usd:
+          value: null
+          unit: current_usd
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+        education_pct_govt_expenditure:
+          value: null
+          unit: percent_of_government_expenditure
+          role: context
+          source:
+            citation: "World Bank WDI, SE.XPD.TOTL.GB.ZS, Syria, 2017 — no data available"
+            url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
+            access_date: "2026-03-02"
+          reliability: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available. ISIL defeated in Raqqa; secular education could begin partial restoration in SDF-controlled northeast. Government education system partially restored in recaptured western Syria."
+  2018:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_gdp
+      formula: "(education_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Syria, 2018 — no data available"
+        url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        education_expenditure_usd:
+          value: null
+          unit: current_usd
+          role: numerator
+          shared_ref: null
+        gdp_current_usd:
+          value: null
+          unit: current_usd
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+        education_pct_govt_expenditure:
+          value: null
+          unit: percent_of_government_expenditure
+          role: context
+          source:
+            citation: "World Bank WDI, SE.XPD.TOTL.GB.ZS, Syria, 2018 — no data available"
+            url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
+            access_date: "2026-03-02"
+          reliability: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available. Government recaptured most of western and southern Syria. Education reconstruction began in formerly contested areas but severely resource-constrained."
+  2019:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_gdp
+      formula: "(education_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Syria, 2019 — no data available"
+        url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        education_expenditure_usd:
+          value: null
+          unit: current_usd
+          role: numerator
+          shared_ref: null
+        gdp_current_usd:
+          value: null
+          unit: current_usd
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+        education_pct_govt_expenditure:
+          value: null
+          unit: percent_of_government_expenditure
+          role: context
+          source:
+            citation: "World Bank WDI, SE.XPD.TOTL.GB.ZS, Syria, 2019 — no data available"
+            url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
+            access_date: "2026-03-02"
+          reliability: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available. Teacher shortages acute; curriculum had not been systematically updated since pre-war. UNICEF estimated 1.75M children still out of school despite partial recovery."
+  2020:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_gdp
+      formula: "(education_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Syria, 2020 — no data available"
+        url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        education_expenditure_usd:
+          value: null
+          unit: current_usd
+          role: numerator
+          shared_ref: null
+        gdp_current_usd:
+          value: null
+          unit: current_usd
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+        education_pct_govt_expenditure:
+          value: null
+          unit: percent_of_government_expenditure
+          role: context
+          source:
+            citation: "World Bank WDI, SE.XPD.TOTL.GB.ZS, Syria, 2020 — no data available"
+            url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
+            access_date: "2026-03-02"
+          reliability: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available. Caesar Act sanctions (June 2020) and COVID-19 compounded constraints. Syrian pound collapse devastated teachers' real wages; school dropout rates rose sharply."
+  2021:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_gdp
+      formula: "(education_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Syria, 2021 — no data available"
+        url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        education_expenditure_usd:
+          value: null
+          unit: current_usd
+          role: numerator
+          shared_ref: null
+        gdp_current_usd:
+          value: null
+          unit: current_usd
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+        education_pct_govt_expenditure:
+          value: null
+          unit: percent_of_government_expenditure
+          role: context
+          source:
+            citation: "World Bank WDI, SE.XPD.TOTL.GB.ZS, Syria, 2021 — no data available"
+            url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
+            access_date: "2026-03-02"
+          reliability: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available. Hyperinflationary environment; real education budget collapsed even if nominal government allocation maintained."
+  2022:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_gdp
+      formula: "(education_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Syria, 2022 — no data available"
+        url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        education_expenditure_usd:
+          value: null
+          unit: current_usd
+          role: numerator
+          shared_ref: null
+        gdp_current_usd:
+          value: null
+          unit: current_usd
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+        education_pct_govt_expenditure:
+          value: null
+          unit: percent_of_government_expenditure
+          role: context
+          source:
+            citation: "World Bank WDI, SE.XPD.TOTL.GB.ZS, Syria, 2022 — no data available"
+            url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
+            access_date: "2026-03-02"
+          reliability: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available. Multiple parallel education systems operating across Syria's fragmented governance zones (Assad government, SDF/AANES, HTS-controlled Idlib, Turkish-backed factions). No unified national education data possible."
+  2023:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_gdp
+      formula: "(education_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Syria, 2023 — no data available"
+        url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        education_expenditure_usd:
+          value: null
+          unit: current_usd
+          role: numerator
+          shared_ref: null
+        gdp_current_usd:
+          value: null
+          unit: current_usd
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+        education_pct_govt_expenditure:
+          value: null
+          unit: percent_of_government_expenditure
+          role: context
+          source:
+            citation: "World Bank WDI, SE.XPD.TOTL.GB.ZS, Syria, 2023 — no data available"
+            url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
+            access_date: "2026-03-02"
+          reliability: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available. February 2023 earthquake caused significant additional damage to school infrastructure in northwestern Syria. UNESCO estimated a 'lost generation' of Syrian children who had spent their entire schooling years under conflict conditions."
+  2024:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_gdp
+      formula: "(education_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Syria, 2024 — no data available"
+        url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        education_expenditure_usd:
+          value: null
+          unit: current_usd
+          role: numerator
+          shared_ref: null
+        gdp_current_usd:
+          value: null
+          unit: current_usd
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+        education_pct_govt_expenditure:
+          value: null
+          unit: percent_of_government_expenditure
+          role: context
+          source:
+            citation: "World Bank WDI, SE.XPD.TOTL.GB.ZS, Syria, 2024 — no data available"
+            url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
+            access_date: "2026-03-02"
+          reliability: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available. Assad regime fell December 2024; HTS-led transitional government beginning to establish unified governance. Education policy under new regime unknown; significant challenges in curriculum reform and infrastructure reconstruction."
+  2025:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_gdp
+      formula: "(education_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Syria, 2025 — no data available"
+        url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        education_expenditure_usd:
+          value: null
+          unit: current_usd
+          role: numerator
+          shared_ref: null
+        gdp_current_usd:
+          value: null
+          unit: current_usd
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+        education_pct_govt_expenditure:
+          value: null
+          unit: percent_of_government_expenditure
+          role: context
+          source:
+            citation: "World Bank WDI, SE.XPD.TOTL.GB.ZS, Syria, 2025 — no data available"
+            url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
+            access_date: "2026-03-02"
+          reliability: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available. Post-regime change period; new government education system formation ongoing. Significant international investment in Syrian education reconstruction expected but not yet measured."
+  2026:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_of_gdp
+      formula: "(education_expenditure_usd / gdp_current_usd) * 100 — WB provides directly"
+      source:
+        citation: "World Bank WDI, SE.XPD.TOTL.GD.ZS, Syria, 2026 — no data available"
+        url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        education_expenditure_usd:
+          value: null
+          unit: current_usd
+          role: numerator
+          shared_ref: null
+        gdp_current_usd:
+          value: null
+          unit: current_usd
+          role: denominator
+          shared_ref: "shared/base_variables.yaml#gdp_current_usd"
+        education_pct_govt_expenditure:
+          value: null
+          unit: percent_of_government_expenditure
+          role: context
+          source:
+            citation: "World Bank WDI, SE.XPD.TOTL.GB.ZS, Syria, 2026 — no data available"
+            url: "https://data.worldbank.org/indicator/SE.XPD.TOTL.GB.ZS"
+            access_date: "2026-03-02"
+          reliability: null
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: null
+      notes: "No data available. Year not yet complete at time of data collection (2026-03-02)."

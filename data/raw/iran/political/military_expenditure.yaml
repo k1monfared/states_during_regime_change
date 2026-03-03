@@ -1,0 +1,2280 @@
+indicator: military_expenditure
+country: iran
+dimension: political
+years:
+  1960:
+    data_status: complete
+    quantitative:
+      value: 2.29
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1960, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 98679867.99
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1960, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Iran under the Shah maintained a moderate military spend of 2.3% of GDP in 1960, reflecting a modernizing but still constrained defense establishment. US military aid and cooperation kept formal costs lower than actual capability."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1960"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-1979 data reflects Imperial Iran; IRGC did not yet exist; figures are SIPRI-based estimates"
+  1961:
+    data_status: complete
+    quantitative:
+      value: 2.35
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1961, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 105940594.06
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1961, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Modest rise in military spending as the Shah invested in building Iran's regional military power."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1961"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-1979 data; IRGC did not yet exist"
+  1962:
+    data_status: complete
+    quantitative:
+      value: 2.31
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1962, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 109900990.10
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1962, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Stable military expenditure share in early 1960s under the Shah's White Revolution reform program."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1962"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-1979 data; IRGC did not yet exist"
+  1963:
+    data_status: complete
+    quantitative:
+      value: 2.59
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1963, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 128712871.29
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1963, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Military spending ticks up as Shah responds to internal unrest following June 1963 uprising against the White Revolution."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1963"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-1979 data; IRGC did not yet exist"
+  1964:
+    data_status: complete
+    quantitative:
+      value: 2.88
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1964, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 155445544.55
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1964, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Continued upward trend in military spending as Shah expanded armed forces with US support."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1964"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-1979 data; IRGC did not yet exist"
+  1965:
+    data_status: complete
+    quantitative:
+      value: 3.25
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1965, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 200000000.0
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1965, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Iran crosses into the elevated spending band as Shah scales up military with oil revenues; military modernization accelerating."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1965"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-1979 data; IRGC did not yet exist"
+  1966:
+    data_status: complete
+    quantitative:
+      value: 3.82
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1966, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 256105610.56
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1966, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Military spending approaches 4% as the Shah's ambitions for regional hegemony grow and Iran's oil revenues allow expanded defense procurement."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1966"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-1979 data; IRGC did not yet exist"
+  1967:
+    data_status: complete
+    quantitative:
+      value: 4.46
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1967, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 331023102.31
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1967, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Military spending enters elevated territory; Nixon Doctrine (1969 variant) would soon make Iran a key US proxy, further fueling military buildup."
+      features:
+        - elevated_(4-7%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1967"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-1979 data; IRGC did not yet exist"
+  1968:
+    data_status: complete
+    quantitative:
+      value: 5.18
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1968, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 437293729.37
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1968, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Iran's military spending exceeds 5% of GDP, one of the highest in the region; major arms purchases from the US mark this era."
+      features:
+        - elevated_(4-7%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1968"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-1979 data; IRGC did not yet exist"
+  1969:
+    data_status: complete
+    quantitative:
+      value: 5.97
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1969, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 566006600.66
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1969, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Near-peak pre-oil boom military spending under the Shah; Iran acquiring advanced US weapons systems including F-4 Phantoms and destroyers."
+      features:
+        - elevated_(4-7%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1969"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-1979 data; IRGC did not yet exist"
+  1970:
+    data_status: complete
+    quantitative:
+      value: 5.86
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1970, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 620132013.20
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1970, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Sustained elevated military spending; Iran acting as US gendarme in the Gulf after British withdrawal east of Suez."
+      features:
+        - elevated_(4-7%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1970"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-1979 data; IRGC did not yet exist"
+  1971:
+    data_status: complete
+    quantitative:
+      value: 3.05
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1971, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 402310231.02
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1971, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Apparent decline in % GDP due to rapid GDP growth from oil revenues; absolute spending also fell as Shah prioritized economic modernization temporarily."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1971"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-1979 data; IRGC did not yet exist"
+  1972:
+    data_status: complete
+    quantitative:
+      value: 2.28
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1972, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 371947194.72
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1972, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "GDP growth outpaces military spending in percentage terms; oil revenues driving civilian investment surge."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1972"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-1979 data; IRGC did not yet exist"
+  1973:
+    data_status: complete
+    quantitative:
+      value: 1.86
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1973, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 480857166.91
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1973, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Low percentage due to massive oil revenue surge post-1973 Arab oil embargo; absolute spending growing but dwarfed by GDP expansion."
+      features:
+        - low_(1-2%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1973"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-1979 data; IRGC did not yet exist; GDP spike from oil embargo distorts percentage"
+  1974:
+    data_status: complete
+    quantitative:
+      value: 8.75
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1974, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 3877862663.13
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1974, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Dramatic jump in military spending to 8.75% following 1973-74 oil shock windfall; Shah purchases massive quantities of US weapons including F-14s, spends $4 billion in one year on defense."
+      features:
+        - high_(7-15%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1974"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-1979 data; IRGC did not yet exist; oil revenues enabled massive arms purchases"
+  1975:
+    data_status: complete
+    quantitative:
+      value: 12.07
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1975, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 5951043741.98
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1975, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Peak military spending under the Shah; Iran became the world's largest arms importer, with the Shah spending nearly 12% of GDP on the military funded by oil revenues."
+      features:
+        - high_(7-15%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1975"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-1979 data; IRGC did not yet exist; Iran was largest US arms customer globally"
+  1976:
+    data_status: complete
+    quantitative:
+      value: 11.25
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1976, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 7186307294.36
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1976, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Continued very high military spending as the Shah pursued superpower-level armed forces; Oman intervention, Gulf patrol, and massive F-14 fleet maintenance."
+      features:
+        - high_(7-15%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1976"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-1979 data; IRGC did not yet exist"
+  1977:
+    data_status: complete
+    quantitative:
+      value: 10.19
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1977, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 7617207960.43
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1977, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Pre-revolutionary high spending continues but share dipping as GDP grows; unrest beginning as economic strains create social pressure."
+      features:
+        - high_(7-15%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1977"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-1979 data; IRGC did not yet exist; Carter human rights pressure reducing some US sales"
+  1978:
+    data_status: complete
+    quantitative:
+      value: 11.11
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1978, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 8113739880.88
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1978, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Final year of Pahlavi-era military build-up; revolution-era strikes reduced GDP while military spending remained high, pushing share up; military ultimately failed to suppress the revolution."
+      features:
+        - high_(7-15%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1978"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "Pre-1979 data; IRGC did not yet exist; strike-hit GDP inflates percentage"
+  1979:
+    data_status: complete
+    quantitative:
+      value: 5.80
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1979, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 4993779938.92
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1979, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Revolution year; military budget collapsed as the Islamic Republic dismantled and purged the Shah's armed forces. IRGC founded in May 1979 with parallel command structure. Off-book IRGC spending begins here — official figures are significant underestimates."
+      features:
+        - elevated_(4-7%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1979"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC (Revolutionary Guards) founded 1979; off-book spending begins; SIPRI estimates likely undercount actual military expenditure from this year forward"
+  1980:
+    data_status: complete
+    quantitative:
+      value: 5.34
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1980, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 4874889400.11
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1980, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Iran-Iraq war begins September 1980; official military spending appears moderate but actual war spending through IRGC and informal channels is substantially higher. Military capability severely degraded by purges."
+      features:
+        - elevated_(4-7%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1980"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Iran-Iraq war year 1; IRGC off-book spending; SIPRI estimates are significant underestimates"
+  1981:
+    data_status: complete
+    quantitative:
+      value: 8.19
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1981, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 8121567621.45
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1981, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Official war spending spikes as the war intensifies; IRGC parallel military structure running large unaccounted expenditures. True military burden likely exceeds 15% of GDP when IRGC and informal channels included."
+      features:
+        - high_(7-15%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1981"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Iran-Iraq war year 2; IRGC off-book spending significant; true burden likely higher"
+  1982:
+    data_status: complete
+    quantitative:
+      value: 7.91
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1982, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 9703525315.26
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1982, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "War economy year; Iran retakes Khorramshahr and goes on offensive into Iraq. Sustained high official military spending with additional off-book IRGC expenditures."
+      features:
+        - high_(7-15%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1982"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Iran-Iraq war; IRGC off-book spending; SIPRI estimates undercount"
+  1983:
+    data_status: complete
+    quantitative:
+      value: 7.10
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1983, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 10550357292.93
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1983, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Sustained high military burden during the war of the cities and tanker war phase; percentage of GDP declining slightly as economy adjusts to wartime."
+      features:
+        - high_(7-15%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1983"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Iran-Iraq war; IRGC off-book spending; SIPRI estimates undercount"
+  1984:
+    data_status: complete
+    quantitative:
+      value: 6.35
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1984, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 9926303621.97
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1984, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Continuing elevated war spending; human wave attacks require large manpower mobilization. IRGC growing in budget and political power."
+      features:
+        - elevated_(4-7%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1984"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Iran-Iraq war; IRGC off-book spending; SIPRI estimates undercount"
+  1985:
+    data_status: complete
+    quantitative:
+      value: 6.51
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1985, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 10706415944.51
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1985, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Sustained high war spending; Operation Badr and continued offensives into Iraq requiring massive resources. Economy under severe strain."
+      features:
+        - elevated_(4-7%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1985"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Iran-Iraq war; IRGC off-book spending; SIPRI estimates undercount"
+  1986:
+    data_status: complete
+    quantitative:
+      value: 6.08
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1986, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 11741433342.09
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1986, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Oil price collapse of 1986 cut revenues severely while war continued; Iran-Contra affair and arms procurement through back channels. Military burden continuing despite economic hardship."
+      features:
+        - elevated_(4-7%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1986"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Iran-Iraq war; oil price collapse; IRGC off-book spending; SIPRI estimates undercount"
+  1987:
+    data_status: complete
+    quantitative:
+      value: 5.89
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1987, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 15263376569.60
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1987, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Tanker war and Operation Earnest Will; US Navy involvement. War near peak intensity. GDP denominator falls due to rial depreciation making percentage appear lower."
+      features:
+        - elevated_(4-7%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1987"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Iran-Iraq war near peak; IRGC off-book spending; SIPRI estimates undercount"
+  1988:
+    data_status: complete
+    quantitative:
+      value: 6.27
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1988, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 18889008562.66
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1988, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Final year of Iran-Iraq war; ceasefire accepted July 1988. War spending remained high until ceasefire. Economic exhaustion forces Khomeini to 'drink the poison cup' of peace."
+      features:
+        - elevated_(4-7%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1988"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "War ceasefire year; IRGC off-book spending; SIPRI estimates undercount"
+  1989:
+    data_status: complete
+    quantitative:
+      value: 4.56
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1989, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 16301812932.06
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1989, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Post-war demobilization begins; Rafsanjani's reconstruction era opens. Military spending falls as ceasefire holds, but IRGC retains large institutional footprint."
+      features:
+        - elevated_(4-7%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1989"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Post-war demobilization; IRGC off-book spending continues; SIPRI estimates undercount"
+  1990:
+    data_status: complete
+    quantitative:
+      value: 2.94
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1990, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 16474401698.23
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1990, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Sharp drop in official military spending share as reconstruction takes priority; Gulf War provides context of Iranian neutrality. IRGC retains large off-book budget."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1990"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Reconstruction era; IRGC off-book spending continues; SIPRI estimates undercount"
+  1991:
+    data_status: complete
+    quantitative:
+      value: 2.17
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1991, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 17549594829.94
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1991, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Military spending stabilizes at moderate level; Iran benefiting from US preoccupation in Gulf War. Rafsanjani era prioritizes economic reconstruction over military buildup."
+      features:
+        - low_(1-2%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1991"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Reconstruction era; IRGC off-book spending continues; SIPRI estimates undercount"
+  1992:
+    data_status: complete
+    quantitative:
+      value: 1.79
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1992, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 19732558015.41
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1992, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Official military share at post-war low; reconstruction spending dominates budget. Iranian military quietly reequipping from former Soviet republics and China."
+      features:
+        - low_(1-2%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1992"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Reconstruction era; IRGC off-book spending continues; SIPRI estimates undercount"
+  1993:
+    data_status: complete
+    quantitative:
+      value: 1.70
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1993, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 1448177703.48
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1993, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Currency devaluation dramatically reduces USD-denominated military spending figures; the rial exchange rate unification causes apparent collapse in dollar terms that is misleading."
+      features:
+        - low_(1-2%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1993"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Exchange rate unification distorts USD figures; IRGC off-book spending; SIPRI estimates undercount"
+  1994:
+    data_status: complete
+    quantitative:
+      value: 2.07
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1994, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 1703171536.21
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1994, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate official military spending in reconstruction period; Iran under US dual containment policy beginning 1993. IRGC continuing parallel military development."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1994"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; SIPRI estimates undercount; USD figures affected by exchange rate"
+  1995:
+    data_status: complete
+    quantitative:
+      value: 2.15
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1995, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 2501544189.56
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1995, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "US Iran-Libya Sanctions Act (ILSA) passes 1996; Iran rearms quietly from non-Western sources. Official budget moderate but IRGC expansion continues off-book."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1995"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; SIPRI estimates undercount"
+  1996:
+    data_status: complete
+    quantitative:
+      value: 2.24
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1996, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 3550986964.19
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1996, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "ILSA sanctions in force; Iran maintains moderate official military spend while IRGC develops missile and asymmetric capabilities outside formal budget."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1996"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; SIPRI estimates undercount"
+  1997:
+    data_status: complete
+    quantitative:
+      value: 2.50
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1997, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 4642384615.82
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1997, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Khatami reformist president elected; modest military spending despite ongoing IRGC institutional expansion. Dialogue of civilizations era temporarily reduces threat perception."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1997"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; SIPRI estimates undercount"
+  1998:
+    data_status: complete
+    quantitative:
+      value: 2.63
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1998, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 5479362941.74
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1998, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate official defense spending; Iran-Afghanistan Taliban border confrontation tests military readiness. IRGC continues significant off-book activities."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1998"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; SIPRI estimates undercount"
+  1999:
+    data_status: complete
+    quantitative:
+      value: 2.40
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1999, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 6650285143.98
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 1999, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Student protests (July 1999) suppressed by IRGC and Basij; internal security role of IRGC reinforced, increasing off-book resource allocation."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 1999"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; SIPRI estimates undercount"
+  2000:
+    data_status: complete
+    quantitative:
+      value: 2.30
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2000, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 8327053824.36
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2000, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Moderate official military spending; Iran watching US Afghan and Iraq wars with concern. Nuclear program advancing in secret — Natanz and Arak facilities under construction."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2000"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; SIPRI estimates undercount; nuclear program costs not reflected"
+  2001:
+    data_status: complete
+    quantitative:
+      value: 2.42
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2001, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 10378791765.72
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2001, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Post-9/11 era; Iran initially cooperates on Afghanistan but Bush 'axis of evil' speech (2002) hardens Iranian posture. IRGC Quds Force operations expanding."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2001"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; SIPRI estimates undercount"
+  2002:
+    data_status: complete
+    quantitative:
+      value: 2.17
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2002, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 3243891033.23
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2002, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Iran nuclear program exposed by MEK in August 2002; Natanz centrifuge facility revealed. Defense spending moderate officially but nuclear program costs are hidden in other budget lines."
+      features:
+        - low_(1-2%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2002"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; nuclear program costs hidden; SIPRI estimates undercount"
+  2003:
+    data_status: complete
+    quantitative:
+      value: 2.41
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2003, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 3717068449.78
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2003, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "US invasion of Iraq creates both threat and opportunity for Iran; Quds Force begins major support to Iraqi Shia militias. Official defense budget moderate."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2003"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; proxy force costs not in military budget; SIPRI estimates undercount"
+  2004:
+    data_status: complete
+    quantitative:
+      value: 2.83
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2004, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 5243621132.60
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2004, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Increasing official military spending as regional tensions mount; Iran's nuclear ambitions create new threat perceptions. IRGC continues asymmetric capability development."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2004"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; SIPRI estimates undercount"
+  2005:
+    data_status: complete
+    quantitative:
+      value: 3.04
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2005, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 6796744965.39
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2005, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Ahmadinejad elected president; hardline stance on nuclear program. Iran resumes uranium enrichment. Military spending rises with increased threat perception."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2005"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; SIPRI estimates undercount; nuclear costs hidden"
+  2006:
+    data_status: complete
+    quantitative:
+      value: 3.32
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2006, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 8751474767.04
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2006, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "UN Security Council passes first sanctions resolution over nuclear program (UNSCR 1737); Iran accelerates enrichment at Natanz. Official military spending rising."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2006"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; SIPRI estimates undercount; nuclear costs hidden"
+  2007:
+    data_status: complete
+    quantitative:
+      value: 2.65
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2007, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 9330901881.77
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2007, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Growing US military presence around Iran; NIE 2007 assessment that Iran halted nuclear weapons work creates diplomatic space. IRGC designated as foreign terrorist organization by US."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2007"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; SIPRI estimates undercount"
+  2008:
+    data_status: complete
+    quantitative:
+      value: 2.68
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2008, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 11081950208.57
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2008, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Continued moderate official military spending; IRGC economic empire expanding with privatization of state assets. Nuclear program under multiple UN sanctions."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2008"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending and economic holdings; SIPRI estimates undercount"
+  2009:
+    data_status: complete
+    quantitative:
+      value: 3.05
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2009, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 12584623338.71
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Green Movement protests June 2009; IRGC and Basij deployed to suppress demonstrations violently. Internal security role reinforces IRGC institutional position and budget."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2009"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; Green Movement suppression adds internal security costs; SIPRI estimates undercount"
+  2010:
+    data_status: complete
+    quantitative:
+      value: 2.79
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2010, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 13561272454.21
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Stuxnet cyberattack revealed; Iran cyber defense capabilities require investment. UNSCR 1929 imposes strongest sanctions yet. Military spending remains official at 2.79%."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2010"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; cyber program costs hidden; SIPRI estimates undercount"
+  2011:
+    data_status: complete
+    quantitative:
+      value: 2.38
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2011, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 14277667360.57
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Arab Spring reshapes Iran's strategic environment; supports Assad in Syria. EU and US tighten sanctions on oil sector. Official military moderate as percentage."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2011"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; Syria support costs off-budget; SIPRI estimates undercount"
+  2012:
+    data_status: complete
+    quantitative:
+      value: 2.69
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2012, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 16493963286.93
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "SWIFT system disconnection; oil embargo. Economy under severe stress while military spending maintained. IRGC's economic empire helps sustain military capability despite sanctions."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2012"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending and economic holdings buffer official budget; SIPRI estimates undercount"
+  2013:
+    data_status: complete
+    quantitative:
+      value: 2.18
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2013, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 11997186984.10
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Rouhani elected on reformist platform; JCPOA negotiations begin. Official military spending moderate; diplomatic engagement signals willingness to reduce tension."
+      features:
+        - low_(1-2%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2013"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; SIPRI estimates undercount"
+  2014:
+    data_status: complete
+    quantitative:
+      value: 2.12
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2014, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 9901118855.30
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "JCPOA negotiations nearing conclusion; Iran supporting anti-ISIS operations in Iraq, Quds Force costs rising. Official military budget moderate."
+      features:
+        - low_(1-2%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2014"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; Quds Force proxy costs off-budget; SIPRI estimates undercount"
+  2015:
+    data_status: complete
+    quantitative:
+      value: 2.56
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2015, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 10588769670.87
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "JCPOA signed July 2015; Yemen war involvement begins (Houthi support). Military spending ticks up as Iran's regional proxy network expands requiring IRGC resources."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2015"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; Yemen/Syria proxy costs off-budget; SIPRI estimates undercount"
+  2016:
+    data_status: complete
+    quantitative:
+      value: 2.80
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2016, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 12263957414.62
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Post-JCPOA sanctions relief allows increased military spending; Iran increases budget allocation to military after Khamenei directive to increase defense spending to counter US regional presence."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2016"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; SIPRI estimates undercount"
+  2017:
+    data_status: complete
+    quantitative:
+      value: 2.84
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2017, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 13931196489.80
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Trump administration signals JCPOA withdrawal; Iran accelerates military development in response. Quds Force active in Syria, Iraq, Yemen, Lebanon."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2017"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; proxy network costs off-budget; SIPRI estimates undercount"
+  2018:
+    data_status: complete
+    quantitative:
+      value: 2.36
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2018, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 11795842412.29
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "US maximum pressure begins with JCPOA withdrawal May 2018; oil sanctions severely reduce revenues. GDP collapses in USD terms, making official military percentage appear lower than actual burden."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2018"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Maximum pressure sanctions; GDP collapse in USD distorts percentage; IRGC off-book spending; SIPRI estimates undercount"
+  2019:
+    data_status: complete
+    quantitative:
+      value: 2.15
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2019, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 4921057693.83
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "IRGC shot down US drone June 2019; tanker seizures in Gulf. Austerity forces nominal military budget cuts. Rial hyperinflation makes USD figures misleadingly low. Protests in November 2019 brutally suppressed."
+      features:
+        - low_(1-2%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2019"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Maximum pressure; currency collapse makes USD figures extremely misleading; IRGC off-book spending; SIPRI estimates undercount"
+  2020:
+    data_status: complete
+    quantitative:
+      value: 2.18
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2020, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 3349702008.05
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Qasem Soleimani assassinated January 2020; Iran retaliates with missile strikes on US bases. COVID-19 devastates economy and population. Military spending constrained by fiscal crisis."
+      features:
+        - low_(1-2%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2020"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Soleimani assassination; COVID-19 fiscal stress; IRGC off-book spending; SIPRI estimates undercount"
+  2021:
+    data_status: complete
+    quantitative:
+      value: 2.22
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2021, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 5699580109.50
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Raisi hardliner president elected; JCPOA revival talks stall. GDP recovering somewhat; military spending officially moderate but IRGC economic footprint expanding dramatically."
+      features:
+        - low_(1-2%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2021"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending and economic empire; SIPRI estimates undercount"
+  2022:
+    data_status: complete
+    quantitative:
+      value: 2.11
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2022, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 7459331830.85
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Mahsa Amini killed in IRGC custody; massive protests (Woman Life Freedom). IRGC and Basij deployed for brutal suppression. Iran supplies drones to Russia for Ukraine war. Internal security costs surge."
+      features:
+        - low_(1-2%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2022"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; internal repression costs off-budget; drone sales to Russia not captured; SIPRI estimates undercount"
+  2023:
+    data_status: complete
+    quantitative:
+      value: 2.35
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2023, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 7390861136.38
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Post-Mahsa Amini crackdown; Iran deepens Russia-China alignment. Hamas October 7 attack; Iran-backed proxies (Hezbollah, Houthis) activated. IRGC operational tempo highest since 2020."
+      features:
+        - moderate_(2-4%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2023"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; proxy network costs off-budget; SIPRI estimates undercount"
+  2024:
+    data_status: complete
+    quantitative:
+      value: 2.01
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2024, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: 7891903306.82
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iran, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Direct Israeli-Iran exchanges of fire; Raisi died in helicopter crash May 2024; Pezeshkian elected president. Regime under greatest pressure since 1979. IRGC internal security role at maximum."
+      features:
+        - low_(1-2%)
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2024"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "IRGC off-book spending; regional conflict costs off-budget; SIPRI estimates undercount; pre-regime change conditions"
+  2025:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2025, not yet available, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "Not yet available"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Pre-regime change year; World Bank data not yet available. Military and IRGC spending during escalating regime crisis expected to be elevated but not reflected in official statistics."
+      features: []
+      sources:
+        - citation: "World Bank WDI not yet available for 2025"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Data not yet reported by World Bank; regime change context makes reliability of any figures very low"
+  2026:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS, Iran, 2026, not available, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "Not available"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: low
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: "Regime change year; no World Bank data available. Military expenditure data from a transitional or collapsed state would be unreliable in any form."
+      features: []
+      sources:
+        - citation: "World Bank WDI not available for 2026"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Regime change year; no data available"

@@ -1,0 +1,1369 @@
+indicator: military_expenditure
+country: iraq
+dimension: political
+years:
+  1988:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 1988, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 1988, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: null
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: |
+        During the final year of the Iran-Iraq War (1980-1988), Iraq maintained one of the largest
+        military establishments in the Middle East. Defense spending was consuming an estimated
+        30-40% of GDP during the war years, though official reliable data is unavailable from SIPRI
+        for this period. The war ended in August 1988 with a UN-brokered ceasefire, but the military
+        apparatus remained intact and Iraq was heavily indebted.
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "SIPRI Military Expenditure Database (does not cover Iraq pre-2004 comprehensively)"
+          type: composite_index
+          reliability: low
+      confidence: low
+      notes: "SIPRI/World Bank data unavailable for Iraq 1988-2003 due to sanctions and data gaps; Iraq was spending heavily on military during Iran-Iraq War"
+  1989:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 1989, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 1989, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: null
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: |
+        Post-Iran-Iraq War period. Iraq was demobilizing but maintaining a large military force.
+        The country was deeply indebted from the war and military spending remained very high.
+        Saddam Hussein was consolidating domestic control and preparing for regional assertiveness.
+      features:
+        - high_7_15pct
+      sources:
+        - citation: "SIPRI Military Expenditure Database"
+          type: composite_index
+          reliability: low
+      confidence: low
+      notes: "No SIPRI/World Bank data available for this year"
+  1990:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 1990, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 1990, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: null
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: |
+        Iraq invaded Kuwait on August 2, 1990, triggering UN sanctions from August 6. Military
+        spending was extremely high relative to GDP given the Kuwait invasion mobilization.
+        UN sanctions immediately halted oil exports, collapsing the economy while the military
+        remained fully deployed. Data is unavailable for this period.
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "SIPRI Military Expenditure Database"
+          type: composite_index
+          reliability: low
+      confidence: low
+      notes: "Kuwait invasion August 2, 1990; sanctions from August 6; no reliable data"
+  1991:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 1991, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 1991, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: null
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: |
+        Gulf War (January-February 1991) and subsequent ceasefire. Iraq's military was
+        devastated by coalition airpower but Saddam Hussein retained power. GDP collapsed
+        dramatically under sanctions making any percent-of-GDP measure misleading. Formal
+        military spending data is not available from SIPRI for this period.
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "SIPRI Military Expenditure Database"
+          type: composite_index
+          reliability: low
+      confidence: low
+      notes: "Gulf War January-February 1991; GDP collapsed under sanctions making pct-of-GDP unreliable"
+  1992:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 1992, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 1992, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: null
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "SIPRI Military Expenditure Database"
+          type: composite_index
+          reliability: low
+      confidence: low
+      notes: "Sanctions period; no SIPRI data available"
+  1993:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 1993, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 1993, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: null
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "SIPRI Military Expenditure Database"
+          type: composite_index
+          reliability: low
+      confidence: low
+      notes: "Sanctions period; no SIPRI data available"
+  1994:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 1994, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 1994, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: null
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "SIPRI Military Expenditure Database"
+          type: composite_index
+          reliability: low
+      confidence: low
+      notes: "Sanctions period; no SIPRI data available"
+  1995:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 1995, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 1995, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: null
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "SIPRI Military Expenditure Database"
+          type: composite_index
+          reliability: low
+      confidence: low
+      notes: "Sanctions period; Oil-for-Food negotiations ongoing"
+  1996:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 1996, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 1996, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: null
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "SIPRI Military Expenditure Database"
+          type: composite_index
+          reliability: low
+      confidence: low
+      notes: "Oil-for-Food program begins December 1996; no SIPRI data"
+  1997:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 1997, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 1997, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: null
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - high_7_15pct
+      sources:
+        - citation: "SIPRI Military Expenditure Database"
+          type: composite_index
+          reliability: low
+      confidence: low
+      notes: "Sanctions period; no SIPRI data available"
+  1998:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 1998, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 1998, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: null
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - high_7_15pct
+      sources:
+        - citation: "SIPRI Military Expenditure Database"
+          type: composite_index
+          reliability: low
+      confidence: low
+      notes: "Sanctions period; no SIPRI data available"
+  1999:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 1999, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 1999, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: null
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - high_7_15pct
+      sources:
+        - citation: "SIPRI Military Expenditure Database"
+          type: composite_index
+          reliability: low
+      confidence: low
+      notes: "Sanctions period; no SIPRI data available"
+  2000:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2000, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2000, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: null
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - high_7_15pct
+      sources:
+        - citation: "SIPRI Military Expenditure Database"
+          type: composite_index
+          reliability: low
+      confidence: low
+      notes: "Sanctions period; no SIPRI data available"
+  2001:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2001, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2001, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: null
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - high_7_15pct
+      sources:
+        - citation: "SIPRI Military Expenditure Database"
+          type: composite_index
+          reliability: low
+      confidence: low
+      notes: "Sanctions period; no SIPRI data available"
+  2002:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2002, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2002, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: null
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: |
+        Pre-invasion period; US-UK buildup toward Iraq. Saddam Hussein's regime maintained
+        a large military apparatus despite sanctions-era resource constraints. No SIPRI data
+        is available for this period.
+      features:
+        - high_7_15pct
+      sources:
+        - citation: "SIPRI Military Expenditure Database"
+          type: composite_index
+          reliability: low
+      confidence: low
+      notes: "Final year of Baathist regime; pre-invasion buildup; no SIPRI data available"
+  2003:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2003, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2003, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: null
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: |
+        US-led invasion March 2003 dissolved the Iraqi military. The CPA (Coalition Provisional
+        Authority) disbanded the Iraqi army in May 2003. Iraqi government military spending
+        was effectively zero for most of the year as the regime collapsed and new institutions
+        were not yet formed. SIPRI data is not available.
+      features:
+        - war_economy_gt_15pct
+      sources:
+        - citation: "Coalition Provisional Authority Order 2 (Dissolution of Iraqi Army, May 2003)"
+          type: government
+          reliability: high
+      confidence: low
+      notes: "Regime change year; Iraqi army dissolved May 2003; no reliable data"
+  2004:
+    data_status: complete
+    quantitative:
+      value: 1.676
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2004, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 613724869.62
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2004, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: |
+        First full year of post-Baathist Iraq. The new Iraqi security forces were being built
+        from scratch following the dissolution of the army in 2003. Formal military expenditure
+        was low at 1.7% of GDP as the new army was nascent, though US coalition forces were
+        bearing most security costs. The insurgency was escalating rapidly.
+      features:
+        - low_1_2pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (sourced from SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: medium
+      confidence: medium
+      notes: "Data covers Iraqi government spending only; US/coalition military costs not included"
+  2005:
+    data_status: complete
+    quantitative:
+      value: 2.243
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2005, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 1120278532.61
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2005, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: |
+        Iraqi military spending growing as new security forces expanded. First Iraqi
+        elections held January 2005. Sectarian insurgency intensifying. Official
+        spending of 2.2% of GDP represents Iraqi government forces only; total security
+        cost vastly higher when including coalition forces.
+      features:
+        - moderate_2_4pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: medium
+      confidence: medium
+      notes: "Iraqi government forces only; coalition costs excluded"
+  2006:
+    data_status: complete
+    quantitative:
+      value: 1.898
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2006, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 1236081012.93
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2006, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - low_1_2pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: medium
+      confidence: medium
+      notes: "Iraqi government forces only"
+  2007:
+    data_status: complete
+    quantitative:
+      value: 2.240
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2007, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 1989948747.38
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2007, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - moderate_2_4pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: medium
+      confidence: medium
+      notes: null
+  2008:
+    data_status: complete
+    quantitative:
+      value: 2.368
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2008, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        military_expenditure_usd:
+          value: 3116304019.85
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2008, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: medium
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - moderate_2_4pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: medium
+      confidence: medium
+      notes: null
+  2009:
+    data_status: complete
+    quantitative:
+      value: 2.899
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2009, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        military_expenditure_usd:
+          value: 3237179487.18
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - moderate_2_4pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: high
+      confidence: high
+      notes: null
+  2010:
+    data_status: complete
+    quantitative:
+      value: 2.709
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2010, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        military_expenditure_usd:
+          value: 3752905982.91
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - moderate_2_4pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: high
+      confidence: high
+      notes: null
+  2011:
+    data_status: complete
+    quantitative:
+      value: 2.303
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2011, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        military_expenditure_usd:
+          value: 4278632478.63
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: |
+        US forces withdrew from Iraq by end of 2011 per Status of Forces Agreement. Iraqi
+        government took full responsibility for security spending. Military expenditure at
+        2.3% of GDP reflects the government's growing security apparatus as US withdrawal
+        approached.
+      features:
+        - moderate_2_4pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: high
+      confidence: high
+      notes: "US forces withdrew December 2011"
+  2012:
+    data_status: complete
+    quantitative:
+      value: 1.900
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2012, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        military_expenditure_usd:
+          value: 4141066053.83
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - low_1_2pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: high
+      confidence: high
+      notes: null
+  2013:
+    data_status: complete
+    quantitative:
+      value: 3.316
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2013, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        military_expenditure_usd:
+          value: 7780188679.25
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - moderate_2_4pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: high
+      confidence: high
+      notes: null
+  2014:
+    data_status: complete
+    quantitative:
+      value: 2.951
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2014, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        military_expenditure_usd:
+          value: 6923644082.33
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: |
+        ISIS captured Mosul in June 2014 and declared a caliphate. The Iraqi army suffered
+        major defeats and the government declared a state of emergency. Despite the security
+        crisis, official military expenditure as a percent of GDP was 2.95%, reflecting
+        pre-crisis budgets and the sudden fall in oil revenues that shrank GDP.
+      features:
+        - moderate_2_4pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: high
+      confidence: high
+      notes: "ISIS captured Mosul June 2014; major security crisis"
+  2015:
+    data_status: complete
+    quantitative:
+      value: 5.413
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2015, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        military_expenditure_usd:
+          value: 9604231010.85
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: |
+        Military spending surged to 5.4% of GDP as Iraq fought to retake territory from ISIS.
+        This is the highest recorded level in the post-2003 period, reflecting emergency
+        military mobilization including Popular Mobilization Forces (PMF/Hashd al-Shaabi)
+        alongside the regular military. Oil price collapse simultaneously reduced GDP.
+      features:
+        - elevated_4_7pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: high
+      confidence: high
+      notes: "Anti-ISIS campaign; sharp GDP decline due to oil prices amplifies pct-of-GDP"
+  2016:
+    data_status: complete
+    quantitative:
+      value: 3.550
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2016, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        military_expenditure_usd:
+          value: 5970383697.67
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - moderate_2_4pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: high
+      confidence: high
+      notes: null
+  2017:
+    data_status: complete
+    quantitative:
+      value: 3.909
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2017, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        military_expenditure_usd:
+          value: 7416385135.14
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: |
+        Mosul was retaken from ISIS in July 2017 after a nine-month battle. Military
+        expenditure remained elevated at 3.9% of GDP reflecting ongoing operations.
+        The defeat of ISIS territorial control marked the end of the most intense
+        conventional military phase of the conflict.
+      features:
+        - moderate_2_4pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: high
+      confidence: high
+      notes: "Mosul retaken July 2017; ISIS territorial defeat"
+  2018:
+    data_status: complete
+    quantitative:
+      value: 2.752
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2018, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        military_expenditure_usd:
+          value: 6317977150.05
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - moderate_2_4pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: high
+      confidence: high
+      notes: null
+  2019:
+    data_status: complete
+    quantitative:
+      value: 3.237
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2019, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        military_expenditure_usd:
+          value: 7598829335.75
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - moderate_2_4pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: high
+      confidence: high
+      notes: null
+  2020:
+    data_status: complete
+    quantitative:
+      value: 3.112
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2020, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        military_expenditure_usd:
+          value: 5649373636.98
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - moderate_2_4pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: high
+      confidence: high
+      notes: null
+  2021:
+    data_status: complete
+    quantitative:
+      value: 2.261
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2021, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        military_expenditure_usd:
+          value: 4771002728.74
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - moderate_2_4pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: high
+      confidence: high
+      notes: null
+  2022:
+    data_status: complete
+    quantitative:
+      value: 1.640
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2022, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        military_expenditure_usd:
+          value: 4691837701.16
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - low_1_2pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: high
+      confidence: high
+      notes: null
+  2023:
+    data_status: complete
+    quantitative:
+      value: 2.263
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2023, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        military_expenditure_usd:
+          value: 5518874505.28
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - moderate_2_4pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: high
+      confidence: high
+      notes: null
+  2024:
+    data_status: complete
+    quantitative:
+      value: 2.357
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2024, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        military_expenditure_usd:
+          value: 6178546529.68
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: high
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features:
+        - moderate_2_4pct
+      sources:
+        - citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), accessed 2026-03-02"
+          type: composite_index
+          reliability: high
+      confidence: high
+      notes: null
+  2025:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: "World Bank WDI, MS.MIL.XPND.GD.ZS (SIPRI), Iraq, 2025, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: "World Bank WDI, MS.MIL.XPND.CD, Iraq, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+            access_date: "2026-03-02"
+          reliability: null
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: low
+      notes: "Not yet available"
+  2026:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: percent_gdp
+      formula: "(military_expenditure_usd / gdp_current_usd) * 100"
+      source:
+        citation: null
+        url: null
+        access_date: "2026-03-02"
+      reliability: null
+      components:
+        military_expenditure_usd:
+          value: null
+          unit: usd_current
+          role: numerator
+          source:
+            citation: null
+            url: null
+            access_date: "2026-03-02"
+          reliability: null
+        gdp_current_usd:
+          shared_ref: gdp_current_usd
+          role: denominator
+    qualitative:
+      assessment: null
+      features: []
+      sources: []
+      confidence: low
+      notes: "Not yet available"

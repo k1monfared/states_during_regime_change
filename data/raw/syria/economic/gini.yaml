@@ -1,0 +1,708 @@
+indicator: gini
+country: syria
+dimension: economic
+years:
+  2009:
+    data_status: complete
+    quantitative:
+      value: 40.4
+      unit: gini_index_0_100
+      formula: "derived from Lorenz curve; WB provides directly"
+      source:
+        citation: "World Bank WDI, SI.POV.GINI, Syria, 2009, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SI.POV.GINI"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        income_share_bottom_20:
+          value: 6.3
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.FRST.20, Syria, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SI.DST.FRST.20"
+            access_date: "2026-03-02"
+          reliability: medium
+        income_share_top_20:
+          value: 47.2
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.05TH.20, Syria, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SI.DST.05TH.20"
+            access_date: "2026-03-02"
+          reliability: medium
+    qualitative:
+      assessment: "Syria's Gini coefficient of 40.4 in 2009 places it in the moderately elevated inequality range. The top quintile received 47.2% of income while the bottom quintile received only 6.3%, a ratio of roughly 7.5x. This level of inequality, combined with high youth unemployment and the impacts of a prolonged drought, created significant social grievances that contributed to the 2011 uprising. The data likely derives from a 2003-2007 household survey; pre-war surveys for Syria are sparse."
+      features:
+        - elevated_40_50
+      sources:
+        - citation: "World Bank WDI, SI.POV.GINI, Syria, 2009"
+          type: official_statistics
+          reliability: medium
+      confidence: medium
+      notes: "WB figure may reflect survey data from 2003-2007 period applied to 2009; exact survey year unclear."
+  2010:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: gini_index_0_100
+      formula: "derived from Lorenz curve; WB provides directly"
+      source:
+        citation: "World Bank WDI, SI.POV.GINI, Syria, 2010, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SI.POV.GINI"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        income_share_bottom_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.FRST.20, Syria, 2010 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.FRST.20"
+            access_date: "2026-03-02"
+          reliability: low
+        income_share_top_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.05TH.20, Syria, 2010 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.05TH.20"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No Gini data available for 2010 from World Bank. No household income survey conducted or published for Syria in this year. Income distribution likely remained similar to 2009 levels given economic conditions."
+      features: []
+      sources:
+        - citation: "World Bank WDI, SI.POV.GINI, Syria, 2010 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No survey data available."
+  2011:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: gini_index_0_100
+      formula: "derived from Lorenz curve; WB provides directly"
+      source:
+        citation: "World Bank WDI, SI.POV.GINI, Syria, 2011, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SI.POV.GINI"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        income_share_bottom_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.FRST.20, Syria, 2011 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.FRST.20"
+            access_date: "2026-03-02"
+          reliability: low
+        income_share_top_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.05TH.20, Syria, 2011 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.05TH.20"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No Gini data. Civil war onset makes household income surveys impossible. Inequality likely worsening rapidly as conflict destroys livelihoods unevenly — regime-connected elites retaining assets while poor and rural populations lose everything. The crony capitalism of the Assad era was a key inequality driver."
+      features: []
+      sources:
+        - citation: "World Bank WDI, SI.POV.GINI, Syria, 2011 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Civil war onset; no survey possible."
+  2012:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: gini_index_0_100
+      formula: "derived from Lorenz curve; WB provides directly"
+      source:
+        citation: "World Bank WDI, SI.POV.GINI, Syria, 2012, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SI.POV.GINI"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        income_share_bottom_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.FRST.20, Syria, 2012 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.FRST.20"
+            access_date: "2026-03-02"
+          reliability: low
+        income_share_top_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.05TH.20, Syria, 2012 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.05TH.20"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No Gini data available. Full-scale civil war; no household surveys possible. Extreme inequality likely as war economy concentrates gains among armed actors and regime-connected businessmen (e.g., Rami Makhlouf's business empire) while general population impoverished."
+      features: []
+      sources:
+        - citation: "World Bank WDI, SI.POV.GINI, Syria, 2012 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No survey possible; war economy conditions."
+  2013:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: gini_index_0_100
+      formula: "derived from Lorenz curve; WB provides directly"
+      source:
+        citation: "World Bank WDI, SI.POV.GINI, Syria, 2013, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SI.POV.GINI"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        income_share_bottom_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.FRST.20, Syria, 2013 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.FRST.20"
+            access_date: "2026-03-02"
+          reliability: low
+        income_share_top_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.05TH.20, Syria, 2013 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.05TH.20"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data. War economy peak; income distribution entirely distorted by conflict."
+      features: []
+      sources:
+        - citation: "World Bank WDI, SI.POV.GINI, Syria, 2013 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No data."
+  2014:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: gini_index_0_100
+      formula: "derived from Lorenz curve; WB provides directly"
+      source:
+        citation: "World Bank WDI, SI.POV.GINI, Syria, 2014, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SI.POV.GINI"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        income_share_bottom_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.FRST.20, Syria, 2014 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.FRST.20"
+            access_date: "2026-03-02"
+          reliability: low
+        income_share_top_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.05TH.20, Syria, 2014 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.05TH.20"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data. ISIS territorial expansion creates additional economic fragmentation. No meaningful national income distribution statistics possible."
+      features: []
+      sources:
+        - citation: "World Bank WDI, SI.POV.GINI, Syria, 2014 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No data."
+  2015:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: gini_index_0_100
+      formula: "derived from Lorenz curve; WB provides directly"
+      source:
+        citation: "World Bank WDI, SI.POV.GINI, Syria, 2015, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SI.POV.GINI"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        income_share_bottom_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.FRST.20, Syria, 2015 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.FRST.20"
+            access_date: "2026-03-02"
+          reliability: low
+        income_share_top_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.05TH.20, Syria, 2015 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.05TH.20"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data."
+      features: []
+      sources:
+        - citation: "World Bank WDI, SI.POV.GINI, Syria, 2015 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No data."
+  2016:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: gini_index_0_100
+      formula: "derived from Lorenz curve; WB provides directly"
+      source:
+        citation: "World Bank WDI, SI.POV.GINI, Syria, 2016, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SI.POV.GINI"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        income_share_bottom_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.FRST.20, Syria, 2016 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.FRST.20"
+            access_date: "2026-03-02"
+          reliability: low
+        income_share_top_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.05TH.20, Syria, 2016 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.05TH.20"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data."
+      features: []
+      sources:
+        - citation: "World Bank WDI, SI.POV.GINI, Syria, 2016 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No data."
+  2017:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: gini_index_0_100
+      formula: "derived from Lorenz curve; WB provides directly"
+      source:
+        citation: "World Bank WDI, SI.POV.GINI, Syria, 2017, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SI.POV.GINI"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        income_share_bottom_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.FRST.20, Syria, 2017 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.FRST.20"
+            access_date: "2026-03-02"
+          reliability: low
+        income_share_top_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.05TH.20, Syria, 2017 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.05TH.20"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data."
+      features: []
+      sources:
+        - citation: "World Bank WDI, SI.POV.GINI, Syria, 2017 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No data."
+  2018:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: gini_index_0_100
+      formula: "derived from Lorenz curve; WB provides directly"
+      source:
+        citation: "World Bank WDI, SI.POV.GINI, Syria, 2018, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SI.POV.GINI"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        income_share_bottom_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.FRST.20, Syria, 2018 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.FRST.20"
+            access_date: "2026-03-02"
+          reliability: low
+        income_share_top_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.05TH.20, Syria, 2018 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.05TH.20"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data."
+      features: []
+      sources:
+        - citation: "World Bank WDI, SI.POV.GINI, Syria, 2018 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No data."
+  2019:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: gini_index_0_100
+      formula: "derived from Lorenz curve; WB provides directly"
+      source:
+        citation: "World Bank WDI, SI.POV.GINI, Syria, 2019, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SI.POV.GINI"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        income_share_bottom_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.FRST.20, Syria, 2019 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.FRST.20"
+            access_date: "2026-03-02"
+          reliability: low
+        income_share_top_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.05TH.20, Syria, 2019 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.05TH.20"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data."
+      features: []
+      sources:
+        - citation: "World Bank WDI, SI.POV.GINI, Syria, 2019 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No data."
+  2020:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: gini_index_0_100
+      formula: "derived from Lorenz curve; WB provides directly"
+      source:
+        citation: "World Bank WDI, SI.POV.GINI, Syria, 2020, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SI.POV.GINI"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        income_share_bottom_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.FRST.20, Syria, 2020 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.FRST.20"
+            access_date: "2026-03-02"
+          reliability: low
+        income_share_top_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.05TH.20, Syria, 2020 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.05TH.20"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data."
+      features: []
+      sources:
+        - citation: "World Bank WDI, SI.POV.GINI, Syria, 2020 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No data."
+  2021:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: gini_index_0_100
+      formula: "derived from Lorenz curve; WB provides directly"
+      source:
+        citation: "World Bank WDI, SI.POV.GINI, Syria, 2021, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SI.POV.GINI"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        income_share_bottom_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.FRST.20, Syria, 2021 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.FRST.20"
+            access_date: "2026-03-02"
+          reliability: low
+        income_share_top_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.05TH.20, Syria, 2021 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.05TH.20"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data."
+      features: []
+      sources:
+        - citation: "World Bank WDI, SI.POV.GINI, Syria, 2021 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No data."
+  2022:
+    data_status: complete
+    quantitative:
+      value: 26.6
+      unit: gini_index_0_100
+      formula: "derived from Lorenz curve; WB provides directly"
+      source:
+        citation: "World Bank WDI, SI.POV.GINI, Syria, 2022, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SI.POV.GINI"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        income_share_bottom_20:
+          value: 9.2
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.FRST.20, Syria, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SI.DST.FRST.20"
+            access_date: "2026-03-02"
+          reliability: low
+        income_share_top_20:
+          value: 35.9
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.05TH.20, Syria, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SI.DST.05TH.20"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "The 2022 Gini figure of 26.6 appears remarkably low — paradoxically lower than the 2009 pre-war figure of 40.4. This counterintuitive result likely reflects a compositional shift in the survey population rather than genuine equality improvement. Surveys in war-affected countries often cover accessible (typically urban, regime-controlled) populations; the very poor in conflict zones and refugee camps are systematically excluded. The top quintile share dropped sharply from 47.2% to 35.9%, possibly reflecting capital flight and elite asset stripping rather than income compression. Caution: this figure should not be interpreted as reduced inequality."
+      features:
+        - low_lt_30
+      sources:
+        - citation: "World Bank WDI, SI.POV.GINI, Syria, 2022"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Counterintuitively low figure likely reflects survey coverage bias excluding conflict-affected/displaced populations. Should not be interpreted as genuine improvement in equality."
+  2023:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: gini_index_0_100
+      formula: "derived from Lorenz curve; WB provides directly"
+      source:
+        citation: "World Bank WDI, SI.POV.GINI, Syria, 2023, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SI.POV.GINI"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        income_share_bottom_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.FRST.20, Syria, 2023 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.FRST.20"
+            access_date: "2026-03-02"
+          reliability: low
+        income_share_top_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.05TH.20, Syria, 2023 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.05TH.20"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data available. Earthquake in February 2023 caused massive additional displacement in northwest Syria, further complicating any income distribution assessment."
+      features: []
+      sources:
+        - citation: "World Bank WDI, SI.POV.GINI, Syria, 2023 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No data; earthquake year."
+  2024:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: gini_index_0_100
+      formula: "derived from Lorenz curve; WB provides directly"
+      source:
+        citation: "World Bank WDI, SI.POV.GINI, Syria, 2024, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SI.POV.GINI"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        income_share_bottom_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.FRST.20, Syria, 2024 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.FRST.20"
+            access_date: "2026-03-02"
+          reliability: low
+        income_share_top_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.05TH.20, Syria, 2024 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.05TH.20"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data available. Assad regime collapsed in December 2024; new governing authority. Income distribution in the transition period is unmeasurable."
+      features: []
+      sources:
+        - citation: "World Bank WDI, SI.POV.GINI, Syria, 2024 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No data; regime change year."
+  2025:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: gini_index_0_100
+      formula: "derived from Lorenz curve; WB provides directly"
+      source:
+        citation: "World Bank WDI, SI.POV.GINI, Syria, 2025, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SI.POV.GINI"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        income_share_bottom_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.FRST.20, Syria, 2025 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.FRST.20"
+            access_date: "2026-03-02"
+          reliability: low
+        income_share_top_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.05TH.20, Syria, 2025 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.05TH.20"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data available."
+      features: []
+      sources:
+        - citation: "World Bank WDI, SI.POV.GINI, Syria, 2025 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No data."
+  2026:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: gini_index_0_100
+      formula: "derived from Lorenz curve; WB provides directly"
+      source:
+        citation: "World Bank WDI, SI.POV.GINI, Syria, 2026, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SI.POV.GINI"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        income_share_bottom_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.FRST.20, Syria, 2026 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.FRST.20"
+            access_date: "2026-03-02"
+          reliability: low
+        income_share_top_20:
+          value: null
+          unit: pct_total_income
+          role: context
+          source:
+            citation: "World Bank WDI, SI.DST.05TH.20, Syria, 2026 — no data"
+            url: "https://data.worldbank.org/indicator/SI.DST.05TH.20"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data available; year not yet complete."
+      features: []
+      sources:
+        - citation: "World Bank WDI, SI.POV.GINI, Syria, 2026 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Year not yet complete."

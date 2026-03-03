@@ -1,0 +1,1561 @@
+indicator: infant_mortality
+country: iraq
+dimension: social
+years:
+  1988:
+    data_status: complete
+    quantitative:
+      value: 51.3
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 1988, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 27.3
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 1988, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 69.2
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 1988, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1989:
+    data_status: complete
+    quantitative:
+      value: 55.7
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 1989, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 27.1
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 1989, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 81.2
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 1989, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1990:
+    data_status: complete
+    quantitative:
+      value: 54.8
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 1990, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 26.7
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 1990, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 79.7
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 1990, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1991:
+    data_status: complete
+    quantitative:
+      value: 48.7
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 1991, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 26.1
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 1991, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 64.9
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 1991, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1992:
+    data_status: complete
+    quantitative:
+      value: 43.3
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 1992, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 25.6
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 1992, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 51.7
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 1992, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1993:
+    data_status: complete
+    quantitative:
+      value: 42.7
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 1993, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 25.4
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 1993, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 50.7
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 1993, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1994:
+    data_status: complete
+    quantitative:
+      value: 42.1
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 1994, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 25.2
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 1994, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 49.8
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 1994, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1995:
+    data_status: complete
+    quantitative:
+      value: 41.5
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 1995, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 25.0
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 1995, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 48.9
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 1995, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1996:
+    data_status: complete
+    quantitative:
+      value: 40.9
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 1996, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 24.8
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 1996, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 48.0
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 1996, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1997:
+    data_status: complete
+    quantitative:
+      value: 40.3
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 1997, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 24.6
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 1997, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 47.1
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 1997, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1998:
+    data_status: complete
+    quantitative:
+      value: 39.7
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 1998, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 24.4
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 1998, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 46.1
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 1998, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  1999:
+    data_status: complete
+    quantitative:
+      value: 39.0
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 1999, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 24.1
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 1999, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 45.2
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 1999, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2000:
+    data_status: complete
+    quantitative:
+      value: 38.4
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2000, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 23.8
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2000, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 44.3
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2000, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2001:
+    data_status: complete
+    quantitative:
+      value: 37.7
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2001, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 23.5
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2001, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 43.3
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2001, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2002:
+    data_status: complete
+    quantitative:
+      value: 37.0
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2002, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 23.2
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2002, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 42.4
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2002, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2003:
+    data_status: complete
+    quantitative:
+      value: 36.4
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2003, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 22.9
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2003, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 41.6
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2003, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2004:
+    data_status: complete
+    quantitative:
+      value: 35.7
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2004, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 22.5
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2004, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 40.7
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2004, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2005:
+    data_status: complete
+    quantitative:
+      value: 35.0
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2005, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 22.2
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2005, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 39.7
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2005, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2006:
+    data_status: complete
+    quantitative:
+      value: 34.3
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2006, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 21.8
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2006, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 38.8
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2006, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2007:
+    data_status: complete
+    quantitative:
+      value: 33.5
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2007, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 21.3
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2007, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 37.8
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2007, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2008:
+    data_status: complete
+    quantitative:
+      value: 32.7
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2008, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 20.8
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2008, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 36.7
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2008, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2009:
+    data_status: complete
+    quantitative:
+      value: 31.8
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2009, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 20.2
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 35.6
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2010:
+    data_status: complete
+    quantitative:
+      value: 30.9
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2010, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 19.6
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 34.6
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2011:
+    data_status: complete
+    quantitative:
+      value: 30.1
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2011, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 19.0
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 33.5
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2012:
+    data_status: complete
+    quantitative:
+      value: 29.2
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2012, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 18.5
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 32.4
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2013:
+    data_status: complete
+    quantitative:
+      value: 28.4
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2013, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 17.9
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 31.4
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2014:
+    data_status: complete
+    quantitative:
+      value: 27.5
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2014, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 17.3
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 30.4
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2015:
+    data_status: complete
+    quantitative:
+      value: 26.7
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2015, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 16.7
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 29.4
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2016:
+    data_status: complete
+    quantitative:
+      value: 25.9
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2016, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 16.2
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 28.4
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2017:
+    data_status: complete
+    quantitative:
+      value: 25.1
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2017, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 15.7
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 27.5
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - elevated_25_50
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2018:
+    data_status: complete
+    quantitative:
+      value: 24.4
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2018, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 15.2
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 26.6
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - moderate_10_25
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2019:
+    data_status: complete
+    quantitative:
+      value: 23.6
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2019, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 14.7
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 25.7
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - moderate_10_25
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2020:
+    data_status: complete
+    quantitative:
+      value: 22.9
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2020, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 14.2
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 24.9
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - moderate_10_25
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2021:
+    data_status: complete
+    quantitative:
+      value: 22.2
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2021, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 13.7
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 24.1
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - moderate_10_25
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2022:
+    data_status: complete
+    quantitative:
+      value: 21.5
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2022, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 13.3
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 23.3
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - moderate_10_25
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2023:
+    data_status: complete
+    quantitative:
+      value: 20.8
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2023, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: 12.9
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: 22.6
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features:
+        - moderate_10_25
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2024:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2024, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: null
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: null
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2025:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2025, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: null
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: null
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2026:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: deaths_per_1000_live_births
+      formula: "(infant_deaths / live_births) * 1000 — World Bank provides rate directly"
+      source:
+        citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq, 2026, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.IMRT.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        neonatal_mortality_rate:
+          value: null
+          unit: deaths_per_1000_live_births
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SH.DYN.NMRT, Iraq, 2026, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.NMRT"
+            access_date: "2026-03-02"
+          reliability: high
+        under5_mortality_rate:
+          value: null
+          unit: deaths_per_1000_live_births
+          role: context
+          source:
+            citation: "World Bank WDI, SH.DYN.MORT, Iraq, 2026, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SH.DYN.MORT"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: null
+      features: []
+      sources:
+        - citation: "World Bank WDI, SP.DYN.IMRT.IN, Iraq"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null

@@ -1,0 +1,466 @@
+country: syria
+last_updated: 2026-03-02
+variables:
+  population:
+    description: "Total mid-year population"
+    unit: persons
+    series: "World Bank SP.POP.TOTL"
+    url: "https://data.worldbank.org/indicator/SP.POP.TOTL"
+    reliability: high
+    data:
+      2009:
+        value: 21976969
+        source:
+          citation: "World Bank WDI, SP.POP.TOTL, Syria, 2009, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: null
+      2010:
+        value: 22482421
+        source:
+          citation: "World Bank WDI, SP.POP.TOTL, Syria, 2010, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: null
+      2011:
+        value: 22878098
+        source:
+          citation: "World Bank WDI, SP.POP.TOTL, Syria, 2011, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Population figures become increasingly uncertain as mass displacement begins with the civil war uprising."
+      2012:
+        value: 22759763
+        source:
+          citation: "World Bank WDI, SP.POP.TOTL, Syria, 2012, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Large-scale internal displacement and refugee outflows begin; WB estimate increasingly uncertain."
+      2013:
+        value: 21666917
+        source:
+          citation: "World Bank WDI, SP.POP.TOTL, Syria, 2013, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Population declining sharply due to conflict deaths and refugee outflows. Estimates highly uncertain."
+      2014:
+        value: 20273659
+        source:
+          citation: "World Bank WDI, SP.POP.TOTL, Syria, 2014, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Massive displacement: UNHCR records 3M+ refugees and millions of IDPs by end 2014. WB estimate uncertain."
+      2015:
+        value: 19424618
+        source:
+          citation: "World Bank WDI, SP.POP.TOTL, Syria, 2015, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Peak refugee crisis year; approximately 4M+ refugees registered with UNHCR. Population estimates highly uncertain."
+      2016:
+        value: 19193834
+        source:
+          citation: "World Bank WDI, SP.POP.TOTL, Syria, 2016, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Continued displacement; up to 5M refugees and 6M IDPs estimated. WB figure is a modeled estimate."
+      2017:
+        value: 19224668
+        source:
+          citation: "World Bank WDI, SP.POP.TOTL, Syria, 2017, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Population estimate uncertain; continued displacement offsets natural growth."
+      2018:
+        value: 19577845
+        source:
+          citation: "World Bank WDI, SP.POP.TOTL, Syria, 2018, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Some stabilization in displacement flows; figure remains a WB modeled estimate."
+      2019:
+        value: 20353534
+        source:
+          citation: "World Bank WDI, SP.POP.TOTL, Syria, 2019, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Slight population increase as some IDPs return to recaptured areas; still highly uncertain."
+      2020:
+        value: 21049429
+        source:
+          citation: "World Bank WDI, SP.POP.TOTL, Syria, 2020, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Continued modest increase in WB estimate; actual distribution across territory contested."
+      2021:
+        value: 21628839
+        source:
+          citation: "World Bank WDI, SP.POP.TOTL, Syria, 2021, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "WB modeled estimate; large diaspora in Turkey, Lebanon, Jordan, Germany not counted in resident population."
+      2022:
+        value: 22462173
+        source:
+          citation: "World Bank WDI, SP.POP.TOTL, Syria, 2022, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "WB modeled estimate; ongoing displacement makes accurate enumeration impossible."
+      2023:
+        value: 23594623
+        source:
+          citation: "World Bank WDI, SP.POP.TOTL, Syria, 2023, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "WB modeled estimate; HTS takeover of Idlib and subsequent political transition in late 2023-2024 context."
+      2024:
+        value: 24672760
+        source:
+          citation: "World Bank WDI, SP.POP.TOTL, Syria, 2024, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "WB modeled estimate; post-Assad transition beginning December 2024. Large-scale return movements anticipated."
+      2025:
+        value: null
+        source:
+          citation: "World Bank WDI, SP.POP.TOTL, Syria, 2025, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "No data available from World Bank API."
+      2026:
+        value: null
+        source:
+          citation: "World Bank WDI, SP.POP.TOTL, Syria, 2026, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "No data available; year not yet complete."
+
+  gdp_current_usd:
+    description: "GDP at current market prices"
+    unit: usd_current
+    series: "World Bank NY.GDP.MKTP.CD"
+    url: "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD"
+    reliability: high
+    data:
+      2009:
+        value: 54111735628.71
+        source:
+          citation: "World Bank WDI, NY.GDP.MKTP.CD, Syria, 2009, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: null
+      2010:
+        value: 61390830874.70
+        source:
+          citation: "World Bank WDI, NY.GDP.MKTP.CD, Syria, 2010, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: null
+      2011:
+        value: 67539428159.45
+        source:
+          citation: "World Bank WDI, NY.GDP.MKTP.CD, Syria, 2011, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "GDP estimate for first year of civil war; increasingly unreliable as conflict disrupts economic activity."
+      2012:
+        value: 43190318032.56
+        source:
+          citation: "World Bank WDI, NY.GDP.MKTP.CD, Syria, 2012, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Sharp GDP decline; estimate based on limited information. Reliability: low due to conflict conditions."
+      2013:
+        value: 21361254635.05
+        source:
+          citation: "World Bank WDI, NY.GDP.MKTP.CD, Syria, 2013, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "GDP more than halved; WB estimate based on very limited data. Reliability: low."
+      2014:
+        value: 21502061465.95
+        source:
+          citation: "World Bank WDI, NY.GDP.MKTP.CD, Syria, 2014, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "WB estimate; reliability low due to war conditions, territorial fragmentation, and sanctions."
+      2015:
+        value: 16466863117.00
+        source:
+          citation: "World Bank WDI, NY.GDP.MKTP.CD, Syria, 2015, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "WB estimate; reliability low. Oil production largely disrupted. Economy severely fragmented."
+      2016:
+        value: 12597854877.43
+        source:
+          citation: "World Bank WDI, NY.GDP.MKTP.CD, Syria, 2016, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "WB estimate; reliability low. GDP at roughly 20% of 2011 level."
+      2017:
+        value: 16369843352.35
+        source:
+          citation: "World Bank WDI, NY.GDP.MKTP.CD, Syria, 2017, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "WB estimate; reliability low. Some territorial consolidation may account for modest uptick."
+      2018:
+        value: 21497782867.64
+        source:
+          citation: "World Bank WDI, NY.GDP.MKTP.CD, Syria, 2018, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "WB estimate; reliability low. Currency and exchange rate dynamics complicate USD conversion."
+      2019:
+        value: 22583045060.08
+        source:
+          citation: "World Bank WDI, NY.GDP.MKTP.CD, Syria, 2019, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "WB estimate; reliability low. Caesar Act sanctions imposed 2020. USD conversion uncertain."
+      2020:
+        value: 12047752036.09
+        source:
+          citation: "World Bank WDI, NY.GDP.MKTP.CD, Syria, 2020, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "WB estimate; reliability low. Caesar Act sanctions effective June 2020. Currency collapse accelerated."
+      2021:
+        value: 14353205678.50
+        source:
+          citation: "World Bank WDI, NY.GDP.MKTP.CD, Syria, 2021, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "WB estimate; reliability low. Economy severely contracted; currency devaluation distorts USD figures."
+      2022:
+        value: 23622827079.50
+        source:
+          citation: "World Bank WDI, NY.GDP.MKTP.CD, Syria, 2022, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "WB estimate; reliability low. Large movements in USD figure likely reflect exchange rate changes not real growth."
+      2023:
+        value: null
+        source:
+          citation: "World Bank WDI, NY.GDP.MKTP.CD, Syria, 2023, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "No data available from World Bank API."
+      2024:
+        value: null
+        source:
+          citation: "World Bank WDI, NY.GDP.MKTP.CD, Syria, 2024, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "No data available; Assad regime fell December 2024; economic data collection disrupted."
+      2025:
+        value: null
+        source:
+          citation: "World Bank WDI, NY.GDP.MKTP.CD, Syria, 2025, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "No data available."
+      2026:
+        value: null
+        source:
+          citation: "World Bank WDI, NY.GDP.MKTP.CD, Syria, 2026, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "No data available; year not yet complete."
+
+  cpi:
+    description: "Consumer Price Index (2010=100)"
+    unit: index_2010_eq_100
+    series: "World Bank FP.CPI.TOTL"
+    url: "https://data.worldbank.org/indicator/FP.CPI.TOTL"
+    reliability: high
+    data:
+      2009:
+        value: 95.79
+        source:
+          citation: "World Bank WDI, FP.CPI.TOTL, Syria, 2009, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: null
+      2010:
+        value: 100.00
+        source:
+          citation: "World Bank WDI, FP.CPI.TOTL, Syria, 2010, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Base year for index."
+      2011:
+        value: 104.75
+        source:
+          citation: "World Bank WDI, FP.CPI.TOTL, Syria, 2011, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Moderate inflation in first year of uprising."
+      2012:
+        value: 143.20
+        source:
+          citation: "World Bank WDI, FP.CPI.TOTL, Syria, 2012, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Sharp price acceleration as conflict intensifies and supply chains disrupt."
+      2013:
+        value: 200.53
+        source:
+          citation: "World Bank WDI, FP.CPI.TOTL, Syria, 2013, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Prices doubled from base year; acute wartime inflation."
+      2014:
+        value: 222.44
+        source:
+          citation: "World Bank WDI, FP.CPI.TOTL, Syria, 2014, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Continued high inflation; currency depreciation driving price rises."
+      2015:
+        value: 307.99
+        source:
+          citation: "World Bank WDI, FP.CPI.TOTL, Syria, 2015, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Hyperinflationary pressures; Syrian pound collapses."
+      2016:
+        value: 454.92
+        source:
+          citation: "World Bank WDI, FP.CPI.TOTL, Syria, 2016, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Prices more than 4.5x base year level; severe currency and supply crisis."
+      2017:
+        value: 537.14
+        source:
+          citation: "World Bank WDI, FP.CPI.TOTL, Syria, 2017, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Continued rapid inflation."
+      2018:
+        value: 542.20
+        source:
+          citation: "World Bank WDI, FP.CPI.TOTL, Syria, 2018, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Inflation moderating slightly in nominal terms."
+      2019:
+        value: 614.95
+        source:
+          citation: "World Bank WDI, FP.CPI.TOTL, Syria, 2019, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Last year with WB CPI data; prices over 6x base year. Caesar Act sanctions imminent."
+      2020:
+        value: null
+        source:
+          citation: "World Bank WDI, FP.CPI.TOTL, Syria, 2020, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "No data available from World Bank API; Caesar Act sanctions and COVID further disrupted data collection."
+      2021:
+        value: null
+        source:
+          citation: "World Bank WDI, FP.CPI.TOTL, Syria, 2021, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "No data available."
+      2022:
+        value: null
+        source:
+          citation: "World Bank WDI, FP.CPI.TOTL, Syria, 2022, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "No data available."
+      2023:
+        value: null
+        source:
+          citation: "World Bank WDI, FP.CPI.TOTL, Syria, 2023, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "No data available."
+      2024:
+        value: null
+        source:
+          citation: "World Bank WDI, FP.CPI.TOTL, Syria, 2024, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "No data available; regime change December 2024 further disrupts statistical capacity."
+      2025:
+        value: null
+        source:
+          citation: "World Bank WDI, FP.CPI.TOTL, Syria, 2025, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "No data available."
+      2026:
+        value: null
+        source:
+          citation: "World Bank WDI, FP.CPI.TOTL, Syria, 2026, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "No data available; year not yet complete."
+
+  working_age_population:
+    description: "Population aged 15-64"
+    unit: persons
+    series: "World Bank SP.POP.1564.TO"
+    url: "https://data.worldbank.org/indicator/SP.POP.1564.TO"
+    reliability: high
+    data:
+      2009:
+        value: 13247542
+        source:
+          citation: "World Bank WDI, SP.POP.1564.TO, Syria, 2009, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: null
+      2010:
+        value: 13584907
+        source:
+          citation: "World Bank WDI, SP.POP.1564.TO, Syria, 2010, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: null
+      2011:
+        value: 13829200
+        source:
+          citation: "World Bank WDI, SP.POP.1564.TO, Syria, 2011, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Working-age population figure increasingly uncertain as displacement begins."
+      2012:
+        value: 13635170
+        source:
+          citation: "World Bank WDI, SP.POP.1564.TO, Syria, 2012, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Working-age adults disproportionately displaced as refugees; WB estimate uncertain."
+      2013:
+        value: 12619123
+        source:
+          citation: "World Bank WDI, SP.POP.1564.TO, Syria, 2013, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Sharp decline; working-age males subject to military conscription or conflict mortality."
+      2014:
+        value: 11403975
+        source:
+          citation: "World Bank WDI, SP.POP.1564.TO, Syria, 2014, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Continued working-age population decline; labor force severely disrupted by conflict."
+      2015:
+        value: 10737014
+        source:
+          citation: "World Bank WDI, SP.POP.1564.TO, Syria, 2015, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Working-age population at trough; peak refugee exodus year."
+      2016:
+        value: 10655861
+        source:
+          citation: "World Bank WDI, SP.POP.1564.TO, Syria, 2016, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Near-trough; labor force substantially reduced by displacement and conflict deaths."
+      2017:
+        value: 10822397
+        source:
+          citation: "World Bank WDI, SP.POP.1564.TO, Syria, 2017, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Slight uptick; WB modeled estimate."
+      2018:
+        value: 11276479
+        source:
+          citation: "World Bank WDI, SP.POP.1564.TO, Syria, 2018, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Gradual increase as some return migration occurs; still well below pre-conflict levels."
+      2019:
+        value: 12090074
+        source:
+          citation: "World Bank WDI, SP.POP.1564.TO, Syria, 2019, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "Continued modest recovery in WB estimate."
+      2020:
+        value: 12811514
+        source:
+          citation: "World Bank WDI, SP.POP.1564.TO, Syria, 2020, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "WB modeled estimate."
+      2021:
+        value: 13415096
+        source:
+          citation: "World Bank WDI, SP.POP.1564.TO, Syria, 2021, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "WB modeled estimate."
+      2022:
+        value: 14240713
+        source:
+          citation: "World Bank WDI, SP.POP.1564.TO, Syria, 2022, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "WB modeled estimate."
+      2023:
+        value: 15331228
+        source:
+          citation: "World Bank WDI, SP.POP.1564.TO, Syria, 2023, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "WB modeled estimate."
+      2024:
+        value: 16307424
+        source:
+          citation: "World Bank WDI, SP.POP.1564.TO, Syria, 2024, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "WB modeled estimate; post-Assad transition context."
+      2025:
+        value: null
+        source:
+          citation: "World Bank WDI, SP.POP.1564.TO, Syria, 2025, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "No data available from World Bank API."
+      2026:
+        value: null
+        source:
+          citation: "World Bank WDI, SP.POP.1564.TO, Syria, 2026, accessed 2026-03-02"
+          access_date: "2026-03-02"
+        footnote: "No data available; year not yet complete."

@@ -1,0 +1,2750 @@
+indicator: life_expectancy
+country: iran
+dimension: social
+years:
+  1960:
+    data_status: complete
+    quantitative:
+      value: 43.297
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1960, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 43.938
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1960, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 42.614
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1960, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy. Very low life expectancy at 43.3; pre-modern health infrastructure."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1960"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1961:
+    data_status: complete
+    quantitative:
+      value: 43.9
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1961, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 44.512
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1961, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 43.247
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1961, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1961"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1962:
+    data_status: complete
+    quantitative:
+      value: 43.769
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1962, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 44.411
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1962, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 43.084
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1962, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1962"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1963:
+    data_status: complete
+    quantitative:
+      value: 45.105
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1963, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 45.642
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1963, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 44.527
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1963, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1963"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1964:
+    data_status: complete
+    quantitative:
+      value: 45.735
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1964, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 46.224
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1964, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 45.206
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1964, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1964"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1965:
+    data_status: complete
+    quantitative:
+      value: 46.372
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1965, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 46.805
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1965, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 45.902
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1965, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1965"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1966:
+    data_status: complete
+    quantitative:
+      value: 47.072
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1966, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 47.437
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1966, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 46.672
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1966, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1966"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1967:
+    data_status: complete
+    quantitative:
+      value: 47.803
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1967, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 48.099
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1967, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 47.475
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1967, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1967"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1968:
+    data_status: complete
+    quantitative:
+      value: 47.946
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1968, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 48.227
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1968, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 47.634
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1968, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1968"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1969:
+    data_status: complete
+    quantitative:
+      value: 49.382
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1969, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 49.515
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1969, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 49.226
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1969, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1969"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1970:
+    data_status: complete
+    quantitative:
+      value: 50.222
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1970, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 50.26
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1970, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 50.171
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1970, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1970"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1971:
+    data_status: complete
+    quantitative:
+      value: 51.12
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1971, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 51.053
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1971, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 51.183
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1971, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1971"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1972:
+    data_status: complete
+    quantitative:
+      value: 51.729
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1972, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 51.583
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1972, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 51.879
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1972, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1972"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1973:
+    data_status: complete
+    quantitative:
+      value: 52.944
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1973, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 52.647
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1973, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 53.259
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1973, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1973"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1974:
+    data_status: complete
+    quantitative:
+      value: 53.862
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1974, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 53.431
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1974, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 54.325
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1974, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1974"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1975:
+    data_status: complete
+    quantitative:
+      value: 54.819
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1975, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 54.274
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1975, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 55.408
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1975, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1975"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1976:
+    data_status: complete
+    quantitative:
+      value: 55.771
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1976, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 55.099
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1976, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 56.502
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1976, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1976"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1977:
+    data_status: complete
+    quantitative:
+      value: 56.66
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1977, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 55.872
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1977, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 57.521
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1977, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1977"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1978:
+    data_status: complete
+    quantitative:
+      value: 56.042
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1978, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 55.199
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1978, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 56.968
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1978, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1978"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1979:
+    data_status: complete
+    quantitative:
+      value: 58.453
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1979, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 57.291
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1979, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 59.744
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1979, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy. Improvement to 58.5; Shah-era health investments showing results despite revolution."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1979"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1980:
+    data_status: complete
+    quantitative:
+      value: 58.369
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1980, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 56.316
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1980, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 60.73
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1980, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy. Iran-Iraq war begins; life expectancy dips slightly."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1980"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1981:
+    data_status: complete
+    quantitative:
+      value: 56.625
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1981, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 52.837
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1981, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 61.299
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1981, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy. War-related mortality pulls male life expectancy to 52.8."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1981"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1982:
+    data_status: complete
+    quantitative:
+      value: 57.633
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1982, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 53.807
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1982, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 62.474
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1982, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1982"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1983:
+    data_status: complete
+    quantitative:
+      value: 58.518
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1983, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 54.662
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1983, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 63.375
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1983, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Very low life expectancy."
+      features:
+        - very_low_lt_60
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1983"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1984:
+    data_status: complete
+    quantitative:
+      value: 60.875
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1984, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 57.968
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1984, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 64.368
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1984, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Low life expectancy."
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1984"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1985:
+    data_status: complete
+    quantitative:
+      value: 61.537
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1985, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 58.545
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1985, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 65.128
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1985, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Low life expectancy."
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1985"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1986:
+    data_status: complete
+    quantitative:
+      value: 62.136
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1986, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 59.069
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1986, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 65.818
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1986, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Low life expectancy."
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1986"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1987:
+    data_status: complete
+    quantitative:
+      value: 62.685
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1987, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 59.546
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1987, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 66.439
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1987, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Low life expectancy."
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1987"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1988:
+    data_status: complete
+    quantitative:
+      value: 63.255
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1988, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 60.053
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1988, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 67.07
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1988, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Low life expectancy."
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1988"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1989:
+    data_status: complete
+    quantitative:
+      value: 65.314
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1989, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 63.176
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1989, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 67.737
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1989, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Moderate life expectancy. Post-war recovery; life expectancy jumps to 65.3."
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1989"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1990:
+    data_status: complete
+    quantitative:
+      value: 64.066
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1990, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 62.122
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1990, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 66.257
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1990, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Low life expectancy."
+      features:
+        - low_60_65
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1990"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1991:
+    data_status: complete
+    quantitative:
+      value: 66.233
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1991, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 63.985
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1991, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 68.773
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1991, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Moderate life expectancy."
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1991"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1992:
+    data_status: complete
+    quantitative:
+      value: 66.653
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1992, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 64.366
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1992, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 69.233
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1992, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Moderate life expectancy."
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1992"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1993:
+    data_status: complete
+    quantitative:
+      value: 67.037
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1993, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 64.722
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1993, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 69.641
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1993, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Moderate life expectancy."
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1993"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1994:
+    data_status: complete
+    quantitative:
+      value: 67.49
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1994, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 65.158
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1994, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 70.101
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1994, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Moderate life expectancy."
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1994"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1995:
+    data_status: complete
+    quantitative:
+      value: 67.904
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1995, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 65.559
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1995, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 70.52
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1995, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Moderate life expectancy."
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1995"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1996:
+    data_status: complete
+    quantitative:
+      value: 68.328
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1996, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 65.976
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1996, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 70.944
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1996, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Moderate life expectancy."
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1996"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1997:
+    data_status: complete
+    quantitative:
+      value: 68.649
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1997, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 66.315
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1997, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 71.236
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1997, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Moderate life expectancy."
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1997"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1998:
+    data_status: complete
+    quantitative:
+      value: 69.214
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1998, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 66.866
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1998, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 71.807
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1998, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Moderate life expectancy."
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1998"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  1999:
+    data_status: complete
+    quantitative:
+      value: 69.686
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1999, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 67.345
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 1999, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 72.261
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 1999, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Moderate life expectancy."
+      features:
+        - moderate_65_70
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 1999"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2000:
+    data_status: complete
+    quantitative:
+      value: 70.166
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2000, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 67.839
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2000, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 72.716
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2000, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Good life expectancy. Crosses 70-year threshold; Islamic Republic rural health network delivers major gains."
+      features:
+        - good_70_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2000"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2001:
+    data_status: complete
+    quantitative:
+      value: 70.619
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2001, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 68.309
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2001, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 73.138
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2001, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Good life expectancy."
+      features:
+        - good_70_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2001"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2002:
+    data_status: complete
+    quantitative:
+      value: 71.112
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2002, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 68.835
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2002, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 73.584
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2002, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Good life expectancy."
+      features:
+        - good_70_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2002"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2003:
+    data_status: complete
+    quantitative:
+      value: 70.464
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2003, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 68.392
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2003, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 72.698
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2003, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Good life expectancy."
+      features:
+        - good_70_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2003"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2004:
+    data_status: complete
+    quantitative:
+      value: 72.04
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2004, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 69.841
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2004, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 74.412
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2004, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Good life expectancy."
+      features:
+        - good_70_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2004"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2005:
+    data_status: complete
+    quantitative:
+      value: 72.446
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2005, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 70.299
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2005, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 74.758
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2005, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Good life expectancy."
+      features:
+        - good_70_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2005"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2006:
+    data_status: complete
+    quantitative:
+      value: 72.895
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2006, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 70.796
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2006, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 75.151
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2006, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Good life expectancy."
+      features:
+        - good_70_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2006"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2007:
+    data_status: complete
+    quantitative:
+      value: 73.299
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2007, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 71.252
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2007, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 75.496
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2007, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Good life expectancy."
+      features:
+        - good_70_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2007"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2008:
+    data_status: complete
+    quantitative:
+      value: 73.683
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2008, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 71.682
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2008, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 75.821
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2008, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Good life expectancy."
+      features:
+        - good_70_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2008"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2009:
+    data_status: complete
+    quantitative:
+      value: 74.041
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2009, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 72.074
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 76.134
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Good life expectancy."
+      features:
+        - good_70_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2009"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2010:
+    data_status: complete
+    quantitative:
+      value: 74.39
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2010, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 72.462
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 76.433
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Good life expectancy."
+      features:
+        - good_70_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2010"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2011:
+    data_status: complete
+    quantitative:
+      value: 74.721
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2011, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 72.826
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 76.723
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Good life expectancy."
+      features:
+        - good_70_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2011"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2012:
+    data_status: complete
+    quantitative:
+      value: 75.039
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2012, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 73.184
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 76.993
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "High life expectancy."
+      features:
+        - high_gt_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2012"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2013:
+    data_status: complete
+    quantitative:
+      value: 75.349
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2013, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 73.509
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 77.285
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "High life expectancy."
+      features:
+        - high_gt_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2013"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2014:
+    data_status: complete
+    quantitative:
+      value: 75.635
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2014, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 73.802
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 77.565
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "High life expectancy."
+      features:
+        - high_gt_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2014"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2015:
+    data_status: complete
+    quantitative:
+      value: 75.907
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2015, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 74.072
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 77.84
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "High life expectancy."
+      features:
+        - high_gt_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2015"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2016:
+    data_status: complete
+    quantitative:
+      value: 76.155
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2016, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 74.302
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 78.109
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "High life expectancy."
+      features:
+        - high_gt_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2016"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2017:
+    data_status: complete
+    quantitative:
+      value: 76.396
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2017, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 74.546
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 78.349
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "High life expectancy."
+      features:
+        - high_gt_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2017"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2018:
+    data_status: complete
+    quantitative:
+      value: 76.621
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2018, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 74.738
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 78.612
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "High life expectancy."
+      features:
+        - high_gt_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2018"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2019:
+    data_status: complete
+    quantitative:
+      value: 76.855
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2019, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 74.987
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 78.832
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "High life expectancy."
+      features:
+        - high_gt_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2019"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2020:
+    data_status: complete
+    quantitative:
+      value: 74.141
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2020, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 72.217
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 76.238
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Good life expectancy. COVID-19 causes sharp dip from 76.9 to 74.1; Iran was early and severely hit."
+      features:
+        - good_70_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2020"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2021:
+    data_status: complete
+    quantitative:
+      value: 73.752
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2021, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 71.951
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 75.692
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Good life expectancy. Continued COVID-19 impact; slight further decline."
+      features:
+        - good_70_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2021"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2022:
+    data_status: complete
+    quantitative:
+      value: 76.799
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2022, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 74.898
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 78.813
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "High life expectancy. Recovery to 76.8 as COVID-19 wave subsides."
+      features:
+        - high_gt_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2022"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2023:
+    data_status: complete
+    quantitative:
+      value: 77.654
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2023, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        life_expectancy_male:
+          value: 75.786
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: high
+        life_expectancy_female:
+          value: 79.628
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "High life expectancy. Reaches 77.7; highest on record."
+      features:
+        - high_gt_75
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2023"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2024:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2024, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        life_expectancy_male:
+          value: null
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: low
+        life_expectancy_female:
+          value: null
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Data not available."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2024"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2025:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2025, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        life_expectancy_male:
+          value: null
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: low
+        life_expectancy_female:
+          value: null
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Data not available."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2025"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"
+
+  2026:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: years
+      formula: "weighted_avg(le_male, le_female); World Bank provides combined directly from UN estimates"
+      source:
+        citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2026, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        life_expectancy_male:
+          value: null
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.MA.IN, Iran, 2026, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN"
+            access_date: "2026-03-02"
+          reliability: low
+        life_expectancy_female:
+          value: null
+          unit: years
+          role: sub_component
+          source:
+            citation: "World Bank WDI, SP.DYN.LE00.FE.IN, Iran, 2026, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Data not available."
+      features:
+        - missing
+      sources:
+        - citation: "World Bank WDI, SP.DYN.LE00.IN, Iran, 2026"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Iran improved life expectancy from 43 (1960) to 77 (2023); Islamic Republic rural health network (behvarz system) drove dramatic gains post-1979; Iran-Iraq war 1980-1988 visible in male LE dip; COVID-19 caused 2020-2021 reversal"

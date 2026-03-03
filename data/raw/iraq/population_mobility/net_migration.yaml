@@ -1,0 +1,1083 @@
+indicator: net_migration
+country: iraq
+dimension: population_mobility
+years:
+  1988:
+    data_status: complete
+    quantitative:
+      value: -0.9647
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 1988, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: -81562
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 1988, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Late Iran-Iraq War period; some emigration but mostly stable patterns."
+  1989:
+    data_status: complete
+    quantitative:
+      value: 0.2234
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 1989, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 19392
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 1989, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Post-Iran-Iraq War ceasefire; some returnee flows."
+  1990:
+    data_status: complete
+    quantitative:
+      value: -6.8422
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 1990, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: -601469
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 1990, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - significant_net_outflow
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Gulf War invasion of Kuwait August 1990; large displacement of foreign workers and Iraqi civilians; sanctions imposed."
+  1991:
+    data_status: complete
+    quantitative:
+      value: -1.0711
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 1991, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: -95155
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 1991, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - mild_net_outflow
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Gulf War liberation of Kuwait and Shia/Kurdish uprisings followed by brutal suppression; significant Kurdish refugee crisis into Turkey and Iran."
+  1992:
+    data_status: complete
+    quantitative:
+      value: 0.2218
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 1992, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 20292
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 1992, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Stabilized under sanctions; some Kurdish return under no-fly zone protection."
+  1993:
+    data_status: complete
+    quantitative:
+      value: 6.0602
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 1993, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 581818
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 1993, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - strong_net_inflow
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Large apparent inflow may reflect return migration after 1991 displacement or data methodology for cumulative period. Iraq 2003-2008: massive displacement outflows not fully captured."
+  1994:
+    data_status: complete
+    quantitative:
+      value: 0.5398
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 1994, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 54355
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 1994, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Hyperinflation and sanctions-era hardship; some emigration of educated class but modest net figures."
+  1995:
+    data_status: complete
+    quantitative:
+      value: 0.3882
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 1995, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 40424
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 1995, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Sanctions stabilized migration flows at roughly balanced levels."
+  1996:
+    data_status: complete
+    quantitative:
+      value: 0.1363
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 1996, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 14652
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 1996, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Oil-for-Food program begins; modest net stability in migration."
+  1997:
+    data_status: complete
+    quantitative:
+      value: 0.1391
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 1997, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 15429
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 1997, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Continued Oil-for-Food era stability in migration patterns."
+  1998:
+    data_status: complete
+    quantitative:
+      value: 0.4234
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 1998, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 48446
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 1998, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000."
+  1999:
+    data_status: complete
+    quantitative:
+      value: 0.5880
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 1999, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 69491
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 1999, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000."
+  2000:
+    data_status: complete
+    quantitative:
+      value: 0.7175
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2000, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 87624
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2000, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Late sanctions period; migration relatively balanced."
+  2001:
+    data_status: complete
+    quantitative:
+      value: 0.1147
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2001, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 14451
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2001, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000."
+  2002:
+    data_status: complete
+    quantitative:
+      value: 1.0293
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2002, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 133839
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2002, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - mild_net_inflow
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Pre-invasion year; some return migration noted."
+  2003:
+    data_status: complete
+    quantitative:
+      value: -0.2032
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2003, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: -27236
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2003, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Iraq 2003-2008: massive displacement outflows not fully captured by SM.POP.NETM methodology. US invasion year; actual displacement substantially larger than official net figures suggest."
+  2004:
+    data_status: complete
+    quantitative:
+      value: 0.5073
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2004, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 69948
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2004, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Iraq 2003-2008: massive displacement outflows not fully captured. Official return migration from diaspora partially offsets internal displacement figures."
+  2005:
+    data_status: complete
+    quantitative:
+      value: 0.3592
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2005, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 51019
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2005, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Iraq 2003-2008: massive displacement outflows not fully captured."
+  2006:
+    data_status: complete
+    quantitative:
+      value: -8.4346
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2006, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: -1206850
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2006, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - significant_net_outflow
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Iraq 2003-2008: massive displacement outflows not fully captured. 2006 sectarian civil war; UNHCR estimated 1.5M Iraqis fled to Syria and Jordan by end of 2006. Actual outflows likely much larger than official figures."
+  2007:
+    data_status: complete
+    quantitative:
+      value: -5.8075
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2007, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: -824428
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2007, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - significant_net_outflow
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Iraq 2003-2008: massive displacement outflows not fully captured. Sectarian violence peak; UNHCR estimated 2M refugees abroad and 2M IDPs by 2007."
+  2008:
+    data_status: complete
+    quantitative:
+      value: 2.7392
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2008, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 396792
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2008, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - mild_net_inflow
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Post-surge security improvement; significant return migration from Syria and Jordan recorded from mid-2008."
+  2009:
+    data_status: complete
+    quantitative:
+      value: 0.7991
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2009, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 120092
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Continued post-surge returnee flows; Iraqi refugees in Syria beginning to return."
+  2010:
+    data_status: complete
+    quantitative:
+      value: 0.5977
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2010, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 92779
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Gradual return of diaspora; improving security and rising oil revenues attracting returnees."
+  2011:
+    data_status: complete
+    quantitative:
+      value: 1.6285
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2011, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 261880
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - mild_net_inflow
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Syrian civil war refugees beginning to enter Iraq; returning Iraqi diaspora from improved security."
+  2012:
+    data_status: complete
+    quantitative:
+      value: 4.4802
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2012, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 753907
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - mild_net_inflow
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Large Syrian refugee inflow into Kurdish region of Iraq (Kurdish ethnicity crossing); Iraqi diaspora return continued."
+  2013:
+    data_status: complete
+    quantitative:
+      value: 2.6891
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2013, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 474379
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - mild_net_inflow
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Syrian refugees (Kurdish and Arab) flowing into Iraqi Kurdistan and other regions; continued diaspora returns."
+  2014:
+    data_status: complete
+    quantitative:
+      value: -0.0275
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2014, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: -5033
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. ISIS takeover caused massive internal displacement (3M+) but also large flows of Syrian refugees and return of Iraqi Kurds; net international figure appears nearly balanced despite internal crisis."
+  2015:
+    data_status: complete
+    quantitative:
+      value: -0.1189
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2015, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: -22338
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. ISIS territorial control; Iraqis fleeing to Europe mixed with Syrian flows; Syrian refugees continuing to arrive in Kurdistan."
+  2016:
+    data_status: complete
+    quantitative:
+      value: -0.5926
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2016, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: -113980
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Mosul offensive and continued ISIS conflict; modest net outflow as reconstruction in liberated areas was limited."
+  2017:
+    data_status: complete
+    quantitative:
+      value: -0.1118
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2017, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: -21998
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Post-Mosul liberation; IDPs returning to liberated areas but security fragile."
+  2018:
+    data_status: complete
+    quantitative:
+      value: 0.0784
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2018, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 15775
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Post-ISIS period; IDP returns ongoing; Syrian refugees still resident in Kurdish areas."
+  2019:
+    data_status: complete
+    quantitative:
+      value: -0.2132
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2019, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: -43919
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Tishreen protests; some irregular migration outflow of youth; continued residual Syrian refugee population."
+  2020:
+    data_status: complete
+    quantitative:
+      value: 0.1418
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2020, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 29858
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. COVID-19 reduced international movement; some return of diaspora at pandemic onset."
+  2021:
+    data_status: complete
+    quantitative:
+      value: 0.0811
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2021, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 17474
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Belarus migration crisis briefly included Iraqis attempting to enter EU via Belarus; net international migration remained roughly stable."
+  2022:
+    data_status: complete
+    quantitative:
+      value: 0.3486
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2022, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: 76821
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Mild net inflow as improved security and rising oil revenues attract some returnees."
+  2023:
+    data_status: complete
+    quantitative:
+      value: -0.0253
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2023, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: -5710
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Near-balanced migration; continued irregular outmigration of youth partially offset by return flows."
+  2024:
+    data_status: complete
+    quantitative:
+      value: -0.0770
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2024, accessed 2026-03-02; divided by 5 for annual estimate"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: medium
+      components:
+        net_migration_5yr_sum:
+          value: -17735
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: medium
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Preliminary estimate; net migration roughly stable."
+  2025:
+    data_status: partial
+    quantitative:
+      value: -0.0000
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: "World Bank WDI, SM.POP.NETM, Iraq, 2025, accessed 2026-03-02; population denominator null for 2025"
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        net_migration_5yr_sum:
+          value: -1064
+          unit: persons_5yr_cumulative
+          role: numerator
+          source:
+            citation: "World Bank WDI, SM.POP.NETM, Iraq, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+            access_date: "2026-03-02"
+          reliability: low
+        population:
+          shared_ref: population
+          role: denominator
+    qualitative:
+      features:
+        - roughly_stable
+      notes: "SM.POP.NETM is 5-year cumulative; rate = value/5/population*1000. Population denominator for 2025 is null; rate cannot be computed. Raw sum value -1064 is provisional. Marked partial due to missing population denominator."
+  2026:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: net_migration_per_1000_population_annual
+      formula: "(net_migration_5yr_sum / 5) / population * 1000"
+      source:
+        citation: null
+        url: "https://data.worldbank.org/indicator/SM.POP.NETM"
+        access_date: "2026-03-02"
+      reliability: null
+      components: {}
+    qualitative:
+      features: []
+      notes: "Future year; no data available"

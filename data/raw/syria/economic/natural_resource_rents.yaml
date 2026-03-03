@@ -1,0 +1,1204 @@
+indicator: natural_resource_rents
+country: syria
+dimension: economic
+years:
+  2009:
+    data_status: complete
+    quantitative:
+      value: 3.30
+      unit: pct_gdp
+      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      source:
+        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2009, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        oil_rents_pct_gdp:
+          value: 2.96166778457661
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Syria, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gas_rents_pct_gdp:
+          value: 0.19
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Syria, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        coal_rents_pct_gdp:
+          value: 0.0
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Syria, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        mineral_rents_pct_gdp:
+          value: 0.14307847448198
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Syria, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        forest_rents_pct_gdp:
+          value: 0.00111963768024227
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Syria, 2009, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Syria's total natural resource rents were modest at 3.3% of GDP in 2009, with oil being the dominant component at ~3.0%. Syria was a mid-tier oil producer at that time, producing approximately 350,000-400,000 barrels per day, but oil production had been declining from its early 2000s peak. Gas rents were minimal; mineral and forest rents negligible. This low dependence on resource rents reflects Syria's relatively diversified pre-war economy."
+      features:
+        - minimal_lt_5pct
+      sources:
+        - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2009"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2010:
+    data_status: complete
+    quantitative:
+      value: 4.11
+      unit: pct_gdp
+      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      source:
+        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2010, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
+        access_date: "2026-03-02"
+      reliability: high
+      components:
+        oil_rents_pct_gdp:
+          value: 3.83125650391356
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Syria, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        gas_rents_pct_gdp:
+          value: 0.22
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Syria, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        coal_rents_pct_gdp:
+          value: 0.0
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Syria, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        mineral_rents_pct_gdp:
+          value: 0.0574900957559479
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Syria, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+        forest_rents_pct_gdp:
+          value: 0.00121858494863371
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Syria, 2010, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: high
+    qualitative:
+      assessment: "Total natural resource rents rose slightly to 4.1% of GDP in 2010, still dominated by oil. Higher global oil prices in 2010 boosted oil rent percentages even as production volumes continued their structural decline. Syria's oil sector was state-controlled through Syrian Petroleum Company, with EU companies (Shell, Total) as key partners. Pre-conflict data is reliable."
+      features:
+        - minimal_lt_5pct
+      sources:
+        - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2010"
+          type: official_statistics
+          reliability: high
+      confidence: high
+      notes: null
+  2011:
+    data_status: partial
+    quantitative:
+      value: 20.35
+      unit: pct_gdp
+      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      source:
+        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2011, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        oil_rents_pct_gdp:
+          value: 18.8708007318397
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Syria, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gas_rents_pct_gdp:
+          value: 0.92
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Syria, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        coal_rents_pct_gdp:
+          value: 0.0
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Syria, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        mineral_rents_pct_gdp:
+          value: 0.556730350561456
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Syria, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        forest_rents_pct_gdp:
+          value: 0.00451764477632974
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Syria, 2011, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "The dramatic spike to 20.4% in 2011 is almost certainly a statistical artifact driven by collapsing GDP rather than increased resource production. As conflict began, GDP contracted sharply while oil production initially continued; the ratio thus ballooned. EU sanctions on Syrian oil imports were imposed in September 2011. Data reliability is low — the GDP denominator is an uncertain estimate and actual oil production and sales became disrupted during the year."
+      features:
+        - high_30_50pct
+      sources:
+        - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2011"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Spike reflects GDP collapse denominator effect, not increased production. EU oil sanctions imposed Sept 2011."
+  2012:
+    data_status: partial
+    quantitative:
+      value: 15.24
+      unit: pct_gdp
+      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      source:
+        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2012, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        oil_rents_pct_gdp:
+          value: 13.5972766904663
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Syria, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gas_rents_pct_gdp:
+          value: 1.22
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Syria, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        coal_rents_pct_gdp:
+          value: 0.0
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Syria, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        mineral_rents_pct_gdp:
+          value: 0.414808468680751
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Syria, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        forest_rents_pct_gdp:
+          value: 0.00802459594806103
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Syria, 2012, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Natural resource rents remain artificially elevated at 15.2% due to continuing GDP contraction. Oil production had declined significantly from pre-war levels as conflict disrupted fields in the east. EU sanctions prevented legal oil exports. WB figures should be interpreted cautiously — denominator GDP is a rough estimate."
+      features:
+        - significant_15_30pct
+      sources:
+        - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2012"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "GDP denominator effect inflates ratio. Oil production and export disrupted."
+  2013:
+    data_status: partial
+    quantitative:
+      value: 10.47
+      unit: pct_gdp
+      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      source:
+        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2013, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        oil_rents_pct_gdp:
+          value: 8.17348065756745
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Syria, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gas_rents_pct_gdp:
+          value: 2.06
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Syria, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        coal_rents_pct_gdp:
+          value: 0.0
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Syria, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        mineral_rents_pct_gdp:
+          value: 0.219422661707584
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Syria, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        forest_rents_pct_gdp:
+          value: 0.0160547915250737
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Syria, 2013, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Resource rents declining in percentage terms as GDP stabilizes at lower war-economy level. Oil production severely disrupted; eastern oil fields contested between regime, Kurdish forces, and rebel groups. Gas rents rose relatively as gas supply to Damascus continued for power generation."
+      features:
+        - moderate_5_15pct
+      sources:
+        - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2013"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Oil fields contested by multiple armed groups. GDP denominator remains uncertain."
+  2014:
+    data_status: partial
+    quantitative:
+      value: 5.74
+      unit: pct_gdp
+      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      source:
+        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2014, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        oil_rents_pct_gdp:
+          value: 3.75849764649316
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Syria, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gas_rents_pct_gdp:
+          value: 1.79
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Syria, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        coal_rents_pct_gdp:
+          value: 0.0
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Syria, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        mineral_rents_pct_gdp:
+          value: 0.175729786134017
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Syria, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        forest_rents_pct_gdp:
+          value: 0.0189824989400975
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Syria, 2014, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "ISIS captured major oil fields in eastern Syria in 2014, severely reducing the regime's oil revenues. Total resource rent percentage fell as both the GDP and actual oil production controlled by the regime declined. ISIS oil sales through black market channels are not captured in official figures."
+      features:
+        - moderate_5_15pct
+      sources:
+        - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2014"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "ISIS captured eastern oil fields 2014; regime oil revenues severely reduced."
+  2015:
+    data_status: partial
+    quantitative:
+      value: 3.61
+      unit: pct_gdp
+      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      source:
+        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2015, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        oil_rents_pct_gdp:
+          value: 1.97169808202096
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Syria, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gas_rents_pct_gdp:
+          value: 1.52
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Syria, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        coal_rents_pct_gdp:
+          value: 0.0
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Syria, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        mineral_rents_pct_gdp:
+          value: 0.103648948838868
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Syria, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        forest_rents_pct_gdp:
+          value: 0.0212597786584496
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Syria, 2015, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Resource rents fell to 3.6% as global oil prices crashed in 2014-2015, further reducing oil rent values. The regime's oil production remained severely curtailed by conflict. Gas infrastructure largely in regime-controlled territory continued limited production for domestic electricity generation."
+      features:
+        - minimal_lt_5pct
+      sources:
+        - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2015"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Global oil price crash compounds conflict-driven production decline."
+  2016:
+    data_status: partial
+    quantitative:
+      value: 3.17
+      unit: pct_gdp
+      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      source:
+        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2016, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        oil_rents_pct_gdp:
+          value: 1.84950445227804
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Syria, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gas_rents_pct_gdp:
+          value: 1.30
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Syria, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        coal_rents_pct_gdp:
+          value: 0.0
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Syria, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        mineral_rents_pct_gdp:
+          value: 0.0
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Syria, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        forest_rents_pct_gdp:
+          value: 0.0188105853797608
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Syria, 2016, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Total resource rents continued declining in nominal importance at 3.2% of GDP. Oil prices remained low globally. The regime's recapture of Aleppo in late 2016 did not substantially change the oil/gas picture as major producing fields remained in eastern Syria under SDF/ISIS control."
+      features:
+        - minimal_lt_5pct
+      sources:
+        - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2016"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: null
+  2017:
+    data_status: partial
+    quantitative:
+      value: 3.11
+      unit: pct_gdp
+      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      source:
+        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2017, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        oil_rents_pct_gdp:
+          value: 1.8857145317546
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Syria, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gas_rents_pct_gdp:
+          value: 1.20
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Syria, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        coal_rents_pct_gdp:
+          value: 0.0
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Syria, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        mineral_rents_pct_gdp:
+          value: 0.00790143480261003
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Syria, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        forest_rents_pct_gdp:
+          value: 0.0234420724285766
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Syria, 2017, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Resource rents essentially stable at 3.1%. ISIS losing territory including oil fields in eastern Syria; SDF (US-backed) captured major Deir ez-Zor oil fields in 2017. Regime's access to oil revenues remained severely limited despite territorial reconsolidation in western Syria."
+      features:
+        - minimal_lt_5pct
+      sources:
+        - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2017"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "SDF captured major eastern oil fields 2017; those revenues not flowing to regime."
+  2018:
+    data_status: partial
+    quantitative:
+      value: 3.35
+      unit: pct_gdp
+      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      source:
+        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2018, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        oil_rents_pct_gdp:
+          value: 1.87604739024899
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Syria, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gas_rents_pct_gdp:
+          value: 1.46
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Syria, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        coal_rents_pct_gdp:
+          value: 0.0
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Syria, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        mineral_rents_pct_gdp:
+          value: 0.00237473154819515
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Syria, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        forest_rents_pct_gdp:
+          value: 0.0166669783391071
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Syria, 2018, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Resource rents stable at 3.35%. Higher oil prices in 2018 partially offset continued low production volumes for regime-controlled areas. SDF controls northeastern oil fields; regime receives no revenues from those fields."
+      features:
+        - minimal_lt_5pct
+      sources:
+        - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2018"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: null
+  2019:
+    data_status: partial
+    quantitative:
+      value: 3.77
+      unit: pct_gdp
+      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      source:
+        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2019, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        oil_rents_pct_gdp:
+          value: 2.46515545695966
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Syria, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gas_rents_pct_gdp:
+          value: 1.29
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Syria, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        coal_rents_pct_gdp:
+          value: 0.0
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Syria, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        mineral_rents_pct_gdp:
+          value: 0.0
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Syria, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        forest_rents_pct_gdp:
+          value: 0.0184826193799977
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Syria, 2019, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Resource rents modestly higher at 3.77%. Regime continues to have minimal control over major oil producing areas in northeastern Syria controlled by SDF. Gas production for domestic use continues but is far below pre-conflict levels."
+      features:
+        - minimal_lt_5pct
+      sources:
+        - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2019"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: null
+  2020:
+    data_status: partial
+    quantitative:
+      value: 6.37
+      unit: pct_gdp
+      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      source:
+        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2020, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        oil_rents_pct_gdp:
+          value: 4.01504490668102
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Syria, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gas_rents_pct_gdp:
+          value: 2.33
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Syria, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        coal_rents_pct_gdp:
+          value: 0.0
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Syria, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        mineral_rents_pct_gdp:
+          value: 0.0
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Syria, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        forest_rents_pct_gdp:
+          value: 0.029288922258981
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Syria, 2020, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "Resource rents jumped to 6.37% in 2020, likely another GDP denominator effect as the economy contracted sharply under Caesar Act sanctions while some oil/gas production continued. The nominal rise in oil rents percentage reflects GDP collapse more than production increases. Caesar Act sanctions further limited any oil exports."
+      features:
+        - moderate_5_15pct
+      sources:
+        - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2020"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "GDP contraction under Caesar Act sanctions inflates percentage; not a production increase."
+  2021:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      source:
+        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2021, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        oil_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Syria, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gas_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Syria, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        coal_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Syria, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        mineral_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Syria, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        forest_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Syria, 2021, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data available from World Bank for 2021 or later years. Continued war economy conditions; SDF controls northeastern oil fields under US protection. Regime's access to resource revenues severely limited."
+      features: []
+      sources:
+        - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2021 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No data from 2021 onward in World Bank API."
+  2022:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      source:
+        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2022, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        oil_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Syria, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gas_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Syria, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        coal_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Syria, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        mineral_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Syria, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        forest_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Syria, 2022, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data available."
+      features: []
+      sources:
+        - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2022 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No data."
+  2023:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      source:
+        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2023, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        oil_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Syria, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gas_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Syria, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        coal_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Syria, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        mineral_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Syria, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        forest_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Syria, 2023, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data available. Earthquake in February 2023 further damaged energy infrastructure."
+      features: []
+      sources:
+        - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2023 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No data; earthquake year."
+  2024:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      source:
+        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2024, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        oil_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Syria, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gas_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Syria, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        coal_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Syria, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        mineral_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Syria, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        forest_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Syria, 2024, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data available. Regime collapsed December 2024; energy sector ownership and control in flux. Future resource revenues will be critical for post-transition reconstruction but no quantitative data exists."
+      features: []
+      sources:
+        - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2024 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No data; regime change year."
+  2025:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      source:
+        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2025, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        oil_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Syria, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gas_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Syria, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        coal_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Syria, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        mineral_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Syria, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        forest_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Syria, 2025, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data available."
+      features: []
+      sources:
+        - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2025 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "No data."
+  2026:
+    data_status: missing
+    quantitative:
+      value: null
+      unit: pct_gdp
+      formula: "oil_rents_pct_gdp + gas_rents_pct_gdp + coal_rents_pct_gdp + mineral_rents_pct_gdp + forest_rents_pct_gdp"
+      source:
+        citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2026, accessed 2026-03-02"
+        url: "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS"
+        access_date: "2026-03-02"
+      reliability: low
+      components:
+        oil_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.PETR.RT.ZS, Syria, 2026, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.PETR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        gas_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.NGAS.RT.ZS, Syria, 2026, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.NGAS.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        coal_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.COAL.RT.ZS, Syria, 2026, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.COAL.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        mineral_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.MINR.RT.ZS, Syria, 2026, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+        forest_rents_pct_gdp:
+          value: null
+          unit: pct_gdp
+          role: addend
+          source:
+            citation: "World Bank WDI, NY.GDP.FRST.RT.ZS, Syria, 2026, accessed 2026-03-02"
+            url: "https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS"
+            access_date: "2026-03-02"
+          reliability: low
+    qualitative:
+      assessment: "No data available; year not yet complete."
+      features: []
+      sources:
+        - citation: "World Bank WDI, NY.GDP.TOTL.RT.ZS, Syria, 2026 — no data"
+          type: official_statistics
+          reliability: low
+      confidence: low
+      notes: "Year not yet complete."
