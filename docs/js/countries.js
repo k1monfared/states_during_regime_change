@@ -249,6 +249,7 @@ async function selectCountry(id) {
                   <tr>
                     <th>Year</th>
                     <th>Status</th>
+                    <th>Src type</th>
                     <th>Raw Value</th>
                     <th>Score (0–100)</th>
                     <th>Confidence</th>
@@ -259,7 +260,15 @@ async function selectCountry(id) {
                 <tbody>
         `;
 
-        for (const year of yearKeys) {
+        // Build source-type map from combined _meta for transition detection
+        const stMap = {};
+        for (const yr of yearKeys) {
+          const m = _allData.combined?.[id]?.[yr]?.[dim]?._meta?.[indId];
+          if (m?.st) stMap[yr] = m.st;
+        }
+
+        for (let yi = 0; yi < yearKeys.length; yi++) {
+          const year = yearKeys[yi];
           const entry = indYears[year];
           const status = entry?.status ?? "unknown";
           const statusClass =
@@ -291,10 +300,20 @@ async function selectCountry(id) {
           const combinedScore = _allData.combined?.[id]?.[year]?.[dim]?.[indId];
           const scoreCell = combinedScore != null ? combinedScore.toFixed(1) : "—";
 
+          // Source type + transition detection
+          const st = stMap[year];
+          const prevSt = yi > 0 ? stMap[yearKeys[yi - 1]] : null;
+          const stChanged = !!(prevSt && st && prevSt !== st);
+          const fmtSt = (t) => t === "quantitative" ? "quant" : t === "qualitative" ? "qual" : _esc(t);
+          const srcTypeCell = stChanged
+            ? `<span class="src-type-changed" title="Changed from ${_esc(prevSt)}">${fmtSt(st)} ← ${fmtSt(prevSt)}</span>`
+            : (st ? `<span class="src-type-label">${fmtSt(st)}</span>` : "—");
+
           html += `
-            <tr>
+            <tr${stChanged ? ' class="row-src-changed"' : ""}>
               <td>${year}</td>
               <td><span class="status-badge ${statusClass}">${status}</span></td>
+              <td>${srcTypeCell}</td>
               <td>${rawVal}</td>
               <td class="score-cell">${scoreCell}</td>
               <td class="confidence-badge ${confClass}">${confidence || "—"}</td>

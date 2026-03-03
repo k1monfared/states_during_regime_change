@@ -391,6 +391,25 @@ export function computeSourceChangeXs(points, metricId, combined, countryId) {
 }
 
 /**
+ * buildSourceTransitions(points, metricId, combined, countryId)
+ * Returns array parallel to points: null or {from, to} at years where
+ * source_type transitions from the previous point.
+ */
+export function buildSourceTransitions(points, metricId, combined, countryId) {
+  if (!metricId.includes("/")) return null;
+  const metaMap = getMetaForSeries(countryId, metricId, combined);
+  return points.map((p, i) => {
+    if (i === 0) return null;
+    const prev = metaMap.get(points[i - 1].year);
+    const curr = metaMap.get(p.year);
+    if (prev?.st && curr?.st && prev.st !== curr.st) {
+      return { from: prev.st, to: curr.st };
+    }
+    return null;
+  });
+}
+
+/**
  * getRawSeries(countryId, metricId, appState, allData, rawCountryData)
  * Returns { points: [{x, y, year}], unit } for the right y-axis.
  */
@@ -447,7 +466,9 @@ export function getAllRawSeries(appState, allData) {
     const { points, unit } = getRawSeries(countryId, metricId, appState, allData, rawCountryData);
     if (points.length === 0) continue;
     const displayName = countries[countryId]?.display_name ?? countryId;
-    result.push({ countryId, countryLabel: displayName, points, unit });
+    const indEntry = allData.indicators?.find((i) => i.id === metricId);
+    const metricLabel = indEntry?.label ?? metricId;
+    result.push({ countryId, countryLabel: displayName, points, unit, metricId, metricLabel });
   }
   return result;
 }
@@ -522,15 +543,26 @@ export function getAllCountrySeries(appState, allData) {
         }
       }
 
+      const sourceTransitions = metricId.includes("/")
+        ? buildSourceTransitions(points, metricId, allData.combined, countryId)
+        : null;
+
+      const baseLabel = metricLabels[metricId] ?? metricId;
+      // Indicator-level metrics (dim/ind) get a "(score)" suffix to distinguish
+      // the 0–100 score from the raw value series shown on the right axis.
+      const isIndicator = metricId.includes("/") && !metricId.startsWith("c_");
+      const metricLabel = isIndicator ? baseLabel + " (score)" : baseLabel;
+
       result.push({
         countryId,
         metricId,
         countryLabel: displayName,
-        metricLabel: metricLabels[metricId] ?? metricId,
+        metricLabel,
         points,
         regimeChangeXs: rcXs,
         pivotYear,
         pointDetails,
+        sourceTransitions,
       });
     }
   }

@@ -475,47 +475,51 @@ function _renderMetricList() {
       li.dataset.id = ind.id;
 
       if (ind.type === "indicator") {
-        const foldOpen = _expandedFolds.has(ind.id);
+        const hasRaw = ind.unit && ind.unit !== "qualitative_scale";
+        const foldOpen = hasRaw && _expandedFolds.has(ind.id);
         li.innerHTML = `
           <input type="checkbox" class="metric-check" data-id="${ind.id}" ${checked ? "checked" : ""}>
           <span class="metric-dash-indicator">${_dashSvg(dash, checked)}</span>
           <span class="metric-label">${ind.label}</span>
-          <button class="metric-fold-toggle" data-fold="${ind.id}" title="Show raw value">${foldOpen ? "▾" : "▸"}</button>
+          ${hasRaw ? `<button class="metric-fold-toggle" data-fold="${ind.id}" title="Show raw value on y2 axis">${foldOpen ? "▾" : "▸"}</button>` : ""}
           <a href="methodology.html#${_methodologyAnchor(ind)}" target="_blank" rel="noopener" class="info-link" title="View in methodology">ℹ</a>
+          ${hasRaw ? `
           <div class="metric-fold-body" data-fold-id="${ind.id}" ${foldOpen ? "" : "hidden"}>
             <label class="metric-fold-row">
               <input type="radio" name="raw-axis" class="metric-fold-radio" data-metric="${ind.id}">
-              <span>Raw value</span>
+              <span>${ind.id}</span>
             </label>
-          </div>
+          </div>` : ""}
         `;
 
-        const foldToggle = li.querySelector(".metric-fold-toggle");
-        const foldBody = li.querySelector(".metric-fold-body");
-        foldToggle.addEventListener("click", (e) => {
-          e.stopPropagation();
-          if (foldBody.hidden) {
-            foldBody.hidden = false;
-            foldToggle.textContent = "▾";
-            _expandedFolds.add(ind.id);
-          } else {
-            foldBody.hidden = true;
-            foldToggle.textContent = "▸";
-            _expandedFolds.delete(ind.id);
-          }
-        });
+        if (hasRaw) {
+          const foldToggle = li.querySelector(".metric-fold-toggle");
+          const foldBody = li.querySelector(".metric-fold-body");
+          foldToggle.addEventListener("click", (e) => {
+            e.stopPropagation();
+            if (foldBody.hidden) {
+              foldBody.hidden = false;
+              foldToggle.textContent = "▾";
+              _expandedFolds.add(ind.id);
+            } else {
+              foldBody.hidden = true;
+              foldToggle.textContent = "▸";
+              _expandedFolds.delete(ind.id);
+            }
+          });
 
-        const radio = li.querySelector(".metric-fold-radio");
-        radio.checked = s.rawAxis?.metricId === ind.id;
-        radio.addEventListener("click", (e) => {
-          e.preventDefault();
-          const cur = state.get();
-          if (cur.rawAxis?.metricId === ind.id) {
-            state.update({ rawAxis: null });
-          } else {
-            state.setRawAxis(ind.id, "raw_value");
-          }
-        });
+          const radio = li.querySelector(".metric-fold-radio");
+          radio.checked = s.rawAxis?.metricId === ind.id;
+          radio.addEventListener("click", (e) => {
+            e.preventDefault();
+            const cur = state.get();
+            if (cur.rawAxis?.metricId === ind.id) {
+              state.update({ rawAxis: null });
+            } else {
+              state.setRawAxis(ind.id, "raw_value");
+            }
+          });
+        }
       } else {
         li.innerHTML = `
           <input type="checkbox" class="metric-check" data-id="${ind.id}" ${checked ? "checked" : ""}>

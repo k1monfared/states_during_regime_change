@@ -6,7 +6,7 @@
 
 import {
   computeConfidenceBand, computeVolatility,
-  computeTrend, computeSourceChangeXs,
+  computeTrend, computeSourceChangeXs, buildSourceTransitions,
 } from "./data.js";
 
 // 10-color palette, colorblind-accessible
@@ -54,16 +54,39 @@ function _htesc(str) {
     .replace(/>/g, "&gt;");
 }
 
+// Word-wrap plain text at lineWidth chars, HTML-escaping each line
+function _wrapAndEsc(text, lineWidth) {
+  const words = text.split(" ");
+  const lines = [];
+  let cur = "";
+  for (const word of words) {
+    if (cur.length > 0 && cur.length + 1 + word.length > lineWidth) {
+      lines.push(_htesc(cur));
+      cur = word;
+    } else {
+      cur = cur.length > 0 ? cur + " " + word : word;
+    }
+  }
+  if (cur) lines.push(_htesc(cur));
+  return lines.join("<br>");
+}
+
 /**
  * Pre-build hover text per point (year + t= offset, plus optional detail).
  * pointDetails: array of {confidence, assessment, rawValue, rawUnit} | null,
  *   parallel to points — populated when appState.tooltipDetail is true.
+ * sourceTransitions: array of {from, to} | null, parallel to points.
  */
-function buildHoverText(points, pivotYear, pointDetails) {
+function buildHoverText(points, pivotYear, pointDetails, sourceTransitions) {
+  const _fmtSt = (t) => t === "quantitative" ? "quant" : "qual";
   return points.map((p, i) => {
     let s = `Year: ${p.year}`;
     if (pivotYear != null) {
       s += `<br>t = ${p.year - pivotYear} (from ${pivotYear})`;
+    }
+    const trans = sourceTransitions?.[i];
+    if (trans) {
+      s += `<br>⚠ Source type: ${_fmtSt(trans.from)} → ${_fmtSt(trans.to)}`;
     }
     const detail = pointDetails?.[i];
     if (detail) {
@@ -78,8 +101,7 @@ function buildHoverText(points, pivotYear, pointDetails) {
       }
       if (detail.assessment) {
         const full = detail.assessment.replace(/\s+/g, " ").trim();
-        const snippet = full.length > 150 ? full.slice(0, 150).trimEnd() + "…" : full;
-        s += `<br><i>${_htesc(snippet)}</i>`;
+        s += `<br><i>${_wrapAndEsc(full, 65)}</i>`;
       }
     }
     return s;
@@ -323,7 +345,7 @@ function _renderOverlay(el, seriesList, rawSeriesList, appState, allData) {
     mainTraces.push({
       x: s.points.map((p) => p.x),
       y: s.points.map((p) => p.y),
-      text: buildHoverText(s.points, s.pivotYear, s.pointDetails),
+      text: buildHoverText(s.points, s.pivotYear, s.pointDetails, s.sourceTransitions),
       type: "scatter",
       mode: "lines",
       name,
@@ -342,10 +364,14 @@ function _renderOverlay(el, seriesList, rawSeriesList, appState, allData) {
           const idx = s.points.findIndex((p) => p.x === rp.x && p.year === rp.year);
           return s.pointDetails?.[idx] ?? null;
         });
+        const rcTransitions = rcPoints.map((rp) => {
+          const idx = s.points.findIndex((p) => p.x === rp.x && p.year === rp.year);
+          return s.sourceTransitions?.[idx] ?? null;
+        });
         mainTraces.push({
           x: rcPoints.map((p) => p.x),
           y: rcPoints.map((p) => p.y),
-          text: buildHoverText(rcPoints, s.pivotYear, rcDetails),
+          text: buildHoverText(rcPoints, s.pivotYear, rcDetails, rcTransitions),
           type: "scatter",
           mode: "markers",
           name,
@@ -385,26 +411,30 @@ function _renderOverlay(el, seriesList, rawSeriesList, appState, allData) {
   // Raw axis traces (right y-axis, overlay mode only)
   const rawTraces = [];
   let rawUnit = "";
+  let rawMetricLabel = "";
   if (rawSeriesList.length > 0) {
     rawUnit = rawSeriesList[0]?.unit ?? "";
+    rawMetricLabel = rawSeriesList[0]?.metricLabel ?? rawSeriesList[0]?.metricId ?? "";
     for (const rs of rawSeriesList) {
       const color = getColor(rs.countryId, _colorMap);
+      const rawLabel = rs.metricLabel ?? rs.metricId;
+      const unitStr = rawUnit ? ` (${rawUnit.replace(/_/g, " ")})` : "";
       rawTraces.push({
         x: rs.points.map((p) => p.x),
         y: rs.points.map((p) => p.y),
         text: buildHoverText(rs.points, null),
         type: "scatter",
         mode: "lines",
-        name: `${rs.countryLabel} (raw)`,
+        name: `${rs.countryLabel} — ${rawLabel} (raw)`,
         showlegend: true,
         line: { color, dash: "dot", width: 1.5 },
         yaxis: "y2",
-        hovertemplate: `<b>${rs.countryLabel}</b><br>Raw: %{y:.4g}${rawUnit ? " " + rawUnit : ""}<br>%{text}<extra></extra>`,
+        hovertemplate: `<b>${_htesc(rs.countryLabel)}</b><br>${_htesc(rawLabel)} (raw): %{y:.4g}${unitStr ? " " + _htesc(unitStr) : ""}<br>%{text}<extra></extra>`,
       });
     }
   }
 
-  const layout = _baseLayout(appState, rawUnit);
+  const layout = _baseLayout(appState, rawUnit, rawMetricLabel);
   layout.shapes = shapes;
   layout.legend = { orientation: "h", y: -0.12, font: { size: 11 } };
   layout.annotations = _buildTrendAnnotations(seriesList, appState);
@@ -467,7 +497,7 @@ function _renderStacked(el, seriesList, appState, allData) {
       traces.push({
         x: s.points.map((p) => p.x),
         y: s.points.map((p) => p.y),
-        text: buildHoverText(s.points, s.pivotYear, s.pointDetails),
+        text: buildHoverText(s.points, s.pivotYear, s.pointDetails, s.sourceTransitions),
         type: "scatter",
         mode: "lines",
         name: s.metricLabel,
@@ -563,7 +593,7 @@ export function setCountriesMeta(meta) {
 
 // ── Shared layout ──────────────────────────────────────────────────────────────
 
-function _baseLayout(appState, rawUnit) {
+function _baseLayout(appState, rawUnit, rawMetricLabel = "") {
   const xTitle =
     appState.xMode === "absolute"
       ? "Year"
@@ -600,8 +630,11 @@ function _baseLayout(appState, rawUnit) {
   };
 
   if (hasRaw) {
+    const y2Title = rawMetricLabel
+      ? `${rawMetricLabel}${rawUnit ? ` (${rawUnit.replace(/_/g, " ")})` : ""}`
+      : rawUnit || "Raw value";
     layout.yaxis2 = {
-      title: { text: rawUnit || "Raw value", font: { size: 11 }, standoff: 6 },
+      title: { text: y2Title, font: { size: 11 }, standoff: 6 },
       overlaying: "y",
       side: "right",
       showgrid: false,

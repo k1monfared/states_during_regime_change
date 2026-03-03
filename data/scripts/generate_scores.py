@@ -104,7 +104,36 @@ def evaluate_condition(value, condition):
     return False
 
 
-def score_quantitative(value, rubric):
+def apply_input_transform(value, transform_name, peak_value=None):
+    """Apply input transform to a raw value before threshold scoring.
+
+    Supported transforms:
+      freedom_house_invert  — Freedom House CL 1-7: (8 - value) / 7 * 100
+      percent_of_peak       — (value / peak_value) * 100 (requires peak_value)
+      rsf_invert            — RSF press freedom: 100 - value
+      wjp_multiply_100      — WJP rule-of-law 0-1 scale: value * 100
+    """
+    if transform_name is None or value is None:
+        return value
+    try:
+        value = float(value)
+    except (ValueError, TypeError):
+        return None
+
+    if transform_name == "freedom_house_invert":
+        return (8.0 - value) / 7.0 * 100.0
+    elif transform_name == "percent_of_peak":
+        if peak_value is None or float(peak_value) == 0:
+            return None
+        return (value / float(peak_value)) * 100.0
+    elif transform_name == "rsf_invert":
+        return 100.0 - value
+    elif transform_name == "wjp_multiply_100":
+        return value * 100.0
+    return value
+
+
+def score_quantitative(value, rubric, peak_value=None):
     """Apply quantitative scoring rubric to a value. Returns (score, source_type) or (None, None)."""
     if value is None:
         return None, None
@@ -115,11 +144,17 @@ def score_quantitative(value, rubric):
     if scoring_type == "none" or scoring_type is None:
         return None, None
 
+    # Apply input transform before threshold comparison
+    transform = scoring.get("input_transform")
+    transformed = apply_input_transform(value, transform, peak_value=peak_value)
+    if transformed is None:
+        return None, None
+
     thresholds = scoring.get("thresholds", [])
 
     for threshold in thresholds:
         condition = threshold["condition"]
-        if evaluate_condition(value, condition):
+        if evaluate_condition(transformed, condition):
             score_range = threshold["score_range"]
             # Use midpoint of range as the score
             score = (score_range[0] + score_range[1]) / 2.0
@@ -212,10 +247,11 @@ def combine_scores(quant_score, qual_score, combination_rule):
     return None, None
 
 
-def score_indicator_year(year_data, rubric):
+def score_indicator_year(year_data, rubric, peak_value=None):
     """Score a single indicator for a single year.
 
     Returns dict with: score, source_type, data_status
+    peak_value: pre-computed series peak for percent_of_peak transform (may be None)
     """
     if year_data is None:
         return {"score": None, "source_type": None, "data_status": "missing"}
@@ -234,7 +270,7 @@ def score_indicator_year(year_data, rubric):
     features = qual_data.get("features", []) if qual_data else []
 
     # Score both
-    quant_score, _ = score_quantitative(quant_value, rubric)
+    quant_score, _ = score_quantitative(quant_value, rubric, peak_value=peak_value)
     qual_score, _ = score_qualitative(features, rubric)
 
     # Combine
@@ -344,6 +380,43 @@ def aggregate_composite(dimension_scores, composite_config):
     return None
 
 
+def compute_series_peaks(country_id, rubrics, aggregation, raw_dir):
+    """Pre-compute peak quantitative values for indicators that use percent_of_peak transform.
+
+    Returns dict of (dimension, indicator) -> peak_value.
+    Only populates entries where input_transform == "percent_of_peak" and data exists.
+    """
+    peaks = {}
+    for dimension in ["political", "economic", "international", "transparency"]:
+        dim_rubrics = rubrics.get(dimension, {})
+        dim_agg = aggregation["dimensions"].get(dimension, {})
+        for indicator in dim_agg.get("sub_indicators", []):
+            indicator_rubric = dim_rubrics.get(indicator, {})
+            scoring = indicator_rubric.get("quantitative_scoring", {})
+            if scoring.get("input_transform") != "percent_of_peak":
+                continue
+            raw_file = raw_dir / country_id / dimension / f"{indicator}.yaml"
+            raw_data = load_raw_file(raw_file)
+            if not raw_data or "years" not in raw_data:
+                continue
+            peak = None
+            for year_data in raw_data["years"].values():
+                if year_data is None:
+                    continue
+                quant_data = year_data.get("quantitative", {})
+                val = quant_data.get("value") if quant_data else None
+                if val is not None:
+                    try:
+                        val = float(val)
+                        if peak is None or val > peak:
+                            peak = val
+                    except (ValueError, TypeError):
+                        pass
+            if peak is not None:
+                peaks[(dimension, indicator)] = peak
+    return peaks
+
+
 def process_country(country_id, country_config, configs, raw_dir, verbose=False):
     """Process all indicators for a country, return list of score records."""
     rubrics = configs["scoring_rubrics"]
@@ -351,6 +424,12 @@ def process_country(country_id, country_config, configs, raw_dir, verbose=False)
     records = []
 
     start_year, end_year = get_time_range(country_config)
+
+    # Pre-compute series peaks for percent_of_peak indicators
+    series_peaks = compute_series_peaks(country_id, rubrics, aggregation, raw_dir)
+    if verbose and series_peaks:
+        for (dim, ind), peak in series_peaks.items():
+            print(f"  {country_id}: peak {dim}/{ind} = {peak}")
 
     for year in range(start_year, end_year + 1):
         dimension_scores = {}
@@ -373,8 +452,9 @@ def process_country(country_id, country_config, configs, raw_dir, verbose=False)
                 # Get rubric for this indicator
                 indicator_rubric = dim_rubrics.get(indicator, {})
 
-                # Score it
-                result = score_indicator_year(year_data, indicator_rubric)
+                # Score it (pass pre-computed series peak for percent_of_peak transform)
+                peak_value = series_peaks.get((dimension, indicator))
+                result = score_indicator_year(year_data, indicator_rubric, peak_value=peak_value)
                 indicator_scores[indicator] = result["score"]
 
                 # Record individual indicator score

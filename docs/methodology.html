@@ -362,6 +362,16 @@ async function renderDefinitions() {
       }
     }
     container.innerHTML = html;
+
+    // Scroll to hashed anchor now that dynamic content exists
+    const hash = window.location.hash.slice(1);
+    if (hash) {
+      const target = document.getElementById(hash);
+      if (target) {
+        if (target.tagName === "DETAILS") target.open = true;
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
   } catch (err) {
     container.innerHTML = `<div class="error-msg">Failed to load definitions: ${esc(err.message)}</div>`;
   }
