@@ -459,6 +459,14 @@ def process_country(country_id, country_config, configs, raw_dir, verbose=False)
         for (dim, ind), peak in series_peaks.items():
             print(f"  {country_id}: peak {dim}/{ind} = {peak}")
 
+    # Pre-load all raw YAML files once (avoid re-reading per year)
+    _raw_cache = {}
+    for dimension in aggregation["dimensions"].keys():
+        dim_agg = aggregation["dimensions"].get(dimension, {})
+        for indicator in dim_agg.get("sub_indicators", []):
+            raw_file = raw_dir / country_id / dimension / f"{indicator}.yaml"
+            _raw_cache[(dimension, indicator)] = load_raw_file(raw_file)
+
     for year in range(start_year, end_year + 1):
         dimension_scores = {}
 
@@ -468,9 +476,8 @@ def process_country(country_id, country_config, configs, raw_dir, verbose=False)
             indicator_scores = {}
 
             for indicator in dim_agg.get("sub_indicators", []):
-                # Load raw data file
-                raw_file = raw_dir / country_id / dimension / f"{indicator}.yaml"
-                raw_data = load_raw_file(raw_file)
+                # Use cached raw data
+                raw_data = _raw_cache.get((dimension, indicator))
 
                 # Get year data
                 year_data = None

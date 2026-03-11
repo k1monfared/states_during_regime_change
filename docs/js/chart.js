@@ -72,6 +72,9 @@ function _buildPlotContext(seriesList, rawSeriesList, appState) {
   let colorScheme;
   if (chartMode === "stacked") {
     colorScheme = "by-metric";
+  } else if (scoreMetrics.length === 0) {
+    // No score metrics — only raw/fundamental series: color by metric
+    colorScheme = "by-metric";
   } else if (scoreMetrics.length <= 1 && scoreCountries.length !== 1) {
     colorScheme = "by-country";
   } else if (scoreCountries.length === 1) {
@@ -549,10 +552,18 @@ function _renderOverlay(el, seriesList, rawSeriesList, appState, allData) {
 
   // Raw traces — iterate rawSeriesList directly using ctx axis assignments
   const rawTraces = [];
+  const hasScoreTraces = seriesList.length > 0;
+  const rawOnly = !hasScoreTraces;
+  // When rawOnly, the first unit's axis was promoted to primary "y"
+  const firstRawUnit = rawOnly && ctx.rawAxisEntries.length > 0
+    ? ctx.rawAxisEntries[0].unit : null;
   for (const rs of rawSeriesList) {
     const color = ctx.getColor(rs.countryId, rs.metricId);
-    const axisKey = ctx.getRawYAxis(rs.countryId, rs.unit);
+    const dash = hasScoreTraces ? "dot" : ctx.getDash(rs.metricId);
+    let axisKey = ctx.getRawYAxis(rs.countryId, rs.unit);
     if (!axisKey) continue;
+    // Remap first unit to primary axis in rawOnly mode
+    if (rawOnly && (rs.unit ?? "") === (firstRawUnit ?? "")) axisKey = "y";
     const rawLabel = rs.metricLabel ?? rs.metricId;
     const unit = rs.unit ?? "";
     const unitStr = unit ? ` (${unit.replace(/_/g, " ")})` : "";
@@ -562,15 +573,15 @@ function _renderOverlay(el, seriesList, rawSeriesList, appState, allData) {
       text: buildHoverText(rs.points, null),
       type: "scatter",
       mode: "lines",
-      name: ctx.rawLegendLabel(rs),
+      name: hasScoreTraces ? ctx.rawLegendLabel(rs) : rs.metricLabel,
       showlegend: true,
-      line: { color, dash: "dot", width: 1.5 },
+      line: { color, dash, width: 1.5 },
       yaxis: axisKey,
-      hovertemplate: `<b>${_htesc(rs.countryLabel)}</b><br>${_htesc(rawLabel)} (raw): %{y:.4g}${unitStr ? " " + _htesc(unitStr) : ""}<br>%{text}<extra></extra>`,
+      hovertemplate: `<b>${_htesc(rs.countryLabel)}</b><br>${_htesc(rawLabel)}${hasScoreTraces ? " (raw)" : ""}: %{y:.4g}${unitStr ? " " + _htesc(unitStr) : ""}<br>%{text}<extra></extra>`,
     });
   }
 
-  const layout = _baseLayout(appState, ctx.rawAxisEntries);
+  const layout = _baseLayout(appState, ctx.rawAxisEntries, seriesList.length === 0);
   layout.shapes = shapes;
   layout.legend = { orientation: "h", y: -0.12, font: { size: 11 } };
   layout.annotations = _buildTrendAnnotations(seriesList, appState);
@@ -670,11 +681,13 @@ function _renderStacked(el, seriesList, rawSeriesList, appState, allData) {
   }
 
   // Raw traces — each country row gets its own secondary axis per unit
+  const stackedHasScores = seriesList.length > 0;
   for (const rs of rawSeriesList) {
     const xaxisKey = ctx.getRawXAxis(rs.countryId);
     const yaxisKey = ctx.getRawYAxis(rs.countryId, rs.unit);
     if (!yaxisKey) continue;
     const color = ctx.getColor(rs.countryId, rs.metricId);
+    const dash = stackedHasScores ? "dot" : ctx.getDash(rs.metricId);
     const rawLabel = rs.metricLabel ?? rs.metricId;
     const unit = rs.unit ?? "";
     const unitStr = unit ? ` (${unit.replace(/_/g, " ")})` : "";
@@ -684,10 +697,10 @@ function _renderStacked(el, seriesList, rawSeriesList, appState, allData) {
       text: buildHoverText(rs.points, null),
       type: "scatter",
       mode: "lines",
-      name: ctx.rawLegendLabel(rs),
+      name: stackedHasScores ? ctx.rawLegendLabel(rs) : rs.metricLabel,
       xaxis: xaxisKey,
       yaxis: yaxisKey,
-      line: { color, dash: "dot", width: 1.5 },
+      line: { color, dash, width: 1.5 },
       showlegend: true,
       hovertemplate: `<b>${_htesc(rs.countryLabel)}</b><br>${_htesc(rawLabel)} (raw): %{y:.4g}${unitStr ? " " + _htesc(unitStr) : ""}<br>%{text}<extra></extra>`,
     });
@@ -816,11 +829,12 @@ export function setCountriesMeta(meta) {
 // ── Shared layout ──────────────────────────────────────────────────────────────
 
 /**
- * _baseLayout(appState, rawAxisEntries = [])
+ * _baseLayout(appState, rawAxisEntries = [], rawOnly = false)
  * Builds the base Plotly layout for overlay mode.
  * rawAxisEntries: array from _buildPlotContext.rawAxisEntries (overlay entries only).
+ * rawOnly: true when no score traces exist (fundamental-only view).
  */
-function _baseLayout(appState, rawAxisEntries = []) {
+function _baseLayout(appState, rawAxisEntries = [], rawOnly = false) {
   const xTitle =
     appState.xMode === "absolute"
       ? "Year"
@@ -828,7 +842,10 @@ function _baseLayout(appState, rawAxisEntries = []) {
       ? "Years relative to regime change (t=0)"
       : "Years relative to pivot year (t=0)";
 
-  const numExtraAxes = rawAxisEntries.length;
+  // When rawOnly, the first raw axis becomes the primary left axis;
+  // remaining raw axes go on the right. Otherwise all raw axes are secondary.
+  const secondaryRawEntries = rawOnly ? rawAxisEntries.slice(1) : rawAxisEntries;
+  const numExtraAxes = secondaryRawEntries.length;
 
   const layout = {
     margin: { t: 16, r: 16 + numExtraAxes * 60, b: 60, l: 56 },
@@ -843,29 +860,41 @@ function _baseLayout(appState, rawAxisEntries = []) {
       gridcolor: "#f0f0f0",
       zeroline: false,
       tickfont: { size: 10 },
-      // In absolute mode, honour the explicit year range from state so Plotly.react
-      // doesn't silently preserve a stale autoranged extent across re-renders.
       ...(appState.xMode === "absolute" ? { range: appState.range } : { autorange: true }),
-      // Shrink domain to make room for stacked right axes when there are multiple
       domain: numExtraAxes > 1 ? [0, Math.max(0.5, 1 - numExtraAxes * 0.10)] : [0, 1],
     },
-    yaxis: {
+    shapes: [],
+    autosize: true,
+  };
+
+  if (rawOnly && rawAxisEntries.length > 0) {
+    // Promote first raw axis to the primary left y-axis
+    const firstUnit = rawAxisEntries[0].unit;
+    const firstLabel = firstUnit ? firstUnit.replace(/_/g, " ") : "Value";
+    layout.yaxis = {
+      title: { text: firstLabel, font: { size: 11 }, standoff: 6 },
+      autorange: true,
+      showgrid: true,
+      gridcolor: "#f0f0f0",
+      zeroline: false,
+      tickfont: { size: 10 },
+    };
+  } else {
+    layout.yaxis = {
       title: { text: "Score (0–100)", font: { size: 11 }, standoff: 6 },
       range: [0, 105],
       showgrid: true,
       gridcolor: "#f0f0f0",
       zeroline: false,
       tickfont: { size: 10 },
-    },
-    shapes: [],
-    autosize: true,
-  };
+    };
+  }
 
-  // Add one right y-axis per unit group.
-  // For a single extra axis: standard side:right anchored to the plot.
-  // For 2+ axes: free positioning with xaxis domain shrunk to make room.
-  for (let i = 0; i < rawAxisEntries.length; i++) {
-    const { axisKey, unit } = rawAxisEntries[i];
+  // Add secondary right y-axes.
+  // When rawOnly, the first raw entry was promoted to primary, so skip it.
+  const entriesToLayout = rawOnly ? rawAxisEntries.slice(1) : rawAxisEntries;
+  for (let i = 0; i < entriesToLayout.length; i++) {
+    const { axisKey, unit } = entriesToLayout[i];
     const axisNum = axisKey.slice(1);
     const unitLabel = unit ? unit.replace(/_/g, " ") : "Raw value";
     const spec = {
@@ -877,7 +906,7 @@ function _baseLayout(appState, rawAxisEntries = []) {
       tickfont: { size: 10 },
       autorange: true,
     };
-    if (rawAxisEntries.length > 1) {
+    if (entriesToLayout.length > 1) {
       spec.anchor = "free";
       spec.position = 1.0 + i * 0.10;
     }

@@ -1,5 +1,5 @@
 meta:
-  last_updated: '2026-03-03'
+  last_updated: '2026-03-11'
   description: Canonical series registry. Update when a new bulk download is added.
 series:
   WB_SP.POP.TOTL:
@@ -42,8 +42,8 @@ series:
     source: world_bank
     canonical_file: data/canonical/world_bank/SP.POP.65UP.TO.ZS.csv
     status_file: data/canonical/status/WB_SP.POP.65UP.TO.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-11'
   WB_SP.URB.TOTL:
     name: Urban population (% of total)
     source: world_bank
@@ -56,8 +56,8 @@ series:
     source: world_bank
     canonical_file: data/canonical/world_bank/SP.RUR.TOTL.ZS.csv
     status_file: data/canonical/status/WB_SP.RUR.TOTL.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-11'
   WB_SP.DYN.CBRT.IN:
     name: Birth rate, crude (per 1,000 people)
     source: world_bank
@@ -70,8 +70,8 @@ series:
     source: world_bank
     canonical_file: data/canonical/world_bank/SP.DYN.CDRT.IN.csv
     status_file: data/canonical/status/WB_SP.DYN.CDRT.IN.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-11'
   WB_SP.DYN.LE00.IN:
     name: Life expectancy at birth (years)
     source: world_bank
@@ -168,8 +168,8 @@ series:
     source: world_bank
     canonical_file: data/canonical/world_bank/SL.EMP.SELF.ZS.csv
     status_file: data/canonical/status/WB_SL.EMP.SELF.ZS.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-11'
   ILO_EAP_TEAP_SEX_AGE_NB:
     name: Labour force by sex and age (count) — ILO
     source: ilo
@@ -273,8 +273,8 @@ series:
     source: world_bank
     canonical_file: data/canonical/world_bank/SE.PRE.ENRR.csv
     status_file: data/canonical/status/WB_SE.PRE.ENRR.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-11'
   WB_SE.PRM.CMPT.ZS:
     name: Primary completion rate, total (%)
     source: world_bank
@@ -364,8 +364,8 @@ series:
     source: world_bank
     canonical_file: data/canonical/world_bank/SH.TBS.INCD.csv
     status_file: data/canonical/status/WB_SH.TBS.INCD.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-11'
   WB_NY.GDP.MKTP.CD:
     name: GDP (current US$)
     source: world_bank
@@ -791,8 +791,8 @@ series:
     source: world_bank
     canonical_file: data/canonical/world_bank/EG.USE.PCAP.KG.OE.csv
     status_file: data/canonical/status/WB_EG.USE.PCAP.KG.OE.yaml
-    downloaded: false
-    last_download: null
+    downloaded: true
+    last_download: '2026-03-11'
   WB_IS.ROD.PAVE.ZS:
     name: Roads, paved (% of total roads)
     source: world_bank
