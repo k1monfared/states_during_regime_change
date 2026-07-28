@@ -7,12 +7,15 @@ used_by: [collect-data, pipeline]
 
 # Coverage Management Workflow
 
-## Coverage at a glance (2026-03-03)
+## Coverage at a glance (2026-03-11)
 
-**World Bank (priority-1)**: 38/39 series downloaded; 78.4% of country-year observations available.
-`SM.POP.REFG.OR` returned no data — use UNHCR directly instead.
+**World Bank**: 83/88 series downloaded. `SM.POP.REFG.OR` returned no data -- use UNHCR directly instead.
 
-**Not yet downloaded**: ILO (7 series), UCDP (5), ACLED (2), UNHCR (6), V-Dem (2), IMF (2), UNDP HDI (1).
+**ILO**: 6/7 series downloaded. `EMP_2EMP_SEX_ECO_RT` (informal employment) has no valid rplumber endpoint.
+
+**UCDP**: 5/5 series downloaded. **UNHCR**: 6/6 series downloaded. **IMF**: 2/2 series downloaded. **UNDP**: 1/1 (HDI) downloaded.
+
+**Not yet downloaded**: ACLED (2 series, free acct required), V-Dem (2 series, manual file download).
 
 **Coverage by country** (run `python3 data/scripts/build_coverage.py --summary` for current numbers):
 | Tier | Countries | Coverage % |
@@ -129,17 +132,17 @@ Verification records live in `data/verification.json`, keyed as `"SERIES_ID/coun
 | `WB_NY.GDP.TOTL.RT.ZS` | natural_resource_rents | ✅ downloaded |
 | `WB_SI.POV.GINI` | gini, poverty_rate | ✅ downloaded (sparse) |
 | `WGI_CC` / `WGI_GE` / `WGI_PS` / `WGI_RL` / `WGI_VA` | governance indicators | ✅ downloaded |
-| UCDP conflict series | political_violence | ❌ manual download needed |
-| UNHCR refugee series | refugee_flows | ❌ manual download needed |
-| ILO unemployment counts | unemployment components | ❌ manual download needed |
+| UCDP conflict series | political_violence | ✅ downloaded |
+| UNHCR refugee series | refugee_flows | ✅ downloaded |
+| ILO unemployment counts | unemployment components | ✅ downloaded (6/7; informal rate unavailable) |
 
 ### Tier 2 — Useful for derived computation
 
-| Series needed | Download command |
-|--------------|-----------------|
-| WB priority-2 (demographics, education) | `python3 data/scripts/download_canonical.py --source worldbank --priority 2` |
-| ILO labor series | Manual — see source-bulk-ilo skill |
-| UCDP GED conflict | Manual — see source-ucdp skill |
+| Series needed | Status |
+|--------------|--------|
+| WB priority-2 (demographics, education) | ✅ mostly downloaded (83/88 total) |
+| ILO labor series | ✅ downloaded (6/7) |
+| UCDP GED conflict | ✅ downloaded (5/5) |
 
 ### Tier 3 — Nice-to-have
 

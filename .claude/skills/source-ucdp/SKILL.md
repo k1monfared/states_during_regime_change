@@ -7,7 +7,9 @@ used_by: [pipeline, manage-coverage, collect-data]
 
 # UCDP Conflict Data Workflow
 
-## Status: manual download required (5 series not yet downloaded)
+## Status: all 5 series downloaded (2026-03-11)
+
+All 5 UCDP series are in `data/canonical/ucdp/`. Downloaded via `download_canonical.py --source ucdp --file <GED_csv>`.
 
 ## Series definitions
 
@@ -38,6 +40,11 @@ from pathlib import Path
 # GED type_of_violence: 1=state-based, 2=non-state, 3=one-sided
 # conflict_type in UCDP conflict dataset: 1=extrasystemic, 2=interstate,
 #   3=internal, 4=internationalized internal
+#
+# UCDP GED v24.1 column names:
+#   - "country_id" = Gleditsch-Ward location code (NOT "gwno_loc")
+#   - "gwnoa" = Gleditsch-Ward code of side A actor (NOT "gwno_a")
+#   - "best" = best death estimate
 
 GW_TO_COUNTRY_ID = {
     700: "afghanistan", 615: "algeria", 490: "drc", 482: "car",

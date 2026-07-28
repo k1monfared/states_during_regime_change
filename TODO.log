@@ -1,5 +1,5 @@
 - TODO
-    - Last Updated: 2026-03-03
+    - Last Updated: 2026-03-11
 
     - Canonical Data — Remaining Downloads
         - ACLED (2 series)
@@ -31,10 +31,13 @@
                 - [] Check https://dtm.iom.int/ for consolidated CSV
                 - [] Or skip — partially covered by UNHCR displacement data
 
-    - Coverage Gaps — World Bank (12 series at 0%)
-        - [] Run: python3 data/scripts/download_canonical.py --status
-        - [] Identify which 12 WB series have no data for our countries
-        - [] For series not in WB coverage for these countries, document alternatives
+    - Coverage Gaps — World Bank
+        - [x] Resolved: 83/88 WB series downloaded; 5 return no data from WB API
+            - SP.DYN.CBRT.IN (crude birth rate — duplicate/deprecated)
+            - SH.HIV.INCD (HIV incidence)
+            - SM.POP.REFG.OR (refugee origin — use UNHCR directly)
+            - IS.ROD.PAVE.ZS (paved roads %)
+            - SP.DYN.CBRT (birth rate — alternate code, no data)
 
     - Data Collection — Scored Indicators
         - [] Fill remaining null values in data/raw/ YAML files for all 40 countries
@@ -44,10 +47,9 @@
         - [] Run scoring: python3 data/scripts/generate_scores.py --country <id>
 
     - Dashboard UI
-        - [] Fix stacked mode bug (metrics visible in Overlay missing in Stacked)
-            - Investigate docs/js/chart.js stacked rendering path
-        - [] Test fundamental series in dashboard (appear as "Fundamental Data" group in sidebar)
-        - [] Test country page "Fundamental Data" tab with downloaded canonical data
+        - [x] Fix stacked mode bug — confirmed working (tested with Playwright)
+        - [x] Fundamental series in dashboard — tested, works in overlay/stacked/aligned modes
+        - [x] Country page Fundamental Data tab — tested, shows 103 series with data
 
     - Flask Audit UI
         - [] Test: python3 app.py → /audit shows coverage matrix
@@ -61,7 +63,7 @@
 
     - Done (for reference)
         - [x] fundamental_metrics.yaml catalog (114 series)
-        - [x] download_canonical.py — WB (76), ILO (6), UCDP (5), UNHCR (6), IMF (2), UNDP (1)
+        - [x] download_canonical.py — WB (83), ILO (6), UCDP (5), UNHCR (6), IMF (2), UNDP (1)
         - [x] build_coverage.py → coverage.json, fundamental.json
         - [x] compute_derived.py → fills calculated_value in YAML
         - [x] export_web.py updated to emit fundamental.json + indicators.json with new types
@@ -69,4 +71,8 @@
         - [x] data.js getSeries() handles fundamental/ lookups
         - [x] countries.js Fundamental Data tab
         - [x] app.py Flask audit UI (coverage matrix, verify endpoint)
-        - [x] Coverage: 96/114 series (84%), 126k/165k obs (76.3%)
+        - [x] Coverage: 96/114 series (84%), 126k/165k obs (76.3%) — superseded below
+        - [x] WB canonical: 83/88 downloaded (up from 76); 5 series return no data
+        - [x] Coverage: 103/114 series (90%), 138k/179k obs (77.4%)
+        - [x] Dashboard raw-only axis fix: colors, dash styles, and primary axis promotion for fundamental-only views
+        - [x] generate_scores.py optimized with YAML file caching

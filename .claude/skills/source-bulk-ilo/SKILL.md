@@ -7,22 +7,28 @@ used_by: [pipeline, manage-coverage, collect-data]
 
 # ILO ILOSTAT Bulk Download Workflow
 
-## Status: manual download required (7 series not yet downloaded)
+## Status: 6 of 7 series downloaded (2026-03-11)
 
-The download_canonical.py script prints manual instructions for ILO series.
+6 series downloaded via `download_canonical.py --source ilo`. Only `ILO_EMP_2EMP_SEX_ECO_RT`
+(informal employment rate) remains — it has no valid rplumber endpoint.
 The ILOSTAT API is free and does not require authentication for bulk queries.
 
 ## Series to download
 
-| Series ID | ILO Code | Description | Feeds indicator |
-|-----------|----------|-------------|----------------|
-| ILO_EAP_TEAP_SEX_AGE_NB | EAP_TEAP_SEX_AGE_NB | Labour force count (persons) | unemployment, labor_force_participation |
-| ILO_UNE_TUNE_SEX_AGE_NB | UNE_TUNE_SEX_AGE_NB | Unemployed persons count | unemployment |
-| ILO_EMP_TEMP_SEX_AGE_NB | EMP_TEMP_SEX_AGE_NB | Employed persons count | employment |
-| ILO_UNE_TUNE_SEX_AGE_RT | UNE_TUNE_SEX_AGE_RT | Unemployment rate (ILO definition) | unemployment alternative |
-| ILO_EAP_TEAP_SEX_AGE_RT | EAP_TEAP_SEX_AGE_RT | Labour force participation rate | labor_force_participation |
-| ILO_EMP_2EMP_SEX_ECO_RT | EMP_2EMP_SEX_ECO_RT | Informal employment (% total) | informal_economy |
-| ILO_SDG_0851_SEX_AGE_RT | SDG_0851_SEX_AGE_RT | NEET rate (%) | neet_rate |
+| Series ID | ILO API Code | Description | Feeds indicator | Status |
+|-----------|-------------|-------------|----------------|--------|
+| ILO_EAP_TEAP_SEX_AGE_NB | EAP_TEAP_SEX_AGE_NB | Labour force count (persons) | unemployment, labor_force_participation | downloaded |
+| ILO_UNE_TUNE_SEX_AGE_NB | UNE_TUNE_SEX_AGE_NB | Unemployed persons count | unemployment | downloaded |
+| ILO_EMP_TEMP_SEX_AGE_NB | EMP_TEMP_SEX_AGE_NB | Employed persons count | employment | downloaded |
+| ILO_UNE_TUNE_SEX_AGE_RT | **UNE_DEAP_SEX_AGE_RT** | Unemployment rate (ILO definition) | unemployment alternative | downloaded |
+| ILO_EAP_TEAP_SEX_AGE_RT | **EAP_DWAP_SEX_AGE_RT** | Labour force participation rate | labor_force_participation | downloaded |
+| ILO_EMP_2EMP_SEX_ECO_RT | EMP_2EMP_SEX_ECO_RT | Informal employment (% total) | informal_economy | **no valid endpoint** |
+| ILO_SDG_0851_SEX_AGE_RT | **EIP_NEET_SEX_AGE_RT** | NEET rate (%) | neet_rate | downloaded |
+
+**Important**: Three rate series use different API codes than their series IDs suggest:
+- `ILO_UNE_TUNE_SEX_AGE_RT` downloads from API code `UNE_DEAP_SEX_AGE_RT` (not `UNE_TUNE_SEX_AGE_RT`)
+- `ILO_EAP_TEAP_SEX_AGE_RT` downloads from API code `EAP_DWAP_SEX_AGE_RT` (not `EAP_TEAP_SEX_AGE_RT`)
+- `ILO_SDG_0851_SEX_AGE_RT` downloads from API code `EIP_NEET_SEX_AGE_RT` (not `SDG_0851_SEX_AGE_RT`)
 
 ## Download method 1 — ILOSTAT REST API (recommended)
 
@@ -30,37 +36,39 @@ No API key required. Returns JSON or CSV.
 
 ```
 Base URL: https://rplumber.ilo.org/data/indicator/
-Query: ?id=<ILO_CODE>&ref_area=<ISO2_CODE>&timefrom=1990&timeto=2024&lang=en&type=label&format=.csv
+Query: ?id=<ILO_CODE>&timefrom=1990&timeto=2024&lang=en&type=label&format=.csv
+```
+Omit `ref_area` to download all countries at once. Filter locally to the 40 project countries.
+
+Example — unemployment rate (all countries, no ref_area filter):
+```
+https://rplumber.ilo.org/data/indicator/?id=UNE_DEAP_SEX_AGE_RT&sex=SEX_T&classif1=AGE_YTHADULT_YGE15&timefrom=1990&timeto=2024&type=label&format=.csv
 ```
 
-Example — unemployment rate for Iraq:
-```
-https://rplumber.ilo.org/data/indicator/?id=UNE_TUNE_SEX_AGE_RT&ref_area=IQ&sex=SEX_T&classif1=AGE_AGGREGATE_TOTAL&timefrom=1990&timeto=2024&type=label&format=.csv
-```
+**Note**: Download all countries at once (omit `ref_area`), then filter to the 40 project countries locally.
+The correct API codes are `UNE_DEAP_SEX_AGE_RT`, `EAP_DWAP_SEX_AGE_RT`, `EIP_NEET_SEX_AGE_RT` (not the TUNE/TEAP/SDG variants).
 
-### Bulk download (all 40 countries for one series)
+### Bulk download (all countries, filter locally)
 
-All 40 country ISO2 codes:
-```
-AF,DZ,CD,CF,HR,EG,ET,GM,GE,GH,IR,IQ,CI,KE,KG,LY,LB,MG,MW,MY,ML,MX,NP,MM,PE,SN,RS,SL,ZA,SS,SD,SY,TL,TN,UA,VE,YE,SK,AF
-```
-
-Full query for all 40 (adjust ILO_CODE and parameters):
+Download all countries at once (no `ref_area` filter), then filter to the 40 project countries:
 ```python
 import requests, pandas as pd
 
-ILO_CODE = "UNE_TUNE_SEX_AGE_RT"  # change per series
-ISO2_CODES = "AF,DZ,CD,CF,HR,EG,ET,GM,GE,GH,IR,IQ,CI,KE,KG,LY,MW,MY,ML,MX,NP,MM,PE,SN,RS,SL,ZA,SS,SD,SY,TL,TN,UA,VE,YE,SK"
+ILO_CODE = "UNE_DEAP_SEX_AGE_RT"  # use correct API code (see table above)
 
 url = (
     f"https://rplumber.ilo.org/data/indicator/"
     f"?id={ILO_CODE}"
-    f"&ref_area={ISO2_CODES}"
-    f"&sex=SEX_T&classif1=AGE_AGGREGATE_TOTAL"
+    f"&sex=SEX_T&classif1=AGE_YTHADULT_YGE15"
     f"&timefrom=1990&timeto=2024"
     f"&type=label&format=.csv"
 )
 df = pd.read_csv(url)
+# Filter to project countries locally
+PROJECT_ISO2 = {"AF","DZ","CD","CF","HR","EG","ET","GM","GE","GH","IR","IQ",
+                "CI","KE","KG","LY","LR","MW","MY","ML","MX","NP","MM","PE",
+                "SN","RS","SL","ZA","SS","SD","SY","TL","TN","UA","VE","YE","SK"}
+df = df[df["ref_area"].isin(PROJECT_ISO2)]
 print(df.columns.tolist())
 print(df.head())
 ```
@@ -160,5 +168,5 @@ python3 data/scripts/export_web.py
 
 - ILO modeled estimates (not actual surveys) are available for most countries
 - Conflict states (Syria 2012+, Yemen 2015+, Afghanistan 2021+) have ILO model estimates with high uncertainty — flag as `reliability: low`
-- NEET rate (SDG_0851): sparser coverage, many countries only have data from 2005 onward
+- NEET rate (EIP_NEET_SEX_AGE_RT, formerly SDG_0851): sparser coverage, many countries only have data from 2005 onward
 - Pre-1991 data: mostly unavailable for post-Soviet states (Georgia, Kyrgyzstan, Armenia, Ukraine, etc.)

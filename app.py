@@ -52,7 +52,7 @@ def _load(key, loader):
 
 
 def load_countries():
-    def _load():
+    def _fn():
         with open(DATA_CONFIG / "countries.yaml", encoding="utf-8") as f:
             raw = yaml.safe_load(f)
         ISO3_MAP = {
@@ -77,24 +77,24 @@ def load_countries():
                 "iso3": ISO3_MAP.get(cid, ""),
             }
         return result
-    return _load(f"countries", _load)
+    return _load("countries", _fn)
 
 
 def load_registry():
-    def _load():
+    def _fn():
         with open(DATA_CANONICAL / "registry.yaml", encoding="utf-8") as f:
             return yaml.safe_load(f)
-    return _load("registry", _load)
+    return _load("registry", _fn)
 
 
 def load_fundamental_metrics():
-    def _load():
+    def _fn():
         path = DATA_CONFIG / "fundamental_metrics.yaml"
         if not path.exists():
             return {}
         with open(path, encoding="utf-8") as f:
             return yaml.safe_load(f)
-    return _load("fundamental_metrics", _load)
+    return _load("fundamental_metrics", _fn)
 
 
 def load_verification():
@@ -112,13 +112,13 @@ def save_verification(data):
 
 
 def load_coverage():
-    def _load():
+    def _fn():
         path = DOCS_DATA / "coverage.json"
         if path.exists():
             with open(path, encoding="utf-8") as f:
                 return json.load(f)
         return None
-    return _load("coverage", _load)
+    return _load("coverage", _fn)
 
 
 def build_series_info():

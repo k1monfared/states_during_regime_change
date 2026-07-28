@@ -17,12 +17,12 @@ python3 data/scripts/build_coverage.py                       # rebuild after dow
 python3 data/scripts/export_web.py                           # update dashboard files
 ```
 
-## Current status (2026-03-03)
+## Current status (2026-03-11)
 
-38 of 88 WB series downloaded. All 39 priority-1 series attempted; 38 succeeded.
+83 of 88 WB series downloaded (all priority-1 and most priority-2).
 `WB_SM.POP.REFG.OR` (refugees as % population) returns no data from the WB API — use UNHCR directly.
 
-## Downloaded series (38 total)
+## Downloaded series (83 total, showing original priority-1 batch below)
 
 ### Economy
 | Series ID | WB Code | Description | Feeds indicator |
@@ -82,20 +82,13 @@ python3 data/scripts/export_web.py                           # update dashboard 
 | WGI_RL | RL.EST | Rule of Law | — |
 | WGI_VA | VA.EST | Voice and Accountability | — |
 
-## Not yet downloaded — priority 2 WB series (50 remaining)
+## Not yet downloaded — remaining WB series (5 of 88)
 
-Run to get them:
+Most priority-2 series have been downloaded. To attempt the remaining 5:
 ```bash
-python3 data/scripts/download_canonical.py --source worldbank --priority 2
+python3 data/scripts/download_canonical.py --source worldbank --dry-run
+python3 data/scripts/download_canonical.py --source worldbank
 ```
-
-Key ones:
-- Demographics breakdown: SP.POP.1564.TO (working-age), SP.POP.0014.TO, SP.POP.GROW
-- Education: SE.PRM.ENRR, SE.SEC.ENRR, SE.TER.ENRR (gross enrollment)
-- Labor: SL.EMP.SELF.ZS (self-employed, informal proxy), SL.EMP.TOTL.SP.ZS
-- Health: SH.STA.MMRT (maternal mortality), SH.H2O.BASW.ZS (water access)
-- Economy: NY.GDP.COAL.RT.ZS, NY.GDP.MINR.RT.ZS, NY.GDP.FRST.RT.ZS (rents sub-components)
-- Migration: SM.POP.TOTL (migrant stock)
 
 ## API details
 
